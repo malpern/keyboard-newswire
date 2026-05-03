@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Vendor Practices · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/vendor-practices/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/vendor-practices/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Vendor Practices.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>List prices on many websites are borderline false advertising</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
+    <guid isPermaLink="false">reddit-1t27uj6</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Community</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Binepad BNK-16 - Review and issues</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/</link>
+    <guid isPermaLink="false">reddit-1s8pwjg</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/keyboards</source>
+    <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
+  </item>
+</channel>
+</rss>

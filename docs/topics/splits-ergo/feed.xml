@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Splits &amp; Ergo · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/topics/splits-ergo/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Levels54 is now fully open source!</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/</link>
+    <guid isPermaLink="false">reddit-1t221l1</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Creator released all files for the split 54-key dual-trackball board, including PCBs. — 33 pts · 8 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>You may not like it, but THIS is peak split keyboard</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t0cw5z/you_may_not_like_it_but_this_is_peak_split_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t0cw5z</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement photo/post showcasing an eye-catching split build — good visibility in the community. — 67 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Built the keyboard — what do you use for a pointing device?</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/</link>
+    <guid isPermaLink="false">reddit-1szukel</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Thumb-Shift Keyboard</title>
+    <link>https://en.wikipedia.org/wiki/Thumb-shift_keyboard</link>
+    <guid isPermaLink="false">hn-47815377</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>My first split keyboard: Keyball61</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd</link>
+    <guid isPermaLink="false">reddit-1sor9cd</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest. — 57 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Open-sourced My Corne Eclipse Design w/Dual Encoder &amp; nice!view</title>
+    <link>https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/</link>
+    <guid isPermaLink="false">reddit-1s8688f</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/crkbd</source>
+    <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
+  </item>
+</channel>
+</rss>

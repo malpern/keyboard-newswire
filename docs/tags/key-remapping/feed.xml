@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Key Remapping · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/key-remapping/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/key-remapping/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Key Remapping.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Is it possible to make holding space shift and I want to rebind my ctrl with alt</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/</link>
+    <guid isPermaLink="false">reddit-1sno4yk</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <description>User asks about remapping (mentions Kanata) and where to learn Kanata — kept for Kanata monitoring. — 4 pts · 3 comments · r/KeyboardLayouts</description>
+  </item>
+</channel>
+</rss>

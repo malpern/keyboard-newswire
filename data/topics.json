@@ -1,0 +1,36 @@
+{
+  "topics": {
+    "firmware": {
+      "name": "Firmware",
+      "description": "On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers."
+    },
+    "remapping-layouts": {
+      "name": "Remapping & Layouts",
+      "description": "User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers."
+    },
+    "splits-ergo": {
+      "name": "Splits & Ergo",
+      "description": "Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc."
+    },
+    "builds-hardware": {
+      "name": "Builds & Hardware",
+      "description": "DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases."
+    },
+    "keycaps-aesthetics": {
+      "name": "Keycaps & Aesthetics",
+      "description": "Keycap sets and group buys, profile discussion, switches for sound/feel, lubing, foam, lighting, finishes, photographs of finished boards."
+    },
+    "tools-software": {
+      "name": "Tools & Software",
+      "description": "Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby."
+    },
+    "group-buys-vendors": {
+      "name": "Group Buys & Vendors",
+      "description": "GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion."
+    },
+    "community": {
+      "name": "Community",
+      "description": "Community discussion, market trends, controversies, polls, surveys, meta posts about the hobby itself."
+    }
+  }
+}

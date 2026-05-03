@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Remap · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/remap/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/remap/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Remap.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>My first split keyboard: Keyball61</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd</link>
+    <guid isPermaLink="false">reddit-1sor9cd</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest. — 57 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+</channel>
+</rss>

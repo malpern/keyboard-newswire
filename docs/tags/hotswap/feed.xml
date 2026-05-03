@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Hotswap · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/hotswap/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/hotswap/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Hotswap.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Krteq (Open source)</title>
+    <link>https://www.reddit.com/gallery/1sou3ek</link>
+    <guid isPermaLink="false">reddit-1sou3ek</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support. — 51 pts · 4 comments · r/olkb</description>
+  </item>
+</channel>
+</rss>

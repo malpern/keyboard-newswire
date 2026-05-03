@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Matrix Scanning · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/matrix-scanning/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/matrix-scanning/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Matrix Scanning.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>How to use QMK's matrix implementation as a custom lite matrix?</title>
+    <link>https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/</link>
+    <guid isPermaLink="false">reddit-1t25p4v</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
+  </item>
+</channel>
+</rss>

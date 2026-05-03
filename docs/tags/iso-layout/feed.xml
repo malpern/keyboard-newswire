@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Iso Layout · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/iso-layout/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/iso-layout/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Iso Layout.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Self designed ISO MX PCB to fit Holy80</title>
+    <link>https://www.reddit.com/gallery/1t04v38</link>
+    <guid isPermaLink="false">reddit-1t04v38</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <description>Small couple-designed ISO PCB that uses QMK — notable because it’s a custom ISO PCB + full RGB and shows a DIY ISO QMK build that others may reuse. — 21 pts · 5 comments · r/MechanicalKeyboards</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Zmk · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/zmk/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Zmk.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Built the keyboard — what do you use for a pointing device?</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/</link>
+    <guid isPermaLink="false">reddit-1szukel</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Connecting Issues</title>
+    <link>https://www.reddit.com/r/zmk/comments/1cqbc5r/connecting_issues/</link>
+    <guid isPermaLink="false">reddit-1cqbc5r</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/zmk</source>
+    <description>First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge). — 1 pts · 9 comments · r/zmk</description>
+  </item>
+  <item>
+    <title>Open-sourced My Corne Eclipse Design w/Dual Encoder &amp; nice!view</title>
+    <link>https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/</link>
+    <guid isPermaLink="false">reddit-1s8688f</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/crkbd</source>
+    <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
+  </item>
+</channel>
+</rss>

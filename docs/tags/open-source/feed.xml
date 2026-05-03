@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Open Source · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/tags/open-source/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Open Source.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>Levels54 is now fully open source!</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/</link>
+    <guid isPermaLink="false">reddit-1t221l1</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Creator released all files for the split 54-key dual-trackball board, including PCBs. — 33 pts · 8 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>No Code Reviews by Default</title>
+    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
+    <guid isPermaLink="false">hn-47986143</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>
+    <link>https://www.appdevforall.org/</link>
+    <guid isPermaLink="false">hn-47968964</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>4 pts · 3 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>March in Servo: keyboard navigation, better debugging, FreeBSD support, and more</title>
+    <link>https://servo.org/blog/2026/04/30/march-in-servo/</link>
+    <guid isPermaLink="false">hn-47962807</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows</title>
+    <link>https://github.com/feschber/lan-mouse</link>
+    <guid isPermaLink="false">hn-47964630</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Copilot Key on My Keyboard</title>
+    <link>https://github.com/Rast1234/copilot_key_on_my_keyboard/blob/master/README.md</link>
+    <guid isPermaLink="false">hn-47813885</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Krteq (Open source)</title>
+    <link>https://www.reddit.com/gallery/1sou3ek</link>
+    <guid isPermaLink="false">reddit-1sou3ek</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support. — 51 pts · 4 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>Marshmellow UI goes wireless!</title>
+    <link>https://www.reddit.com/r/efogtech/comments/1sntkxb/marshmellow_ui_goes_wireless/</link>
+    <guid isPermaLink="false">reddit-1sntkxb</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/efogtech</source>
+    <description>Marshmellow UI adds wireless/Bluetooth support (v0.6.4 required) and mobile support — notable tooling/firmware UI update. — 10 pts · 0 comments · r/efogtech</description>
+  </item>
+  <item>
+    <title>Hydration Narc – A keyboard-locking water reminder for macOS</title>
+    <link>https://github.com/Lameda12/hydration-narc&gt;</link>
+    <guid isPermaLink="false">hn-47620399</guid>
+    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Open-sourced My Corne Eclipse Design w/Dual Encoder &amp; nice!view</title>
+    <link>https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/</link>
+    <guid isPermaLink="false">reddit-1s8688f</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/crkbd</source>
+    <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
+  </item>
+</channel>
+</rss>

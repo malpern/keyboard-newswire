@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Tools &amp; Software · keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/topics/tools-software/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 17:05:56 +0000</lastBuildDate>
+  <item>
+    <title>macOS Utilities for Identifying Apps Hijacking Global Keyboard Shortcuts?</title>
+    <link>https://www.reddit.com/r/MacOSApps/comments/1t27dar/macos_utilities_for_identifying_apps_hijacking/</link>
+    <guid isPermaLink="false">reddit-1t27dar</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/macapps</source>
+    <description>Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users. — 20 pts · 10 comments · r/macapps</description>
+  </item>
+  <item>
+    <title>No Code Reviews by Default</title>
+    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
+    <guid isPermaLink="false">hn-47986143</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Keyboard Sounds Pro – Now Available on macOS</title>
+    <link>https://keyboardsounds.pro/</link>
+    <guid isPermaLink="false">hn-47980086</guid>
+    <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>No Code Reviews by Default</title>
+    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
+    <guid isPermaLink="false">hn-47986143</guid>
+    <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>
+    <link>https://www.appdevforall.org/</link>
+    <guid isPermaLink="false">hn-47968964</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>4 pts · 3 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>March in Servo: keyboard navigation, better debugging, FreeBSD support, and more</title>
+    <link>https://servo.org/blog/2026/04/30/march-in-servo/</link>
+    <guid isPermaLink="false">hn-47962807</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows</title>
+    <link>https://github.com/feschber/lan-mouse</link>
+    <guid isPermaLink="false">hn-47964630</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Copilot Key on My Keyboard</title>
+    <link>https://github.com/Rast1234/copilot_key_on_my_keyboard/blob/master/README.md</link>
+    <guid isPermaLink="false">hn-47813885</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Keycap.app – Generate and visualize keycap models</title>
+    <link>https://keycap.app/</link>
+    <guid isPermaLink="false">hn-47805128</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Marshmellow UI goes wireless!</title>
+    <link>https://www.reddit.com/r/efogtech/comments/1sntkxb/marshmellow_ui_goes_wireless/</link>
+    <guid isPermaLink="false">reddit-1sntkxb</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/efogtech</source>
+    <description>Marshmellow UI adds wireless/Bluetooth support (v0.6.4 required) and mobile support — notable tooling/firmware UI update. — 10 pts · 0 comments · r/efogtech</description>
+  </item>
+  <item>
+    <title>Hydration Narc – A keyboard-locking water reminder for macOS</title>
+    <link>https://github.com/Lameda12/hydration-narc&gt;</link>
+    <guid isPermaLink="false">hn-47620399</guid>
+    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
+</channel>
+</rss>
