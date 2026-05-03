@@ -79,6 +79,9 @@ def head(title: str, description: str, canonical: str, feed: str | None = None) 
         f'<link rel="alternate" type="application/rss+xml" title="{html.escape(title)}" href="{html.escape(feed)}">'
         if feed else ""
     )
+    # Cache-bust style.css with the file's mtime so deploys force a fresh CSS pull.
+    css_path = DOCS / "style.css"
+    css_v = int(css_path.stat().st_mtime) if css_path.exists() else 1
     return f'''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,7 +89,7 @@ def head(title: str, description: str, canonical: str, feed: str | None = None) 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(description)}">
-<link rel="stylesheet" href="{relative_to_docs(canonical, "style.css")}">
+<link rel="stylesheet" href="{relative_to_docs(canonical, "style.css")}?v={css_v}">
 {feed_link}
 <link rel="canonical" href="{html.escape(canonical)}">
 <meta property="og:title" content="{html.escape(title)}">
