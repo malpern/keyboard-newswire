@@ -22,6 +22,7 @@ import pathlib
 import re
 import shutil
 import sys
+from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -63,6 +64,37 @@ def source_label(item: dict) -> str:
         return f"✉ {item.get('via') or 'Inbox'}"
     sub = item.get("subreddit")
     return f"r/{sub}" if sub else "Reddit"
+
+
+def source_domain(item: dict) -> str:
+    """Best-effort favicon hostname for an item."""
+    src = item.get("source")
+    if src == "reddit":
+        return "reddit.com"
+    if src == "email":
+        sender = item.get("sender") or ""
+        m = re.search(r"<[^>]*@([^>\s]+)>", sender)
+        if m:
+            return m.group(1).lower()
+        # fall through to url-based
+    if src in ("hn", "email"):
+        try:
+            host = (urlparse(item.get("url") or "").hostname or "").lower()
+        except Exception:
+            host = ""
+        if host.startswith("www."):
+            host = host[4:]
+        # Skip Gmail thread URLs as favicon source
+        if host.endswith("mail.google.com"):
+            return ""
+        return host
+    return ""
+
+
+def favicon_url(domain: str) -> str:
+    if not domain:
+        return ""
+    return f"https://icons.duckduckgo.com/ip3/{domain}.ico"
 
 
 def topic_url(slug: str) -> str:
@@ -126,6 +158,7 @@ def site_header(canonical: str) -> str:
     feed_path = relative_to_docs(canonical, "feed.xml")
     settings_path = relative_to_docs(canonical, "settings/")
     archive_path = relative_to_docs(canonical, "archive/")
+    buylist_path = relative_to_docs(canonical, "buylist/")
     source_path = "https://github.com/malpern/keyboard-wire"
     return f'''<header>
     <h1 class="site-title"><a href="{home_path}">malpern's keyboard wire</a></h1>
@@ -134,11 +167,11 @@ def site_header(canonical: str) -> str:
       {home}
       <a href="{archive_path}">archive</a>
       <span aria-hidden="true">·</span>
+      <a href="{buylist_path}" id="nav-buylist">want to buy<span class="buylist-count" hidden></span></a>
+      <span aria-hidden="true">·</span>
       <a href="{feed_path}">RSS</a>
       <span aria-hidden="true">·</span>
       <a href="{settings_path}">settings</a>
-      <span aria-hidden="true">·</span>
-      <a href="{source_path}">source</a>
       {font_controls()}
     </p>
   </header>'''
@@ -211,6 +244,55 @@ def font_script() -> str:
         applyRewrite(rewrite.checked);
       });
     }
+
+    // Buylist hydration + toggle
+    var BL = 'kw-buylist';
+    function readBL() {
+      try { return JSON.parse(localStorage.getItem(BL)) || []; } catch (e) { return []; }
+    }
+    function writeBL(list) {
+      try { localStorage.setItem(BL, JSON.stringify(list)); } catch (e) {}
+    }
+    function refreshNavCount() {
+      var n = readBL().length;
+      var el = document.querySelector('#nav-buylist .buylist-count');
+      if (!el) return;
+      if (n > 0) { el.textContent = ' (' + n + ')'; el.hidden = false; }
+      else { el.textContent = ''; el.hidden = true; }
+    }
+    function inBL(id) { return readBL().some(function(i){ return i.id === id; }); }
+    function syncToggles() {
+      document.querySelectorAll('.buylist-toggle').forEach(function(btn) {
+        btn.classList.toggle('saved', inBL(btn.dataset.id));
+      });
+    }
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.buylist-toggle');
+      if (!btn) return;
+      e.preventDefault();
+      e.stopPropagation();
+      var list = readBL();
+      var id = btn.dataset.id;
+      var idx = list.findIndex(function(i){ return i.id === id; });
+      if (idx >= 0) {
+        list.splice(idx, 1);
+      } else {
+        list.unshift({
+          id: id,
+          title: btn.dataset.title,
+          url: btn.dataset.url,
+          source: btn.dataset.source,
+          favicon: btn.dataset.favicon,
+          date: btn.dataset.date,
+          addedAt: new Date().toISOString().slice(0, 10),
+        });
+      }
+      writeBL(list);
+      syncToggles();
+      refreshNavCount();
+    });
+    syncToggles();
+    refreshNavCount();
   });
 })();
 </script>'''
@@ -235,11 +317,17 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     url = html.escape(item["url"])
     takeaway = html.escape(item.get("takeaway") or "")
 
-    # Top meta line: [DATE ·] SOURCE · TOPIC1 · TOPIC2
+    # Top meta line: [DATE ·] [favicon] SOURCE · TOPIC1 · TOPIC2
     top_parts = []
     if page in ("topic", "tag") and date:
         top_parts.append(f'<span class="date-prefix">{html.escape(fmt_date_short(date))}</span>')
-    top_parts.append(f'<span class="source">{html.escape(source_label(item))}</span>')
+    fav_dom = source_domain(item)
+    fav_html = (
+        f'<img class="favicon" src="{html.escape(favicon_url(fav_dom))}" '
+        f'alt="" width="14" height="14" loading="lazy">'
+        if fav_dom else ""
+    )
+    top_parts.append(f'<span class="source">{fav_html}{html.escape(source_label(item))}</span>')
 
     # Topics (above title, primary nav)
     item_topics = item.get("topics") or []
@@ -279,11 +367,29 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
         thumb_html = ""
         item_classes = "item"
 
+    # Buylist toggle button — JS hydrates state from localStorage on load.
+    # We embed the data the buylist page needs so it doesn't have to refetch.
+    pub_date = date or ""  # passed in by topic/tag pages; day pages know via parent
+    bl_button = (
+        f'<button class="buylist-toggle" type="button" '
+        f'data-id="{html.escape(item.get("id") or "", quote=True)}" '
+        f'data-title="{html.escape(item.get("title") or "", quote=True)}" '
+        f'data-url="{html.escape(item.get("url") or "", quote=True)}" '
+        f'data-source="{html.escape(source_label(item), quote=True)}" '
+        f'data-favicon="{html.escape(favicon_url(fav_dom), quote=True)}" '
+        f'data-date="{html.escape(pub_date, quote=True)}" '
+        f'aria-label="Add to want-to-buy list" title="Save to want-to-buy list">'
+        f'<svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">'
+        f'<path d="M8 14s-5-3.2-5-7a3 3 0 0 1 5-2.2A3 3 0 0 1 13 7c0 3.8-5 7-5 7z" '
+        f'fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>'
+        f'</svg></button>'
+    )
+
     # Item is a <div> (not <a>) since topic/tag links inside would create
     # invalid nested anchors. Title is the click target for the story.
     return f'''<div class="{item_classes}">
   <div class="item-body">
-    <div class="item-topmeta">{top_meta}</div>
+    <div class="item-topmeta">{top_meta}{bl_button}</div>
     <h3 class="item-title"{rewritten_attr}><a class="item-link" href="{url}" rel="noopener" target="_blank">{display_title}</a></h3>
     {takeaway_html}
     <div class="item-meta">{bottom_meta}</div>
@@ -292,12 +398,14 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
 </div>'''
 
 
-def render_section(label: str, items: list[dict], topics_reg: dict, tags_reg: dict, *,
-                   breaking: bool = False) -> str:
+def render_section(label: str, items: list[dict], topics_reg: dict, tags_reg: dict,
+                   day_date: str | None = None, *, breaking: bool = False) -> str:
     if not items:
         return ""
     cls = "section-label breaking" if breaking else "section-label"
-    items_html = "\n".join(render_item(i, topics_reg, tags_reg, page="day") for i in items)
+    items_html = "\n".join(
+        render_item(i, topics_reg, tags_reg, page="day", date=day_date) for i in items
+    )
     return f'''<section class="section">
   <h2 class="{cls}">{html.escape(label)}</h2>
   {items_html}
@@ -321,8 +429,8 @@ def render_day_block(day: dict, topics_reg: dict, tags_reg: dict) -> str:
     )
 
     body = ""
-    body += render_section("Breaking", breaking, topics_reg, tags_reg, breaking=True)
-    body += "\n" + render_section("Evergreen", evergreen, topics_reg, tags_reg)
+    body += render_section("Breaking", breaking, topics_reg, tags_reg, day_date=date, breaking=True)
+    body += "\n" + render_section("Evergreen", evergreen, topics_reg, tags_reg, day_date=date)
     if not body.strip():
         body = '<p class="empty">Quiet day — nothing notable.</p>'
 
@@ -389,6 +497,147 @@ def render_browse_page(label: str, slug: str, items_with_dates: list[tuple],
 {font_script()}
 </body>
 </html>'''
+
+
+def render_buylist_page() -> str:
+    canonical = f"{SITE_URL}/buylist/"
+    title = "Want to buy · malpern's keyboard wire"
+    desc = "Saved keyboard wire stories you want to buy or follow up on."
+
+    return f'''{head(title, desc, canonical)}
+  {site_header(canonical)}
+  <section class="buylist-page">
+    <header class="archive-header">
+      <h2 class="archive-title-page">Want to buy</h2>
+      <p class="archive-stats" id="buylist-stats">0 saved</p>
+    </header>
+
+    <p id="buylist-empty" class="empty">
+      Tap the ♡ on any story to save it here. Items live in your browser only —
+      they aren’t synced or shared.
+    </p>
+
+    <ol id="buylist" class="buylist" hidden>
+    </ol>
+
+    <p class="buylist-help" hidden id="buylist-help">
+      Drag rows to reorder, or use ↑ / ↓.  Tap × to remove.
+    </p>
+  </section>
+  <footer><a href="../">home</a></footer>
+</main>
+{font_script()}
+{buylist_script()}
+</body>
+</html>'''
+
+
+def buylist_script() -> str:
+    return '''<script>
+(function() {
+  var BL_KEY = 'kw-buylist';
+  function read() { try { return JSON.parse(localStorage.getItem(BL_KEY)) || []; } catch (e) { return []; } }
+  function write(list) { try { localStorage.setItem(BL_KEY, JSON.stringify(list)); } catch (e) {} }
+
+  var root = document.getElementById('buylist');
+  var stats = document.getElementById('buylist-stats');
+  var empty = document.getElementById('buylist-empty');
+  var help = document.getElementById('buylist-help');
+
+  function escapeHtml(s) {
+    var d = document.createElement('div');
+    d.textContent = s == null ? '' : s;
+    return d.innerHTML;
+  }
+
+  function render() {
+    var list = read();
+    stats.textContent = list.length + (list.length === 1 ? ' saved' : ' saved');
+    empty.hidden = list.length > 0;
+    root.hidden = list.length === 0;
+    help.hidden = list.length === 0;
+    root.innerHTML = list.map(function(it) {
+      var fav = it.favicon ? '<img class="favicon" src="' + escapeHtml(it.favicon) + '" alt="" width="14" height="14" loading="lazy">' : '';
+      return '<li class="buylist-item" draggable="true" data-id="' + escapeHtml(it.id) + '">' +
+        '<button class="bl-handle" type="button" aria-label="Drag to reorder" tabindex="-1"><svg viewBox="0 0 12 16" width="12" height="16" aria-hidden="true"><path d="M3 3h2v2H3zm0 4h2v2H3zm0 4h2v2H3zM7 3h2v2H7zm0 4h2v2H7zm0 4h2v2H7z" fill="currentColor"/></svg></button>' +
+        '<div class="bl-body">' +
+          '<div class="bl-meta">' + fav + '<span>' + escapeHtml(it.source) + '</span></div>' +
+          '<h3 class="bl-title"><a href="' + escapeHtml(it.url) + '" rel="noopener" target="_blank">' + escapeHtml(it.title) + '</a></h3>' +
+          '<p class="bl-dates">' +
+            (it.date ? '<span>published <time>' + escapeHtml(it.date) + '</time></span><span class="sep">·</span>' : '') +
+            '<span>added <time>' + escapeHtml(it.addedAt || '—') + '</time></span>' +
+          '</p>' +
+        '</div>' +
+        '<div class="bl-actions">' +
+          '<button data-action="up" type="button" aria-label="Move up">↑</button>' +
+          '<button data-action="down" type="button" aria-label="Move down">↓</button>' +
+          '<button data-action="remove" type="button" aria-label="Remove">×</button>' +
+        '</div>' +
+      '</li>';
+    }).join('');
+    wire();
+  }
+
+  function wire() {
+    root.querySelectorAll('button[data-action]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var li = btn.closest('li');
+        var id = li.dataset.id;
+        var list = read();
+        var idx = list.findIndex(function(i) { return i.id === id; });
+        if (idx < 0) return;
+        var action = btn.dataset.action;
+        if (action === 'remove') list.splice(idx, 1);
+        else if (action === 'up' && idx > 0) {
+          var t = list[idx-1]; list[idx-1] = list[idx]; list[idx] = t;
+        } else if (action === 'down' && idx < list.length - 1) {
+          var t2 = list[idx+1]; list[idx+1] = list[idx]; list[idx] = t2;
+        }
+        write(list);
+        render();
+      });
+    });
+
+    // HTML5 drag (desktop only — mobile users use buttons)
+    var dragId = null;
+    root.querySelectorAll('li').forEach(function(li) {
+      li.addEventListener('dragstart', function(e) {
+        dragId = li.dataset.id;
+        li.classList.add('dragging');
+        if (e.dataTransfer) { e.dataTransfer.effectAllowed = 'move'; e.dataTransfer.setData('text/plain', dragId); }
+      });
+      li.addEventListener('dragend', function() { li.classList.remove('dragging'); dragId = null; });
+      li.addEventListener('dragover', function(e) {
+        e.preventDefault();
+        if (e.dataTransfer) e.dataTransfer.dropEffect = 'move';
+        li.classList.add('drag-over');
+      });
+      li.addEventListener('dragleave', function() { li.classList.remove('drag-over'); });
+      li.addEventListener('drop', function(e) {
+        e.preventDefault();
+        li.classList.remove('drag-over');
+        var targetId = li.dataset.id;
+        if (!dragId || dragId === targetId) return;
+        var list = read();
+        var fromIdx = list.findIndex(function(i){ return i.id === dragId; });
+        var toIdx = list.findIndex(function(i){ return i.id === targetId; });
+        if (fromIdx < 0 || toIdx < 0) return;
+        var moved = list.splice(fromIdx, 1)[0];
+        list.splice(toIdx, 0, moved);
+        write(list);
+        render();
+      });
+    });
+  }
+
+  render();
+
+  // Keep in sync if another tab toggled
+  window.addEventListener('storage', function(e) {
+    if (e.key === BL_KEY) render();
+  });
+})();
+</script>'''
 
 
 def render_archive_page(corpus: dict, topics_reg: dict, tags_reg: dict) -> str:
@@ -929,6 +1178,10 @@ def main():
     (DOCS / "archive" / "index.html").write_text(
         render_archive_page(corpus, topics_reg, tags_reg)
     )
+
+    # --- buylist page ---
+    (DOCS / "buylist").mkdir(parents=True, exist_ok=True)
+    (DOCS / "buylist" / "index.html").write_text(render_buylist_page())
 
     n_days = len(corpus["days"])
     n_items = sum(len(d.get("items", [])) for d in corpus["days"])

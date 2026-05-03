@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Remap · malpern&#x27;s keyboard wire</title>
 <meta name="description" content="All keyboard wire entries tagged Remap.">
-<link rel="stylesheet" href="../../style.css?v=1777831075">
+<link rel="stylesheet" href="../../style.css?v=1777831330">
 <link rel="alternate" type="application/rss+xml" title="Remap · malpern&#x27;s keyboard wire" href="feed.xml">
 <link rel="canonical" href="https://malpern.github.io/keyboard-wire/tags/remap/">
 <meta property="og:title" content="Remap · malpern&#x27;s keyboard wire">
@@ -22,11 +22,11 @@
       <a href="../../">home</a><span aria-hidden="true">·</span>
       <a href="../../archive/">archive</a>
       <span aria-hidden="true">·</span>
+      <a href="../../buylist/" id="nav-buylist">want to buy<span class="buylist-count" hidden></span></a>
+      <span aria-hidden="true">·</span>
       <a href="../../feed.xml">RSS</a>
       <span aria-hidden="true">·</span>
       <a href="../../settings/">settings</a>
-      <span aria-hidden="true">·</span>
-      <a href="https://github.com/malpern/keyboard-wire">source</a>
       <span class="font-controls" role="group" aria-label="Text size">
         <button type="button" id="font-down" aria-label="smaller" title="Smaller text">A−</button>
         <button type="button" id="font-up" aria-label="larger" title="Larger text">A+</button>
@@ -40,7 +40,7 @@
     </header>
     <div class="item has-thumb">
   <div class="item-body">
-    <div class="item-topmeta"><span class="date-prefix">Apr 18</span><span class="sep">·</span><span class="source">r/ErgoMechKeyboards</span><span class="sep">·</span><a href="../../topics/splits-ergo/">Splits &amp; Ergo</a><span class="sep">·</span><a href="../../topics/builds-hardware/">Builds &amp; Hardware</a></div>
+    <div class="item-topmeta"><span class="date-prefix">Apr 18</span><span class="sep">·</span><span class="source"><img class="favicon" src="https://icons.duckduckgo.com/ip3/reddit.com.ico" alt="" width="14" height="14" loading="lazy">r/ErgoMechKeyboards</span><span class="sep">·</span><a href="../../topics/splits-ergo/">Splits &amp; Ergo</a><span class="sep">·</span><a href="../../topics/builds-hardware/">Builds &amp; Hardware</a><button class="buylist-toggle" type="button" data-id="reddit-1sor9cd" data-title="Keyball61 DIY split keyboard build using Remap" data-url="https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd" data-source="r/ErgoMechKeyboards" data-favicon="https://icons.duckduckgo.com/ip3/reddit.com.ico" data-date="2026-04-18" aria-label="Add to want-to-buy list" title="Save to want-to-buy list"><svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true"><path d="M8 14s-5-3.2-5-7a3 3 0 0 1 5-2.2A3 3 0 0 1 13 7c0 3.8-5 7-5 7z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg></button></div>
     <h3 class="item-title" data-rewritten="Keyball61 DIY split keyboard build using Remap"><a class="item-link" href="https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd" rel="noopener" target="_blank">My first split keyboard: Keyball61</a></h3>
     <p class="item-takeaway">High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest.</p>
     <div class="item-meta"><span class="stat">⬆ 57</span><span class="stat">💬 0</span></div>
@@ -111,6 +111,55 @@
         applyRewrite(rewrite.checked);
       });
     }
+
+    // Buylist hydration + toggle
+    var BL = 'kw-buylist';
+    function readBL() {
+      try { return JSON.parse(localStorage.getItem(BL)) || []; } catch (e) { return []; }
+    }
+    function writeBL(list) {
+      try { localStorage.setItem(BL, JSON.stringify(list)); } catch (e) {}
+    }
+    function refreshNavCount() {
+      var n = readBL().length;
+      var el = document.querySelector('#nav-buylist .buylist-count');
+      if (!el) return;
+      if (n > 0) { el.textContent = ' (' + n + ')'; el.hidden = false; }
+      else { el.textContent = ''; el.hidden = true; }
+    }
+    function inBL(id) { return readBL().some(function(i){ return i.id === id; }); }
+    function syncToggles() {
+      document.querySelectorAll('.buylist-toggle').forEach(function(btn) {
+        btn.classList.toggle('saved', inBL(btn.dataset.id));
+      });
+    }
+    document.addEventListener('click', function(e) {
+      var btn = e.target.closest('.buylist-toggle');
+      if (!btn) return;
+      e.preventDefault();
+      e.stopPropagation();
+      var list = readBL();
+      var id = btn.dataset.id;
+      var idx = list.findIndex(function(i){ return i.id === id; });
+      if (idx >= 0) {
+        list.splice(idx, 1);
+      } else {
+        list.unshift({
+          id: id,
+          title: btn.dataset.title,
+          url: btn.dataset.url,
+          source: btn.dataset.source,
+          favicon: btn.dataset.favicon,
+          date: btn.dataset.date,
+          addedAt: new Date().toISOString().slice(0, 10),
+        });
+      }
+      writeBL(list);
+      syncToggles();
+      refreshNavCount();
+    });
+    syncToggles();
+    refreshNavCount();
   });
 })();
 </script>
