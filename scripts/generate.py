@@ -513,22 +513,19 @@ def font_script() -> str:
       return (s || '').replace(/\\s+/g, ' ').trim();
     }
     function buildChunks(dayEl) {
-      var num = dayEl.querySelector('.day-number');
-      var monthYear = dayEl.querySelector('.day-month-year');
-      var dateStr = clean((num ? num.textContent : '') + ' ' + (monthYear ? monthYear.textContent : ''));
+      // Content-focused: title + takeaway only, one chunk per item. No preamble,
+      // no source attribution, no "N stories". The item element comes back so
+      // we can highlight + scroll to it as it speaks.
       var items = Array.from(dayEl.querySelectorAll('.item'));
-      var n = items.length;
       var chunks = [];
-      chunks.push('Keyboard wire for ' + dateStr + '. ' + n + (n === 1 ? ' story.' : ' stories.'));
-      items.forEach(function(it, i) {
-        var src = clean((it.querySelector('.item-topmeta .source') || {}).textContent);
-        // Read whichever title is currently displayed (respects rewrite toggle)
+      items.forEach(function(it) {
         var titleEl = it.querySelector('.item-title');
         var title = clean(titleEl ? titleEl.textContent : '');
         var take = clean((it.querySelector('.item-takeaway') || {}).textContent);
-        var line = (src ? src + '. ' : '') + title + (title.endsWith('.') ? '' : '.');
-        if (take) line += ' ' + take + (take.endsWith('.') ? '' : '.');
-        chunks.push(line);
+        if (!title) return;
+        var line = title + (/[.!?]$/.test(title) ? '' : '.');
+        if (take) line += ' ' + take + (/[.!?]$/.test(take) ? '' : '.');
+        chunks.push({ text: line, el: it });
       });
       return chunks;
     }
@@ -542,21 +539,39 @@ def font_script() -> str:
       );
     }
 
+    function clearActiveItem() {
+      document.querySelectorAll('.item.now-playing').forEach(function(el) {
+        el.classList.remove('now-playing');
+      });
+    }
+    function setActiveItem(el) {
+      clearActiveItem();
+      if (!el) return;
+      el.classList.add('now-playing');
+      // Scroll into a comfortable position: roughly 1/3 from the top
+      var r = el.getBoundingClientRect();
+      var target = window.scrollY + r.top - window.innerHeight * 0.25;
+      window.scrollTo({ top: target, behavior: 'smooth' });
+    }
+
     function stopAll() {
       queue = [];
       synth.cancel();
       setBtnState(currentBtn, 'idle');
+      clearActiveItem();
       currentBtn = null;
     }
 
     function speakNext(btn) {
       if (queue.length === 0) {
         setBtnState(btn, 'idle');
+        clearActiveItem();
         currentBtn = null;
         return;
       }
-      var text = queue.shift();
-      var u = new SpeechSynthesisUtterance(text);
+      var chunk = queue.shift();
+      setActiveItem(chunk.el);
+      var u = new SpeechSynthesisUtterance(chunk.text);
       var v = preferredVoice();
       if (v) u.voice = v;
       u.rate = 1.0;

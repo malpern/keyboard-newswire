@@ -305,6 +305,19 @@ h1.site-title a:hover {
   -webkit-touch-callout: default;
 }
 
+/* "Now playing" highlight — subtle accent rail when an item is being read */
+.item.now-playing {
+  background: linear-gradient(
+    to right,
+    rgba(192, 57, 43, 0.06),
+    transparent 70%
+  );
+  box-shadow: inset 3px 0 0 var(--accent);
+  margin-left: -0.75rem;
+  padding-left: 0.75rem;
+  border-radius: 0 4px 4px 0;
+}
+
 /* Title is the click target. Inherit color, but underline on hover so it's
    clearly a link on touch (where there's no hover state but tap-highlight
    handles feedback). */
