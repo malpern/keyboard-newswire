@@ -6,7 +6,7 @@
   <atom:link href="https://malpern.github.io/keyboard-wire/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 03 May 2026 16:41:43 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 03 May 2026 16:47:32 +0000</lastBuildDate>
   <item>
     <title>List prices on many websites are borderline false advertising</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
@@ -51,6 +51,222 @@
     <category>evergreen</category>
     <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
     <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Keyboard Sounds Pro – Now Available on macOS</title>
+    <link>https://keyboardsounds.pro/</link>
+    <guid isPermaLink="false">hn-47980086</guid>
+    <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>No Code Reviews by Default</title>
+    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
+    <guid isPermaLink="false">hn-47986143</guid>
+    <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>You may not like it, but THIS is peak split keyboard</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t0cw5z/you_may_not_like_it_but_this_is_peak_split_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t0cw5z</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement photo/post showcasing an eye-catching split build — good visibility in the community. — 67 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Built the keyboard — what do you use for a pointing device?</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/</link>
+    <guid isPermaLink="false">reddit-1szukel</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Self designed ISO MX PCB to fit Holy80</title>
+    <link>https://www.reddit.com/gallery/1t04v38</link>
+    <guid isPermaLink="false">reddit-1t04v38</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <description>Small couple-designed ISO PCB that uses QMK — notable because it’s a custom ISO PCB + full RGB and shows a DIY ISO QMK build that others may reuse. — 21 pts · 5 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>New Geonix teaser photo</title>
+    <link>https://www.reddit.com/r/olkb/comments/1szvxl1/new_geonix_teaser_photo/</link>
+    <guid isPermaLink="false">reddit-1szvxl1</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>Teaser image for a new Geonix—looks like a PC case variant; sparks discussion about a new revision/production. — 20 pts · 8 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>
+    <link>https://www.appdevforall.org/</link>
+    <guid isPermaLink="false">hn-47968964</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>4 pts · 3 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>March in Servo: keyboard navigation, better debugging, FreeBSD support, and more</title>
+    <link>https://servo.org/blog/2026/04/30/march-in-servo/</link>
+    <guid isPermaLink="false">hn-47962807</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows</title>
+    <link>https://github.com/feschber/lan-mouse</link>
+    <guid isPermaLink="false">hn-47964630</guid>
+    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>My first split keyboard: Keyball61</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd</link>
+    <guid isPermaLink="false">reddit-1sor9cd</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest. — 57 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Krteq (Open source)</title>
+    <link>https://www.reddit.com/gallery/1sou3ek</link>
+    <guid isPermaLink="false">reddit-1sou3ek</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support. — 51 pts · 4 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>Krteq 5x12 (+2)</title>
+    <link>https://www.reddit.com/gallery/1sowxuy</link>
+    <guid isPermaLink="false">reddit-1sowxuy</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <description>Same Krteq board cross-posted to r/MechanicalKeyboards (build pics) — community attention on PCB/switch choice. — 23 pts · 1 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Thumb-Shift Keyboard</title>
+    <link>https://en.wikipedia.org/wiki/Thumb-shift_keyboard</link>
+    <guid isPermaLink="false">hn-47815377</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Copilot Key on My Keyboard</title>
+    <link>https://github.com/Rast1234/copilot_key_on_my_keyboard/blob/master/README.md</link>
+    <guid isPermaLink="false">hn-47813885</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Connecting Issues</title>
+    <link>https://www.reddit.com/r/zmk/comments/1cqbc5r/connecting_issues/</link>
+    <guid isPermaLink="false">reddit-1cqbc5r</guid>
+    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/zmk</source>
+    <description>First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge). — 1 pts · 9 comments · r/zmk</description>
+  </item>
+  <item>
+    <title>Marshmellow UI goes wireless!</title>
+    <link>https://www.reddit.com/r/efogtech/comments/1sntkxb/marshmellow_ui_goes_wireless/</link>
+    <guid isPermaLink="false">reddit-1sntkxb</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/efogtech</source>
+    <description>Marshmellow UI adds wireless/Bluetooth support (v0.6.4 required) and mobile support — notable tooling/firmware UI update. — 10 pts · 0 comments · r/efogtech</description>
+  </item>
+  <item>
+    <title>Is it possible to make holding space shift and I want to rebind my ctrl with alt</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/</link>
+    <guid isPermaLink="false">reddit-1sno4yk</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <description>User asks about remapping (mentions Kanata) and where to learn Kanata — kept for Kanata monitoring. — 4 pts · 3 comments · r/KeyboardLayouts</description>
+  </item>
+  <item>
+    <title>Keycap.app – Generate and visualize keycap models</title>
+    <link>https://keycap.app/</link>
+    <guid isPermaLink="false">hn-47805128</guid>
+    <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>I Made a Keyboard Nobody Asked For: My Experience Making TapType</title>
+    <link>https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/&gt;</link>
+    <guid isPermaLink="false">hn-47616792</guid>
+    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Hydration Narc – A keyboard-locking water reminder for macOS</title>
+    <link>https://github.com/Lameda12/hydration-narc&gt;</link>
+    <guid isPermaLink="false">hn-47620399</guid>
+    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>I Made a Keyboard Nobody Asked For</title>
+    <link>https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/</link>
+    <guid isPermaLink="false">hn-47602538</guid>
+    <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Open-sourced My Corne Eclipse Design w/Dual Encoder &amp; nice!view</title>
+    <link>https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/</link>
+    <guid isPermaLink="false">reddit-1s8688f</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/crkbd</source>
+    <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
+  </item>
+  <item>
+    <title>Binepad BNK-16 - Review and issues</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/</link>
+    <guid isPermaLink="false">reddit-1s8pwjg</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/keyboards</source>
+    <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
+  </item>
+  <item>
+    <title>kanata backtick shows as "§" and tilde as "±"</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1s7dm2m/kanata_backtick_shows_as_and_tilde_as/</link>
+    <guid isPermaLink="false">reddit-1s7dm2m</guid>
+    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <description>Solved issue with kanata on macOS where backtick/tilde keys displayed wrong characters — fixed by changing keyboard type in settings. — 1 pts · 12 comments · r/KeyboardLayouts</description>
   </item>
 </channel>
 </rss>

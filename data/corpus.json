@@ -66,6 +66,329 @@
           "takeaway": "Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture."
         }
       ]
+    },
+    {
+      "date": "2026-05-02",
+      "items": [
+        {
+          "id": "hn-47980086",
+          "title": "Keyboard Sounds Pro – Now Available on macOS",
+          "url": "https://keyboardsounds.pro/",
+          "discussion_url": "https://news.ycombinator.com/item?id=47980086",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "takeaway": "",
+          "category": "breaking"
+        },
+        {
+          "id": "hn-47986143",
+          "title": "No Code Reviews by Default",
+          "url": "https://www.raycast.com/blog/no-code-reviews-by-default",
+          "discussion_url": "https://news.ycombinator.com/item?id=47986143",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "items": [
+        {
+          "id": "hn-47968964",
+          "title": "Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)",
+          "url": "https://www.appdevforall.org/",
+          "discussion_url": "https://news.ycombinator.com/item?id=47968964",
+          "source": "hn",
+          "subreddit": null,
+          "score": 4,
+          "comments": 3,
+          "takeaway": "",
+          "category": "breaking"
+        },
+        {
+          "id": "hn-47962807",
+          "title": "March in Servo: keyboard navigation, better debugging, FreeBSD support, and more",
+          "url": "https://servo.org/blog/2026/04/30/march-in-servo/",
+          "discussion_url": "https://news.ycombinator.com/item?id=47962807",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        },
+        {
+          "id": "hn-47964630",
+          "title": "LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows",
+          "url": "https://github.com/feschber/lan-mouse",
+          "discussion_url": "https://news.ycombinator.com/item?id=47964630",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1t04v38",
+          "title": "Self designed ISO MX PCB to fit Holy80",
+          "url": "https://www.reddit.com/gallery/1t04v38",
+          "discussion_url": "https://www.reddit.com/gallery/1t04v38",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 21,
+          "comments": 5,
+          "takeaway": "Small couple-designed ISO PCB that uses QMK — notable because it’s a custom ISO PCB + full RGB and shows a DIY ISO QMK build that others may reuse.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1szvxl1",
+          "title": "New Geonix teaser photo",
+          "url": "https://www.reddit.com/r/olkb/comments/1szvxl1/new_geonix_teaser_photo/",
+          "discussion_url": "https://www.reddit.com/r/olkb/comments/1szvxl1/new_geonix_teaser_photo/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": 20,
+          "comments": 8,
+          "takeaway": "Teaser image for a new Geonix—looks like a PC case variant; sparks discussion about a new revision/production.",
+          "category": "breaking"
+        },
+        {
+          "id": "reddit-1t0cw5z",
+          "title": "You may not like it, but THIS is peak split keyboard",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t0cw5z/you_may_not_like_it_but_this_is_peak_split_keyboard/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t0cw5z/you_may_not_like_it_but_this_is_peak_split_keyboard/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 67,
+          "comments": 0,
+          "takeaway": "High-engagement photo/post showcasing an eye-catching split build — good visibility in the community.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1szukel",
+          "title": "Built the keyboard — what do you use for a pointing device?",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 36,
+          "comments": 22,
+          "takeaway": "Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow.",
+          "category": "evergreen"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "items": [
+        {
+          "id": "hn-47815377",
+          "title": "Thumb-Shift Keyboard",
+          "url": "https://en.wikipedia.org/wiki/Thumb-shift_keyboard",
+          "discussion_url": "https://news.ycombinator.com/item?id=47815377",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        },
+        {
+          "id": "hn-47813885",
+          "title": "Copilot Key on My Keyboard",
+          "url": "https://github.com/Rast1234/copilot_key_on_my_keyboard/blob/master/README.md",
+          "discussion_url": "https://news.ycombinator.com/item?id=47813885",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1sou3ek",
+          "title": "Krteq (Open source)",
+          "url": "https://www.reddit.com/gallery/1sou3ek",
+          "discussion_url": "https://www.reddit.com/gallery/1sou3ek",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": 51,
+          "comments": 4,
+          "takeaway": "New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support.",
+          "category": "breaking"
+        },
+        {
+          "id": "reddit-1sowxuy",
+          "title": "Krteq 5x12 (+2)",
+          "url": "https://www.reddit.com/gallery/1sowxuy",
+          "discussion_url": "https://www.reddit.com/gallery/1sowxuy",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 23,
+          "comments": 1,
+          "takeaway": "Same Krteq board cross-posted to r/MechanicalKeyboards (build pics) — community attention on PCB/switch choice.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1cqbc5r",
+          "title": "Connecting Issues",
+          "url": "https://www.reddit.com/r/zmk/comments/1cqbc5r/connecting_issues/",
+          "discussion_url": "https://www.reddit.com/r/zmk/comments/1cqbc5r/connecting_issues/",
+          "source": "reddit",
+          "subreddit": "zmk",
+          "score": 1,
+          "comments": 9,
+          "takeaway": "First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge).",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1sor9cd",
+          "title": "My first split keyboard: Keyball61",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 57,
+          "comments": 0,
+          "takeaway": "High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest.",
+          "category": "evergreen"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "items": [
+        {
+          "id": "hn-47805128",
+          "title": "Keycap.app – Generate and visualize keycap models",
+          "url": "https://keycap.app/",
+          "discussion_url": "https://news.ycombinator.com/item?id=47805128",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1sno4yk",
+          "title": "Is it possible to make holding space shift and I want to rebind my ctrl with alt",
+          "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/",
+          "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/",
+          "source": "reddit",
+          "subreddit": "KeyboardLayouts",
+          "score": 4,
+          "comments": 3,
+          "takeaway": "User asks about remapping (mentions Kanata) and where to learn Kanata — kept for Kanata monitoring.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1sntkxb",
+          "title": "Marshmellow UI goes wireless!",
+          "url": "https://www.reddit.com/r/efogtech/comments/1sntkxb/marshmellow_ui_goes_wireless/",
+          "discussion_url": "https://www.reddit.com/r/efogtech/comments/1sntkxb/marshmellow_ui_goes_wireless/",
+          "source": "reddit",
+          "subreddit": "efogtech",
+          "score": 10,
+          "comments": 0,
+          "takeaway": "Marshmellow UI adds wireless/Bluetooth support (v0.6.4 required) and mobile support — notable tooling/firmware UI update.",
+          "category": "breaking"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "items": [
+        {
+          "id": "hn-47616792",
+          "title": "I Made a Keyboard Nobody Asked For: My Experience Making TapType",
+          "url": "https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/>",
+          "discussion_url": "https://news.ycombinator.com/item?id=47616792",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        },
+        {
+          "id": "hn-47620399",
+          "title": "Hydration Narc – A keyboard-locking water reminder for macOS",
+          "url": "https://github.com/Lameda12/hydration-narc>",
+          "discussion_url": "https://news.ycombinator.com/item?id=47620399",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 1,
+          "takeaway": "",
+          "category": "evergreen"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "items": [
+        {
+          "id": "hn-47602538",
+          "title": "I Made a Keyboard Nobody Asked For",
+          "url": "https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/",
+          "discussion_url": "https://news.ycombinator.com/item?id=47602538",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "takeaway": "",
+          "category": "evergreen"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "items": [
+        {
+          "id": "reddit-1s7dm2m",
+          "title": "kanata backtick shows as \"§\" and tilde as \"±\"",
+          "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1s7dm2m/kanata_backtick_shows_as_and_tilde_as/",
+          "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1s7dm2m/kanata_backtick_shows_as_and_tilde_as/",
+          "source": "reddit",
+          "subreddit": "KeyboardLayouts",
+          "score": 1,
+          "comments": 12,
+          "takeaway": "Solved issue with kanata on macOS where backtick/tilde keys displayed wrong characters — fixed by changing keyboard type in settings.",
+          "category": "evergreen"
+        },
+        {
+          "id": "reddit-1s8688f",
+          "title": "Open-sourced My Corne Eclipse Design w/Dual Encoder & nice!view",
+          "url": "https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/",
+          "discussion_url": "https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/",
+          "source": "reddit",
+          "subreddit": "crkbd",
+          "score": 77,
+          "comments": 2,
+          "takeaway": "Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub.",
+          "category": "breaking"
+        },
+        {
+          "id": "reddit-1s8pwjg",
+          "title": "Binepad BNK-16 - Review and issues",
+          "url": "https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/",
+          "discussion_url": "https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/",
+          "source": "reddit",
+          "subreddit": "keyboards",
+          "score": 3,
+          "comments": 1,
+          "takeaway": "Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support.",
+          "category": "evergreen"
+        }
+      ]
     }
   ]
 }
