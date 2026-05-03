@@ -297,6 +297,14 @@ h1.site-title a:hover {
 
 .item:last-child { border-bottom: none; }
 
+/* Disable iOS callout on long-press of the card */
+.item {
+  -webkit-touch-callout: none;
+}
+.item-title a {
+  -webkit-touch-callout: default;
+}
+
 /* Title is the click target. Inherit color, but underline on hover so it's
    clearly a link on touch (where there's no hover state but tap-highlight
    handles feedback). */
@@ -349,41 +357,90 @@ h1.site-title a:hover {
   flex-shrink: 0;
 }
 
-/* Buylist heart toggle */
-.buylist-toggle {
+#nav-buylist .buylist-count {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ── Long-press popover ──────────────────────────────────── */
+
+#kw-popover {
+  position: fixed;
+  z-index: 100;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+  padding: 6px;
+  min-width: 220px;
+  max-width: 92vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.9375rem;
+  color: var(--ink);
+  animation: kw-pop 0.12s ease-out;
+}
+
+@keyframes kw-pop {
+  from { opacity: 0; transform: scale(0.96); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+#kw-popover button {
   appearance: none;
   -webkit-appearance: none;
   background: transparent;
   border: none;
-  padding: 4px;
-  margin-left: auto;
-  margin-right: -4px;
-  margin-top: -4px;
+  text-align: left;
+  padding: 0.55rem 0.75rem;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.9375rem;
+  color: var(--ink);
   cursor: pointer;
-  color: var(--ink-faint);
-  line-height: 0;
-  border-radius: 4px;
-  transition: color 0.15s ease, background 0.15s ease;
+  display: block;
+  width: 100%;
 }
 
-.buylist-toggle:hover,
-.buylist-toggle:focus-visible {
-  color: var(--accent);
+#kw-popover button:hover,
+#kw-popover button:focus-visible {
+  background: var(--rule);
   outline: none;
-  background: rgba(192, 57, 43, 0.06);
 }
 
-.buylist-toggle.saved {
-  color: var(--accent);
+#kw-popover button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
-.buylist-toggle.saved svg path {
-  fill: var(--accent);
+#kw-popover button.muted { color: var(--ink-faint); }
+
+#kw-popover .popover-row {
+  display: flex;
+  gap: 4px;
+  padding: 0 2px;
 }
 
-#nav-buylist .buylist-count {
-  color: var(--accent);
+#kw-popover .popover-row button {
+  flex: 1;
+  text-align: center;
+  font-family: 'Fraunces', Georgia, serif;
   font-weight: 500;
+}
+
+#kw-popover .popover-sep {
+  height: 1px;
+  background: var(--rule);
+  margin: 4px 0;
+}
+
+#kw-popover .popover-note {
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.25rem 0.75rem 0;
 }
 
 .item-topmeta a {
@@ -746,40 +803,31 @@ h1.site-title a:hover {
 }
 
 .buylist-item {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 0.625rem;
-  align-items: start;
-  padding: 0.75rem 0;
+  display: block;
+  padding: 0.75rem 0.625rem;
+  margin: 0 -0.625rem;
   border-bottom: 1px solid var(--rule);
+  border-radius: 6px;
   background: var(--bg);
   transition: background 0.15s ease, opacity 0.15s ease;
+  cursor: grab;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
+
+.buylist-item:active { cursor: grabbing; }
 
 .buylist-item:last-child { border-bottom: none; }
 
 .buylist-item.dragging { opacity: 0.5; }
 
 .buylist-item.drag-over {
-  background: rgba(192, 57, 43, 0.05);
+  background: rgba(192, 57, 43, 0.06);
 }
-
-.bl-handle {
-  appearance: none;
-  -webkit-appearance: none;
-  background: transparent;
-  border: none;
-  color: var(--ink-faint);
-  cursor: grab;
-  padding: 6px 4px;
-  align-self: center;
-  border-radius: 4px;
-}
-
-.bl-handle:hover { color: var(--ink-soft); background: var(--rule); }
-.bl-handle:active { cursor: grabbing; }
 
 .bl-body { min-width: 0; }
+.bl-title a { -webkit-user-select: text; user-select: text; }
 
 .bl-meta {
   font-size: 0.6875rem;
@@ -823,38 +871,6 @@ h1.site-title a:hover {
 }
 
 .bl-dates .sep { opacity: 0.5; }
-
-.bl-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  align-self: start;
-}
-
-.bl-actions button {
-  appearance: none;
-  -webkit-appearance: none;
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--ink-faint);
-  cursor: pointer;
-  width: 1.875rem;
-  height: 1.625rem;
-  border-radius: 4px;
-  font: inherit;
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.bl-actions button:hover {
-  border-color: var(--rule);
-  color: var(--ink-soft);
-}
-
-.bl-actions button[data-action="remove"]:hover {
-  border-color: var(--accent);
-  color: var(--accent);
-}
 
 .buylist-help {
   font-size: 0.75rem;
