@@ -59,6 +59,8 @@ def fmt_date_short(date: str) -> str:
 def source_label(item: dict) -> str:
     if item.get("source") == "hn":
         return "Hacker News"
+    if item.get("source") == "email":
+        return f"✉ {item.get('via') or 'Inbox'}"
     sub = item.get("subreddit")
     return f"r/{sub}" if sub else "Reddit"
 

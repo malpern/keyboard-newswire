@@ -145,9 +145,9 @@ def reddit_thumbnail(reddit_url: str) -> tuple[str | None, str | None]:
 
 def discover_image_url(item: dict) -> str | None:
     source = item.get("source")
-    if source == "hn":
+    if source == "hn" or source == "email":
         url = item.get("url")
-        if not url:
+        if not url or url.startswith("https://mail.google.com/"):
             return None
         html = http_get(url).decode("utf-8", errors="replace")
         return extract_og_image(html, url)

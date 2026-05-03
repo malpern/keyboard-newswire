@@ -6,7 +6,7 @@
   <atom:link href="https://malpern.github.io/keyboard-wire/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 03 May 2026 17:27:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 03 May 2026 17:35:09 +0000</lastBuildDate>
   <item>
     <title>Levels54 open-sources split 54-key dual-trackball keyboard files</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/</link>
@@ -27,6 +27,28 @@
     <category>Tools &amp; Software</category>
     <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
     <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>ZSA releases Zapp CLI tool and Classic Books mode for typ.ing</title>
+    <link>https://mailchi.mp/zsa/the-ergo-91?e=7862a946ac</link>
+    <guid isPermaLink="false">email-19de00b594e4d686</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Zsa</source>
+    <description>ZSA introduces Zapp, an open-source terminal tool for flashing firmware, and a new Classic Books mode on typ.ing for typing practice. — ✉ Zsa</description>
+  </item>
+  <item>
+    <title>Keyboard Builders Digest #210: IQUNIX EV63 HE, Laika, MMOrtho, Alatus, Krteq, and more</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-210-keyboard-builders-digest/</link>
+    <guid isPermaLink="false">email-19dda23664c2147d</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Community</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Buttondown</source>
+    <description>Newsletter highlights IQUNIX EV63 HE review and open-source projects including Laika, MMOrtho, Alatus, Krteq, Leonardo KeycapRio, Lemonshark, and PISIC. — ✉ Buttondown</description>
   </item>
   <item>
     <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>

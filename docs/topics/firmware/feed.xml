@@ -6,7 +6,7 @@
   <atom:link href="https://malpern.github.io/keyboard-wire/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 03 May 2026 17:27:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 03 May 2026 17:35:09 +0000</lastBuildDate>
   <item>
     <title>QMK matrix implementation can be used as a custom lite matrix</title>
     <link>https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/</link>
@@ -16,6 +16,17 @@
     <category>Firmware</category>
     <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
     <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>ZSA releases Zapp CLI tool and Classic Books mode for typ.ing</title>
+    <link>https://mailchi.mp/zsa/the-ergo-91?e=7862a946ac</link>
+    <guid isPermaLink="false">email-19de00b594e4d686</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <category>Firmware</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Zsa</source>
+    <description>ZSA introduces Zapp, an open-source terminal tool for flashing firmware, and a new Classic Books mode on typ.ing for typing practice. — ✉ Zsa</description>
   </item>
   <item>
     <title>Self designed ISO MX PCB to fit Holy80</title>

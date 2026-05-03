@@ -6,7 +6,7 @@
   <atom:link href="https://malpern.github.io/keyboard-wire/tags/pricing/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pricing.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 03 May 2026 17:27:13 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 03 May 2026 17:35:09 +0000</lastBuildDate>
   <item>
     <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
@@ -17,6 +17,28 @@
     <category>Community</category>
     <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
     <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Omnitype Firsty Thursday: GMK Dracula under $88</title>
+    <link>https://omnitype.com</link>
+    <guid isPermaLink="false">email-19ddee10af3be603</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <description>Omnitype is selling a GMK Dracula keycap set for Firsty Thursday at a price under $88. — ✉ Omnitype</description>
+  </item>
+  <item>
+    <title>Omnitype Bauer 65 groupbuy ends soon</title>
+    <link>https://omnitype.com</link>
+    <guid isPermaLink="false">email-19dd6c3baab79d88</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <description>The Bauer 65 groupbuy is closing in one day, with the Dune colorway available. — ✉ Omnitype</description>
   </item>
 </channel>
 </rss>
