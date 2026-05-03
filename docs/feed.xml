@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>malpern's keyboard wire</title>
+  <link>https://malpern.github.io/keyboard-wire/</link>
+  <atom:link href="https://malpern.github.io/keyboard-wire/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>daily mechanical keyboards, firmware &amp; tools</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 03 May 2026 16:41:43 +0000</lastBuildDate>
+  <item>
+    <title>List prices on many websites are borderline false advertising</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
+    <guid isPermaLink="false">reddit-1t27uj6</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Levels54 is now fully open source!</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/</link>
+    <guid isPermaLink="false">reddit-1t221l1</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Creator released all files for the split 54-key dual-trackball board, including PCBs. — 33 pts · 8 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>macOS Utilities for Identifying Apps Hijacking Global Keyboard Shortcuts?</title>
+    <link>https://www.reddit.com/r/MacOSApps/comments/1t27dar/macos_utilities_for_identifying_apps_hijacking/</link>
+    <guid isPermaLink="false">reddit-1t27dar</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/macapps</source>
+    <description>Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users. — 20 pts · 10 comments · r/macapps</description>
+  </item>
+  <item>
+    <title>How to use QMK's matrix implementation as a custom lite matrix?</title>
+    <link>https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/</link>
+    <guid isPermaLink="false">reddit-1t25p4v</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>No Code Reviews by Default</title>
+    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
+    <guid isPermaLink="false">hn-47986143</guid>
+    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
+  </item>
+</channel>
+</rss>

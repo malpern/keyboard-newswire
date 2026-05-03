@@ -1,0 +1,71 @@
+{
+  "title": "malpern's keyboard wire",
+  "tagline": "daily mechanical keyboards, firmware & tools",
+  "days": [
+    {
+      "date": "2026-05-03",
+      "items": [
+        {
+          "id": "reddit-1t221l1",
+          "title": "Levels54 is now fully open source!",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 33,
+          "comments": 8,
+          "category": "breaking",
+          "takeaway": "Creator released all files for the split 54-key dual-trackball board, including PCBs."
+        },
+        {
+          "id": "reddit-1t27uj6",
+          "title": "List prices on many websites are borderline false advertising",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 153,
+          "comments": 47,
+          "category": "breaking",
+          "takeaway": "Community discussion on Shopify configuration issues causing misleading kit pricing."
+        },
+        {
+          "id": "reddit-1t25p4v",
+          "title": "How to use QMK's matrix implementation as a custom lite matrix?",
+          "url": "https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/",
+          "discussion_url": "https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": 1,
+          "comments": 2,
+          "category": "evergreen",
+          "takeaway": "Technical discussion on leveraging QMK's matrix scanning code for custom firmware."
+        },
+        {
+          "id": "reddit-1t27dar",
+          "title": "macOS Utilities for Identifying Apps Hijacking Global Keyboard Shortcuts?",
+          "url": "https://www.reddit.com/r/MacOSApps/comments/1t27dar/macos_utilities_for_identifying_apps_hijacking/",
+          "discussion_url": "https://www.reddit.com/r/MacOSApps/comments/1t27dar/macos_utilities_for_identifying_apps_hijacking/",
+          "source": "reddit",
+          "subreddit": "macapps",
+          "score": 20,
+          "comments": 10,
+          "category": "evergreen",
+          "takeaway": "Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users."
+        },
+        {
+          "id": "hn-47986143",
+          "title": "No Code Reviews by Default",
+          "url": "https://www.raycast.com/blog/no-code-reviews-by-default",
+          "discussion_url": "https://news.ycombinator.com/item?id=47986143",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture."
+        }
+      ]
+    }
+  ]
+}

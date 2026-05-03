@@ -1,0 +1,243 @@
+/* malpern's keyboard wire — talk-topics-inspired */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;700;900&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --bg: #fdfcf9;
+  --ink: #1a1a1a;
+  --ink-soft: #555;
+  --ink-faint: #999;
+  --rule: #e5e1d8;
+  --accent: #c0392b;
+  --hn: #ff6600;
+  --reddit: #ff4500;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14110d;
+    --ink: #e8e4dc;
+    --ink-soft: #a8a298;
+    --ink-faint: #6f6a62;
+    --rule: #2c2823;
+    --accent: #e85d4a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+/* ── Header ──────────────────────────── */
+
+header { margin-bottom: 5rem; }
+
+h1.site-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 900;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: var(--ink-soft);
+  font-size: 1rem;
+  margin: 0 0 0.25rem;
+}
+
+.subscribe {
+  font-size: 0.875rem;
+  color: var(--ink-faint);
+  margin-top: 0.75rem;
+}
+
+.subscribe a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+}
+
+.subscribe a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ── Day blocks ──────────────────────── */
+
+.day {
+  margin-bottom: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.day:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.day-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.day-number {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  letter-spacing: -0.02em;
+}
+
+.day-month-year {
+  color: var(--ink-soft);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── Sections (Breaking / Evergreen) ─── */
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section-label {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-faint);
+  margin: 0 0 1.25rem;
+}
+
+.section-label.breaking { color: var(--accent); }
+
+/* ── Items ───────────────────────────── */
+
+.item {
+  display: block;
+  padding: 0.75rem 0;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--rule);
+}
+
+.item:last-child { border-bottom: none; }
+
+.item:hover .item-title {
+  color: var(--accent);
+}
+
+.item-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.35;
+  margin: 0 0 0.25rem;
+  transition: color 0.15s ease;
+}
+
+.item-takeaway {
+  font-size: 0.9375rem;
+  color: var(--ink-soft);
+  margin: 0.25rem 0 0.5rem;
+  line-height: 1.45;
+}
+
+.item-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  flex-wrap: wrap;
+}
+
+.item-meta a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.item-meta a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.source-pill {
+  display: inline-block;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  background: var(--rule);
+  color: var(--ink-soft);
+}
+
+.source-pill.hn { background: var(--hn); color: white; }
+.source-pill.reddit { background: var(--reddit); color: white; }
+
+.dot {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--ink-faint);
+  margin: 0 0.125rem;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+/* ── Empty state / footer ────────────── */
+
+.empty {
+  color: var(--ink-faint);
+  font-style: italic;
+  font-size: 0.9375rem;
+}
+
+footer {
+  margin-top: 6rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+footer a {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  margin-left: 0.5rem;
+}
+
+footer a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
