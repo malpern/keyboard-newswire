@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All the News That's Fit to Filter</title>
+<meta name="description" content="How we built a one-person news wire for mechanical keyboards — from a single HN search to a fully automated daily digest with local LLM classification, headline rewriting, and zero API cost.">
+<meta name="author" content="Micah Alpern">
+<link rel="canonical" href="https://malpern.github.io/keyboard-wire/post/">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="All the News That's Fit to Filter">
+<meta property="og:description" content="A one-person news wire for mechanical keyboards. Local LLM classification, zero API cost, tasteful curation at scale.">
+<meta property="og:url" content="https://malpern.github.io/keyboard-wire/post/">
+<meta property="og:site_name" content="keyboard wire">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="All the News That's Fit to Filter">
+<meta name="twitter:description" content="How we built a one-person news wire for mechanical keyboards.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "All the News That's Fit to Filter",
+  "description": "How we built a one-person news wire for mechanical keyboards — from a single HN search to a fully automated daily digest with local LLM classification, headline rewriting, and zero API cost.",
+  "author": {"@type": "Person", "name": "Micah Alpern"},
+  "inLanguage": "en",
+  "keywords": "Python, LLM, Ollama, news aggregation, mechanical keyboards, automation, Techmeme"
+}
+</script>
+
+<style>
+  :root {
+    --bg: #f5f2eb;
+    --paper: #faf8f4;
+    --fg: #111111;
+    --fg-soft: #2a2a2a;
+    --fg-muted: #5a5a5a;
+    --fg-quiet: #8a8a8a;
+    --rule: #d4cfc4;
+    --rule-heavy: #1a1a1a;
+    --accent: #b81c1c;
+    --accent-soft: rgba(184, 28, 28, 0.08);
+    --code-bg: #1a1a1a;
+    --code-fg: #e8e4dc;
+    --callout-bg: #faf6ee;
+    --serif: "Charter", "Iowan Old Style", "New York", Georgia, ui-serif, serif;
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    --sans-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+    --display: "Playfair Display", "Didot", "Bodoni Moda", "Times New Roman", serif;
+    --mono: "SF Mono", "JetBrains Mono", ui-monospace, Menlo, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141210;
+      --paper: #1c1a17;
+      --fg: #e8e4dc;
+      --fg-soft: #c9c5bd;
+      --fg-muted: #8a8680;
+      --fg-quiet: #5e5a54;
+      --rule: #2d2a26;
+      --rule-heavy: #e8e4dc;
+      --accent: #e05a4a;
+      --accent-soft: rgba(224, 90, 74, 0.12);
+      --code-bg: #0d0c0a;
+      --code-fg: #e8e4dc;
+      --callout-bg: #1f1c16;
+    }
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap');
+
+  * { box-sizing: border-box; }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 19px;
+    line-height: 1.72;
+    color: var(--fg);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern", "liga", "calt", "onum";
+    hanging-punctuation: first last;
+  }
+
+  h1, h2, h3 { text-wrap: balance; }
+  p, li { text-wrap: pretty; orphans: 3; widows: 3; }
+
+  .page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 32px 160px;
+  }
+
+  /* === STICKY NAV === */
+  .chapter-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    background: rgba(245, 242, 235, 0.92);
+    backdrop-filter: saturate(1.2) blur(14px);
+    -webkit-backdrop-filter: saturate(1.2) blur(14px);
+    border-bottom: 1px solid var(--rule);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease, opacity 0.25s ease;
+    opacity: 0;
+    pointer-events: none;
+    font-family: var(--sans);
+  }
+  .chapter-nav.visible {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .chapter-nav-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 24px;
+    align-items: center;
+  }
+  .chapter-nav a {
+    color: var(--fg-muted);
+    text-decoration: none;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    line-height: 1.3;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    transition: color 0.15s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .chapter-nav a:hover { color: var(--accent); opacity: 1; }
+  .chapter-nav .nav-arrow {
+    font-size: 14px;
+    color: var(--fg-quiet);
+    flex-shrink: 0;
+  }
+  .chapter-nav .nav-prev { justify-self: start; }
+  .chapter-nav .nav-next { justify-self: end; text-align: right; }
+  .chapter-nav .nav-prev .nav-title,
+  .chapter-nav .nav-next .nav-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 24ch;
+  }
+  .chapter-nav .nav-current {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--fg);
+    text-align: center;
+    font-feature-settings: "onum";
+    letter-spacing: -0.005em;
+  }
+  .chapter-nav .nav-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.18s ease-out;
+    opacity: 0.7;
+  }
+  @media (prefers-color-scheme: dark) {
+    .chapter-nav { background: rgba(20, 18, 16, 0.92); }
+  }
+  @media (max-width: 720px) {
+    .chapter-nav .nav-prev .nav-title,
+    .chapter-nav .nav-next .nav-title { display: none; }
+  }
+
+  /* === HERO === */
+  .hero {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .hero-image {
+    display: block;
+    width: 100%;
+    height: 72vh;
+    min-height: 480px;
+    max-height: 720px;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: grayscale(1) contrast(1.1);
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,0.1) 40%,
+      rgba(0,0,0,0.7) 75%,
+      rgba(0,0,0,0.88) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 32px 64px;
+  }
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .hero .eyebrow {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 16px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  .hero h1.title {
+    font-family: var(--display);
+    font-size: clamp(52px, 8vw, 96px);
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    margin: 0 0 24px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.4);
+    text-wrap: wrap;
+    min-height: 1.9em;
+  }
+  .hero h1.title .title-text { }
+  .hero h1.title .title-cursor {
+    display: inline;
+    margin-left: 0.02em;
+    color: var(--accent);
+    animation: cursor-blink 1.06s steps(2, end) infinite;
+  }
+  @keyframes cursor-blink {
+    0%, 50% { opacity: 1; }
+    50.01%, 100% { opacity: 0; }
+  }
+  .hero .subtitle {
+    font-family: var(--serif);
+    font-size: clamp(18px, 2.2vw, 24px);
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(255,255,255,0.85);
+    line-height: 1.45;
+    margin: 0;
+    max-width: 600px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.4);
+  }
+
+  /* === BODY TYPOGRAPHY === */
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 20px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+
+  p { margin: 0 0 24px; }
+
+  a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    transition: opacity 0.15s;
+  }
+  a:hover { opacity: 0.7; }
+
+  strong { font-weight: 600; color: var(--fg); }
+  em { font-style: italic; }
+
+  hr.section-rule {
+    border: none;
+    text-align: center;
+    margin: 80px 0;
+    height: 20px;
+    line-height: 20px;
+  }
+  hr.section-rule::after {
+    content: "———";
+    font-family: var(--serif);
+    color: var(--fg-quiet);
+    font-size: 18px;
+    letter-spacing: 0.5em;
+    padding-left: 0.5em;
+  }
+
+  /* === TABLE OF CONTENTS === */
+  .toc {
+    border-top: 3px solid var(--rule-heavy);
+    border-bottom: 1px solid var(--rule);
+    padding: 40px 0;
+    margin: 64px 0 80px;
+  }
+  .toc-heading {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--fg);
+    margin: 0 0 32px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+  .toc-list { list-style: none; padding: 0; margin: 0; }
+  .toc-item {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    gap: 20px;
+    align-items: baseline;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .toc-item:last-child { border-bottom: none; }
+  .toc-num {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: var(--fg-quiet);
+    font-variant-numeric: tabular-nums;
+  }
+  .toc-title {
+    font-family: var(--serif);
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: var(--fg);
+    line-height: 1.3;
+  }
+  .toc-title a { color: inherit; border-bottom: none; }
+  .toc-title a:hover { color: var(--accent); }
+  .toc-blurb {
+    font-family: var(--serif);
+    font-size: 15px;
+    font-style: italic;
+    color: var(--fg-muted);
+    margin-top: 4px;
+    line-height: 1.45;
+  }
+
+  /* === CHAPTERS === */
+  .chapter { margin-top: 96px; }
+  .chapter:first-of-type { margin-top: 0; }
+
+  .chapter-photo {
+    display: block;
+    width: 100%;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 0 36px;
+    filter: grayscale(1) contrast(1.05);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  }
+  @media (prefers-color-scheme: dark) {
+    .chapter-photo { opacity: 0.88; }
+  }
+
+  .chapter-number {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--fg-quiet);
+    margin: 0 0 12px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+  .chapter h2 {
+    font-family: var(--display);
+    font-size: clamp(34px, 4.5vw, 52px);
+    font-weight: 900;
+    letter-spacing: -0.025em;
+    line-height: 1.05;
+    margin: 0 0 32px;
+    text-wrap: balance;
+  }
+
+  .chapter-opener {
+    text-indent: 0;
+  }
+  .chapter-opener::first-letter {
+    font-family: var(--display);
+    font-size: 4.6em;
+    line-height: 0.82;
+    font-weight: 900;
+    color: var(--accent);
+    float: left;
+    padding: 6px 12px 0 0;
+    margin-top: 6px;
+  }
+  @supports (initial-letter: 3) {
+    .chapter-opener::first-letter {
+      -webkit-initial-letter: 3 2;
+      initial-letter: 3 2;
+      font-size: unset;
+      line-height: unset;
+      float: none;
+      padding: 0;
+      margin: 0;
+      color: var(--accent);
+      font-weight: 900;
+    }
+  }
+
+  /* Goal / framing panel */
+  .goal {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    border-radius: 2px;
+    padding: 20px 24px;
+    margin: 0 0 40px;
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  .goal-label {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    white-space: nowrap;
+    padding-top: 3px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+  .goal p { margin: 0; color: var(--fg-soft); }
+
+  .chapter h3 {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+    margin: 48px 0 16px;
+    text-wrap: balance;
+  }
+
+  /* === CODE BLOCKS === */
+  code {
+    font-family: var(--mono);
+    font-size: 0.88em;
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-feature-settings: "liga" 0;
+  }
+  pre {
+    font-family: var(--mono);
+    font-size: 14px;
+    line-height: 1.6;
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 24px 28px;
+    border-radius: 4px;
+    overflow-x: auto;
+    margin: 28px 0;
+    font-feature-settings: "liga" 0;
+    position: relative;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  pre code { background: none; padding: 0; font-size: inherit; color: inherit; }
+
+  .copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding: 4px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.0);
+    color: var(--fg-quiet);
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(-2px);
+    transition: opacity 0.18s, transform 0.18s, color 0.12s, background 0.12s, border-color 0.12s;
+  }
+  pre:hover .copy-btn, .copy-btn:focus-visible {
+    opacity: 1;
+    transform: translateY(0);
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.06);
+  }
+  .copy-btn:hover { background: rgba(255, 255, 255, 0.12); color: #fff; }
+  .copy-btn.copied { color: #b8db92; border-color: rgba(184, 219, 146, 0.3); }
+
+  .code-caption {
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--fg-muted);
+    margin: -20px 0 28px;
+    font-style: italic;
+    padding-left: 4px;
+  }
+
+  /* Syntax tokens */
+  .token.comment { color: #7a756c; font-style: italic; }
+  .token.keyword { color: #e88c5e; font-weight: 700; }
+  .token.string { color: #b8db92; }
+  .token.function { color: #7bb8e8; font-weight: 700; }
+  .token.number { color: #e095b8; }
+  .token.class-name { color: #f0c878; font-weight: 700; }
+  .token.operator { color: #c9c5bd; }
+  .token.punctuation { color: #d8d4cc; }
+
+  /* === CONCEPT ASIDE === */
+  aside.concept {
+    background: var(--callout-bg);
+    border-left: 3px solid var(--accent);
+    padding: 20px 24px;
+    margin: 32px 0;
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: var(--serif);
+  }
+  aside.concept .label {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 8px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+  aside.concept .label::before { content: "\2014\00a0"; color: var(--fg-quiet); }
+  aside.concept p:last-child { margin-bottom: 0; }
+
+  /* === CHECKPOINT === */
+  .checkpoint {
+    border-top: 1px solid var(--rule);
+    padding-top: 28px;
+    margin-top: 48px;
+  }
+  .checkpoint-label {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fg-quiet);
+    margin: 0 0 10px;
+    font-feature-settings: "smcp" 1, "c2sc" 1;
+  }
+  .checkpoint p { margin: 0; font-style: italic; color: var(--fg-soft); }
+
+  /* === SCREENSHOTS === */
+  figure.screenshot {
+    margin: 40px 0;
+    padding: 0;
+  }
+  figure.screenshot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.14), 0 2px 4px rgba(0,0,0,0.06);
+    border: 1px solid var(--rule);
+  }
+  figure.screenshot figcaption {
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--fg-muted);
+    font-style: italic;
+    margin-top: 14px;
+  }
+
+  /* === DIAGRAM === */
+  figure.diagram {
+    margin: 40px 0;
+    padding: 0;
+  }
+  figure.diagram svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 28px 24px;
+  }
+  figure.diagram figcaption {
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--fg-muted);
+    font-style: italic;
+    margin-top: 14px;
+  }
+
+  /* === GLOSSARY TOOLTIP === */
+  .tt {
+    position: relative;
+    cursor: help;
+    text-decoration: underline dashed;
+    text-decoration-color: rgba(184, 28, 28, 0.45);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    transition: text-decoration-color 0.15s;
+  }
+  .tt:hover, .tt:focus, .tt.is-open {
+    text-decoration-color: var(--accent);
+  }
+  .tt::after {
+    content: attr(data-tt);
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-4px);
+    width: max-content;
+    max-width: 320px;
+    padding: 12px 16px;
+    background: #1a1a1a;
+    color: #f5f1e8;
+    font-family: var(--serif);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: 0;
+    border-radius: 6px;
+    white-space: normal;
+    text-align: left;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.16s, transform 0.16s;
+    z-index: 50;
+    box-shadow: 0 10px 32px rgba(0,0,0,0.22);
+  }
+  .tt::before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-bottom-color: #1a1a1a;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.16s;
+  }
+  .tt:hover::after, .tt:focus::after, .tt.is-open::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  .tt:hover::before, .tt:focus::before, .tt.is-open::before { opacity: 1; }
+  @media (prefers-color-scheme: dark) {
+    .tt::after { background: #ece8e0; color: #1a1a1a; }
+    .tt::before { border-bottom-color: #ece8e0; }
+  }
+  @media (max-width: 560px) {
+    .tt::after { left: 0; transform: translateX(0) translateY(-4px); max-width: calc(100vw - 32px); }
+    .tt:hover::after, .tt.is-open::after { transform: translateX(0) translateY(0); }
+    .tt::before { left: 20px; }
+  }
+
+  /* === PULL QUOTE === */
+  blockquote {
+    margin: 48px 0;
+    padding: 0 0 0 28px;
+    border-left: 4px solid var(--accent);
+    font-family: var(--display);
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: var(--fg);
+  }
+  blockquote p { margin: 0; }
+
+  /* === LISTS === */
+  ul, ol {
+    padding-left: 24px;
+    margin: 0 0 24px;
+  }
+  li { margin-bottom: 8px; }
+  .chapter > ul > li::marker { content: "\2014\00a0\00a0"; color: var(--fg-quiet); }
+
+  /* === APPENDIX === */
+  .appendix {
+    margin-top: 96px;
+    padding-top: 48px;
+    border-top: 3px solid var(--rule-heavy);
+  }
+  .appendix h2 {
+    font-family: var(--display);
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .appendix .deck {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-style: italic;
+    color: var(--fg-muted);
+    margin: 0 0 32px;
+  }
+  .appendix ol {
+    padding-left: 28px;
+    counter-reset: step;
+  }
+  .appendix ol > li {
+    margin-bottom: 16px;
+    padding-left: 8px;
+  }
+  .appendix ol > li strong {
+    display: block;
+    font-family: var(--sans);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    margin-bottom: 4px;
+  }
+
+  /* === FOOTER === */
+  .footer {
+    margin-top: 96px;
+    padding-top: 32px;
+    border-top: 1px solid var(--rule);
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--fg-quiet);
+    text-align: center;
+  }
+
+  /* === ANIMATION: fade-up on scroll === */
+  .fade-up {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  .fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* === TICKER (hero decoration) === */
+  .ticker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 28px;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    z-index: 2;
+  }
+  .ticker-track {
+    display: flex;
+    gap: 48px;
+    animation: ticker-scroll 40s linear infinite;
+    white-space: nowrap;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  @keyframes ticker-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+
+  /* === RESPONSIVE === */
+  @media (max-width: 720px) {
+    .page { padding-left: 20px; padding-right: 20px; }
+    .hero-overlay { padding-left: 20px; padding-right: 20px; }
+    pre { padding: 18px 16px; font-size: 13px; }
+    .goal { flex-direction: column; gap: 8px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Sticky chapter nav -->
+<nav class="chapter-nav" aria-label="Chapter navigation">
+  <div class="chapter-nav-inner">
+    <a class="nav-prev" href="#" aria-label="Previous section">
+      <span class="nav-arrow">&larr;</span>
+      <span class="nav-title"></span>
+    </a>
+    <div class="nav-current">
+      <span class="nav-title"></span>
+    </div>
+    <a class="nav-next" href="#" aria-label="Next section">
+      <span class="nav-title"></span>
+      <span class="nav-arrow">&rarr;</span>
+    </a>
+  </div>
+  <div class="nav-progress"></div>
+</nav>
+
+<!-- ============================================================ -->
+<!-- HERO -->
+<!-- ============================================================ -->
+<header class="hero">
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>QMK firmware v0.28 released</span>
+      <span>&bull;</span>
+      <span>ZMK adds Bluetooth split support</span>
+      <span>&bull;</span>
+      <span>Group buy: Cyboard Imprint now shipping</span>
+      <span>&bull;</span>
+      <span>Kanata 1.8 drops with new virtual keys</span>
+      <span>&bull;</span>
+      <span>r/olkb: open-source PCB hits 500 stars</span>
+      <span>&bull;</span>
+      <span>QMK firmware v0.28 released</span>
+      <span>&bull;</span>
+      <span>ZMK adds Bluetooth split support</span>
+      <span>&bull;</span>
+      <span>Group buy: Cyboard Imprint now shipping</span>
+      <span>&bull;</span>
+      <span>Kanata 1.8 drops with new virtual keys</span>
+      <span>&bull;</span>
+      <span>r/olkb: open-source PCB hits 500 stars</span>
+      <span>&bull;</span>
+    </div>
+  </div>
+
+  <!-- Replace with a sourced B&W newsroom photo -->
+  <img class="hero-image" src="assets/hero-newsroom.jpg" alt="A 1940s newsroom: reporters at desks, papers stacked high, cigarette smoke in the air.">
+
+  <div class="hero-overlay">
+    <div class="hero-content">
+      <p class="eyebrow">A Python &amp; LLM project</p>
+      <h1 class="title" aria-label="All the News That's Fit to Filter">
+        <span class="title-text"></span><span class="title-cursor" aria-hidden="true">&#9614;</span>
+      </h1>
+      <p class="subtitle">How we built a one-person news wire for mechanical keyboards &mdash; from a single API call to a fully automated daily digest, running on a local LLM at zero cost.</p>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================ -->
+<!-- BODY -->
+<!-- ============================================================ -->
+<main>
+<article class="page">
+
+<p>Somewhere between Hacker News, five subreddits, and a dozen vendor newsletters, there's a daily signal about mechanical keyboards &mdash; firmware releases, interesting builds, new tools, group buys going live. No single source carries it all. Most carry noise. The interesting question isn't <em>where</em> the news is. It's how you filter it down to the five things worth reading today.</p>
+
+<p><a href="https://malpern.github.io/keyboard-wire/">Keyboard Wire</a> is the answer we built: a personal news wire that ingests from multiple sources every morning, classifies each item with a local LLM, rewrites the headlines in <span class="tt" data-tt="Techmeme rewrites publisher headlines into terse, factual, entity-first abstracts. Lead with the subject, state the action, no superlatives.">Techmeme</span> style, and publishes a static site &mdash; all running on a Mac Mini, no API costs, no third-party services touching the data.</p>
+
+<p>This is the story of how it got here: one source at a time, one architectural decision at a time, from a prototype hitting a frontier model to a pipeline that runs entirely on-device.</p>
+
+<!-- TOC -->
+<nav class="toc" aria-label="Table of contents">
+  <p class="toc-heading">Seven sections</p>
+  <ol class="toc-list">
+    <li class="toc-item">
+      <span class="toc-num">01</span>
+      <div>
+        <div class="toc-title"><a href="#ch1">The beat</a></div>
+        <div class="toc-blurb">Why mechanical keyboards, and why a wire service for one person.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">02</span>
+      <div>
+        <div class="toc-title"><a href="#ch2">One source</a></div>
+        <div class="toc-blurb">Starting with HN Algolia and an Anthropic model. Prototype fast, validate the concept.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">03</span>
+      <div>
+        <div class="toc-title"><a href="#ch3">Expanding the wire</a></div>
+        <div class="toc-blurb">Adding Reddit, then vendor newsletters. Each source messier than the last.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">04</span>
+      <div>
+        <div class="toc-title"><a href="#ch4">Going local</a></div>
+        <div class="toc-blurb">The migration from a remote frontier model to Qwen on Ollama. Token cost, privacy, backtest.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">05</span>
+      <div>
+        <div class="toc-title"><a href="#ch5">The three layers</a></div>
+        <div class="toc-blurb">Static Python for deterministic work, local LLM for judgment, small composable scripts.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">06</span>
+      <div>
+        <div class="toc-title"><a href="#ch6">Editorial voice</a></div>
+        <div class="toc-blurb">DEFAULT POSITION: EXCLUDE. Encoding taste into classifier prompts and headline rewrites.</div>
+      </div>
+    </li>
+    <li class="toc-item">
+      <span class="toc-num">07</span>
+      <div>
+        <div class="toc-title"><a href="#ch7">The next edition</a></div>
+        <div class="toc-blurb">Where it goes from here: Geekhack group buys, thread-state tracking, and forks for other niches.</div>
+      </div>
+    </li>
+  </ol>
+</nav>
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 1 — The Beat -->
+<!-- ====================================================================== -->
+
+<section id="ch1" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch1-newsboy.jpg" alt="A newsboy on a street corner, stack of papers under his arm, shouting a headline.">
+  <p class="chapter-number">Section one</p>
+  <h2>The beat</h2>
+
+  <div class="goal">
+    <span class="goal-label">The problem</span>
+    <p>A vertical niche with high signal density, scattered across a dozen sources, and no single feed that captures it all without drowning you in noise.</p>
+  </div>
+
+  <p class="chapter-opener">Mechanical keyboards are a small world with a fast news cycle. Firmware gets released. Group buys open and close. Someone open-sources a PCB design. A new split-ergo concept shows up on Reddit with fifty comments in an hour. If you care about this space &mdash; not casually, but as a practitioner &mdash; the information exists. It's just nowhere coherent.</p>
+
+  <p>Hacker News catches maybe 20% of it. The keyboard subreddits catch another 40%, spread across five communities with overlapping but distinct cultures. Vendor newsletters carry the remaining 40% &mdash; product announcements, restock alerts, group buy status updates &mdash; but they arrive as marketing emails buried in your inbox.</p>
+
+  <p>The model here is <span class="tt" data-tt="Techmeme is a tech news aggregator that uses a mix of algorithmic curation and human editorial judgment. Headlines are rewritten to be factual and entity-first.">Techmeme</span>. Not Techmeme's technology &mdash; that's a team, a decade of tuning, millions of sources. The <em>idea</em> of Techmeme: algorithmic curation filtered through editorial taste. What if you could build that for one person, for one niche, running on your desk?</p>
+
+  <blockquote><p>A noisy digest is worse than no digest.</p></blockquote>
+
+  <p>That's the operating principle. The goal isn't comprehensiveness. It's signal density. Five good items are better than twenty mediocre ones. A quiet day &mdash; nothing published &mdash; is a correct day, not a failure.</p>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">The thesis</p>
+    <p><em>Pick a niche you know well enough to have taste in. Build a filter, not a firehose.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 2 — One Source -->
+<!-- ====================================================================== -->
+
+<section id="ch2" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch2-teletype.jpg" alt="A single teletype machine in a quiet office, paper tape curling onto the floor.">
+  <p class="chapter-number">Section two</p>
+  <h2>One source</h2>
+
+  <div class="goal">
+    <span class="goal-label">The approach</span>
+    <p>Start with a single API, a frontier model, and a question: is this worth reading?</p>
+  </div>
+
+  <p class="chapter-opener">The first version was brutally simple. A cron job that hit the <span class="tt" data-tt="Algolia's real-time search index for Hacker News. Free API, no auth required. Returns recent stories matching keyword queries.">HN Algolia API</span> every morning with about fifteen keyword terms &mdash; <code>QMK</code>, <code>ZMK</code>, <code>split keyboard</code>, <code>mechanical keyboard</code>, <code>Kanata</code>, <code>keycap</code> &mdash; and fed the results to Claude with a strict classifier prompt.</p>
+
+  <p>The prompt's job was binary: for each story, answer INCLUDE or EXCLUDE. The default position was EXCLUDE. Most days, the classifier said no to everything, and that was correct. A keyboard discussion that's actually about a piano? Exclude. A ZMK post that's about zero-knowledge crypto? Exclude. Broad keyword searches return mostly noise &mdash; the classifier's entire purpose was to say "no" to the false positives.</p>
+
+  <pre><code><span class="token comment"># The core loop, day one:</span>
+<span class="token comment"># 1. Fetch candidates from HN</span>
+<span class="token comment"># 2. Ask Claude: is this about mechanical keyboards?</span>
+<span class="token comment"># 3. If yes, format and publish</span>
+
+candidates = fetch_hn_algolia(KEYWORDS)
+prompt = build_classifier_prompt(candidates)
+response = call_anthropic(prompt)  <span class="token comment"># ~15k tokens/day for HN alone</span>
+
+<span class="token keyword">if</span> response != <span class="token string">"NO_REPLY"</span>:
+    items = parse_digest(response)
+    publish(items)</code></pre>
+  <p class="code-caption">The prototype loop (pseudocode)</p>
+
+  <p>It worked immediately. The first morning, two items came through, both genuinely interesting firmware releases. The second morning, nothing &mdash; and that was right too. The signal-to-noise ratio was essentially perfect, because the model had enough context to make nuanced judgment calls that keyword matching alone never could.</p>
+
+  <aside class="concept">
+    <span class="label">Why a frontier model first</span>
+    <p>Prototyping with Claude meant we could iterate on the classifier prompt in natural language, test edge cases conversationally, and get a working pipeline in a single afternoon. The cost was real (~109k input tokens/day across all sources eventually), but the speed to validation was worth it. You can always optimize later; you can't un-waste the week you spent building infrastructure before proving the concept works.</p>
+  </aside>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>One source, one model, one cron job. The concept works. The taste is right. Now we need more coverage.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 3 — Expanding the Wire -->
+<!-- ====================================================================== -->
+
+<section id="ch3" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch3-wireroom.jpg" alt="A wall of teletype machines in a 1950s wire service office, operators tending multiple feeds.">
+  <p class="chapter-number">Section three</p>
+  <h2>Expanding the wire</h2>
+
+  <div class="goal">
+    <span class="goal-label">The approach</span>
+    <p>Add Reddit's JSON API for five subreddits, then Gmail label parsing for vendor newsletters. Each source needs its own ingestion logic but feeds the same classifier.</p>
+  </div>
+
+  <p class="chapter-opener">Hacker News catches the open-source firmware releases and the "Show HN" posts. It misses everything else. The keyboard community lives on Reddit &mdash; build photos, layout discussions, vendor drama, group buy announcements. Five subreddits cover the space: <code>r/MechanicalKeyboards</code>, <code>r/olkb</code>, <code>r/zmk</code>, <code>r/ErgoMechKeyboards</code>, and <code>r/Kanata</code>.</p>
+
+  <p>Reddit's JSON API is unauthenticated and returns structured data &mdash; title, score, comment count, subreddit, permalink. The ingest script pulls recent posts above a score threshold, formats them into the same shape as HN items, and feeds them through the same classifier prompt. Different source, same question: is this worth reading?</p>
+
+  <pre><code><span class="token comment"># Reddit items arrive already structured</span>
+REDDIT_LINE_RE = re.compile(
+    <span class="token string">r"^(?P&lt;emoji&gt;[...])\s*"</span>
+    <span class="token string">r"\*&lt;?(?P&lt;url&gt;https?://www\.reddit\.com/r/"</span>
+    <span class="token string">r"(?P&lt;subreddit&gt;[^/]+)/comments/(?P&lt;id&gt;[^/]+)"</span>
+    <span class="token string">r"/[^|&gt;*]*)\|(?P&lt;title&gt;[^&gt;*&lt;]+)&gt;?\*\s*"</span>
+    ...
+)</code></pre>
+  <p class="code-caption">scripts/parse_digest.py &mdash; regex parsing for Reddit items</p>
+
+  <p>Newsletters were harder. Vendor emails are semi-structured at best: HTML marketing layouts, tracking pixels, unsubscribe links, the sender's full name in the From field. Before classification could even begin, we needed extraction. What's the subject? What's the primary link? What's the one-sentence summary of what this email is actually announcing?</p>
+
+  <pre><code><span class="token comment"># Email pipeline: fetch → extract → classify → sanitize</span>
+<span class="token keyword">for</span> msg <span class="token keyword">in</span> fetch_labeled_emails(<span class="token string">"Keyboard"</span>, days=1):
+    <span class="token keyword">if</span> msg.sender <span class="token keyword">in</span> SKIP_SENDERS:
+        <span class="token keyword">continue</span>
+
+    body = extract_body(msg)
+    result = classify_email(msg.subject, body[:3000])
+
+    <span class="token keyword">if</span> result[<span class="token string">"action"</span>] == <span class="token string">"SKIP"</span>:
+        <span class="token keyword">continue</span>
+
+    item = {
+        <span class="token string">"title"</span>: result[<span class="token string">"title"</span>],
+        <span class="token string">"takeaway"</span>: result[<span class="token string">"takeaway"</span>],
+        <span class="token string">"primary_url"</span>: pick_primary_link(body),
+        <span class="token string">"source"</span>: <span class="token string">"email"</span>,
+    }</code></pre>
+  <p class="code-caption">scripts/email_pipeline.py &mdash; simplified extraction loop</p>
+
+  <p>The email pipeline also introduced a privacy concern. Vendor newsletters contain your name, your email address, tracking URLs tied to your account. Publishing those directly to a static site would leak personal information. So we added a sanitization step: strip names, strip tracking pixels, strip unsubscribe links, generate clean landing pages with only the content that matters.</p>
+
+  <aside class="concept">
+    <span class="label">The source taxonomy</span>
+    <p>Structured APIs (HN, Reddit) &rarr; semi-structured email (newsletters) &rarr; eventually, unstructured forums (Geekhack). Each step up in messiness requires more intelligence in the pipeline. The classifier prompt stays the same; the ingestion layer gets more complex.</p>
+  </aside>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>Three sources running at staggered cron times. Broad coverage. But ~109k tokens/day hitting a remote API, and every newsletter is passing through a third party.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 4 — Going Local -->
+<!-- ====================================================================== -->
+
+<section id="ch4" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch4-press.jpg" alt="Close-up of a letterpress: ink-stained hands setting individual type blocks into a chase.">
+  <p class="chapter-number">Section four</p>
+  <h2>Going local</h2>
+
+  <div class="goal">
+    <span class="goal-label">The decision</span>
+    <p>Migrate from a remote frontier model to a local 35B-parameter model running on Ollama. Reduce token cost to zero. Keep data on-device.</p>
+  </div>
+
+  <p class="chapter-opener">Two forces pushed us off the remote model. The first was cost: ~109k input tokens per day, every day, for what amounted to a series of binary classification decisions. The model was excellent at the task &mdash; but the task wasn't hard enough to justify the spend. The second was privacy: every vendor newsletter, with its embedded names and tracking links, was being sent to a third-party API for classification. That felt wrong for what should be a personal tool.</p>
+
+  <p>The question was whether a local model could match the quality. We ran a backtest: seven days of historical items, classified by both the remote model and a local <span class="tt" data-tt="Qwen 3.6 35B (A3B variant): a 35-billion-parameter instruction-tuned model from Alibaba. Runs on consumer hardware via Ollama. Strong at structured output and classification tasks.">Qwen 35B</span> running on <span class="tt" data-tt="Ollama is a tool for running large language models locally. It handles model download, quantization, and serving via a simple HTTP API on localhost.">Ollama</span>. The results:</p>
+
+  <ul>
+    <li>5 days: identical output</li>
+    <li>2 days: marginal differences (one extra item included, or one fewer)</li>
+    <li>0 days: clearly wrong decisions</li>
+  </ul>
+
+  <p>Good enough. We shipped the migration.</p>
+
+  <pre><code><span class="token comment"># All scripts now point to localhost</span>
+OLLAMA_URL = os.environ.get(
+    <span class="token string">"OLLAMA_URL"</span>, <span class="token string">"http://localhost:11434/api/generate"</span>
+)
+MODEL = os.environ.get(
+    <span class="token string">"KW_TAG_MODEL"</span>, <span class="token string">"qwen3.6:35b-a3b"</span>
+)</code></pre>
+  <p class="code-caption">scripts/tag_items.py &mdash; the model configuration, entire thing</p>
+
+  <p>The migration unlocked something unexpected: because inference was now free, we could add <em>more</em> LLM-powered steps without worrying about cost. Topic tagging, headline rewriting, email content extraction &mdash; all tasks that benefit from language understanding but don't require frontier reasoning. Before, each new step was a line item. Now it was just compute time on a machine that was already running.</p>
+
+  <p>Inference takes 10&ndash;30 seconds per source on a Mac Mini using the 35B model. The entire daily pipeline &mdash; all three sources, all enrichment steps &mdash; finishes in under two minutes. Cost: the electricity to run it.</p>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>$0/day inference. Full data sovereignty. And because the model is free, we can now do more with it &mdash; not less.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 5 — The Three Layers -->
+<!-- ====================================================================== -->
+
+<section id="ch5" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch5-composing.jpg" alt="A compositor at a layout table, arranging columns of lead type into a page form.">
+  <p class="chapter-number">Section five</p>
+  <h2>The three layers</h2>
+
+  <div class="goal">
+    <span class="goal-label">The architecture</span>
+    <p>Static Python for what's deterministic. Local LLM for what needs judgment. Small scripts composed in a Unix pipeline.</p>
+  </div>
+
+  <p class="chapter-opener">Not everything needs a model. The pipeline divides cleanly into three kinds of work, and each gets the right tool.</p>
+
+  <h3>Layer 1: Static Python</h3>
+
+  <p>Regex parsing, deduplication, HTML generation, RSS rendering, the breaking/evergreen classification (emoji + keyword matching). These are deterministic &mdash; given the same input, they produce the same output every time. No model, no inference, no ambiguity.</p>
+
+  <pre><code><span class="token keyword">def</span> <span class="token function">classify</span>(emoji: <span class="token class-name">str</span>, title: <span class="token class-name">str</span>) -> <span class="token class-name">str</span>:
+    <span class="token keyword">if</span> emoji <span class="token keyword">in</span> BREAKING_EMOJI:
+        <span class="token keyword">return</span> <span class="token string">"breaking"</span>
+    <span class="token keyword">if</span> emoji <span class="token keyword">in</span> EVERGREEN_EMOJI:
+        <span class="token keyword">return</span> <span class="token string">"evergreen"</span>
+    <span class="token keyword">if</span> BREAKING_KEYWORDS.search(title):
+        <span class="token keyword">return</span> <span class="token string">"breaking"</span>
+    <span class="token keyword">return</span> <span class="token string">"evergreen"</span></code></pre>
+  <p class="code-caption">scripts/parse_digest.py &mdash; no model needed for this decision</p>
+
+  <h3>Layer 2: Local LLM</h3>
+
+  <p>Topic tagging (<em>"Is this about firmware, ergonomics, or tooling?"</em>). Headline rewriting (<em>"Is this clickbait? If so, rewrite it in Techmeme style."</em>). Email content extraction (<em>"What is this newsletter announcing?"</em>). These are judgment calls that need language understanding but not frontier reasoning. A 35B model handles them cleanly.</p>
+
+  <h3>Layer 3: Composition</h3>
+
+  <p>Each script does one thing. They compose via stdin/stdout, like Unix pipes:</p>
+
+  <pre><code>parse_digest.py | tag_items.py | rewrite_titles.py | fetch_images.py | append_day.py</code></pre>
+
+  <p>Any script can be run independently, tested in isolation, or replaced. The pipeline is a shell script, not a framework. There's no orchestration layer, no DAG, no scheduler beyond cron. This is intentional &mdash; the system is small enough that adding infrastructure would cost more in complexity than it saves in convenience.</p>
+
+  <figure class="diagram">
+    <svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" aria-label="Pipeline architecture diagram showing three source feeds flowing through classification, enrichment, and publication stages.">
+      <defs>
+        <linearGradient id="tile-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#faf8f4"/>
+          <stop offset="100%" style="stop-color:#f0ece4"/>
+        </linearGradient>
+        <linearGradient id="tile-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" style="stop-color:#fdf0ef"/>
+          <stop offset="100%" style="stop-color:#f8e0dc"/>
+        </linearGradient>
+      </defs>
+
+      <!-- Source tiles -->
+      <rect x="20" y="20" width="140" height="60" rx="6" fill="url(#tile-grad)" stroke="#d4cfc4"/>
+      <text x="90" y="46" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" fill="#8a8a8a">SOURCE</text>
+      <text x="90" y="64" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="14" fill="#1a1a1a">HN Algolia</text>
+
+      <rect x="180" y="20" width="140" height="60" rx="6" fill="url(#tile-grad)" stroke="#d4cfc4"/>
+      <text x="250" y="46" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" fill="#8a8a8a">SOURCE</text>
+      <text x="250" y="64" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="14" fill="#1a1a1a">Reddit JSON</text>
+
+      <rect x="340" y="20" width="140" height="60" rx="6" fill="url(#tile-grad)" stroke="#d4cfc4"/>
+      <text x="410" y="46" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.1em" fill="#8a8a8a">SOURCE</text>
+      <text x="410" y="64" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="14" fill="#1a1a1a">Gmail label</text>
+
+      <!-- Flow arrows from sources -->
+      <path d="M 90 80 L 90 110 Q 90 120 100 120 L 240 120" stroke="#b81c1c" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+      <path d="M 250 80 L 250 120" stroke="#b81c1c" stroke-width="1.5" fill="none"/>
+      <path d="M 410 80 L 410 110 Q 410 120 400 120 L 260 120" stroke="#b81c1c" stroke-width="1.5" fill="none"/>
+
+      <defs><marker id="arrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6" fill="#b81c1c"/></marker></defs>
+
+      <!-- Classify stage -->
+      <rect x="170" y="140" width="160" height="56" rx="6" fill="url(#tile-accent)" stroke="#b81c1c" stroke-width="1.5"/>
+      <text x="250" y="162" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#b81c1c">CLASSIFY</text>
+      <text x="250" y="182" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="13" fill="#2a2a2a">Local LLM (Qwen 35B)</text>
+
+      <!-- Arrow down -->
+      <line x1="250" y1="196" x2="250" y2="226" stroke="#5a5a5a" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+      <!-- Enrich stage -->
+      <rect x="130" y="226" width="240" height="72" rx="6" fill="url(#tile-grad)" stroke="#d4cfc4"/>
+      <text x="250" y="248" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#8a8a8a">ENRICH</text>
+      <text x="250" y="268" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="13" fill="#2a2a2a">tag_items &middot; rewrite_titles</text>
+      <text x="250" y="286" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="13" fill="#2a2a2a">fetch_images &middot; sanitize_email</text>
+
+      <!-- Arrow down -->
+      <line x1="250" y1="298" x2="250" y2="328" stroke="#5a5a5a" stroke-width="1.2" stroke-dasharray="4 3"/>
+
+      <!-- Publish stage -->
+      <rect x="170" y="328" width="160" height="56" rx="6" fill="url(#tile-grad)" stroke="#d4cfc4"/>
+      <text x="250" y="350" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" letter-spacing="0.08em" fill="#8a8a8a">PUBLISH</text>
+      <text x="250" y="370" text-anchor="middle" font-family="Charter, Georgia, serif" font-size="13" fill="#2a2a2a">generate.py &rarr; GitHub Pages</text>
+
+      <!-- Layer labels on right side -->
+      <text x="540" y="168" font-family="-apple-system, sans-serif" font-size="11" fill="#b81c1c" font-weight="600" letter-spacing="0.06em">LLM LAYER</text>
+      <text x="540" y="268" font-family="-apple-system, sans-serif" font-size="11" fill="#8a8a8a" font-weight="600" letter-spacing="0.06em">MIXED</text>
+      <text x="540" y="358" font-family="-apple-system, sans-serif" font-size="11" fill="#8a8a8a" font-weight="600" letter-spacing="0.06em">STATIC PYTHON</text>
+
+      <!-- Connecting bracket lines -->
+      <line x1="520" y1="155" x2="530" y2="155" stroke="#b81c1c" stroke-width="1"/>
+      <line x1="530" y1="155" x2="530" y2="175" stroke="#b81c1c" stroke-width="1"/>
+      <line x1="520" y1="255" x2="530" y2="255" stroke="#8a8a8a" stroke-width="1"/>
+      <line x1="530" y1="255" x2="530" y2="275" stroke="#8a8a8a" stroke-width="1"/>
+      <line x1="520" y1="345" x2="530" y2="345" stroke="#8a8a8a" stroke-width="1"/>
+      <line x1="530" y1="345" x2="530" y2="365" stroke="#8a8a8a" stroke-width="1"/>
+    </svg>
+    <figcaption>Three sources feed one classifier. Enrichment is a mix of static and LLM steps. Publication is pure Python.</figcaption>
+  </figure>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>The right tool for each task. No framework, no orchestration &mdash; just cron, shell pipes, and scripts that do one thing each.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 6 — Editorial Voice -->
+<!-- ====================================================================== -->
+
+<section id="ch6" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch6-editor.jpg" alt="An editor at a desk, red pencil in hand, marking up galley proofs spread across the surface.">
+  <p class="chapter-number">Section six</p>
+  <h2>Editorial voice</h2>
+
+  <div class="goal">
+    <span class="goal-label">The philosophy</span>
+    <p>A news wire isn't just what you include. It's what you exclude, and how you present what survives.</p>
+  </div>
+
+  <p class="chapter-opener">The classifier prompt's most important line is four words: <strong>DEFAULT POSITION: EXCLUDE.</strong> Most candidate items, on most days, are noise. A Reddit post about a keyboard-themed cake? Exclude. A repost of last week's firmware announcement? Exclude. A vague "what should I buy?" question with no informational content? Exclude. The prompt explicitly biases toward silence.</p>
+
+  <pre><code><span class="token comment"># From the classifier prompt:</span>
+<span class="token comment">#</span>
+<span class="token comment"># DEFAULT POSITION: EXCLUDE — most days return NO_REPLY.</span>
+<span class="token comment"># Include ONLY items that a keyboard firmware/hardware</span>
+<span class="token comment"># practitioner would find genuinely newsworthy.</span>
+<span class="token comment">#</span>
+<span class="token comment"># False positive examples (EXCLUDE these):</span>
+<span class="token comment">#   - "KMK" when it's about Kubernetes (KMK = Kind MK8s)</span>
+<span class="token comment">#   - "ZMK" in a zero-knowledge proof context</span>
+<span class="token comment">#   - "Karabiner" when discussing macOS but not keyboards</span>
+<span class="token comment">#   - Piano/music keyboard content</span></code></pre>
+
+  <p>Headlines get the same treatment. The <code>rewrite_titles.py</code> script asks the model a two-part question: first, <em>is this headline clickbait, sensational, or vague?</em> If not, leave it alone &mdash; many titles are already good. If yes, rewrite it in Techmeme style: lead with the entity, state the action factually, no superlatives, no mystery, no second-person framing.</p>
+
+  <pre><code>SYSTEM_PROMPT = <span class="token string">"""You are a headline editor in the style of Techmeme.
+
+Techmeme rewrites publisher headlines so they read as terse,
+factual, detail-rich abstracts. Apply these principles:
+
+  1. LEAD WITH THE ENTITY.
+  2. STATE THE ACTION FACTUALLY.
+  3. NO SUPERLATIVES.
+  4. NO SECOND-PERSON / NO RHETORICAL FRAMING.
+  5. NO MYSTERY.
+  6. PRESERVE FACTS.
+  7. CONCISE (&lt;90 chars).
+  8. NEUTRAL TONE.
+"""</span></code></pre>
+  <p class="code-caption">scripts/rewrite_titles.py &mdash; the editorial policy, encoded</p>
+
+  <p>The result is a feed that reads like a wire service, not a Reddit front page. Titles are informative at a glance. Items are tagged by topic. The reader &mdash; future-me, mostly &mdash; can scan five items in thirty seconds and know whether anything happened today.</p>
+
+  <aside class="concept">
+    <span class="label">Taste as software</span>
+    <p>The classifier prompt, the topic taxonomy, the headline style guide, the include/exclude worked examples &mdash; these aren't configuration. They're the product. Changing a single line in the classifier prompt changes what the wire publishes tomorrow. This is editorial taste expressed as code, iterable and version-controlled.</p>
+  </aside>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>A strict filter, a Techmeme-style rewrite pass, and topic tags. The feed reads like a wire service desk edited it.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- CHAPTER 7 — The Next Edition -->
+<!-- ====================================================================== -->
+
+<section id="ch7" class="chapter fade-up">
+  <img loading="lazy" class="chapter-photo" src="assets/ch7-morning.jpg" alt="A newsboy running down a street at dawn, fresh papers bundled under his arm, city waking behind him.">
+  <p class="chapter-number">Section seven</p>
+  <h2>The next edition</h2>
+
+  <div class="goal">
+    <span class="goal-label">What's next</span>
+    <p>Forum thread summarization, state tracking over time, and the template for building your own wire on any topic.</p>
+  </div>
+
+  <p class="chapter-opener">The natural next source is <span class="tt" data-tt="Geekhack is the oldest active mechanical keyboard forum. Group buys — community-organized bulk orders for custom keyboards — are announced, tracked, and updated in long-running threads there.">Geekhack</span> &mdash; specifically, its group buy threads. A group buy is a community-organized bulk order for a custom keyboard or keycap set. They have lifecycle states: Interest Check &rarr; Group Buy open &rarr; closed &rarr; in production &rarr; shipping &rarr; delivered. The status lives in forum threads that span months, buried in pages of comments.</p>
+
+  <p>This is a harder problem than link aggregation. You can't just check "is this new?" &mdash; you need to track thread state over time, detect when status changes, and condense a 40-page thread into a single current-status summary. It extends the source taxonomy one more step: structured APIs &rarr; semi-structured email &rarr; unstructured forum threads.</p>
+
+  <p>The architecture supports it cleanly. A new ingest script, a new classification prompt, the same downstream pipeline. The local model is already free; the only cost is writing the state-tracking logic.</p>
+
+  <blockquote><p>Pick a niche. Pick a source. Write a classifier prompt. Iterate.</p></blockquote>
+
+  <p>That's the recipe. The pipeline scripts are in the repo. The classifier prompts are the taste layer &mdash; the part you swap in for your domain. The plumbing is reusable; the editorial judgment is yours.</p>
+
+  <div class="checkpoint">
+    <p class="checkpoint-label">Where we are</p>
+    <p><em>A working wire service. Zero cost. Full control. And a pattern that generalizes to any niche you care about deeply enough to have taste in.</em></p>
+  </div>
+</section>
+
+<hr class="section-rule">
+
+<!-- ====================================================================== -->
+<!-- APPENDIX — Roll Your Own -->
+<!-- ====================================================================== -->
+
+<section class="appendix" id="appendix">
+  <h2>Roll your own wire</h2>
+  <p class="deck">The short version. The repo README has the full setup guide.</p>
+
+  <ol>
+    <li>
+      <strong>Pick your niche.</strong>
+      Something you know well enough to have editorial taste in. If you can't articulate what "noise" looks like for this topic, you're not ready to write a classifier prompt.
+    </li>
+    <li>
+      <strong>Pick one source.</strong>
+      HN Algolia, Reddit JSON, an RSS feed &mdash; anything with a free API and structured output. Start with one. Prove the concept.
+    </li>
+    <li>
+      <strong>Write your classifier prompt.</strong>
+      Binary: INCLUDE or EXCLUDE. Default to exclude. Add worked examples of false positives. This is the product &mdash; spend time here.
+    </li>
+    <li>
+      <strong>Prototype with a remote model.</strong>
+      Claude, GPT-4, whatever you have access to. Iterate on the prompt conversationally. Don't optimize yet.
+    </li>
+    <li>
+      <strong>Go local when you're confident.</strong>
+      Install Ollama. Pull a capable 30B+ model. Point your scripts at localhost. Backtest a week of historical data to validate.
+    </li>
+    <li>
+      <strong>Add enrichment now that inference is free.</strong>
+      Topic tags, headline rewrites, image fetching. Each step is a small script that reads stdin and writes stdout.
+    </li>
+    <li>
+      <strong>Publish.</strong>
+      Static HTML to GitHub Pages. An RSS feed. Optional Slack delivery. Cron it and walk away.
+    </li>
+  </ol>
+
+  <p style="margin-top: 32px;">The code is at <a href="https://github.com/malpern/keyboard-wire">github.com/malpern/keyboard-wire</a>. Fork it, swap in your taste, and run your own edition.</p>
+</section>
+
+<!-- ====================================================================== -->
+<!-- FOOTER -->
+<!-- ====================================================================== -->
+
+<footer class="footer">
+  <p>keyboard wire &middot; main &middot; docs/post/index.html</p>
+</footer>
+
+</article>
+</main>
+
+<!-- ====================================================================== -->
+<!-- SCRIPTS -->
+<!-- ====================================================================== -->
+<script>
+/* Typewriter title animation */
+(() => {
+  const title = 'All the News That’s Fit to Filter';
+  const el = document.querySelector('.title-text');
+  const cursor = document.querySelector('.title-cursor');
+  if (!el) return;
+
+  let i = 0;
+  const speed = 55;
+
+  function type() {
+    if (i < title.length) {
+      el.textContent += title[i];
+      i++;
+      setTimeout(type, speed + Math.random() * 30);
+    } else {
+      setTimeout(() => { cursor.style.display = 'none'; }, 2400);
+    }
+  }
+
+  setTimeout(type, 600);
+})();
+
+/* Fade-up on scroll (IntersectionObserver) */
+(() => {
+  const sections = document.querySelectorAll('.fade-up');
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { rootMargin: '-60px 0px', threshold: 0.1 });
+  sections.forEach(s => obs.observe(s));
+})();
+
+/* Sticky chapter nav */
+(() => {
+  const nav = document.querySelector('.chapter-nav');
+  const progress = nav.querySelector('.nav-progress');
+  const current = nav.querySelector('.nav-current .nav-title');
+  const prevA = nav.querySelector('.nav-prev');
+  const nextA = nav.querySelector('.nav-next');
+  const hero = document.querySelector('.hero');
+  const chapters = Array.from(document.querySelectorAll('.chapter, .appendix'));
+
+  const heroObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      nav.classList.toggle('visible', !e.isIntersecting);
+    });
+  }, { rootMargin: '-20px 0px 0px 0px' });
+  heroObs.observe(hero);
+
+  const chapterObs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (!e.isIntersecting) return;
+      const i = chapters.indexOf(e.target);
+      if (i === -1) return;
+      const h2 = e.target.querySelector('h2');
+      if (h2) current.textContent = h2.textContent;
+
+      if (i > 0) {
+        const prev = chapters[i-1].querySelector('h2');
+        prevA.querySelector('.nav-title').textContent = prev ? prev.textContent : '';
+        prevA.href = '#' + (chapters[i-1].id || '');
+        prevA.style.visibility = 'visible';
+      } else {
+        prevA.style.visibility = 'hidden';
+      }
+      if (i < chapters.length - 1) {
+        const next = chapters[i+1].querySelector('h2');
+        nextA.querySelector('.nav-title').textContent = next ? next.textContent : '';
+        nextA.href = '#' + (chapters[i+1].id || '');
+        nextA.style.visibility = 'visible';
+      } else {
+        nextA.style.visibility = 'hidden';
+      }
+    });
+  }, { rootMargin: '-30% 0px -60% 0px' });
+  chapters.forEach(c => chapterObs.observe(c));
+
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const max = h.scrollHeight - h.clientHeight;
+    const pct = Math.max(0, Math.min(100, (h.scrollTop / max) * 100));
+    progress.style.width = pct + '%';
+  }, { passive: true });
+})();
+
+/* Copy buttons on code blocks */
+document.querySelectorAll('pre').forEach(pre => {
+  const btn = document.createElement('button');
+  btn.className = 'copy-btn';
+  btn.type = 'button';
+  btn.textContent = 'Copy';
+  btn.addEventListener('click', async () => {
+    const code = pre.querySelector('code');
+    const text = code ? code.textContent : pre.textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      btn.textContent = 'Copied';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 1400);
+    } catch (_) { btn.textContent = 'Failed'; }
+  });
+  pre.appendChild(btn);
+});
+
+/* Glossary tooltip tap-to-toggle on mobile */
+document.querySelectorAll('.tt').forEach(t => {
+  t.addEventListener('click', e => {
+    e.stopPropagation();
+    document.querySelectorAll('.tt.is-open').forEach(other => {
+      if (other !== t) other.classList.remove('is-open');
+    });
+    t.classList.toggle('is-open');
+  });
+});
+document.addEventListener('click', () => {
+  document.querySelectorAll('.tt.is-open').forEach(t => t.classList.remove('is-open'));
+});
+</script>
+
+</body>
+</html>
