@@ -16,7 +16,7 @@ Three things in one repo:
 2. **The data.** `data/corpus.json` is the rolling source of truth — every item the site has ever shown. `data/days/<YYYY-MM-DD>.json` holds individual days for cleaner diffs.
 3. **The pipeline.** `scripts/` contains the Python that ingests, classifies, sanitizes, and renders. The driver scripts (cron wrappers + Slack delivery) live in a separate private repo, but the pipeline scripts here are usable standalone.
 
-The defaults are tuned to one specific reader's taste (the maintainer's). If you want to fork it for your own taste, see [Run your own](#run-your-own) below.
+The defaults are tuned to Micah Alpern's reading taste — particular keyboard subreddits, particular vendors, a particular threshold for "is this newsworthy." If you want to fork it for your own taste, see [Run your own](#run-your-own) below.
 
 ## How it works
 
@@ -26,7 +26,7 @@ ingest ──────────┼─ Reddit JSON (r/MechanicalKeyboards, 
                  └─ Gmail "Keyboard" label (vendor newsletters)
                             │
                             ▼
-classify  ──── local Qwen3.6 model (Ollama, on-device)
+classify  ──── local LLM via Ollama (on-device)
                  ├─ strict include/exclude prompt — DEFAULT POSITION: EXCLUDE
                  └─ "is this newsworthy for a keyboard hobbyist?"
                             │
@@ -56,7 +56,7 @@ A daily cron runs the three ingest sources at staggered times (5:02 / 5:03 / 5:0
 
 ### Why a local model?
 
-Each ingest source originally ran on a hosted Sonnet model — about 109k input tokens/day combined. Moving to a local Qwen3.6:35b-a3b on Ollama dropped that to zero, kept quality high after a backtest (5 clean / 2 marginal / 0 bad days out of 7), and freed Claude Max headroom for interactive work. Inference takes ~10–30s per source on a Mac Mini.
+Each ingest source originally ran on a hosted frontier model — about 109k input tokens/day combined. Moving to a local model on Ollama dropped that to zero, kept quality high after a backtest (5 clean / 2 marginal / 0 bad days out of 7), and freed up rate-limit headroom on the hosted model for interactive work. Inference takes ~10–30s per source on a Mac Mini using a 30B-class instruction-tuned model.
 
 ### Why this strict?
 
@@ -101,7 +101,7 @@ This works best as a fork-and-customize project. The pipeline is reusable but th
 
 - macOS or Linux (tested on macOS 25)
 - Python 3.11+
-- [Ollama](https://ollama.com/) with a capable instruction-tuned model (default: `qwen3.6:35b-a3b` — any 30B+ class model with structured-output tendencies should work)
+- [Ollama](https://ollama.com/) with a capable instruction-tuned model (any 30B+ class model with reliable structured-output behavior should work)
 - `jq` and `curl` for the cron drivers
 - (Optional) a Gmail account with a label for vendor newsletters, and a CLI like [`gog`](https://github.com/jhillyerd/gog) or any IMAP client to fetch them
 
@@ -112,10 +112,10 @@ This works best as a fork-and-customize project. The pipeline is reusable but th
 git clone git@github.com:YOU/keyboard-wire.git
 cd keyboard-wire
 
-# 2. Install the local model
-ollama pull qwen3.6:35b-a3b   # ~20GB; substitute your preferred model
+# 2. Install a local model via Ollama (any capable 30B+ instruction-tuned model)
+ollama pull <your-model-of-choice>
 
-# 3. Edit the parts that encode my taste, not yours
+# 3. Edit the parts that encode the maintainer's defaults, not yours
 #    - scripts/generate.py        SITE_URL, site title, GitHub repo URL
 #    - scripts/email_archive.py   SITE_URL, ACCOUNT default
 #    - scripts/sanitize_email.py  USER_FIRST_NAMES, USER_EMAIL_LOCAL_PARTS
@@ -134,14 +134,14 @@ This repo intentionally does **not** include the cron drivers — they're the pa
 3. If the model returns anything other than `NO_REPLY`, pipes the output through `parse_digest.py`, then `tag_items.py | rewrite_titles.py | fetch_images.py | append_day.py | generate.py`
 4. Commits `data/` and `docs/` and pushes
 
-A reference shape (without the proprietary delivery glue) is in this repo's history; search the issues for "driver-script template" or open one and I'll publish a sanitized example.
+If you want a worked example to adapt, [open an issue](https://github.com/malpern/keyboard-wire/issues) asking for a sanitized driver-script template and I'll publish one.
 
 ### Customizing taste
 
 The hot spots, in order of likely interest:
 
 - **`tag_items.py`, `rewrite_titles.py`** — prompts that decide topic tags and rewrite headlines. The topic taxonomy (`Firmware`, `Builds & Hardware`, …) lives here.
-- **The classifier prompt in your driver script** — the include/exclude rules are the highest-leverage thing to tune. Mine biases toward exclusion; yours can be looser.
+- **The classifier prompt in your driver script** — the include/exclude rules are the highest-leverage thing to tune. The default biases toward exclusion; yours can be looser.
 - **`scripts/generate.py`** — site title, layout, CSS-class hooks.
 - **`docs/style.css`** — typography (currently a serif headline / sans body) and color.
 
