@@ -3,6 +3,51 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-04",
+      "items": [
+        {
+          "id": "hn-48005591",
+          "title": "Mechvibes: Mechanical-Keyboard Sound Effects",
+          "url": "https://mechvibes.com/",
+          "discussion_url": "https://news.ycombinator.com/item?id=48005591",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "sound-effects",
+            "mechanical-keyboard"
+          ],
+          "image": "img/hn-48005591.jpg"
+        },
+        {
+          "id": "hn-48009722",
+          "title": "Karabiner-Elements 16.0.0",
+          "url": "https://karabiner-elements.pqrs.org/docs/releasenotes/",
+          "discussion_url": "https://news.ycombinator.com/item?id=48009722",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "key-remapping",
+            "macos-utilities"
+          ],
+          "image": "img/hn-48009722.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-05-03",
       "items": [
         {

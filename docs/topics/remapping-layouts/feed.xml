@@ -6,7 +6,17 @@
   <atom:link href="https://malpern.github.io/keyboard-wire/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 03 May 2026 19:10:03 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 04 May 2026 18:52:33 +0000</lastBuildDate>
+  <item>
+    <title>Karabiner-Elements 16.0.0</title>
+    <link>https://karabiner-elements.pqrs.org/docs/releasenotes/</link>
+    <guid isPermaLink="false">hn-48009722</guid>
+    <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>User asks how to remap space to shift and ctrl to alt in Kanata</title>
     <link>https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/</link>
