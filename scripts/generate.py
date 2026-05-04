@@ -124,6 +124,7 @@ def head(title: str, description: str, canonical: str, feed: str | None = None) 
 <title>{html.escape(title)}</title>
 <meta name="description" content="{html.escape(description)}">
 <link rel="stylesheet" href="{relative_to_docs(canonical, "style.css")}?v={css_v}">
+<link rel="icon" type="image/svg+xml" href="{relative_to_docs(canonical, "favicon.svg")}">
 {feed_link}
 <link rel="canonical" href="{html.escape(canonical)}">
 <meta property="og:title" content="{html.escape(title)}">
