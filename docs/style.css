@@ -314,6 +314,19 @@ h1.site-title a:hover {
   -webkit-touch-callout: default;
 }
 
+.item-permalink {
+  color: var(--ink-faint);
+  text-decoration: none;
+  border: none;
+  font-size: 0.7em;
+  margin-left: 0.4em;
+  opacity: 0;
+  transition: opacity 0.15s;
+  vertical-align: middle;
+}
+.item:hover .item-permalink { opacity: 0.5; }
+.item-permalink:hover { opacity: 1 !important; color: var(--accent); }
+
 /* "Now playing" highlight — subtle accent rail when an item is being read */
 .item.now-playing {
   background: linear-gradient(

@@ -711,10 +711,13 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
         f'data-date="{html.escape(pub_date, quote=True)}"'
     )
 
-    return f'''<div class="{item_classes}" {item_data}>
+    item_id = html.escape(item.get("id") or "", quote=True)
+    permalink = f'<a class="item-permalink" href="#{item_id}" title="Permalink" aria-label="Permalink">¶</a>' if item_id else ""
+
+    return f'''<div class="{item_classes}" id="{item_id}" {item_data}>
   <div class="item-body">
     <div class="item-topmeta">{top_meta}</div>
-    <h3 class="item-title"{rewritten_attr}><a class="item-link" href="{url}" rel="noopener" target="_blank">{display_title}</a></h3>
+    <h3 class="item-title"{rewritten_attr}><a class="item-link" href="{url}" rel="noopener" target="_blank">{display_title}</a>{permalink}</h3>
     {takeaway_html}
     <div class="item-meta">{bottom_meta}</div>
   </div>
