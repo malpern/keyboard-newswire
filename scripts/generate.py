@@ -60,9 +60,10 @@ def fmt_date_short(date: str) -> str:
 
 
 def source_label(item: dict) -> str:
-    if item.get("source") == "hn":
+    src = (item.get("source") or "").lower()
+    if src in ("hn", "hackernews", "hacker-news", "hacker news"):
         return "Hacker News"
-    if item.get("source") == "email":
+    if src == "email":
         return f"✉ {item.get('via') or 'Inbox'}"
     sub = item.get("subreddit")
     return f"r/{sub}" if sub else "Reddit"
@@ -889,33 +890,33 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     bottom_meta = "".join(bottom_parts) if bottom_parts else ""
     takeaway_html = f'<p class="item-takeaway">{takeaway}</p>' if takeaway else ""
 
-    # Multi-source "Discussion: X · Y · Z" row (Techmeme-style). Only the
-    # secondary sources are listed; the primary source already appears in
-    # the top-meta line.
+    # Multi-source discussion list (Techmeme-style). Each secondary source
+    # gets its own line because score + comments are per-source.
     sources = item.get("sources") or []
     discussion_html = ""
     is_multi = len(sources) > 1
     if is_multi:
         secondary = sources[1:]
-        link_parts = []
+        rows = []
         for s in secondary:
             label = html.escape(s.get("label") or "source")
             href = html.escape(s.get("discussion_url") or "")
-            stat = ""
+            stats = []
             if s.get("score") is not None:
-                stat = f' <span class="src-stat">⬆ {s["score"]}</span>'
-            elif s.get("comments") is not None:
-                stat = f' <span class="src-stat">💬 {s["comments"]}</span>'
-            if href:
-                link_parts.append(
-                    f'<a href="{href}" rel="noopener" target="_blank">{label}</a>{stat}'
-                )
-            else:
-                link_parts.append(f'<span>{label}</span>{stat}')
+                stats.append(f'<span class="src-stat">⬆ {s["score"]}</span>')
+            if s.get("comments") is not None:
+                stats.append(f'<span class="src-stat">💬 {s["comments"]}</span>')
+            stats_html = (' ' + ' '.join(stats)) if stats else ''
+            link = (
+                f'<a href="{href}" rel="noopener" target="_blank">{label}</a>'
+                if href else f'<span>{label}</span>'
+            )
+            rows.append(f'<li>{link}{stats_html}</li>')
         discussion_html = (
-            '<p class="item-discussion"><span class="item-discussion-label">Discussion:</span> '
-            + ' <span class="sep">·</span> '.join(link_parts)
-            + '</p>'
+            '<div class="item-discussion">'
+            '<p class="item-discussion-label">Also discussed at</p>'
+            '<ul>' + ''.join(rows) + '</ul>'
+            '</div>'
         )
 
     image = item.get("image")
