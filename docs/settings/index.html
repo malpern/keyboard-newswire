@@ -670,7 +670,7 @@
     // Deep-link: open dialog automatically for ?subscribe=1 or #subscribe
     var search = (window.location.search || '');
     var hash = (window.location.hash || '').toLowerCase();
-    if (/[?&]subscribe(=1)?(&|$)/.test(search) || hash === '#subscribe') {
+    if (/[?&](subscribe|sub|s)(=1)?(&|$)/.test(search) || hash === '#subscribe') {
       // Wait a tick so layout settles before showing the modal
       setTimeout(openSub, 50);
     }
