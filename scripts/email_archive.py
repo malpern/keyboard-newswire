@@ -248,14 +248,14 @@ def render_landing(item: dict, fetched: dict, sanitized_html: str, report: dict)
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>{html.escape(title)} · malpern's keyboard wire</title>
+<title>{html.escape(title)} · mechanical keyboard newswire</title>
 <link rel="stylesheet" href="../../style.css?v={int(datetime.datetime.now().timestamp())}">
 <link rel="canonical" href="{SITE_URL}/email/{thread_id}/">
 </head>
 <body>
 <main>
 <header>
-  <h1 class="site-title"><a href="../../">malpern's keyboard wire</a></h1>
+  <h1 class="site-title"><a href="../../">mechanical keyboard newswire</a></h1>
   <p class="tagline">archived email — read-only</p>
   <p class="subscribe">
     <a href="../../">home</a>
