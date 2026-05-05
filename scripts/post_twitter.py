@@ -121,22 +121,34 @@ def format_tweet(item: dict) -> str:
     hashtags = list(dict.fromkeys(hashtags))[:3]
     hashtag_str = " ".join(hashtags)
 
-    if takeaway:
-        tweet = f"{title}\n\n{takeaway}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{takeaway}\n\n{url}"
-        if len(tweet) > 280:
-            avail = 280 - len(title) - len(url) - len(hashtag_str) - 8
-            if avail > 40:
-                takeaway = takeaway[:avail - 3].rsplit(" ", 1)[0] + "..."
-                tweet = f"{title}\n\n{takeaway}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{takeaway}\n\n{url}"
-            else:
-                tweet = f"{title}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{url}"
-    else:
-        tweet = f"{title}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{url}"
+    TCO_LEN = 23
+    overhead = len(title) + TCO_LEN + len(hashtag_str) + 8
 
-    if len(tweet) > 280:
+    if takeaway:
+        import re
+        sentences = re.split(r'(?<=[.!?])\s+', takeaway)
+        avail = 280 - overhead
+        fitted = ""
+        for s in sentences:
+            candidate = f"{fitted} {s}".strip() if fitted else s
+            if len(candidate) <= avail:
+                fitted = candidate
+            else:
+                break
+        if fitted and len(fitted) >= 30:
+            takeaway = fitted
+        else:
+            takeaway = ""
+
+    if takeaway and hashtag_str:
+        tweet = f"{title}\n\n{takeaway}\n\n{hashtag_str}\n{url}"
+    elif takeaway:
+        tweet = f"{title}\n\n{takeaway}\n\n{url}"
+    elif hashtag_str:
+        tweet = f"{title}\n\n{hashtag_str}\n{url}"
+    else:
         tweet = f"{title}\n\n{url}"
-    if len(tweet) > 280:
-        tweet = f"{title[:240]}...\n\n{url}"
+
     return tweet
 
 
