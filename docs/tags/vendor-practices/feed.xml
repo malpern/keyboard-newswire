@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Vendor Practices · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/vendor-practices/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/vendor-practices/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/vendor-practices/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/vendor-practices/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Vendor Practices.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
@@ -15,7 +15,7 @@
     <category>breaking</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Community</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -25,7 +25,7 @@
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Keyreative</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Keyreative</source>
     <description>Keyreative announces the Santa Llum keyboard is available for purchase in two colors. — ✉ Keyreative</description>
   </item>
   <item>
@@ -36,7 +36,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Treasuretypes</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Treasuretypes</source>
     <description>Treasure is launching the TYPE-9 Series IV along with three additional new keyboard projects. — ✉ Treasuretypes</description>
   </item>
   <item>
@@ -47,7 +47,7 @@
     <category>evergreen</category>
     <category>Keycaps &amp; Aesthetics</category>
     <category>Group Buys &amp; Vendors</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype has released the GMK (CYL) Burgundy keycap set, coinciding with the end of the Bauer 65 preorder. — ✉ Omnitype</description>
   </item>
   <item>
@@ -58,7 +58,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>The Bauer 65 groupbuy is closing in one day, with the Dune colorway available. — ✉ Omnitype</description>
   </item>
   <item>
@@ -69,7 +69,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Modedesigns</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
     <description>Mode Designs released the 2026 Encore keyboard featuring a new Crown Mounting System, with pre-orders open and fulfillment starting in July. — ✉ Modedesigns</description>
   </item>
   <item>
@@ -80,7 +80,7 @@
     <category>evergreen</category>
     <category>Firmware</category>
     <category>Group Buys &amp; Vendors</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/keyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
     <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
   </item>
 </channel>

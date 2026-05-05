@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Ortholinear · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/ortholinear/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/ortholinear/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/ortholinear/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/ortholinear/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Ortholinear.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>DIY ortholinear keyboard build using Pi Pico and ZMK</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3pbo9/free_your_minds_diy_nostabs_build/</link>
@@ -15,7 +15,7 @@
     <category>evergreen</category>
     <category>Splits &amp; Ergo</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>DIY ortholinear build using a Pi Pico running ZMK. Discusses the challenges of a no-stabilizer layout and the "jank" involved in the build. — 30 pts · 7 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>

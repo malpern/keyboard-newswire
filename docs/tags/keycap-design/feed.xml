@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Keycap Design · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/keycap-design/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/keycap-design/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/keycap-design/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/keycap-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Keycap Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Omnitype Firsty Thursday: GMK Dracula under $88</title>
     <link>https://malpern.github.io/keyboard-wire/email/19ddee10af3be603/</link>
@@ -15,7 +15,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype is selling a GMK Dracula keycap set for Firsty Thursday at a price under $88. — ✉ Omnitype</description>
   </item>
   <item>
@@ -26,7 +26,7 @@
     <category>evergreen</category>
     <category>Keycaps &amp; Aesthetics</category>
     <category>Group Buys &amp; Vendors</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype has released the GMK (CYL) Burgundy keycap set, coinciding with the end of the Bauer 65 preorder. — ✉ Omnitype</description>
   </item>
   <item>
@@ -37,7 +37,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Keyreative</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Keyreative</source>
     <description>Keyreative has opened a group buy for the KAP Capo Soda keycap set. — ✉ Keyreative</description>
   </item>
   <item>
@@ -47,7 +47,7 @@
     <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
   </item>
 </channel>

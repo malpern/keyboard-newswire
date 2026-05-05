@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Mechanical Keyboard · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/mechanical-keyboard/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/mechanical-keyboard/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Mechvibes: Mechanical-Keyboard Sound Effects</title>
     <link>https://mechvibes.com/</link>
@@ -14,7 +14,7 @@
     <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 1 comments · Hacker News</description>
   </item>
 </channel>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Macos Utilities · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/macos-utilities/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/macos-utilities/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Macos Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Karabiner-Elements 16.0.0</title>
     <link>https://karabiner-elements.pqrs.org/docs/releasenotes/</link>
@@ -14,7 +14,7 @@
     <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -25,7 +25,7 @@
     <category>breaking</category>
     <category>Remapping &amp; Layouts</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Creator of "HoldTap" announces a new macOS application designed to bring layer/hold-tap functionality to standard keyboards without flashing firmware. Relevant for Mac users who want ZMK-like features. — 37 pts · 18 comments · r/olkb</description>
   </item>
   <item>
@@ -35,7 +35,7 @@
     <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>New open-source, Rust-based macOS daemon for keyboard-driven mouse navigation. Alternative to Mouseless/Warpd for users who prefer CLI/menu-bar tools. — 9 pts · 2 comments · r/ErgoMechKeyboards</description>
   </item>
   <item>
@@ -45,7 +45,7 @@
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/macapps</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/macapps</source>
     <description>Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users. — 20 pts · 10 comments · r/macapps</description>
   </item>
   <item>
@@ -55,7 +55,7 @@
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -65,7 +65,7 @@
     <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
     <category>breaking</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -75,7 +75,7 @@
     <pubDate>Sat, 02 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -85,7 +85,7 @@
     <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -95,7 +95,7 @@
     <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
   </item>
   <item>
@@ -105,7 +105,7 @@
     <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 1 comments · Hacker News</description>
   </item>
   <item>
@@ -115,7 +115,7 @@
     <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
     <description>Solved issue with kanata on macOS where backtick/tilde keys displayed wrong characters — fixed by changing keyboard type in settings. — 1 pts · 12 comments · r/KeyboardLayouts</description>
   </item>
 </channel>

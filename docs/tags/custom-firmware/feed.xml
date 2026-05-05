@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Custom Firmware · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/custom-firmware/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/custom-firmware/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/custom-firmware/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/custom-firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Custom Firmware.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Custom RP2040 keyboard using KMK firmware ships with self-designed shell, PCB, and top plate</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3efz5/finally_designed_my_own_shell_pcb_and_top_plate/</link>
@@ -15,7 +15,7 @@
     <category>evergreen</category>
     <category>Builds &amp; Hardware</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Custom build running KMK (Kaleidosaurus Microkernel) on an RP2040. Interesting technical discussion on the design process and sound test. — 33 pts · 4 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -25,7 +25,7 @@
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
   </item>
   <item>
@@ -36,7 +36,7 @@
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Zsa</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
     <description>ZSA introduces Zapp, an open-source terminal tool for flashing firmware, and a new Classic Books mode on typ.ing for typing practice. — ✉ Zsa</description>
   </item>
   <item>
@@ -47,7 +47,7 @@
     <category>evergreen</category>
     <category>Firmware</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/zmk</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/zmk</source>
     <description>First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge). — 1 pts · 9 comments · r/zmk</description>
   </item>
   <item>
@@ -58,7 +58,7 @@
     <category>evergreen</category>
     <category>Builds &amp; Hardware</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
   </item>
 </channel>

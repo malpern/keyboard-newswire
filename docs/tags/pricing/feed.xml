@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Pricing · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/pricing/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/pricing/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/pricing/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/pricing/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pricing.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
@@ -15,7 +15,7 @@
     <category>breaking</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Community</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -26,7 +26,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype is selling a GMK Dracula keycap set for Firsty Thursday at a price under $88. — ✉ Omnitype</description>
   </item>
   <item>
@@ -37,7 +37,7 @@
     <category>evergreen</category>
     <category>Group Buys &amp; Vendors</category>
     <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">✉ Omnitype</source>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>The Bauer 65 groupbuy is closing in one day, with the Dune colorway available. — ✉ Omnitype</description>
   </item>
 </channel>

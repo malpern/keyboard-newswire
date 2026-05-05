@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Home Row Mods · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/home-row-mods/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/home-row-mods/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/home-row-mods/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/home-row-mods/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Home Row Mods.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>HoldTap creator releases macOS app to add ZMK/QMK layer and hold-tap features to standard keyboards</title>
     <link>https://www.reddit.com/r/olkb/comments/1t2viri/holdtap_software_only_to_recreate_zmkqmk_on_mac/</link>
@@ -15,7 +15,7 @@
     <category>breaking</category>
     <category>Remapping &amp; Layouts</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Creator of "HoldTap" announces a new macOS application designed to bring layer/hold-tap functionality to standard keyboards without flashing firmware. Relevant for Mac users who want ZMK-like features. — 37 pts · 18 comments · r/olkb</description>
   </item>
   <item>
@@ -25,7 +25,7 @@
     <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
     <description>User asks about remapping (mentions Kanata) and where to learn Kanata — kept for Kanata monitoring. — 4 pts · 3 comments · r/KeyboardLayouts</description>
   </item>
 </channel>

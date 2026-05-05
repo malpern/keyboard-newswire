@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Kanata · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/kanata/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/kanata/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/kanata/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/kanata/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Kanata.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>User asks how to remap space to shift and ctrl to alt in Kanata</title>
     <link>https://www.reddit.com/r/KeyboardLayouts/comments/1sno4yk/is_it_possible_to_make_holding_space_shift_and_i/</link>
@@ -14,7 +14,7 @@
     <pubDate>Fri, 17 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
     <description>User asks about remapping (mentions Kanata) and where to learn Kanata — kept for Kanata monitoring. — 4 pts · 3 comments · r/KeyboardLayouts</description>
   </item>
   <item>
@@ -24,7 +24,7 @@
     <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/KeyboardLayouts</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
     <description>Solved issue with kanata on macOS where backtick/tilde keys displayed wrong characters — fixed by changing keyboard type in settings. — 1 pts · 12 comments · r/KeyboardLayouts</description>
   </item>
 </channel>

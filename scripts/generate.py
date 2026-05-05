@@ -30,7 +30,7 @@ CORPUS = ROOT / "data" / "corpus.json"
 TOPICS_FILE = ROOT / "data" / "topics.json"
 TAGS_FILE = ROOT / "data" / "tags.json"
 DOCS = ROOT / "docs"
-SITE_URL = "https://malpern.github.io/keyboard-wire"
+SITE_URL = "https://keyboard-newswire.com"
 
 MONTHS = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
           "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

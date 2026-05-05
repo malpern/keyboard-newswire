@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Zmk · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/zmk/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/zmk/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>DIY ortholinear keyboard build using Pi Pico and ZMK</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3pbo9/free_your_minds_diy_nostabs_build/</link>
@@ -15,7 +15,7 @@
     <category>evergreen</category>
     <category>Splits &amp; Ergo</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>DIY ortholinear build using a Pi Pico running ZMK. Discusses the challenges of a no-stabilizer layout and the "jank" involved in the build. — 30 pts · 7 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -26,7 +26,7 @@
     <category>evergreen</category>
     <category>Splits &amp; Ergo</category>
     <category>Community</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/ErgoMechKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
   </item>
   <item>
@@ -37,7 +37,7 @@
     <category>evergreen</category>
     <category>Firmware</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/zmk</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/zmk</source>
     <description>First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge). — 1 pts · 9 comments · r/zmk</description>
   </item>
   <item>
@@ -48,7 +48,7 @@
     <category>breaking</category>
     <category>Splits &amp; Ergo</category>
     <category>Builds &amp; Hardware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/crkbd</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/crkbd</source>
     <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
   </item>
 </channel>

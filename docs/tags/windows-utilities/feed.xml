@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Windows Utilities · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/windows-utilities/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/windows-utilities/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/windows-utilities/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/windows-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Windows Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows</title>
     <link>https://github.com/feschber/lan-mouse</link>
@@ -14,7 +14,7 @@
     <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Tools &amp; Software</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">Hacker News</source>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
   </item>
 </channel>

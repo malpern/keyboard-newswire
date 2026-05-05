@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>#Qmk · keyboard wire</title>
-  <link>https://malpern.github.io/keyboard-wire/tags/qmk/</link>
-  <atom:link href="https://malpern.github.io/keyboard-wire/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
+  <link>https://keyboard-newswire.com/tags/qmk/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 04:31:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 04:32:24 +0000</lastBuildDate>
   <item>
     <title>Mechanical keyboard builder completes hardware assembly and begins firmware coding</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t36hdi/its_all_wired_up_now_all_i_have_to_do_is_learn_to/</link>
@@ -15,7 +15,7 @@
     <category>breaking</category>
     <category>Builds &amp; Hardware</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>OP is a complete beginner who just finished their first build and is now tackling the firmware coding aspect. High engagement due to the "journey" narrative. — 579 pts · 46 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -25,7 +25,7 @@
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
   </item>
   <item>
@@ -36,7 +36,7 @@
     <category>evergreen</category>
     <category>Builds &amp; Hardware</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/MechanicalKeyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Small couple-designed ISO PCB that uses QMK — notable because it’s a custom ISO PCB + full RGB and shows a DIY ISO QMK build that others may reuse. — 21 pts · 5 comments · r/MechanicalKeyboards</description>
   </item>
   <item>
@@ -47,7 +47,7 @@
     <category>breaking</category>
     <category>Builds &amp; Hardware</category>
     <category>Firmware</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/olkb</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support. — 51 pts · 4 comments · r/olkb</description>
   </item>
   <item>
@@ -58,7 +58,7 @@
     <category>evergreen</category>
     <category>Firmware</category>
     <category>Group Buys &amp; Vendors</category>
-    <source url="https://malpern.github.io/keyboard-wire/feed.xml">r/keyboards</source>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
     <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
   </item>
 </channel>
