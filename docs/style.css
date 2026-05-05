@@ -1517,25 +1517,6 @@ footer a:hover {
   font-size: 0.875rem;
 }
 
-.subscribe-fineprint {
-  margin: 1rem 0 0;
-  font-size: 0.6875rem;
-  color: var(--ink-faint);
-  text-align: right;
-  letter-spacing: 0.04em;
-}
-.subscribe-fineprint a {
-  color: var(--ink-faint);
-  text-decoration: none;
-  border-bottom: 1px dotted var(--rule);
-  opacity: 0.55;
-  transition: opacity 0.15s ease, color 0.15s ease;
-}
-.subscribe-fineprint a:hover {
-  opacity: 1;
-  color: var(--ink-soft);
-}
-
 /* ── Bottom slide-up subscribe card ──────────────────── */
 
 .subscribe-card {
