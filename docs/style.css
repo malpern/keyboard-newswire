@@ -177,6 +177,17 @@ h1.site-title a:hover {
   border-bottom-color: var(--accent);
 }
 
+.subscribe a#subscribe-trigger {
+  color: var(--accent);
+  font-weight: 600;
+  border-bottom-color: var(--accent);
+  border-bottom-width: 2px;
+  padding-bottom: 0;
+}
+.subscribe a#subscribe-trigger:hover {
+  filter: brightness(1.1);
+}
+
 /* ── Day blocks ──────────────────────── */
 
 .day {
