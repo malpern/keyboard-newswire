@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/home-row-mods/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Home Row Mods.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 12:04:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 12:04:54 +0000</lastBuildDate>
+  <item>
+    <title>r/ErgoMechKeyboards debate on Home Row Mods vs Auto Shift preferences</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/</link>
+    <guid isPermaLink="false">reddit-1t3qcjc</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Debate on input method preferences (HRM vs Auto Shift) among ergonomic keyboard users. — 6 pts · 27 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>HoldTap creator releases macOS app to add ZMK/QMK layer and hold-tap features to standard keyboards</title>
     <link>https://www.reddit.com/r/olkb/comments/1t2viri/holdtap_software_only_to_recreate_zmkqmk_on_mac/</link>

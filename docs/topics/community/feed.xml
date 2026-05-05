@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/community/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Community discussion, market trends, controversies, polls, surveys, meta posts about the hobby itself.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 12:04:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 12:04:54 +0000</lastBuildDate>
+  <item>
+    <title>r/ErgoMechKeyboards debate on Home Row Mods vs Auto Shift preferences</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/</link>
+    <guid isPermaLink="false">reddit-1t3qcjc</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Debate on input method preferences (HRM vs Auto Shift) among ergonomic keyboard users. — 6 pts · 27 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>

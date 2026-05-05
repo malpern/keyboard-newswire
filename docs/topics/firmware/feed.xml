@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 12:04:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 12:04:54 +0000</lastBuildDate>
+  <item>
+    <title>GitHub repo adds QMK support and individually addressable backlighting to MX Mechanical Mini</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3z0hz/mx_mechanical_mini_qmk/</link>
+    <guid isPermaLink="false">reddit-1t3z0hz</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>User shares a GitHub repo with working QMK code and individually addressable backlighting for the MX Mechanical Mini. — 16 pts · 4 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit discussion compares hardware USB device for host-independent remapping to QMK, VIA, and Kanata</title>
+    <link>https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/</link>
+    <guid isPermaLink="false">reddit-1t4b9k2</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Discussion on validating a hardware USB device concept for host-independent remapping, comparing it to software solutions like QMK/VIA/Kanata. — 10 pts · 22 comments · r/olkb</description>
+  </item>
   <item>
     <title>Mechanical keyboard builder completes hardware assembly and begins firmware coding</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t36hdi/its_all_wired_up_now_all_i_have_to_do_is_learn_to/</link>

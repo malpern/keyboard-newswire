@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 12:04:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 May 2026 12:04:54 +0000</lastBuildDate>
+  <item>
+    <title>Kanata adds UI for firmware-level keyboard remapping</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/</link>
+    <guid isPermaLink="false">reddit-1t4d9rk</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Author highlights Kanata's cross-platform capabilities and layers/tap-hold features as an alternative to flashing firmware. — 0 pts · 1 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>GitHub repo adds QMK support and individually addressable backlighting to MX Mechanical Mini</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3z0hz/mx_mechanical_mini_qmk/</link>
+    <guid isPermaLink="false">reddit-1t3z0hz</guid>
+    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>User shares a GitHub repo with working QMK code and individually addressable backlighting for the MX Mechanical Mini. — 16 pts · 4 comments · r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>Keytogo, open-source Rust-based macOS daemon for keyboard-driven mouse navigation</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3lbsj/keytogo_yet_another_keyboard_navigation_tool_for/</link>

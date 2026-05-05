@@ -45,6 +45,103 @@
         "hotswap"
       ],
       "image": "img/email-19df3efe56165735.jpg"
+    },
+    {
+      "id": "reddit-1t4d9rk",
+      "title": "Kanata adds UI for firmware-level keyboard remapping",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 0,
+      "comments": 1,
+      "category": "evergreen",
+      "takeaway": "Author highlights Kanata's cross-platform capabilities and layers/tap-hold features as an alternative to flashing firmware.",
+      "topics": [
+        "remapping-layouts",
+        "tools-software"
+      ],
+      "tags": [
+        "kanata",
+        "key-remapping",
+        "open-source"
+      ],
+      "original_title": "Kanata brings firmware-level remapping to any keyboard—even laptops (I made a UI for it)",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Removes first-person framing and sensational phrasing",
+      "image": "img/reddit-1t4d9rk.jpg"
+    },
+    {
+      "id": "reddit-1t3z0hz",
+      "title": "GitHub repo adds QMK support and individually addressable backlighting to MX Mechanical Mini",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t3z0hz/mx_mechanical_mini_qmk/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t3z0hz/mx_mechanical_mini_qmk/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 16,
+      "comments": 4,
+      "category": "evergreen",
+      "takeaway": "User shares a GitHub repo with working QMK code and individually addressable backlighting for the MX Mechanical Mini.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "qmk",
+        "open-source"
+      ],
+      "original_title": "Mx mechanical mini qmk",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Title is vague and lacks key details found in takeaway",
+      "image": "img/reddit-1t3z0hz.jpg"
+    },
+    {
+      "id": "reddit-1t4b9k2",
+      "title": "Reddit discussion compares hardware USB device for host-independent remapping to QMK, VIA, and Kanata",
+      "url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 10,
+      "comments": 22,
+      "category": "breaking",
+      "takeaway": "Discussion on validating a hardware USB device concept for host-independent remapping, comparing it to software solutions like QMK/VIA/Kanata.",
+      "topics": [
+        "firmware",
+        "remapping-layouts"
+      ],
+      "tags": [
+        "custom-firmware",
+        "key-remapping",
+        "qmk"
+      ],
+      "original_title": "Inline hardware device for host-independent remaps/macros: useful niche, or useless?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague question format and subjective framing",
+      "image": "img/reddit-1t4b9k2.jpg"
+    },
+    {
+      "id": "reddit-1t3qcjc",
+      "title": "r/ErgoMechKeyboards debate on Home Row Mods vs Auto Shift preferences",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 6,
+      "comments": 27,
+      "category": "breaking",
+      "takeaway": "Debate on input method preferences (HRM vs Auto Shift) among ergonomic keyboard users.",
+      "topics": [
+        "remapping-layouts",
+        "community"
+      ],
+      "tags": [
+        "home-row-mods",
+        "auto-shift",
+        "ergonomic-keyboard"
+      ],
+      "original_title": "If you had to choose between Home Row Mods or Auto Shift, which one would you choose?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Rewrote rhetorical question to factual summary of debate"
     }
   ]
 }
