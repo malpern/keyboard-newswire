@@ -75,9 +75,9 @@ header { margin-bottom: 1.75rem; }
 
 .site-icon {
   display: block;
-  width: 72px;
-  height: 72px;
-  border-radius: 14px;
+  width: 96px;
+  height: 96px;
+  border-radius: 18px;
 }
 
 .site-masthead-text {
