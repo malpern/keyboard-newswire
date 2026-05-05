@@ -691,6 +691,51 @@ h1.site-title a:hover {
   line-height: 1.4;
 }
 
+/* Techmeme-style "Discussion: X · Y · Z" row for multi-source clusters */
+.item-discussion {
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  margin: 0.25rem 0 0.5rem;
+  line-height: 1.4;
+}
+.item-discussion-label {
+  font-weight: 600;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+}
+.item-discussion a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.item-discussion a:hover,
+.item-discussion a:focus-visible {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+  outline: none;
+}
+.item-discussion .src-stat {
+  color: var(--ink-faint);
+  font-size: 0.75rem;
+  margin-left: 0.125rem;
+}
+.item-discussion .sep { color: var(--ink-faint); margin: 0 0.125rem; }
+
+/* Typographic promotion for multi-source items */
+.item.is-multi .item-title {
+  font-weight: 600;
+}
+.item.is-lead .item-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.item.is-lead .item-takeaway {
+  font-size: 1rem;
+}
+
 /* Bottom utility row: score · comments · discuss · #tags */
 .item-meta {
   display: flex;

@@ -25,6 +25,8 @@ import sys
 from urllib.parse import urlparse
 from xml.sax.saxutils import escape as xml_escape
 
+from cluster import cluster_items
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CORPUS = ROOT / "data" / "corpus.json"
 TOPICS_FILE = ROOT / "data" / "topics.json"
@@ -887,6 +889,35 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     bottom_meta = "".join(bottom_parts) if bottom_parts else ""
     takeaway_html = f'<p class="item-takeaway">{takeaway}</p>' if takeaway else ""
 
+    # Multi-source "Discussion: X · Y · Z" row (Techmeme-style). Only the
+    # secondary sources are listed; the primary source already appears in
+    # the top-meta line.
+    sources = item.get("sources") or []
+    discussion_html = ""
+    is_multi = len(sources) > 1
+    if is_multi:
+        secondary = sources[1:]
+        link_parts = []
+        for s in secondary:
+            label = html.escape(s.get("label") or "source")
+            href = html.escape(s.get("discussion_url") or "")
+            stat = ""
+            if s.get("score") is not None:
+                stat = f' <span class="src-stat">⬆ {s["score"]}</span>'
+            elif s.get("comments") is not None:
+                stat = f' <span class="src-stat">💬 {s["comments"]}</span>'
+            if href:
+                link_parts.append(
+                    f'<a href="{href}" rel="noopener" target="_blank">{label}</a>{stat}'
+                )
+            else:
+                link_parts.append(f'<span>{label}</span>{stat}')
+        discussion_html = (
+            '<p class="item-discussion"><span class="item-discussion-label">Discussion:</span> '
+            + ' <span class="sep">·</span> '.join(link_parts)
+            + '</p>'
+        )
+
     image = item.get("image")
     if image:
         img_src = f"{rel_prefix}{image}" if rel_prefix else image
@@ -899,6 +930,10 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     else:
         thumb_html = ""
         item_classes = "item"
+    if is_multi:
+        item_classes += " is-multi"
+        if len(sources) >= 3:
+            item_classes += " is-lead"
 
     # Buylist data is stored as data-attrs on the item itself; press-and-hold
     # on the card reveals the Add/Remove action via the shared popover.
@@ -920,6 +955,7 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     <div class="item-topmeta">{top_meta}</div>
     <h3 class="item-title"{rewritten_attr}><a class="item-link" href="{url}" rel="noopener" target="_blank">{display_title}</a>{permalink}</h3>
     {takeaway_html}
+    {discussion_html}
     <div class="item-meta">{bottom_meta}</div>
   </div>
   {thumb_html}
@@ -946,7 +982,7 @@ def render_day_block(day: dict, topics_reg: dict, tags_reg: dict) -> str:
     day_num = int(d)
     month_year = f"{MONTHS[int(m)]} {y}"
 
-    items = day.get("items", [])
+    items = cluster_items(day.get("items", []))
     breaking = sorted(
         [i for i in items if i.get("category") == "breaking"],
         key=lambda i: -(i.get("score") or 0),
