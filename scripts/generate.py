@@ -153,6 +153,40 @@ def font_controls() -> str:
     return ""
 
 
+def subscribe_dialog() -> str:
+    return '''<dialog id="subscribe-dialog" class="subscribe-dialog" aria-labelledby="subscribe-title">
+      <form method="dialog" class="subscribe-close-form">
+        <button class="subscribe-close" type="submit" value="cancel" aria-label="Close">×</button>
+      </form>
+      <div class="subscribe-content">
+        <h2 id="subscribe-title" class="subscribe-title">Daily keyboard wire</h2>
+        <p class="subscribe-pitch">A short morning email — mechanical keyboards, firmware, tools. No spam.</p>
+        <form id="subscribe-form" class="subscribe-form"
+              action="https://buttondown.com/api/emails/embed-subscribe/keyboard-newswire"
+              method="post">
+          <label for="subscribe-email" class="visually-hidden">Email address</label>
+          <input type="email" name="email" id="subscribe-email" placeholder="you@example.com"
+                 autocomplete="email" required>
+          <button type="submit" class="subscribe-submit">
+            <span class="subscribe-submit-label">Subscribe</span>
+            <span class="subscribe-submit-spinner" aria-hidden="true"></span>
+          </button>
+        </form>
+        <div class="subscribe-success" hidden>
+          <svg class="subscribe-check" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+            <path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                  d="M5 12.5l4.5 4.5L19 7"/>
+          </svg>
+          <span>Subscribed — check your inbox to confirm.</span>
+        </div>
+        <p class="subscribe-error" hidden role="alert"></p>
+        <p class="subscribe-fineprint">
+          <a href="https://buttondown.com/refer/keyboard-newswire" target="_blank" rel="noopener">via buttondown</a>
+        </p>
+      </div>
+    </dialog>'''
+
+
 def site_header(canonical: str) -> str:
     is_root = canonical == f"{SITE_URL}/"
     home_path = relative_to_docs(canonical, "")
@@ -173,6 +207,8 @@ def site_header(canonical: str) -> str:
     </div>
     <p class="subscribe">
       {home}
+      <a href="#" id="subscribe-trigger" data-subscribe>subscribe</a>
+      <span aria-hidden="true">·</span>
       <a href="{archive_path}">archive</a>
       <span aria-hidden="true">·</span>
       <a href="{buylist_path}" id="nav-buylist">want to buy<span class="buylist-count" hidden></span></a>
@@ -184,6 +220,7 @@ def site_header(canonical: str) -> str:
       <a href="{relative_to_docs(canonical, 'post/')}">about</a>
       {font_controls()}
     </p>
+    {subscribe_dialog()}
   </header>'''
 
 
@@ -630,6 +667,59 @@ def font_script() -> str:
       synth.getVoices();
       document.removeEventListener('touchstart', once);
     }, { once: true, passive: true });
+  }
+
+  // ── Subscribe dialog (Buttondown) ───────────────────────
+  var subTrigger = document.getElementById('subscribe-trigger');
+  var subDialog = document.getElementById('subscribe-dialog');
+  if (subTrigger && subDialog) {
+    var subForm = subDialog.querySelector('#subscribe-form');
+    var subEmail = subDialog.querySelector('#subscribe-email');
+    var subSubmit = subDialog.querySelector('.subscribe-submit');
+    var subSuccess = subDialog.querySelector('.subscribe-success');
+    var subError = subDialog.querySelector('.subscribe-error');
+    function openSub() {
+      subError.hidden = true; subError.textContent = '';
+      if (typeof subDialog.showModal === 'function') {
+        subDialog.showModal();
+      } else {
+        subDialog.setAttribute('open', '');
+      }
+      requestAnimationFrame(function(){ subEmail.focus(); });
+    }
+    subTrigger.addEventListener('click', function(e) {
+      e.preventDefault();
+      openSub();
+    });
+    subDialog.addEventListener('click', function(e) {
+      // backdrop click closes (clicks on the dialog box itself are stopped by content)
+      if (e.target === subDialog) subDialog.close();
+    });
+    subForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var email = (subEmail.value || '').trim();
+      if (!email) return;
+      subError.hidden = true;
+      subSubmit.classList.add('is-loading');
+      subSubmit.disabled = true;
+      var data = new FormData();
+      data.append('email', email);
+      fetch(subForm.action, { method: 'POST', body: data, mode: 'no-cors' })
+        .then(function() {
+          // no-cors → opaque response; assume success unless the user retries
+          subForm.style.display = 'none';
+          subSuccess.hidden = false;
+          requestAnimationFrame(function(){ subSuccess.classList.add('is-shown'); });
+        })
+        .catch(function() {
+          subError.textContent = 'Something went wrong — try again?';
+          subError.hidden = false;
+        })
+        .finally(function() {
+          subSubmit.classList.remove('is-loading');
+          subSubmit.disabled = false;
+        });
+    });
   }
 })();
 </script>'''

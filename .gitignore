@@ -4,3 +4,5 @@ __pycache__/
 .venv/
 *.swp
 *.swo
+.playwright-mcp/
+subscribe-dialog-open.png
