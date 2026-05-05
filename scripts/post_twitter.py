@@ -109,7 +109,7 @@ def post_tweet(text: str) -> dict:
 def format_tweet(item: dict) -> str:
     title = item["title"]
     url = item["url"]
-    topics = item.get("topics", [])
+    takeaway = (item.get("takeaway") or "").strip()
     tags = item.get("tags", [])
 
     hashtags = []
@@ -119,12 +119,20 @@ def format_tweet(item: dict) -> str:
         if tag:
             hashtags.append(f"#{tag}")
     hashtags = list(dict.fromkeys(hashtags))[:3]
+    hashtag_str = " ".join(hashtags)
 
-    parts = [title, "", url]
-    if hashtags:
-        parts.insert(2, " ".join(hashtags))
+    if takeaway:
+        tweet = f"{title}\n\n{takeaway}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{takeaway}\n\n{url}"
+        if len(tweet) > 280:
+            avail = 280 - len(title) - len(url) - len(hashtag_str) - 8
+            if avail > 40:
+                takeaway = takeaway[:avail - 3].rsplit(" ", 1)[0] + "..."
+                tweet = f"{title}\n\n{takeaway}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{takeaway}\n\n{url}"
+            else:
+                tweet = f"{title}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{url}"
+    else:
+        tweet = f"{title}\n\n{hashtag_str}\n{url}" if hashtag_str else f"{title}\n\n{url}"
 
-    tweet = "\n".join(parts)
     if len(tweet) > 280:
         tweet = f"{title}\n\n{url}"
     if len(tweet) > 280:
