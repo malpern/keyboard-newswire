@@ -1,0 +1,542 @@
+{
+  "date": "2026-05-06",
+  "items": [
+    {
+      "id": "reddit-1t5afcg",
+      "title": "User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update",
+      "url": "https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/",
+      "discussion_url": "https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/",
+      "source": "reddit",
+      "subreddit": "qmk",
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "User seeking a modern Ergodox Infinity keymap example with `visualizer.c` support after updating QMK.",
+      "topics": [
+        "firmware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "qmk",
+        "ergodox",
+        "visualizer",
+        "keymap"
+      ],
+      "original_title": "Recent Ergodox Infinity keymap example?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague question format lacking factual subject"
+    },
+    {
+      "id": "reddit-1t4zyta",
+      "title": "ZMK - Double Tap Hold for momentary layer",
+      "url": "https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/",
+      "discussion_url": "https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/",
+      "source": "reddit",
+      "subreddit": "ErgodoxKeyboards",
+      "score": 2,
+      "comments": 12,
+      "category": "evergreen",
+      "takeaway": "Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout.",
+      "topics": [
+        "firmware",
+        "remapping-layouts"
+      ],
+      "tags": [
+        "zmk",
+        "home-row-mods"
+      ]
+    },
+    {
+      "id": "reddit-1t52ra9",
+      "title": "There is an update to the Galaxy XR firmware as of today, May 5, 2026",
+      "url": "https://www.reddit.com/r/Galaxy_XR/comments/1t52ra9/there_is_an_update_to_the_galaxy_xr_firmware_as/",
+      "discussion_url": "https://www.reddit.com/r/Galaxy_XR/comments/1t52ra9/there_is_an_update_to_the_galaxy_xr_firmware_as/",
+      "source": "reddit",
+      "subreddit": "Galaxy_XR",
+      "score": 0,
+      "comments": 17,
+      "category": "breaking",
+      "takeaway": "Major Android XR update rolling out with auto-spatialization and improved hand/eye tracking.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "custom-firmware"
+      ]
+    },
+    {
+      "id": "reddit-1t4ryo4",
+      "title": "Showcase of JustSystems 91U with 86U internals",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4ryo4/happy_topre_tuesday/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4ryo4/happy_topre_tuesday/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 150,
+      "comments": 12,
+      "category": "breaking",
+      "takeaway": "Showcase of a JustSystems 91U with 86U internals.",
+      "topics": [
+        "builds-hardware",
+        "community"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "topre",
+        "diy-build"
+      ],
+      "original_title": "Happy Topre Tuesday!",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague greeting and lack of subject in title",
+      "image": "img/reddit-1t4ryo4.jpg"
+    },
+    {
+      "id": "reddit-1t4vvc0",
+      "title": "User shares two Mode Tempo keyboards and duplicate purchase reasoning",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4vvc0/oh_no_i_became_the_guy_with_two_of_the_same_board/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4vvc0/oh_no_i_became_the_guy_with_two_of_the_same_board/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 134,
+      "comments": 22,
+      "category": "breaking",
+      "takeaway": "User shares their two Mode Tempos and the reasoning behind the duplicate purchase.",
+      "topics": [
+        "community"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "pricing"
+      ],
+      "original_title": "Oh no, I became the guy with two of the same board",
+      "title_rewritten": true,
+      "title_rewrite_reason": "First-person framing and vague pronoun",
+      "image": "img/reddit-1t4vvc0.jpg"
+    },
+    {
+      "id": "reddit-1t518oe",
+      "title": "A.Okay! opens MID.1 folded stainless steel 40% keyboard for reservations",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t518oe/mid1_a_folded_stainless_steel_40_board_ive_been/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t518oe/mid1_a_folded_stainless_steel_40_board_ive_been/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 382,
+      "comments": 21,
+      "category": "breaking",
+      "takeaway": "Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations.",
+      "topics": [
+        "builds-hardware",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "group-buy"
+      ],
+      "original_title": "MID.1, a folded stainless steel 40% board I’ve been building for a long time",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Removes first-person framing and subjective time reference",
+      "image": "img/reddit-1t518oe.jpg"
+    },
+    {
+      "id": "reddit-1t4fsf4",
+      "title": "[GB] DCS Grass Valley | Live now till June 1st",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4fsf4/gb_dcs_grass_valley_live_now_till_june_1st/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4fsf4/gb_dcs_grass_valley_live_now_till_june_1st/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 62,
+      "comments": 5,
+      "category": "breaking",
+      "takeaway": "DCS Grass Valley group buy is live, hitting MOQ with price drops at higher tiers.",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "group-buy",
+        "keycap-design"
+      ],
+      "image": "img/reddit-1t4fsf4.jpg"
+    },
+    {
+      "id": "reddit-1t4z6bq",
+      "title": "User seeks info on vintage Cortron terminal keyboard from USS Lexington",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4z6bq/new_to_keyboards/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4z6bq/new_to_keyboards/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 57,
+      "comments": 14,
+      "category": "breaking",
+      "takeaway": "OP found a vintage Cortron terminal keyboard (possibly from the USS Lexington) and is seeking info.",
+      "topics": [
+        "community"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "vintage-keyboard"
+      ],
+      "original_title": "New to keyboards!",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague headline missing subject and context",
+      "image": "img/reddit-1t4z6bq.jpg"
+    },
+    {
+      "id": "reddit-1t4p7wh",
+      "title": "BSUN Strawberry Cheesecake R2 switches review on Rainy 75 Pro notes quieter sound",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4p7wh/finally_bought_new_switches/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4p7wh/finally_bought_new_switches/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 53,
+      "comments": 18,
+      "category": "breaking",
+      "takeaway": "Review of BSUN Strawberry Cheesecake R2 switches on a Rainy 75 Pro, noting quieter/muffled sound.",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "switch-development",
+        "sound-effects"
+      ],
+      "original_title": "Finally bought new switches",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague title replaced with specific entity and factual takeaway",
+      "image": "img/reddit-1t4p7wh.jpg"
+    },
+    {
+      "id": "reddit-1t4dmpg",
+      "title": "Reddit user reports positive Akko support experience for Bluetooth connectivity issue on Mineral board",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4dmpg/akko_has_good_after_sales_support/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4dmpg/akko_has_good_after_sales_support/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 47,
+      "comments": 3,
+      "category": "breaking",
+      "takeaway": "Positive experience with Akko's support regarding a Bluetooth connectivity issue on the Mineral board.",
+      "topics": [
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "vendor-practices",
+        "mechanical-keyboard"
+      ],
+      "original_title": "Akko has good after sales support",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Subjective opinion and vague phrasing replaced with factual summary",
+      "image": "img/reddit-1t4dmpg.jpg"
+    },
+    {
+      "id": "reddit-1t4iwlp",
+      "title": "QK80 Brown in 2026",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4iwlp/qk80_brown_in_2026/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t4iwlp/qk80_brown_in_2026/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 47,
+      "comments": 6,
+      "category": "breaking",
+      "takeaway": "Showcase of a second-hand QK80 with PBTFans Retro 100 caps and HMX Orange Grape switches.",
+      "topics": [
+        "keycaps-aesthetics",
+        "builds-hardware"
+      ],
+      "tags": [
+        "keycap-design",
+        "switches"
+      ],
+      "image": "img/reddit-1t4iwlp.jpg"
+    },
+    {
+      "id": "reddit-1t55uvx",
+      "title": "Long-term review of Geonix Rev.2 compact keyboard",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55uvx/i_admit_ive_become_dependent_on_this_little_guy/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55uvx/i_admit_ive_become_dependent_on_this_little_guy/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 41,
+      "comments": 9,
+      "category": "breaking",
+      "takeaway": "Long-term review of the Geonix Rev.2 compact keyboard, praising its weight and portability.",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "diy-build"
+      ],
+      "original_title": "I admit I've become dependent on this little guy.",
+      "title_rewritten": true,
+      "title_rewrite_reason": "First-person framing and vague pronoun",
+      "image": "img/reddit-1t55uvx.jpg"
+    },
+    {
+      "id": "reddit-1t55rrs",
+      "title": "Glitter Q4",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55rrs/glitter_q4/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55rrs/glitter_q4/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 22,
+      "comments": 2,
+      "category": "breaking",
+      "takeaway": "Showcase of a Keychron Q4 with PC plate, PBTfans Neon R2 Glitter caps, and Gateron Oil King switches.",
+      "topics": [
+        "keycaps-aesthetics",
+        "builds-hardware"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "keycap-design",
+        "diy-build"
+      ],
+      "image": "img/reddit-1t55rrs.jpg"
+    },
+    {
+      "id": "reddit-1t55ftt",
+      "title": "Baionyee",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55ftt/baionyee/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t55ftt/baionyee/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 17,
+      "comments": 2,
+      "category": "breaking",
+      "takeaway": "Showcase of Baion boards, including a Raw Gehirn with Neo Oat Linears and Jieum V2 mods.",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "diy-build",
+        "keycap-design"
+      ],
+      "image": "img/reddit-1t55ftt.jpg"
+    },
+    {
+      "id": "reddit-1t4m9xq",
+      "title": "Reddit discussion compares Glove80, Charbydis MK2, ZSA Voyager, and Sofle for ergonomic setups",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4m9xq/flat_keyboard_or_go_all_in/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4m9xq/flat_keyboard_or_go_all_in/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 11,
+      "comments": 28,
+      "category": "breaking",
+      "takeaway": "Discussion on choosing between Glove80, Charbydis MK2, ZSA Voyager, and Sofle for an ergonomic setup.",
+      "topics": [
+        "splits-ergo",
+        "community"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pricing"
+      ],
+      "original_title": "Flat keyboard or go all in?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague rhetorical question title replaced with factual summary of the discussion topic"
+    },
+    {
+      "id": "reddit-1t598em",
+      "title": "r/ErgoMechKeyboards discusses ergonomic keyboards for developers using hands for navigation and mouse tasks",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 8,
+      "comments": 7,
+      "category": "breaking",
+      "takeaway": "Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing.",
+      "topics": [
+        "splits-ergo",
+        "community"
+      ],
+      "tags": [
+        "ergonomic-keyboard",
+        "mouse-usage",
+        "developer-tools"
+      ],
+      "original_title": "“Casual”/“Non-Typing” ergonomics",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague title lacking specific subject and context"
+    },
+    {
+      "id": "reddit-1t4f833",
+      "title": "[US-WI] [H] Ataraxia wireless trackball keyboard [W] PayPal, Venmo",
+      "url": "https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/",
+      "discussion_url": "https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/",
+      "source": "reddit",
+      "subreddit": "mechmarket",
+      "score": 7,
+      "comments": 3,
+      "category": "breaking",
+      "takeaway": "Sale of a pre-programmed Ataraxia with ZMK Studio firmware support.",
+      "topics": [
+        "group-buys-vendors",
+        "firmware"
+      ],
+      "tags": [
+        "zmk",
+        "split-keyboard"
+      ]
+    },
+    {
+      "id": "reddit-1t4lrds",
+      "title": "User seeks wiring and sourcing advice for trackpad modules in KLOR Polydactyl build",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4lrds/trackpads_whos_got_the_deets/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4lrds/trackpads_whos_got_the_deets/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 3,
+      "comments": 5,
+      "category": "breaking",
+      "takeaway": "Seeking advice on wiring and sourcing trackpad modules for a KLOR Polydactyl build.",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design"
+      ],
+      "original_title": "Trackpads! Who’s got the deets?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague headline missing subject, rewritten with specific entity and action from takeaway"
+    },
+    {
+      "id": "reddit-1t4nxhb",
+      "title": "Reddit users discuss Keychron Q9 Plus split space model future and alternatives",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 3,
+      "comments": 6,
+      "category": "breaking",
+      "takeaway": "Concerns about the future of the Q9 Plus split space model and suggestions for alternatives.",
+      "topics": [
+        "splits-ergo",
+        "community"
+      ],
+      "tags": [
+        "split-keyboard",
+        "vendor-practices"
+      ],
+      "original_title": "Keychron Q9 Plus - is it dead? Split space suggestions",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague phrasing and rhetorical question replaced with factual summary of discussion"
+    },
+    {
+      "id": "reddit-1t55wlr",
+      "title": "Reddit user asks about split board kit for gaming/macro pad use",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t55wlr/anyone_know_about_this_kit_good_bad/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t55wlr/anyone_know_about_this_kit_good_bad/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 3,
+      "comments": 2,
+      "category": "breaking",
+      "takeaway": "Inquiry about a specific split board kit for gaming/macro pad use.",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "diy-build"
+      ],
+      "original_title": "Anyone know about this kit? Good? Bad?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague pronoun and curiosity gap",
+      "image": "img/reddit-1t55wlr.jpg"
+    },
+    {
+      "id": "reddit-1t4y5dw",
+      "title": "Keychron J2 HE stuck in a 'bootloader mode'.",
+      "url": "https://www.reddit.com/r/Keychron/comments/1t4y5dw/keychron_j2_he_stuck_in_a_bootloader_mode/",
+      "discussion_url": "https://www.reddit.com/r/Keychron/comments/1t4y5dw/keychron_j2_he_stuck_in_a_bootloader_mode/",
+      "source": "reddit",
+      "subreddit": "Keychron",
+      "score": 1,
+      "comments": 0,
+      "category": "breaking",
+      "takeaway": "Troubleshooting a Keychron J2 HE stuck in bootloader mode after a firmware glitch.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "custom-firmware",
+        "qmk"
+      ]
+    },
+    {
+      "id": "reddit-1t52gnn",
+      "title": "AJAZZ AK980 V2 Pro keyboard software unavailable",
+      "url": "https://www.reddit.com/r/keyboards/comments/1t52gnn/i_cant_find_the_ajazz_ak980_v2_pro_software/",
+      "discussion_url": "https://www.reddit.com/r/keyboards/comments/1t52gnn/i_cant_find_the_ajazz_ak980_v2_pro_software/",
+      "source": "reddit",
+      "subreddit": "keyboards",
+      "score": 1,
+      "comments": 0,
+      "category": "breaking",
+      "takeaway": "User unable to find official software for the AJAZZ AK980 V2 Pro keyboard.",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "vendor-practices",
+        "software"
+      ],
+      "original_title": "I can't find the AJAZZ AK980 V2 Pro Software",
+      "title_rewritten": true,
+      "title_rewrite_reason": "First-person phrasing and vague subject"
+    },
+    {
+      "id": "reddit-1t548y6",
+      "title": "Keychron C3 Pro compatibility with Akko Penguin Silent switches",
+      "url": "https://www.reddit.com/r/Keychron/comments/1t548y6/keyboard_and_switch_compatibility/",
+      "discussion_url": "https://www.reddit.com/r/Keychron/comments/1t548y6/keyboard_and_switch_compatibility/",
+      "source": "reddit",
+      "subreddit": "Keychron",
+      "score": 1,
+      "comments": 2,
+      "category": "breaking",
+      "takeaway": "Question about compatibility between Keychron C3 Pro and Akko Penguin Silent switches.",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "hotswap",
+        "switch-development"
+      ],
+      "original_title": "Keyboard and switch compatibility",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague title missing subject; rewrite uses facts from takeaway",
+      "image": "img/reddit-1t548y6.jpg"
+    },
+    {
+      "id": "reddit-1t56yrd",
+      "title": "Legion S7 keyboard double-typing issue",
+      "url": "https://www.reddit.com/r/LenovoLegion/comments/1t56yrd/double_typing_characters_on_keyboard/",
+      "discussion_url": "https://www.reddit.com/r/LenovoLegion/comments/1t56yrd/double_typing_characters_on_keyboard/",
+      "source": "reddit",
+      "subreddit": "LenovoLegion",
+      "score": 1,
+      "comments": 3,
+      "category": "breaking",
+      "takeaway": "Troubleshooting double-typing issue on a Legion S7 laptop keyboard.",
+      "topics": [
+        "community"
+      ],
+      "tags": [
+        "troubleshooting",
+        "hardware-fault"
+      ],
+      "original_title": "Double typing characters on keyboard",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague headline missing subject"
+    }
+  ]
+}

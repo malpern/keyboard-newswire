@@ -6,7 +6,50 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>A.Okay! opens MID.1 folded stainless steel 40% keyboard for reservations</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t518oe/mid1_a_folded_stainless_steel_40_board_ive_been/</link>
+    <guid isPermaLink="false">reddit-1t518oe</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations. — 382 pts · 21 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>[GB] DCS Grass Valley | Live now till June 1st</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4fsf4/gb_dcs_grass_valley_live_now_till_june_1st/</link>
+    <guid isPermaLink="false">reddit-1t4fsf4</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>DCS Grass Valley group buy is live, hitting MOQ with price drops at higher tiers. — 62 pts · 5 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit user reports positive Akko support experience for Bluetooth connectivity issue on Mineral board</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4dmpg/akko_has_good_after_sales_support/</link>
+    <guid isPermaLink="false">reddit-1t4dmpg</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Positive experience with Akko's support regarding a Bluetooth connectivity issue on the Mineral board. — 47 pts · 3 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>[US-WI] [H] Ataraxia wireless trackball keyboard [W] PayPal, Venmo</title>
+    <link>https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/</link>
+    <guid isPermaLink="false">reddit-1t4f833</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
+    <description>Sale of a pre-programmed Ataraxia with ZMK Studio firmware support. — 7 pts · 3 comments · r/mechmarket</description>
+  </item>
   <item>
     <title>Omnitype restocks Dualshot Substance Deskpad and GMK Dualshot Accent kit</title>
     <link>https://omnitype.com/products/dualshot-substance-deskpad</link>

@@ -6,7 +6,60 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update</title>
+    <link>https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/</link>
+    <guid isPermaLink="false">reddit-1t5afcg</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/qmk</source>
+    <description>User seeking a modern Ergodox Infinity keymap example with `visualizer.c` support after updating QMK. — 1 pts · 0 comments · r/qmk</description>
+  </item>
+  <item>
+    <title>ZMK - Double Tap Hold for momentary layer</title>
+    <link>https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/</link>
+    <guid isPermaLink="false">reddit-1t4zyta</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgodoxKeyboards</source>
+    <description>Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout. — 2 pts · 12 comments · r/ErgodoxKeyboards</description>
+  </item>
+  <item>
+    <title>There is an update to the Galaxy XR firmware as of today, May 5, 2026</title>
+    <link>https://www.reddit.com/r/Galaxy_XR/comments/1t52ra9/there_is_an_update_to_the_galaxy_xr_firmware_as/</link>
+    <guid isPermaLink="false">reddit-1t52ra9</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/Galaxy_XR</source>
+    <description>Major Android XR update rolling out with auto-spatialization and improved hand/eye tracking. — 0 pts · 17 comments · r/Galaxy_XR</description>
+  </item>
+  <item>
+    <title>[US-WI] [H] Ataraxia wireless trackball keyboard [W] PayPal, Venmo</title>
+    <link>https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/</link>
+    <guid isPermaLink="false">reddit-1t4f833</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
+    <description>Sale of a pre-programmed Ataraxia with ZMK Studio firmware support. — 7 pts · 3 comments · r/mechmarket</description>
+  </item>
+  <item>
+    <title>Keychron J2 HE stuck in a 'bootloader mode'.</title>
+    <link>https://www.reddit.com/r/Keychron/comments/1t4y5dw/keychron_j2_he_stuck_in_a_bootloader_mode/</link>
+    <guid isPermaLink="false">reddit-1t4y5dw</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/Keychron</source>
+    <description>Troubleshooting a Keychron J2 HE stuck in bootloader mode after a firmware glitch. — 1 pts · 0 comments · r/Keychron</description>
+  </item>
   <item>
     <title>GitHub repo adds QMK support and individually addressable backlighting to MX Mechanical Mini</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3z0hz/mx_mechanical_mini_qmk/</link>

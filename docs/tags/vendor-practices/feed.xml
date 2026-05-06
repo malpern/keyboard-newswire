@@ -6,7 +6,38 @@
   <atom:link href="https://keyboard-newswire.com/tags/vendor-practices/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Vendor Practices.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>Reddit user reports positive Akko support experience for Bluetooth connectivity issue on Mineral board</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4dmpg/akko_has_good_after_sales_support/</link>
+    <guid isPermaLink="false">reddit-1t4dmpg</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Positive experience with Akko's support regarding a Bluetooth connectivity issue on the Mineral board. — 47 pts · 3 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit users discuss Keychron Q9 Plus split space model future and alternatives</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/</link>
+    <guid isPermaLink="false">reddit-1t4nxhb</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Concerns about the future of the Q9 Plus split space model and suggestions for alternatives. — 3 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>AJAZZ AK980 V2 Pro keyboard software unavailable</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1t52gnn/i_cant_find_the_ajazz_ak980_v2_pro_software/</link>
+    <guid isPermaLink="false">reddit-1t52gnn</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>User unable to find official software for the AJAZZ AK980 V2 Pro keyboard. — 1 pts · 0 comments · r/keyboards</description>
+  </item>
   <item>
     <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>

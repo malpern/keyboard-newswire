@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>ZMK - Double Tap Hold for momentary layer</title>
+    <link>https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/</link>
+    <guid isPermaLink="false">reddit-1t4zyta</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgodoxKeyboards</source>
+    <description>Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout. — 2 pts · 12 comments · r/ErgodoxKeyboards</description>
+  </item>
+  <item>
+    <title>[US-WI] [H] Ataraxia wireless trackball keyboard [W] PayPal, Venmo</title>
+    <link>https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/</link>
+    <guid isPermaLink="false">reddit-1t4f833</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
+    <description>Sale of a pre-programmed Ataraxia with ZMK Studio firmware support. — 7 pts · 3 comments · r/mechmarket</description>
+  </item>
   <item>
     <title>DIY ortholinear keyboard build using Pi Pico and ZMK</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3pbo9/free_your_minds_diy_nostabs_build/</link>

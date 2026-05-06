@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Hardware Fault · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/hardware-fault/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/hardware-fault/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Hardware Fault.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>Legion S7 keyboard double-typing issue</title>
+    <link>https://www.reddit.com/r/LenovoLegion/comments/1t56yrd/double_typing_characters_on_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t56yrd</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/LenovoLegion</source>
+    <description>Troubleshooting double-typing issue on a Legion S7 laptop keyboard. — 1 pts · 3 comments · r/LenovoLegion</description>
+  </item>
+</channel>
+</rss>

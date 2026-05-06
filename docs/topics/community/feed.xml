@@ -6,7 +6,81 @@
   <atom:link href="https://keyboard-newswire.com/topics/community/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Community discussion, market trends, controversies, polls, surveys, meta posts about the hobby itself.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>Showcase of JustSystems 91U with 86U internals</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4ryo4/happy_topre_tuesday/</link>
+    <guid isPermaLink="false">reddit-1t4ryo4</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Showcase of a JustSystems 91U with 86U internals. — 150 pts · 12 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>User shares two Mode Tempo keyboards and duplicate purchase reasoning</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4vvc0/oh_no_i_became_the_guy_with_two_of_the_same_board/</link>
+    <guid isPermaLink="false">reddit-1t4vvc0</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>User shares their two Mode Tempos and the reasoning behind the duplicate purchase. — 134 pts · 22 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>User seeks info on vintage Cortron terminal keyboard from USS Lexington</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4z6bq/new_to_keyboards/</link>
+    <guid isPermaLink="false">reddit-1t4z6bq</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>OP found a vintage Cortron terminal keyboard (possibly from the USS Lexington) and is seeking info. — 57 pts · 14 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit discussion compares Glove80, Charbydis MK2, ZSA Voyager, and Sofle for ergonomic setups</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4m9xq/flat_keyboard_or_go_all_in/</link>
+    <guid isPermaLink="false">reddit-1t4m9xq</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on choosing between Glove80, Charbydis MK2, ZSA Voyager, and Sofle for an ergonomic setup. — 11 pts · 28 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>r/ErgoMechKeyboards discusses ergonomic keyboards for developers using hands for navigation and mouse tasks</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/</link>
+    <guid isPermaLink="false">reddit-1t598em</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing. — 8 pts · 7 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit users discuss Keychron Q9 Plus split space model future and alternatives</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/</link>
+    <guid isPermaLink="false">reddit-1t4nxhb</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Concerns about the future of the Q9 Plus split space model and suggestions for alternatives. — 3 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Legion S7 keyboard double-typing issue</title>
+    <link>https://www.reddit.com/r/LenovoLegion/comments/1t56yrd/double_typing_characters_on_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t56yrd</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/LenovoLegion</source>
+    <description>Troubleshooting double-typing issue on a Legion S7 laptop keyboard. — 1 pts · 3 comments · r/LenovoLegion</description>
+  </item>
   <item>
     <title>r/ErgoMechKeyboards debate on Home Row Mods vs Auto Shift preferences</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/</link>

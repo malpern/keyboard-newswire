@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>#ergonomic-keyboard · keyboard wire</title>
+  <title>#Ergonomic Keyboard · keyboard wire</title>
   <link>https://keyboard-newswire.com/tags/ergonomic-keyboard/</link>
   <atom:link href="https://keyboard-newswire.com/tags/ergonomic-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>All keyboard wire entries tagged ergonomic-keyboard.</description>
+  <description>All keyboard wire entries tagged Ergonomic Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>r/ErgoMechKeyboards discusses ergonomic keyboards for developers using hands for navigation and mouse tasks</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/</link>
+    <guid isPermaLink="false">reddit-1t598em</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing. — 8 pts · 7 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>r/ErgoMechKeyboards debate on Home Row Mods vs Auto Shift preferences</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t3qcjc/if_you_had_to_choose_between_home_row_mods_or/</link>

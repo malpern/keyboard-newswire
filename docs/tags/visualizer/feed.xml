@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/visualizer/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Visualizer.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update</title>
+    <link>https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/</link>
+    <guid isPermaLink="false">reddit-1t5afcg</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/qmk</source>
+    <description>User seeking a modern Ergodox Infinity keymap example with `visualizer.c` support after updating QMK. — 1 pts · 0 comments · r/qmk</description>
+  </item>
   <item>
     <title>Keycap.app – Generate and visualize keycap models</title>
     <link>https://keycap.app/</link>

@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/tags/custom-firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Custom Firmware.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>There is an update to the Galaxy XR firmware as of today, May 5, 2026</title>
+    <link>https://www.reddit.com/r/Galaxy_XR/comments/1t52ra9/there_is_an_update_to_the_galaxy_xr_firmware_as/</link>
+    <guid isPermaLink="false">reddit-1t52ra9</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/Galaxy_XR</source>
+    <description>Major Android XR update rolling out with auto-spatialization and improved hand/eye tracking. — 0 pts · 17 comments · r/Galaxy_XR</description>
+  </item>
+  <item>
+    <title>Keychron J2 HE stuck in a 'bootloader mode'.</title>
+    <link>https://www.reddit.com/r/Keychron/comments/1t4y5dw/keychron_j2_he_stuck_in_a_bootloader_mode/</link>
+    <guid isPermaLink="false">reddit-1t4y5dw</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/Keychron</source>
+    <description>Troubleshooting a Keychron J2 HE stuck in bootloader mode after a firmware glitch. — 1 pts · 0 comments · r/Keychron</description>
+  </item>
   <item>
     <title>Reddit discussion compares hardware USB device for host-independent remapping to QMK, VIA, and Kanata</title>
     <link>https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/</link>

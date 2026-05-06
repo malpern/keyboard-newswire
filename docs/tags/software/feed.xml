@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Software · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/software/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/software/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Software.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>AJAZZ AK980 V2 Pro keyboard software unavailable</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1t52gnn/i_cant_find_the_ajazz_ak980_v2_pro_software/</link>
+    <guid isPermaLink="false">reddit-1t52gnn</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>User unable to find official software for the AJAZZ AK980 V2 Pro keyboard. — 1 pts · 0 comments · r/keyboards</description>
+  </item>
+</channel>
+</rss>

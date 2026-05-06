@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>ZMK - Double Tap Hold for momentary layer</title>
+    <link>https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/</link>
+    <guid isPermaLink="false">reddit-1t4zyta</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgodoxKeyboards</source>
+    <description>Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout. — 2 pts · 12 comments · r/ErgodoxKeyboards</description>
+  </item>
   <item>
     <title>Kanata adds UI for firmware-level keyboard remapping</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/</link>

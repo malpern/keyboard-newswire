@@ -6,7 +6,73 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 05 May 2026 17:29:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 May 2026 12:07:18 +0000</lastBuildDate>
+  <item>
+    <title>User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update</title>
+    <link>https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/</link>
+    <guid isPermaLink="false">reddit-1t5afcg</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/qmk</source>
+    <description>User seeking a modern Ergodox Infinity keymap example with `visualizer.c` support after updating QMK. — 1 pts · 0 comments · r/qmk</description>
+  </item>
+  <item>
+    <title>Reddit discussion compares Glove80, Charbydis MK2, ZSA Voyager, and Sofle for ergonomic setups</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4m9xq/flat_keyboard_or_go_all_in/</link>
+    <guid isPermaLink="false">reddit-1t4m9xq</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on choosing between Glove80, Charbydis MK2, ZSA Voyager, and Sofle for an ergonomic setup. — 11 pts · 28 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>r/ErgoMechKeyboards discusses ergonomic keyboards for developers using hands for navigation and mouse tasks</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/</link>
+    <guid isPermaLink="false">reddit-1t598em</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing. — 8 pts · 7 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>User seeks wiring and sourcing advice for trackpad modules in KLOR Polydactyl build</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4lrds/trackpads_whos_got_the_deets/</link>
+    <guid isPermaLink="false">reddit-1t4lrds</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Seeking advice on wiring and sourcing trackpad modules for a KLOR Polydactyl build. — 3 pts · 5 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit users discuss Keychron Q9 Plus split space model future and alternatives</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/</link>
+    <guid isPermaLink="false">reddit-1t4nxhb</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Concerns about the future of the Q9 Plus split space model and suggestions for alternatives. — 3 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit user asks about split board kit for gaming/macro pad use</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t55wlr/anyone_know_about_this_kit_good_bad/</link>
+    <guid isPermaLink="false">reddit-1t55wlr</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Inquiry about a specific split board kit for gaming/macro pad use. — 3 pts · 2 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>DIY ortholinear keyboard build using Pi Pico and ZMK</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t3pbo9/free_your_minds_diy_nostabs_build/</link>
