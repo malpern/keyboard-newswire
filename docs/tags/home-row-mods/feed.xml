@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/home-row-mods/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Home Row Mods.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Reddit user asks for ergonomic feedback on custom thumb cluster layout</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83jq8/help_with_layout/</link>
+    <guid isPermaLink="false">reddit-1t83jq8</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>New to split keyboards, asking for ergonomic feedback on a custom thumb cluster layout. — 3 pts · 5 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>ZMK - Double Tap Hold for momentary layer</title>
     <link>https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/</link>

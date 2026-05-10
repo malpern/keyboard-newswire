@@ -3,6 +3,989 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-10",
+      "items": [
+        {
+          "id": "reddit-1t8pdb5",
+          "title": "Updated TOTEM dongle zmk module",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8pdb5/updated_totem_dongle_zmk_module/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8pdb5/updated_totem_dongle_zmk_module/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 15,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "Author migrated their dongle setup into a standalone ZMK module after Zephyr 4.1 broke their config; useful for others using the TOTEM dongle.",
+          "topics": [
+            "firmware"
+          ],
+          "tags": [
+            "zmk",
+            "open-source"
+          ],
+          "image": "img/reddit-1t8pdb5.jpg"
+        },
+        {
+          "id": "reddit-1t8wss6",
+          "title": "Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders",
+          "url": "https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/",
+          "discussion_url": "https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": 1,
+          "comments": 6,
+          "category": "evergreen",
+          "takeaway": "Request for schematic review on a 3x3 macropad with 2 rotary encoders; good for seeing beginner PCB design questions.",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "pcb-design",
+            "diy-build"
+          ],
+          "original_title": "Shematics build jelp",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Title is vague and contains typo; rewrite clarifies subject and action using takeaway facts",
+          "image": "img/reddit-1t8wss6.jpg"
+        },
+        {
+          "id": "reddit-1t87p0y",
+          "title": "Eightu",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t87p0y/eightu/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t87p0y/eightu/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 228,
+          "comments": 20,
+          "category": "breaking",
+          "takeaway": "Showcase of the Eightu board by Obabo with Gateron Smoothies and DSS Drank switches.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "hotswap"
+          ],
+          "image": "img/reddit-1t87p0y.jpg"
+        },
+        {
+          "id": "reddit-1t88c10",
+          "title": "Modified Scylla (BastardKeyboards)",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t88c10/modified_scylla_bastardkeyboards/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t88c10/modified_scylla_bastardkeyboards/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 193,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Handwired modified Scylla with encoders, joysticks, and TFT screens; interesting custom build details.",
+          "topics": [
+            "builds-hardware",
+            "splits-ergo"
+          ],
+          "tags": [
+            "diy-build",
+            "custom-firmware",
+            "split-keyboard"
+          ],
+          "image": "img/reddit-1t88c10.jpg"
+        },
+        {
+          "id": "reddit-1t8o6rw",
+          "title": "Mictlán Centinela",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8o6rw/mictlán_centinela/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8o6rw/mictlán_centinela/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 164,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Synth60 build featuring GMK Mictlán R1 and Unity switches.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "keycap-design"
+          ],
+          "image": "img/reddit-1t8o6rw.jpg"
+        },
+        {
+          "id": "reddit-1t8yhe4",
+          "title": "MB44 V1 build with Scandivan PCB and Cherry Milkshake keycaps",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8yhe4/show_your_boards_the_world/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8yhe4/show_your_boards_the_world/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 155,
+          "comments": 11,
+          "category": "breaking",
+          "takeaway": "MB44 V1 build with Scandivan PCB and Cherry Milkshake keycaps.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "keycap-design"
+          ],
+          "original_title": "Show your boards the_world",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague pronoun 'boards' and imperative framing replaced with specific product details",
+          "image": "img/reddit-1t8yhe4.jpg"
+        },
+        {
+          "id": "reddit-1t842s6",
+          "title": "Reign + GMK CYL Salamander",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t842s6/reign_gmk_cyl_salamander/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t842s6/reign_gmk_cyl_salamander/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 108,
+          "comments": 15,
+          "category": "breaking",
+          "takeaway": "Renders of a potential Reign variant with GMK CYL Salamander; currently in IC/prototyping.",
+          "topics": [
+            "keycaps-aesthetics",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "image": "img/reddit-1t842s6.jpg"
+        },
+        {
+          "id": "reddit-1t8jifs",
+          "title": "Keychron V3 8k and V0 Ultra",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8jifs/keychron_v3_8k_and_v0_ultra/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8jifs/keychron_v3_8k_and_v0_ultra/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 81,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Comparison/showcase of Keychron V3 8k and V0 Ultra; user switching to wired for reliability.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "pricing"
+          ],
+          "image": "img/reddit-1t8jifs.jpg"
+        },
+        {
+          "id": "reddit-1t8rl4g",
+          "title": "Aepex60",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8rl4g/aepex60/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8rl4g/aepex60/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 74,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "Aepex60 build with GMK Windbreaker and MX Blacks.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "keycap-design"
+          ],
+          "image": "img/reddit-1t8rl4g.jpg"
+        },
+        {
+          "id": "reddit-1t900lc",
+          "title": "Athena 1800 build with Durock V3 stabs and Gateron Oil Kings",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t900lc/my_first_build/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t900lc/my_first_build/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 53,
+          "comments": 8,
+          "category": "breaking",
+          "takeaway": "First build: Athena 1800 with Durock V3 stabs and Gateron Oil Kings.",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "diy-build",
+            "mechanical-keyboard"
+          ],
+          "original_title": "My first build",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague subject",
+          "image": "img/reddit-1t900lc.jpg"
+        },
+        {
+          "id": "reddit-1t8vzxh",
+          "title": "Fully Custom Keyboard with QMK firmware, custom PCB and case",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 52,
+          "comments": 22,
+          "category": "breaking",
+          "takeaway": "Custom PCB and case design by the author; QMK firmware with calc/volume keys.",
+          "topics": [
+            "builds-hardware",
+            "firmware"
+          ],
+          "tags": [
+            "pcb-design",
+            "qmk",
+            "diy-build"
+          ],
+          "original_title": "Fully Custom Keyboard",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague title lacking specific entity or technical details found in takeaway",
+          "image": "img/reddit-1t8vzxh.jpg"
+        },
+        {
+          "id": "reddit-1t8npf9",
+          "title": "Prime L southpaw keyboard with DSA Lightcycle keycaps and white LEDs",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8npf9/my_newtome_prime_l_southpaw/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8npf9/my_newtome_prime_l_southpaw/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 51,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Prime L southpaw with DSA Lightcycle keycaps and white LEDs.",
+          "topics": [
+            "splits-ergo",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "split-keyboard",
+            "keycap-design"
+          ],
+          "original_title": "My new-to-me Prime L southpaw",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague subject",
+          "image": "img/reddit-1t8npf9.jpg"
+        },
+        {
+          "id": "reddit-1t86h2y",
+          "title": "AEBoards EXT65v2 used as left numpad with DuRock Blue Lotus switches",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t86h2y/my_new_left_numpad/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t86h2y/my_new_left_numpad/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 41,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "AEBoards EXT65v2 used as a left numpad with DuRock Blue Lotus switches.",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "diy-build",
+            "hotswap"
+          ],
+          "original_title": "My new left numpad",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague subject",
+          "image": "img/reddit-1t86h2y.jpg"
+        },
+        {
+          "id": "reddit-1t85sko",
+          "title": "zFrontier sold defective TP1 Dieter...",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t85sko/zfrontier_sold_defective_tp1_dieter_novelty/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t85sko/zfrontier_sold_defective_tp1_dieter_novelty/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 40,
+          "comments": 11,
+          "category": "breaking",
+          "takeaway": "Complaint about zFrontier and Geistmaschine regarding defective TP1 Dieter keycaps and poor customer service.",
+          "topics": [
+            "group-buys-vendors",
+            "community"
+          ],
+          "tags": [
+            "vendor-practices",
+            "keycap-design"
+          ],
+          "image": "img/reddit-1t85sko.jpg"
+        },
+        {
+          "id": "reddit-1t8hpwo",
+          "title": "Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8hpwo/my_new_favorite_keyboard_completed_build/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8hpwo/my_new_favorite_keyboard_completed_build/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 39,
+          "comments": 7,
+          "category": "breaking",
+          "takeaway": "Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "hotswap",
+            "mechanical-keyboard"
+          ],
+          "original_title": "My new favorite keyboard - completed build",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Removes subjective 'favorite' and 'my' framing",
+          "image": "img/reddit-1t8hpwo.jpg"
+        },
+        {
+          "id": "reddit-1t84aqs",
+          "title": "Keychron K4 Pro with keycaps from Malaysia",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t84aqs/my_eyes_keep_going_back_to_it_all_day/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t84aqs/my_eyes_keep_going_back_to_it_all_day/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 28,
+          "comments": 12,
+          "category": "breaking",
+          "takeaway": "Keychron K4 Pro with cute keycaps from Malaysia.",
+          "topics": [
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "original_title": "my eyes keep going back to it all day 😭",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague emotional reaction and missing subject",
+          "image": "img/reddit-1t84aqs.jpg"
+        },
+        {
+          "id": "reddit-1t85u6g",
+          "title": "Git Core Alice",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t85u6g/git_core_alice/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t85u6g/git_core_alice/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 21,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "Keychron Alice Q10 build with Epomaker Sea Salt Silent switches and GMK Dracula V2.0.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "diy-build",
+            "keycap-design"
+          ],
+          "image": "img/reddit-1t85u6g.jpg"
+        },
+        {
+          "id": "reddit-1t91zd0",
+          "title": "Reddit r/Btechtards discusses laptop choices for CSE and Software Engineering",
+          "url": "https://www.reddit.com/r/Btechtards/comments/1t91zd0/which_one/",
+          "discussion_url": "https://www.reddit.com/r/Btechtards/comments/1t91zd0/which_one/",
+          "source": "reddit",
+          "subreddit": "Btechtards",
+          "score": 17,
+          "comments": 47,
+          "category": "breaking",
+          "takeaway": "High engagement discussion on laptop choice for CSE/Software Engineering.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "pricing",
+            "mechanical-keyboard"
+          ],
+          "original_title": "WHICH ONE ????",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague title with excessive punctuation and no subject",
+          "image": "img/reddit-1t91zd0.jpg"
+        },
+        {
+          "id": "reddit-1t8w8z9",
+          "title": "r/MechanicalKeyboards hosts weekly \"Ask Me Anything\" thread for keyboard questions",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8w8z9/rmechanicalkeyboards_ask_any_keyboard_question/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8w8z9/rmechanicalkeyboards_ask_any_keyboard_question/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 10,
+          "comments": 28,
+          "category": "breaking",
+          "takeaway": "Weekly \"Ask Me Anything\" thread for keyboard questions.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "original_title": "Ask ANY Keyboard question, get an answer - May 10, 2026",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague imperative phrasing replaced with factual description of the event"
+        },
+        {
+          "id": "reddit-1t8eklx",
+          "title": "Reddit user inquires about upcoming keyboard meetups in the Midwest",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8eklx/midwest_meetups/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t8eklx/midwest_meetups/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 9,
+          "comments": 8,
+          "category": "breaking",
+          "takeaway": "Inquiry about upcoming keyboard meetups in the Midwest.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "original_title": "Midwest meetups",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague headline missing subject"
+        },
+        {
+          "id": "reddit-1t8dbpd",
+          "title": "User seeks wireless split keyboard with more keys than Keyball39 for travel and Emacs",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8dbpd/looking_for_features/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8dbpd/looking_for_features/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 8,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Seeking a wireless split keyboard with more keys than Keyball39 for travel and Emacs usage.",
+          "topics": [
+            "splits-ergo",
+            "remapping-layouts"
+          ],
+          "tags": [
+            "split-keyboard",
+            "remap"
+          ],
+          "original_title": "Looking for features ...",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague headline missing subject and key details"
+        },
+        {
+          "id": "reddit-1t8wzt6",
+          "title": "Showcase of portable Bluetooth keyboard using ZMK firmware",
+          "url": "https://www.reddit.com/r/CustomKeyboards/comments/1t8wzt6/keyboard_base_on_zmk/",
+          "discussion_url": "https://www.reddit.com/r/CustomKeyboards/comments/1t8wzt6/keyboard_base_on_zmk/",
+          "source": "reddit",
+          "subreddit": "CustomKeyboards",
+          "score": 8,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "Showcase of a portable Bluetooth keyboard using ZMK firmware.",
+          "topics": [
+            "firmware",
+            "builds-hardware"
+          ],
+          "tags": [
+            "zmk",
+            "diy-build",
+            "open-source"
+          ],
+          "original_title": "keyboard base on zmk",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague subject and sensational phrasing",
+          "image": "img/reddit-1t8wzt6.jpg"
+        },
+        {
+          "id": "reddit-1t9391b",
+          "title": "Discussion on handling off-color GMK Alters keycaps from a past group buy",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t9391b/what_to_do_with_miss_colored_batch_of_gmk_alters/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t9391b/what_to_do_with_miss_colored_batch_of_gmk_alters/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 8,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Discussion on what to do with off-color GMK Alters keycaps from a past group buy.",
+          "topics": [
+            "keycaps-aesthetics",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "original_title": "What to do with miss colored batch of GMK alters",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague phrasing and curiosity gap",
+          "image": "img/reddit-1t9391b.jpg"
+        },
+        {
+          "id": "reddit-1t83jq8",
+          "title": "Reddit user asks for ergonomic feedback on custom thumb cluster layout",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83jq8/help_with_layout/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83jq8/help_with_layout/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 3,
+          "comments": 5,
+          "category": "breaking",
+          "takeaway": "New to split keyboards, asking for ergonomic feedback on a custom thumb cluster layout.",
+          "topics": [
+            "splits-ergo",
+            "remapping-layouts"
+          ],
+          "tags": [
+            "split-keyboard",
+            "home-row-mods"
+          ],
+          "original_title": "Help with Layout",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague headline missing subject and action",
+          "image": "img/reddit-1t83jq8.jpg"
+        },
+        {
+          "id": "reddit-1t85x0r",
+          "title": "User seeks split keyboard recommendations for wrist pain",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t85x0r/thinking_of_trying_split_keyboards/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t85x0r/thinking_of_trying_split_keyboards/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 3,
+          "comments": 12,
+          "category": "breaking",
+          "takeaway": "User seeking starter split keyboard recommendations to alleviate wrist pain.",
+          "topics": [
+            "splits-ergo"
+          ],
+          "tags": [
+            "split-keyboard"
+          ],
+          "original_title": "Thinking of trying split keyboards",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague headline missing subject; takeaway supplies context"
+        },
+        {
+          "id": "reddit-1t861qf",
+          "title": "Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t861qf/keyboardio_atreus_and_a_zaunkoenig_m1k_where/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t861qf/keyboardio_atreus_and_a_zaunkoenig_m1k_where/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 2,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup.",
+          "topics": [
+            "remapping-layouts",
+            "splits-ergo"
+          ],
+          "tags": [
+            "qmk",
+            "split-keyboard",
+            "key-remapping"
+          ],
+          "original_title": "Keyboard.io Atreus and a zaunkoenig M1k... Where would you put a scroll function?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Question format with vague pronouns"
+        },
+        {
+          "id": "reddit-1t8c5n8",
+          "title": "User seeks wireless split keyboard with numpad and arrow keys for music production",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8c5n8/wireless_split_key_with_numpad/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8c5n8/wireless_split_key_with_numpad/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 2,
+          "comments": 19,
+          "category": "breaking",
+          "takeaway": "Looking for a wireless split keyboard with numpad and arrow keys for music production.",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "wireless",
+            "numpad",
+            "ergonomic"
+          ],
+          "original_title": "Wireless Split Key with Numpad",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague headline missing subject, rewritten using takeaway facts"
+        },
+        {
+          "id": "reddit-1t8ue1x",
+          "title": "[US-MI] [H] Ergo/ortho keyboards, cases, keycaps [W] PayPal",
+          "url": "https://www.reddit.com/r/mechmarket/comments/1t8ue1x/usmi_h_ergoortho_keyboards_cases_keycaps_w_paypal/",
+          "discussion_url": "https://www.reddit.com/r/mechmarket/comments/1t8ue1x/usmi_h_ergoortho_keyboards_cases_keycaps_w_paypal/",
+          "source": "reddit",
+          "subreddit": "mechmarket",
+          "score": 2,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Marketplace listing for various ergonomic/ortholinear keyboards and parts.",
+          "topics": [
+            "splits-ergo",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "ortholinear",
+            "marketplace",
+            "keycap-design"
+          ]
+        },
+        {
+          "id": "reddit-1t8z3m5",
+          "title": "Reddit discussion on Steam Controller 2 trackpad keyboard issues",
+          "url": "https://www.reddit.com/r/SteamController/comments/1t8z3m5/old_grievances/",
+          "discussion_url": "https://www.reddit.com/r/SteamController/comments/1t8z3m5/old_grievances/",
+          "source": "reddit",
+          "subreddit": "SteamController",
+          "score": 2,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Discussion on the Steam Controller 2's trackpad keyboard issues.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "steam-controller",
+            "trackpad",
+            "user-experience"
+          ],
+          "original_title": "Old Grievances",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague title lacking subject"
+        },
+        {
+          "id": "reddit-1t94bdl",
+          "title": "Reddit users seek wireless alternatives to ZSA Voyager",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94bdl/wireless_voyager_alternative/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94bdl/wireless_voyager_alternative/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 2,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Seeking a wireless alternative to the ZSA Voyager for travel.",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "wireless",
+            "zsa-voyager"
+          ],
+          "original_title": "Wireless Voyager Alternative?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague question format lacking factual subject"
+        },
+        {
+          "id": "reddit-1t94kpp",
+          "title": "ZSA Voyager layout optimized for combos and Neovim",
+          "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t94kpp/my_layout_tour_combos_neovim_symmetrical/",
+          "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t94kpp/my_layout_tour_combos_neovim_symmetrical/",
+          "source": "reddit",
+          "subreddit": "KeyboardLayouts",
+          "score": 2,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "Tour of a ZSA Voyager layout optimized for combos and Neovim.",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "key-remapping",
+            "neovim",
+            "combos"
+          ],
+          "original_title": "My layout tour - Combos, neovim, symmetrical",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague subject"
+        },
+        {
+          "id": "reddit-1t94s4e",
+          "title": "TGR Lena Mini",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t94s4e/tgr_lena_mini/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t94s4e/tgr_lena_mini/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 2,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "TGR Lena Mini Carbon build with Cherry MX2a Blacks.",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "diy-build"
+          ],
+          "image": "img/reddit-1t94s4e.jpg"
+        },
+        {
+          "id": "reddit-1t839hu",
+          "title": "User requests help identifying unknown laptop keyboard layout",
+          "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t839hu/i_need_help_identifying_the_layout_of_my_laptops/",
+          "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t839hu/i_need_help_identifying_the_layout_of_my_laptops/",
+          "source": "reddit",
+          "subreddit": "KeyboardLayouts",
+          "score": 1,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Request for help identifying an unknown laptop keyboard layout.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "iso-layout"
+          ],
+          "original_title": "I need help identifying the layout of my laptops keyboard. Thanks for the help",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague first-person framing and missing subject",
+          "image": "img/reddit-1t839hu.jpg"
+        },
+        {
+          "id": "reddit-1t8w8go",
+          "title": "Reddit discussion compares Keychron Q6 Ultra Wi-Fi and Q6 MAX value",
+          "url": "https://www.reddit.com/r/Keychron/comments/1t8w8go/keycron_q6_ultra_version_worth/",
+          "discussion_url": "https://www.reddit.com/r/Keychron/comments/1t8w8go/keycron_q6_ultra_version_worth/",
+          "source": "reddit",
+          "subreddit": "Keychron",
+          "score": 1,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Discussion on the worth of the Keychron Q6 Ultra Wi-Fi version vs Q6 MAX.",
+          "topics": [
+            "community",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "pricing",
+            "vendor-practices"
+          ],
+          "original_title": "Keycron Q6 ULTRA version worth?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague question format lacking factual subject"
+        },
+        {
+          "id": "reddit-1t8wa0i",
+          "title": "Reddit comparison of budget aluminum keyboards: ND75, Wave75, Inky75, Rainey75",
+          "url": "https://www.reddit.com/r/keyboards/comments/1t8wa0i/nd75_vs_wave75_vs_inky_75_vs_rainey_75/",
+          "discussion_url": "https://www.reddit.com/r/keyboards/comments/1t8wa0i/nd75_vs_wave75_vs_inky_75_vs_rainey_75/",
+          "source": "reddit",
+          "subreddit": "keyboards",
+          "score": 1,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "Comparison of budget aluminum boards: ND75, Wave75, Inky75, Rainey75.",
+          "topics": [
+            "builds-hardware",
+            "community"
+          ],
+          "tags": [
+            "pricing",
+            "mechanical-keyboard"
+          ],
+          "original_title": "Nd75 vs wave75 vs inky 75 vs Rainey 75?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague question format replaced with factual summary of content"
+        },
+        {
+          "id": "reddit-1t8ym86",
+          "title": "Windows key not working",
+          "url": "https://www.reddit.com/r/pchelp/comments/1t8ym86/windows_key_not_working/",
+          "discussion_url": "https://www.reddit.com/r/pchelp/comments/1t8ym86/windows_key_not_working/",
+          "source": "reddit",
+          "subreddit": "pchelp",
+          "score": 1,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Troubleshooting a Windows key that types 'd' on an Aula F75.",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "windows-utilities",
+            "key-remapping"
+          ]
+        },
+        {
+          "id": "reddit-1t8zbup",
+          "title": "Trouble with F keys not working - Lofree Flow lite",
+          "url": "https://www.reddit.com/r/Lofree/comments/1t8zbup/trouble_with_f_keys_not_working_lofree_flow_lite/",
+          "discussion_url": "https://www.reddit.com/r/Lofree/comments/1t8zbup/trouble_with_f_keys_not_working_lofree_flow_lite/",
+          "source": "reddit",
+          "subreddit": "Lofree",
+          "score": 1,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "Issue with F keys not working on Lofree Flow Lite, possibly related to multimedia keys.",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "remap",
+            "macos-utilities"
+          ]
+        },
+        {
+          "id": "reddit-1t923eg",
+          "title": "Logitech G815 Linear - TAB key triggers 10+ keys",
+          "url": "https://www.reddit.com/r/logitech/comments/1t923eg/logitech_g815_linear_tab_key_triggers_10_keys/",
+          "discussion_url": "https://www.reddit.com/r/logitech/comments/1t923eg/logitech_g815_linear_tab_key_triggers_10_keys/",
+          "source": "reddit",
+          "subreddit": "logitech",
+          "score": 1,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "Hardware issue where TAB key triggers multiple keys simultaneously.",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "hardware-issue"
+          ],
+          "image": "img/reddit-1t923eg.jpg"
+        },
+        {
+          "id": "reddit-1t83of4",
+          "title": "Reddit user seeks keyboard model seen in CS2",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83of4/please_help_me_find_this_type_of_keyboard/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83of4/please_help_me_find_this_type_of_keyboard/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 0,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "User saw a keyboard in CS2 and wants to find it.",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "original_title": "Please help me find this type of keyboard!",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague pronoun and first-person framing",
+          "image": "img/reddit-1t83of4.jpg"
+        },
+        {
+          "id": "reddit-1t89vzp",
+          "title": "Reddit user showcases accumulated keycaps from various builds",
+          "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t89vzp/awaiting_use/",
+          "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1t89vzp/awaiting_use/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": 0,
+          "comments": 149,
+          "category": "breaking",
+          "takeaway": "Showcase of accumulated keycaps from various builds.",
+          "topics": [
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "original_title": "Awaiting use",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague title lacking subject and context",
+          "image": "img/reddit-1t89vzp.jpg"
+        },
+        {
+          "id": "reddit-1t8cxe1",
+          "title": "BBC Sounds episode discusses split keyboards",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8cxe1/are_split_keyboards_sliced_bread/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8cxe1/are_split_keyboards_sliced_bread/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 0,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Link to a BBC Sounds episode discussing split keyboards.",
+          "topics": [
+            "splits-ergo",
+            "community"
+          ],
+          "tags": [
+            "split-keyboard",
+            "ergonomics"
+          ],
+          "original_title": "Are split keyboards Sliced Bread?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague metaphorical title replaced with factual summary of source content",
+          "image": "img/reddit-1t8cxe1.jpg"
+        },
+        {
+          "id": "reddit-1t8l6mt",
+          "title": "Reddit thread requests available ergonomic keyboards in 2026",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8l6mt/best_ergonomic_keyboard_in_2026/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8l6mt/best_ergonomic_keyboard_in_2026/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 0,
+          "comments": 25,
+          "category": "breaking",
+          "takeaway": "Request for available ergonomic keyboards in 2026.",
+          "topics": [
+            "splits-ergo",
+            "community"
+          ],
+          "tags": [
+            "pricing",
+            "mechanical-keyboard"
+          ],
+          "original_title": "Best Ergonomic Keyboard in 2026?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Vague question with sensational framing"
+        },
+        {
+          "id": "reddit-1t93kw9",
+          "title": "IKI model update: layout weight",
+          "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t93kw9/iki_model_update_layout_weight/",
+          "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1t93kw9/iki_model_update_layout_weight/",
+          "source": "reddit",
+          "subreddit": "KeyboardLayouts",
+          "score": 0,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Technical discussion on the IKI layout model and weight distribution.",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "key-remapping",
+            "layout-design"
+          ],
+          "image": "img/reddit-1t93kw9.jpg"
+        },
+        {
+          "id": "reddit-1t94lsl",
+          "title": "IKI model update: layout weight",
+          "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94lsl/iki_model_update_layout_weight/",
+          "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94lsl/iki_model_update_layout_weight/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": 0,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "Duplicate of the above layout model discussion.",
+          "topics": [
+            "splits-ergo",
+            "remapping-layouts"
+          ],
+          "tags": [
+            "split-keyboard",
+            "remap"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-05-08",
       "items": [
         {

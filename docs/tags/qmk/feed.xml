@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Fully Custom Keyboard with QMK firmware, custom PCB and case</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t8vzxh</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Custom PCB and case design by the author; QMK firmware with calc/volume keys. — 52 pts · 22 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t861qf/keyboardio_atreus_and_a_zaunkoenig_m1k_where/</link>
+    <guid isPermaLink="false">reddit-1t861qf</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup. — 2 pts · 4 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update</title>
     <link>https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/</link>

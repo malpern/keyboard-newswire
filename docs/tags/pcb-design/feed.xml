@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders</title>
+    <link>https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/</link>
+    <guid isPermaLink="false">reddit-1t8wss6</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Request for schematic review on a 3x3 macropad with 2 rotary encoders; good for seeing beginner PCB design questions. — 1 pts · 6 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>Fully Custom Keyboard with QMK firmware, custom PCB and case</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t8vzxh</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Custom PCB and case design by the author; QMK firmware with calc/volume keys. — 52 pts · 22 comments · r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>User seeks wiring and sourcing advice for trackpad modules in KLOR Polydactyl build</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4lrds/trackpads_whos_got_the_deets/</link>

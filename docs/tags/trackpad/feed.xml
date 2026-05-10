@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Trackpad · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/trackpad/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/trackpad/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Trackpad.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Reddit discussion on Steam Controller 2 trackpad keyboard issues</title>
+    <link>https://www.reddit.com/r/SteamController/comments/1t8z3m5/old_grievances/</link>
+    <guid isPermaLink="false">reddit-1t8z3m5</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/SteamController</source>
+    <description>Discussion on the Steam Controller 2's trackpad keyboard issues. — 2 pts · 4 comments · r/SteamController</description>
+  </item>
+</channel>
+</rss>

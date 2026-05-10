@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Layout Design · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/layout-design/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/layout-design/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Layout Design.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>IKI model update: layout weight</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1t93kw9/iki_model_update_layout_weight/</link>
+    <guid isPermaLink="false">reddit-1t93kw9</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
+    <description>Technical discussion on the IKI layout model and weight distribution. — 0 pts · 2 comments · r/KeyboardLayouts</description>
+  </item>
+</channel>
+</rss>

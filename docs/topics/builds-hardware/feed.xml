@@ -6,7 +6,201 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders</title>
+    <link>https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/</link>
+    <guid isPermaLink="false">reddit-1t8wss6</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Request for schematic review on a 3x3 macropad with 2 rotary encoders; good for seeing beginner PCB design questions. — 1 pts · 6 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>Eightu</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t87p0y/eightu/</link>
+    <guid isPermaLink="false">reddit-1t87p0y</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Showcase of the Eightu board by Obabo with Gateron Smoothies and DSS Drank switches. — 228 pts · 20 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Modified Scylla (BastardKeyboards)</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t88c10/modified_scylla_bastardkeyboards/</link>
+    <guid isPermaLink="false">reddit-1t88c10</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Handwired modified Scylla with encoders, joysticks, and TFT screens; interesting custom build details. — 193 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Mictlán Centinela</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8o6rw/mictlán_centinela/</link>
+    <guid isPermaLink="false">reddit-1t8o6rw</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Synth60 build featuring GMK Mictlán R1 and Unity switches. — 164 pts · 6 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>MB44 V1 build with Scandivan PCB and Cherry Milkshake keycaps</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8yhe4/show_your_boards_the_world/</link>
+    <guid isPermaLink="false">reddit-1t8yhe4</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>MB44 V1 build with Scandivan PCB and Cherry Milkshake keycaps. — 155 pts · 11 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Keychron V3 8k and V0 Ultra</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8jifs/keychron_v3_8k_and_v0_ultra/</link>
+    <guid isPermaLink="false">reddit-1t8jifs</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Comparison/showcase of Keychron V3 8k and V0 Ultra; user switching to wired for reliability. — 81 pts · 6 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Aepex60</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8rl4g/aepex60/</link>
+    <guid isPermaLink="false">reddit-1t8rl4g</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Aepex60 build with GMK Windbreaker and MX Blacks. — 74 pts · 3 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Athena 1800 build with Durock V3 stabs and Gateron Oil Kings</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t900lc/my_first_build/</link>
+    <guid isPermaLink="false">reddit-1t900lc</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>First build: Athena 1800 with Durock V3 stabs and Gateron Oil Kings. — 53 pts · 8 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Fully Custom Keyboard with QMK firmware, custom PCB and case</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/</link>
+    <guid isPermaLink="false">reddit-1t8vzxh</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Custom PCB and case design by the author; QMK firmware with calc/volume keys. — 52 pts · 22 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>AEBoards EXT65v2 used as left numpad with DuRock Blue Lotus switches</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t86h2y/my_new_left_numpad/</link>
+    <guid isPermaLink="false">reddit-1t86h2y</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>AEBoards EXT65v2 used as a left numpad with DuRock Blue Lotus switches. — 41 pts · 3 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8hpwo/my_new_favorite_keyboard_completed_build/</link>
+    <guid isPermaLink="false">reddit-1t8hpwo</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches. — 39 pts · 7 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Git Core Alice</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t85u6g/git_core_alice/</link>
+    <guid isPermaLink="false">reddit-1t85u6g</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Keychron Alice Q10 build with Epomaker Sea Salt Silent switches and GMK Dracula V2.0. — 21 pts · 3 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Showcase of portable Bluetooth keyboard using ZMK firmware</title>
+    <link>https://www.reddit.com/r/CustomKeyboards/comments/1t8wzt6/keyboard_base_on_zmk/</link>
+    <guid isPermaLink="false">reddit-1t8wzt6</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/CustomKeyboards</source>
+    <description>Showcase of a portable Bluetooth keyboard using ZMK firmware. — 8 pts · 1 comments · r/CustomKeyboards</description>
+  </item>
+  <item>
+    <title>User seeks wireless split keyboard with numpad and arrow keys for music production</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8c5n8/wireless_split_key_with_numpad/</link>
+    <guid isPermaLink="false">reddit-1t8c5n8</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Looking for a wireless split keyboard with numpad and arrow keys for music production. — 2 pts · 19 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit users seek wireless alternatives to ZSA Voyager</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94bdl/wireless_voyager_alternative/</link>
+    <guid isPermaLink="false">reddit-1t94bdl</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Seeking a wireless alternative to the ZSA Voyager for travel. — 2 pts · 2 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>TGR Lena Mini</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t94s4e/tgr_lena_mini/</link>
+    <guid isPermaLink="false">reddit-1t94s4e</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>TGR Lena Mini Carbon build with Cherry MX2a Blacks. — 2 pts · 1 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit comparison of budget aluminum keyboards: ND75, Wave75, Inky75, Rainey75</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1t8wa0i/nd75_vs_wave75_vs_inky_75_vs_rainey_75/</link>
+    <guid isPermaLink="false">reddit-1t8wa0i</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>Comparison of budget aluminum boards: ND75, Wave75, Inky75, Rainey75. — 1 pts · 0 comments · r/keyboards</description>
+  </item>
+  <item>
+    <title>Logitech G815 Linear - TAB key triggers 10+ keys</title>
+    <link>https://www.reddit.com/r/logitech/comments/1t923eg/logitech_g815_linear_tab_key_triggers_10_keys/</link>
+    <guid isPermaLink="false">reddit-1t923eg</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/logitech</source>
+    <description>Hardware issue where TAB key triggers multiple keys simultaneously. — 1 pts · 0 comments · r/logitech</description>
+  </item>
   <item>
     <title>Showcase of JustSystems 91U with 86U internals</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4ryo4/happy_topre_tuesday/</link>

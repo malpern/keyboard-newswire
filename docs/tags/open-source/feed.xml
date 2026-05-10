@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:34 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Updated TOTEM dongle zmk module</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8pdb5/updated_totem_dongle_zmk_module/</link>
+    <guid isPermaLink="false">reddit-1t8pdb5</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Author migrated their dongle setup into a standalone ZMK module after Zephyr 4.1 broke their config; useful for others using the TOTEM dongle. — 15 pts · 1 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Showcase of portable Bluetooth keyboard using ZMK firmware</title>
+    <link>https://www.reddit.com/r/CustomKeyboards/comments/1t8wzt6/keyboard_base_on_zmk/</link>
+    <guid isPermaLink="false">reddit-1t8wzt6</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/CustomKeyboards</source>
+    <description>Showcase of a portable Bluetooth keyboard using ZMK firmware. — 8 pts · 1 comments · r/CustomKeyboards</description>
+  </item>
   <item>
     <title>Kanata adds UI for firmware-level keyboard remapping</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/</link>

@@ -6,7 +6,48 @@
   <atom:link href="https://keyboard-newswire.com/tags/key-remapping/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Key Remapping.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 08 May 2026 12:04:33 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 10 May 2026 12:09:35 +0000</lastBuildDate>
+  <item>
+    <title>Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t861qf/keyboardio_atreus_and_a_zaunkoenig_m1k_where/</link>
+    <guid isPermaLink="false">reddit-1t861qf</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on mapping scroll functions on a Keyboard.io Atreus + Zaunkoenig M1k setup. — 2 pts · 4 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>ZSA Voyager layout optimized for combos and Neovim</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1t94kpp/my_layout_tour_combos_neovim_symmetrical/</link>
+    <guid isPermaLink="false">reddit-1t94kpp</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
+    <description>Tour of a ZSA Voyager layout optimized for combos and Neovim. — 2 pts · 0 comments · r/KeyboardLayouts</description>
+  </item>
+  <item>
+    <title>Windows key not working</title>
+    <link>https://www.reddit.com/r/pchelp/comments/1t8ym86/windows_key_not_working/</link>
+    <guid isPermaLink="false">reddit-1t8ym86</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/pchelp</source>
+    <description>Troubleshooting a Windows key that types 'd' on an Aula F75. — 1 pts · 2 comments · r/pchelp</description>
+  </item>
+  <item>
+    <title>IKI model update: layout weight</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1t93kw9/iki_model_update_layout_weight/</link>
+    <guid isPermaLink="false">reddit-1t93kw9</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
+    <description>Technical discussion on the IKI layout model and weight distribution. — 0 pts · 2 comments · r/KeyboardLayouts</description>
+  </item>
   <item>
     <title>Kanata adds UI for firmware-level keyboard remapping</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4d9rk/kanata_brings_firmwarelevel_remapping_to_any/</link>
