@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-11",
+      "items": [
+        {
+          "id": "email-19e1227e6852d7ec",
+          "title": "ScottoAcademy Workshop Logistics and Kit Info",
+          "url": "https://mail.google.com/mail/u/0/#all/19e1227e6852d7ec",
+          "discussion_url": "https://mail.google.com/mail/u/0/#all/19e1227e6852d7ec",
+          "source": "email",
+          "subreddit": null,
+          "via": "Scottokeebs",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Joe announces upcoming workshop details, requests Discord usernames for access, and advises checking kit parts and bringing spare wires.",
+          "sender": "joe@scottokeebs.com",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "diy-build"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-05-10",
       "items": [
         {
