@@ -923,6 +923,97 @@ def font_script() -> str:
     });
   }
   initGbCarousels();
+
+  // ── GB image lightbox (click carousel slide to expand) ──
+  function initGbLightbox() {
+    var lb = document.getElementById('gb-lightbox');
+    if (!lb) return;
+    var lbImg = lb.querySelector('.gb-lightbox-img');
+    var lbClose = lb.querySelector('.gb-lightbox-close');
+    var lbPrev = lb.querySelector('.gb-lightbox-prev');
+    var lbNext = lb.querySelector('.gb-lightbox-next');
+    var lbCount = lb.querySelector('.gb-lightbox-counter');
+
+    var currentImages = [];  // array of src strings for current carousel
+    var currentIdx = 0;
+    var lastTrigger = null;  // element to restore focus to on close
+
+    function show(idx) {
+      if (!currentImages.length) return;
+      currentIdx = (idx + currentImages.length) % currentImages.length;
+      lbImg.src = currentImages[currentIdx];
+      if (currentImages.length > 1) {
+        lbCount.textContent = (currentIdx + 1) + ' / ' + currentImages.length;
+        lbPrev.style.display = '';
+        lbNext.style.display = '';
+      } else {
+        lbCount.textContent = '';
+        lbPrev.style.display = 'none';
+        lbNext.style.display = 'none';
+      }
+    }
+
+    function open(images, startIdx, trigger) {
+      currentImages = images.slice();
+      lastTrigger = trigger || null;
+      show(startIdx || 0);
+      lb.hidden = false;
+      document.body.style.overflow = 'hidden';
+      lbClose.focus();
+    }
+
+    function close() {
+      lb.hidden = true;
+      lbImg.src = '';
+      document.body.style.overflow = '';
+      currentImages = [];
+      if (lastTrigger && typeof lastTrigger.focus === 'function') {
+        lastTrigger.focus();
+        lastTrigger = null;
+      }
+    }
+
+    // Delegate: any click on a slide img opens the lightbox with that
+    // carousel's full image list. Works for both single-image and
+    // multi-image carousels.
+    document.addEventListener('click', function(e) {
+      var img = e.target;
+      if (img.tagName !== 'IMG') return;
+      var slide = img.closest('.gb-slide, .gb-carousel-single');
+      if (!slide) return;
+      var carousel = slide.closest('.gb-carousel, .gb-carousel-single');
+      if (!carousel) return;
+      // Collect all images in this carousel in DOM order.
+      var imgs = carousel.querySelectorAll('img');
+      var srcs = [];
+      var startIdx = 0;
+      for (var i = 0; i < imgs.length; i++) {
+        srcs.push(imgs[i].src);
+        if (imgs[i] === img) startIdx = i;
+      }
+      open(srcs, startIdx, img);
+      e.preventDefault();
+    });
+
+    // Click-outside-image closes (the backdrop has cursor: zoom-out).
+    lb.addEventListener('click', function(e) {
+      if (e.target === lbImg) return;  // image itself: don't close
+      if (e.target === lbPrev || e.target === lbNext) return;
+      close();
+    });
+
+    lbClose.addEventListener('click', close);
+    lbPrev.addEventListener('click', function() { show(currentIdx - 1); });
+    lbNext.addEventListener('click', function() { show(currentIdx + 1); });
+
+    document.addEventListener('keydown', function(e) {
+      if (lb.hidden) return;
+      if (e.key === 'Escape')         { e.preventDefault(); close(); }
+      else if (e.key === 'ArrowLeft')  { e.preventDefault(); show(currentIdx - 1); }
+      else if (e.key === 'ArrowRight') { e.preventDefault(); show(currentIdx + 1); }
+    });
+  }
+  initGbLightbox();
 })();
 </script>'''
 
@@ -2096,6 +2187,14 @@ def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict) -> str
   {body}
   {site_footer()}
 </main>
+<div id="gb-lightbox" class="gb-lightbox" hidden role="dialog"
+     aria-label="Image viewer" aria-modal="true">
+  <button type="button" class="gb-lightbox-close" aria-label="Close">×</button>
+  <button type="button" class="gb-lightbox-nav gb-lightbox-prev" aria-label="Previous image">‹</button>
+  <img class="gb-lightbox-img" alt="" />
+  <button type="button" class="gb-lightbox-nav gb-lightbox-next" aria-label="Next image">›</button>
+  <div class="gb-lightbox-counter" aria-live="polite"></div>
+</div>
 {font_script()}
 </body>
 </html>'''

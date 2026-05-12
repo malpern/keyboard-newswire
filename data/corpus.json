@@ -200,12 +200,11 @@
             "status": "postponed"
           },
           "images": [
+            "img/geekhack-110579-0.jpg",
             "img/geekhack-110579-1.jpg",
-            "img/geekhack-110579-2.jpg",
-            "img/geekhack-110579-4.jpg",
-            "img/geekhack-110579-5.jpg"
+            "img/geekhack-110579-2.jpg"
           ],
-          "image": "img/geekhack-110579-1.jpg"
+          "image": "img/geekhack-110579-0.jpg"
         },
         {
           "id": "geekhack-126032",

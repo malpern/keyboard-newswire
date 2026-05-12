@@ -214,7 +214,8 @@ def discover_image_url(item: dict) -> str | None:
 def download_and_save(image_url: str, dest: pathlib.Path, *,
                       target_size: tuple[int, int] = (320, 320),
                       square_crop: bool = True,
-                      quality: int = 82) -> bool:
+                      quality: int = 82,
+                      min_dimension: int = 200) -> bool:
     """Download, validate, optionally crop, save JPEG.
 
     News items keep the default 320×320 square crop (thumb in the
@@ -232,9 +233,12 @@ def download_and_save(image_url: str, dest: pathlib.Path, *,
         img.load()
     except Exception:
         return False
-    # Reject too-small or non-image content.
+    # Reject too-small or non-image content. `min_dimension` defaults
+    # to 200 (news thumbs); GB carousel uses ~500 to keep small
+    # designer thumbnails out of the hero carousel — they upscale poorly
+    # next to 1280px siblings.
     w, h = img.size
-    if min(w, h) < 200:
+    if min(w, h) < min_dimension:
         return False
     # Convert to RGB (handle RGBA / palette).
     if img.mode != "RGB":
@@ -271,6 +275,9 @@ MAX_GB_IMAGES = 6  # cap per-item to keep carousel tidy + bandwidth bounded
 # devices, ~100KB per image, 6 images per item = ~600KB total.
 GB_TARGET_SIZE = (1280, 1280)
 GB_QUALITY = 88
+# Reject GB carousel images smaller than this on the shorter dimension —
+# 300×300 thumbnails look obviously low-res next to their 1280px siblings.
+GB_MIN_DIMENSION = 500
 
 
 def fetch_for(item: dict) -> dict:
@@ -307,7 +314,8 @@ def fetch_for(item: dict) -> dict:
                 if download_and_save(url, dest,
                                      target_size=GB_TARGET_SIZE,
                                      square_crop=False,
-                                     quality=GB_QUALITY):
+                                     quality=GB_QUALITY,
+                                     min_dimension=GB_MIN_DIMENSION):
                     local_paths.append(f"img/{dest.name}")
             if local_paths:
                 item = dict(item)

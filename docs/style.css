@@ -2031,3 +2031,95 @@ footer a:hover {
   background: var(--rule);
   border-radius: 6px;
 }
+
+/* GB lightbox — click carousel image to expand full-screen */
+.gb-slide img,
+.gb-carousel-single img {
+  cursor: zoom-in;
+}
+
+.gb-lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: max(2rem, env(safe-area-inset-top));
+  padding-bottom: max(2rem, env(safe-area-inset-bottom));
+  cursor: zoom-out;
+  animation: gb-lightbox-fade-in 0.18s ease-out;
+}
+.gb-lightbox[hidden] { display: none; }
+
+@keyframes gb-lightbox-fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.gb-lightbox-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  cursor: default;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.gb-lightbox-close,
+.gb-lightbox-nav {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  border: none;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  font-size: 1.75rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease;
+}
+.gb-lightbox-close:hover,
+.gb-lightbox-nav:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+.gb-lightbox-close {
+  top: 1rem;
+  right: 1rem;
+  top: max(1rem, env(safe-area-inset-top));
+  right: max(1rem, env(safe-area-inset-right));
+}
+.gb-lightbox-prev { left: 1rem; }
+.gb-lightbox-next { right: 1rem; }
+@media (max-width: 600px) {
+  .gb-lightbox-prev { left: 0.5rem; }
+  .gb-lightbox-next { right: 0.5rem; }
+  .gb-lightbox-close { top: 0.75rem; right: 0.75rem; }
+}
+
+.gb-lightbox-counter {
+  position: absolute;
+  bottom: 1rem;
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.8125rem;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.25rem 0.625rem;
+  border-radius: 999px;
+}
+.gb-lightbox-counter:empty { display: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .gb-lightbox { animation: none; }
+}

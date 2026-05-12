@@ -177,7 +177,7 @@
         "group-buy",
         "pricing"
       ],
-      "image": "img/geekhack-110579-1.jpg",
+      "image": "img/geekhack-110579-0.jpg",
       "images_remote": [
         "https://geekhack.org/index.php?PHPSESSID=gconbvnjouqvjcenjpe16m1q8si6dr03&action=dlattach;topic=110579.0;attach=259204;image",
         "https://i.imgur.com/hv7OKVd.jpg",
@@ -194,10 +194,9 @@
         "https://geekhack.org/index.php?PHPSESSID=gconbvnjouqvjcenjpe16m1q8si6dr03&action=dlattach;topic=110579.0;attach=259192;image"
       ],
       "images": [
+        "img/geekhack-110579-0.jpg",
         "img/geekhack-110579-1.jpg",
-        "img/geekhack-110579-2.jpg",
-        "img/geekhack-110579-4.jpg",
-        "img/geekhack-110579-5.jpg"
+        "img/geekhack-110579-2.jpg"
       ],
       "gb": {
         "status": "postponed"
