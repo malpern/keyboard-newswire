@@ -231,7 +231,7 @@ def site_header(canonical: str) -> str:
     settings_path = relative_to_docs(canonical, "settings/")
     archive_path = relative_to_docs(canonical, "archive/")
     buylist_path = relative_to_docs(canonical, "buylist/")
-    source_path = "https://github.com/malpern/keyboard-wire"
+    source_path = "https://github.com/malpern/keyboard-newswire"
     icon_path = relative_to_docs(canonical, "post/assets/icon-final.png")
     return f'''<header>
     <div class="site-masthead">
@@ -264,7 +264,7 @@ def site_footer() -> str:
     mechanical keyboard newswire · auto-curated
     <a href="post/">about</a>
     <a href="feed.xml">RSS</a>
-    <a href="https://github.com/malpern/keyboard-wire">source</a>
+    <a href="https://github.com/malpern/keyboard-newswire">source</a>
     <a href="topics/">topics</a>
     <a href="tags/">tags</a>
   </footer>'''

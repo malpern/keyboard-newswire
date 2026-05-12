@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 04:54:27 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
   <item>
     <title>Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders</title>
     <link>https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/</link>
@@ -388,7 +388,7 @@
   </item>
   <item>
     <title>ScottoAcademy live workshop: build a 3x3 macropad</title>
-    <link>https://malpern.github.io/keyboard-wire/email/19dd66acbf8e55b6/</link>
+    <link>https://keyboard-newswire.com/email/19dd66acbf8e55b6/</link>
     <guid isPermaLink="false">email-19dd66acbf8e55b6</guid>
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
@@ -398,7 +398,7 @@
   </item>
   <item>
     <title>Mode Designs announces 2026 Encore with Crown Mounting System</title>
-    <link>https://malpern.github.io/keyboard-wire/email/19dcffde9981c0c4/</link>
+    <link>https://keyboard-newswire.com/email/19dcffde9981c0c4/</link>
     <guid isPermaLink="false">email-19dcffde9981c0c4</guid>
     <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
