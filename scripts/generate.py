@@ -985,6 +985,7 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     """
     title = item.get("title") or ""
     raw_type = (item.get("type") or "").upper()
+    is_ic = raw_type == "IC"
     # Strip "[GB] " / "[IC] " prefix from displayed title — the chip
     # carries that info now, no need to double-encode.
     display_title = title
@@ -1013,6 +1014,13 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     # ── vendor / source line ──
     via_label = html.escape(source_label(item))
     vendor_line = f'<p class="gb-vendor">{via_label}</p>'
+
+    # ── IC subtitle: frames the empty chip row as expected, not broken ──
+    ic_subtitle = (
+        '<p class="gb-ic-subtitle">'
+        'Interest check · gauging interest, no vendors yet</p>'
+        if is_ic else ""
+    )
 
     # ── image carousel ──
     images = gb_images(item)
@@ -1115,6 +1123,15 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
                 f'<div class="gb-vendors" '
                 f'aria-label="Vendors by region">{"".join(pills)}</div>'
             )
+    elif is_ic:
+        # Empty-state copy on IC cards. Frames the absent vendor list
+        # as expected ("designer hasn't decided"), not as data we
+        # failed to extract.
+        vendor_html = (
+            '<p class="gb-no-vendors">'
+            'No vendors signed yet — designer is gauging interest.'
+            '</p>'
+        )
 
     # ── takeaway ──
     takeaway = html.escape(item.get("takeaway") or "")
@@ -1132,7 +1149,10 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
         engage_bits.append(
             f'<span class="gb-stat">💬 {int(item["comments"]):,} replies</span>'
         )
-    cta_label = "open on Geekhack" if item.get("source") == "geekhack" else "open"
+    if item.get("source") == "geekhack":
+        cta_label = "join the discussion" if is_ic else "open on Geekhack"
+    else:
+        cta_label = "open"
     engage_bits.append(
         f'<a class="gb-cta" href="{url}" rel="noopener" target="_blank">'
         f'→ {html.escape(cta_label)}</a>'
@@ -1156,9 +1176,14 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
         if item_id else ""
     )
 
-    return f'''<article class="item gb-item" id="{item_id}" {item_data}>
+    item_classes = "item gb-item"
+    if is_ic:
+        item_classes += " gb-item-ic"
+
+    return f'''<article class="{item_classes}" id="{item_id}" {item_data}>
   {title_block}
   {vendor_line}
+  {ic_subtitle}
   {carousel_html}
   {chips_row}
   {facets}
@@ -1971,24 +1996,90 @@ def filter_corpus(corpus: dict, predicate) -> dict:
     }
 
 
+def render_gb_day_block(day: dict, topics_reg: dict, tags_reg: dict) -> str:
+    """Day block specialized for /groupbuys/. Like render_day_block
+    but no Breaking/Evergreen sections (irrelevant to GB items —
+    they're not news), items sorted by views descending so the most
+    talked-about appear first within each day."""
+    items = sorted(day.get("items", []),
+                   key=lambda i: -(i.get("score") or 0))
+    body = "\n".join(
+        render_item(i, topics_reg, tags_reg, page="day", date=day["date"])
+        for i in items
+    )
+    if not body.strip():
+        return ""
+    date = day["date"]
+    y, m, d = date.split("-")
+    return f'''<section class="day gb-day" id="{date}">
+  <header class="day-header">
+    <span class="day-number">{int(d):02d}</span>
+    <span class="day-month-year">{MONTHS[int(m)]} {y}</span>
+  </header>
+  {body}
+</section>'''
+
+
 def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict) -> str:
-    """Render /groupbuys/index.html — dedicated page for GB/IC sources.
-    Mirrors the daily-block layout of the main index, but reads only
-    items where is_gb(item) is true."""
+    """Render /groupbuys/index.html — dedicated page for GB/IC sources,
+    split into two sections (active group buys, then interest checks)
+    so the two distinct stages don't visually compete. See
+    docs/IC_DIFFERENTIATION.md."""
     title = "Group buys & ICs · keyboard newswire"
     tagline = "Live group buys and interest checks from Geekhack and partner vendors."
     canonical = f"{SITE_URL}/groupbuys/"
-    days = sorted(corpus["days"], key=lambda d: d["date"], reverse=True)
-    days_html = "\n".join(
-        render_day_block(d, topics_reg, tags_reg) for d in days if d.get("items")
+
+    def _type_of(it):
+        return (it.get("type") or "").upper()
+
+    gb_only = filter_corpus(corpus, lambda it: _type_of(it) == "GB")
+    ic_only = filter_corpus(corpus, lambda it: _type_of(it) == "IC")
+    # Untyped items (rare — older Shopify items will land here) fall
+    # back to the GB section since they're closer in cadence.
+    untyped = filter_corpus(corpus, lambda it: _type_of(it) not in ("GB", "IC"))
+    # Merge untyped into gb_only.
+    for du, dg in zip(untyped["days"], gb_only["days"]):
+        dg["items"].extend(du["items"])
+
+    def _render_section(c, slug, label, blurb):
+        days = sorted(
+            [d for d in c["days"] if d.get("items")],
+            key=lambda d: d["date"], reverse=True,
+        )
+        if not days:
+            return ""
+        blocks = "\n".join(
+            render_gb_day_block(d, topics_reg, tags_reg) for d in days
+        )
+        return f'''<section class="gb-section gb-section-{slug}">
+  <header class="gb-section-header">
+    <h2 class="gb-section-title">{html.escape(label)}</h2>
+    <p class="gb-section-blurb">{html.escape(blurb)}</p>
+  </header>
+  {blocks}
+</section>'''
+
+    gb_html = _render_section(
+        gb_only, "live",
+        "Active group buys",
+        "GBs currently live or recently closed. Locked-in vendors, MOQ, prices.",
     )
-    body = days_html if days_html else (
-        '<p class="empty">No active group buys tracked yet — '
-        'check back as the ingest catches new threads.</p>'
+    ic_html = _render_section(
+        ic_only, "interest",
+        "Interest checks",
+        "Designer-proposed projects gauging interest before launch. "
+        "Not yet for sale.",
     )
+    body = gb_html + ic_html
+    if not body:
+        body = (
+            '<p class="empty">No group buys tracked yet — '
+            'check back as the ingest catches new threads.</p>'
+        )
+
     return f'''{head(title, tagline, canonical, feed="feed.xml")}
   {site_header(canonical)}
-  <p class="archive-stats" style="margin-top:1em;">
+  <p class="gb-page-disclaimer">
     Group buys and interest checks are kept off the main news feed
     while the source pipeline is being debugged. Expect rough edges.
   </p>

@@ -208,6 +208,48 @@ class RenderGbItem(unittest.TestCase):
         )
         self.assertIn('src="../img/x.jpg"', out)
 
+    def test_ic_gets_subtitle(self):
+        out = gen.render_gb_item(make_gb_item(type="IC"), {}, {})
+        self.assertIn("gb-ic-subtitle", out)
+        self.assertIn("gauging interest", out)
+
+    def test_gb_no_subtitle(self):
+        out = gen.render_gb_item(make_gb_item(type="GB"), {}, {})
+        self.assertNotIn("gb-ic-subtitle", out)
+
+    def test_ic_no_vendors_shows_empty_state(self):
+        out = gen.render_gb_item(make_gb_item(type="IC"), {}, {})
+        self.assertIn("No vendors signed yet", out)
+
+    def test_gb_no_vendors_no_empty_state(self):
+        # GB without vendors just shows nothing — no empty-state copy.
+        out = gen.render_gb_item(make_gb_item(type="GB"), {}, {})
+        self.assertNotIn("No vendors signed yet", out)
+
+    def test_ic_with_vendors_shows_pills_not_empty_state(self):
+        item = make_gb_item(type="IC", gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}]
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn("NovelKeys", out)
+        self.assertNotIn("No vendors signed yet", out)
+
+    def test_ic_cta_says_join_the_discussion(self):
+        out = gen.render_gb_item(make_gb_item(type="IC"), {}, {})
+        self.assertIn("join the discussion", out)
+        self.assertNotIn("open on Geekhack", out)
+
+    def test_gb_cta_says_open_on_geekhack(self):
+        out = gen.render_gb_item(make_gb_item(type="GB"), {}, {})
+        self.assertIn("open on Geekhack", out)
+        self.assertNotIn("join the discussion", out)
+
+    def test_ic_class_marker(self):
+        out = gen.render_gb_item(make_gb_item(type="IC"), {}, {})
+        self.assertIn("gb-item-ic", out)
+        out_gb = gen.render_gb_item(make_gb_item(type="GB"), {}, {})
+        self.assertNotIn("gb-item-ic", out_gb)
+
     def test_rel_prefix_skips_absolute_urls(self):
         out = gen.render_gb_item(
             make_gb_item(image=None, images=["https://cdn.example/x.jpg"]),

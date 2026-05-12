@@ -1984,3 +1984,50 @@ footer a:hover {
   border-radius: 3px;
   text-transform: uppercase;
 }
+
+/* IC differentiation (v2.4) */
+.gb-ic-subtitle {
+  margin: -0.375rem 0 0.75rem;
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}
+.gb-no-vendors {
+  margin: 0 0 0.625rem;
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+/* Page-level section split (Active group buys / Interest checks) */
+.gb-section + .gb-section {
+  margin-top: 2.5rem;
+}
+.gb-section-header {
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--rule);
+}
+.gb-section-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.625rem;
+  font-weight: 700;
+  margin: 0 0 0.25rem;
+}
+.gb-section-blurb {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+}
+.gb-section-interest .gb-section-title {
+  color: var(--ink-soft);
+}
+
+.gb-page-disclaimer {
+  margin: 0 0 1.5rem;
+  padding: 0.625rem 0.875rem;
+  font-size: 0.8125rem;
+  color: var(--ink-soft);
+  background: var(--rule);
+  border-radius: 6px;
+}

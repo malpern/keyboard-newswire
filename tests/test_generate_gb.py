@@ -170,5 +170,51 @@ class FilterCorpus(unittest.TestCase):
         self.assertEqual(len(ids), 6)
 
 
+class RenderGroupbuysSectionedPage(unittest.TestCase):
+    """v2.4 page split: GB items render in the 'Active group buys'
+    section, IC items in 'Interest checks'."""
+
+    def _corpus(self):
+        return {
+            "title": "kw", "tagline": "t",
+            "days": [{"date": "2026-05-12", "items": [
+                {"id": "geekhack-1", "title": "[GB] X", "type": "GB",
+                 "source": "geekhack", "url": "https://x/1",
+                 "via": "Geekhack", "category": "breaking", "takeaway": ""},
+                {"id": "geekhack-2", "title": "[IC] Y", "type": "IC",
+                 "source": "geekhack", "url": "https://x/2",
+                 "via": "Geekhack", "category": "breaking", "takeaway": ""},
+            ]}],
+        }
+
+    def test_page_has_both_sections(self):
+        html = gen.render_groupbuys_page(self._corpus(), {}, {})
+        self.assertIn("gb-section-live", html)
+        self.assertIn("gb-section-interest", html)
+
+    def test_gb_item_in_live_section_only(self):
+        html = gen.render_groupbuys_page(self._corpus(), {}, {})
+        live_start = html.index("gb-section-live")
+        interest_start = html.index("gb-section-interest")
+        live_block = html[live_start:interest_start]
+        interest_block = html[interest_start:]
+        self.assertIn("geekhack-1", live_block)
+        self.assertNotIn("geekhack-1", interest_block)
+
+    def test_ic_item_in_interest_section_only(self):
+        html = gen.render_groupbuys_page(self._corpus(), {}, {})
+        live_start = html.index("gb-section-live")
+        interest_start = html.index("gb-section-interest")
+        live_block = html[live_start:interest_start]
+        interest_block = html[interest_start:]
+        self.assertIn("geekhack-2", interest_block)
+        self.assertNotIn("geekhack-2", live_block)
+
+    def test_empty_corpus_shows_empty_message(self):
+        empty = {"title": "kw", "tagline": "t", "days": []}
+        html = gen.render_groupbuys_page(empty, {}, {})
+        self.assertIn("No group buys tracked yet", html)
+
+
 if __name__ == "__main__":
     unittest.main()
