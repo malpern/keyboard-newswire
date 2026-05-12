@@ -2151,3 +2151,24 @@ footer a:hover {
 .gb-lightbox:not(.gb-lightbox-actual) .gb-lightbox-img {
   cursor: zoom-in;
 }
+
+/* IC visual de-emphasis (v2.5, lever C in IC_DIFFERENTIATION.md).
+   Speculative-stage signal — gentler than GBs, never hidden. */
+.gb-item-ic .gb-carousel {
+  background: transparent;
+  border: 1px solid var(--rule);
+}
+.gb-item-ic .gb-cta {
+  color: var(--ink-soft);
+  font-weight: 400;
+}
+.gb-item-ic .gb-cta:hover {
+  color: var(--accent);
+}
+.gb-item-ic .gb-engage {
+  color: var(--ink-faint);
+}
+/* IC titles get a touch less weight so GBs naturally read first. */
+.gb-item-ic .gb-title {
+  font-weight: 500;
+}

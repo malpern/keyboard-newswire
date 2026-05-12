@@ -25,13 +25,21 @@ import datetime
 import email.utils
 import html as html_lib
 import json
+import pathlib
 import re
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
 
+import http_polite
+
+ROOT = pathlib.Path(__file__).resolve().parent.parent
 FEED_URL = "https://kbd.news/rss.xml"
 USER_AGENT = "keyboard-wire/1.0 (+https://keyboard-newswire.com)"
+# Per-URL ETag / Last-Modified cache shared with the geekhack pilot —
+# kbd.news is Cloudflare-fronted and honors conditional GET; quiet
+# days will return 304 Not Modified.
+HTTP_CACHE_FILE = ROOT / "data" / "kbdnews_http_cache.json"
 
 # Skip filter: weekly meta-posts that summarize content we already have
 SKIP_TITLE_PATTERNS = [
@@ -75,10 +83,18 @@ def strip_html(s: str) -> str:
     return s
 
 
-def fetch_feed() -> str:
-    req = urllib.request.Request(FEED_URL, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(req, timeout=20) as resp:
-        return resp.read().decode("utf-8", errors="replace")
+def fetch_feed() -> str | None:
+    """Return RSS XML text. Conditional GET via http_polite; returns
+    None on 304 Not Modified — caller treats as "no new items, exit
+    silently"."""
+    status, body = http_polite.conditional_get(
+        FEED_URL, HTTP_CACHE_FILE, timeout=20, user_agent=USER_AGENT,
+    )
+    if status == 304:
+        return None
+    if status != 200 or body is None:
+        raise RuntimeError(f"feed HTTP {status} for {FEED_URL}")
+    return body.decode("utf-8", errors="replace")
 
 
 def parse_feed(xml_text: str, since: datetime.datetime) -> list[dict]:
@@ -147,6 +163,16 @@ def main():
     except Exception as e:
         sys.stderr.write(f"feed fetch failed: {e}\n")
         sys.exit(1)
+
+    if xml_text is None:
+        # 304 Not Modified — nothing new since last run.
+        if args.dry_run:
+            print("kbd.news: feed unchanged (304) — no work")
+            return
+        json.dump([], sys.stdout)
+        sys.stdout.write("\n")
+        sys.stderr.write("kbd.news: feed unchanged (304)\n")
+        return
 
     items = parse_feed(xml_text, since)
 
