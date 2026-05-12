@@ -307,9 +307,13 @@ def fetch_thread_metadata(thread_id: str) -> dict | None:
     except Exception as e:
         sys.stderr.write(f"  thread {thread_id} scrape failed: {e}\n")
         return None
-    # Geekhack serves ISO-8859-1 on the thread pages too.
+    # Geekhack declares ISO-8859-1 but actually serves Windows-1252
+    # (Microsoft's superset that includes em-dashes, smart quotes,
+    # etc.). Decoding as strict ISO-8859-1 turns \x97 — the real em-
+    # dash byte — into an invisible control char, breaking text like
+    # "reinventing—shaping". cp1252 handles both correctly.
     try:
-        text = raw.decode("iso-8859-1")
+        text = raw.decode("cp1252")
     except Exception:
         text = raw.decode("utf-8", errors="replace")
     return parse_thread_html(text)

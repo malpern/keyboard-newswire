@@ -109,6 +109,20 @@ class ParseThreadHtml(unittest.TestCase):
         self.assertNotIn("\n", body)
         self.assertNotIn("  ", body)
 
+    def test_op_body_preserves_em_dash_when_decoded_correctly(self):
+        # Real Geekhack pages declare ISO-8859-1 but serve cp1252; the
+        # em-dash byte \x97 is invisible in strict ISO-8859-1. This
+        # tests the post-decode invariant: if the caller decoded as
+        # cp1252 (as fetch_thread_metadata does), em-dashes survive.
+        raw_bytes = (
+            b'<div class="post"><p>spent the process refining rather '
+            b'than reinventing\x97shaping the design language</p></div>'
+            b'<div class="moderatorbar">x</div>'
+        )
+        text = raw_bytes.decode("cp1252")
+        meta = gp.parse_thread_html(text)
+        self.assertIn("reinventing—shaping", meta["op_body"])
+
     def test_op_body_missing_when_no_post_div(self):
         empty = gp.parse_thread_html("<html><body>no post block</body></html>")
         self.assertIsNone(empty["op_body"])
@@ -262,7 +276,8 @@ class FetchForMultiImage(unittest.TestCase):
         finally:
             fi.download_and_save = orig
 
-    def test_idempotent_when_images_already_set(self):
+    def test_idempotent_when_already_numbered(self):
+        # Existing images already use the <slug>-<N>.jpg naming → skip.
         called = []
         orig = fi.download_and_save
         fi.download_and_save = (
@@ -270,12 +285,60 @@ class FetchForMultiImage(unittest.TestCase):
         )
         try:
             item = {"id": "geekhack-99",
-                    "images_remote": ["https://x/0.png"],
-                    "images": ["img/geekhack-99-0.jpg"]}
+                    "images_remote": ["https://x/0.png", "https://x/1.png"],
+                    "images": ["img/geekhack-99-0.jpg",
+                               "img/geekhack-99-1.jpg"]}
             result = fi.fetch_for(item)
             self.assertEqual(called, [])  # no new downloads
-            # Object passed through unchanged.
-            self.assertEqual(result["images"], ["img/geekhack-99-0.jpg"])
+            self.assertEqual(result["images"],
+                             ["img/geekhack-99-0.jpg", "img/geekhack-99-1.jpg"])
+        finally:
+            fi.download_and_save = orig
+
+    def test_upgrades_when_remote_grew_since_last_pass(self):
+        # Prior pass downloaded 1 image into <slug>-0.jpg. Now
+        # images_remote has more entries (re-scrape found more). The
+        # numbered-naming check alone would skip; the length check
+        # forces a refresh.
+        called = []
+        orig = fi.download_and_save
+        fi.download_and_save = (
+            lambda url, dest: called.append(str(dest)) or True
+        )
+        try:
+            item = {
+                "id": "geekhack-77",
+                "images_remote": ["https://x/0.png", "https://x/1.png",
+                                  "https://x/2.png"],
+                "images": ["img/geekhack-77-0.jpg"],
+            }
+            result = fi.fetch_for(item)
+            self.assertEqual(len(called), 3)
+            self.assertEqual(len(result["images"]), 3)
+        finally:
+            fi.download_and_save = orig
+
+    def test_upgrades_legacy_single_image_to_carousel(self):
+        # A legacy entry from the single-image discovery path used
+        # `<slug>.jpg` (no -N suffix). When images_remote is
+        # subsequently added, fetch_for must re-download into the
+        # numbered set rather than treating the legacy path as final.
+        called = []
+        orig = fi.download_and_save
+        fi.download_and_save = (
+            lambda url, dest: called.append(url) or True
+        )
+        try:
+            item = {"id": "geekhack-99",
+                    "images_remote": ["https://x/0.png", "https://x/1.png"],
+                    "images": ["img/geekhack-99.jpg"]}  # legacy naming
+            result = fi.fetch_for(item)
+            self.assertEqual(len(called), 2)  # both downloaded
+            self.assertEqual(result["images"],
+                             ["img/geekhack-99-0.jpg",
+                              "img/geekhack-99-1.jpg"])
+            # image points at first frame, not the legacy path.
+            self.assertEqual(result["image"], "img/geekhack-99-0.jpg")
         finally:
             fi.download_and_save = orig
 

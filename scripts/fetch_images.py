@@ -252,24 +252,45 @@ MAX_GB_IMAGES = 6  # cap per-item to keep carousel tidy + bandwidth bounded
 def fetch_for(item: dict) -> dict:
     # Multi-image path: pilot pre-discovered a list of remote URLs
     # (currently only geekhack_pilot step 1b). Download each into a
-    # numbered local crop. Idempotent: if `images` is already a non-
-    # empty list of paths, skip.
+    # numbered local crop.
+    #
+    # Idempotency: re-download only when the existing `images` list
+    # doesn't match the numbered naming convention this branch uses
+    # (`<slug>-<N>.jpg`). That way a fresh re-emit of `images_remote`
+    # over a stale single-image entry (legacy single-fetch path that
+    # produced `<slug>.jpg`) correctly upgrades to the carousel,
+    # while normal runs that already have `<slug>-0.jpg` skip.
     remotes = item.get("images_remote") or []
-    if remotes and not item.get("images"):
+    if remotes:
         slug = slug_for_item(item)
-        local_paths: list[str] = []
-        for idx, url in enumerate(remotes[:MAX_GB_IMAGES]):
-            dest = IMG_DIR / f"{slug}-{idx}.jpg"
-            if download_and_save(url, dest):
-                local_paths.append(f"img/{dest.name}")
-        if local_paths:
-            item = dict(item)
-            item["images"] = local_paths
-            # Back-compat: callers that still read `item.image` (e.g.
-            # share-card tile views, future single-image consumers)
-            # get the first frame.
-            if not item.get("image"):
+        existing = item.get("images") or []
+        expected_prefix = f"img/{slug}-"
+        # "Done" only if every existing path matches the numbered
+        # naming convention AND the count matches what we'd download
+        # this pass (i.e. min(remotes, MAX_GB_IMAGES)). This handles
+        # the case where a prior run downloaded only 1 image but the
+        # newly-extracted images_remote now has many.
+        expected_count = min(len(remotes), MAX_GB_IMAGES)
+        already_numbered = (
+            existing
+            and len(existing) == expected_count
+            and all(p.startswith(expected_prefix) for p in existing)
+        )
+        if not already_numbered:
+            local_paths: list[str] = []
+            for idx, url in enumerate(remotes[:MAX_GB_IMAGES]):
+                dest = IMG_DIR / f"{slug}-{idx}.jpg"
+                if download_and_save(url, dest):
+                    local_paths.append(f"img/{dest.name}")
+            if local_paths:
+                item = dict(item)
+                item["images"] = local_paths
+                # Back-compat: callers that still read `item.image`
+                # (e.g. share-card tile views, future single-image
+                # consumers) get the first frame.
                 item["image"] = local_paths[0]
+            return item
+        # Already have the numbered set — pass through unchanged.
         return item
 
     # Single-image path (legacy / non-GB sources).
