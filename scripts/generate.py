@@ -1176,6 +1176,35 @@ def fmt_price_chip(gb: dict) -> str | None:
     return f"{sym}{val // 100}+"
 
 
+_CURRENCY_SYMBOL = {
+    "USD": "$", "CAD": "$", "AUD": "$", "NZD": "$",
+    "GBP": "£", "EUR": "€", "JPY": "¥", "CNY": "¥",
+}
+
+
+def format_vendor_price(low_cents: int,
+                        high_cents: int | None = None,
+                        currency: str | None = None) -> str:
+    """Format a Shopify-derived price into a compact pill chip.
+    `$135`, `£135`, `€135-160`. Currency defaults to USD when unknown.
+
+    Heuristic: when high > 2× low, the low end is almost always a
+    cheap add-on (sticker, deskmat, novelties), and the user cares
+    about the base-kit price (the high end). Display the high price
+    alone in that case to avoid misleading "$3-100" ranges where $3
+    is meaningless to the buyer.
+    """
+    cur = (currency or "USD").upper()
+    symbol = _CURRENCY_SYMBOL.get(cur, cur + " ")
+    lo = low_cents // 100
+    if high_cents is None or high_cents == low_cents:
+        return f"{symbol}{lo}"
+    hi = high_cents // 100
+    if high_cents > 2 * low_cents:
+        return f"{symbol}{hi}"
+    return f"{symbol}{lo}-{hi}"
+
+
 def fmt_date_chip(iso: str | None, *, prefix: str) -> str | None:
     """ISO date → "ends Jun 14" style chip text. None if missing."""
     if not iso:
@@ -1341,17 +1370,16 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     vendor_html = ""
     vendors = gb.get("vendor_regions") or []
     if vendors:
-        # Build a name→url map from vendor_links (extracted from the
-        # OP body's hyperlinks). When the vendor pill's name matches
-        # an entry, the pill renders as an external link to the
-        # product page instead of inert text.
+        # Build name→link map from vendor_links (extracted from the
+        # OP body's hyperlinks). When the vendor pill's name matches,
+        # the pill renders as a clickable buy-here URL, and price
+        # metadata (from vendor_metadata.py) appears beside it.
         vendor_links = gb.get("vendor_links") or []
         link_by_name = {}
         for vl in vendor_links:
             n = str(vl.get("vendor") or "").strip().lower()
-            u = str(vl.get("url") or "").strip()
-            if n and u and n not in link_by_name:
-                link_by_name[n] = u
+            if n and n not in link_by_name:
+                link_by_name[n] = vl
         pills = []
         for v in vendors:
             region = html.escape(str(v.get("region") or ""))
@@ -1359,9 +1387,23 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
             name = html.escape(raw_name)
             if not region or not name:
                 continue
-            link_url = link_by_name.get(raw_name.lower())
+            vl = link_by_name.get(raw_name.lower()) or {}
+            link_url = vl.get("url") or ""
+            # Price chip (optional) appears inside the pill if
+            # vendor_metadata has populated it.
+            price_chip = ""
+            price_low = vl.get("price_low")
+            if price_low is not None:
+                price_chip = format_vendor_price(
+                    price_low, vl.get("price_high"), vl.get("currency"),
+                )
+            price_html = (
+                f'<span class="gb-vendor-price">{html.escape(price_chip)}</span>'
+                if price_chip else ""
+            )
             inner = (
-                f'<span class="gb-vendor-region">{region}</span>{name}'
+                f'<span class="gb-vendor-region">{region}</span>'
+                f'{name}{price_html}'
             )
             if link_url:
                 pills.append(

@@ -318,6 +318,105 @@ class RenderGbItem(unittest.TestCase):
         self.assertNotIn("gb-vendor-pill-link", out)
         self.assertIn("Yushakobo", out)
 
+    def test_vendor_pill_shows_price_chip_when_metadata_present(self):
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}],
+            "vendor_links": [{
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/x",
+                "price_low": 13500,
+                "currency": "USD",
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn('class="gb-vendor-price">$135<', out)
+
+    def test_vendor_pill_shows_price_range(self):
+        # 10250-17500 → 1.7x, under 2x threshold, so range.
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "UK", "name": "Proto[Typist]"}],
+            "vendor_links": [{
+                "vendor": "Proto[Typist]",
+                "url": "https://prototypist.net/products/x",
+                "price_low": 10250,
+                "price_high": 17500,
+                "currency": "GBP",
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn(">£102-175<", out)
+
+    def test_vendor_pill_collapses_add_on_range(self):
+        # 4500-13500 → 3x, exceeds threshold → show base only.
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}],
+            "vendor_links": [{
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/x",
+                "price_low": 4500, "price_high": 13500,
+                "currency": "USD",
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn(">$135<", out)
+        self.assertNotIn("$45", out)
+
+    def test_vendor_pill_no_price_chip_when_metadata_absent(self):
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}],
+            "vendor_links": [{
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/x",
+                # No price_low / currency
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertNotIn("gb-vendor-price", out)
+
+
+class FormatVendorPrice(unittest.TestCase):
+    def test_usd_single(self):
+        self.assertEqual(gen.format_vendor_price(13500), "$135")
+
+    def test_usd_range(self):
+        self.assertEqual(gen.format_vendor_price(13500, 17500), "$135-175")
+
+    def test_gbp(self):
+        self.assertEqual(
+            gen.format_vendor_price(10250, currency="GBP"), "£102",
+        )
+
+    def test_eur(self):
+        self.assertEqual(
+            gen.format_vendor_price(13900, currency="EUR"), "€139",
+        )
+
+    def test_unknown_currency_prefix(self):
+        # Unknown currencies render as the 3-letter code prefix.
+        self.assertEqual(
+            gen.format_vendor_price(10000, currency="ZAR"), "ZAR 100",
+        )
+
+    def test_collapses_when_high_equals_low(self):
+        # High = low → single-value display.
+        self.assertEqual(
+            gen.format_vendor_price(13500, 13500), "$135",
+        )
+
+    def test_wide_range_shows_base_only(self):
+        # $3 sticker + $100 base → show "$100", not "$3-100".
+        self.assertEqual(gen.format_vendor_price(300, 10000), "$100")
+
+    def test_narrow_range_shows_both(self):
+        # $80-149 (Cannonkeys / Youmu shape) — under 2x, keep range.
+        self.assertEqual(gen.format_vendor_price(8000, 14900), "$80-149")
+
+    def test_2x_threshold_boundary(self):
+        # Exactly 2x → still a range. Just above 2x → max only.
+        self.assertEqual(gen.format_vendor_price(5000, 10000), "$50-100")
+        self.assertEqual(gen.format_vendor_price(5000, 10001), "$100")
+
+
     def test_vendor_pill_name_match_is_case_insensitive(self):
         item = make_gb_item(gb={
             "vendor_regions": [{"region": "US", "name": "novelkeys"}],
