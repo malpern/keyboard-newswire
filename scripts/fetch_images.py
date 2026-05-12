@@ -143,6 +143,47 @@ def reddit_thumbnail(reddit_url: str) -> tuple[str | None, str | None]:
     return None, None
 
 
+# Geekhack chrome — board theme images, smileys, avatars — that we
+# must skip when scanning a thread page for OP product photos.
+_GEEKHACK_CHROME = re.compile(
+    r"(?:/Themes/|/Smileys/|/avatar|sigpic|useroff|useron|"
+    r"normal_post|sticky|new_some|toggle|upshrink|banner|"
+    r"thumbsup|thumbsdown)",
+    re.IGNORECASE,
+)
+
+
+def geekhack_first_op_image(thread_url: str) -> str | None:
+    """Fetch a Geekhack thread page and return the first content image
+    URL — designer's OP photos, hosted on imgur / postimg / etc., not
+    Geekhack chrome. Returns None on failure.
+
+    v2.0: returns one image. Step 1b will return a list of N images for
+    the carousel; we crop to one for now to keep the change small.
+    """
+    try:
+        html_text = http_get(thread_url).decode("utf-8", errors="replace")
+    except Exception:
+        return None
+    # Match every src= URL pointing to a real image extension. We do
+    # the chrome filter and host check ourselves below.
+    pattern = re.compile(
+        r'<img[^>]*\bsrc=["\'](https?://[^"\']+\.(?:jpe?g|png|webp|gif)'
+        r'(?:\?[^"\']*)?)["\']',
+        re.IGNORECASE,
+    )
+    for m in pattern.finditer(html_text):
+        url = m.group(1)
+        host = (urlparse(url).hostname or "").lower()
+        # Skip Geekhack-hosted chrome, even if it matches the extension regex.
+        if host.endswith("geekhack.org"):
+            continue
+        if _GEEKHACK_CHROME.search(url):
+            continue
+        return url
+    return None
+
+
 def discover_image_url(item: dict) -> str | None:
     source = item.get("source")
     if source == "hn" or source == "email" or source == "kbdnews":
@@ -162,6 +203,11 @@ def discover_image_url(item: dict) -> str | None:
             html = http_get(fallback).decode("utf-8", errors="replace")
             return extract_og_image(html, fallback)
         return None
+    if source == "geekhack":
+        url = item.get("url")
+        if not url:
+            return None
+        return geekhack_first_op_image(url)
     return None
 
 

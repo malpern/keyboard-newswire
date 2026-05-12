@@ -863,8 +863,289 @@ def font_script() -> str:
     }
     window.addEventListener('scroll', onScroll, { passive: true });
   }
+
+  // ── GB/IC image carousel (dot sync, chevrons, keyboard nav) ──
+  function initGbCarousels() {
+    var carousels = document.querySelectorAll('[data-gb-carousel]');
+    if (!carousels.length) return;
+    Array.prototype.forEach.call(carousels, function(c) {
+      var track = c.querySelector('.gb-track');
+      var dots = c.querySelectorAll('.gb-dot');
+      var navs = c.querySelectorAll('.gb-nav');
+      if (!track || !dots.length) return;
+
+      function currentIndex() {
+        var w = c.clientWidth;
+        if (w === 0) return 0;
+        return Math.round(track.scrollLeft / w);
+      }
+      function setCurrent(idx) {
+        idx = Math.max(0, Math.min(dots.length - 1, idx));
+        for (var i = 0; i < dots.length; i++) {
+          if (i === idx) dots[i].setAttribute('aria-current', 'true');
+          else dots[i].removeAttribute('aria-current');
+        }
+      }
+      function scrollTo(idx) {
+        idx = Math.max(0, Math.min(dots.length - 1, idx));
+        track.scrollTo({ left: idx * c.clientWidth, behavior: 'smooth' });
+      }
+
+      var scrollTick = null;
+      track.addEventListener('scroll', function() {
+        if (scrollTick) return;
+        scrollTick = requestAnimationFrame(function() {
+          scrollTick = null;
+          setCurrent(currentIndex());
+        });
+      }, { passive: true });
+
+      Array.prototype.forEach.call(dots, function(dot) {
+        dot.addEventListener('click', function() {
+          var idx = parseInt(dot.getAttribute('data-slide'), 10) || 0;
+          scrollTo(idx);
+        });
+      });
+
+      Array.prototype.forEach.call(navs, function(btn) {
+        btn.addEventListener('click', function() {
+          var dir = parseInt(btn.getAttribute('data-dir'), 10) || 0;
+          scrollTo(currentIndex() + dir);
+        });
+      });
+
+      c.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft')  { e.preventDefault(); scrollTo(currentIndex() - 1); }
+        else if (e.key === 'ArrowRight') { e.preventDefault(); scrollTo(currentIndex() + 1); }
+        else if (e.key === 'Home')  { e.preventDefault(); scrollTo(0); }
+        else if (e.key === 'End')   { e.preventDefault(); scrollTo(dots.length - 1); }
+      });
+    });
+  }
+  initGbCarousels();
 })();
 </script>'''
+
+
+def gb_images(item: dict) -> list[str]:
+    """Return ordered list of image paths for a GB item.
+
+    v2.0: pilots emit a single-image array (or just `item.image`).
+    Step 1b/2 pilots will emit multi-image arrays directly. The
+    render path tolerates both — read `images[]` if present, else
+    fall back to `[image]` for backwards compat.
+    """
+    imgs = item.get("images")
+    if imgs:
+        return [i for i in imgs if i]
+    single = item.get("image")
+    return [single] if single else []
+
+
+def fmt_price_chip(gb: dict) -> str | None:
+    """gb.price_low/high are in cents. Returns "$145+" / "$145-160" / None."""
+    low = gb.get("price_low")
+    high = gb.get("price_high")
+    if low is None and high is None:
+        return None
+    sym = "$" if (gb.get("currency") or "USD") == "USD" else ""
+    if low is not None and high is not None and high > low:
+        return f"{sym}{low // 100}-{high // 100}"
+    val = low if low is not None else high
+    return f"{sym}{val // 100}+"
+
+
+def fmt_date_chip(iso: str | None, *, prefix: str) -> str | None:
+    """ISO date → "ends Jun 14" style chip text. None if missing."""
+    if not iso:
+        return None
+    try:
+        y, m, d = iso.split("-")
+        return f"{prefix} {MONTHS[int(m)]} {int(d)}"
+    except Exception:
+        return None
+
+
+def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
+                   date: str | None = None, page: str = "day",
+                   rel_prefix: str = "") -> str:
+    """Visual-first card for GB/IC items. Image carousel dominates;
+    metadata chips populate as ingestors learn to extract them.
+
+    Layout (see docs/GB_CARD_DESIGN.md):
+        [GB] title
+        Vendor · source
+        ┌──────── carousel ────────┐
+        │  ● ○ ○ ○                 │  (dots overlaid bottom-center)
+        └──────────────────────────┘
+        status · MOQ · price · ends
+        designer · profile · material
+        takeaway
+        engagement + open link
+    """
+    title = item.get("title") or ""
+    raw_type = (item.get("type") or "").upper()
+    # Strip "[GB] " / "[IC] " prefix from displayed title — the chip
+    # carries that info now, no need to double-encode.
+    display_title = title
+    if raw_type in ("GB", "IC"):
+        prefix = f"[{raw_type}]"
+        if display_title.lstrip().upper().startswith(prefix):
+            display_title = display_title.lstrip()[len(prefix):].lstrip()
+    display_title = html.escape(display_title or title)
+
+    url = html.escape(item["url"])
+    item_id = html.escape(item.get("id") or "", quote=True)
+
+    # ── type chip + title ──
+    type_chip = ""
+    if raw_type in ("GB", "IC"):
+        type_chip = (
+            f'<span class="gb-type gb-type-{raw_type.lower()}" '
+            f'aria-label="{raw_type}">{raw_type}</span>'
+        )
+    title_block = (
+        f'<h3 class="gb-title">{type_chip}'
+        f'<a class="item-link gb-title-link" href="{url}" '
+        f'rel="noopener" target="_blank">{display_title}</a></h3>'
+    )
+
+    # ── vendor / source line ──
+    via_label = html.escape(source_label(item))
+    vendor_line = f'<p class="gb-vendor">{via_label}</p>'
+
+    # ── image carousel ──
+    images = gb_images(item)
+    carousel_html = ""
+    if images:
+        slides = []
+        for idx, img in enumerate(images):
+            src = f"{rel_prefix}{img}" if rel_prefix and not img.startswith(("http://", "https://", "/")) else img
+            loading = "eager" if idx == 0 else "lazy"
+            slides.append(
+                f'<div class="gb-slide" role="group" '
+                f'aria-label="Image {idx + 1} of {len(images)}" '
+                f'aria-roledescription="slide">'
+                f'<img src="{html.escape(src)}" alt="" '
+                f'loading="{loading}" decoding="async">'
+                f'</div>'
+            )
+        if len(images) == 1:
+            # Single image — no carousel chrome, just a static frame.
+            carousel_html = (
+                f'<div class="gb-carousel gb-carousel-single">'
+                f'{slides[0]}'
+                f'</div>'
+            )
+        else:
+            dots = []
+            for idx in range(len(images)):
+                aria_cur = ' aria-current="true"' if idx == 0 else ""
+                dots.append(
+                    f'<button type="button" class="gb-dot" '
+                    f'data-slide="{idx}"{aria_cur} '
+                    f'aria-label="Go to image {idx + 1}"></button>'
+                )
+            carousel_html = (
+                f'<div class="gb-carousel" '
+                f'role="region" aria-roledescription="carousel" '
+                f'aria-label="Images for {html.escape(item.get("title") or "")}" '
+                f'tabindex="0" data-gb-carousel>'
+                f'<div class="gb-track">{"".join(slides)}</div>'
+                f'<button type="button" class="gb-nav gb-nav-prev" '
+                f'aria-label="Previous image" data-dir="-1">‹</button>'
+                f'<button type="button" class="gb-nav gb-nav-next" '
+                f'aria-label="Next image" data-dir="1">›</button>'
+                f'<div class="gb-dots" role="tablist" '
+                f'aria-label="Image selector">{"".join(dots)}</div>'
+                f'</div>'
+            )
+
+    # ── status + MOQ + price + end-date chips ──
+    gb = item.get("gb") or {}
+    chips = []
+    status = gb.get("status")
+    if status in ("live", "sold-out", "ended", "postponed"):
+        chips.append(
+            f'<span class="gb-chip gb-status gb-status-{status}">'
+            f'{html.escape(status)}</span>'
+        )
+    if gb.get("moq") is not None:
+        chips.append(f'<span class="gb-chip">MOQ {int(gb["moq"])}</span>')
+    price = fmt_price_chip(gb)
+    if price:
+        chips.append(f'<span class="gb-chip">{html.escape(price)}</span>')
+    ends = fmt_date_chip(gb.get("ends_at"), prefix="ends")
+    if ends:
+        chips.append(f'<span class="gb-chip">{html.escape(ends)}</span>')
+    starts = fmt_date_chip(gb.get("starts_at"), prefix="starts")
+    if starts and not ends:
+        chips.append(f'<span class="gb-chip">{html.escape(starts)}</span>')
+    chips_row = (
+        f'<div class="gb-chips">{"".join(chips)}</div>' if chips else ""
+    )
+
+    # ── designer / profile / material line ──
+    facet_bits = []
+    for k in ("designer", "profile", "material"):
+        v = gb.get(k)
+        if v:
+            facet_bits.append(html.escape(str(v)))
+    facets = (
+        f'<p class="gb-facets">{" · ".join(facet_bits)}</p>'
+        if facet_bits else ""
+    )
+
+    # ── takeaway ──
+    takeaway = html.escape(item.get("takeaway") or "")
+    takeaway_html = (
+        f'<p class="gb-takeaway">{takeaway}</p>' if takeaway else ""
+    )
+
+    # ── engagement + CTA row ──
+    engage_bits = []
+    if item.get("score") is not None:
+        engage_bits.append(
+            f'<span class="gb-stat">⬆ {int(item["score"]):,} views</span>'
+        )
+    if item.get("comments") is not None:
+        engage_bits.append(
+            f'<span class="gb-stat">💬 {int(item["comments"]):,} replies</span>'
+        )
+    cta_label = "open on Geekhack" if item.get("source") == "geekhack" else "open"
+    engage_bits.append(
+        f'<a class="gb-cta" href="{url}" rel="noopener" target="_blank">'
+        f'→ {html.escape(cta_label)}</a>'
+    )
+    engage_row = f'<div class="gb-engage">{"".join(engage_bits)}</div>'
+
+    # ── buylist data-attrs (preserved from the news card contract) ──
+    fav_dom = source_domain(item)
+    pub_date = date or ""
+    item_data = (
+        f'data-id="{html.escape(item.get("id") or "", quote=True)}" '
+        f'data-title="{html.escape(item.get("title") or "", quote=True)}" '
+        f'data-url="{html.escape(item.get("url") or "", quote=True)}" '
+        f'data-source="{html.escape(source_label(item), quote=True)}" '
+        f'data-favicon="{html.escape(favicon_url(fav_dom), quote=True)}" '
+        f'data-date="{html.escape(pub_date, quote=True)}"'
+    )
+    permalink = (
+        f'<a class="item-permalink" href="#{item_id}" '
+        f'title="Permalink" aria-label="Permalink">¶</a>'
+        if item_id else ""
+    )
+
+    return f'''<article class="item gb-item" id="{item_id}" {item_data}>
+  {title_block}
+  {vendor_line}
+  {carousel_html}
+  {chips_row}
+  {facets}
+  {takeaway_html}
+  {engage_row}
+  {permalink}
+</article>'''
 
 
 def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
@@ -873,8 +1154,13 @@ def render_item(item: dict, topics_reg: dict, tags_reg: dict, *,
     """Render one item.
 
     page = 'day' | 'topic' | 'tag'  — affects which date/meta is shown.
-    rel_prefix = path prefix from current page to docs root, e.g., '../../' for /topics/<slug>/.
+    rel_prefix = path prefix from current page to docs root.
     """
+    # GB/IC items get the visual-first card with image carousel.
+    if is_gb(item):
+        return render_gb_item(item, topics_reg, tags_reg,
+                              date=date, page=page, rel_prefix=rel_prefix)
+
     # Default to ORIGINAL title; rewritten value rides in a data attribute,
     # JS swaps based on the user's settings toggle (default off).
     if item.get("title_rewritten") and item.get("original_title"):

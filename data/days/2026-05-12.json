@@ -176,7 +176,8 @@
       "tags": [
         "group-buy",
         "keycap-design"
-      ]
+      ],
+      "image": "img/geekhack-110579.jpg"
     },
     {
       "id": "geekhack-126032",
@@ -198,7 +199,8 @@
       "tags": [
         "group-buy",
         "3d-modeling"
-      ]
+      ],
+      "image": "img/geekhack-126032.jpg"
     },
     {
       "id": "geekhack-126424",
@@ -220,7 +222,8 @@
       "tags": [
         "group-buy",
         "keycap-design"
-      ]
+      ],
+      "image": "img/geekhack-126424.jpg"
     },
     {
       "id": "geekhack-126450",
@@ -242,7 +245,8 @@
       "tags": [
         "keycap-design",
         "group-buy"
-      ]
+      ],
+      "image": "img/geekhack-126450.jpg"
     },
     {
       "id": "geekhack-126526",
@@ -264,7 +268,8 @@
       "tags": [
         "diy-build",
         "pcb-design"
-      ]
+      ],
+      "image": "img/geekhack-126526.jpg"
     },
     {
       "id": "geekhack-126530",
@@ -286,7 +291,8 @@
       "tags": [
         "group-buy",
         "keycap-design"
-      ]
+      ],
+      "image": "img/geekhack-126530.jpg"
     },
     {
       "id": "geekhack-126598",
@@ -328,7 +334,8 @@
       "type": "GB",
       "tags": [
         "group-buy"
-      ]
+      ],
+      "image": "img/geekhack-126645.jpg"
     },
     {
       "id": "geekhack-126649",
@@ -350,7 +357,8 @@
       "tags": [
         "group-buy",
         "keycap-design"
-      ]
+      ],
+      "image": "img/geekhack-126649.jpg"
     },
     {
       "id": "geekhack-126673",
@@ -372,7 +380,8 @@
       "tags": [
         "switch-development",
         "diy-build"
-      ]
+      ],
+      "image": "img/geekhack-126673.jpg"
     }
   ]
 }
