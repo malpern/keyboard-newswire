@@ -247,7 +247,10 @@
         "img/geekhack-126032-3.jpg",
         "img/geekhack-126032-4.jpg",
         "img/geekhack-126032-5.jpg"
-      ]
+      ],
+      "gb": {
+        "designer": "keekeen"
+      }
     },
     {
       "id": "geekhack-126424",
@@ -454,7 +457,10 @@
         "img/geekhack-126530-3.jpg",
         "img/geekhack-126530-4.jpg",
         "img/geekhack-126530-5.jpg"
-      ]
+      ],
+      "gb": {
+        "designer": "ORI CLUB"
+      }
     },
     {
       "id": "geekhack-126598",
@@ -694,7 +700,10 @@
         "img/geekhack-126673-3.jpg",
         "img/geekhack-126673-4.jpg",
         "img/geekhack-126673-5.jpg"
-      ]
+      ],
+      "gb": {
+        "designer": "Moyu.studio"
+      }
     }
   ]
 }

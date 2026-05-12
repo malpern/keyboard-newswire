@@ -74,19 +74,55 @@ def extract_status(title: str, body: str, *,
 
 # ── Designer ──────────────────────────────────────────────────────
 
-# Project-name-led OPs: "GMK Gregory 2 by chamelemon_64 and pancake".
-# Strip a trailing "and <other>" — that's a co-designer; for the chip
-# row we keep the primary name(s) concise.
+# Designer-attribution patterns, tried in order. First survivor of the
+# negative-filter checks wins. Designers credit themselves in several
+# distinct shapes — see step-2.3 audit for the catalog. Adding a new
+# pattern: keep the capture group narrow ([A-Z...]+) and tail-anchored
+# (lookahead at terminator) so over-capture is bounded.
 #
-# Designer extraction is intentionally conservative: false negatives
-# (no designer rendered) are visibly fine, but false positives
-# ("the aesthetics of early punk rock albums" as designer name) make
-# the card look broken. The post-match filter rejects common shapes.
-_DESIGNER_RE = re.compile(
+# False negatives are visibly fine (no designer rendered); false
+# positives ("the aesthetics of early punk rock albums") make the card
+# look broken. Hence the conservative bias.
+
+# Project-name-led:  "<Project> by <Designer>"  (handles co-designers).
+# Name capture allows internal `.` (so "keyhub.design" / "Moyu.studio"
+# survive); lookahead distinguishes name-internal `.` from sentence-
+# ending `.` by requiring whitespace/end after a terminating period.
+_DESIGNER_BY_RE = re.compile(
     r"\bby\s+([A-Z][A-Za-z0-9 _.\-]{1,40}?"
     r"(?:\s+and\s+[A-Z][A-Za-z0-9 _.\-]{1,40}?)?)"
-    r"(?=\s*(?:[\.,;:!?(]|$|\n|\bDescription\b|\bDesigner\b|\bGreetings\b))",
+    r"(?=\s*(?:[,;:!?(]|\.(?:\s|$)|$|\n|\bDescription\b|\bDesigner\b|\bGreetings\b))",
     re.IGNORECASE,
+)
+
+# Studio-led:  "<n>th design from <Studio>"  (ORI CLUB, etc.).
+# Stops at next punctuation or a clear next-word boundary.
+_DESIGNER_FROM_RE = re.compile(
+    r"\bdesign(?:ed)?\s+from\s+"
+    r"([A-Z][\w.\-]+(?:\s+[A-Z][\w.\-]+)?)"
+    r"(?=[\s\.,;!?\n]|$)",
+    re.IGNORECASE,
+)
+
+# Studio self-intro:  "this is <Studio>"  (Moyu.studio, keyhub.design).
+_DESIGNER_THIS_IS_RE = re.compile(
+    r"\bthis\s+is\s+([A-Z][\w]+(?:\.[A-Za-z]+)?)"
+    r"(?=[\s\.,;!?\n]|$)",
+    re.IGNORECASE,
+)
+
+# Maker self-intro:  "My name is <handle>"  (often lowercase handles).
+_DESIGNER_NAME_IS_RE = re.compile(
+    r"\bMy\s+name\s+is\s+([A-Za-z][\w_\-]{2,30})"
+    r"(?=[\s\.,;!?\n]|$)",
+    re.IGNORECASE,
+)
+
+_DESIGNER_PATTERNS = (
+    _DESIGNER_BY_RE,
+    _DESIGNER_FROM_RE,
+    _DESIGNER_THIS_IS_RE,
+    _DESIGNER_NAME_IS_RE,
 )
 
 # Negative preludes — "by" preceded by one of these is almost always
@@ -110,32 +146,53 @@ _DESIGNER_NEG_PREFIX_RE = re.compile(
 )
 
 
+def _designer_match_ok(name: str, head: str, match_start: int) -> bool:
+    """Shared post-match filter for every designer pattern. Returns
+    True if the captured name passes; False if it looks like prose,
+    month text, or follows a negative prelude (e.g. 'inspired by')."""
+    # Reject month-words (false positives like "Available by May").
+    if re.search(r"\b(?:" + _MONTH_RE + r")\b", name, re.IGNORECASE):
+        return False
+    # Reject if the match was preceded by a negative prelude.
+    prelude_window = head[max(0, match_start - 24): match_start]
+    if _DESIGNER_NEG_PRELUDE.search(prelude_window):
+        return False
+    # Reject prose-shaped captures.
+    if _DESIGNER_NEG_PREFIX_RE.match(name):
+        return False
+    if _DESIGNER_NEG_CONTENT.search(name):
+        return False
+    return True
+
+
 def extract_designer(body: str) -> str | None:
     """Return designer string ("Designer X" or "X and Y") if the OP
-    body has the "<project> by <designer>" idiom in roughly the first
-    sentence. Returns None whenever the match looks like prose rather
-    than a name — better to render no designer than a wrong one.
+    body has an attribution idiom in roughly the first OP paragraph.
+    Tries multiple shapes (see _DESIGNER_PATTERNS); first survivor of
+    the negative-filter check wins. Returns None when no pattern
+    matches cleanly — better to render no designer than a wrong one.
     """
     if not body:
         return None
-    head = body[:240]
-    m = _DESIGNER_RE.search(head)
-    if not m:
-        return None
-    name = m.group(1).strip()
-    # Reject month-words (false positives like "Available by May").
-    if re.search(r"\b(?:" + _MONTH_RE + r")\b", name, re.IGNORECASE):
-        return None
-    # Reject if "by" was preceded by a negative prelude.
-    prelude_window = head[max(0, m.start() - 24): m.start()]
-    if _DESIGNER_NEG_PRELUDE.search(prelude_window):
-        return None
-    # Reject prose-shaped captures.
-    if _DESIGNER_NEG_PREFIX_RE.match(name):
-        return None
-    if _DESIGNER_NEG_CONTENT.search(name):
-        return None
-    return name
+    # Widened from 240 → 600 chars: long ICs sometimes preamble before
+    # the attribution line (e.g. RF8X buries "by keyhub.design" after
+    # a paragraph of context).
+    # Widened from 240 → 400 chars: long ICs sometimes preamble before
+    # the attribution line (e.g. RF8X buries "by keyhub.design" at
+    # ~260 chars). Beyond 400 chars, "by X" is almost always prose.
+    head = body[:400]
+    for rx in _DESIGNER_PATTERNS:
+        m = rx.search(head)
+        if not m:
+            continue
+        # Strip trailing sentence punctuation that the lazy capture
+        # may have included (esp. for the "from <Studio>." pattern).
+        name = m.group(1).strip().rstrip(".,;:!?")
+        if not name:
+            continue
+        if _designer_match_ok(name, head, m.start()):
+            return name
+    return None
 
 
 # ── Dates ─────────────────────────────────────────────────────────

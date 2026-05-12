@@ -102,9 +102,10 @@ class ExtractDesigner(unittest.TestCase):
     def test_no_by_pattern(self):
         self.assertIsNone(extract_designer("Just a description with no credit"))
 
-    def test_only_first_240_chars(self):
-        # "by X" appearing far down the body shouldn't count.
-        body = "Long preamble. " * 30 + " Now I'm credited by Designer."
+    def test_attribution_beyond_window_ignored(self):
+        # "by X" appearing far down the body (past ~400 chars) is
+        # almost always prose, not attribution. Window is 400.
+        body = "Long preamble. " * 40 + " Now I'm credited by Designer."
         self.assertIsNone(extract_designer(body))
 
     def test_rejects_when_name_is_a_month(self):
@@ -142,6 +143,38 @@ class ExtractDesigner(unittest.TestCase):
     def test_rejects_manufactured_by(self):
         body = "Hot keycap set manufactured by NicePBT."
         self.assertIsNone(extract_designer(body))
+
+    def test_design_from_studio(self):
+        body = ("The sixth design from ORI CLUB. ORI 870. Design Notes "
+                "This time around, I spent most of the process refining.")
+        self.assertEqual(extract_designer(body), "ORI CLUB")
+
+    def test_single_word_designed_from(self):
+        body = "A new design from Salvun, the studio behind earlier sets."
+        self.assertEqual(extract_designer(body), "Salvun")
+
+    def test_this_is_studio(self):
+        body = "Hello, this is Moyu.studio. This time we bring you a switch."
+        self.assertEqual(extract_designer(body), "Moyu.studio")
+
+    def test_my_name_is_lowercase_handle(self):
+        body = ("Hi everyone! My name is keekeen. Im a fellow "
+                "Topre / rubber dome enjoyer.")
+        self.assertEqual(extract_designer(body), "keekeen")
+
+    def test_widened_window_catches_buried_by(self):
+        # Real audit case: "by keyhub.design" appears at char ~260,
+        # past the old 240-char cap.
+        preamble = ("Hi everyone! My name is keekeen. Im a fellow Topre / "
+                    "rubber dome enjoyer. For me, the journey began with the "
+                    "HHKB, which I consider my first end game keyboard. ")
+        body = (preamble + "Today, I am thrilled to introduce a "
+                "passion project that's been in the works: RF8X by keyhub.design.")
+        # Both "My name is keekeen" (pattern 4) and "by keyhub.design"
+        # (pattern 1) match. Pattern 1 is first in the list — so "by"
+        # attribution wins.
+        result = extract_designer(body)
+        self.assertEqual(result, "keyhub.design")
 
 
 # ────────────────── dates ──────────────────
