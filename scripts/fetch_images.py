@@ -246,7 +246,33 @@ def slug_for_item(item: dict) -> str:
     return s or "item"
 
 
+MAX_GB_IMAGES = 6  # cap per-item to keep carousel tidy + bandwidth bounded
+
+
 def fetch_for(item: dict) -> dict:
+    # Multi-image path: pilot pre-discovered a list of remote URLs
+    # (currently only geekhack_pilot step 1b). Download each into a
+    # numbered local crop. Idempotent: if `images` is already a non-
+    # empty list of paths, skip.
+    remotes = item.get("images_remote") or []
+    if remotes and not item.get("images"):
+        slug = slug_for_item(item)
+        local_paths: list[str] = []
+        for idx, url in enumerate(remotes[:MAX_GB_IMAGES]):
+            dest = IMG_DIR / f"{slug}-{idx}.jpg"
+            if download_and_save(url, dest):
+                local_paths.append(f"img/{dest.name}")
+        if local_paths:
+            item = dict(item)
+            item["images"] = local_paths
+            # Back-compat: callers that still read `item.image` (e.g.
+            # share-card tile views, future single-image consumers)
+            # get the first frame.
+            if not item.get("image"):
+                item["image"] = local_paths[0]
+        return item
+
+    # Single-image path (legacy / non-GB sources).
     if item.get("image"):
         return item  # already have one (idempotent)
     img_url = discover_image_url(item)

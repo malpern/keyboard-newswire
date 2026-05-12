@@ -27,6 +27,8 @@ import json
 import pathlib
 import re
 import sys
+import time
+import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -154,6 +156,195 @@ def save_state(seen: set[str]) -> None:
     )
 
 
+# ─── Step 1b: per-thread enrichment ─────────────────────────────────
+#
+# RSS gives us title + per-post link + reply body. The thread page
+# itself has the OP body, the views count, and all OP images. We
+# fetch each newly-seen thread page exactly once (state file keys
+# off thread_id, so already-emitted threads are never re-scraped)
+# with a 1s throttle between fetches. See docs/GB_IC_FEED.md
+# "Step 1b" for the rationale.
+
+# Geekhack chrome (theme images, smileys, avatars, post-status icons)
+# we must skip when collecting OP body images.
+_GEEKHACK_CHROME_RE = re.compile(
+    r"(?:/Themes/|/Smileys/|/avatar|sigpic|useroff|useron|"
+    r"normal_post|sticky|new_some|toggle|upshrink|banner|"
+    r"thumbsup|thumbsdown)",
+    re.IGNORECASE,
+)
+
+# OP body image extensions we trust enough to download.
+_IMG_EXT_RE = re.compile(
+    r"\.(jpe?g|png|webp|gif)(?:\?[^\"']*)?$", re.IGNORECASE,
+)
+
+# Geekhack-native attachment URLs. Designers using the forum's own
+# uploader (instead of imgur / postimg) generate URLs of this shape;
+# they're legitimate OP photos even though the host is geekhack.org.
+# Real attachment URLs end with `;image`. Avatars use the same
+# `action=dlattach` prefix but end with `;type=avatar` — those are
+# chrome, not OP content.
+_GEEKHACK_DLATTACH_RE = re.compile(
+    r"action=dlattach[^\"']*;image(?:[^a-z]|$)", re.IGNORECASE,
+)
+
+
+def _is_op_image(url: str) -> bool:
+    """True if `url` looks like an OP-body content image (not chrome)."""
+    if not url:
+        return False
+    try:
+        host = (urllib.parse.urlparse(url).hostname or "").lower()
+    except Exception:
+        return False
+    if _GEEKHACK_CHROME_RE.search(url):
+        return False
+    # Geekhack-hosted native attachments are OP content; the URL has
+    # no file extension (it's a PHP endpoint) so the extension check
+    # is skipped for these.
+    if host.endswith("geekhack.org"):
+        return bool(_GEEKHACK_DLATTACH_RE.search(url))
+    # Off-site host — require a real image extension.
+    if not _IMG_EXT_RE.search(url):
+        return False
+    return True
+
+
+def parse_thread_html(html_text: str) -> dict:
+    """Pure parser for a Geekhack thread page. Returns a dict with:
+
+    - `views`: int | None              — "(Read N times)" header line
+    - `replies`: int | None            — highest 'Reply #N' seen on page
+                                         (lower-bound for multi-page
+                                         threads; rare for new GBs)
+    - `images`: [str]                  — OP-body image URLs, in order,
+                                         deduplicated, chrome filtered
+    - `op_body`: str | None            — text content of the first post
+                                         (OP), HTML-stripped, collapsed
+
+    Pure — no I/O, monkeypatch-free testing.
+    """
+    out = {
+        "views": None,
+        "replies": None,
+        "images": [],
+        "op_body": None,
+    }
+
+    # Views — "Topic: ... (Read 9708 times)" appears in <title> and
+    # also in a content header. Either form works.
+    m = re.search(r"\(Read\s+([0-9,]+)\s+times?\)", html_text)
+    if m:
+        try:
+            out["views"] = int(m.group(1).replace(",", ""))
+        except ValueError:
+            pass
+
+    # Replies — SMF labels each reply post "Reply #N" (N is 1-indexed).
+    # The largest N visible on the page is a lower bound. Long threads
+    # paginate, so the count saturates at "page size minus 1" — for
+    # newly-emitted GB threads this is rarely a problem (most have <50
+    # posts at first emit), and the user-visible engagement signal is
+    # still directionally correct.
+    reply_nums = [int(x) for x in re.findall(r"Reply\s*#(\d+)", html_text)]
+    if reply_nums:
+        out["replies"] = max(reply_nums)
+
+    # OP body — the first post on the page. SMF wraps each post in a
+    # `<div class="post">…</div>` block. We grab the first one's text.
+    first_post = re.search(
+        r'<div class="post">(.*?)</div>\s*<div class="moderatorbar',
+        html_text, re.DOTALL,
+    )
+    if not first_post:
+        first_post = re.search(
+            r'<div class="post">(.*?)</div>', html_text, re.DOTALL,
+        )
+    op_html = first_post.group(1) if first_post else None
+
+    if op_html:
+        # Collect OP-body images, in order, deduplicated.
+        seen = set()
+        for m in re.finditer(
+            r'<img[^>]*\bsrc=["\'](https?://[^"\']+)["\']',
+            op_html, re.IGNORECASE,
+        ):
+            # `&amp;` in href/src attrs must be decoded for the real
+            # request URL — Geekhack's dlattach URLs are full of them.
+            u = html_lib.unescape(m.group(1))
+            if _is_op_image(u) and u not in seen:
+                seen.add(u)
+                out["images"].append(u)
+
+        # Strip HTML for the OP body text. Geekhack quotes are wrapped
+        # in <div class="quoteheader"> + <blockquote>; we drop those
+        # blocks entirely (they're someone else's content quoted into
+        # the OP, not the OP's own description).
+        body = re.sub(
+            r'<div class="quoteheader[^"]*">.*?</blockquote>',
+            ' ', op_html, flags=re.DOTALL,
+        )
+        body = re.sub(r"<[^>]+>", " ", body)
+        body = html_lib.unescape(body)
+        body = re.sub(r"\s+", " ", body).strip()
+        if body:
+            out["op_body"] = body
+
+    return out
+
+
+def fetch_thread_metadata(thread_id: str) -> dict | None:
+    """Fetch a Geekhack thread root page and return parse_thread_html's
+    output. None on HTTP failure (caller emits the item anyway with
+    whatever data the RSS gave us — partial enrichment beats silent
+    loss)."""
+    url = thread_root_url(thread_id)
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            raw = resp.read()
+    except Exception as e:
+        sys.stderr.write(f"  thread {thread_id} scrape failed: {e}\n")
+        return None
+    # Geekhack serves ISO-8859-1 on the thread pages too.
+    try:
+        text = raw.decode("iso-8859-1")
+    except Exception:
+        text = raw.decode("utf-8", errors="replace")
+    return parse_thread_html(text)
+
+
+def enrich_items(items: list[dict], throttle: float = 1.0) -> None:
+    """Mutate items in place: add views/replies/images_remote/takeaway
+    from per-thread scrapes. 1s throttle between fetches by default.
+    Politeness: bounded by `len(items)` which equals the number of
+    newly-seen threads (state file keeps re-scrapes out).
+    """
+    for i, it in enumerate(items):
+        tid = it["id"].split("-", 1)[1] if "-" in it["id"] else None
+        if not tid:
+            continue
+        sys.stderr.write(
+            f"  scraping {i + 1}/{len(items)}: thread {tid}\n"
+        )
+        meta = fetch_thread_metadata(tid)
+        if meta is None:
+            continue
+        if meta["views"] is not None:
+            it["score"] = meta["views"]
+        if meta["replies"] is not None:
+            it["comments"] = meta["replies"]
+        if meta["images"]:
+            it["images_remote"] = meta["images"]
+        if meta["op_body"]:
+            # OP body is the real description — much better signal than
+            # the latest-reply text the RSS gave us. Truncate generously.
+            it["takeaway"] = meta["op_body"][:600].rstrip()
+        if i < len(items) - 1 and throttle > 0:
+            time.sleep(throttle)
+
+
 def to_item(rec: dict) -> dict:
     """Convert a per-post record into the standard pipeline item."""
     tid = rec["thread_id"]
@@ -223,6 +414,11 @@ def main():
                          "(repeat for multiple boards; pair with --board)")
     ap.add_argument("--board", action="append", default=[], type=int,
                     help="board id matching each --feed-file (repeatable)")
+    ap.add_argument("--no-enrich", action="store_true",
+                    help="skip per-thread page scrapes (RSS-only output)")
+    ap.add_argument("--throttle", type=float, default=1.0,
+                    help="seconds to wait between thread-page fetches "
+                         "(default: 1.0)")
     args = ap.parse_args()
 
     seen = set() if args.no_state else load_state()
@@ -243,6 +439,12 @@ def main():
                 sys.exit(1)
 
     items = collect(feeds, seen)
+
+    # Per-thread enrichment: views, replies, OP body, multi-image
+    # carousel data. Skipped when running offline tests (`--feed-file`
+    # implies network-free) or when `--no-enrich` is passed.
+    if items and not args.no_enrich and not args.feed_file:
+        enrich_items(items, throttle=args.throttle)
 
     if args.dry_run:
         print(f"geekhack: {len(items)} new threads "
