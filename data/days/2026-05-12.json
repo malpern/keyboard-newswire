@@ -1,0 +1,160 @@
+{
+  "date": "2026-05-12",
+  "items": [
+    {
+      "id": "reddit-1tas42n",
+      "title": "Guide on using Alps switches in hot-swappable keyboards via desoldering and custom plates",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 182,
+      "comments": 21,
+      "category": "breaking",
+      "takeaway": "Detailed guide on desoldering hotswap sockets to physically fit Alps SKCM/SKCL pins, requiring custom plate cutting or 3D printing.",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "hotswap",
+        "diy-build",
+        "3d-modeling"
+      ],
+      "original_title": "They don't want you to know this, but Alps switches can be used in any hot-swappable keyboard (if you're crazy enough)",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Uses curiosity gap and sensational framing",
+      "image": "img/reddit-1tas42n.jpg"
+    },
+    {
+      "id": "reddit-1tadbr4",
+      "title": "QMK discussion on verifying NKRO status without magic key combos",
+      "url": "https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 5,
+      "comments": 21,
+      "category": "evergreen",
+      "takeaway": "Discussion on verifying NKRO status in QMK without relying on magic key combos, noting issues with key rollover limits.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "qmk",
+        "matrix-scanning"
+      ],
+      "original_title": "How to enable NKRO?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague question title missing subject"
+    },
+    {
+      "id": "reddit-1tacozg",
+      "title": "Building ZMK Firmware Locally on Apple Silicon MacBooks Without Docker",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tacozg/building_zmk_firmware_locally_on_apple_silicon/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tacozg/building_zmk_firmware_locally_on_apple_silicon/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 104,
+      "comments": 13,
+      "category": "evergreen",
+      "takeaway": "Tutorial on compiling ZMK locally on M-series Macs to bypass GitHub Actions wait times, including a build script.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "macos-utilities",
+        "open-source"
+      ],
+      "image": "img/reddit-1tacozg.jpg"
+    },
+    {
+      "id": "reddit-1tauvbv",
+      "title": "ZMK sometimes rapidly repeats keys?",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tauvbv/zmk_sometimes_rapidly_repeats_keys/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tauvbv/zmk_sometimes_rapidly_repeats_keys/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 2,
+      "comments": 9,
+      "category": "evergreen",
+      "takeaway": "User reports rapid key repetition (e.g., 'i' becoming 'iiii...') on a Bluetooth ZMK board under Linux/Wayland, seeking causes.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "zmk",
+        "linux-utilities"
+      ]
+    },
+    {
+      "id": "reddit-1ta6tb9",
+      "title": "CLASSIC-TKL Underscore Edition Now in Stock. Fully Built. $189",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1ta6tb9/classictkl_underscore_edition_now_in_stock_fully/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1ta6tb9/classictkl_underscore_edition_now_in_stock_fully/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 74,
+      "comments": 21,
+      "category": "breaking",
+      "takeaway": "NovelKeys announces stock availability for the fully built Classic-TKL Underscore Edition.",
+      "topics": [
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "restock",
+        "mechanical-keyboard"
+      ],
+      "image": "img/reddit-1ta6tb9.jpg"
+    },
+    {
+      "id": "reddit-1tak816",
+      "title": "69split open-sources split keyboard with broken-out ATmega32u4 IO pins",
+      "url": "https://www.reddit.com/r/olkb/comments/1tak816/69split_my_split_keyboard_with_broken_out_io_for/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1tak816/69split_my_split_keyboard_with_broken_out_io_for/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 16,
+      "comments": 6,
+      "category": "evergreen",
+      "takeaway": "Showcase of a split keyboard designed to break out ATmega32u4 IO pins for external project development while functioning as a keyboard.",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design",
+        "diy-build"
+      ],
+      "original_title": "69split - my split keyboard with broken out IO for project development",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Contains first-person pronoun 'my'",
+      "image": "img/reddit-1tak816.jpg"
+    },
+    {
+      "id": "reddit-1tahhpf",
+      "title": "KeyRecord open-sources local Python tool to analyze key usage patterns for 60% keyboard downsizing",
+      "url": "https://www.reddit.com/r/KeyboardLayouts/comments/1tahhpf/i_made_a_small_tool_to_check_if_i_actually_use/",
+      "discussion_url": "https://www.reddit.com/r/KeyboardLayouts/comments/1tahhpf/i_made_a_small_tool_to_check_if_i_actually_use/",
+      "source": "reddit",
+      "subreddit": "KeyboardLayouts",
+      "score": 8,
+      "comments": 6,
+      "category": "evergreen",
+      "takeaway": "Release of \"KeyRecord,\" a local Python tool to analyze real-world key usage patterns to justify downsizing to a 60% layout.",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "open-source",
+        "key-remapping"
+      ],
+      "original_title": "I made a small tool to check if I actually use all the keys on my keyboard before switching to 60%",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Rewrites first-person narrative to factual release statement",
+      "image": "img/reddit-1tahhpf.jpg"
+    }
+  ]
+}

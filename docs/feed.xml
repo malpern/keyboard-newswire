@@ -6,7 +6,79 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>Guide on using Alps switches in hot-swappable keyboards via desoldering and custom plates</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/</link>
+    <guid isPermaLink="false">reddit-1tas42n</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Detailed guide on desoldering hotswap sockets to physically fit Alps SKCM/SKCL pins, requiring custom plate cutting or 3D printing. — 182 pts · 21 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Building ZMK Firmware Locally on Apple Silicon MacBooks Without Docker</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tacozg/building_zmk_firmware_locally_on_apple_silicon/</link>
+    <guid isPermaLink="false">reddit-1tacozg</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Tutorial on compiling ZMK locally on M-series Macs to bypass GitHub Actions wait times, including a build script. — 104 pts · 13 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>CLASSIC-TKL Underscore Edition Now in Stock. Fully Built. $189</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1ta6tb9/classictkl_underscore_edition_now_in_stock_fully/</link>
+    <guid isPermaLink="false">reddit-1ta6tb9</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>NovelKeys announces stock availability for the fully built Classic-TKL Underscore Edition. — 74 pts · 21 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>69split open-sources split keyboard with broken-out ATmega32u4 IO pins</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tak816/69split_my_split_keyboard_with_broken_out_io_for/</link>
+    <guid isPermaLink="false">reddit-1tak816</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Showcase of a split keyboard designed to break out ATmega32u4 IO pins for external project development while functioning as a keyboard. — 16 pts · 6 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>KeyRecord open-sources local Python tool to analyze key usage patterns for 60% keyboard downsizing</title>
+    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1tahhpf/i_made_a_small_tool_to_check_if_i_actually_use/</link>
+    <guid isPermaLink="false">reddit-1tahhpf</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
+    <description>Release of "KeyRecord," a local Python tool to analyze real-world key usage patterns to justify downsizing to a 60% layout. — 8 pts · 6 comments · r/KeyboardLayouts</description>
+  </item>
+  <item>
+    <title>QMK discussion on verifying NKRO status without magic key combos</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/</link>
+    <guid isPermaLink="false">reddit-1tadbr4</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Discussion on verifying NKRO status in QMK without relying on magic key combos, noting issues with key rollover limits. — 5 pts · 21 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>ZMK sometimes rapidly repeats keys?</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tauvbv/zmk_sometimes_rapidly_repeats_keys/</link>
+    <guid isPermaLink="false">reddit-1tauvbv</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User reports rapid key repetition (e.g., 'i' becoming 'iiii...') on a Bluetooth ZMK board under Linux/Wayland, seeking causes. — 2 pts · 9 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>ScottoAcademy Workshop Logistics and Kit Info</title>
     <link>https://keyboard-newswire.com/email/19e1227e6852d7ec/</link>

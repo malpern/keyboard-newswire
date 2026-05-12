@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/linux-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Linux Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>ZMK sometimes rapidly repeats keys?</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tauvbv/zmk_sometimes_rapidly_repeats_keys/</link>
+    <guid isPermaLink="false">reddit-1tauvbv</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User reports rapid key repetition (e.g., 'i' becoming 'iiii...') on a Bluetooth ZMK board under Linux/Wayland, seeking causes. — 2 pts · 9 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>LAN-mouse – mouse and keyboard sharing via LAN for Linux, macOS and Windows</title>
     <link>https://github.com/feschber/lan-mouse</link>

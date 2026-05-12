@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/hotswap/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Hotswap.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>Guide on using Alps switches in hot-swappable keyboards via desoldering and custom plates</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/</link>
+    <guid isPermaLink="false">reddit-1tas42n</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Detailed guide on desoldering hotswap sockets to physically fit Alps SKCM/SKCL pins, requiring custom plate cutting or 3D printing. — 182 pts · 21 comments · r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>Eightu</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t87p0y/eightu/</link>

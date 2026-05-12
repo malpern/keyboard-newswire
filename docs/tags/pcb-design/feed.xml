@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>69split open-sources split keyboard with broken-out ATmega32u4 IO pins</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tak816/69split_my_split_keyboard_with_broken_out_io_for/</link>
+    <guid isPermaLink="false">reddit-1tak816</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Showcase of a split keyboard designed to break out ATmega32u4 IO pins for external project development while functioning as a keyboard. — 16 pts · 6 comments · r/olkb</description>
+  </item>
   <item>
     <title>Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders</title>
     <link>https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/</link>

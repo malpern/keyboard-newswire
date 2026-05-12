@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Macos Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 12 May 2026 05:09:06 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 12 May 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>Building ZMK Firmware Locally on Apple Silicon MacBooks Without Docker</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tacozg/building_zmk_firmware_locally_on_apple_silicon/</link>
+    <guid isPermaLink="false">reddit-1tacozg</guid>
+    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Tutorial on compiling ZMK locally on M-series Macs to bypass GitHub Actions wait times, including a build script. — 104 pts · 13 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Trouble with F keys not working - Lofree Flow lite</title>
     <link>https://www.reddit.com/r/Lofree/comments/1t8zbup/trouble_with_f_keys_not_working_lofree_flow_lite/</link>
