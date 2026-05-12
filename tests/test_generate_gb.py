@@ -210,6 +210,31 @@ class RenderGroupbuysSectionedPage(unittest.TestCase):
         self.assertIn("geekhack-2", interest_block)
         self.assertNotIn("geekhack-2", live_block)
 
+    def test_images_use_relative_prefix(self):
+        # Regression: /groupbuys/index.html lives one level deep, so
+        # `img/X.jpg` refs must render as `../img/X.jpg` to resolve.
+        # First version of v2.4 forgot the rel_prefix and produced
+        # 404s for every carousel image.
+        corpus = {
+            "title": "kw", "tagline": "t",
+            "days": [{"date": "2026-05-12", "items": [
+                {"id": "geekhack-1", "title": "[GB] X", "type": "GB",
+                 "source": "geekhack", "url": "https://x/1",
+                 "via": "Geekhack", "category": "breaking", "takeaway": "",
+                 "image": "img/geekhack-1.jpg",
+                 "images": ["img/geekhack-1-0.jpg", "img/geekhack-1-1.jpg"]},
+            ]}],
+        }
+        html = gen.render_groupbuys_page(corpus, {}, {})
+        # Every img src must start with `../img/` — anything starting
+        # with bare `img/` would 404 in the browser.
+        bare_refs = [line for line in html.splitlines()
+                     if 'src="img/' in line]
+        self.assertEqual(bare_refs, [],
+                         f"bare img/ refs found: {bare_refs[:2]}")
+        self.assertIn('src="../img/geekhack-1-0.jpg"', html)
+        self.assertIn('src="../img/geekhack-1-1.jpg"', html)
+
     def test_empty_corpus_shows_empty_message(self):
         empty = {"title": "kw", "tagline": "t", "days": []}
         html = gen.render_groupbuys_page(empty, {}, {})

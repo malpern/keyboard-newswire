@@ -1996,15 +1996,22 @@ def filter_corpus(corpus: dict, predicate) -> dict:
     }
 
 
-def render_gb_day_block(day: dict, topics_reg: dict, tags_reg: dict) -> str:
+def render_gb_day_block(day: dict, topics_reg: dict, tags_reg: dict,
+                        *, rel_prefix: str = "") -> str:
     """Day block specialized for /groupbuys/. Like render_day_block
     but no Breaking/Evergreen sections (irrelevant to GB items —
     they're not news), items sorted by views descending so the most
-    talked-about appear first within each day."""
+    talked-about appear first within each day.
+
+    `rel_prefix` must point from the rendered page back to docs/ root
+    (e.g. `"../"` when this is called for `/groupbuys/index.html`) so
+    that image src attributes resolve correctly.
+    """
     items = sorted(day.get("items", []),
                    key=lambda i: -(i.get("score") or 0))
     body = "\n".join(
-        render_item(i, topics_reg, tags_reg, page="day", date=day["date"])
+        render_item(i, topics_reg, tags_reg, page="day",
+                    date=day["date"], rel_prefix=rel_prefix)
         for i in items
     )
     if not body.strip():
@@ -2048,8 +2055,11 @@ def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict) -> str
         )
         if not days:
             return ""
+        # /groupbuys/index.html lives one level below docs/, so all
+        # `img/<slug>.jpg` references in cards need a "../" prefix.
         blocks = "\n".join(
-            render_gb_day_block(d, topics_reg, tags_reg) for d in days
+            render_gb_day_block(d, topics_reg, tags_reg, rel_prefix="../")
+            for d in days
         )
         return f'''<section class="gb-section gb-section-{slug}">
   <header class="gb-section-header">
