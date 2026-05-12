@@ -43,12 +43,16 @@ def _now_iso() -> str:
     return datetime.datetime.now(datetime.timezone.utc).isoformat()
 
 
-def product_json_url(product_page_url: str) -> str | None:
-    """Convert a vendor's product page URL to its Shopify .json endpoint.
+def product_json_url(product_page_url: str, suffix: str = ".js") -> str | None:
+    """Convert a vendor's product page URL to its Shopify product API
+    endpoint.
 
-    `https://novelkeys.com/products/foo`   → `https://novelkeys.com/products/foo.json`
-    `https://novelkeys.com/products/foo/`  → `https://novelkeys.com/products/foo.json`
-    Strips any trailing query string or fragment.
+    `https://novelkeys.com/products/foo` → `https://novelkeys.com/products/foo.js`
+
+    Defaults to `.js` (which exposes `available` per variant reliably
+    across Shopify stores; the `.json` variant returns None for that
+    field). Pass `suffix=".json"` for the older endpoint.
+
     Returns None if the URL doesn't have the expected `/products/<handle>`
     shape (most non-Shopify hosts don't).
     """
@@ -58,39 +62,54 @@ def product_json_url(product_page_url: str) -> str | None:
     if not parsed.scheme or not parsed.netloc:
         return None
     path = parsed.path.rstrip("/")
-    # Common shape: /products/<handle>. Some stores have additional
-    # path segments (collections/<col>/products/<handle>) — still
-    # supported.
     m = re.search(r"(/products/[^/]+)$", path)
     if not m:
         return None
-    new_path = path[: m.start()] + m.group(1) + ".json"
+    new_path = path[: m.start()] + m.group(1) + suffix
     return urllib.parse.urlunparse((
         parsed.scheme, parsed.netloc, new_path, "", "", "",
     ))
 
 
 def parse_product_metadata(payload: dict) -> dict | None:
-    """Extract price/currency from a Shopify product.json payload.
+    """Extract price/currency/availability from a Shopify product
+    payload. Accepts both shapes:
 
-    Returns `{price_low, price_high, currency}` in cents + ISO code,
-    or None if no usable variant prices found.
+      `.json` endpoint: `{"product": {"variants": [...], ...}}`
+      `.js` endpoint:   `{"variants": [...], "title": ..., ...}`
+
+    Returns `{price_low, price_high, currency, available}` or None
+    if no usable variant prices were found. `available` is True if
+    any variant is in stock; False if all variants are explicitly
+    out of stock; absent if no variant exposes availability.
+
+    Price values are in cents. Currency on `.js` shape comes from the
+    payload's top-level `price_currency` key; on `.json` we read it
+    off each variant.
     """
     if not isinstance(payload, dict):
         return None
-    product = payload.get("product") or {}
-    variants = product.get("variants") or []
+    # Unwrap if this is a .json-shaped payload.
+    source = payload.get("product") if "product" in payload else payload
+    if not isinstance(source, dict):
+        return None
+    variants = source.get("variants") or []
     prices: list[int] = []
-    currency: str | None = None
+    currency: str | None = source.get("price_currency") or None
+    availabilities: list[bool] = []
     for v in variants:
         raw_price = v.get("price")
         if raw_price is None:
             continue
         try:
-            # Shopify gives prices as decimal strings: "135.00".
-            dollars, _, cents = str(raw_price).partition(".")
-            cents = (cents + "00")[:2]  # pad/truncate to 2 digits
-            total_cents = int(dollars) * 100 + int(cents)
+            # .json gives prices as decimal strings ("135.00"); .js
+            # gives them as integer cents (13500). Detect by type.
+            if isinstance(raw_price, (int, float)) and not isinstance(raw_price, bool):
+                total_cents = int(raw_price)
+            else:
+                dollars, _, cents = str(raw_price).partition(".")
+                cents = (cents + "00")[:2]
+                total_cents = int(dollars) * 100 + int(cents)
         except (ValueError, TypeError):
             continue
         if total_cents <= 0:
@@ -98,6 +117,8 @@ def parse_product_metadata(payload: dict) -> dict | None:
         prices.append(total_cents)
         if currency is None:
             currency = v.get("price_currency") or None
+        if "available" in v and v["available"] is not None:
+            availabilities.append(bool(v["available"]))
     if not prices:
         return None
     out: dict = {"price_low": min(prices)}
@@ -105,6 +126,9 @@ def parse_product_metadata(payload: dict) -> dict | None:
         out["price_high"] = max(prices)
     if currency:
         out["currency"] = currency
+    if availabilities:
+        # Any variant in stock → product is in stock.
+        out["available"] = any(availabilities)
     return out
 
 
@@ -174,7 +198,8 @@ def refresh_corpus(corpus: dict, *,
                 if meta:
                     # Merge into the link dict; remove stale fields
                     # if they were set but the new fetch returns nothing.
-                    for k in ("price_low", "price_high", "currency"):
+                    for k in ("price_low", "price_high", "currency",
+                              "available"):
                         if k in meta:
                             link[k] = meta[k]
                         elif k in link:

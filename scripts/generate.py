@@ -1389,30 +1389,40 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
                 continue
             vl = link_by_name.get(raw_name.lower()) or {}
             link_url = vl.get("url") or ""
-            # Price chip (optional) appears inside the pill if
-            # vendor_metadata has populated it.
-            price_chip = ""
+            available = vl.get("available")  # True / False / None (unknown)
+            # Price chip + availability — both populated by vendor_metadata.
+            chips_inline = ""
             price_low = vl.get("price_low")
-            if price_low is not None:
-                price_chip = format_vendor_price(
+            if available is False:
+                chips_inline = (
+                    '<span class="gb-vendor-status gb-vendor-status-out">'
+                    'sold out</span>'
+                )
+            elif price_low is not None:
+                price = format_vendor_price(
                     price_low, vl.get("price_high"), vl.get("currency"),
                 )
-            price_html = (
-                f'<span class="gb-vendor-price">{html.escape(price_chip)}</span>'
-                if price_chip else ""
-            )
+                chips_inline = (
+                    f'<span class="gb-vendor-price">'
+                    f'{html.escape(price)}</span>'
+                )
+            pill_classes = "gb-vendor-pill"
+            if available is False:
+                pill_classes += " gb-vendor-pill-out"
             inner = (
                 f'<span class="gb-vendor-region">{region}</span>'
-                f'{name}{price_html}'
+                f'{name}{chips_inline}'
             )
             if link_url:
                 pills.append(
-                    f'<a class="gb-vendor-pill gb-vendor-pill-link" '
+                    f'<a class="{pill_classes} gb-vendor-pill-link" '
                     f'href="{html.escape(link_url)}" '
                     f'rel="noopener" target="_blank">{inner}</a>'
                 )
             else:
-                pills.append(f'<span class="gb-vendor-pill">{inner}</span>')
+                pills.append(
+                    f'<span class="{pill_classes}">{inner}</span>'
+                )
         if pills:
             vendor_html = (
                 f'<div class="gb-vendors" '

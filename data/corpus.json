@@ -203,46 +203,46 @@
                 "vendor": "Mechs & Co",
                 "url": "https://mechsandco.com/products/gb-gmk-iconographic",
                 "host": "mechsandco.com",
-                "metadata_fetched_at": "2026-05-12T22:07:34.645829+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:27.909359+00:00"
               },
               {
                 "vendor": "MyKeyboard",
                 "url": "https://mykeyboard.eu/catalogue/category/group-buys/gmk-iconographic_394/",
                 "host": "mykeyboard.eu",
-                "metadata_fetched_at": "2026-05-12T22:07:34.645869+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:27.909391+00:00"
               },
               {
                 "vendor": "Dailyclack",
                 "url": "https://dailyclack.com/products/gmk-iconographic/",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-05-12T22:07:34.927715+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.219016+00:00"
               },
               {
                 "vendor": "Monokei",
                 "url": "https://monokei.co/collections/current/products/gmk-iconographic/",
                 "host": "monokei.co",
-                "metadata_fetched_at": "2026-05-12T22:07:35.102305+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.380240+00:00"
               },
               {
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/collections/open-group-buys/products/gmk-iconographic",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-05-12T22:07:35.437002+00:00",
                 "price_low": 3300,
                 "price_high": 19100,
-                "currency": "CAD"
+                "metadata_fetched_at": "2026-05-12T22:14:28.630540+00:00",
+                "available": false
               },
               {
                 "vendor": "Zfrontier EN",
                 "url": "https://en.zfrontier.com/products/gmk-iconographic",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-05-12T22:07:35.700581+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.823485+00:00"
               },
               {
                 "vendor": "Zfrontier CN",
                 "url": "https://www.zfrontier.com/app/mch/lZ2N9dv5Mr6l",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-05-12T22:07:35.700652+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.823583+00:00"
               }
             ]
           },
@@ -296,19 +296,19 @@
                 "vendor": "ktechs (lead)",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-05-12T22:07:35.700670+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.823606+00:00"
               },
               {
                 "vendor": "prototypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-05-12T22:07:35.700680+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.823617+00:00"
               },
               {
                 "vendor": "toro studios",
                 "url": "https://www.torokeeb.store/",
                 "host": "www.torokeeb.store",
-                "metadata_fetched_at": "2026-05-12T22:07:35.700687+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:28.823626+00:00"
               }
             ]
           },
@@ -474,31 +474,31 @@
                 "vendor": "SabreKeebs",
                 "url": "https://saberkeebs.com/products/group-buy-dss-distortion",
                 "host": "saberkeebs.com",
-                "metadata_fetched_at": "2026-05-12T22:07:35.975020+00:00",
                 "price_low": 11000,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:29.028568+00:00",
+                "available": true
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-dss-distortion",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-05-12T22:07:36.273225+00:00",
                 "price_low": 8833,
-                "currency": "GBP"
+                "metadata_fetched_at": "2026-05-12T22:14:29.276408+00:00",
+                "available": true
               },
               {
                 "vendor": "Keeb.Supply",
                 "url": "https://keeb.supply/products/dss-distortion-40s",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-05-12T22:07:37.173269+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:30.113427+00:00"
               },
               {
                 "vendor": "Keebz N Cables",
                 "url": "https://www.keebzncables.com/products/dss-distortion",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-05-12T22:07:37.455192+00:00",
                 "price_low": 17500,
-                "currency": "AUD"
+                "metadata_fetched_at": "2026-05-12T22:14:30.345473+00:00",
+                "available": true
               }
             ]
           },
@@ -606,35 +606,35 @@
                 "vendor": "https://touhou-project.news/news/16738/",
                 "url": "https://touhou-project.news/news/16738/",
                 "host": "touhou-project.news",
-                "metadata_fetched_at": "2026-05-12T22:07:37.455288+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:30.345518+00:00"
               },
               {
                 "vendor": "CannonKeys",
                 "url": "https://cannonkeys.com/products/nicepbt-youmu",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-05-12T22:07:37.669883+00:00",
                 "price_low": 8000,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:30.505184+00:00",
+                "available": false
               },
               {
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/products/12098",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-05-12T22:07:38.066481+00:00",
                 "price_low": 1408000,
-                "currency": "JPY"
+                "metadata_fetched_at": "2026-05-12T22:14:30.700338+00:00",
+                "available": false
               },
               {
                 "vendor": "zFrontier",
                 "url": "https://www.zfrontier.com/app/mch/BbdPaL80ZW8D",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-05-12T22:07:38.066579+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:30.700456+00:00"
               },
               {
                 "vendor": "FAQ",
                 "url": "https://cannonkeys.com/pages/FAQs",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-05-12T22:07:38.066599+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:30.700516+00:00"
               }
             ]
           },
@@ -714,61 +714,61 @@
                 "vendor": "Bowl",
                 "url": "https://bowlkeyboards.com/products/gb-dcs-grass-valley-down-payment",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-05-12T22:07:38.371912+00:00",
                 "price_low": 300,
                 "price_high": 10000,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:30.983525+00:00",
+                "available": true
               },
               {
                 "vendor": "Minokeys",
                 "url": "https://minokeys.com/products/dcs-grass-valley",
                 "host": "minokeys.com",
-                "metadata_fetched_at": "2026-05-12T22:07:38.675644+00:00",
                 "price_low": 400,
                 "price_high": 13000,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:31.193059+00:00",
+                "available": true
               },
               {
                 "vendor": "Geon",
                 "url": "https://geon.works/products/group-buy-dcs-grass-valley-keycaps",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-05-12T22:07:38.856065+00:00",
                 "price_low": 650,
                 "price_high": 14900,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:31.365598+00:00",
+                "available": true
               },
               {
                 "vendor": "Typist Club",
                 "url": "https://item.taobao.com/item.htm?id=1046621159604&mi_id=0000Hxc0wLncnmKsmYKEpV0uoO23uP8Ch0_5cI9hsPpkfBI&spm=a21xtw.29178619.0.0&xxc=shop",
                 "host": "item.taobao.com",
-                "metadata_fetched_at": "2026-05-12T22:07:38.856174+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:31.365665+00:00"
               },
               {
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-dcs-grass-valley",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-05-12T22:07:39.137035+00:00",
                 "price_low": 417,
                 "price_high": 10667,
-                "currency": "GBP"
+                "metadata_fetched_at": "2026-05-12T22:14:31.599308+00:00",
+                "available": true
               },
               {
                 "vendor": "ktechs",
                 "url": "https://ktechs.store/products/dcs-grass-valley",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-05-12T22:07:39.393354+00:00",
                 "price_low": 850,
                 "price_high": 16600,
-                "currency": "SGD"
+                "metadata_fetched_at": "2026-05-12T22:14:31.822231+00:00",
+                "available": true
               },
               {
                 "vendor": "CoffeeKeys",
                 "url": "https://coffeekeys.eu/en/products/group-buy-dcs-grass-valley-eng",
                 "host": "coffeekeys.eu",
-                "metadata_fetched_at": "2026-05-12T22:07:39.874352+00:00",
                 "price_low": 536,
                 "price_high": 12976,
-                "currency": "EUR"
+                "metadata_fetched_at": "2026-05-12T22:14:32.097229+00:00",
+                "available": true
               }
             ]
           },
@@ -856,55 +856,55 @@
                 "vendor": "NovelKeys",
                 "url": "https://novelkeys.com/products/gmk-cyl-greg-2-keycaps",
                 "host": "novelkeys.com",
-                "metadata_fetched_at": "2026-05-12T22:07:40.122092+00:00",
                 "price_low": 4500,
                 "price_high": 13500,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:32.300136+00:00",
+                "available": true
               },
               {
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-greg-r2",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-05-12T22:07:40.398702+00:00",
                 "price_low": 2000,
                 "price_high": 10250,
-                "currency": "GBP"
+                "metadata_fetched_at": "2026-05-12T22:14:32.629858+00:00",
+                "available": true
               },
               {
                 "vendor": "Oblotzky Industries",
                 "url": "https://oblotzky.industries/products/gmk-cyl-greg-r2",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-05-12T22:07:40.716496+00:00",
                 "price_low": 3500,
                 "price_high": 13900,
-                "currency": "EUR"
+                "metadata_fetched_at": "2026-05-12T22:14:32.867231+00:00",
+                "available": true
               },
               {
                 "vendor": "GEONWORKS",
                 "url": "https://geon.works/products/group-buy-gmk-cyl-greg-2/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-05-12T22:07:40.874110+00:00",
                 "price_low": 2500,
                 "price_high": 13500,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:33.090780+00:00",
+                "available": true
               },
               {
                 "vendor": "KBDfans",
                 "url": "https://kbdfans.com/products/gmk-cyl-greg-2",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-05-12T22:07:41.070590+00:00",
                 "price_low": 2500,
                 "price_high": 14500,
-                "currency": "USD"
+                "metadata_fetched_at": "2026-05-12T22:14:33.381447+00:00",
+                "available": true
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/products/group-buy-gmk-cyl-greg-2",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-05-12T22:07:41.616420+00:00",
                 "price_low": 3600,
                 "price_high": 18900,
-                "currency": "SGD"
+                "metadata_fetched_at": "2026-05-12T22:14:33.685025+00:00",
+                "available": true
               }
             ]
           },
@@ -956,7 +956,7 @@
                 "vendor": "Moyu.studio",
                 "url": "https://moyustudio.world/",
                 "host": "moyustudio.world",
-                "metadata_fetched_at": "2026-05-12T22:07:41.616472+00:00"
+                "metadata_fetched_at": "2026-05-12T22:14:33.685115+00:00"
               }
             ]
           },

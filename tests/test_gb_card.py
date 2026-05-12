@@ -361,6 +361,41 @@ class RenderGbItem(unittest.TestCase):
         self.assertIn(">$135<", out)
         self.assertNotIn("$45", out)
 
+    def test_vendor_pill_sold_out_replaces_price_chip(self):
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}],
+            "vendor_links": [{
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/x",
+                "price_low": 13500,
+                "currency": "USD",
+                "available": False,
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn("gb-vendor-status-out", out)
+        self.assertIn(">sold out<", out)
+        # Pill also gets a class so CSS can mute the whole thing.
+        self.assertIn("gb-vendor-pill-out", out)
+        # Price chip is replaced, not shown.
+        self.assertNotIn("$135", out)
+
+    def test_vendor_pill_in_stock_shows_price_not_status(self):
+        item = make_gb_item(gb={
+            "vendor_regions": [{"region": "US", "name": "NovelKeys"}],
+            "vendor_links": [{
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/x",
+                "price_low": 13500,
+                "currency": "USD",
+                "available": True,
+            }],
+        })
+        out = gen.render_gb_item(item, {}, {})
+        self.assertIn(">$135<", out)
+        self.assertNotIn("gb-vendor-status-out", out)
+        self.assertNotIn("gb-vendor-pill-out", out)
+
     def test_vendor_pill_no_price_chip_when_metadata_absent(self):
         item = make_gb_item(gb={
             "vendor_regions": [{"region": "US", "name": "NovelKeys"}],

@@ -17,16 +17,23 @@ import vendor_metadata as vm  # noqa: E402
 
 
 class ProductJsonUrl(unittest.TestCase):
-    def test_basic_product_url(self):
+    def test_basic_product_url_defaults_to_js(self):
         self.assertEqual(
             vm.product_json_url("https://novelkeys.com/products/foo"),
+            "https://novelkeys.com/products/foo.js",
+        )
+
+    def test_explicit_json_suffix(self):
+        self.assertEqual(
+            vm.product_json_url("https://novelkeys.com/products/foo",
+                                suffix=".json"),
             "https://novelkeys.com/products/foo.json",
         )
 
     def test_trailing_slash(self):
         self.assertEqual(
             vm.product_json_url("https://novelkeys.com/products/foo/"),
-            "https://novelkeys.com/products/foo.json",
+            "https://novelkeys.com/products/foo.js",
         )
 
     def test_strips_query_and_fragment(self):
@@ -34,18 +41,16 @@ class ProductJsonUrl(unittest.TestCase):
             vm.product_json_url(
                 "https://novelkeys.com/products/foo?utm=x#frag"
             ),
-            "https://novelkeys.com/products/foo.json",
+            "https://novelkeys.com/products/foo.js",
         )
 
     def test_collection_nested(self):
-        # Shopify often shows /collections/foo/products/bar URLs; the
-        # .json endpoint is at /products/bar.json (collection segment
-        # not preserved).
+        # /collections/x/products/y → .js endpoint sits at the same path.
         self.assertEqual(
             vm.product_json_url(
                 "https://geon.works/collections/group-buys/products/greg-2"
             ),
-            "https://geon.works/collections/group-buys/products/greg-2.json",
+            "https://geon.works/collections/group-buys/products/greg-2.js",
         )
 
     def test_non_product_url(self):
@@ -116,8 +121,48 @@ class ParseProductMetadata(unittest.TestCase):
         self.assertIsNone(vm.parse_product_metadata(_payload([])))
 
     def test_no_product_key(self):
-        self.assertIsNone(vm.parse_product_metadata({}))
+        # `.js` endpoint payload has variants at the top level; this
+        # used to fail under the old parser. Now it parses.
+        self.assertIsNone(vm.parse_product_metadata({}))  # no variants
         self.assertIsNone(vm.parse_product_metadata("not-a-dict"))
+
+    def test_js_shape_no_product_wrapper(self):
+        # `.js` endpoint: variants at top level, prices as INT cents.
+        out = vm.parse_product_metadata({
+            "variants": [
+                {"price": 13500, "available": True},
+                {"price": 4500, "available": False},
+            ],
+            "price_currency": "USD",
+        })
+        self.assertEqual(out["price_low"], 4500)
+        self.assertEqual(out["price_high"], 13500)
+        self.assertEqual(out["currency"], "USD")
+        # Any variant available → True (base stocked even if novelties sold out)
+        self.assertTrue(out["available"])
+
+    def test_availability_all_out_of_stock(self):
+        out = vm.parse_product_metadata({
+            "variants": [
+                {"price": 13500, "available": False},
+                {"price": 4500, "available": False},
+            ],
+        })
+        self.assertFalse(out["available"])
+
+    def test_availability_none_when_field_absent(self):
+        # No variant has `available` key → field omitted from output.
+        out = vm.parse_product_metadata({
+            "variants": [{"price": "135.00"}],
+        })
+        self.assertNotIn("available", out)
+
+    def test_js_shape_decimal_strings_also_accepted(self):
+        # Some stores serve `.js` with decimal strings instead of cents.
+        out = vm.parse_product_metadata({
+            "variants": [{"price": "135.00", "available": True}],
+        })
+        self.assertEqual(out["price_low"], 13500)
 
 
 # ────────────────── is_stale ──────────────────
