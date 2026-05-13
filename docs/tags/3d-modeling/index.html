@@ -360,24 +360,23 @@
     var rewriteOn = readRewrite();
     var atMin = scale <= MIN + 0.001;
     var atMax = scale >= MAX - 0.001;
-    var actions = [];
-    if (itemId) {
-      actions.push(
-        saved
-          ? { act: 'buylist-remove', arg: itemId, label: '♥ Want to buy' }
-          : { act: 'buylist-add', arg: itemId, label: '♡ Want to buy' }
-      );
-      actions.push({ kind: 'sep' });
-    }
-    actions.push(
+    var actions = [
       { kind: 'note', text: 'Text size · ' + Math.round(scale * 100) + '%' },
       { kind: 'row', children: [
         { act: 'font-down', label: 'A−' },
         { act: 'font-up', label: 'A+' },
       ]},
       { kind: 'sep' },
-      { act: 'rewrite-toggle', label: (rewriteOn ? '✓ ' : '') + 'Use rewritten titles' }
-    );
+      { act: 'rewrite-toggle', label: (rewriteOn ? '✓ ' : '') + 'Use rewritten titles' },
+    ];
+    if (itemId) {
+      actions.push({ kind: 'sep' });
+      actions.push(
+        saved
+          ? { act: 'buylist-remove', arg: itemId, label: '♥ Want to buy' }
+          : { act: 'buylist-add', arg: itemId, label: '♡ Want to buy' }
+      );
+    }
     showPopover(actions, lastTitlePopX, lastTitlePopY);
     if (popover) {
       if (atMin) { var b = popover.querySelector('[data-act="font-down"]'); if (b) b.disabled = true; }
