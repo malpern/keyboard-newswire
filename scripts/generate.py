@@ -2213,10 +2213,17 @@ def render_day_block(day: dict, topics_reg: dict, tags_reg: dict) -> str:
     if not body.strip():
         body = '<p class="empty">Quiet day — nothing notable.</p>'
 
-    play_btn = f'''<button class="play-day" type="button" aria-label="Play this day's stories"
-      title="Play this day's stories">
+    # Idle icon: speaking person silhouette + two arcs of sound waves
+    # to the right, so readers immediately read this as audio
+    # narration (someone reading the day's stories) rather than music
+    # or video. Playing state still flips to the universal pause bars.
+    play_btn = f'''<button class="play-day" type="button" aria-label="Listen to this day's stories"
+      title="Listen to this day's stories">
       <svg class="icon-play" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
-        <path d="M4 3l9 5-9 5z" fill="currentColor"/>
+        <circle cx="5.25" cy="4.5" r="2.5" fill="currentColor"/>
+        <path d="M1.5 14 Q1.5 9 5.25 9 Q9 9 9 14 Z" fill="currentColor"/>
+        <path d="M10.6 4.5 Q12.4 7.5 10.6 10.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M12.5 3 Q15.4 7.5 12.5 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
       </svg>
       <svg class="icon-pause" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
         <path d="M4 3h3v10H4zm5 0h3v10H9z" fill="currentColor"/>
