@@ -377,16 +377,44 @@ class FmtPriceChip(unittest.TestCase):
 
 
 class FmtDateChip(unittest.TestCase):
-    def test_iso_to_human(self):
+    import datetime as _dt
+    REF = _dt.date(2026, 5, 12)
+
+    def test_starts_no_countdown(self):
+        # "starts" prefix renders date only — no countdown.
         self.assertEqual(
-            gen.fmt_date_chip("2026-06-14", prefix="ends"),
-            "ends Jun 14",
+            gen.fmt_date_chip("2026-01-03", prefix="starts", today=self.REF),
+            "starts Jan 3",
         )
 
-    def test_starts(self):
+    def test_ends_future_includes_days_left(self):
         self.assertEqual(
-            gen.fmt_date_chip("2026-01-03", prefix="starts"),
-            "starts Jan 3",
+            gen.fmt_date_chip("2026-06-14", prefix="ends", today=self.REF),
+            "ends Jun 14 · 33 days",
+        )
+
+    def test_ends_today(self):
+        self.assertEqual(
+            gen.fmt_date_chip("2026-05-12", prefix="ends", today=self.REF),
+            "ends today",
+        )
+
+    def test_ends_tomorrow(self):
+        self.assertEqual(
+            gen.fmt_date_chip("2026-05-13", prefix="ends", today=self.REF),
+            "ends tomorrow",
+        )
+
+    def test_ended_yesterday(self):
+        self.assertEqual(
+            gen.fmt_date_chip("2026-05-11", prefix="ends", today=self.REF),
+            "ended yesterday",
+        )
+
+    def test_ended_past_days_ago(self):
+        self.assertEqual(
+            gen.fmt_date_chip("2026-05-01", prefix="ends", today=self.REF),
+            "ended May 1 · 11 days ago",
         )
 
     def test_missing(self):
@@ -482,7 +510,10 @@ class RenderGbItem(unittest.TestCase):
         self.assertIn(">live<", out)
         self.assertIn(">MOQ 200<", out)
         self.assertIn(">$145-160<", out)
-        self.assertIn(">ends Jun 14<", out)
+        # End-date chip carries the date plus a countdown (e.g.
+        # "ends Jun 14 · 33 days") — exact day count depends on
+        # `today`, so just match the date portion.
+        self.assertIn("ends Jun 14", out)
 
     def test_facets_line(self):
         item = make_gb_item(gb={"designer": "iNN Studio", "profile": "Cherry"})

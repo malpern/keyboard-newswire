@@ -1423,15 +1423,40 @@ def format_vendor_price(low_cents: int,
     return f"{symbol}{lo}-{hi}"
 
 
-def fmt_date_chip(iso: str | None, *, prefix: str) -> str | None:
-    """ISO date → "ends Jun 14" style chip text. None if missing."""
+def fmt_date_chip(iso: str | None, *, prefix: str,
+                  today: datetime.date | None = None) -> str | None:
+    """ISO date → "ends Jun 14 · 33 days" style chip text. None if
+    missing. For the "ends" prefix, appends a countdown to the date:
+
+       same day  → "ends today"
+       +1 day    → "ends tomorrow"
+       future N  → "ends Jun 14 · N days"
+       past N    → "ended Jun 14 · N days ago"
+
+    Other prefixes ("starts") render plain "starts Jun 14" — no countdown."""
     if not iso:
         return None
     try:
-        y, m, d = iso.split("-")
-        return f"{prefix} {MONTHS[int(m)]} {int(d)}"
-    except Exception:
+        when = datetime.date.fromisoformat(iso)
+    except (ValueError, TypeError):
         return None
+
+    pretty = f"{MONTHS[when.month]} {when.day}"
+
+    if prefix != "ends":
+        return f"{prefix} {pretty}"
+
+    today = today or datetime.date.today()
+    delta = (when - today).days
+    if delta == 0:
+        return "ends today"
+    if delta == 1:
+        return "ends tomorrow"
+    if delta > 1:
+        return f"ends {pretty} · {delta} days"
+    if delta == -1:
+        return f"ended yesterday"
+    return f"ended {pretty} · {-delta} days ago"
 
 
 def infer_gb_category(item: dict) -> str:
