@@ -1849,7 +1849,19 @@ def render_gb_item(item: dict, topics_reg: dict, tags_reg: dict, *,
         chips.append(f'<span class="gb-chip">{html.escape(price)}</span>')
     ends = fmt_date_chip(gb.get("ends_at"), prefix="ends")
     if ends:
-        chips.append(f'<span class="gb-chip">{html.escape(ends)}</span>')
+        ends_class = "gb-chip"
+        # Urgency highlight when the GB closes within 2 days. Caps at
+        # delta >= 0 so historic "ended yesterday" chips don't pulse.
+        try:
+            ends_when = datetime.date.fromisoformat(gb["ends_at"])
+            ends_delta = (ends_when - datetime.date.today()).days
+            if 0 <= ends_delta <= 2:
+                ends_class += " gb-chip-urgent"
+        except (ValueError, TypeError, KeyError):
+            pass
+        chips.append(
+            f'<span class="{ends_class}">{html.escape(ends)}</span>'
+        )
     starts = fmt_date_chip(gb.get("starts_at"), prefix="starts")
     if starts and not ends:
         chips.append(f'<span class="gb-chip">{html.escape(starts)}</span>')

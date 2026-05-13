@@ -499,6 +499,52 @@ class RenderGbItem(unittest.TestCase):
         out = gen.render_gb_item(make_gb_item(image=None), {}, {})
         self.assertNotIn("gb-carousel", out)
 
+    def test_urgent_chip_when_ending_soon(self):
+        # Freeze "today" via a tiny date subclass so the render path's
+        # date.today() returns our reference date.
+        import datetime as _dt
+        ref = _dt.date(2026, 5, 12)
+        orig = _dt.date
+
+        class FrozenDate(_dt.date):
+            @classmethod
+            def today(cls):
+                return ref
+        _dt.date = FrozenDate
+        gen.datetime.date = FrozenDate
+        try:
+            # Ends in 2 days exactly → urgent.
+            item = make_gb_item(gb={
+                "status": "live",
+                "ends_at": "2026-05-14",
+            })
+            out = gen.render_gb_item(item, {}, {})
+            self.assertIn("gb-chip-urgent", out)
+            # Ends in 5 days → not urgent.
+            item2 = make_gb_item(gb={
+                "status": "live",
+                "ends_at": "2026-05-17",
+            })
+            out2 = gen.render_gb_item(item2, {}, {})
+            self.assertNotIn("gb-chip-urgent", out2)
+            # Already ended yesterday → not urgent (historic).
+            item3 = make_gb_item(gb={
+                "status": "live",
+                "ends_at": "2026-05-11",
+            })
+            out3 = gen.render_gb_item(item3, {}, {})
+            self.assertNotIn("gb-chip-urgent", out3)
+            # Ends today → urgent.
+            item4 = make_gb_item(gb={
+                "status": "live",
+                "ends_at": "2026-05-12",
+            })
+            out4 = gen.render_gb_item(item4, {}, {})
+            self.assertIn("gb-chip-urgent", out4)
+        finally:
+            _dt.date = orig
+            gen.datetime.date = orig
+
     def test_gb_metadata_chips(self):
         item = make_gb_item(gb={
             "status": "live", "moq": 200,

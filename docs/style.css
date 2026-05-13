@@ -2461,3 +2461,44 @@ a.gb-vendor-pill-link:hover .gb-vendor-region {
   text-transform: lowercase;
   letter-spacing: 0.02em;
 }
+
+/* Urgency highlight: the ends-soon chip gets accent coloring and a
+   small pulsing dot. Triggered when the end date is within 2 days
+   (computed at render time). No layout change — same chip footprint. */
+.gb-chip-urgent {
+  background: rgba(192, 57, 43, 0.10);
+  border-color: rgba(192, 57, 43, 0.45);
+  color: var(--accent);
+  font-weight: 600;
+}
+.gb-chip-urgent::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-right: 0.375rem;
+  vertical-align: middle;
+  animation: gb-urgent-pulse 1.6s ease-in-out infinite;
+  box-shadow: 0 0 0 0 rgba(192, 57, 43, 0.4);
+}
+@keyframes gb-urgent-pulse {
+  0%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 rgba(192, 57, 43, 0.45);
+  }
+  50% {
+    opacity: 0.4;
+    box-shadow: 0 0 0 4px rgba(192, 57, 43, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gb-chip-urgent::before { animation: none; }
+}
+@media (prefers-color-scheme: dark) {
+  .gb-chip-urgent {
+    background: rgba(232, 93, 74, 0.14);
+    border-color: rgba(232, 93, 74, 0.45);
+  }
+}
