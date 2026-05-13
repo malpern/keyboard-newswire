@@ -2965,14 +2965,20 @@ def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict,
         canonical = f"{SITE_URL}/groupbuys/"
         page_slug = "active"
 
-    # First filter by historic-ness, then by GB/IC type.
+    # First filter by historic-ness, then by literal item.type
+    # (ICs stay in the IC section even if they've gained vendor_links).
     def _active_filter(it):
         return historic == is_historic_gb_item(it, today)
 
+    def _raw_type(it):
+        return (it.get("type") or "").upper()
+
     filtered = filter_corpus(corpus, _active_filter)
-    gb_only = filter_corpus(filtered, lambda it: _gb_effective_type(it) == "GB")
-    ic_only = filter_corpus(filtered, lambda it: _gb_effective_type(it) == "IC")
-    untyped = filter_corpus(filtered, lambda it: _gb_effective_type(it) not in ("GB", "IC"))
+    gb_only = filter_corpus(filtered, lambda it: _raw_type(it) == "GB")
+    ic_only = filter_corpus(filtered, lambda it: _raw_type(it) == "IC")
+    untyped = filter_corpus(filtered, lambda it: _raw_type(it) not in ("GB", "IC"))
+    # Untyped items (future Shopify imports) fall back to the GB
+    # section since they're closer in cadence.
     for du, dg in zip(untyped["days"], gb_only["days"]):
         dg["items"].extend(du["items"])
 
@@ -2980,6 +2986,36 @@ def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict,
     # /groupbuys/index.html             → "../"
     # /groupbuys/historic/index.html    → "../../"
     rel_to_root = "../../" if historic else "../"
+
+    def _category_counts(c) -> list[tuple[str, int]]:
+        """Return [(plural_label, count), ...] in display order for
+        the section header summary line. Skips zero-count categories."""
+        buckets: dict[str, int] = {}
+        for d in c["days"]:
+            for it in d.get("items", []):
+                cat = infer_gb_category(it)
+                buckets[cat] = buckets.get(cat, 0) + 1
+        out = []
+        plural_map = {
+            "Keyboard": "keyboards", "Keycap": "keycaps",
+            "Switch": "switches", "PCB": "PCBs",
+            "Deskmat": "deskmats", "Cable": "cables",
+            "Artisan": "artisans",
+        }
+        for cat in _CATEGORY_DAY_ORDER:
+            n = buckets.get(cat, 0)
+            if n:
+                label = plural_map.get(cat, cat.lower() + "s")
+                # Singular when n == 1.
+                if n == 1:
+                    label = {
+                        "keyboards": "keyboard", "keycaps": "keycap",
+                        "switches": "switch", "PCBs": "PCB",
+                        "deskmats": "deskmat", "cables": "cable",
+                        "artisans": "artisan",
+                    }.get(label, label.rstrip("s"))
+                out.append((label, n))
+        return out
 
     def _render_section(c, slug, label, blurb):
         days = sorted(
@@ -2993,9 +3029,26 @@ def render_groupbuys_page(corpus: dict, topics_reg: dict, tags_reg: dict,
                                 rel_prefix=rel_to_root)
             for d in days
         )
+        counts = _category_counts(c)
+        counts_html = ""
+        if counts:
+            chips = "".join(
+                f'<span class="gb-section-count">'
+                f'<span class="gb-section-count-n">{n}</span>'
+                f'<span class="gb-section-count-label">{html.escape(lbl)}</span>'
+                f'</span>'
+                for lbl, n in counts
+            )
+            counts_html = (
+                f'<div class="gb-section-counts" '
+                f'aria-label="Item counts by category">{chips}</div>'
+            )
         return f'''<section class="gb-section gb-section-{slug}">
   <header class="gb-section-header">
-    <h2 class="gb-section-title">{html.escape(label)}</h2>
+    <div class="gb-section-titlerow">
+      <h2 class="gb-section-title">{html.escape(label)}</h2>
+      {counts_html}
+    </div>
     <p class="gb-section-blurb">{html.escape(blurb)}</p>
   </header>
   {blocks}

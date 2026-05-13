@@ -2423,3 +2423,41 @@ a.gb-vendor-pill-link:hover .gb-vendor-region {
   color: var(--accent);
   border-bottom-color: var(--accent);
 }
+
+/* Per-section count summary: shows "5 keyboards · 3 keycaps" beside
+   the section title. Sits on the same baseline as the h2 on wide
+   screens, wraps below it on narrow ones. */
+.gb-section-titlerow {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.gb-section-counts {
+  display: flex;
+  align-items: baseline;
+  gap: 0.625rem;
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+}
+.gb-section-count {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+.gb-section-count + .gb-section-count {
+  border-left: 1px solid var(--rule);
+  padding-left: 0.625rem;
+}
+.gb-section-count-n {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.gb-section-count-label {
+  text-transform: lowercase;
+  letter-spacing: 0.02em;
+}

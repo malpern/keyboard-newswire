@@ -325,13 +325,14 @@ class RenderGroupbuysSectionedPage(unittest.TestCase):
         self.assertIn('src="../img/geekhack-1-0.jpg"', html)
         self.assertIn('src="../img/geekhack-1-1.jpg"', html)
 
-    def test_ic_with_vendor_links_renders_in_live_section(self):
-        # Auto-graduate: an IC with vendor_links sits in the
-        # "Active group buys" section, not "Interest checks".
+    def test_ic_with_vendor_links_stays_in_ic_section(self):
+        # Route by literal item.type — an IC stays in the IC section
+        # even when it's accrued vendor_links. (Card chrome still
+        # auto-graduates to GB-style; section routing does not.)
         corpus = {
             "title": "kw", "tagline": "t",
             "days": [{"date": "2026-05-12", "items": [
-                {"id": "geekhack-ic-graduated", "title": "[IC] Y",
+                {"id": "geekhack-ic-w-vendors", "title": "[IC] Y",
                  "type": "IC", "source": "geekhack",
                  "url": "https://x/", "via": "Geekhack",
                  "category": "breaking", "takeaway": "",
@@ -341,13 +342,56 @@ class RenderGroupbuysSectionedPage(unittest.TestCase):
             ]}],
         }
         html = gen.render_groupbuys_page(corpus, {}, {})
-        live_start = html.index("gb-section-live")
-        interest_start = (
-            html.index("gb-section-interest")
-            if "gb-section-interest" in html else len(html)
-        )
-        live_block = html[live_start:interest_start]
-        self.assertIn("geekhack-ic-graduated", live_block)
+        if "gb-section-interest" in html:
+            ic_start = html.index("gb-section-interest")
+            ic_block = html[ic_start:]
+            self.assertIn("geekhack-ic-w-vendors", ic_block)
+        if "gb-section-live" in html:
+            live_start = html.index("gb-section-live")
+            ic_idx = html.index("gb-section-interest") if "gb-section-interest" in html else len(html)
+            live_block = html[live_start:ic_idx]
+            self.assertNotIn("geekhack-ic-w-vendors", live_block)
+
+    def test_section_header_shows_category_counts(self):
+        corpus = {
+            "title": "kw", "tagline": "t",
+            "days": [{"date": "2026-05-12", "items": [
+                {"id": "g-1", "title": "[GB] Housing", "type": "GB",
+                 "source": "geekhack", "url": "https://x/", "via": "G",
+                 "category": "breaking", "takeaway": "",
+                 "tags": ["diy-build"]},
+                {"id": "g-2", "title": "[GB] Caps A", "type": "GB",
+                 "source": "geekhack", "url": "https://x/", "via": "G",
+                 "category": "breaking", "takeaway": "",
+                 "tags": ["keycap-design"]},
+                {"id": "g-3", "title": "[GB] Caps B", "type": "GB",
+                 "source": "geekhack", "url": "https://x/", "via": "G",
+                 "category": "breaking", "takeaway": "",
+                 "tags": ["keycap-design"]},
+            ]}],
+        }
+        html = gen.render_groupbuys_page(corpus, {}, {})
+        # Should show "1 keyboard · 2 keycaps" in the active section.
+        self.assertIn("gb-section-count", html)
+        self.assertIn(">1<", html)
+        self.assertIn(">keyboard<", html)
+        self.assertIn(">2<", html)
+        self.assertIn(">keycaps<", html)
+
+    def test_section_counts_singular_when_one(self):
+        corpus = {
+            "title": "kw", "tagline": "t",
+            "days": [{"date": "2026-05-12", "items": [
+                {"id": "g-1", "title": "[GB] Single", "type": "GB",
+                 "source": "geekhack", "url": "https://x/", "via": "G",
+                 "category": "breaking", "takeaway": "",
+                 "tags": ["keycap-design"]},
+            ]}],
+        }
+        html = gen.render_groupbuys_page(corpus, {}, {})
+        # Singular "keycap" — not "keycaps".
+        self.assertIn(">keycap<", html)
+        self.assertNotIn(">keycaps<", html)
 
     def test_active_page_excludes_historic_items(self):
         corpus = {
