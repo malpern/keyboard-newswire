@@ -43,6 +43,30 @@
             "custom-firmware",
             "pcb-design"
           ]
+        },
+        {
+          "id": "kbdnews-2852",
+          "title": "Vanguard Keyboard Outsider",
+          "url": "https://kbd.news/Vanguard-Keyboard-Outsider-2852.html",
+          "discussion_url": "https://kbd.news/Vanguard-Keyboard-Outsider-2852.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "DreaM117er's Vanguard Keyboard Outsider is a modular ortholinear board, supporting various trackpads and encoders.",
+          "image_hint": "https://kbd.news/pic/2026/211/480/2852.jpg",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "ortholinear",
+            "pcb-design",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2852.jpg"
         }
       ]
     },

@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 14 May 2026 12:02:40 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 14 May 2026 12:05:16 +0000</lastBuildDate>
   <item>
     <title>Show HN: GreenType – That Mechanical Keyboard You've Always Wanted</title>
     <link>https://greentype.lamdera.app/</link>
@@ -16,6 +16,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Vanguard Keyboard Outsider</title>
+    <link>https://kbd.news/Vanguard-Keyboard-Outsider-2852.html</link>
+    <guid isPermaLink="false">kbdnews-2852</guid>
+    <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>DreaM117er's Vanguard Keyboard Outsider is a modular ortholinear board, supporting various trackpads and encoders. — KBD.news</description>
   </item>
   <item>
     <title>69split open-sources split keyboard with broken-out ATmega32u4 IO pins</title>
