@@ -3,6 +3,51 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-15",
+      "items": [
+        {
+          "id": "hn-48134672",
+          "title": "A Technical Deep Dive into the New Raycast",
+          "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
+          "discussion_url": "https://news.ycombinator.com/item?id=48134672",
+          "source": "hn",
+          "subreddit": null,
+          "score": 9,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "shortcut-manager"
+          ],
+          "image": "img/hn-48134672.jpg"
+        },
+        {
+          "id": "hn-48134369",
+          "title": "Raycast v2 Beta released",
+          "url": "https://www.raycast.com/new",
+          "discussion_url": "https://news.ycombinator.com/item?id=48134369",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-48134369.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-05-14",
       "items": [
         {
