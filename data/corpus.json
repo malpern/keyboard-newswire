@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-18",
+      "items": [
+        {
+          "id": "hn-48174406",
+          "title": "Cats Lock – keyboard lock for cat people",
+          "url": "https://catslock.app",
+          "discussion_url": "https://news.ycombinator.com/item?id=48174406",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "shortcut-manager"
+          ],
+          "image": "img/hn-48174406.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-05-16",
       "items": [
         {
