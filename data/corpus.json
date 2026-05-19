@@ -3,6 +3,35 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-19",
+      "items": [
+        {
+          "id": "email-19e3b486081a11bd",
+          "title": "Keyboard Builders Digest #211: Switch sales, Epomaker HE68 Lite review, open source Levels54",
+          "url": "https://buttondown.com/kbdnews/archive/issue-211-keyboard-builders-digest/",
+          "discussion_url": "https://buttondown.com/kbdnews/archive/issue-211-keyboard-builders-digest/",
+          "source": "email",
+          "subreddit": null,
+          "via": "Buttondown",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Newsletter highlights April's top selling mechanical switches, reviews of Epomaker HE68 Lite and KiiBOOM Phantom 98 Lite, and open source projects like Levels54 and Vanguard Keyboard Outsider.",
+          "sender": "\"Keyboard Builders' Digest\" <kbdnews@buttondown.email>",
+          "topics": [
+            "builds-hardware",
+            "community"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "open-source",
+            "diy-build"
+          ],
+          "image": "img/email-19e3b486081a11bd.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-05-18",
       "items": [
         {
