@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 19 May 2026 12:04:24 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 20 May 2026 12:02:37 +0000</lastBuildDate>
+  <item>
+    <title>A Technical Deep Dive into the New Raycast</title>
+    <link>https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast</link>
+    <guid isPermaLink="false">hn-48192377</guid>
+    <pubDate>Wed, 20 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Keyboard Builders Digest #211: Switch sales, Epomaker HE68 Lite review, open source Levels54</title>
     <link>https://buttondown.com/kbdnews/archive/issue-211-keyboard-builders-digest/</link>
