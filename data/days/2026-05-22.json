@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-22",
+  "items": [
+    {
+      "id": "hn-48224081",
+      "title": "Show HN: A demo video of Effected Keyboard 2",
+      "url": "https://www.youtube.com/shorts/6aExjM8A9pE",
+      "discussion_url": "https://news.ycombinator.com/item?id=48224081",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "custom-firmware",
+        "sound-effects"
+      ],
+      "image": "img/hn-48224081.jpg"
+    }
+  ]
+}
