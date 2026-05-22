@@ -6,7 +6,73 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>User integrates Azoteq trackpad into raveniung and ravensplit keyboards</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tju0xx/upgraded_my_raveniung_and_ravensplit_keyboards/</link>
+    <guid isPermaLink="false">reddit-1tju0xx</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Integration of an Azoteq touchpad into split keyboards, likely involving custom firmware for gesture handling. — 136 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Chosfox Geonix Rev 2.5</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/</link>
+    <guid isPermaLink="false">reddit-1tjjnfv</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Review of the Chosfox Geonix Rev 2.5 ortholinear board. While primarily hardware, the discussion centers on QMK/VIA compatibility and the user experience of the new layout. — 124 pts · 20 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>[WIP] Building a handheld 8-key chording keyboard to type while walking.</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tkf39y/wip_building_a_handheld_8key_chording_keyboard_to/</link>
+    <guid isPermaLink="false">reddit-1tkf39y</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A unique WIP build using Seeed Studio XIAO BLE (ZMK-compatible) for a wireless chording keyboard. — 59 pts · 16 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>r/ErgoMechKeyboards discussion on practical macro usage beyond copy/paste</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjta0g/what_are_your_mostused_macros_on_your_ergo/</link>
+    <guid isPermaLink="false">reddit-1tjta0g</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement discussion on practical macro usage beyond copy/paste, relevant to anyone configuring their keymap software. — 19 pts · 42 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Totem split keyboard build: RP2040 fails to enumerate after soldering</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjm7db/first_totem_build_righthalf_xiao_rp2040_wont/</link>
+    <guid isPermaLink="false">reddit-1tjm7db</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Troubleshooting a Totem split keyboard build where the RP2040 fails to enumerate, discussing bootloader entry and soldering issues. — 16 pts · 11 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>First impressions of the OLKB XYZ Workboard R2 ortholinear layout and raw PCB aesthetic</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/</link>
+    <guid isPermaLink="false">reddit-1tkfljk</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>First impressions of the Work Louder XYZ Workboard R2, discussing the ortholinear layout and raw PCB aesthetic. — 14 pts · 3 comments · r/olkb</description>
+  </item>
   <item>
     <title>Show HN: A demo video of Effected Keyboard 2</title>
     <link>https://www.youtube.com/shorts/6aExjM8A9pE</link>
@@ -16,6 +82,49 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Spilled my drink on my K86, need HE keyboard recommendations (75%)</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/</link>
+    <guid isPermaLink="false">reddit-1tk9bd9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users. — 2 pts · 4 comments · r/keyboards</description>
+  </item>
+  <item>
+    <title>QMK media control codes on Android</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/</link>
+    <guid isPermaLink="false">reddit-1tk9den</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>CNC aluminum macropad with automatic app-aware key remapping</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
+    <guid isPermaLink="false">reddit-1tjiyy9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>OP highlights a macropad with automatic app-aware key remapping, noting it solves the "profile switching" maintenance headache of traditional macro pads. — 0 pts · 12 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>QMK/Via discussion on configuring Shift backspace as delete</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/</link>
+    <guid isPermaLink="false">reddit-1tjxg42</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on configuring Shumift backspace as delete in QMK/Via, noting conflicts when using Vial for other settings. — 0 pts · 3 comments · r/ErgoMechKeyboards</description>
   </item>
   <item>
     <title>A Technical Deep Dive into the New Raycast</title>

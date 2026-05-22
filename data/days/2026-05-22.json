@@ -20,6 +20,234 @@
         "sound-effects"
       ],
       "image": "img/hn-48224081.jpg"
+    },
+    {
+      "id": "reddit-1tjiyy9",
+      "title": "CNC aluminum macropad with automatic app-aware key remapping",
+      "url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/",
+      "discussion_url": "https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": 0,
+      "comments": 12,
+      "category": "evergreen",
+      "takeaway": "OP highlights a macropad with automatic app-aware key remapping, noting it solves the \"profile switching\" maintenance headache of traditional macro pads.",
+      "topics": [
+        "remapping-layouts",
+        "tools-software"
+      ],
+      "tags": [
+        "key-remapping",
+        "shortcut-manager"
+      ],
+      "original_title": "This little CNC aluminum macropad showed up on my desk and I can't decide if it's genius or too minimal to matter",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Removes subjective opinion and vague phrasing"
+    },
+    {
+      "id": "reddit-1tjjnfv",
+      "title": "Chosfox Geonix Rev 2.5",
+      "url": "https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 124,
+      "comments": 20,
+      "category": "evergreen",
+      "takeaway": "Review of the Chosfox Geonix Rev 2.5 ortholinear board. While primarily hardware, the discussion centers on QMK/VIA compatibility and the user experience of the new layout.",
+      "topics": [
+        "splits-ergo",
+        "firmware"
+      ],
+      "tags": [
+        "ortholinear",
+        "qmk",
+        "diy-build"
+      ],
+      "image": "img/reddit-1tjjnfv.jpg"
+    },
+    {
+      "id": "reddit-1tkfljk",
+      "title": "First impressions of the OLKB XYZ Workboard R2 ortholinear layout and raw PCB aesthetic",
+      "url": "https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 14,
+      "comments": 3,
+      "category": "evergreen",
+      "takeaway": "First impressions of the Work Louder XYZ Workboard R2, discussing the ortholinear layout and raw PCB aesthetic.",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "ortholinear",
+        "diy-build",
+        "pcb-design"
+      ],
+      "original_title": "XYZ workboard r2 - an OLKB first timer thoughts :)",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Contains subjective framing and emoticon",
+      "image": "img/reddit-1tkfljk.jpg"
+    },
+    {
+      "id": "reddit-1tk9den",
+      "title": "QMK media control codes on Android",
+      "url": "https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/",
+      "discussion_url": "https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": 1,
+      "comments": 4,
+      "category": "evergreen",
+      "takeaway": "Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "qmk",
+        "mobile-development"
+      ],
+      "original_title": "Android QMK media controls?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague question format"
+    },
+    {
+      "id": "reddit-1tkf39y",
+      "title": "[WIP] Building a handheld 8-key chording keyboard to type while walking.",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tkf39y/wip_building_a_handheld_8key_chording_keyboard_to/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tkf39y/wip_building_a_handheld_8key_chording_keyboard_to/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 59,
+      "comments": 16,
+      "category": "evergreen",
+      "takeaway": "A unique WIP build using Seeed Studio XIAO BLE (ZMK-compatible) for a wireless chording keyboard.",
+      "topics": [
+        "builds-hardware",
+        "firmware"
+      ],
+      "tags": [
+        "diy-build",
+        "zmk",
+        "pcb-design"
+      ],
+      "image": "img/reddit-1tkf39y.jpg"
+    },
+    {
+      "id": "reddit-1tju0xx",
+      "title": "User integrates Azoteq trackpad into raveniung and ravensplit keyboards",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tju0xx/upgraded_my_raveniung_and_ravensplit_keyboards/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tju0xx/upgraded_my_raveniung_and_ravensplit_keyboards/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 136,
+      "comments": 6,
+      "category": "evergreen",
+      "takeaway": "Integration of an Azoteq touchpad into split keyboards, likely involving custom firmware for gesture handling.",
+      "topics": [
+        "splits-ergo",
+        "firmware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "custom-firmware"
+      ],
+      "original_title": "Upgraded my \"raveniung\" and \"ravensplit\" keyboards with a Azoteq trackpad :-D",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Contains emoticon and vague first-person framing",
+      "image": "img/reddit-1tju0xx.jpg"
+    },
+    {
+      "id": "reddit-1tjta0g",
+      "title": "r/ErgoMechKeyboards discussion on practical macro usage beyond copy/paste",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjta0g/what_are_your_mostused_macros_on_your_ergo/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjta0g/what_are_your_mostused_macros_on_your_ergo/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 19,
+      "comments": 42,
+      "category": "evergreen",
+      "takeaway": "High-engagement discussion on practical macro usage beyond copy/paste, relevant to anyone configuring their keymap software.",
+      "topics": [
+        "remapping-layouts",
+        "splits-ergo"
+      ],
+      "tags": [
+        "key-remapping",
+        "qmk"
+      ],
+      "original_title": "What are your most-used macros on your ergo keyboard?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague question format replaced with factual description of discussion topic"
+    },
+    {
+      "id": "reddit-1tjm7db",
+      "title": "Totem split keyboard build: RP2040 fails to enumerate after soldering",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjm7db/first_totem_build_righthalf_xiao_rp2040_wont/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjm7db/first_totem_build_righthalf_xiao_rp2040_wont/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 16,
+      "comments": 11,
+      "category": "evergreen",
+      "takeaway": "Troubleshooting a Totem split keyboard build where the RP2040 fails to enumerate, discussing bootloader entry and soldering issues.",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "diy-build"
+      ],
+      "original_title": "First Totem build — right-half XIAO RP2040 won't enter bootloader or enumerate after soldering. Salvageable without hot air?",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Replaces vague question with factual statement of the issue",
+      "image": "img/reddit-1tjm7db.jpg"
+    },
+    {
+      "id": "reddit-1tjxg42",
+      "title": "QMK/Via discussion on configuring Shift backspace as delete",
+      "url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/",
+      "discussion_url": "https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": 0,
+      "comments": 3,
+      "category": "evergreen",
+      "takeaway": "Discussion on configuring Shumift backspace as delete in QMK/Via, noting conflicts when using Vial for other settings.",
+      "topics": [
+        "firmware",
+        "remapping-layouts"
+      ],
+      "tags": [
+        "qmk",
+        "key-remapping"
+      ],
+      "original_title": "Key overrides in vial / qmk",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague title missing subject and context"
+    },
+    {
+      "id": "reddit-1tk9bd9",
+      "title": "Spilled my drink on my K86, need HE keyboard recommendations (75%)",
+      "url": "https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/",
+      "discussion_url": "https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/",
+      "source": "reddit",
+      "subreddit": "keyboards",
+      "score": 2,
+      "comments": 4,
+      "category": "evergreen",
+      "takeaway": "Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users.",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "hotswap"
+      ]
     }
   ]
 }

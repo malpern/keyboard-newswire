@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/ortholinear/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Ortholinear.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>Chosfox Geonix Rev 2.5</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/</link>
+    <guid isPermaLink="false">reddit-1tjjnfv</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Review of the Chosfox Geonix Rev 2.5 ortholinear board. While primarily hardware, the discussion centers on QMK/VIA compatibility and the user experience of the new layout. — 124 pts · 20 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>First impressions of the OLKB XYZ Workboard R2 ortholinear layout and raw PCB aesthetic</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/</link>
+    <guid isPermaLink="false">reddit-1tkfljk</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>First impressions of the Work Louder XYZ Workboard R2, discussing the ortholinear layout and raw PCB aesthetic. — 14 pts · 3 comments · r/olkb</description>
+  </item>
   <item>
     <title>Vanguard Keyboard Outsider</title>
     <link>https://kbd.news/Vanguard-Keyboard-Outsider-2852.html</link>

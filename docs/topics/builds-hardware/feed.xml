@@ -6,7 +6,50 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>First impressions of the OLKB XYZ Workboard R2 ortholinear layout and raw PCB aesthetic</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/</link>
+    <guid isPermaLink="false">reddit-1tkfljk</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>First impressions of the Work Louder XYZ Workboard R2, discussing the ortholinear layout and raw PCB aesthetic. — 14 pts · 3 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>[WIP] Building a handheld 8-key chording keyboard to type while walking.</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tkf39y/wip_building_a_handheld_8key_chording_keyboard_to/</link>
+    <guid isPermaLink="false">reddit-1tkf39y</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A unique WIP build using Seeed Studio XIAO BLE (ZMK-compatible) for a wireless chording keyboard. — 59 pts · 16 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Totem split keyboard build: RP2040 fails to enumerate after soldering</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjm7db/first_totem_build_righthalf_xiao_rp2040_wont/</link>
+    <guid isPermaLink="false">reddit-1tjm7db</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Troubleshooting a Totem split keyboard build where the RP2040 fails to enumerate, discussing bootloader entry and soldering issues. — 16 pts · 11 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Spilled my drink on my K86, need HE keyboard recommendations (75%)</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/</link>
+    <guid isPermaLink="false">reddit-1tk9bd9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users. — 2 pts · 4 comments · r/keyboards</description>
+  </item>
   <item>
     <title>Keyboard Builders Digest #211: Switch sales, Epomaker HE68 Lite review, open source Levels54</title>
     <link>https://buttondown.com/kbdnews/archive/issue-211-keyboard-builders-digest/</link>

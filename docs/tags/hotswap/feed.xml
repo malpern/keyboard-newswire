@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/hotswap/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Hotswap.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>Spilled my drink on my K86, need HE keyboard recommendations (75%)</title>
+    <link>https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/</link>
+    <guid isPermaLink="false">reddit-1tk9bd9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
+    <description>Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users. — 2 pts · 4 comments · r/keyboards</description>
+  </item>
   <item>
     <title>Guide on using Alps switches in hot-swappable keyboards via desoldering and custom plates</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/</link>

@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>User integrates Azoteq trackpad into raveniung and ravensplit keyboards</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tju0xx/upgraded_my_raveniung_and_ravensplit_keyboards/</link>
+    <guid isPermaLink="false">reddit-1tju0xx</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Integration of an Azoteq touchpad into split keyboards, likely involving custom firmware for gesture handling. — 136 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Totem split keyboard build: RP2040 fails to enumerate after soldering</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjm7db/first_totem_build_righthalf_xiao_rp2040_wont/</link>
+    <guid isPermaLink="false">reddit-1tjm7db</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Troubleshooting a Totem split keyboard build where the RP2040 fails to enumerate, discussing bootloader entry and soldering issues. — 16 pts · 11 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Tucky Two Times</title>
     <link>https://kbd.news/Tucky-Two-Times-2855.html</link>

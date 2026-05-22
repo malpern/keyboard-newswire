@@ -6,7 +6,51 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>Chosfox Geonix Rev 2.5</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/</link>
+    <guid isPermaLink="false">reddit-1tjjnfv</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Review of the Chosfox Geonix Rev 2.5 ortholinear board. While primarily hardware, the discussion centers on QMK/VIA compatibility and the user experience of the new layout. — 124 pts · 20 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>QMK media control codes on Android</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/</link>
+    <guid isPermaLink="false">reddit-1tk9den</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
+  </item>
+  <item>
+    <title>r/ErgoMechKeyboards discussion on practical macro usage beyond copy/paste</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjta0g/what_are_your_mostused_macros_on_your_ergo/</link>
+    <guid isPermaLink="false">reddit-1tjta0g</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement discussion on practical macro usage beyond copy/paste, relevant to anyone configuring their keymap software. — 19 pts · 42 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>QMK/Via discussion on configuring Shift backspace as delete</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/</link>
+    <guid isPermaLink="false">reddit-1tjxg42</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on configuring Shumift backspace as delete in QMK/Via, noting conflicts when using Vial for other settings. — 0 pts · 3 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>QMK discussion on verifying NKRO status without magic key combos</title>
     <link>https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/</link>

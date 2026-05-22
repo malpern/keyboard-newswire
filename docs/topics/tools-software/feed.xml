@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>CNC aluminum macropad with automatic app-aware key remapping</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
+    <guid isPermaLink="false">reddit-1tjiyy9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>OP highlights a macropad with automatic app-aware key remapping, noting it solves the "profile switching" maintenance headache of traditional macro pads. — 0 pts · 12 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>QMK media control codes on Android</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/</link>
+    <guid isPermaLink="false">reddit-1tk9den</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
+  </item>
   <item>
     <title>A Technical Deep Dive into the New Raycast</title>
     <link>https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast</link>

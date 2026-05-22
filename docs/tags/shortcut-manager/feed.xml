@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/shortcut-manager/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Shortcut Manager.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>CNC aluminum macropad with automatic app-aware key remapping</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
+    <guid isPermaLink="false">reddit-1tjiyy9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>OP highlights a macropad with automatic app-aware key remapping, noting it solves the "profile switching" maintenance headache of traditional macro pads. — 0 pts · 12 comments · r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>A Technical Deep Dive into the New Raycast</title>
     <link>https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast</link>

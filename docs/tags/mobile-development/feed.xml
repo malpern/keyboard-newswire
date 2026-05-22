@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/mobile-development/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mobile Development.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>QMK media control codes on Android</title>
+    <link>https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/</link>
+    <guid isPermaLink="false">reddit-1tk9den</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
+  </item>
   <item>
     <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>
     <link>https://www.appdevforall.org/</link>

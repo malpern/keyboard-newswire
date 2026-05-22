@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>CNC aluminum macropad with automatic app-aware key remapping</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
+    <guid isPermaLink="false">reddit-1tjiyy9</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>OP highlights a macropad with automatic app-aware key remapping, noting it solves the "profile switching" maintenance headache of traditional macro pads. — 0 pts · 12 comments · r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>r/ErgoMechKeyboards discussion on practical macro usage beyond copy/paste</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjta0g/what_are_your_mostused_macros_on_your_ergo/</link>
+    <guid isPermaLink="false">reddit-1tjta0g</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>High-engagement discussion on practical macro usage beyond copy/paste, relevant to anyone configuring their keymap software. — 19 pts · 42 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>QMK/Via discussion on configuring Shift backspace as delete</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/</link>
+    <guid isPermaLink="false">reddit-1tjxg42</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on configuring Shumift backspace as delete in QMK/Via, noting conflicts when using Vial for other settings. — 0 pts · 3 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>User seeks wireless split keyboard with more keys than Keyball39 for travel and Emacs</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8dbpd/looking_for_features/</link>

@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 22 May 2026 12:02:39 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 22 May 2026 12:05:41 +0000</lastBuildDate>
+  <item>
+    <title>[WIP] Building a handheld 8-key chording keyboard to type while walking.</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tkf39y/wip_building_a_handheld_8key_chording_keyboard_to/</link>
+    <guid isPermaLink="false">reddit-1tkf39y</guid>
+    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A unique WIP build using Seeed Studio XIAO BLE (ZMK-compatible) for a wireless chording keyboard. — 59 pts · 16 comments · r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Building ZMK Firmware Locally on Apple Silicon MacBooks Without Docker</title>
     <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tacozg/building_zmk_firmware_locally_on_apple_silicon/</link>
