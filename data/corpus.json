@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-05-23",
+      "items": [
+        {
+          "id": "hn-48238787",
+          "title": "A Technical Deep Dive into the New Raycast",
+          "url": "https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast",
+          "discussion_url": "https://news.ycombinator.com/item?id=48238787",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-48238787.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-05-22",
       "items": [
         {
