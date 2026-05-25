@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 23 May 2026 12:02:36 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 25 May 2026 12:05:28 +0000</lastBuildDate>
+  <item>
+    <title>Etzee B11</title>
+    <link>https://kbd.news/Etzee-B11-2858.html</link>
+    <guid isPermaLink="false">kbdnews-2858</guid>
+    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Nikola Secerovski's etzee B11 is an open-source ortho split (or monoblock) keyboard. — KBD.news</description>
+  </item>
   <item>
     <title>Keyboard Builders Digest #211: Switch sales, Epomaker HE68 Lite review, open source Levels54</title>
     <link>https://buttondown.com/kbdnews/archive/issue-211-keyboard-builders-digest/</link>

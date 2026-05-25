@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 23 May 2026 12:02:36 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 25 May 2026 12:05:27 +0000</lastBuildDate>
+  <item>
+    <title>Direct03xD</title>
+    <link>https://kbd.news/Direct03xD-2860.html</link>
+    <guid isPermaLink="false">kbdnews-2860</guid>
+    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A 42-key diodeless wireless split: Direct03xD by lander03xD. — KBD.news</description>
+  </item>
+  <item>
+    <title>Binit's Pling! is a wireless split keyboard with soldered KS27 switches</title>
+    <link>https://kbd.news/Pling-2859.html</link>
+    <guid isPermaLink="false">kbdnews-2859</guid>
+    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Binit's Pling! is a wireless split keyboard featuring soldered KS27 switches. — KBD.news</description>
+  </item>
+  <item>
+    <title>Etzee B11</title>
+    <link>https://kbd.news/Etzee-B11-2858.html</link>
+    <guid isPermaLink="false">kbdnews-2858</guid>
+    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Nikola Secerovski's etzee B11 is an open-source ortho split (or monoblock) keyboard. — KBD.news</description>
+  </item>
   <item>
     <title>First impressions of the OLKB XYZ Workboard R2 ortholinear layout and raw PCB aesthetic</title>
     <link>https://www.reddit.com/r/olkb/comments/1tkfljk/xyz_workboard_r2_an_olkb_first_timer_thoughts/</link>

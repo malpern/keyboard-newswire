@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 23 May 2026 12:02:36 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 25 May 2026 12:05:28 +0000</lastBuildDate>
+  <item>
+    <title>Direct03xD</title>
+    <link>https://kbd.news/Direct03xD-2860.html</link>
+    <guid isPermaLink="false">kbdnews-2860</guid>
+    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A 42-key diodeless wireless split: Direct03xD by lander03xD. — KBD.news</description>
+  </item>
   <item>
     <title>Chosfox Geonix Rev 2.5</title>
     <link>https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/</link>

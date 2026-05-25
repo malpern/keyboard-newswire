@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-25",
+  "items": [
+    {
+      "id": "kbdnews-2860",
+      "title": "Direct03xD",
+      "url": "https://kbd.news/Direct03xD-2860.html",
+      "discussion_url": "https://kbd.news/Direct03xD-2860.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A 42-key diodeless wireless split: Direct03xD by lander03xD.",
+      "image_hint": "https://kbd.news/pic/2026/212/480/2860.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design",
+        "diy-build"
+      ],
+      "image": "img/kbdnews-2860.jpg"
+    },
+    {
+      "id": "kbdnews-2859",
+      "title": "Binit's Pling! is a wireless split keyboard with soldered KS27 switches",
+      "url": "https://kbd.news/Pling-2859.html",
+      "discussion_url": "https://kbd.news/Pling-2859.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Binit's Pling! is a wireless split keyboard featuring soldered KS27 switches.",
+      "image_hint": "https://kbd.news/pic/2026/212/480/2859.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design"
+      ],
+      "original_title": "Pling!",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Title is vague and lacks key details found in takeaway",
+      "image": "img/kbdnews-2859.jpg"
+    },
+    {
+      "id": "kbdnews-2858",
+      "title": "Etzee B11",
+      "url": "https://kbd.news/Etzee-B11-2858.html",
+      "discussion_url": "https://kbd.news/Etzee-B11-2858.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Nikola Secerovski's etzee B11 is an open-source ortho split (or monoblock) keyboard.",
+      "image_hint": "https://kbd.news/pic/2026/212/480/2858.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "open-source",
+        "split-keyboard",
+        "pcb-design"
+      ],
+      "image": "img/kbdnews-2858.jpg"
+    }
+  ]
+}
