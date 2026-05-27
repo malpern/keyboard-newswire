@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Keyboard Latency · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/keyboard-latency/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/keyboard-latency/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Keyboard Latency.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 27 May 2026 12:03:48 +0000</lastBuildDate>
+  <item>
+    <title>Keyboard Latency Probe</title>
+    <link>https://xkqr.org/bellwether/keyboardtest.html</link>
+    <guid isPermaLink="false">hn-48283985</guid>
+    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+</channel>
+</rss>

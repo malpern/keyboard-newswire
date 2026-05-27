@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-27",
+  "items": [
+    {
+      "id": "hn-48283985",
+      "title": "Keyboard Latency Probe",
+      "url": "https://xkqr.org/bellwether/keyboardtest.html",
+      "discussion_url": "https://news.ycombinator.com/item?id=48283985",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "keyboard-latency",
+        "performance-testing",
+        "hardware-tools"
+      ]
+    },
+    {
+      "id": "hn-48290236",
+      "title": "Switch between three keyboard languages",
+      "url": "https://mnaoumov.dev/posts/2023-12-17-switch-between-three-keyboard-languages/",
+      "discussion_url": "https://news.ycombinator.com/item?id=48290236",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "remapping-layouts"
+      ],
+      "tags": [
+        "key-remapping",
+        "linux-utilities"
+      ],
+      "image": "img/hn-48290236.jpg"
+    },
+    {
+      "id": "hn-48290826",
+      "title": "The neo-qwertz keyboard layout (German)",
+      "url": "https://www.neo-layout.org/Layouts/neoqwertz/",
+      "discussion_url": "https://news.ycombinator.com/item?id=48290826",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "remapping-layouts"
+      ],
+      "tags": [
+        "iso-layout",
+        "key-remapping"
+      ]
+    }
+  ]
+}

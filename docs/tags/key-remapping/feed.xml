@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/tags/key-remapping/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Key Remapping.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 27 May 2026 04:03:18 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 27 May 2026 12:03:48 +0000</lastBuildDate>
+  <item>
+    <title>Switch between three keyboard languages</title>
+    <link>https://mnaoumov.dev/posts/2023-12-17-switch-between-three-keyboard-languages/</link>
+    <guid isPermaLink="false">hn-48290236</guid>
+    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>The neo-qwertz keyboard layout (German)</title>
+    <link>https://www.neo-layout.org/Layouts/neoqwertz/</link>
+    <guid isPermaLink="false">hn-48290826</guid>
+    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>CNC aluminum macropad with automatic app-aware key remapping</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
