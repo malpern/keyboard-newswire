@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Vendor metadata refresher.
 
 For every URL stored in `item.gb.vendor_links`, fetch the vendor's

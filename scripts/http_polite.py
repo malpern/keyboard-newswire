@@ -1,3 +1,4 @@
+from __future__ import annotations
 """HTTP politeness helpers shared by ingestors.
 
 Two concerns, two helpers:

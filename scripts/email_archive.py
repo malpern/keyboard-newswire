@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Generate a sanitized landing page per email item and rewrite URLs for items
 whose original URL resolves to a homepage.
 

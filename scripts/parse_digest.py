@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Parse a Slack-formatted Keyboard News or Firmware Watch markdown digest into
 structured items suitable for the keyboard-wire corpus.
 

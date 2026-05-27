@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Geekhack ingest — pull boards 70 (Group Buys) + 132 (Interest Checks)
 into the standard item schema.
 

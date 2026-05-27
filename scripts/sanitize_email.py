@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Sanitize an email HTML body for republishing on the public keyboard-wire archive.
 
 Two layers of safety:

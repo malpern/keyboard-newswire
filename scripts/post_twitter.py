@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Post today's keyboard-wire items to X (Twitter).
 
 Reads items from data/days/<date>.json and posts each one that hasn't

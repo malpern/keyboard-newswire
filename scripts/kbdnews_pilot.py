@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """KBD.news ingest — parse https://kbd.news/rss.xml into the standard item
 schema used by the rest of the keyboard-wire pipeline.
 

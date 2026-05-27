@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Fetch a representative thumbnail image for each item, save to docs/img/.
 
 Heuristics:

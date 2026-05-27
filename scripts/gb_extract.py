@@ -1,3 +1,4 @@
+from __future__ import annotations
 """Title + body extractors for GB/IC items.
 
 Pure functions. Pulls structured `gb` metadata out of the free-text

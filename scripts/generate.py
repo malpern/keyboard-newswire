@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Generate the keyboard-wire site:
 
 - /index.html              daily chronologic feed (Breaking + Evergreen sections)

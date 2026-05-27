@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Pull recent Keyboard-labeled emails and turn them into wire items.
 
 Filters out:

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """Tag items with topics + tags using local Qwen via Ollama.
 
 Reads a JSON array of items (output of parse_digest.py) on stdin or argv,
