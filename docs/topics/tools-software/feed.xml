@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 27 May 2026 12:03:48 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 27 May 2026 12:05:43 +0000</lastBuildDate>
   <item>
     <title>Keyboard Latency Probe</title>
     <link>https://xkqr.org/bellwether/keyboardtest.html</link>
