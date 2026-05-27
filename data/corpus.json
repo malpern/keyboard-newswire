@@ -325,62 +325,74 @@
               {
                 "vendor": "Oblotzky (Lead)",
                 "url": "https://oblotzky.industries/",
-                "host": "oblotzky.industries"
+                "host": "oblotzky.industries",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231318+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/",
-                "host": "prototypist.net"
+                "host": "prototypist.net",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231494+00:00"
               },
               {
                 "vendor": "NovelKeys",
                 "url": "https://novelkeys.com/",
-                "host": "novelkeys.com"
+                "host": "novelkeys.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231503+00:00"
               },
               {
                 "vendor": "DeskHero",
                 "url": "https://www.deskhero.ca/",
-                "host": "www.deskhero.ca"
+                "host": "www.deskhero.ca",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231507+00:00"
               },
               {
                 "vendor": "Geonworks",
                 "url": "https://geon.works/",
-                "host": "geon.works"
+                "host": "geon.works",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231511+00:00"
               },
               {
                 "vendor": "KBDFans",
                 "url": "https://kbdfans.com/",
-                "host": "kbdfans.com"
+                "host": "kbdfans.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231514+00:00"
               },
               {
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/en",
-                "host": "shop.yushakobo.jp"
+                "host": "shop.yushakobo.jp",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231518+00:00"
               },
               {
                 "vendor": "SwitchKeys",
                 "url": "https://www.switchkeys.com.au/",
-                "host": "www.switchkeys.com.au"
+                "host": "www.switchkeys.com.au",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231522+00:00"
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/",
-                "host": "ilumkb.com"
+                "host": "ilumkb.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231525+00:00"
               },
               {
                 "vendor": "NeoMacro",
                 "url": "https://neomacro.in/",
-                "host": "neomacro.in"
+                "host": "neomacro.in",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231529+00:00"
               },
               {
                 "vendor": "Rationalkeys",
                 "url": "https://rationalkeys.com.tr/",
-                "host": "rationalkeys.com.tr"
+                "host": "rationalkeys.com.tr",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231533+00:00"
               },
               {
                 "vendor": "https://nopunin10did.com/gmk-prussian-blue/",
                 "url": "https://nopunin10did.com/gmk-prussian-blue/",
-                "host": "nopunin10did.com"
+                "host": "nopunin10did.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231536+00:00"
               }
             ],
             "vendor_regions": [
@@ -516,12 +528,14 @@
               {
                 "vendor": "WEBSITE",
                 "url": "https://www.captain-sterling.com/dinojungle",
-                "host": "www.captain-sterling.com"
+                "host": "www.captain-sterling.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231541+00:00"
               },
               {
                 "vendor": "Twitch",
                 "url": "https://www.twitch.tv/thecaptainsterling",
-                "host": "www.twitch.tv"
+                "host": "www.twitch.tv",
+                "metadata_fetched_at": "2026-05-27T04:03:17.231544+00:00"
               }
             ],
             "designer": "the"
@@ -576,42 +590,69 @@
               {
                 "vendor": "https://ktechs.store/products/rf-8x",
                 "url": "https://ktechs.store/products/rf-8x",
-                "host": "ktechs.store"
+                "host": "ktechs.store",
+                "metadata_fetched_at": "2026-05-27T04:03:17.405358+00:00",
+                "price_low": 45500,
+                "price_high": 46800,
+                "currency": "SGD",
+                "available": true
               },
               {
                 "vendor": "https://torokeeb.store/products/rf-8x-housings",
                 "url": "https://torokeeb.store/products/rf-8x-housings",
-                "host": "torokeeb.store"
+                "host": "torokeeb.store",
+                "metadata_fetched_at": "2026-05-27T04:03:17.591954+00:00",
+                "price_low": 54000,
+                "price_high": 55500,
+                "currency": "EUR",
+                "available": true
               },
               {
                 "vendor": "https://omnitype.com/collections/rf-8x",
                 "url": "https://omnitype.com/collections/rf-8x",
-                "host": "omnitype.com"
+                "host": "omnitype.com",
+                "metadata_fetched_at": "2026-05-27T04:03:17.592028+00:00"
               },
               {
                 "vendor": "https://coffeekeys.eu/en/collections/group-buys/products/rf-8x-keyboard-kit-eng",
                 "url": "https://coffeekeys.eu/en/collections/group-buys/products/rf-8x-keyboard-kit-eng",
-                "host": "coffeekeys.eu"
+                "host": "coffeekeys.eu",
+                "metadata_fetched_at": "2026-05-27T04:03:17.867866+00:00",
+                "price_low": 31000,
+                "price_high": 32000,
+                "available": true
               },
               {
                 "vendor": "https://geon.works/collections/rf-8x",
                 "url": "https://geon.works/collections/rf-8x",
-                "host": "geon.works"
+                "host": "geon.works",
+                "metadata_fetched_at": "2026-05-27T04:03:17.867913+00:00"
               },
               {
                 "vendor": "https://prototypist.net/products/group-buy-rf-8x-keyboard-kit",
                 "url": "https://prototypist.net/products/group-buy-rf-8x-keyboard-kit",
-                "host": "prototypist.net"
+                "host": "prototypist.net",
+                "metadata_fetched_at": "2026-05-27T04:03:18.120222+00:00",
+                "price_low": 26417,
+                "price_high": 27167,
+                "currency": "GBP",
+                "available": true
               },
               {
                 "vendor": "https://kbdfans.com/products/rf-8x",
                 "url": "https://kbdfans.com/products/rf-8x",
-                "host": "kbdfans.com"
+                "host": "kbdfans.com",
+                "metadata_fetched_at": "2026-05-27T04:03:18.396245+00:00",
+                "price_low": 35000,
+                "price_high": 36000,
+                "currency": "USD",
+                "available": true
               },
               {
                 "vendor": "https://mokbstore.com/gb-rf-8x-keyboard-case",
                 "url": "https://mokbstore.com/gb-rf-8x-keyboard-case",
-                "host": "mokbstore.com"
+                "host": "mokbstore.com",
+                "metadata_fetched_at": "2026-05-27T04:03:18.396327+00:00"
               }
             ],
             "price_low": 4000,
