@@ -104,6 +104,74 @@
         "vendor-practices"
       ],
       "image": "img/email-19e673e6e84081c3.jpg"
+    },
+    {
+      "id": "geekhack-126510",
+      "title": "[IC] OF Studio  OF1 60% Keyboard Kit",
+      "url": "https://geekhack.org/index.php?topic=126510.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126510.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 3773,
+      "comments": 4,
+      "category": "breaking",
+      "takeaway": "OF Studio - OF1 60% Keyboard Hi everyone, We’re excited to share an early look at the OF1 Keyboard Kit by OF Studio. This project is entering the final stage before launch, and we’d love to gather feedback from the community. Project Overview The OF1 is a fully realized keyboard project with mass production already completed, positioning it as a low-risk group buy with a fast turnaround. Unlike traditional GBs, this is closer to a ready-to-ship model, with only final configurations remaining before launch. Keyboard Specs Specifications Layout: 60% (WKL / HHKB / WK) Typing Angle: 8° Front Heigh",
+      "topics": [
+        "group-buys-vendors",
+        "builds-hardware"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316374;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316385;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316376;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316387;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316389;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316391;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316393;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316395;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316397;image",
+        "https://geekhack.org/index.php?PHPSESSID=aiq63i0a7idkqnmc4liau7fva6c9dh3h&action=dlattach;topic=126510.0;attach=316399;image"
+      ],
+      "gb": {
+        "designer": "OF Studio"
+      },
+      "tags": [
+        "group-buy",
+        "pcb-design"
+      ],
+      "images": [
+        "img/geekhack-126510-0.jpg",
+        "img/geekhack-126510-1.jpg",
+        "img/geekhack-126510-2.jpg",
+        "img/geekhack-126510-3.jpg",
+        "img/geekhack-126510-4.jpg",
+        "img/geekhack-126510-5.jpg"
+      ],
+      "image": "img/geekhack-126510-0.jpg"
+    },
+    {
+      "id": "geekhack-126753",
+      "title": "[IC] GMK CYL Orange Alert",
+      "url": "https://geekhack.org/index.php?topic=126753.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126753.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "reserved",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "IC",
+      "tags": [
+        "keycap-design",
+        "group-buy"
+      ]
     }
   ]
 }
