@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-28",
+  "items": [
+    {
+      "id": "hn-48301703",
+      "title": "Keyboard Latency Probe",
+      "url": "https://xkqr.org/bellwether/keyboardtest.html",
+      "discussion_url": "https://news.ycombinator.com/item?id=48301703",
+      "source": "hn",
+      "subreddit": null,
+      "score": 4,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "keyboard-latency",
+        "performance-testing",
+        "hardware-tools"
+      ]
+    }
+  ]
+}

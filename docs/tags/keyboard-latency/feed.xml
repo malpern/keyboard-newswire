@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/keyboard-latency/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Keyboard Latency.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 27 May 2026 12:08:05 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 28 May 2026 12:02:37 +0000</lastBuildDate>
+  <item>
+    <title>Keyboard Latency Probe</title>
+    <link>https://xkqr.org/bellwether/keyboardtest.html</link>
+    <guid isPermaLink="false">hn-48301703</guid>
+    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>4 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Keyboard Latency Probe</title>
     <link>https://xkqr.org/bellwether/keyboardtest.html</link>
