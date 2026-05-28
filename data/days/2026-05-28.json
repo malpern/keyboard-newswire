@@ -156,37 +156,44 @@
           {
             "vendor": "here.",
             "url": "https://www.gulfoilltd.com/gulf-livery",
-            "host": "www.gulfoilltd.com"
+            "host": "www.gulfoilltd.com",
+            "metadata_fetched_at": "2026-05-28T12:06:29.261934+00:00"
           },
           {
             "vendor": "Bowl Keyboards",
             "url": "https://bowlkeyboards.com/",
-            "host": "bowlkeyboards.com"
+            "host": "bowlkeyboards.com",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262111+00:00"
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262118+00:00"
           },
           {
             "vendor": "Delta Key Co.",
             "url": "https://deltakeyco.com/",
-            "host": "deltakeyco.com"
+            "host": "deltakeyco.com",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262121+00:00"
           },
           {
             "vendor": "Geon works",
             "url": "https://geon.works/",
-            "host": "geon.works"
+            "host": "geon.works",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262125+00:00"
           },
           {
             "vendor": "KTechs",
             "url": "https://ktechs.store/",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262127+00:00"
           },
           {
             "vendor": "KeebzNCables",
             "url": "https://www.keebzncables.com/",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-05-28T12:06:29.262130+00:00"
           }
         ],
         "designer": "Geon works"
