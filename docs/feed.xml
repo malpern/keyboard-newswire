@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 28 May 2026 12:02:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 28 May 2026 12:05:20 +0000</lastBuildDate>
   <item>
     <title>Keyboard Latency Probe</title>
     <link>https://xkqr.org/bellwether/keyboardtest.html</link>
@@ -16,6 +16,28 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>4 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Epomaker Glyph review</title>
+    <link>https://kbd.news/Epomaker-Glyph-review-2862.html</link>
+    <guid isPermaLink="false">kbdnews-2862</guid>
+    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The retro, mid-century modern Epomaker Glyph is a typewriter-style tri-mode wireless keyboard with huge displays. — KBD.news</description>
+  </item>
+  <item>
+    <title>Omega Point 36</title>
+    <link>https://kbd.news/Omega-Point-36-2861.html</link>
+    <guid isPermaLink="false">kbdnews-2861</guid>
+    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Ergohaven's wireless split Omega Point 36 is now open source. — KBD.news</description>
   </item>
   <item>
     <title>Keyboard Latency Probe</title>
