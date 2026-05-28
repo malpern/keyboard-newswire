@@ -71,6 +71,143 @@
             "pcb-design"
           ],
           "image": "img/kbdnews-2861.jpg"
+        },
+        {
+          "id": "geekhack-126349",
+          "title": "[IC] GMK Spark - GB Dates, Pricing, Kitting Updated!",
+          "url": "https://geekhack.org/index.php?topic=126349.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126349.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 16556,
+          "comments": 26,
+          "category": "breaking",
+          "takeaway": "GB May 22 to June 21 I would like to present: Spark GMK Spark delivers a burst of energy and nostalgia through electric color, playful accents, and a shockingly familiar identity. Designed for flexibility, Spark can shift between two distinct looks. Go bold with accent-driven configurations that bring out its personality, or keep it clean with a balanced approach that pairs vibrant alphas with deeper modifier keys for a timeless, everyday setup. UPDATE May 6 Removed Alphas Kit, not enough demand. Trimmed some custom keys to reduce cost. Base now includes 6-key 40’s keys. Base now includes both",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://photos.kstj.us/GMK_Spark_BaseMay.jpg",
+            "https://photos.kstj.us/GMK_Spark_ExtensionsMay.jpg",
+            "https://photos.kstj.us/Spark_Deskmat.jpg",
+            "https://photos.kstj.us/Craftkey_x_GMK_Spark_3.jpg",
+            "https://photos.kstj.us/Craftkey_x_GMK_Spark_1.jpg",
+            "https://photos.kstj.us/Craftkey_x_GMK_Spark_2.jpg",
+            "https://photos.kstj.us/Spark_Seal80.jpg",
+            "https://photos.kstj.us/Spark_Sessanta.jpg",
+            "https://photos.kstj.us/GMK_Spark_Machida_Updated.jpg",
+            "https://photos.kstj.us/Spark_XL.jpg",
+            "https://photos.kstj.us/Spark_Seal100_Pink.jpg",
+            "https://photos.kstj.us/Spark_Seal100.jpg",
+            "https://photos.kstj.us/Spark_Samples_v2.png"
+          ],
+          "gb": {
+            "starts_at": "2026-05-22",
+            "ends_at": "2026-06-21",
+            "status": "live"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126349-0.jpg",
+            "img/geekhack-126349-1.jpg",
+            "img/geekhack-126349-2.jpg",
+            "img/geekhack-126349-3.jpg",
+            "img/geekhack-126349-4.jpg",
+            "img/geekhack-126349-5.jpg"
+          ],
+          "image": "img/geekhack-126349-0.jpg"
+        },
+        {
+          "id": "geekhack-126741",
+          "title": "[IC] DCS Vintage Motorsport- Group Buy June 12- July 6",
+          "url": "https://geekhack.org/index.php?topic=126741.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126741.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 3714,
+          "comments": 8,
+          "category": "breaking",
+          "takeaway": "Glare 65 by Geon works. This set is inspired by the famous Gulf Livery, shown below. This set is designed to be an \"R2\" to my previous set, SA Motorsport Selectric. Based on a multitude of requests to do this in a cylindrical profile, I am doing it in DCS, using stock Signature Plastic Colors. It is important to note that the blue and orange for the Gulf livery weren't consistent. The blue went between a powder blue, \"workshirt\" blue, and a seafoam green in some incarnations of the livery. The orange is between a more \"marigold\" (Yellow Orange) and a more \"vermillion\" (Red Orange), depending o",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.postimg.cc/brHvT2RG/glare65-v2.png",
+            "https://i.postimg.cc/YqF1gXgL/1972-JW-Auto-Engineering-Mirage-M6-Sarah-Stierch.jpg",
+            "https://i.postimg.cc/bvWdNPJG/Final-Base.png",
+            "https://i.postimg.cc/bvWdNPJZ/new-extention.png",
+            "https://i.postimg.cc/xdhqTQCJ/Final-novs.png",
+            "https://i.postimg.cc/cJ264WHt/Final-Number-Pad.png",
+            "https://i.postimg.cc/F1tprLLt/Light-color-chart.jpg",
+            "https://i.postimg.cc/Sj0dSMzP/Dark-Color-Chart.jpg",
+            "https://i.postimg.cc/prYdZnBn/Austin.png",
+            "https://i.postimg.cc/nVDZt7Bk/DZ60.png",
+            "https://i.postimg.cc/zDn359Y0/OGR2.png",
+            "https://i.postimg.cc/cCMJm8cg/f18x.png",
+            "https://i.postimg.cc/FzgKZJxj/Iron180.png"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "here.",
+                "url": "https://www.gulfoilltd.com/gulf-livery",
+                "host": "www.gulfoilltd.com"
+              },
+              {
+                "vendor": "Bowl Keyboards",
+                "url": "https://bowlkeyboards.com/",
+                "host": "bowlkeyboards.com"
+              },
+              {
+                "vendor": "ProtoTypist",
+                "url": "https://prototypist.net/",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "Delta Key Co.",
+                "url": "https://deltakeyco.com/",
+                "host": "deltakeyco.com"
+              },
+              {
+                "vendor": "Geon works",
+                "url": "https://geon.works/",
+                "host": "geon.works"
+              },
+              {
+                "vendor": "KTechs",
+                "url": "https://ktechs.store/",
+                "host": "ktechs.store"
+              },
+              {
+                "vendor": "KeebzNCables",
+                "url": "https://www.keebzncables.com/",
+                "host": "www.keebzncables.com"
+              }
+            ],
+            "designer": "Geon works"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126741-0.jpg",
+            "img/geekhack-126741-1.jpg",
+            "img/geekhack-126741-2.jpg",
+            "img/geekhack-126741-3.jpg",
+            "img/geekhack-126741-4.jpg",
+            "img/geekhack-126741-5.jpg"
+          ],
+          "image": "img/geekhack-126741-0.jpg"
         }
       ]
     },
