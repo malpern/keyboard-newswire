@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 28 May 2026 12:06:37 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 05 Jun 2026 12:05:05 +0000</lastBuildDate>
+  <item>
+    <title>Best-selling keyboard switches of May 2026</title>
+    <link>https://kbd.news/Best-selling-keyboard-switches-of-May-2026-2865.html</link>
+    <guid isPermaLink="false">kbdnews-2865</guid>
+    <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Here are May’s top mechanical switches, the community’s favorites based on vendor sales data. — KBD.news</description>
+  </item>
+  <item>
+    <title>Space Mission 30</title>
+    <link>https://kbd.news/Space-Mission-30-2866.html</link>
+    <guid isPermaLink="false">kbdnews-2866</guid>
+    <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Ergohaven's Space Mission 30 is now fully open-source. — KBD.news</description>
+  </item>
   <item>
     <title>Keyboard Latency Probe</title>
     <link>https://xkqr.org/bellwether/keyboardtest.html</link>

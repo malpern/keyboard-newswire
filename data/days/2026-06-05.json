@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-05",
+  "items": [
+    {
+      "id": "kbdnews-2865",
+      "title": "Best-selling keyboard switches of May 2026",
+      "url": "https://kbd.news/Best-selling-keyboard-switches-of-May-2026-2865.html",
+      "discussion_url": "https://kbd.news/Best-selling-keyboard-switches-of-May-2026-2865.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Here are May’s top mechanical switches, the community’s favorites based on vendor sales data.",
+      "image_hint": "https://kbd.news/pic/2026/212/480/2865.jpg",
+      "topics": [
+        "community"
+      ],
+      "tags": [],
+      "image": "img/kbdnews-2865.jpg"
+    },
+    {
+      "id": "kbdnews-2866",
+      "title": "Space Mission 30",
+      "url": "https://kbd.news/Space-Mission-30-2866.html",
+      "discussion_url": "https://kbd.news/Space-Mission-30-2866.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Ergohaven's Space Mission 30 is now fully open-source.",
+      "image_hint": "https://kbd.news/pic/2026/212/480/2866.jpg",
+      "topics": [
+        "community"
+      ],
+      "tags": [],
+      "image": "img/kbdnews-2866.jpg"
+    }
+  ]
+}
