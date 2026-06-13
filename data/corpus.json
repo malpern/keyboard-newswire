@@ -3,6 +3,49 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-13",
+      "items": [
+        {
+          "id": "kbdnews-2868",
+          "title": "MoeeTech custom metal artisans",
+          "url": "https://kbd.news/MoeeTech-custom-metal-artisans-2868.html",
+          "discussion_url": "https://kbd.news/MoeeTech-custom-metal-artisans-2868.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "I tested MoeeTech's new custom metal artisan keycap service: beginner-friendly design process, great quality, surprisingly competitive prices.",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2868.jpg",
+          "topics": [
+            "community"
+          ],
+          "tags": [],
+          "image": "img/kbdnews-2868.jpg"
+        },
+        {
+          "id": "kbdnews-2869",
+          "title": "Haili58",
+          "url": "https://kbd.news/Haili58-2869.html",
+          "discussion_url": "https://kbd.news/Haili58-2869.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "The Haili58 is an nrf52840 based 58-key wireless split keyboard by Juho T.",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2869.jpg",
+          "topics": [
+            "community"
+          ],
+          "tags": [],
+          "image": "img/kbdnews-2869.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-06",
       "items": [
         {

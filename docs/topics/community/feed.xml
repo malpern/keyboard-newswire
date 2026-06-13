@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/topics/community/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Community discussion, market trends, controversies, polls, surveys, meta posts about the hobby itself.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 06 Jun 2026 12:05:04 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 12:05:13 +0000</lastBuildDate>
+  <item>
+    <title>MoeeTech custom metal artisans</title>
+    <link>https://kbd.news/MoeeTech-custom-metal-artisans-2868.html</link>
+    <guid isPermaLink="false">kbdnews-2868</guid>
+    <pubDate>Sat, 13 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>I tested MoeeTech's new custom metal artisan keycap service: beginner-friendly design process, great quality, surprisingly competitive prices. — KBD.news</description>
+  </item>
+  <item>
+    <title>Haili58</title>
+    <link>https://kbd.news/Haili58-2869.html</link>
+    <guid isPermaLink="false">kbdnews-2869</guid>
+    <pubDate>Sat, 13 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Haili58 is an nrf52840 based 58-key wireless split keyboard by Juho T. — KBD.news</description>
+  </item>
   <item>
     <title>IQUNIX x Ghost in the Shell EV63 Cyber Blue review</title>
     <link>https://kbd.news/IQUNIX-x-Ghost-in-the-Shell-EV63-Cyber-Blue-review-2863.html</link>
