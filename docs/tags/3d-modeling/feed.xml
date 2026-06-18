@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/3d-modeling/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged 3D Modeling.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 18 Jun 2026 12:02:54 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 12:05:19 +0000</lastBuildDate>
+  <item>
+    <title>Tofu Dactyl</title>
+    <link>https://kbd.news/Tofu-Dactyl-2871.html</link>
+    <guid isPermaLink="false">kbdnews-2871</guid>
+    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Yanos626 shared the STL files of his handwired Tofu Dactyl, designed via the Cosmos generator. — KBD.news</description>
+  </item>
   <item>
     <title>Guide on using Alps switches in hot-swappable keyboards via desoldering and custom plates</title>
     <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tas42n/they_dont_want_you_to_know_this_but_alps_switches/</link>

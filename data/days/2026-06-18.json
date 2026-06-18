@@ -40,6 +40,30 @@
         "shortcut-manager"
       ],
       "image": "img/hn-48582447.jpg"
+    },
+    {
+      "id": "kbdnews-2871",
+      "title": "Tofu Dactyl",
+      "url": "https://kbd.news/Tofu-Dactyl-2871.html",
+      "discussion_url": "https://kbd.news/Tofu-Dactyl-2871.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Yanos626 shared the STL files of his handwired Tofu Dactyl, designed via the Cosmos generator.",
+      "image_hint": "https://kbd.news/pic/2026/213/480/2871.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "3d-modeling",
+        "diy-build"
+      ],
+      "image": "img/kbdnews-2871.jpg"
     }
   ]
 }
