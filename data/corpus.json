@@ -68,6 +68,142 @@
             "diy-build"
           ],
           "image": "img/kbdnews-2871.jpg"
+        },
+        {
+          "id": "geekhack-126528",
+          "title": "[IC] GMK CYL Desert Nights | CN Vendor Added",
+          "url": "https://geekhack.org/index.php?topic=126528.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126528.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 17778,
+          "comments": 27,
+          "category": "breaking",
+          "takeaway": "GMK CYL Desert Nights Inspired by the desert sky and all the stars. Novelties and Deskmat feature classic landscapes and critters while all set on a background of glitter. Please fill out the IC form as it is the best way to gauge interest and suggestions: FORM Please consider following on Instagram for updates as well Sparkles Implementation This set will utilise sparkles from GMK that help represent stars in the night sky. Sparkles has been a point of contention on a few sets, so that is the main question being asked in the IC. Addtionally, samples will 100% be needed, which will come when v",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/YDOPZ77.png",
+            "https://i.imgur.com/WkuL5AB.jpeg",
+            "https://i.imgur.com/tQDlvtE.png",
+            "https://i.imgur.com/bwc2UXb.png",
+            "https://i.imgur.com/S4ywOIi.png",
+            "https://i.imgur.com/jQqtAl5.png",
+            "https://i.imgur.com/33g4lCG.jpeg",
+            "https://i.imgur.com/6z3EnQD.jpeg",
+            "https://i.imgur.com/oY7hnP8.jpeg",
+            "https://i.imgur.com/yqG3o9D.jpeg",
+            "https://i.imgur.com/nWhXKFY.jpeg",
+            "https://i.imgur.com/zGyRSEt.jpeg",
+            "https://i.imgur.com/dRpRinm.jpeg"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-126528-1.jpg",
+            "img/geekhack-126528-2.jpg",
+            "img/geekhack-126528-3.jpg",
+            "img/geekhack-126528-4.jpg",
+            "img/geekhack-126528-5.jpg"
+          ],
+          "image": "img/geekhack-126528-1.jpg"
+        },
+        {
+          "id": "geekhack-126829",
+          "title": "[GB] DCS Mudbeam - June 17th to July 16th",
+          "url": "https://geekhack.org/index.php?topic=126829.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126829.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 564,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "DCS Mudbeam With the permission of scud80, I wanted to bring my favorite GMK set to DCS. Designer Discord Group Buy Info: Date: June 17th to July 16th Delivery Estimate: Q4 2026 Vendors: US: NovelKeys CN: KBDFans UK: Proto[Typist] SEA: iLumkb EU: Oblotzky Pricing: If we hit 250moq, this set will get custom packaging similar to DCS Panels. Base: $145.00 Base: More Renders:",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://novelkeys.com/cdn/shop/files/DCS_Mudbeam_CTKL_Wide_1512x.png?v=1781638266",
+            "https://novelkeys.com/cdn/shop/files/DCS_MUDBEAM_3000x.png?v=1781638210",
+            "https://novelkeys.com/cdn/shop/files/DCS_Mudbeam_Kolibri_CU_3000x.png?v=1781638292",
+            "https://novelkeys.com/cdn/shop/files/DCS_Mudbeam_Piggy_Wide_1512x.png?v=1781638527",
+            "https://novelkeys.com/cdn/shop/files/DCS_Mudbeam_No2_65_Wide_1512x.png?v=1781638374",
+            "https://novelkeys.com/cdn/shop/files/DCS_Mudbeam_TGR_910_Wide_1512x.png?v=1781638622"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/dcs-mudbeam-keycapst",
+                "host": "novelkeys.com"
+              },
+              {
+                "vendor": "KBDFans",
+                "url": "https://kbdfans.com/products/dcs-mudbeam",
+                "host": "kbdfans.com"
+              },
+              {
+                "vendor": "Proto[Typist]",
+                "url": "https://prototypist.net/products/group-buy-dcs-mudbeam",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "iLumkb",
+                "url": "https://ilumkb.com/products/group-buy-dcs-mudbeam/",
+                "host": "ilumkb.com"
+              },
+              {
+                "vendor": "Oblotzky",
+                "url": "https://oblotzky.industries/",
+                "host": "oblotzky.industries"
+              }
+            ],
+            "starts_at": "2026-06-17",
+            "ends_at": "2026-07-16",
+            "status": "live",
+            "moq": 250,
+            "price_low": 14500,
+            "vendor_regions": [
+              {
+                "region": "US",
+                "name": "NovelKeys"
+              },
+              {
+                "region": "CN",
+                "name": "KBDFans"
+              },
+              {
+                "region": "UK",
+                "name": "Proto[Typist]"
+              },
+              {
+                "region": "SEA",
+                "name": "iLumkb"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126829-0.jpg",
+            "img/geekhack-126829-1.jpg",
+            "img/geekhack-126829-2.jpg",
+            "img/geekhack-126829-3.jpg",
+            "img/geekhack-126829-4.jpg",
+            "img/geekhack-126829-5.jpg"
+          ],
+          "image": "img/geekhack-126829-0.jpg"
         }
       ]
     },
