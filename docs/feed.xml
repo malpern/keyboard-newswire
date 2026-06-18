@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 17 Jun 2026 12:07:39 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 18 Jun 2026 12:02:54 +0000</lastBuildDate>
+  <item>
+    <title>Made a free macOS menu bar app that fixes typing in the wrong keyboard layout</title>
+    <link>https://flickey.site</link>
+    <guid isPermaLink="false">hn-48575878</guid>
+    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>71 pts · 33 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Cliptop, a keyboard-first clipboard manager for macOS</title>
+    <link>https://cliptop.app</link>
+    <guid isPermaLink="false">hn-48582447</guid>
+    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>MoeeTech custom metal artisans</title>
     <link>https://kbd.news/MoeeTech-custom-metal-artisans-2868.html</link>

@@ -3,6 +3,51 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-18",
+      "items": [
+        {
+          "id": "hn-48575878",
+          "title": "Made a free macOS menu bar app that fixes typing in the wrong keyboard layout",
+          "url": "https://flickey.site",
+          "discussion_url": "https://news.ycombinator.com/item?id=48575878",
+          "source": "hn",
+          "subreddit": null,
+          "score": 71,
+          "comments": 33,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "remapping-layouts",
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "key-remapping"
+          ]
+        },
+        {
+          "id": "hn-48582447",
+          "title": "Show HN: Cliptop, a keyboard-first clipboard manager for macOS",
+          "url": "https://cliptop.app",
+          "discussion_url": "https://news.ycombinator.com/item?id=48582447",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "shortcut-manager"
+          ],
+          "image": "img/hn-48582447.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-17",
       "items": [
         {
