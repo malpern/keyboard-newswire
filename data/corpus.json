@@ -3,6 +3,37 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-20",
+      "items": [
+        {
+          "id": "kbdnews-2872",
+          "title": "Temporal by curbol is a generative low-pro split with a smooth build pipeline",
+          "url": "https://kbd.news/Temporal-2872.html",
+          "discussion_url": "https://kbd.news/Temporal-2872.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "A generative low-pro split with a smooth build pipeline: Temporal by curbol.",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2872.jpg",
+          "topics": [
+            "splits-ergo",
+            "firmware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "custom-firmware"
+          ],
+          "original_title": "Temporal",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Rewrites vague promotional phrasing into factual description",
+          "image": "img/kbdnews-2872.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-19",
       "items": [
         {

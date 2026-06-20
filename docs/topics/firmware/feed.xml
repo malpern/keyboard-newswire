@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 19 Jun 2026 12:07:34 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 20 Jun 2026 12:05:20 +0000</lastBuildDate>
+  <item>
+    <title>Temporal by curbol is a generative low-pro split with a smooth build pipeline</title>
+    <link>https://kbd.news/Temporal-2872.html</link>
+    <guid isPermaLink="false">kbdnews-2872</guid>
+    <pubDate>Sat, 20 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A generative low-pro split with a smooth build pipeline: Temporal by curbol. — KBD.news</description>
+  </item>
   <item>
     <title>Show HN: A demo video of Effected Keyboard 2</title>
     <link>https://www.youtube.com/shorts/6aExjM8A9pE</link>
