@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:45:33 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:45:46 +0000</lastBuildDate>
+  <item>
+    <title>Dual Blades</title>
+    <link>https://kbd.news/Dual-Blades-2877.html</link>
+    <guid isPermaLink="false">kbdnews-2877</guid>
+    <pubDate>Tue, 30 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>XVX L75 Air review</title>
     <link>https://kbd.news/XVX-L75-Air-review-2875.html</link>

@@ -3,6 +3,54 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-30",
+      "items": [
+        {
+          "id": "kbdnews-2877",
+          "title": "Dual Blades",
+          "url": "https://kbd.news/Dual-Blades-2877.html",
+          "discussion_url": "https://kbd.news/Dual-Blades-2877.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2877.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "pcb-design",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2877.jpg"
+        },
+        {
+          "id": "kbdnews-2876",
+          "title": "Demeter",
+          "url": "https://kbd.news/Demeter-2876.html",
+          "discussion_url": "https://kbd.news/Demeter-2876.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2876.jpg",
+          "topics": [
+            "firmware"
+          ],
+          "tags": [
+            "custom-firmware"
+          ],
+          "image": "img/kbdnews-2876.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-25",
       "items": [
         {
