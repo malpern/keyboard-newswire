@@ -3,6 +3,77 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-07",
+      "items": [
+        {
+          "id": "kbdnews-2884",
+          "title": "Best-selling keyboard switches of June 2026",
+          "url": "https://kbd.news/Best-selling-keyboard-switches-of-June-2026-2884.html",
+          "discussion_url": "https://kbd.news/Best-selling-keyboard-switches-of-June-2026-2884.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/214/480/2884.jpg",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "pricing",
+            "mechanical-keyboard"
+          ],
+          "image": "img/kbdnews-2884.jpg"
+        },
+        {
+          "id": "kbdnews-2883",
+          "title": "Aphelo30 v2",
+          "url": "https://kbd.news/Aphelo30-v2-2883.html",
+          "discussion_url": "https://kbd.news/Aphelo30-v2-2883.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/214/480/2883.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "pcb-design",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2883.jpg"
+        },
+        {
+          "id": "kbdnews-2882",
+          "title": "Ayush's keyboard",
+          "url": "https://kbd.news/Ayush-s-keyboard-2882.html",
+          "discussion_url": "https://kbd.news/Ayush-s-keyboard-2882.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/214/480/2882.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "diy-build",
+            "pcb-design"
+          ],
+          "image": "img/kbdnews-2882.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-06",
       "items": [
         {

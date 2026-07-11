@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:46:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:46:23 +0000</lastBuildDate>
+  <item>
+    <title>Aphelo30 v2</title>
+    <link>https://kbd.news/Aphelo30-v2-2883.html</link>
+    <guid isPermaLink="false">kbdnews-2883</guid>
+    <pubDate>Tue, 07 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
+  <item>
+    <title>Ayush's keyboard</title>
+    <link>https://kbd.news/Ayush-s-keyboard-2882.html</link>
+    <guid isPermaLink="false">kbdnews-2882</guid>
+    <pubDate>Tue, 07 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Dual Blades</title>
     <link>https://kbd.news/Dual-Blades-2877.html</link>
