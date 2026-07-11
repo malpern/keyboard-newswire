@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-06",
+  "items": [
+    {
+      "id": "kbdnews-2881",
+      "title": "Olice",
+      "url": "https://kbd.news/Olice-2881.html",
+      "discussion_url": "https://kbd.news/Olice-2881.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/214/480/2881.jpg",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "shortcut-manager"
+      ],
+      "image": "img/kbdnews-2881.jpg"
+    }
+  ]
+}

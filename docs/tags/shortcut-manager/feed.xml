@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/shortcut-manager/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Shortcut Manager.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:45:58 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:46:07 +0000</lastBuildDate>
+  <item>
+    <title>Olice</title>
+    <link>https://kbd.news/Olice-2881.html</link>
+    <guid isPermaLink="false">kbdnews-2881</guid>
+    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Show HN: Cliptop, a keyboard-first clipboard manager for macOS</title>
     <link>https://cliptop.app</link>

@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:45:58 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:46:07 +0000</lastBuildDate>
+  <item>
+    <title>Olice</title>
+    <link>https://kbd.news/Olice-2881.html</link>
+    <guid isPermaLink="false">kbdnews-2881</guid>
+    <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>KLORBALL35</title>
     <link>https://kbd.news/KLORBALL35-2880.html</link>
