@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "id": "kbdnews-2874",
+      "title": "YKB Skadi",
+      "url": "https://kbd.news/YKB-Skadi-2874.html",
+      "discussion_url": "https://kbd.news/YKB-Skadi-2874.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/213/480/2874.jpg",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "pcb-design",
+        "diy-build"
+      ],
+      "image": "img/kbdnews-2874.jpg"
+    }
+  ]
+}
