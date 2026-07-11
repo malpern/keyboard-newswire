@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:45:46 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:45:58 +0000</lastBuildDate>
+  <item>
+    <title>34spliT</title>
+    <link>https://kbd.news/34spliT-2879.html</link>
+    <guid isPermaLink="false">kbdnews-2879</guid>
+    <pubDate>Sat, 04 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Temporal by curbol is a generative low-pro split with a smooth build pipeline</title>
     <link>https://kbd.news/Temporal-2872.html</link>

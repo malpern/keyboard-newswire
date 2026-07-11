@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-04",
+  "items": [
+    {
+      "id": "kbdnews-2880",
+      "title": "KLORBALL35",
+      "url": "https://kbd.news/KLORBALL35-2880.html",
+      "discussion_url": "https://kbd.news/KLORBALL35-2880.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/214/480/2880.jpg",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "custom-firmware"
+      ],
+      "image": "img/kbdnews-2880.jpg"
+    },
+    {
+      "id": "kbdnews-2879",
+      "title": "34spliT",
+      "url": "https://kbd.news/34spliT-2879.html",
+      "discussion_url": "https://kbd.news/34spliT-2879.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/214/480/2879.jpg",
+      "topics": [
+        "splits-ergo",
+        "firmware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "custom-firmware"
+      ],
+      "image": "img/kbdnews-2879.jpg"
+    }
+  ]
+}
