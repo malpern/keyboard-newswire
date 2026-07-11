@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:46:23 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:46:36 +0000</lastBuildDate>
+  <item>
+    <title>MoeeTech Glitter65 L01 review</title>
+    <link>https://kbd.news/MoeeTech-Glitter65-L01-review-2885.html</link>
+    <guid isPermaLink="false">kbdnews-2885</guid>
+    <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
+  <item>
+    <title>Caeseura</title>
+    <link>https://kbd.news/Caeseura-2886.html</link>
+    <guid isPermaLink="false">kbdnews-2886</guid>
+    <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Best-selling keyboard switches of June 2026</title>
     <link>https://kbd.news/Best-selling-keyboard-switches-of-June-2026-2884.html</link>

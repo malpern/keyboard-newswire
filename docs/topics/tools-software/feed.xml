@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 11 Jul 2026 17:46:23 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:46:36 +0000</lastBuildDate>
+  <item>
+    <title>Caeseura</title>
+    <link>https://kbd.news/Caeseura-2886.html</link>
+    <guid isPermaLink="false">kbdnews-2886</guid>
+    <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Olice</title>
     <link>https://kbd.news/Olice-2881.html</link>

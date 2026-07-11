@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-10",
+  "items": [
+    {
+      "id": "kbdnews-2885",
+      "title": "MoeeTech Glitter65 L01 review",
+      "url": "https://kbd.news/MoeeTech-Glitter65-L01-review-2885.html",
+      "discussion_url": "https://kbd.news/MoeeTech-Glitter65-L01-review-2885.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/214/480/2885.jpg",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "keycap-design"
+      ],
+      "image": "img/kbdnews-2885.jpg"
+    },
+    {
+      "id": "kbdnews-2886",
+      "title": "Caeseura",
+      "url": "https://kbd.news/Caeseura-2886.html",
+      "discussion_url": "https://kbd.news/Caeseura-2886.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "",
+      "image_hint": "https://kbd.news/pic/2026/214/480/2886.jpg",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "shortcut-manager"
+      ],
+      "image": "img/kbdnews-2886.jpg"
+    }
+  ]
+}
