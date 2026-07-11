@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 20 Jun 2026 12:07:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:45:13 +0000</lastBuildDate>
+  <item>
+    <title>Ilwol &amp; Phalwol</title>
+    <link>https://kbd.news/Ilwol-Phalwol-2873.html</link>
+    <guid isPermaLink="false">kbdnews-2873</guid>
+    <pubDate>Sun, 21 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Tofu Dactyl</title>
     <link>https://kbd.news/Tofu-Dactyl-2871.html</link>

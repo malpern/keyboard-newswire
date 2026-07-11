@@ -3,6 +3,33 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-21",
+      "items": [
+        {
+          "id": "kbdnews-2873",
+          "title": "Ilwol & Phalwol",
+          "url": "https://kbd.news/Ilwol-Phalwol-2873.html",
+          "discussion_url": "https://kbd.news/Ilwol-Phalwol-2873.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2873.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "pcb-design",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2873.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-20",
       "items": [
         {

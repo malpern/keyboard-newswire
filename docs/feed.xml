@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 20 Jun 2026 12:07:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 11 Jul 2026 17:45:13 +0000</lastBuildDate>
+  <item>
+    <title>Ilwol &amp; Phalwol</title>
+    <link>https://kbd.news/Ilwol-Phalwol-2873.html</link>
+    <guid isPermaLink="false">kbdnews-2873</guid>
+    <pubDate>Sun, 21 Jun 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>KBD.news</description>
+  </item>
   <item>
     <title>Temporal by curbol is a generative low-pro split with a smooth build pipeline</title>
     <link>https://kbd.news/Temporal-2872.html</link>
