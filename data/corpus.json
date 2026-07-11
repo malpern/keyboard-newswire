@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-06-25",
+      "items": [
+        {
+          "id": "kbdnews-2875",
+          "title": "XVX L75 Air review",
+          "url": "https://kbd.news/XVX-L75-Air-review-2875.html",
+          "discussion_url": "https://kbd.news/XVX-L75-Air-review-2875.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "",
+          "image_hint": "https://kbd.news/pic/2026/213/480/2875.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "mechanical-keyboard"
+          ],
+          "image": "img/kbdnews-2875.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-22",
       "items": [
         {
