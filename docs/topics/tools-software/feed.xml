@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 12 Jul 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 13 Jul 2026 12:02:42 +0000</lastBuildDate>
+  <item>
+    <title>Quintile – keyboard N×M grid tiling for macOS</title>
+    <link>https://github.com/stefanopineda/quintile</link>
+    <guid isPermaLink="false">hn-48886236</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Caeseura</title>
     <link>https://kbd.news/Caeseura-2886.html</link>

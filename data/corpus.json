@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-13",
+      "items": [
+        {
+          "id": "hn-48886236",
+          "title": "Quintile – keyboard N×M grid tiling for macOS",
+          "url": "https://github.com/stefanopineda/quintile",
+          "discussion_url": "https://news.ycombinator.com/item?id=48886236",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "open-source"
+          ],
+          "image": "img/hn-48886236.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-12",
       "items": [
         {
