@@ -104,62 +104,82 @@
           {
             "vendor": "US - Mechs & Co.",
             "url": "https://mechsandco.com/collections/current-group-buys/products/gb-mw-stone-age",
-            "host": "mechsandco.com"
+            "host": "mechsandco.com",
+            "metadata_fetched_at": "2026-07-13T12:07:02.692971+00:00"
           },
           {
             "vendor": "CA - KanataKeys",
             "url": "https://kanatakeys.co/products/milkyway-stone-age",
-            "host": "kanatakeys.co"
+            "host": "kanatakeys.co",
+            "metadata_fetched_at": "2026-07-13T12:07:03.103800+00:00"
           },
           {
             "vendor": "EU - mykeyboard.eu",
             "url": "https://mykeyboard.eu/catalogue/category/group-buys/keycaps/mw-stone-age_708/",
-            "host": "mykeyboard.eu"
+            "host": "mykeyboard.eu",
+            "metadata_fetched_at": "2026-07-13T12:07:03.103986+00:00"
           },
           {
             "vendor": "UK - Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-mw-stone-age",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-07-13T12:07:03.410299+00:00",
+            "price_low": 1667,
+            "price_high": 7500,
+            "currency": "GBP",
+            "available": false
           },
           {
             "vendor": "SEA - iLumkb",
             "url": "https://ilumkb.com/collections/live/products/mw-stone-age?variant=39879623901266",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-07-13T12:07:03.625098+00:00"
           },
           {
             "vendor": "KR - KLC",
             "url": "https://klc-playground.com/products/gb-mw-stone-age",
-            "host": "klc-playground.com"
+            "host": "klc-playground.com",
+            "metadata_fetched_at": "2026-07-13T12:07:03.867916+00:00"
           },
           {
             "vendor": "OCE - DailyClack",
             "url": "https://dailyclack.com/collections/group-buy-keycaps/products/mw-stone-age",
-            "host": "dailyclack.com"
+            "host": "dailyclack.com",
+            "metadata_fetched_at": "2026-07-13T12:07:04.101076+00:00",
+            "price_low": 3200,
+            "price_high": 12600,
+            "currency": "AUD",
+            "available": false
           },
           {
             "vendor": "MX - Rheset",
             "url": "https://rheset.mx/product/mw-stone-age-group-buy/",
-            "host": "rheset.mx"
+            "host": "rheset.mx",
+            "metadata_fetched_at": "2026-07-13T12:07:04.101151+00:00"
           },
           {
             "vendor": "Worldwide - zFrontier",
             "url": "https://en.zfrontier.com/products/mw-stone-age",
-            "host": "en.zfrontier.com"
+            "host": "en.zfrontier.com",
+            "metadata_fetched_at": "2026-07-13T12:07:04.342731+00:00"
           },
           {
             "vendor": "QwertyKeys",
             "url": "https://www.qwertykeys.com/",
-            "host": "www.qwertykeys.com"
+            "host": "www.qwertykeys.com",
+            "metadata_fetched_at": "2026-07-13T12:07:04.342857+00:00"
           },
           {
             "vendor": "Accurate GB time in your region",
             "url": "https://everytimezone.com/s/8702ece1",
-            "host": "everytimezone.com"
+            "host": "everytimezone.com",
+            "metadata_fetched_at": "2026-07-13T12:07:04.342887+00:00"
           },
           {
             "vendor": "Sales Information",
             "url": "https://mars-universe.notion.site/QK65-Stone-Age-Edition-Sale-Info-7be69600ef604d2b89c5e2ce2423b827",
-            "host": "mars-universe.notion.site"
+            "host": "mars-universe.notion.site",
+            "metadata_fetched_at": "2026-07-13T12:07:04.342917+00:00"
           }
         ],
         "starts_at": "2027-04-09",
@@ -236,17 +256,24 @@
           {
             "vendor": "MelonBred Keyboards",
             "url": "https://shop.melonbred.dev/products/mb-44-v2-keyboard-kit",
-            "host": "shop.melonbred.dev"
+            "host": "shop.melonbred.dev",
+            "metadata_fetched_at": "2026-07-13T12:07:04.631320+00:00"
           },
           {
             "vendor": "Yushakobo",
             "url": "https://shop.yushakobo.jp/products/11291",
-            "host": "shop.yushakobo.jp"
+            "host": "shop.yushakobo.jp",
+            "metadata_fetched_at": "2026-07-13T12:07:05.019732+00:00",
+            "price_low": 550000,
+            "price_high": 5500000,
+            "currency": "JPY",
+            "available": false
           },
           {
             "vendor": "Keeb.Supply",
             "url": "https://keeb.supply/products/mb-44-v2",
-            "host": "keeb.supply"
+            "host": "keeb.supply",
+            "metadata_fetched_at": "2026-07-13T12:07:05.994800+00:00"
           }
         ],
         "related_threads": [
