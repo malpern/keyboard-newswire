@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 13 Jul 2026 12:02:42 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 13 Jul 2026 12:05:18 +0000</lastBuildDate>
+  <item>
+    <title>Dkuni</title>
+    <link>https://kbd.news/Dkuni-2887.html</link>
+    <guid isPermaLink="false">kbdnews-2887</guid>
+    <pubDate>Mon, 13 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A Sofle-inspired unibody split keyboard: Dkuni by darkhandz. — KBD.news</description>
+  </item>
   <item>
     <title>Aphelo30 v2</title>
     <link>https://kbd.news/Aphelo30-v2-2883.html</link>
