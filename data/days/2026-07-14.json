@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-14",
+  "items": [
+    {
+      "id": "hn-48905096",
+      "title": "Show HN: Tangent – learn the Glove80 ergonomic keyboard by typing HN headlines",
+      "url": "https://tangent-trainer.pages.dev",
+      "discussion_url": "https://news.ycombinator.com/item?id=48905096",
+      "source": "hn",
+      "subreddit": null,
+      "score": 4,
+      "comments": 1,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "splits-ergo",
+        "tools-software"
+      ],
+      "tags": [
+        "split-keyboard",
+        "open-source"
+      ],
+      "image": "img/hn-48905096.jpg"
+    }
+  ]
+}
