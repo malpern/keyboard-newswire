@@ -141,13 +141,13 @@
             "vendor": "NovelKeys",
             "url": "https://novelkeys.com/products/dcs-mudbeam-keycapst",
             "host": "novelkeys.com",
-            "metadata_fetched_at": "2026-07-13T12:07:08.909181+00:00"
+            "metadata_fetched_at": "2026-07-14T12:06:13.810240+00:00"
           },
           {
             "vendor": "KBDFans",
             "url": "https://kbdfans.com/products/dcs-mudbeam",
             "host": "kbdfans.com",
-            "metadata_fetched_at": "2026-07-13T12:07:09.064109+00:00",
+            "metadata_fetched_at": "2026-07-14T12:06:14.033805+00:00",
             "price_low": 17500,
             "currency": "USD",
             "available": true
@@ -156,7 +156,7 @@
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-dcs-mudbeam",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-07-13T12:07:09.301988+00:00",
+            "metadata_fetched_at": "2026-07-14T12:06:14.302219+00:00",
             "price_low": 11000,
             "currency": "GBP",
             "available": true
@@ -165,7 +165,7 @@
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/products/group-buy-dcs-mudbeam/",
             "host": "ilumkb.com",
-            "metadata_fetched_at": "2026-07-13T12:07:09.473308+00:00",
+            "metadata_fetched_at": "2026-07-14T12:06:14.469847+00:00",
             "price_low": 20500,
             "currency": "SGD",
             "available": true
@@ -174,7 +174,7 @@
             "vendor": "Oblotzky",
             "url": "https://oblotzky.industries/",
             "host": "oblotzky.industries",
-            "metadata_fetched_at": "2026-07-13T12:07:09.473383+00:00"
+            "metadata_fetched_at": "2026-07-14T12:06:14.469916+00:00"
           }
         ],
         "starts_at": "2026-06-17",
