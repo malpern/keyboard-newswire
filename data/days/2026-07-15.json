@@ -42,32 +42,38 @@
           {
             "vendor": "Project Keyboard",
             "url": "https://store.projectkeyboard.com/",
-            "host": "store.projectkeyboard.com"
+            "host": "store.projectkeyboard.com",
+            "metadata_fetched_at": "2026-07-15T12:06:54.530375+00:00"
           },
           {
             "vendor": "Deskhero",
             "url": "https://www.deskhero.ca//",
-            "host": "www.deskhero.ca"
+            "host": "www.deskhero.ca",
+            "metadata_fetched_at": "2026-07-15T12:06:54.530554+00:00"
           },
           {
             "vendor": "Oblotzky Industries",
             "url": "https://oblotzky.industries/",
-            "host": "oblotzky.industries"
+            "host": "oblotzky.industries",
+            "metadata_fetched_at": "2026-07-15T12:06:54.530561+00:00"
           },
           {
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/iLumkb",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-07-15T12:06:54.530565+00:00"
           },
           {
             "vendor": "Daily Clack",
             "url": "https://dailyclack.com/",
-            "host": "dailyclack.com"
+            "host": "dailyclack.com",
+            "metadata_fetched_at": "2026-07-15T12:06:54.530569+00:00"
           },
           {
             "vendor": "Space Cables",
             "url": "https://spaceholdings.net/collections/live-sales/products/noire-cable",
-            "host": "spaceholdings.net"
+            "host": "spaceholdings.net",
+            "metadata_fetched_at": "2026-07-15T12:06:54.569587+00:00"
           }
         ]
       },
