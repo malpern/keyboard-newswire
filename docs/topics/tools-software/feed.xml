@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 12:06:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 12:06:53 +0000</lastBuildDate>
   <item>
     <title>Manage your Claude Code agents in Raycast</title>
     <link>https://github.com/vmc-7645/claude-fleet</link>
