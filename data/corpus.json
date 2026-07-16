@@ -3,6 +3,52 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-16",
+      "items": [
+        {
+          "id": "hn-48923074",
+          "title": "OpenAI's first branded hardware is a light-up keyboard?",
+          "url": "https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/",
+          "discussion_url": "https://news.ycombinator.com/item?id=48923074",
+          "source": "hn",
+          "subreddit": null,
+          "score": 6,
+          "comments": 2,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "lighting"
+          ],
+          "image": "img/hn-48923074.jpg"
+        },
+        {
+          "id": "hn-48930525",
+          "title": "Manage your Claude Code agents in Raycast",
+          "url": "https://github.com/vmc-7645/claude-fleet",
+          "discussion_url": "https://news.ycombinator.com/item?id=48930525",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "ide",
+            "open-source"
+          ],
+          "image": "img/hn-48930525.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-15",
       "items": [
         {

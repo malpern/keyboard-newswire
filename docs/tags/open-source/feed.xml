@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 15 Jul 2026 12:07:13 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 12:02:52 +0000</lastBuildDate>
+  <item>
+    <title>Manage your Claude Code agents in Raycast</title>
+    <link>https://github.com/vmc-7645/claude-fleet</link>
+    <guid isPermaLink="false">hn-48930525</guid>
+    <pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Show HN: Tangent – learn the Glove80 ergonomic keyboard by typing HN headlines</title>
     <link>https://tangent-trainer.pages.dev</link>
