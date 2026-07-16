@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Rgb · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/rgb/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/rgb/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Rgb.</description>
+  <language>en-us</language>
+  <lastBuildDate>Thu, 16 Jul 2026 12:05:14 +0000</lastBuildDate>
+  <item>
+    <title>Royal Kludge RK R99 review</title>
+    <link>https://kbd.news/Royal-Kludge-RK-R99-review-2890.html</link>
+    <guid isPermaLink="false">kbdnews-2890</guid>
+    <pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Royal Kludge RK R99 is a nice mechanical keyboard in the 1800 form factor. Wireless, hotswap, with huge RGB firepower. — KBD.news</description>
+  </item>
+</channel>
+</rss>

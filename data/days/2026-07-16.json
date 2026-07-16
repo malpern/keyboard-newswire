@@ -41,6 +41,53 @@
         "open-source"
       ],
       "image": "img/hn-48930525.jpg"
+    },
+    {
+      "id": "kbdnews-2890",
+      "title": "Royal Kludge RK R99 review",
+      "url": "https://kbd.news/Royal-Kludge-RK-R99-review-2890.html",
+      "discussion_url": "https://kbd.news/Royal-Kludge-RK-R99-review-2890.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "The Royal Kludge RK R99 is a nice mechanical keyboard in the 1800 form factor. Wireless, hotswap, with huge RGB firepower.",
+      "image_hint": "https://kbd.news/pic/2026/215/480/2890.jpg",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "hotswap",
+        "rgb"
+      ],
+      "image": "img/kbdnews-2890.jpg"
+    },
+    {
+      "id": "kbdnews-2889",
+      "title": "Hector",
+      "url": "https://kbd.news/Hector-2889.html",
+      "discussion_url": "https://kbd.news/Hector-2889.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A 38-key split Hall-effect keyboard: Hector by Rick Kross.",
+      "image_hint": "https://kbd.news/pic/2026/215/480/2889.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design"
+      ],
+      "image": "img/kbdnews-2889.jpg"
     }
   ]
 }

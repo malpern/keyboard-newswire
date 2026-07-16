@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 12:02:52 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 12:05:14 +0000</lastBuildDate>
   <item>
     <title>OpenAI's first branded hardware is a light-up keyboard?</title>
     <link>https://arstechnica.com/ai/2026/07/openais-first-branded-hardware-is-a-light-up-keyboard/</link>
@@ -17,6 +17,17 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>6 pts · 2 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Royal Kludge RK R99 review</title>
+    <link>https://kbd.news/Royal-Kludge-RK-R99-review-2890.html</link>
+    <guid isPermaLink="false">kbdnews-2890</guid>
+    <pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Royal Kludge RK R99 is a nice mechanical keyboard in the 1800 form factor. Wireless, hotswap, with huge RGB firepower. — KBD.news</description>
   </item>
   <item>
     <title>MoeeTech Glitter65 L01 review</title>

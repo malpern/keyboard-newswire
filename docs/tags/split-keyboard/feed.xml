@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 12:02:52 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 16 Jul 2026 12:05:14 +0000</lastBuildDate>
+  <item>
+    <title>Hector</title>
+    <link>https://kbd.news/Hector-2889.html</link>
+    <guid isPermaLink="false">kbdnews-2889</guid>
+    <pubDate>Thu, 16 Jul 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A 38-key split Hall-effect keyboard: Hector by Rick Kross. — KBD.news</description>
+  </item>
   <item>
     <title>Show HN: Tangent – learn the Glove80 ergonomic keyboard by typing HN headlines</title>
     <link>https://tangent-trainer.pages.dev</link>
