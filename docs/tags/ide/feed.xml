@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/ide/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Ide.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 16 Jul 2026 12:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 17 Jul 2026 12:04:35 +0000</lastBuildDate>
+  <item>
+    <title>OpenAI releases Codex Micro physical keypad</title>
+    <link>https://link.mail.beehiiv.com/ss/c/u001.1FxDUWkbNuPKPw5uRCpR2t1JEQExQz0mdCuirkBW0bJDT_8BuCccz5maMDG-mv-aF8UkZRNhdaHyO_NO8AYmHWUYxwOabYy9aN14u0tKGT_wwpSit-moRAtAW_X90TIcDCYJkNu0NPUN6pR_5bPoF7ZARgmX1glXfuHcuwod4EbRR80HepNGJVUpqd2kkUpfeOAMkAaRw9c9TPwGUeLlXi60ek_v7-xBnRT19-X96KePapL76q2jr9Vkb6aTCOh6GSb9X6A5CXhSZ2fxau8PHA/4sd/U3rqYRJ1SvCuP5B_V8f1Pw/h6/h001.EJWgVsR84tTj-AgS4AiPdUAxHDRDfuVDDXUh8oaSLl4</link>
+    <guid isPermaLink="false">email-19f6bcee1260efae</guid>
+    <pubDate>Fri, 17 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>OpenAI unveiled its first hardware, a mini keypad with joystick and knob for controlling Codex agents. — ✉ Gmail</description>
+  </item>
   <item>
     <title>Manage your Claude Code agents in Raycast</title>
     <link>https://github.com/vmc-7645/claude-fleet</link>
