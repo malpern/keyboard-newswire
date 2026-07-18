@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 18 Jul 2026 12:06:43 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 18 Jul 2026 12:07:08 +0000</lastBuildDate>
   <item>
     <title>Manage your Claude Code agents in Raycast</title>
     <link>https://github.com/vmc-7645/claude-fleet</link>

@@ -39,12 +39,14 @@
           {
             "vendor": "【Dyad proto typing test】",
             "url": "https://www.bilibili.com/video/BV1hXwBzEEBx/?share_source=copy_web&vd_source=7c43928d664d70363a5c3f7fe483e4b5",
-            "host": "www.bilibili.com"
+            "host": "www.bilibili.com",
+            "metadata_fetched_at": "2026-07-18T12:06:48.163906+00:00"
           },
           {
             "vendor": "keyspensory",
             "url": "https://keyspensory.store",
-            "host": "keyspensory.store"
+            "host": "keyspensory.store",
+            "metadata_fetched_at": "2026-07-18T12:06:48.164081+00:00"
           }
         ]
       },
