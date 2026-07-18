@@ -3,6 +3,135 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-18",
+      "items": [
+        {
+          "id": "geekhack-126515",
+          "title": "[IC] Dyad TKL & Pad",
+          "url": "https://geekhack.org/index.php?topic=126515.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126515.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 21611,
+          "comments": 16,
+          "category": "breaking",
+          "takeaway": "Hello everyone/你好 It’s been a while, dumboy here. Fulfillment for the first chapter, Début: Diversity, was completed last year. Thanks to your incredible support, everything went according to plan. And the keeb gained a lot of compliments. Nearly a year has passed since the Diversity IC:re. It is finally time to move forward and unveil what’s behind the next curtain. Here it is, scene 1: Dyad. Exploded view Specifications Layout: F12 TKL Mounting: Plate oring Size: 359.61 mm * 136.01 mm (TKL) / 88.15 mm * 136.01 mm (Pad) Weight(Unbuilt): 2.52kg (TKL) / 0.55kg (Pad) Front height: 18.90mm (TKL&P",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316401;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316405;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316407;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316409;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316411;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316413;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316415;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316417;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316420;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316422;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316424;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316426;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316429;image",
+            "https://geekhack.org/index.php?PHPSESSID=jp43k2ggaf4e6dsia59cre76n6eeaqmo&action=dlattach;topic=126515.0;attach=316431;image"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "【Dyad proto typing test】",
+                "url": "https://www.bilibili.com/video/BV1hXwBzEEBx/?share_source=copy_web&vd_source=7c43928d664d70363a5c3f7fe483e4b5",
+                "host": "www.bilibili.com"
+              },
+              {
+                "vendor": "keyspensory",
+                "url": "https://keyspensory.store",
+                "host": "keyspensory.store"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "pcb-design"
+          ],
+          "images": [
+            "img/geekhack-126515-0.jpg",
+            "img/geekhack-126515-1.jpg",
+            "img/geekhack-126515-2.jpg",
+            "img/geekhack-126515-3.jpg",
+            "img/geekhack-126515-4.jpg",
+            "img/geekhack-126515-5.jpg"
+          ],
+          "image": "img/geekhack-126515-0.jpg"
+        },
+        {
+          "id": "geekhack-126911",
+          "title": "[IC] DCS VoC (Violet on Cream)",
+          "url": "https://geekhack.org/index.php?topic=126911.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126911.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 628,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "DCS VoC Hey earthlings, Bringing you a classic VoC colorway, but reworked in an objectively better profile (fight me). I've been wanting baul (paulgali) to run this set for a while, but pricing and other circumstances kept it from launching. So I'm picking up where that left off. Hope you all enjoy it! IC Form Details Material: ABS Legends: Doubleshot Colors: RDE, WCK Vendors US: CA: EU: UK: Proto[Typist] KR: CN: Typist Club SG: iLumkb OCE: Kits Renders F1-8X by GEON Vero by AKB W1-AT by GEON Socials Discord Instagram Thanks Baul for handing me the baton Hiney for original permission You for r",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.postimg.cc/VzHNdJgN/Base.png",
+            "https://i.postimg.cc/vGSmc4hW/Extension.png",
+            "https://i.postimg.cc/zzTDt0rj/Numpad.png",
+            "https://i.postimg.cc/vQgZ9G2N/F1-1.png",
+            "https://i.postimg.cc/gz3cSNWf/F1-2.png",
+            "https://i.postimg.cc/FFmr23rT/HHKB-1.png",
+            "https://i.postimg.cc/4ZbNpLPD/HHKB-2.png",
+            "https://i.postimg.cc/ChbMPmg2/W1-1.png",
+            "https://i.postimg.cc/51M2YdBS/W1-2.png"
+          ],
+          "gb": {
+            "related_threads": [
+              {
+                "type": "IC",
+                "title": "DCS Violet on Cream",
+                "url": "https://geekhack.org/index.php?topic=119098.0",
+                "topic_id": "119098"
+              }
+            ],
+            "vendor_regions": [
+              {
+                "region": "UK",
+                "name": "Proto[Typist]"
+              },
+              {
+                "region": "CN",
+                "name": "Typist Club"
+              }
+            ],
+            "photo_credit": "GEON"
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-126911-0.jpg",
+            "img/geekhack-126911-1.jpg",
+            "img/geekhack-126911-2.jpg",
+            "img/geekhack-126911-3.jpg",
+            "img/geekhack-126911-4.jpg",
+            "img/geekhack-126911-5.jpg"
+          ],
+          "image": "img/geekhack-126911-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-17",
       "items": [
         {
