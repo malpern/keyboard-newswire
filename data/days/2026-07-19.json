@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "id": "hn-48964141",
+      "title": "Ergonomic keyboard generator with hand scanning",
+      "url": "https://ryanis.cool/cosmos/",
+      "discussion_url": "https://news.ycombinator.com/item?id=48964141",
+      "source": "hn",
+      "subreddit": null,
+      "score": 3,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "splits-ergo",
+        "tools-software"
+      ],
+      "tags": [
+        "open-source",
+        "pcb-design",
+        "diy-build"
+      ]
+    }
+  ]
+}
