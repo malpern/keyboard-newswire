@@ -68,31 +68,31 @@
             "vendor": "updates",
             "url": "https://omnitype.com/blogs/timelines/gmk-thinkcaps",
             "host": "omnitype.com",
-            "metadata_fetched_at": "2026-07-19T12:06:45.931818+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.216714+00:00"
           },
           {
             "vendor": "Dixie Mech",
             "url": "https://dixiemech.store/collections/gmk-thinkcaps",
             "host": "dixiemech.store",
-            "metadata_fetched_at": "2026-07-19T12:06:45.931838+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.216730+00:00"
           },
           {
             "vendor": "CandyKeys",
             "url": "https://candykeys.com/group-buys/ThinkCaps",
             "host": "candykeys.com",
-            "metadata_fetched_at": "2026-07-19T12:06:45.931849+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.216741+00:00"
           },
           {
             "vendor": "Deskhero",
             "url": "https://www.deskhero.ca/products/gmk-thinkcaps",
             "host": "www.deskhero.ca",
-            "metadata_fetched_at": "2026-07-19T12:06:46.144119+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.420157+00:00"
           },
           {
             "vendor": "Daily Clack",
             "url": "https://dailyclack.com/collections/group-buys/products/gmk-thinkcaps",
             "host": "dailyclack.com",
-            "metadata_fetched_at": "2026-07-19T12:06:46.370661+00:00",
+            "metadata_fetched_at": "2026-07-20T12:07:17.602137+00:00",
             "price_low": 3499,
             "price_high": 25000,
             "currency": "AUD",
@@ -102,25 +102,25 @@
             "vendor": "zFrontier (EN)",
             "url": "https://en.zfrontier.com/collections/gmk/products/gmk-thinkcaps",
             "host": "en.zfrontier.com",
-            "metadata_fetched_at": "2026-07-19T12:06:46.586137+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.845275+00:00"
           },
           {
             "vendor": "zFrontier (CN)",
             "url": "https://www.zfrontier.com/app/mch/BpV267ZGQqxl",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-07-19T12:06:46.586201+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:17.845342+00:00"
           },
           {
             "vendor": "IlumKB",
             "url": "https://ilumkb.com/products/gb-gmk-thinkcaps",
             "host": "ilumkb.com",
-            "metadata_fetched_at": "2026-07-19T12:06:46.809103+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.034285+00:00"
           },
           {
             "vendor": "ThinkPad",
             "url": "http://www.thinkwiki.org/wiki/ThinkPad_History",
             "host": "www.thinkwiki.org",
-            "metadata_fetched_at": "2026-07-19T12:06:46.809166+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.034343+00:00"
           }
         ],
         "related_threads": [
@@ -191,13 +191,13 @@
             "vendor": "DCS Good Morning",
             "url": "https://www.basilkeys.com/dcs-good-morning",
             "host": "www.basilkeys.com",
-            "metadata_fetched_at": "2026-07-19T12:06:46.809189+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.034359+00:00"
           },
           {
             "vendor": "Buy from Yushakobo here",
             "url": "https://shop.yushakobo.jp/products/11918?srsltid=AfmBOor_6STY9CEzv-wzyst8TUkbrZZXyd6j-D8TnCVtXTF8if3N-RA4",
             "host": "shop.yushakobo.jp",
-            "metadata_fetched_at": "2026-07-19T12:06:47.037906+00:00",
+            "metadata_fetched_at": "2026-07-20T12:07:18.245953+00:00",
             "price_low": 22000,
             "price_high": 2200000,
             "currency": "JPY",
@@ -207,7 +207,7 @@
             "vendor": "Buy from TypistClub here",
             "url": "https://item.taobao.com/item.htm?ft=t&id=1019884573957&spm=a21dvs.23580594.0.0.6ffb645eIlGxvH",
             "host": "item.taobao.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.037951+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246013+00:00"
           }
         ],
         "status": "ended"
@@ -269,67 +269,67 @@
             "vendor": "DeltaKeyCo",
             "url": "https://deltakeyco.com/",
             "host": "deltakeyco.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038022+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246027+00:00"
           },
           {
             "vendor": "Monacokeys",
             "url": "https://monacokeys.de/",
             "host": "monacokeys.de",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038049+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246037+00:00"
           },
           {
             "vendor": "Divinikey",
             "url": "https://divinikey.com/",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038061+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246207+00:00"
           },
           {
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038071+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246220+00:00"
           },
           {
             "vendor": "KeebzNCables",
             "url": "https://www.keebzncables.com/",
             "host": "www.keebzncables.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038079+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246236+00:00"
           },
           {
             "vendor": "Zfrontier",
             "url": "https://www.zfrontier.com/",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038087+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246245+00:00"
           },
           {
             "vendor": "Geon",
             "url": "https://geon.works/",
             "host": "geon.works",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038095+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246254+00:00"
           },
           {
             "vendor": "Ktechs.store",
             "url": "https://ktechs.store/",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038103+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246262+00:00"
           },
           {
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/",
             "host": "unikeyboards.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038111+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246270+00:00"
           },
           {
             "vendor": "Keykobo",
             "url": "https://www.keykobo.com/",
             "host": "www.keykobo.com",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038119+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246280+00:00"
           },
           {
             "vendor": "Khor",
             "url": "https://khor.store/",
             "host": "khor.store",
-            "metadata_fetched_at": "2026-07-19T12:06:47.038127+00:00"
+            "metadata_fetched_at": "2026-07-20T12:07:18.246288+00:00"
           }
         ],
         "status": "ended"
