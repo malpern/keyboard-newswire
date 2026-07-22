@@ -92,13 +92,13 @@
             "vendor": "https://www.kickstarter.com/projects/taikohub/taiko-01-keyboard",
             "url": "https://www.kickstarter.com/projects/taikohub/taiko-01-keyboard",
             "host": "www.kickstarter.com",
-            "metadata_fetched_at": "2026-07-21T12:07:02.461694+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:16.435674+00:00"
           },
           {
             "vendor": "https://taiko.taikohub.com",
             "url": "https://taiko.taikohub.com",
             "host": "taiko.taikohub.com",
-            "metadata_fetched_at": "2026-07-21T12:07:02.461703+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:16.435694+00:00"
           }
         ],
         "status": "live",
@@ -154,7 +154,7 @@
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/gmk-cyl-gonzales-keycaps",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-07-21T12:07:02.735078+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:16.619952+00:00",
             "price_low": 3000,
             "price_high": 13500,
             "available": false
@@ -163,7 +163,7 @@
             "vendor": "KBDfans",
             "url": "https://kbdfans.com/collections/group-buy-live/products/gmk-cyl-gonzales",
             "host": "kbdfans.com",
-            "metadata_fetched_at": "2026-07-21T12:07:03.067156+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:16.988999+00:00",
             "price_low": 3000,
             "price_high": 14000,
             "currency": "USD",
@@ -173,7 +173,7 @@
             "vendor": "proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-gmk-cyl-gonzales",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-07-21T12:07:03.443491+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:17.289423+00:00",
             "price_low": 2250,
             "price_high": 10250,
             "currency": "GBP",
@@ -183,7 +183,7 @@
             "vendor": "eloquentclicks",
             "url": "https://eloquentclicks.com/products/gmk-cyl-gonzales-keycaps",
             "host": "eloquentclicks.com",
-            "metadata_fetched_at": "2026-07-21T12:07:03.765212+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:17.693874+00:00",
             "price_low": 3100,
             "price_high": 14200,
             "available": true
@@ -192,7 +192,7 @@
             "vendor": "Deskhero",
             "url": "https://www.deskhero.ca/products/gmk-cyl-gonzales-keycaps",
             "host": "www.deskhero.ca",
-            "metadata_fetched_at": "2026-07-21T12:07:04.107067+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:18.019970+00:00",
             "price_low": 4400,
             "price_high": 20700,
             "currency": "CAD",
@@ -202,13 +202,13 @@
             "vendor": "Ktechs",
             "url": "https://ktechs.store/products/gmk-gonzales",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-07-21T12:07:04.289500+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:18.336712+00:00"
           },
           {
             "vendor": "Switchkeys",
             "url": "https://www.switchkeys.com.au/products/gmk-cyl-gonzales-group-buy",
             "host": "www.switchkeys.com.au",
-            "metadata_fetched_at": "2026-07-21T12:07:04.494854+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:18.583577+00:00",
             "price_low": 3500,
             "price_high": 21000,
             "available": true
@@ -217,7 +217,7 @@
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-gmk-gonzales?_pos=1&_psq=gmk+gon&_ss=e&_v=1.0",
             "host": "swagkeys.com",
-            "metadata_fetched_at": "2026-07-21T12:07:04.704572+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:18.851753+00:00"
           }
         ],
         "starts_at": "2026-05-04",
@@ -309,13 +309,13 @@
             "vendor": "Rukia's Build VOD",
             "url": "https://m.twitch.tv/videos/2790746571",
             "host": "m.twitch.tv",
-            "metadata_fetched_at": "2026-07-21T12:07:04.704635+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:18.851853+00:00"
           },
           {
             "vendor": "Twitch",
             "url": "https://twitch.tv/godsson-designs",
             "host": "twitch.tv",
-            "metadata_fetched_at": "2026-07-21T12:07:04.704646+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:18.851883+00:00"
           }
         ]
       },

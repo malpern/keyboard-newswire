@@ -64,7 +64,7 @@
             "vendor": "https://omnitype.com/products/enso-e",
             "url": "https://omnitype.com/products/enso-e",
             "host": "omnitype.com",
-            "metadata_fetched_at": "2026-07-21T12:06:51.634047+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:07.059821+00:00",
             "price_low": 44999,
             "price_high": 51999,
             "available": false
@@ -73,7 +73,7 @@
             "vendor": "https://omnitype.com/products/enso-e-titan-edition",
             "url": "https://omnitype.com/products/enso-e-titan-edition",
             "host": "omnitype.com",
-            "metadata_fetched_at": "2026-07-21T12:06:52.634515+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:08.095561+00:00",
             "price_low": 154999,
             "available": false
           }
@@ -200,7 +200,7 @@
             "vendor": "JOIN THE GB HERE",
             "url": "https://koboisshi.com",
             "host": "koboisshi.com",
-            "metadata_fetched_at": "2026-07-21T12:06:52.634623+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:08.095605+00:00"
           }
         ]
       },
@@ -256,7 +256,7 @@
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/swg-neowell-keycaps",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-07-21T12:06:52.843277+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:08.366656+00:00",
             "price_low": 1200,
             "price_high": 6500,
             "available": true
@@ -265,7 +265,7 @@
             "vendor": "Unikey",
             "url": "https://unikeyboards.com/products/swg-neowell-abs-double-shot-keycap-set",
             "host": "unikeyboards.com",
-            "metadata_fetched_at": "2026-07-21T12:06:53.168335+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:08.568595+00:00",
             "price_low": 1200,
             "price_high": 6500,
             "available": true
@@ -274,7 +274,7 @@
             "vendor": "Monacokey",
             "url": "https://monacokeys.de/products/swg-neowell-cherry-profile-abs-double-shot-keycap-set",
             "host": "monacokeys.de",
-            "metadata_fetched_at": "2026-07-21T12:06:53.707404+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:08.908336+00:00",
             "price_low": 1300,
             "price_high": 7000,
             "available": true
@@ -283,7 +283,7 @@
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-swg-neowell",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-07-21T12:06:54.048443+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:09.254979+00:00",
             "price_low": 917,
             "price_high": 5000,
             "currency": "GBP",
@@ -293,7 +293,7 @@
             "vendor": "Toro Studios",
             "url": "https://torokeeb.store/products/gb-swg-neowell",
             "host": "torokeeb.store",
-            "metadata_fetched_at": "2026-07-21T12:06:54.314692+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:09.573810+00:00",
             "price_low": 2000,
             "price_high": 11000,
             "currency": "EUR",
@@ -303,7 +303,7 @@
             "vendor": "SwagKeys",
             "url": "https://swagkeys.com/products/group-buy-swg-neowell",
             "host": "swagkeys.com",
-            "metadata_fetched_at": "2026-07-21T12:06:54.567779+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:09.764077+00:00",
             "price_low": 1200,
             "price_high": 6500,
             "available": true
@@ -312,7 +312,7 @@
             "vendor": "KTechs",
             "url": "https://ktechs.store/products/swg-neowell",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-07-21T12:06:54.789841+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:10.114881+00:00",
             "price_low": 1560,
             "price_high": 8400,
             "currency": "SGD",
@@ -322,7 +322,7 @@
             "vendor": "Keycapepe",
             "url": "https://keycapepe.com/products/group-buy-swg-neowell-abs-keycap-set",
             "host": "keycapepe.com",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408377+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:10.499232+00:00",
             "price_low": 45000,
             "price_high": 220000,
             "available": true
@@ -384,31 +384,31 @@
             "vendor": "GEONWORKS",
             "url": "https://geon.works/",
             "host": "geon.works",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408425+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.499283+00:00"
           },
           {
             "vendor": "Divinikey",
             "url": "https://divinikey.com/",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408438+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.499299+00:00"
           },
           {
             "vendor": "Aiglatson Studio",
             "url": "https://aiglatsonstudio.com/",
             "host": "aiglatsonstudio.com",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408448+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.499312+00:00"
           },
           {
             "vendor": "Ktechs",
             "url": "https://ktechs.store/",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408457+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.499323+00:00"
           },
           {
             "vendor": "QwertyQop",
             "url": "https://qwertyqop.com/",
             "host": "qwertyqop.com",
-            "metadata_fetched_at": "2026-07-21T12:06:55.408465+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.499343+00:00"
           }
         ],
         "designer": "your"

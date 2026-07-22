@@ -142,7 +142,7 @@
             "vendor": "CannonKeys",
             "url": "https://cannonkeys.com/products/dcs-handarbeit?variant=44527881125999",
             "host": "cannonkeys.com",
-            "metadata_fetched_at": "2026-07-21T12:06:55.859699+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:10.987501+00:00",
             "price_low": 800,
             "price_high": 11500,
             "currency": "USD",
@@ -152,13 +152,13 @@
             "vendor": "OBLOTZKY",
             "url": "https://oblotzky.industries//",
             "host": "oblotzky.industries",
-            "metadata_fetched_at": "2026-07-21T12:06:55.859746+00:00"
+            "metadata_fetched_at": "2026-07-22T12:06:10.987572+00:00"
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/products/group-buy-dcs-handarbeit",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-07-21T12:06:56.125864+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:11.327400+00:00",
             "price_low": 583,
             "price_high": 9083,
             "currency": "GBP",
@@ -168,17 +168,17 @@
             "vendor": "Ktechs",
             "url": "https://ktechs.store/products/dcs-handarbeit?variant=47901267689702",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-07-21T12:06:56.311078+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:11.511406+00:00",
             "price_low": 1040,
             "price_high": 15600,
             "currency": "SGD",
-            "available": true
+            "available": false
           },
           {
             "vendor": "GEONWORKS",
             "url": "https://geon.works/products/group-buy-dcs-handarbeit",
             "host": "geon.works",
-            "metadata_fetched_at": "2026-07-21T12:06:56.632119+00:00",
+            "metadata_fetched_at": "2026-07-22T12:06:11.745493+00:00",
             "price_low": 800,
             "price_high": 12000,
             "currency": "USD",
