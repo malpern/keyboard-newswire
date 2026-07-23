@@ -60,62 +60,82 @@
           {
             "vendor": "Cannonkeys",
             "url": "https://cannonkeys.com/collections/featured/products/gb-gmk-foundation",
-            "host": "cannonkeys.com"
+            "host": "cannonkeys.com",
+            "metadata_fetched_at": "2026-07-23T12:07:10.741482+00:00"
           },
           {
             "vendor": "Deskhero",
             "url": "https://www.deskhero.ca/products/gmk-foundation",
-            "host": "www.deskhero.ca"
+            "host": "www.deskhero.ca",
+            "metadata_fetched_at": "2026-07-23T12:07:10.986016+00:00"
           },
           {
             "vendor": "Candykeys",
             "url": "https://candykeys.com/product/gmk-foundation-base-kit/",
-            "host": "candykeys.com"
+            "host": "candykeys.com",
+            "metadata_fetched_at": "2026-07-23T12:07:10.986124+00:00"
           },
           {
             "vendor": "Proto[typist]",
             "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-gmk-foundation/",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-07-23T12:07:11.299230+00:00",
+            "price_low": 1583,
+            "price_high": 9583,
+            "currency": "GBP",
+            "available": false
           },
           {
             "vendor": "zFrontier",
             "url": "https://en.zfrontier.com/products/gmk-foundation",
-            "host": "en.zfrontier.com"
+            "host": "en.zfrontier.com",
+            "metadata_fetched_at": "2026-07-23T12:07:11.527540+00:00"
           },
           {
             "vendor": "zFrontier CHN",
             "url": "https://www.zfrontier.com/app/mch/l3nWrMEYVRL1",
-            "host": "www.zfrontier.com"
+            "host": "www.zfrontier.com",
+            "metadata_fetched_at": "2026-07-23T12:07:11.527585+00:00"
           },
           {
             "vendor": "Monokei",
             "url": "https://monokei.co/products/gmk-foundation",
-            "host": "monokei.co"
+            "host": "monokei.co",
+            "metadata_fetched_at": "2026-07-23T12:07:11.789885+00:00"
           },
           {
             "vendor": "SWAGKeys",
             "url": "https://swagkeys.com/products/gb-gmk-foundation",
-            "host": "swagkeys.com"
+            "host": "swagkeys.com",
+            "metadata_fetched_at": "2026-07-23T12:07:11.995307+00:00"
           },
           {
             "vendor": "Dailyclack",
             "url": "https://dailyclack.com/products/gmk-foundation",
-            "host": "dailyclack.com"
+            "host": "dailyclack.com",
+            "metadata_fetched_at": "2026-07-23T12:07:12.189041+00:00",
+            "price_low": 6800,
+            "price_high": 27000,
+            "currency": "AUD",
+            "available": false
           },
           {
             "vendor": "1st Garden",
             "url": "https://1st.garden/",
-            "host": "1st.garden"
+            "host": "1st.garden",
+            "metadata_fetched_at": "2026-07-23T12:07:12.189124+00:00"
           },
           {
             "vendor": "Monokei",
             "url": "https://monokei.co/",
-            "host": "monokei.co"
+            "host": "monokei.co",
+            "metadata_fetched_at": "2026-07-23T12:07:12.189149+00:00"
           },
           {
             "vendor": "Y-CP Keyboard Sleeve",
             "url": "https://ycpkeyboards.id/",
-            "host": "ycpkeyboards.id"
+            "host": "ycpkeyboards.id",
+            "metadata_fetched_at": "2026-07-23T12:07:12.189171+00:00"
           }
         ],
         "related_threads": [
