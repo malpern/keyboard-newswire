@@ -3,6 +3,71 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-25",
+      "items": [
+        {
+          "id": "geekhack-126796",
+          "title": "[IC] DCS SOJU BLUE",
+          "url": "https://geekhack.org/index.php?topic=126796.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126796.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 22775,
+          "comments": 14,
+          "category": "breaking",
+          "takeaway": "Hey guys, Neil from Typist Club here. Introing DCS SOJU BLUE, the sequel by KEI (the designer behind KKB SOJU BLUE). Inspo comes from Korean Jinro Retro Soju \"Jinro Is Back\" . Compared to the KKB version, DCS are tweaked based on SP ABS colors, and the novelties got a new design. Kit Renders: Links: IC Form Designer's Instagram Typist Club Discord Dropping here because it feels illegal not to. Just a heads up: we're based in China, so we won't be haunting this channel daily. Lurk at your own discretion! Colors: Blue: BHG Darker Blue: BE White: WGE Comfirmed Vendors: AU: Keebz N Cables CN: Typi",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.postimg.cc/Vk5FjPzy/DCS-SOJU-blue-kit-base.jpg",
+            "https://i.postimg.cc/nhM1vfp6/DCS-SOJU-blue-kit-alpha.jpg",
+            "https://i.postimg.cc/FH1xjXh4/DCS-SOJU-blue-kit-pad.jpg",
+            "https://i.postimg.cc/c4FmgLGs/DCS-SOJU-blue-kit-40s.jpg",
+            "https://i.postimg.cc/6QT84gjF/DCS-SOJU-blue-kit-nov.jpg",
+            "https://i.postimg.cc/28kGSBJX/dcs-SOJU-Blue-01.jpg",
+            "https://i.postimg.cc/nc3kjhbY/dcs-SOJU-Blue-02.jpg",
+            "https://i.postimg.cc/fTzCR0Fq/dcs-SOJU-Blue-03.jpg",
+            "https://i.postimg.cc/4NW57xkQ/dcs-SOJU-Blue-04.jpg",
+            "https://i.postimg.cc/CLcNBxT6/dcs-SOJU-Blue-05.jpg",
+            "https://i.postimg.cc/Hs62ckDN/dcs-SOJU-Blue-06.jpg",
+            "https://i.postimg.cc/MK9DMp2h/dcs-SOJU-Blue-07.jpg",
+            "https://i.postimg.cc/sDTcQgCr/dcs-SOJU-Blue-08.jpg",
+            "https://i.postimg.cc/xT6RJ1Vj/dcs-SOJU-Blue-09.jpg"
+          ],
+          "gb": {
+            "designer": "KEI",
+            "vendor_regions": [
+              {
+                "region": "AU",
+                "name": "Keebz N Cables"
+              },
+              {
+                "region": "CN",
+                "name": "Typi"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126796-0.jpg",
+            "img/geekhack-126796-1.jpg",
+            "img/geekhack-126796-2.jpg",
+            "img/geekhack-126796-3.jpg",
+            "img/geekhack-126796-4.jpg",
+            "img/geekhack-126796-5.jpg"
+          ],
+          "image": "img/geekhack-126796-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-24",
       "items": [
         {
