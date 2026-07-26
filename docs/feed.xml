@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 25 Jul 2026 12:06:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 12:02:51 +0000</lastBuildDate>
+  <item>
+    <title>Bayleaf Wireless Keyboard Build</title>
+    <link>https://www.graz.io/articles/bayleaf-wireless-keyboard/</link>
+    <guid isPermaLink="false">hn-49049847</guid>
+    <pubDate>Sun, 26 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: ScreenFocus – keyboard focus follows the pointer across Mac displays</title>
+    <link>https://github.com/therohitdas/ScreenFocus</link>
+    <guid isPermaLink="false">hn-49055525</guid>
+    <pubDate>Sun, 26 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>KBDfans opens Tofu TKL R2 group buy</title>
     <link>https://malpern.github.io/keyboard-wire/email/19f7d6c16c8ecbcc/</link>
@@ -2093,27 +2114,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/crkbd</source>
     <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
-  </item>
-  <item>
-    <title>Binepad BNK-16 - Review and issues</title>
-    <link>https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/</link>
-    <guid isPermaLink="false">reddit-1s8pwjg</guid>
-    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
-    <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
-  </item>
-  <item>
-    <title>kanata backtick shows as "§" and tilde as "±"</title>
-    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1s7dm2m/kanata_backtick_shows_as_and_tilde_as/</link>
-    <guid isPermaLink="false">reddit-1s7dm2m</guid>
-    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
-    <description>Solved issue with kanata on macOS where backtick/tilde keys displayed wrong characters — fixed by changing keyboard type in settings. — 1 pts · 12 comments · r/KeyboardLayouts</description>
   </item>
 </channel>
 </rss>

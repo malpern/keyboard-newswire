@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "id": "hn-49049847",
+      "title": "Bayleaf Wireless Keyboard Build",
+      "url": "https://www.graz.io/articles/bayleaf-wireless-keyboard/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49049847",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "diy-build",
+        "pcb-design"
+      ],
+      "image": "img/hn-49049847.jpg"
+    },
+    {
+      "id": "hn-49055525",
+      "title": "Show HN: ScreenFocus – keyboard focus follows the pointer across Mac displays",
+      "url": "https://github.com/therohitdas/ScreenFocus",
+      "discussion_url": "https://news.ycombinator.com/item?id=49055525",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "remapping-layouts",
+        "tools-software"
+      ],
+      "tags": [
+        "macos-utilities",
+        "shortcut-manager"
+      ],
+      "image": "img/hn-49055525.jpg"
+    }
+  ]
+}

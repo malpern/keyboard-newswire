@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 25 Jul 2026 12:06:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 26 Jul 2026 12:02:51 +0000</lastBuildDate>
+  <item>
+    <title>Bayleaf Wireless Keyboard Build</title>
+    <link>https://www.graz.io/articles/bayleaf-wireless-keyboard/</link>
+    <guid isPermaLink="false">hn-49049847</guid>
+    <pubDate>Sun, 26 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Ergonomic keyboard generator with hand scanning</title>
     <link>https://ryanis.cool/cosmos/</link>
