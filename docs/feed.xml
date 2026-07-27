@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Jul 2026 12:07:53 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 12:02:42 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Quintile – keyboard-only window grids for Mac</title>
+    <link>https://github.com/stefanopineda/quintile</link>
+    <guid isPermaLink="false">hn-49065050</guid>
+    <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Bayleaf Wireless Keyboard Build</title>
     <link>https://www.graz.io/articles/bayleaf-wireless-keyboard/</link>
@@ -2103,17 +2113,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Corne Eclipse design with dual encoders and nice!view screens open-sourced</title>
-    <link>https://www.reddit.com/r/crkbd/comments/1s8688f/opensourced_my_corne_eclipse_design_wdual_encoder/</link>
-    <guid isPermaLink="false">reddit-1s8688f</guid>
-    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/crkbd</source>
-    <description>Custom Corne MX build with dual encoders, dual nice!view screens, ZMK firmware, and ZMK Studio support now open-sourced on GitHub. — 77 pts · 2 comments · r/crkbd</description>
   </item>
 </channel>
 </rss>

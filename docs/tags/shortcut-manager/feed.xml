@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/shortcut-manager/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Shortcut Manager.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 26 Jul 2026 12:07:53 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 27 Jul 2026 12:02:42 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Quintile – keyboard-only window grids for Mac</title>
+    <link>https://github.com/stefanopineda/quintile</link>
+    <guid isPermaLink="false">hn-49065050</guid>
+    <pubDate>Mon, 27 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Show HN: ScreenFocus – keyboard focus follows the pointer across Mac displays</title>
     <link>https://github.com/therohitdas/ScreenFocus</link>

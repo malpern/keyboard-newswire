@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-27",
+  "items": [
+    {
+      "id": "hn-49065050",
+      "title": "Show HN: Quintile – keyboard-only window grids for Mac",
+      "url": "https://github.com/stefanopineda/quintile",
+      "discussion_url": "https://news.ycombinator.com/item?id=49065050",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "macos-utilities",
+        "shortcut-manager"
+      ],
+      "image": "img/hn-49065050.jpg"
+    }
+  ]
+}
