@@ -3,6 +3,57 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-07-28",
+      "items": [
+        {
+          "id": "geekhack-126959",
+          "title": "[IC] DCS Nights",
+          "url": "https://geekhack.org/index.php?topic=126959.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126959.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1072,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Fill IC Form Here I would like to present: Nights DCS Nights is a dark set that pairs black keycaps with soft luminous legends and a spectrum of colors. This creates moments of color within a dark presentation, like walking through downtown at night and seeing flashes of color and light pop as you make your way. DCS Nights will hopefully be offered in both Alps and MX switch compatibility. Alps-compatible group buys are rare, and this project aims to provide the most common layout support through a TKL base kit and optional kits if you need em. If you’d like to see this project happen, please",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://photos.kstj.us/ALPS_Base_Branded.png",
+            "https://photos.kstj.us/ALPS_Numpad_Branded.png",
+            "https://photos.kstj.us/ALPS_Extension_Branded.png",
+            "https://photos.kstj.us/ALPS_Blanks_Branded.png",
+            "https://photos.kstj.us/MX_Base_Branded.png",
+            "https://photos.kstj.us/Nights_MX_Numpad_Branded.png",
+            "https://photos.kstj.us/MX_Extension_Branded.png",
+            "https://photos.kstj.us/MX_6-key_40s_Branded.png",
+            "https://photos.kstj.us/MX_Blanks_Branded.png",
+            "https://photos.kstj.us/Seal80_2.png",
+            "https://photos.kstj.us/Seal100_2Corrected.png",
+            "https://photos.kstj.us/Cloundnine_x_Nights.png",
+            "https://photos.kstj.us/DCS_Nights_Tucked_In_Night.png"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-126959-0.jpg",
+            "img/geekhack-126959-1.jpg",
+            "img/geekhack-126959-2.jpg",
+            "img/geekhack-126959-3.jpg",
+            "img/geekhack-126959-4.jpg",
+            "img/geekhack-126959-5.jpg"
+          ],
+          "image": "img/geekhack-126959-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-07-27",
       "items": [
         {
