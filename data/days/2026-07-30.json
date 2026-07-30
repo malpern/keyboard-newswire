@@ -35,37 +35,68 @@
           {
             "vendor": "Bowl",
             "url": "https://bowlkeyboards.com/collections/gb-preorder/products/gb-swg-heartbreaker",
-            "host": "bowlkeyboards.com"
+            "host": "bowlkeyboards.com",
+            "metadata_fetched_at": "2026-07-30T12:06:54.297990+00:00",
+            "price_low": 1200,
+            "price_high": 6500,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-swg-heartbreaker?_su_rec=t0f2ndcTw0qCrGavFttjYIBiJtiw5KqP9n4t3kZFTX5gpAHhuaL0VfssIBLaHOU4EHKzW5pDoiRQhGvgWL1gBV-Y2LgXLNNyKcxMW_kBK_8bzNUY4QCUW8lvl6oxsNFvk45PVwz_kAykZkza6OvtoOPb4kuCsXbRHMFiBsSDjBTbIFxCNOpG3gCCYcpnd6Yp1oYpItKMUn4KP7LPcxPPkppGOHauFyfykO9lzUUcpwLiMltc123_GAB6ZJ0URS6BLxAmLnBl_Vt22X0TXIdjCDSSvDg3qCPdXCcnvZrKjKuQwueir2GIw5GteQiG7XR3gxNG0cZZHJ0a9uBVwmXmWCHHY1sLWwd4amF9zWc3WuvnwQ&_su_rec_id=c0b34540-74cc-47e8-9bb1-3f3438fab10c-1784599323",
-            "host": "swagkeys.com"
+            "host": "swagkeys.com",
+            "metadata_fetched_at": "2026-07-30T12:06:54.498140+00:00",
+            "price_low": 1200,
+            "price_high": 6500,
+            "available": true
           },
           {
             "vendor": "Delta",
             "url": "https://deltakeyco.com/products/swg-heartbreaker-pre-order",
-            "host": "deltakeyco.com"
+            "host": "deltakeyco.com",
+            "metadata_fetched_at": "2026-07-30T12:06:54.772297+00:00",
+            "price_low": 1300,
+            "price_high": 6850,
+            "available": true
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-swg-heartbreaker",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-07-30T12:06:55.063296+00:00",
+            "price_low": 917,
+            "price_high": 5000,
+            "currency": "GBP",
+            "available": true
           },
           {
             "vendor": "Keybay",
             "url": "https://keybay.tech/products/gb-swg-heartbreaker?variant=54220966134035",
-            "host": "keybay.tech"
+            "host": "keybay.tech",
+            "metadata_fetched_at": "2026-07-30T12:06:55.240493+00:00",
+            "price_low": 1900,
+            "price_high": 9900,
+            "available": true
           },
           {
             "vendor": "Aiglatson",
             "url": "https://aiglatsonstudio.com/products/gb-swg-heartbreaker",
-            "host": "aiglatsonstudio.com"
+            "host": "aiglatsonstudio.com",
+            "metadata_fetched_at": "2026-07-30T12:06:55.704336+00:00",
+            "price_low": 45000,
+            "price_high": 245000,
+            "available": true
           },
           {
             "vendor": "KTechs",
             "url": "https://ktechs.store/products/swg-heartbreaker?_su_rec=Lo8M-cdIRz3zv8RUpdQ-jRCZ16mGFyT4O_J84wXJ2biPhno5Xrruk_HODa6PQuYG3pUJk6nUS-rloMRRrZj4jdQLO8C8DqSGFSofS3nIt_In8j53lGLwlfDQzjfrjo3UMK95yTKdzO0UQp14tgBlfzUKIzccSiCLlMe9isk0SbWrb_dtC9LKSNwdajBfcNEfV6gslSepf1oZUkhWJOKsO2Bjq5RHZ7qa_Np-A2BOkzDFDXf82kZVNP09jV-wBxiIDYVhtuELGUHWoKNwDCuUqZt2a9m1lpbvPBPS7ajklihhGIuqp0Q091Y7aE12tUu_PWPEzzpXV5u674xIAIAqMzUSVMwQt0gXpQo&_su_rec_id=49daa596-ef8d-4645-9d0c-09b2739f2ec6-1784599275",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-07-30T12:06:55.905654+00:00",
+            "price_low": 1590,
+            "price_high": 8490,
+            "currency": "SGD",
+            "available": true
           }
         ]
       },
