@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-31",
+  "items": [
+    {
+      "id": "hn-49118655",
+      "title": "Reverse engineering the Attack Shark keyboard protocol",
+      "url": "https://dnim.dev/blog/royuan-keyboard-protocol",
+      "discussion_url": "https://news.ycombinator.com/item?id=49118655",
+      "source": "hn",
+      "subreddit": null,
+      "score": 3,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "reverse-engineering",
+        "protocol-analysis",
+        "hardware-security"
+      ],
+      "image": "img/hn-49118655.jpg"
+    },
+    {
+      "id": "hn-49115789",
+      "title": "New Keyboard: Alicja v2",
+      "url": "https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49115789",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "pcb-design",
+        "diy-build"
+      ]
+    }
+  ]
+}

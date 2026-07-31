@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 30 Jul 2026 12:07:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 31 Jul 2026 12:02:54 +0000</lastBuildDate>
+  <item>
+    <title>Reverse engineering the Attack Shark keyboard protocol</title>
+    <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
+    <guid isPermaLink="false">hn-49118655</guid>
+    <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>KLORBALL35</title>
     <link>https://kbd.news/KLORBALL35-2880.html</link>

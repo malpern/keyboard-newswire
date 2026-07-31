@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 30 Jul 2026 12:07:18 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 31 Jul 2026 12:02:54 +0000</lastBuildDate>
+  <item>
+    <title>Reverse engineering the Attack Shark keyboard protocol</title>
+    <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
+    <guid isPermaLink="false">hn-49118655</guid>
+    <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>New Keyboard: Alicja v2</title>
+    <link>https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/</link>
+    <guid isPermaLink="false">hn-49115789</guid>
+    <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Show HN: Quintile – keyboard-only window grids for Mac</title>
     <link>https://github.com/stefanopineda/quintile</link>
@@ -2092,27 +2112,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Hydration Narc – A keyboard-locking water reminder for macOS</title>
-    <link>https://github.com/Lameda12/hydration-narc&gt;</link>
-    <guid isPermaLink="false">hn-47620399</guid>
-    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>1 pts · 1 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>I Made a Keyboard Nobody Asked For</title>
-    <link>https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/</link>
-    <guid isPermaLink="false">hn-47602538</guid>
-    <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>1 pts · 0 comments · Hacker News</description>
   </item>
 </channel>
 </rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Hardware Security · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/hardware-security/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/hardware-security/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Hardware Security.</description>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 31 Jul 2026 12:02:55 +0000</lastBuildDate>
+  <item>
+    <title>Reverse engineering the Attack Shark keyboard protocol</title>
+    <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
+    <guid isPermaLink="false">hn-49118655</guid>
+    <pubDate>Fri, 31 Jul 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+</channel>
+</rss>
