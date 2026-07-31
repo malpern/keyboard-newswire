@@ -40,6 +40,51 @@
         "pcb-design",
         "diy-build"
       ]
+    },
+    {
+      "id": "geekhack-126711",
+      "title": "[IC] Blaine V2 Keyboard",
+      "url": "https://geekhack.org/index.php?topic=126711.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126711.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 49459,
+      "comments": 15,
+      "category": "breaking",
+      "takeaway": "The Blaine V2: SE Background The Blaine V2: SE was born out of an “Omakase” keyboard private group buy I ran in the New England Keyboard Discord in 2024. Omakase means “I leave it up to you” - and the 10 people who joined the group buy knew almost nothing about the board when purchasing. When I first talked about the idea, a bunch of people said they would join if I used the F12 Jane TKL plate - so that’s what I did. Note that this was not my original idea - and that one is still cooking. The resulting keyboard was the Blaine V1: Cinnabar Edition - which you can see here: It does look pretty s",
+      "topics": [
+        "group-buys-vendors",
+        "builds-hardware"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.imgur.com/0YW5q0R.jpeg",
+        "https://i.imgur.com/MEff7oO.png",
+        "https://i.imgur.com/qGZwxJB.png",
+        "https://i.imgur.com/eFQadms.png",
+        "https://i.imgur.com/5mnLfQG.png",
+        "https://i.imgur.com/0BPHK11.png",
+        "https://i.imgur.com/TWONtwt.png",
+        "https://i.imgur.com/CghypLO.png",
+        "https://i.imgur.com/nx0PjQl.png",
+        "https://i.imgur.com/TpjZZjE.jpeg",
+        "https://i.imgur.com/kXJunhb.jpeg"
+      ],
+      "tags": [
+        "group-buy",
+        "pcb-design",
+        "diy-build"
+      ],
+      "images": [
+        "img/geekhack-126711-0.jpg",
+        "img/geekhack-126711-1.jpg",
+        "img/geekhack-126711-2.jpg",
+        "img/geekhack-126711-3.jpg",
+        "img/geekhack-126711-4.jpg",
+        "img/geekhack-126711-5.jpg"
+      ],
+      "image": "img/geekhack-126711-0.jpg"
     }
   ]
 }
