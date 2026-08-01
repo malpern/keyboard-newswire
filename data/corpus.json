@@ -4060,6 +4060,46 @@
             "mechanical-keyboard"
           ],
           "image": "img/kbdnews-2875.jpg"
+        },
+        {
+          "id": "hn-48662242",
+          "title": "Show HN: Browser based tool for programming ch57x macro-pads",
+          "url": "https://pollrobots.com/cheese-tax.html",
+          "discussion_url": "https://news.ycombinator.com/item?id=48662242",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "open-source",
+            "custom-firmware"
+          ]
+        },
+        {
+          "id": "hn-48670022",
+          "title": "Bluetooth T9 keyboard for smartphones (and other things)",
+          "url": "https://jrainimo.com/build/2026/05/t9/",
+          "discussion_url": "https://news.ycombinator.com/item?id=48670022",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "builds-hardware",
+            "firmware"
+          ],
+          "tags": [
+            "diy-build",
+            "custom-firmware",
+            "pcb-design"
+          ]
         }
       ]
     },
