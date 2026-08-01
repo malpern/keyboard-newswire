@@ -76,12 +76,14 @@
           {
             "vendor": "Blackdrop",
             "url": "http://blackdrop.net",
-            "host": "blackdrop.net"
+            "host": "blackdrop.net",
+            "metadata_fetched_at": "2026-08-01T12:06:25.745664+00:00"
           },
           {
             "vendor": "Blackdrop",
             "url": "https://blackdrop.net/projects/xteeeeeeeeeeeeeeeeeeeeeeeee",
-            "host": "blackdrop.net"
+            "host": "blackdrop.net",
+            "metadata_fetched_at": "2026-08-01T12:06:25.745946+00:00"
           }
         ],
         "related_threads": [
