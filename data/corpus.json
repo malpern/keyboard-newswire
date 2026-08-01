@@ -4038,6 +4038,33 @@
       ]
     },
     {
+      "date": "2026-06-29",
+      "items": [
+        {
+          "id": "hn-48711731",
+          "title": "Show HN: Adipoli: a hand-wired keyboard for opposable thumbs",
+          "url": "https://codeberg.org/sudobangbang/adipoli",
+          "discussion_url": "https://news.ycombinator.com/item?id=48711731",
+          "source": "hn",
+          "subreddit": null,
+          "score": 4,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "diy-build",
+            "pcb-design"
+          ],
+          "image": "img/hn-48711731.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-27",
       "items": [
         {

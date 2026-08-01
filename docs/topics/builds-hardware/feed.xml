@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 01 Aug 2026 03:20:10 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 03:20:28 +0000</lastBuildDate>
   <item>
     <title>New Keyboard: Alicja v2</title>
     <link>https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/</link>
@@ -122,6 +122,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>KBD.news</description>
+  </item>
+  <item>
+    <title>Show HN: Adipoli: a hand-wired keyboard for opposable thumbs</title>
+    <link>https://codeberg.org/sudobangbang/adipoli</link>
+    <guid isPermaLink="false">hn-48711731</guid>
+    <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>4 pts · 0 comments · Hacker News</description>
   </item>
   <item>
     <title>XVX L75 Air review</title>

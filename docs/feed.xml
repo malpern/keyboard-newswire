@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 01 Aug 2026 03:20:10 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 03:20:28 +0000</lastBuildDate>
   <item>
     <title>Reverse engineering the Attack Shark keyboard protocol</title>
     <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
@@ -288,6 +288,17 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>KBD.news</description>
+  </item>
+  <item>
+    <title>Show HN: Adipoli: a hand-wired keyboard for opposable thumbs</title>
+    <link>https://codeberg.org/sudobangbang/adipoli</link>
+    <guid isPermaLink="false">hn-48711731</guid>
+    <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>4 pts · 0 comments · Hacker News</description>
   </item>
   <item>
     <title>Show HN: Keyway – Control your Mac from the keyboard</title>
@@ -2103,17 +2114,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow. — 1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>ZMK users troubleshoot Supermini MCU connectivity issues</title>
-    <link>https://www.reddit.com/r/zmk/comments/1cqbc5r/connecting_issues/</link>
-    <guid isPermaLink="false">reddit-1cqbc5r</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/zmk</source>
-    <description>First-build connectivity problems (Supermini MCU + ZMK) — several troubleshooting replies (worthwatch if ZMK USB/bluetooth fixes emerge). — 1 pts · 9 comments · r/zmk</description>
   </item>
 </channel>
 </rss>
