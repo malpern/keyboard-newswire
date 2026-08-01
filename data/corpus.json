@@ -4038,6 +4038,32 @@
       ]
     },
     {
+      "date": "2026-06-27",
+      "items": [
+        {
+          "id": "hn-48688190",
+          "title": "Show HN: Keyway – Control your Mac from the keyboard",
+          "url": "https://github.com/Njuhobby/keyway",
+          "discussion_url": "https://news.ycombinator.com/item?id=48688190",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 2,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "remapping-layouts",
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "shortcut-manager"
+          ],
+          "image": "img/hn-48688190.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-06-25",
       "items": [
         {

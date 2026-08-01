@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 01 Aug 2026 03:19:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 03:20:10 +0000</lastBuildDate>
   <item>
     <title>Show HN: ScreenFocus – keyboard focus follows the pointer across Mac displays</title>
     <link>https://github.com/therohitdas/ScreenFocus</link>
@@ -17,6 +17,17 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Keyway – Control your Mac from the keyboard</title>
+    <link>https://github.com/Njuhobby/keyway</link>
+    <guid isPermaLink="false">hn-48688190</guid>
+    <pubDate>Sat, 27 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 2 comments · Hacker News</description>
   </item>
   <item>
     <title>Made a free macOS menu bar app that fixes typing in the wrong keyboard layout</title>
