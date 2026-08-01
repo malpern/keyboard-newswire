@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 01 Aug 2026 03:20:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 12:04:44 +0000</lastBuildDate>
+  <item>
+    <title>Kinetic Labs releases Turtle Silent Tactile Switches</title>
+    <link>https://kineticlabs.com/?utm_source=3DKlaviyo&amp;utm_medium=3Dc=</link>
+    <guid isPermaLink="false">email-19fba458ade2b269</guid>
+    <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Kineticlabs</source>
+    <description>Kinetic Labs introduced the Turtle Silent Tactile switches, featuring a pre-lubed design with a noticeable bump and low noise profile, priced at $10.80 per pack of 18. — ✉ Kineticlabs</description>
+  </item>
   <item>
     <title>New Keyboard: Alicja v2</title>
     <link>https://marcin.juszkiewicz.com.pl/2026/07/29/new-keyboard-alicja-v2/</link>

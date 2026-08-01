@@ -3,6 +3,54 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-01",
+      "items": [
+        {
+          "id": "email-19fbafe2c328be0c",
+          "title": "SingaKBD Stinga listed as major display model for SMKX 2026",
+          "url": "https://www.xportsnews.com/article/2121920",
+          "discussion_url": "https://www.xportsnews.com/article/2121920",
+          "source": "email",
+          "subreddit": null,
+          "via": "Gmail",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "The Stinga keyboard is confirmed as a display model for SMKX 2026, but the store remains password-gated with no verified launch date or pricing.",
+          "sender": "Micah Alpern <malpern@gmail.com>",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "pricing",
+            "vendor-practices"
+          ],
+          "image": "img/email-19fbafe2c328be0c.jpg"
+        },
+        {
+          "id": "email-19fba458ade2b269",
+          "title": "Kinetic Labs releases Turtle Silent Tactile Switches",
+          "url": "https://kineticlabs.com/?utm_source=3DKlaviyo&utm_medium=3Dc=",
+          "discussion_url": "https://kineticlabs.com/?utm_source=3DKlaviyo&utm_medium=3Dc=",
+          "source": "email",
+          "subreddit": null,
+          "via": "Kineticlabs",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Kinetic Labs introduced the Turtle Silent Tactile switches, featuring a pre-lubed design with a noticeable bump and low noise profile, priced at $10.80 per pack of 18.",
+          "sender": "Kinetic Labs <marketing@kineticlabs.com>",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "switch-development",
+            "pricing"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-07-31",
       "items": [
         {

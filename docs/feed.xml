@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 01 Aug 2026 03:20:28 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 12:04:44 +0000</lastBuildDate>
+  <item>
+    <title>SingaKBD Stinga listed as major display model for SMKX 2026</title>
+    <link>https://www.xportsnews.com/article/2121920</link>
+    <guid isPermaLink="false">email-19fbafe2c328be0c</guid>
+    <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>The Stinga keyboard is confirmed as a display model for SMKX 2026, but the store remains password-gated with no verified launch date or pricing. — ✉ Gmail</description>
+  </item>
+  <item>
+    <title>Kinetic Labs releases Turtle Silent Tactile Switches</title>
+    <link>https://kineticlabs.com/?utm_source=3DKlaviyo&amp;utm_medium=3Dc=</link>
+    <guid isPermaLink="false">email-19fba458ade2b269</guid>
+    <pubDate>Sat, 01 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Kineticlabs</source>
+    <description>Kinetic Labs introduced the Turtle Silent Tactile switches, featuring a pre-lubed design with a noticeable bump and low noise profile, priced at $10.80 per pack of 18. — ✉ Kineticlabs</description>
+  </item>
   <item>
     <title>Reverse engineering the Attack Shark keyboard protocol</title>
     <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
@@ -2094,26 +2114,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Same Krteq board cross-posted to r/MechanicalKeyboards (build pics) — community attention on PCB/switch choice. — 23 pts · 1 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Thumb-Shift Keyboard</title>
-    <link>https://en.wikipedia.org/wiki/Thumb-shift_keyboard</link>
-    <guid isPermaLink="false">hn-47815377</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Copilot Key on My Keyboard</title>
-    <link>https://github.com/Rast1234/copilot_key_on_my_keyboard/blob/master/README.md</link>
-    <guid isPermaLink="false">hn-47813885</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>If you'd like, I can expand to broader HN searches (remove the 24h filter) or run this again tomorrow. — 1 pts · 0 comments · Hacker News</description>
   </item>
 </channel>
 </rss>
