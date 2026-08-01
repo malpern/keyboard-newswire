@@ -4087,6 +4087,25 @@
             "diy-build"
           ],
           "image": "img/kbdnews-2874.jpg"
+        },
+        {
+          "id": "hn-48628270",
+          "title": "Show HN: KeyGhost – Keyboard app launcher for macOS",
+          "url": "https://keyghost.dev/",
+          "discussion_url": "https://news.ycombinator.com/item?id=48628270",
+          "source": "hn",
+          "subreddit": null,
+          "score": 9,
+          "comments": 8,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "shortcut-manager"
+          ]
         }
       ]
     },

@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 31 Jul 2026 12:07:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 01 Aug 2026 03:19:34 +0000</lastBuildDate>
   <item>
     <title>Reverse engineering the Attack Shark keyboard protocol</title>
     <link>https://dnim.dev/blog/royuan-keyboard-protocol</link>
@@ -298,6 +298,16 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>KBD.news</description>
+  </item>
+  <item>
+    <title>Show HN: KeyGhost – Keyboard app launcher for macOS</title>
+    <link>https://keyghost.dev/</link>
+    <guid isPermaLink="false">hn-48628270</guid>
+    <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>9 pts · 8 comments · Hacker News</description>
   </item>
   <item>
     <title>YKB Skadi</title>
@@ -2102,16 +2112,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>I Made a Keyboard Nobody Asked For: My Experience Making TapType</title>
-    <link>https://fireborn.mataroa.blog/blog/i-made-a-keyboard-nobody-asked-for-my-experience-making-taptype/&gt;</link>
-    <guid isPermaLink="false">hn-47616792</guid>
-    <pubDate>Fri, 03 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>3 pts · 0 comments · Hacker News</description>
   </item>
 </channel>
 </rss>
