@@ -51,42 +51,50 @@
           {
             "vendor": "Milkyway Keys",
             "url": "https://www.mwkeys.com/",
-            "host": "www.mwkeys.com"
+            "host": "www.mwkeys.com",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966013+00:00"
           },
           {
             "vendor": "ktechs",
             "url": "https://ktechs.store/",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966171+00:00"
           },
           {
             "vendor": "Coffeekeys",
             "url": "https://coffeekeys.eu/en",
-            "host": "coffeekeys.eu"
+            "host": "coffeekeys.eu",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966177+00:00"
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966180+00:00"
           },
           {
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/",
-            "host": "unikeyboards.com"
+            "host": "unikeyboards.com",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966184+00:00"
           },
           {
             "vendor": "Keybay",
             "url": "https://keybay.tech/",
-            "host": "keybay.tech"
+            "host": "keybay.tech",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966186+00:00"
           },
           {
             "vendor": "Geonworks",
             "url": "https://geon.works/",
-            "host": "geon.works"
+            "host": "geon.works",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966189+00:00"
           },
           {
             "vendor": "Keebz N Cables",
             "url": "https://www.keebzncables.com/",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-08-02T12:06:40.966191+00:00"
           }
         ],
         "designer": "Misonoworks MW Jirai is a cute keycap set"
