@@ -44,6 +44,115 @@
         "configurator"
       ],
       "image": "img/kbdnews-2894.jpg"
+    },
+    {
+      "id": "geekhack-126399",
+      "title": "[IC] GMK CYL Snowdrift",
+      "url": "https://geekhack.org/index.php?topic=126399.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126399.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 18165,
+      "comments": 11,
+      "category": "breaking",
+      "takeaway": "This set is inspired by the ice/lightning mage class of a video game that I used to play. Interest Check Form Discord Colors: Pantone 2122C - Modifiers Pantone 9401C - Alpha Base, Modifier+Accent Legends Pantone 942C - Accents GMK 2B - Alpha Legends Vendors: TBD Kits: Click for larger images. Base Hangul Novelties by stellaidoscope Renders Click for larger images Spyder TKL by plywrks F2-60 by Geon Ocho Cuatro by Daji Austin by DriftMechanics Thank Yous (ღ˘⌣˘ღ) Alan, PBcord, Sunny, Cody, Zetina, Stella, Snow, Hiro",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.postimg.cc/g2pgwXsq/snowdrift_base.png",
+        "https://i.postimg.cc/mgS87L6L/snowdrift_hangul_alphas.png",
+        "https://i.postimg.cc/0N2ZfTL8/snowdrift_novelty.png",
+        "https://i.postimg.cc/zD9trPR0/Spyder_TKL_snowdrift_2.png",
+        "https://i.postimg.cc/MZhPSrjs/Spyder_Snowdrift.png",
+        "https://i.postimg.cc/7PCsjybZ/f2_60_Snowdrift_full.png",
+        "https://i.postimg.cc/s1dZNWxb/f2_60_Snowdrift_(1).png",
+        "https://i.postimg.cc/wxtfnd3v/Ocho_cuatro_snowdrift_2.png",
+        "https://i.postimg.cc/ryvnkYtG/Ocho_cuatro_snowdrift.png",
+        "https://i.postimg.cc/PfL30kNr/Austin_snowdrifty.png"
+      ],
+      "gb": {
+        "designer": "plywrks F2-60 by Geo"
+      },
+      "tags": [
+        "keycap-design",
+        "group-buy"
+      ],
+      "images": [
+        "img/geekhack-126399-0.jpg",
+        "img/geekhack-126399-1.jpg",
+        "img/geekhack-126399-2.jpg",
+        "img/geekhack-126399-3.jpg",
+        "img/geekhack-126399-4.jpg",
+        "img/geekhack-126399-5.jpg"
+      ],
+      "image": "img/geekhack-126399-0.jpg"
+    },
+    {
+      "id": "geekhack-126986",
+      "title": "[IC]KBS-Space Odyssey",
+      "url": "https://geekhack.org/index.php?topic=126986.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126986.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 607,
+      "comments": 2,
+      "category": "breaking",
+      "takeaway": "KBS-Space Odyssey IC form | Discord | Discord-Keyboard Science - Please help me to fill out this form and provide any feedback that you have, super thank you - If you are interested in being a vendor, please contact me on Discord. Travel back to the 1950s–60s golden age of retro-futurism. The Space Race, satellites and moon landings sparked universal hopeful fantasies of space. Defined by streamlined shapes, atomic symbols, dome craft and silver metal, classic Space Age Design inspires this keycap set, embedding cosmic romantic aesthetics into each key. Info Manufacturer: Keyboard Science Mate",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.imgur.com/OP89gO3.jpeg",
+        "https://i.imgur.com/4QZHGAn.jpeg",
+        "https://i.imgur.com/S4AWGIm.jpeg",
+        "https://i.imgur.com/TyXrV0J.jpeg",
+        "https://i.imgur.com/zG6LvIB.jpeg",
+        "https://i.imgur.com/1xEtHQN.jpeg",
+        "https://i.imgur.com/FQVYz40.jpeg",
+        "https://i.imgur.com/JpfbnQh.jpeg",
+        "https://i.imgur.com/mt6eraj.jpeg",
+        "https://i.imgur.com/0wLH16U.jpeg",
+        "https://i.imgur.com/MA3rJSW.jpeg",
+        "https://i.imgur.com/VkpzE6a.jpeg",
+        "https://i.imgur.com/JWckWTx.jpeg",
+        "https://i.imgur.com/a1seb6U.jpeg",
+        "https://i.imgur.com/qRTs7ws.jpeg",
+        "https://i.imgur.com/CSnATvb.jpeg",
+        "https://i.imgur.com/fVK5VcU.jpeg",
+        "https://i.imgur.com/D94VafF.jpeg",
+        "https://i.imgur.com/C7D6YWR.jpeg",
+        "https://i.imgur.com/btId3M3.jpeg"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "https://mtlab.work/",
+            "url": "https://mtlab.work/",
+            "host": "mtlab.work"
+          }
+        ],
+        "designer": "streamli"
+      },
+      "tags": [
+        "keycap-design",
+        "group-buy"
+      ],
+      "images": [
+        "img/geekhack-126986-0.jpg",
+        "img/geekhack-126986-1.jpg",
+        "img/geekhack-126986-2.jpg",
+        "img/geekhack-126986-3.jpg",
+        "img/geekhack-126986-4.jpg",
+        "img/geekhack-126986-5.jpg"
+      ],
+      "image": "img/geekhack-126986-0.jpg"
     }
   ]
 }
