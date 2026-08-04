@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 03 Aug 2026 12:07:30 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 12:05:25 +0000</lastBuildDate>
+  <item>
+    <title>XVX Whisper EC/HE switch review</title>
+    <link>https://kbd.news/XVX-Whisper-EC-HE-switch-review-2893.html</link>
+    <guid isPermaLink="false">kbdnews-2893</guid>
+    <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The very first EC/HE dual-sensing switches: XVX Whisper 2-in-1 magnetic silent – Topre feel also for your Hall-effect keyboards. — KBD.news</description>
+  </item>
+  <item>
+    <title>Sharkfin configurator</title>
+    <link>https://kbd.news/Sharkfin-configurator-2894.html</link>
+    <guid isPermaLink="false">kbdnews-2894</guid>
+    <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Created by JR, Sharkfin is an open-source configurator for keyboards built on ROYUAN hardware. — KBD.news</description>
+  </item>
   <item>
     <title>SingaKBD Stinga listed as major display model for SMKX 2026</title>
     <link>https://www.xportsnews.com/article/2121920</link>
@@ -2093,27 +2113,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest. — 57 pts · 0 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Krteq (Open source)</title>
-    <link>https://www.reddit.com/gallery/1sou3ek</link>
-    <guid isPermaLink="false">reddit-1sou3ek</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>New open-source 61-key unibody using Raspberry Pi Pico and QMK/VIA — notable for Gateron LP 3.0 compatibility and hotswap support. — 51 pts · 4 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>Krteq 5x12 (+2)</title>
-    <link>https://www.reddit.com/gallery/1sowxuy</link>
-    <guid isPermaLink="false">reddit-1sowxuy</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Same Krteq board cross-posted to r/MechanicalKeyboards (build pics) — community attention on PCB/switch choice. — 23 pts · 1 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

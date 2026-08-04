@@ -3,6 +3,55 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-04",
+      "items": [
+        {
+          "id": "kbdnews-2893",
+          "title": "XVX Whisper EC/HE switch review",
+          "url": "https://kbd.news/XVX-Whisper-EC-HE-switch-review-2893.html",
+          "discussion_url": "https://kbd.news/XVX-Whisper-EC-HE-switch-review-2893.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "The very first EC/HE dual-sensing switches: XVX Whisper 2-in-1 magnetic silent – Topre feel also for your Hall-effect keyboards.",
+          "image_hint": "https://kbd.news/pic/2026/215/480/2893.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "switch-development",
+            "hotswap"
+          ],
+          "image": "img/kbdnews-2893.jpg"
+        },
+        {
+          "id": "kbdnews-2894",
+          "title": "Sharkfin configurator",
+          "url": "https://kbd.news/Sharkfin-configurator-2894.html",
+          "discussion_url": "https://kbd.news/Sharkfin-configurator-2894.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Created by JR, Sharkfin is an open-source configurator for keyboards built on ROYUAN hardware.",
+          "image_hint": "https://kbd.news/pic/2026/215/480/2894.jpg",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "open-source",
+            "configurator"
+          ],
+          "image": "img/kbdnews-2894.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "items": [
         {

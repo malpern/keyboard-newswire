@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Configurator · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/configurator/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/configurator/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Configurator.</description>
+  <language>en-us</language>
+  <lastBuildDate>Tue, 04 Aug 2026 12:05:25 +0000</lastBuildDate>
+  <item>
+    <title>Sharkfin configurator</title>
+    <link>https://kbd.news/Sharkfin-configurator-2894.html</link>
+    <guid isPermaLink="false">kbdnews-2894</guid>
+    <pubDate>Tue, 04 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Created by JR, Sharkfin is an open-source configurator for keyboards built on ROYUAN hardware. — KBD.news</description>
+  </item>
+</channel>
+</rss>
