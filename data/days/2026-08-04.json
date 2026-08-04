@@ -135,7 +135,8 @@
           {
             "vendor": "https://mtlab.work/",
             "url": "https://mtlab.work/",
-            "host": "mtlab.work"
+            "host": "mtlab.work",
+            "metadata_fetched_at": "2026-08-04T12:06:34.597517+00:00"
           }
         ],
         "designer": "streamli"
