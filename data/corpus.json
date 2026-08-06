@@ -26,6 +26,106 @@
             "group-buy",
             "pcb-design"
           ]
+        },
+        {
+          "id": "geekhack-126991",
+          "title": "[GB] MW Virtual 仮想 - 7/31/2026 to 08/31/2026",
+          "url": "https://geekhack.org/index.php?topic=126991.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126991.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 98,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "MW Virtual 仮想 ABS 2SHOT Backgrand Hello everyone, this is MW~ We are honored to collaborate with designer KEi on MW Virtual 仮想. This is our first project together, and we believe it marks the beginning of a great partnership. Colorway For this set, the designer chose black, white, and gray as the base colors for the keycaps. Highly saturated purple, magenta, and cyan are used across the legends, novelties, and alpha accents to create a bold and vivid contrast. The set will be produced in ABS double-shot, with UV printing applied to selected keys. The physical samples shown here were matched us",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://imgur.com/RsTisES.jpg",
+            "https://imgur.com/5m5b0ae.jpg",
+            "https://imgur.com/00hg0F9.jpg",
+            "https://imgur.com/il7nYHt.jpg",
+            "https://imgur.com/q1jSBQK.jpg",
+            "https://imgur.com/soF5V92.jpg",
+            "https://imgur.com/nKdO4l1.jpg",
+            "https://imgur.com/AOxcfR9.jpg",
+            "https://imgur.com/II1Wo7P.jpg",
+            "https://imgur.com/wh4FPXT.jpg",
+            "https://imgur.com/Z5eUdu5.jpg",
+            "https://imgur.com/dUweoux.jpg",
+            "https://imgur.com/NwGF3Sh.jpg",
+            "https://imgur.com/MLiuXCD.jpg",
+            "https://imgur.com/WwdOgre.jpg",
+            "https://imgur.com/Mm4g1GQ.jpg",
+            "https://imgur.com/8WsXYwK.jpg",
+            "https://imgur.com/wD3ERz4.jpg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Divinikeys",
+                "url": "https://divinikey.com/collections/keycap-sets/products/mw-virtual-keycaps",
+                "host": "divinikey.com"
+              },
+              {
+                "vendor": "Unikeys",
+                "url": "https://unikeyboards.com/products/mw-virtual-abs-doubleshot-keycap-set-group-buy",
+                "host": "unikeyboards.com"
+              },
+              {
+                "vendor": "Inputgearstore",
+                "url": "https://inputgear.com/",
+                "host": "inputgear.com"
+              },
+              {
+                "vendor": "Prototypist",
+                "url": "https://prototypist.net/products/group-buy-mw-virtual",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "Keebzncables",
+                "url": "https://www.keebzncables.com/products/mw-virtual",
+                "host": "www.keebzncables.com"
+              },
+              {
+                "vendor": "Geon.works",
+                "url": "https://geon.works/",
+                "host": "geon.works"
+              },
+              {
+                "vendor": "Ktechs.store",
+                "url": "https://ktechs.store/products/mw-virtual",
+                "host": "ktechs.store"
+              },
+              {
+                "vendor": "Mecha",
+                "url": "https://www.mecha.com.my/products/gb-mw-virtual-abs-double-shot-keycap-set?variant=49804970524810",
+                "host": "www.mecha.com.my"
+              },
+              {
+                "vendor": "Mokbstore",
+                "url": "https://mokbstore.com/mw-virtual-keycap-set",
+                "host": "mokbstore.com"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126991-0.jpg",
+            "img/geekhack-126991-1.jpg",
+            "img/geekhack-126991-2.jpg",
+            "img/geekhack-126991-3.jpg",
+            "img/geekhack-126991-4.jpg",
+            "img/geekhack-126991-5.jpg"
+          ],
+          "image": "img/geekhack-126991-0.jpg"
         }
       ]
     },
