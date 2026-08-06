@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 05 Aug 2026 12:06:33 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 06 Aug 2026 12:05:07 +0000</lastBuildDate>
+  <item>
+    <title>SingaKBD lists STINGA-60 with raffle details coming soon</title>
+    <link>https://singakbd.com/</link>
+    <guid isPermaLink="false">email-19fd1d204e9a2dee</guid>
+    <pubDate>Thu, 06 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>SingaKBD's official site now lists the STINGA-60 in three colors with plate and PCB options, noting that raffle and group-buy details are coming soon. — ✉ Gmail</description>
+  </item>
   <item>
     <title>XVX Whisper EC/HE switch review</title>
     <link>https://kbd.news/XVX-Whisper-EC-HE-switch-review-2893.html</link>
@@ -2102,17 +2113,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Keyball61 DIY split keyboard build using Remap</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1sor9cd</link>
-    <guid isPermaLink="false">reddit-1sor9cd</guid>
-    <pubDate>Sat, 18 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>High-engagement photo/build post of DIY split board using Remap for keymaps — good signal for ergonomic board interest. — 57 pts · 0 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>

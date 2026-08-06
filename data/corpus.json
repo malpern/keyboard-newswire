@@ -3,6 +3,33 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-06",
+      "items": [
+        {
+          "id": "email-19fd1d204e9a2dee",
+          "title": "SingaKBD lists STINGA-60 with raffle details coming soon",
+          "url": "https://singakbd.com/",
+          "discussion_url": "https://singakbd.com/",
+          "source": "email",
+          "subreddit": null,
+          "via": "Gmail",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "SingaKBD's official site now lists the STINGA-60 in three colors with plate and PCB options, noting that raffle and group-buy details are coming soon.",
+          "sender": "Micah Alpern <malpern@gmail.com>",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "tags": [
+            "group-buy",
+            "pcb-design"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-04",
       "items": [
         {
