@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 07 Aug 2026 12:02:50 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 07 Aug 2026 12:04:51 +0000</lastBuildDate>
   <item>
     <title>Show HN: I spent 2 years designing a mechanical Magic Keyboard</title>
     <link>https://electronicmaterialsoffice.com/</link>
@@ -16,6 +16,27 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>274 pts · 232 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Apiary Keyboards live stream: Building a Keycult 1800</title>
+    <link>https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImMyMWU0ZjA1LTQ3YjMtNDJkYi1hOGVmLWRiMjE5MDc4Y2QyZiIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoiYXBpYXJ5a2V5Ym9hcmRzIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/59b218ecd3bf1ab14dce15887b196853688c42be39d659f1f6cf145033f87164?ignore_query=true&amp;tt_content=twitch_favorite_up&amp;tt_email_id=c21e4f05-47b3-42db-a8ef-db219078cd2f&amp;tt_medium=email</link>
+    <guid isPermaLink="false">email-19fd8b0826953616</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Twitch</source>
+    <description>Twitch notification for a live stream by Apiary Keyboards featuring the assembly of a Keycult 1800 keyboard. — ✉ Twitch</description>
+  </item>
+  <item>
+    <title>SingaKBD Stinga60 enters first-looks preview phase</title>
+    <link>https://www.youtube.com/watch?v=RVoEX4FAQRQ</link>
+    <guid isPermaLink="false">email-19fd6fcb6f5fbe90</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>Official Instagram previews and a YouTube build video confirm physical units are with creators; raffle details remain unconfirmed. — ✉ Gmail</description>
   </item>
   <item>
     <title>SingaKBD lists STINGA-60 with raffle details coming soon</title>

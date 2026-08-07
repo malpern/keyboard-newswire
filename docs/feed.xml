@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 07 Aug 2026 12:02:50 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 07 Aug 2026 12:04:51 +0000</lastBuildDate>
   <item>
     <title>Show HN: I spent 2 years designing a mechanical Magic Keyboard</title>
     <link>https://electronicmaterialsoffice.com/</link>
@@ -27,6 +27,38 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>GMK Finer Things R2, MW Norse, PBS BoB, GMK BRG Group Buy Updates</title>
+    <link>http://discord.gg/gAy6sqp</link>
+    <guid isPermaLink="false">email-19fd8ba4c29fe1a4</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys announces closing dates for GMK Finer Things R2 and MW Norse group buys, plus new pre-orders for PBS BoB and GMK British Racing Green, with ETAs in late 2026. — ✉ Cannonkeys</description>
+  </item>
+  <item>
+    <title>Apiary Keyboards live stream: Building a Keycult 1800</title>
+    <link>https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImMyMWU0ZjA1LTQ3YjMtNDJkYi1hOGVmLWRiMjE5MDc4Y2QyZiIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoiYXBpYXJ5a2V5Ym9hcmRzIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/59b218ecd3bf1ab14dce15887b196853688c42be39d659f1f6cf145033f87164?ignore_query=true&amp;tt_content=twitch_favorite_up&amp;tt_email_id=c21e4f05-47b3-42db-a8ef-db219078cd2f&amp;tt_medium=email</link>
+    <guid isPermaLink="false">email-19fd8b0826953616</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Twitch</source>
+    <description>Twitch notification for a live stream by Apiary Keyboards featuring the assembly of a Keycult 1800 keyboard. — ✉ Twitch</description>
+  </item>
+  <item>
+    <title>SingaKBD Stinga60 enters first-looks preview phase</title>
+    <link>https://www.youtube.com/watch?v=RVoEX4FAQRQ</link>
+    <guid isPermaLink="false">email-19fd6fcb6f5fbe90</guid>
+    <pubDate>Fri, 07 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>Official Instagram previews and a YouTube build video confirm physical units are with creators; raffle details remain unconfirmed. — ✉ Gmail</description>
   </item>
   <item>
     <title>SingaKBD lists STINGA-60 with raffle details coming soon</title>
@@ -2082,38 +2114,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Self designed ISO MX PCB to fit Holy80</title>
-    <link>https://www.reddit.com/gallery/1t04v38</link>
-    <guid isPermaLink="false">reddit-1t04v38</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Small couple-designed ISO PCB that uses QMK — notable because it’s a custom ISO PCB + full RGB and shows a DIY ISO QMK build that others may reuse. — 21 pts · 5 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>New Geonix teaser photo</title>
-    <link>https://www.reddit.com/r/olkb/comments/1szvxl1/new_geonix_teaser_photo/</link>
-    <guid isPermaLink="false">reddit-1szvxl1</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Teaser image for a new Geonix—looks like a PC case variant; sparks discussion about a new revision/production. — 20 pts · 8 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>Show HN: Code on the Go, an IDE for Android with On-Device Debugging (GPLv3)</title>
-    <link>https://www.appdevforall.org/</link>
-    <guid isPermaLink="false">hn-47968964</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>4 pts · 3 comments · Hacker News</description>
   </item>
 </channel>
 </rss>
