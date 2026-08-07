@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-07",
+  "items": [
+    {
+      "id": "hn-49197137",
+      "title": "Show HN: I spent 2 years designing a mechanical Magic Keyboard",
+      "url": "https://electronicmaterialsoffice.com/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49197137",
+      "source": "hn",
+      "subreddit": null,
+      "score": 274,
+      "comments": 232,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "pcb-design",
+        "diy-build"
+      ],
+      "image": "img/hn-49197137.jpg"
+    },
+    {
+      "id": "hn-49197968",
+      "title": "Show HN: Keychange, macOS input source switching per keyboard, not per app",
+      "url": "https://keychange.dev",
+      "discussion_url": "https://news.ycombinator.com/item?id=49197968",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 1,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "remapping-layouts",
+        "tools-software"
+      ],
+      "tags": [
+        "macos-utilities",
+        "key-remapping"
+      ],
+      "image": "img/hn-49197968.jpg"
+    }
+  ]
+}
