@@ -205,25 +205,25 @@
             "vendor": "Mechs & Co",
             "url": "https://mechsandco.com/products/gb-gmk-iconographic",
             "host": "mechsandco.com",
-            "metadata_fetched_at": "2026-08-06T12:06:50.434909+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:02.781068+00:00"
           },
           {
             "vendor": "MyKeyboard",
             "url": "https://mykeyboard.eu/catalogue/category/group-buys/gmk-iconographic_394/",
             "host": "mykeyboard.eu",
-            "metadata_fetched_at": "2026-08-06T12:06:50.434985+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:02.781245+00:00"
           },
           {
             "vendor": "Dailyclack",
             "url": "https://dailyclack.com/products/gmk-iconographic/",
             "host": "dailyclack.com",
-            "metadata_fetched_at": "2026-08-06T12:06:50.438845+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:02.785000+00:00"
           },
           {
             "vendor": "Monokei",
             "url": "https://monokei.co/collections/current/products/gmk-iconographic/",
             "host": "monokei.co",
-            "metadata_fetched_at": "2026-08-06T12:06:50.572136+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:02.932165+00:00"
           },
           {
             "vendor": "Deskhero",
@@ -232,20 +232,20 @@
             "price_low": 3300,
             "price_high": 19100,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:50.785952+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:03.203706+00:00",
             "currency": "CAD"
           },
           {
             "vendor": "Zfrontier EN",
             "url": "https://en.zfrontier.com/products/gmk-iconographic",
             "host": "en.zfrontier.com",
-            "metadata_fetched_at": "2026-08-06T12:06:51.062145+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:03.413180+00:00"
           },
           {
             "vendor": "Zfrontier CN",
             "url": "https://www.zfrontier.com/app/mch/lZ2N9dv5Mr6l",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-08-06T12:06:51.062263+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:03.413237+00:00"
           }
         ]
       }
@@ -302,19 +302,19 @@
             "vendor": "ktechs (lead)",
             "url": "https://ktechs.store/",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-08-06T12:06:51.062306+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:03.413255+00:00"
           },
           {
             "vendor": "prototypist",
             "url": "https://prototypist.net/",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-08-06T12:06:51.062439+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:03.413267+00:00"
           },
           {
             "vendor": "toro studios",
             "url": "https://www.torokeeb.store/",
             "host": "www.torokeeb.store",
-            "metadata_fetched_at": "2026-08-06T12:06:51.062453+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:03.413276+00:00"
           }
         ]
       }
@@ -482,7 +482,7 @@
             "host": "saberkeebs.com",
             "price_low": 11000,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:51.452617+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:03.765604+00:00",
             "currency": "USD"
           },
           {
@@ -491,14 +491,14 @@
             "host": "prototypist.net",
             "price_low": 8833,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:51.727507+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:04.035957+00:00",
             "currency": "GBP"
           },
           {
             "vendor": "Keeb.Supply",
             "url": "https://keeb.supply/products/dss-distortion-40s",
             "host": "keeb.supply",
-            "metadata_fetched_at": "2026-08-06T12:06:52.466218+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:04.846824+00:00"
           },
           {
             "vendor": "Keebz N Cables",
@@ -506,7 +506,7 @@
             "host": "www.keebzncables.com",
             "price_low": 17500,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:52.667227+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:05.152731+00:00",
             "currency": "AUD"
           }
         ],
@@ -616,7 +616,7 @@
             "vendor": "https://touhou-project.news/news/16738/",
             "url": "https://touhou-project.news/news/16738/",
             "host": "touhou-project.news",
-            "metadata_fetched_at": "2026-08-06T12:06:52.667328+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:05.152841+00:00"
           },
           {
             "vendor": "CannonKeys",
@@ -624,7 +624,7 @@
             "host": "cannonkeys.com",
             "price_low": 8000,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:52.858951+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:05.424329+00:00",
             "currency": "USD"
           },
           {
@@ -633,20 +633,20 @@
             "host": "shop.yushakobo.jp",
             "price_low": 1408000,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:53.137970+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:05.646142+00:00",
             "currency": "JPY"
           },
           {
             "vendor": "zFrontier",
             "url": "https://www.zfrontier.com/app/mch/BbdPaL80ZW8D",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-08-06T12:06:53.138035+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:05.646224+00:00"
           },
           {
             "vendor": "FAQ",
             "url": "https://cannonkeys.com/pages/FAQs",
             "host": "cannonkeys.com",
-            "metadata_fetched_at": "2026-08-06T12:06:53.138047+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:05.646252+00:00"
           }
         ],
         "photo_credit": "keima"
@@ -730,7 +730,7 @@
             "price_low": 300,
             "price_high": 10000,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:53.321733+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:05.855717+00:00",
             "currency": "USD"
           },
           {
@@ -740,7 +740,7 @@
             "price_low": 400,
             "price_high": 13000,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:53.685532+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:06.207921+00:00",
             "currency": "USD"
           },
           {
@@ -750,14 +750,14 @@
             "price_low": 650,
             "price_high": 14900,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:53.863725+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:06.503362+00:00",
             "currency": "USD"
           },
           {
             "vendor": "Typist Club",
             "url": "https://item.taobao.com/item.htm?id=1046621159604&mi_id=0000Hxc0wLncnmKsmYKEpV0uoO23uP8Ch0_5cI9hsPpkfBI&spm=a21xtw.29178619.0.0&xxc=shop",
             "host": "item.taobao.com",
-            "metadata_fetched_at": "2026-08-06T12:06:53.863844+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:06.503449+00:00"
           },
           {
             "vendor": "Proto[Typist]",
@@ -766,7 +766,7 @@
             "price_low": 417,
             "price_high": 10667,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:54.117403+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:06.870185+00:00",
             "currency": "GBP"
           },
           {
@@ -776,7 +776,7 @@
             "price_low": 850,
             "price_high": 15750,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:54.326147+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:07.071912+00:00",
             "currency": "SGD"
           },
           {
@@ -786,7 +786,7 @@
             "price_low": 536,
             "price_high": 12976,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:54.612444+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:07.397850+00:00"
           }
         ]
       }
@@ -877,7 +877,7 @@
             "price_low": 4500,
             "price_high": 13500,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:54.817569+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:07.632768+00:00",
             "currency": "USD"
           },
           {
@@ -887,7 +887,7 @@
             "price_low": 2000,
             "price_high": 10250,
             "available": false,
-            "metadata_fetched_at": "2026-08-06T12:06:55.180571+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:07.921109+00:00",
             "currency": "GBP"
           },
           {
@@ -897,7 +897,7 @@
             "price_low": 3500,
             "price_high": 13900,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:55.610185+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:08.447881+00:00",
             "currency": "EUR"
           },
           {
@@ -907,7 +907,7 @@
             "price_low": 2500,
             "price_high": 13500,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:55.794131+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:08.659317+00:00",
             "currency": "USD"
           },
           {
@@ -917,7 +917,7 @@
             "price_low": 2500,
             "price_high": 19500,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:55.968850+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:08.865227+00:00",
             "currency": "USD"
           },
           {
@@ -927,7 +927,7 @@
             "price_low": 3600,
             "price_high": 18900,
             "available": true,
-            "metadata_fetched_at": "2026-08-06T12:06:56.141414+00:00",
+            "metadata_fetched_at": "2026-08-07T12:07:09.185855+00:00",
             "currency": "SGD"
           }
         ],
@@ -988,7 +988,7 @@
             "vendor": "Moyu.studio",
             "url": "https://moyustudio.world/",
             "host": "moyustudio.world",
-            "metadata_fetched_at": "2026-08-06T12:06:56.141484+00:00"
+            "metadata_fetched_at": "2026-08-07T12:07:09.185952+00:00"
           }
         ]
       }
