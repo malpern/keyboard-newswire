@@ -3,6 +3,62 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-08",
+      "items": [
+        {
+          "id": "geekhack-127002",
+          "title": "[IC] KAT Anaglyph",
+          "url": "https://geekhack.org/index.php?topic=127002.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127002.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1960,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "FILL OUT THE IC FORM Hey everyone! This is KAT Anaglyph , a set inspired by the red and cyan image separation used in classic anaglyph 3D images The set will be manufactured by Keyreative in KAT profile . Vendors, pricing, and dates are still being worked out. RENDERS Rikia by Caffeinated Studio Phidias Ekleipsis KITS BASE KIT ACCENT KIT DESKMAT (In the works) Actual KAT Anaglyph samples WHAT'S NEXT? Create the first physical samples ✔ Finish the initial kit designs ✔ Finish the keyboard renders ✔ Collect IC feedback Make any necessary kitting adjustments Confirm regional vendors Finalize pric",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/pra1ovN.jpeg",
+            "https://i.imgur.com/my65ZoU.jpeg",
+            "https://i.imgur.com/rHhIVhU.jpeg",
+            "https://i.imgur.com/kOPKw6u.jpeg",
+            "https://i.imgur.com/LlXz4VM.jpeg",
+            "https://i.imgur.com/bc6mpdo.jpeg",
+            "https://i.imgur.com/hZ9Ny2Q.jpeg",
+            "https://i.imgur.com/8H1meYC.jpeg",
+            "https://i.imgur.com/F5GnsuU.jpeg",
+            "https://i.imgur.com/XXzlMLp.jpeg",
+            "https://i.imgur.com/JjS0j4S.jpeg",
+            "https://i.imgur.com/8Jz3AVA.jpeg",
+            "https://i.imgur.com/fg6G88f.png",
+            "https://i.imgur.com/Hmad1Sf.jpeg"
+          ],
+          "gb": {
+            "designer": "KAT",
+            "photo_credit": "Caffeinated"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-127002-0.jpg",
+            "img/geekhack-127002-1.jpg",
+            "img/geekhack-127002-2.jpg",
+            "img/geekhack-127002-3.jpg",
+            "img/geekhack-127002-4.jpg",
+            "img/geekhack-127002-5.jpg"
+          ],
+          "image": "img/geekhack-127002-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-07",
       "items": [
         {
