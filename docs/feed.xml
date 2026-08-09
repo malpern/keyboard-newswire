@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 08 Aug 2026 12:07:51 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 12:04:40 +0000</lastBuildDate>
+  <item>
+    <title>Kinetic Labs Max102 Chalk Edition now available</title>
+    <link>https://kineticlabs.com/?utm_source=Klaviyo&amp;utm_medium=campaign&amp;utm_campaign=Max102%20Best%20Seller%20Promo</link>
+    <guid isPermaLink="false">email-19fe39ecf6235ee9</guid>
+    <pubDate>Sun, 09 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Kineticlabs</source>
+    <description>Kinetic Labs announces the Max102 Chalk Edition, a pre-built 102-key mechanical keyboard with CNC aluminum, hot-swap sockets, and wireless connectivity, priced at $239.99. — ✉ Kineticlabs</description>
+  </item>
+  <item>
+    <title>CannonKeys extends Blaine V2: SE group buy by one week</title>
+    <link>https://cannonkeys.com/</link>
+    <guid isPermaLink="false">email-19fe21c005d5d66f</guid>
+    <pubDate>Sun, 09 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>The group buy for the Blaine V2: SE keyboard has been extended for another week, with proxies listed for US, OCE, CN, EU, UK, and CA regions. — ✉ Cannonkeys</description>
+  </item>
   <item>
     <title>Show HN: I spent 2 years designing a mechanical Magic Keyboard</title>
     <link>https://electronicmaterialsoffice.com/</link>
@@ -2092,28 +2113,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Reddit post showcases split keyboard build</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t0cw5z/you_may_not_like_it_but_this_is_peak_split_keyboard/</link>
-    <guid isPermaLink="false">reddit-1t0cw5z</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>High-engagement photo/post showcasing an eye-catching split build — good visibility in the community. — 67 pts · 0 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>r/ErgoMechKeyboards discussion on pointing devices for split/ZMK setups</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1szukel/built_the_keyboard_what_do_you_use_for_a_pointing/</link>
-    <guid isPermaLink="false">reddit-1szukel</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Active discussion about pointing devices for split/ZMK setups — practical community input on peripherals and workflow. — 36 pts · 22 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>
