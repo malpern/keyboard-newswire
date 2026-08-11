@@ -45,6 +45,82 @@
         "pcb-design"
       ],
       "image": "img/kbdnews-2898.jpg"
+    },
+    {
+      "id": "geekhack-125225",
+      "title": "[IC] Ursus - Symmetrical wkl 65%",
+      "url": "https://geekhack.org/index.php?topic=125225.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=125225.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 65958,
+      "comments": 38,
+      "category": "breaking",
+      "takeaway": "URSUS (УРСУС) Specifications Typing angle: 8° Front height: 17.75mm, adjusted 19.2mm Layout: 65% symmetrical wkl Mounting style: Sandwich o-ring Weight: Bead blasted stainless steel Middle part: Dark anodized aluminium Top case: Frosted poly carbonate or silver anodized aluminium Screws: M2x4: 8. M2x7: 8. Feet: Compatible with Geon 20x7mm feet Catalogue More Parts & Assembly More Information Units: 25 Price estimate: €500-600 Sales date: q2 of 2026 (tbd) Website: severe.design (beta) Discord: https://discord.gg/8EXjGRb4E7 [IMPORTANT] Please fill this form if you are interested Updates The priv",
+      "topics": [
+        "group-buys-vendors",
+        "builds-hardware"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.ibb.co/F4rwysZD/GH-Main-Render.jpg",
+        "https://i.ibb.co/p616PzpV/Weight-Bottom-PC-Top.jpg",
+        "https://i.ibb.co/Y71jWTzx/Weight-Bottom-ALU-Top.jpg",
+        "https://i.ibb.co/sdc6nRWv/Rear-Off-Angle-PC.jpg",
+        "https://i.ibb.co/0RZrncFY/Rear-Off-Angle-ALU.jpg",
+        "https://i.ibb.co/fVtrJjJh/Bottom-Off-Angle-PC.jpg",
+        "https://i.ibb.co/xShHm0dg/Bottom-Off-Angle-ALU.jpg",
+        "https://i.ibb.co/HLKkrW38/Weight.jpg",
+        "https://i.ibb.co/nqryNYqQ/Weight-Bottom.jpg",
+        "https://i.ibb.co/B2dJcq53/Weight-Bottom-PC-Plate.jpg",
+        "https://i.ibb.co/Y4DxHw8K/Weight-Bottom-ALU-Plate.jpg",
+        "https://i.ibb.co/V0BC7G2Z/Weight-Bottom-SS-Plate.jpg",
+        "https://i.ibb.co/vGc34sN/Weight-Bottom-PC-Plate-PC-Top.jpg",
+        "https://i.ibb.co/5hCKXDdb/Weight-Bottom-PC-Plate-ALU-Top.jpg",
+        "https://i.ibb.co/WNt0tcwp/Weight-Bottom-ALU-Plate-PC-Top.jpg",
+        "https://i.ibb.co/d492D17Z/Weight-Bottom-ALU-Plate-ALU-Top.jpg",
+        "https://i.ibb.co/5hWsrWBw/Weight-Bottom-SS-Plate-PC-Top.jpg",
+        "https://i.ibb.co/Ngv9xGZC/Weight-Bottom-SS-Plate-ALU-Top.jpg",
+        "https://i.ibb.co/bgrw2v7r/Bottom-PC-Top.jpg",
+        "https://i.ibb.co/bRqpZX9Z/Bottom-ALU-Top.jpg",
+        "https://i.ibb.co/mrGJm1Zx/Bottom-Bottom-PC-Top.jpg",
+        "https://i.ibb.co/b5h55Bns/Bottom-Bottom-ALU-Top.jpg",
+        "https://i.ibb.co/7t3p50DH/Bottom-Weight-Bottom-PC-Top.jpg",
+        "https://i.ibb.co/chWKpF1S/Bottom-Weight-Bottom-ALU-Top.jpg",
+        "https://i.ibb.co/8DCMXNL1/Ursus-CL-top-1.jpg",
+        "https://i.ibb.co/3YjfGvwz/Ursus-CL-top-2.jpg",
+        "https://i.ibb.co/HLV10Jtz/Ursus-CL-top-3.jpg",
+        "https://i.ibb.co/GvH47VLG/Ursus-CL-bot-1.jpg",
+        "https://i.ibb.co/v6BV6NLV/Ursus-CL-bot-2.jpg",
+        "https://i.ibb.co/4wB08yHB/Ursus-CL-bot-3.jpg",
+        "https://i.ibb.co/S71pmxTf/Ursus-CL-Weight-1.jpg",
+        "https://i.ibb.co/tTcGtJNp/Ursus-CL-Weight-2.jpg",
+        "https://i.ibb.co/rGg9Tr1s/Ursus-CL-PC-top-1.jpg"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "severe.design",
+            "url": "http://severe.design",
+            "host": "severe.design"
+          }
+        ]
+      },
+      "tags": [
+        "pricing",
+        "group-buy",
+        "diy-build"
+      ],
+      "images": [
+        "img/geekhack-125225-0.jpg",
+        "img/geekhack-125225-1.jpg",
+        "img/geekhack-125225-2.jpg",
+        "img/geekhack-125225-3.jpg",
+        "img/geekhack-125225-4.jpg",
+        "img/geekhack-125225-5.jpg"
+      ],
+      "image": "img/geekhack-125225-0.jpg"
     }
   ]
 }
