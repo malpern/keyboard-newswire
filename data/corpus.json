@@ -8,8 +8,8 @@
         {
           "id": "email-19febf80ecfba702",
           "title": "thecaptainsterling streaming KBDFans Tofull Keyboard Kit build",
-          "url": "https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImM2MGQ2MzY4LWQzNTYtNDUyYy05MGM2LTk5YmQ4YzA5Nzc1NiIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoidGhlY2FwdGFpbnN0ZXJsaW5nIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/48fede803f6e6b450813cb281d25a25a37f1126373ae60346cc273e05e5445de?ignore_query=true&tt_content=twitch_favorite_up&tt_email_id=c60d6368-d356-452c-90c6-99bd8c097756&tt_medium=email",
-          "discussion_url": "https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImM2MGQ2MzY4LWQzNTYtNDUyYy05MGM2LTk5YmQ4YzA5Nzc1NiIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoidGhlY2FwdGFpbnN0ZXJsaW5nIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/48fede803f6e6b450813cb281d25a25a37f1126373ae60346cc273e05e5445de?ignore_query=true&tt_content=twitch_favorite_up&tt_email_id=c60d6368-d356-452c-90c6-99bd8c097756&tt_medium=email",
+          "url": "https://www.twitch.tv/?tt_content=twitch_favorite_up&tt_email_id=c60d6368-d356-452c-90c6-99bd8c097756&tt_medium=email",
+          "discussion_url": "https://www.twitch.tv/?tt_content=twitch_favorite_up&tt_email_id=c60d6368-d356-452c-90c6-99bd8c097756&tt_medium=email",
           "source": "email",
           "subreddit": null,
           "via": "Twitch",
@@ -25,30 +25,6 @@
             "diy-build"
           ],
           "image": "img/email-19febf80ecfba702.jpg"
-        },
-        {
-          "id": "kbdnews-2898",
-          "title": "Teenspirit",
-          "url": "https://kbd.news/Teenspirit-2898.html",
-          "discussion_url": "https://kbd.news/Teenspirit-2898.html",
-          "source": "kbdnews",
-          "subreddit": null,
-          "via": "KBD.news",
-          "score": null,
-          "comments": null,
-          "category": "breaking",
-          "takeaway": "Apfel's open-source Teenspirit is a 18-key monoblock ergo split keyboard.",
-          "image_hint": "https://kbd.news/pic/2026/215/480/2898.jpg",
-          "topics": [
-            "splits-ergo",
-            "builds-hardware"
-          ],
-          "tags": [
-            "open-source",
-            "split-keyboard",
-            "pcb-design"
-          ],
-          "image": "img/kbdnews-2898.jpg"
         }
       ]
     },

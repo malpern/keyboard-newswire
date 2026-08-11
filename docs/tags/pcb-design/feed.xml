@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/pcb-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Pcb Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 11 Aug 2026 12:05:08 +0000</lastBuildDate>
-  <item>
-    <title>Teenspirit</title>
-    <link>https://kbd.news/Teenspirit-2898.html</link>
-    <guid isPermaLink="false">kbdnews-2898</guid>
-    <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Apfel's open-source Teenspirit is a 18-key monoblock ergo split keyboard. — KBD.news</description>
-  </item>
+  <lastBuildDate>Tue, 11 Aug 2026 12:05:20 +0000</lastBuildDate>
   <item>
     <title>Show HN: I spent 2 years designing a mechanical Magic Keyboard</title>
     <link>https://electronicmaterialsoffice.com/</link>
