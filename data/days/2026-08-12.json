@@ -89,6 +89,83 @@
         "pricing",
         "vendor-practices"
       ]
+    },
+    {
+      "id": "geekhack-127011",
+      "title": "[GB] GMK Orange Alert - 8/14/26 to 9/14/26",
+      "url": "https://geekhack.org/index.php?topic=127011.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=127011.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Group Buys",
+      "score": 93,
+      "comments": 1,
+      "category": "breaking",
+      "takeaway": "GMK Orange Alert Aug 14th - Sept 14th Est Shipping 4-5 months About alert-like set but orange. thats about it. i like orange. Colors same orange as gmk orenji which will reduce cost Kits Vendors USA: Divinikey EU: CoffeeKeys UK: ProtoTypist CA: Unikeys CN: KBDFans SEA: Ktechs JP: Yushakobo OCE: Keebz N Cables Prices Keyboard Renders ^finn60xt by baucts ^marcy80 by baucts ^txuu by ? ^titan65 by phase studio ^m60a by r*m*w*rks IRL Color Samples Library Colors under different lighting Updates During IC Phase More 5/27/26: ty everyone who filled the ic, here are the updates so far: - moved alert r",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "GB",
+      "images_remote": [
+        "https://i.imgur.com/0upGGU9.jpeg",
+        "https://i.imgur.com/HfKowPC.png",
+        "https://i.imgur.com/kJRskqQ.png",
+        "https://i.imgur.com/goZ6tX4.png",
+        "https://i.imgur.com/cY3mX90.png",
+        "https://i.imgur.com/ZOb5ZLA.png",
+        "https://i.imgur.com/74DDGS3.png",
+        "https://i.imgur.com/UGMjMkg.png",
+        "https://i.imgur.com/YvqsnGk.png",
+        "https://i.imgur.com/EIdAREU.jpeg",
+        "https://i.imgur.com/eS9gK8Z.png",
+        "https://i.imgur.com/hJ6yH4B.png",
+        "https://i.imgur.com/pKw643U.jpeg",
+        "https://i.imgur.com/GL3CZLk.png"
+      ],
+      "gb": {
+        "designer": "pha",
+        "vendor_regions": [
+          {
+            "region": "US",
+            "name": "Divinikey"
+          },
+          {
+            "region": "EU",
+            "name": "CoffeeKeys"
+          },
+          {
+            "region": "UK",
+            "name": "ProtoTypist"
+          },
+          {
+            "region": "CA",
+            "name": "Unikeys"
+          },
+          {
+            "region": "CN",
+            "name": "KBDFans"
+          },
+          {
+            "region": "SEA",
+            "name": "Ktechs"
+          }
+        ],
+        "photo_credit": "baucts"
+      },
+      "tags": [
+        "group-buy",
+        "keycap-design"
+      ],
+      "images": [
+        "img/geekhack-127011-0.jpg",
+        "img/geekhack-127011-1.jpg",
+        "img/geekhack-127011-2.jpg",
+        "img/geekhack-127011-3.jpg",
+        "img/geekhack-127011-4.jpg",
+        "img/geekhack-127011-5.jpg"
+      ],
+      "image": "img/geekhack-127011-0.jpg"
     }
   ]
 }
