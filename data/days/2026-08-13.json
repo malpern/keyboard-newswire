@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-13",
+  "items": [
+    {
+      "id": "hn-49272573",
+      "title": "Show HN: OpenMicroKbd: $40 open source alternative to Codex Micro Keyboard",
+      "url": "https://openmicrokbd.org/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49272573",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 0,
+      "category": "breaking",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware",
+        "firmware"
+      ],
+      "tags": [
+        "open-source",
+        "pcb-design",
+        "custom-firmware"
+      ],
+      "image": "img/hn-49272573.jpg"
+    }
+  ]
+}

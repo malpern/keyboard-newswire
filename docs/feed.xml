@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 12 Aug 2026 12:06:57 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 12:02:50 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: OpenMicroKbd: $40 open source alternative to Codex Micro Keyboard</title>
+    <link>https://openmicrokbd.org/</link>
+    <guid isPermaLink="false">hn-49272573</guid>
+    <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Apiary Keyboards live stream: Building a Keycult 1800</title>
     <link>https://www.twitch.tv/?tt_content=twitch_favorite_up&amp;tt_email_id=3085761a-cc9d-4fa5-aca7-04e9714cc076&amp;tt_medium=email</link>
@@ -2102,17 +2113,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
     <description>Newsletter highlights IQUNIX EV63 HE review and open-source projects including Laika, MMOrtho, Alatus, Krteq, Leonardo KeycapRio, Lemonshark, and PISIC. — ✉ Buttondown</description>
-  </item>
-  <item>
-    <title>Omnitype Bauer 65 groupbuy ends soon</title>
-    <link>https://keyboard-newswire.com/email/19dd6c3baab79d88/</link>
-    <guid isPermaLink="false">email-19dd6c3baab79d88</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
-    <description>The Bauer 65 groupbuy is closing in one day, with the Dune colorway available. — ✉ Omnitype</description>
   </item>
 </channel>
 </rss>
