@@ -22,6 +22,29 @@
         "custom-firmware"
       ],
       "image": "img/hn-49272573.jpg"
+    },
+    {
+      "id": "email-19ff8948743a3bf8",
+      "title": "Mode Designs Sonnet restock available for pre-order",
+      "url": "https://modedesigns.com/products/sonnet",
+      "discussion_url": "https://modedesigns.com/products/sonnet",
+      "source": "email",
+      "subreddit": null,
+      "via": "Modedesigns",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Mode Designs has opened pre-orders for the Sonnet keyboard kit.",
+      "sender": "Mode Designs <support@modedesigns.com>",
+      "topics": [
+        "group-buys-vendors",
+        "builds-hardware"
+      ],
+      "tags": [
+        "restock",
+        "diy-build"
+      ],
+      "image": "img/email-19ff8948743a3bf8.jpg"
     }
   ]
 }

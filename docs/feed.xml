@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 13 Aug 2026 12:02:50 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 12:04:26 +0000</lastBuildDate>
   <item>
     <title>Show HN: OpenMicroKbd: $40 open source alternative to Codex Micro Keyboard</title>
     <link>https://openmicrokbd.org/</link>
@@ -17,6 +17,17 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Mode Designs Sonnet restock available for pre-order</title>
+    <link>https://modedesigns.com/products/sonnet</link>
+    <guid isPermaLink="false">email-19ff8948743a3bf8</guid>
+    <pubDate>Thu, 13 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>Mode Designs has opened pre-orders for the Sonnet keyboard kit. — ✉ Modedesigns</description>
   </item>
   <item>
     <title>Apiary Keyboards live stream: Building a Keycult 1800</title>
@@ -2102,17 +2113,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype has released the GMK (CYL) Burgundy keycap set, coinciding with the end of the Bauer 65 preorder. — ✉ Omnitype</description>
-  </item>
-  <item>
-    <title>Keyboard Builders Digest #210: IQUNIX EV63 HE, Laika, MMOrtho, Alatus, Krteq, and more</title>
-    <link>https://buttondown.com/kbdnews/archive/issue-210-keyboard-builders-digest/</link>
-    <guid isPermaLink="false">email-19dda23664c2147d</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
-    <description>Newsletter highlights IQUNIX EV63 HE review and open-source projects including Laika, MMOrtho, Alatus, Krteq, Leonardo KeycapRio, Lemonshark, and PISIC. — ✉ Buttondown</description>
   </item>
 </channel>
 </rss>
