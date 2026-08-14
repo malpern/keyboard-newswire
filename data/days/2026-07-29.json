@@ -45,31 +45,31 @@
             "vendor": "Carolina Mech",
             "url": "https://www.carolinamech.com",
             "host": "www.carolinamech.com",
-            "metadata_fetched_at": "2026-08-13T12:06:31.908528+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:11.453405+00:00"
           },
           {
             "vendor": "Van Dusen",
             "url": "https://www.vdmfg.com/",
             "host": "www.vdmfg.com",
-            "metadata_fetched_at": "2026-08-13T12:06:31.908542+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:11.453425+00:00"
           },
           {
             "vendor": "Buy your kit @ carolinamech.com",
             "url": "https://carolinamech.com/collections/gb-fossil-r2",
             "host": "carolinamech.com",
-            "metadata_fetched_at": "2026-08-13T12:06:31.908559+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:11.453438+00:00"
           },
           {
             "vendor": "Gunmetal Grey Cerakote",
             "url": "https://www.cerakote.com/shop/cerakote-coating/H-219/gun-metal-grey",
             "host": "www.cerakote.com",
-            "metadata_fetched_at": "2026-08-13T12:06:31.908571+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:11.453448+00:00"
           },
           {
             "vendor": "Mongoose Gun Candy Color Changing",
             "url": "https://www.guncandy.com/products/mongoose?srsltid=AfmBOoo7xWai5czsqoah9VJX6IdPterdvdQIwHeLmMk1FQPUUsSqoAfX",
             "host": "www.guncandy.com",
-            "metadata_fetched_at": "2026-08-13T12:06:32.210701+00:00",
+            "metadata_fetched_at": "2026-08-14T12:06:11.782486+00:00",
             "price_low": 2000,
             "price_high": 14080,
             "available": true
@@ -78,13 +78,13 @@
             "vendor": "Northern Lights Cerakote",
             "url": "https://www.cerakote.com/shop/cerakote-coating/H-315/northern-lights",
             "host": "www.cerakote.com",
-            "metadata_fetched_at": "2026-08-13T12:06:32.210741+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:11.783543+00:00"
           },
           {
             "vendor": "Pegasus Gun Candy Color Changing",
             "url": "https://www.guncandy.com/products/pegasus?srsltid=AfmBOooMSKlxcsDXoxNtRGf3SQKRONVSegoeZILD-oYmyMep5wBPpwqH",
             "host": "www.guncandy.com",
-            "metadata_fetched_at": "2026-08-13T12:06:33.227072+00:00",
+            "metadata_fetched_at": "2026-08-14T12:06:12.733161+00:00",
             "price_low": 2000,
             "price_high": 14080,
             "available": true
@@ -140,7 +140,7 @@
             "vendor": "KeyAtlas Project Page",
             "url": "https://keyatlas.io/projects/kap-deez-nuts?ref=geekhack",
             "host": "keyatlas.io",
-            "metadata_fetched_at": "2026-08-13T12:06:33.227173+00:00"
+            "metadata_fetched_at": "2026-08-14T12:06:12.733250+00:00"
           }
         ]
       },
