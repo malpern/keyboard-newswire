@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 15 Aug 2026 12:05:52 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 12:06:15 +0000</lastBuildDate>
   <item>
     <title>CannonKeys MW Norse keycap group buy ends tonight</title>
     <link>https://discord.com/invite/gAy6sqp</link>
@@ -27,6 +27,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
     <description>Stinga60 raffle remains 'coming soon' with no active entry URL; pricing is $580/$585 with fulfillment expected late Q2–early Q3 2027. — ✉ Gmail</description>
+  </item>
+  <item>
+    <title>[IC]篆Seal - A Fullsize Keyboard</title>
+    <link>https://geekhack.org/index.php?topic=123480.0</link>
+    <guid isPermaLink="false">geekhack-123480</guid>
+    <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>篆Seal Designed by XINGZHI x QIN / Co-produced by VERTEX Hello world, I’m Xingzhi, a fresh rookie in keyboard design from China. This full size newbee is brought to you by me and my friend Qin. It’s produced by the Vertex team of ‘Angle’ you might be familiar with. Qin and I are both fanatic collectors of vintage keyboards, such as IBM, Cherry. In the classic world, full size type is always the main stream. Cherry G80-3108 with a key on top right, was such an iconic design, followed by Apple and WYSE with products sharing the same idea. That’s where my debut show came from. Furthermore, what of — 47939 pts · 44 comments · Geekhack · Interest Checks</description>
   </item>
   <item>
     <title>Omnitype releases PBTfans Thermal</title>
