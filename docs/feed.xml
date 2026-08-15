@@ -6,7 +6,48 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 14 Aug 2026 12:06:38 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 15 Aug 2026 12:04:58 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys MW Norse keycap group buy ends tonight</title>
+    <link>http://discord.gg/gAy6sqp</link>
+    <guid isPermaLink="false">email-1a00215708e32c68</guid>
+    <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>MW Norse keycap group buy ends Aug 16; PBS BoB group buy ends Aug 16; Chocolate Bar deskmats pre-order ends Aug 17; Cipulot EC PCBs restocked. — ✉ Cannonkeys</description>
+  </item>
+  <item>
+    <title>thecaptainsterling streaming Clever Phi60 build</title>
+    <link>https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6IjE3MzNkY2NjLTI4MmQtNDg1Mi04MTc5LTFmOTU5ZmNmY2YxMyIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoidGhlY2FwdGFpbnN0ZXJsaW5nIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/cb446d002e2fcb27ba4bc4995109d2b2c3a6ea67585c3d0d7cae6e1b2fd86ee3?ignore_query=true&amp;tt_content=twitch_favorite_up&amp;tt_email_id=1733dccc-282d-4852-8179-1f959fcfcf13&amp;tt_medium=email</link>
+    <guid isPermaLink="false">email-1a000af14ce2b128</guid>
+    <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Twitch</source>
+    <description>Streamer thecaptainsterling is live building the Clever Phi60 keyboard kit. — ✉ Twitch</description>
+  </item>
+  <item>
+    <title>SingaKBD Stinga60 raffle status update</title>
+    <link>https://singakbd.com/pages/stinga-60\n-</link>
+    <guid isPermaLink="false">email-1a0002bb1b13a9e7</guid>
+    <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>Stinga60 raffle remains 'coming soon' with no active entry URL; pricing is $580/$585 with fulfillment expected late Q2–early Q3 2027. — ✉ Gmail</description>
+  </item>
+  <item>
+    <title>BRG Kohaku found</title>
+    <link>https://mail.google.com/mail/u/0/#all/1a000287c420f4b6</link>
+    <guid isPermaLink="false">email-1a000287c420f4b6</guid>
+    <pubDate>Sat, 15 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>Micah Alpern reports the discovery of a BRG Kohaku keyboard. — ✉ Gmail</description>
+  </item>
   <item>
     <title>Omnitype releases PBTfans Thermal</title>
     <link>https://omnitype.com/products/pbtfans-thermal</link>
@@ -2070,46 +2111,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/macapps</source>
     <description>Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users. — 20 pts · 10 comments · r/macapps</description>
-  </item>
-  <item>
-    <title>QMK matrix implementation can be used as a custom lite matrix</title>
-    <link>https://www.reddit.com/r/olkb/comments/1t25p4v/how_to_use_qmks_matrix_implementation_as_a_custom/</link>
-    <guid isPermaLink="false">reddit-1t25p4v</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Technical discussion on leveraging QMK's matrix scanning code for custom firmware. — 1 pts · 2 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>Raycast ships without mandatory code reviews by default</title>
-    <link>https://www.raycast.com/blog/no-code-reviews-by-default</link>
-    <guid isPermaLink="false">hn-47986143</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>Raycast on shipping without mandatory code review — adjacent to keyboard-tools workflow culture. — 1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>ScottoAcademy enrollment closes May 3rd</title>
-    <link>https://keyboard-newswire.com/email/19de367d5dcc0962/</link>
-    <guid isPermaLink="false">email-19de367d5dcc0962</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Scottokeebs</source>
-    <description>Joe from ScottoKeebs is offering 3 spots for a live, handwired macad build session to support his channel. — ✉ Scottokeebs</description>
-  </item>
-  <item>
-    <title>Keyreative Santa Llum keyboard now in stock</title>
-    <link>https://keyreative.store/products/kap-santa-llum-doubleshot-cherry-keycaps</link>
-    <guid isPermaLink="false">email-19de2fc777efd88f</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Keyreative</source>
-    <description>Keyreative announces the Santa Llum keyboard is available for purchase in two colors. — ✉ Keyreative</description>
   </item>
 </channel>
 </rss>
