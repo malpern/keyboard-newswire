@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 16 Aug 2026 12:06:39 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 17 Aug 2026 12:04:26 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys Blaine V2 SE Group Buy Last Call</title>
+    <link>https://cannonkeys.com/</link>
+    <guid isPermaLink="false">email-1a00b4f291170e9d</guid>
+    <pubDate>Mon, 17 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys announces the final deadline for the Blaine V2 SE keyboard group buy, listing proxy stores for US, OCE, CN, EU, UK, and CA regions. — ✉ Cannonkeys</description>
+  </item>
   <item>
     <title>CannonKeys MW Norse keycap group buy ends tonight</title>
     <link>https://discord.com/invite/gAy6sqp</link>
@@ -2101,16 +2111,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Creator released all files for the split 54-key dual-trackball board, including PCBs. — 33 pts · 8 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Tooling discussion for debugging global shortcut conflicts on macOS</title>
-    <link>https://www.reddit.com/r/MacOSApps/comments/1t27dar/macos_utilities_for_identifying_apps_hijacking/</link>
-    <guid isPermaLink="false">reddit-1t27dar</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/macapps</source>
-    <description>Tooling discussion for debugging global shortcut conflicts — relevant for remapping software users. — 20 pts · 10 comments · r/macapps</description>
   </item>
 </channel>
 </rss>
