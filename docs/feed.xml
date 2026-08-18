@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 17 Aug 2026 12:07:32 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 18 Aug 2026 12:04:50 +0000</lastBuildDate>
+  <item>
+    <title>thecaptainsterling streaming NyxKeys Eclipse Keyboard Kit build</title>
+    <link>https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWFpbF9pZCI6ImUyNzE0MmIwLTk3NDYtNDM1My1hMWNjLTkzOWNkZDIzNjM3NiIsIm5hbWUiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJzb3VyY2VfZW1haWwiOiJ0d2l0Y2hfZmF2b3JpdGVfdXAiLCJjdGFfdmFsdWUiOiIiLCJjaGFubmVsIjoidGhlY2FwdGFpbnN0ZXJsaW5nIiwibG9naW4iOiJtaWFscGVybiJ9/729284372/b846fa869a87f359f51d147a9016e723f821c5406ca2c58dfa4b1700fdb7c06e?ignore_query=true&amp;tt_content=twitch_favorite_up&amp;tt_email_id=e27142b0-9746-4353-a1cc-939cdd236376&amp;tt_medium=email</link>
+    <guid isPermaLink="false">email-1a010262de20eb25</guid>
+    <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Twitch</source>
+    <description>Streamer thecaptainsterling is currently live building the NyxKeys Eclipse Keyboard Kit. — ✉ Twitch</description>
+  </item>
   <item>
     <title>CannonKeys Blaine V2 SE Group Buy Last Call</title>
     <link>https://malpern.github.io/keyboard-wire/email/1a00b4f291170e9d/</link>
@@ -2100,17 +2110,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Levels54 open-sources split 54-key dual-trackball keyboard files</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t221l1/levels54_is_now_fully_open_source/</link>
-    <guid isPermaLink="false">reddit-1t221l1</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Creator released all files for the split 54-key dual-trackball board, including PCBs. — 33 pts · 8 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>
