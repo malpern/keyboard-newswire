@@ -3,6 +3,164 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-19",
+      "items": [
+        {
+          "id": "geekhack-126557",
+          "title": "[GB] GMK CYL Power 2048",
+          "url": "https://geekhack.org/index.php?topic=126557.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126557.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 8388,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "GMK CYL Power 2048 Hey everyone. Inspired by PowerBook 100. Featuring Extended 2048 accent colors and (as close as possible) PowerBook 100 base color (Pantone 2332 C or something between RAL 7010 and 7012). Running from April 3rd to 24th. ETA: Q3 2026. Vendors US: Novelkeys EU: Oblotzky Industries SG: Ilumkb CN: KBDfans UK: Prototypist CA: Deskhero SK: Geon Not all proxy servers have listed it yet. I'll update the post once I got the url. Kits Renders Thanks for the support. Special thanks to Oblotzky for the renders. Signature: Code: [Select] [url=https://geekhack.org/index.php?topic=125624.0",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Base.png?=v2",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Accents.png?=v2",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Novelties.png?=v2",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_International.png?=v2",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Boop_CU.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Piggy_CU.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Piggy_Wide.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Ascii_F_Wide.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Boop_Frontal.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Wampus_Wide.png",
+            "https://media.biipmk.com/gmk_power2048/GMK_CYL_Power_2048_Classic_TKL_CU.png",
+            "https://i.imgur.com/6UHnGqR.png"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Novelkeys",
+                "url": "https://novelkeys.com/collections/top-dogs/products/gmk-cyl-power-2048-keycaps",
+                "host": "novelkeys.com"
+              },
+              {
+                "vendor": "Oblotzky Industries",
+                "url": "https://oblotzky.industries/products/gmk-cyl-power-2048",
+                "host": "oblotzky.industries"
+              },
+              {
+                "vendor": "Ilumkb",
+                "url": "https://ilumkb.com/products/gmk-cyl-power-2048",
+                "host": "ilumkb.com"
+              },
+              {
+                "vendor": "KBDfans",
+                "url": "https://kbdfans.com/products/gmk-cyl-power-2048?sacode=shn6n9",
+                "host": "kbdfans.com"
+              },
+              {
+                "vendor": "Prototypist",
+                "url": "https://prototypist.net/products/group-buy-gmk-cyl-power-2048?_pos=1&_sid=6481de5b7&_ss=r",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "Deskhero",
+                "url": "https://www.deskhero.ca/products/gmk-cyl-power-2048",
+                "host": "www.deskhero.ca"
+              },
+              {
+                "vendor": "Geon",
+                "url": "https://geon.works/products/group-buy-gmk-cyl-power-2048",
+                "host": "geon.works"
+              }
+            ],
+            "starts_at": "2027-04-03",
+            "ends_at": "2027-04-24",
+            "status": "live",
+            "vendor_regions": [
+              {
+                "region": "US",
+                "name": "Novelkeys"
+              },
+              {
+                "region": "EU",
+                "name": "Oblotzky Industries"
+              },
+              {
+                "region": "SG",
+                "name": "Ilumkb"
+              },
+              {
+                "region": "CN",
+                "name": "KBDfans"
+              },
+              {
+                "region": "UK",
+                "name": "Prototypist"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126557-0.jpg",
+            "img/geekhack-126557-1.jpg",
+            "img/geekhack-126557-2.jpg",
+            "img/geekhack-126557-3.jpg",
+            "img/geekhack-126557-4.jpg",
+            "img/geekhack-126557-5.jpg"
+          ],
+          "image": "img/geekhack-126557-0.jpg"
+        },
+        {
+          "id": "geekhack-127032",
+          "title": "[IC] GMK CYL Spectre",
+          "url": "https://geekhack.org/index.php?topic=127032.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127032.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 351,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "Discord FORM GMK CYL SPECTRE Hi, let me introduce Spectre. It was initially conceived as a set inspired by the paranormal. However, I wanted to take the concept a step further. As someone who has always been fascinated by both physics and horror, I wanted to find a connection between these two seemingly opposite worlds. Let’s take a brief look at what is often referred to as the fifth state of matter: the Bose–Einstein Condensate (BEC): At temperatures approaching absolute zero, atoms begin to lose their individual identities, merging into a single quantum state and behaving collectively as on",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/Xqe9i7Y.jpeg",
+            "https://i.imgur.com/K8XvMHT.jpeg",
+            "https://i.imgur.com/x75kGGh.jpeg",
+            "https://i.imgur.com/bAiBJiw.jpeg",
+            "https://i.imgur.com/FiVRRg1.jpeg",
+            "https://i.imgur.com/R1rSG4f.jpeg",
+            "https://i.imgur.com/mYeT0qv.jpeg",
+            "https://i.imgur.com/HDLOxFx.jpeg",
+            "https://i.imgur.com/AqIRXfo.jpeg",
+            "https://i.imgur.com/RQjReeC.jpeg",
+            "https://i.imgur.com/sxipjML.jpeg"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-127032-0.jpg",
+            "img/geekhack-127032-1.jpg",
+            "img/geekhack-127032-2.jpg",
+            "img/geekhack-127032-3.jpg",
+            "img/geekhack-127032-4.jpg",
+            "img/geekhack-127032-5.jpg"
+          ],
+          "image": "img/geekhack-127032-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-18",
       "items": [
         {
