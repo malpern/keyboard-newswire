@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Macos Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 19 Aug 2026 12:07:19 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 12:02:53 +0000</lastBuildDate>
+  <item>
+    <title>Raycast 2.0 Released</title>
+    <link>https://www.raycast.com/new</link>
+    <guid isPermaLink="false">hn-49372050</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Raycast 2.0 Released</title>
+    <link>https://www.raycast.com/index</link>
+    <guid isPermaLink="false">hn-49372032</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Show HN: Keychange, macOS input source switching per keyboard, not per app</title>
     <link>https://keychange.dev</link>

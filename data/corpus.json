@@ -3,6 +3,51 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-20",
+      "items": [
+        {
+          "id": "hn-49372050",
+          "title": "Raycast 2.0 Released",
+          "url": "https://www.raycast.com/new",
+          "discussion_url": "https://news.ycombinator.com/item?id=49372050",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "breaking",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-49372050.jpg"
+        },
+        {
+          "id": "hn-49372032",
+          "title": "Raycast 2.0 Released",
+          "url": "https://www.raycast.com/index",
+          "discussion_url": "https://news.ycombinator.com/item?id=49372032",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-49372032.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-19",
       "items": [
         {

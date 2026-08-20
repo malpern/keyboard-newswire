@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 19 Aug 2026 12:07:19 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 12:02:53 +0000</lastBuildDate>
+  <item>
+    <title>Raycast 2.0 Released</title>
+    <link>https://www.raycast.com/new</link>
+    <guid isPermaLink="false">hn-49372050</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Raycast 2.0 Released</title>
+    <link>https://www.raycast.com/index</link>
+    <guid isPermaLink="false">hn-49372032</guid>
+    <pubDate>Thu, 20 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>thecaptainsterling streaming NyxKeys Eclipse Keyboard Kit build</title>
     <link>https://www.twitch.tv/?tt_content=twitch_favorite_up&amp;tt_email_id=e27142b0-9746-4353-a1cc-939cdd236376&amp;tt_medium=email</link>
@@ -2089,27 +2109,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 1 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Karabiner-Elements 16.0.0</title>
-    <link>https://karabiner-elements.pqrs.org/docs/releasenotes/</link>
-    <guid isPermaLink="false">hn-48009722</guid>
-    <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>2 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Reddit users discuss Shopify configuration issues causing misleading kit pricing</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t27uj6/list_prices_on_many_websites_are_borderline_false/</link>
-    <guid isPermaLink="false">reddit-1t27uj6</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Community discussion on Shopify configuration issues causing misleading kit pricing. — 153 pts · 47 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
