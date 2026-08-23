@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "id": "hn-49406144",
+      "title": "Moonlander Ergonomic Keyboard",
+      "url": "https://www.zsa.io/moonlander",
+      "discussion_url": "https://news.ycombinator.com/item?id=49406144",
+      "source": "hn",
+      "subreddit": null,
+      "score": 2,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "splits-ergo",
+        "firmware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "custom-firmware"
+      ],
+      "image": "img/hn-49406144.jpg"
+    },
+    {
+      "id": "hn-49407586",
+      "title": "Show HN: Kloni – Keyboard-first mind mapping for macOS with tasks built in",
+      "url": "https://kloni.app/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49407586",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "tools-software"
+      ],
+      "tags": [
+        "macos-utilities",
+        "productivity"
+      ],
+      "image": "img/hn-49407586.jpg"
+    }
+  ]
+}

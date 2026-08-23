@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 22 Aug 2026 12:06:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 23 Aug 2026 12:02:49 +0000</lastBuildDate>
+  <item>
+    <title>Moonlander Ergonomic Keyboard</title>
+    <link>https://www.zsa.io/moonlander</link>
+    <guid isPermaLink="false">hn-49406144</guid>
+    <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Ergonomic keyboard generator with hand scanning</title>
     <link>https://ryanis.cool/cosmos/</link>

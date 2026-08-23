@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 22 Aug 2026 12:06:52 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 23 Aug 2026 12:02:49 +0000</lastBuildDate>
+  <item>
+    <title>Moonlander Ergonomic Keyboard</title>
+    <link>https://www.zsa.io/moonlander</link>
+    <guid isPermaLink="false">hn-49406144</guid>
+    <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Kloni – Keyboard-first mind mapping for macOS with tasks built in</title>
+    <link>https://kloni.app/</link>
+    <guid isPermaLink="false">hn-49407586</guid>
+    <pubDate>Sun, 23 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>CannonKeys Satisfaction75 V2, Optical Illusion Deskmats, Retro UI, GMK Rainy Day R3</title>
     <link>http://discord.gg/gAy6sqp</link>
@@ -2089,28 +2110,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Author highlights Kanata's cross-platform capabilities and layers/tap-hold features as an alternative to flashing firmware. — 0 pts · 1 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Mechanical keyboard builder completes hardware assembly and begins firmware coding</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t36hdi/its_all_wired_up_now_all_i_have_to_do_is_learn_to/</link>
-    <guid isPermaLink="false">reddit-1t36hdi</guid>
-    <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>OP is a complete beginner who just finished their first build and is now tackling the firmware coding aspect. High engagement due to the "journey" narrative. — 579 pts · 46 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>HoldTap creator releases macOS app to add ZMK/QMK layer and hold-tap features to standard keyboards</title>
-    <link>https://www.reddit.com/r/olkb/comments/1t2viri/holdtap_software_only_to_recreate_zmkqmk_on_mac/</link>
-    <guid isPermaLink="false">reddit-1t2viri</guid>
-    <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Remapping &amp; Layouts</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Creator of "HoldTap" announces a new macOS application designed to bring layer/hold-tap functionality to standard keyboards without flashing firmware. Relevant for Mac users who want ZMK-like features. — 37 pts · 18 comments · r/olkb</description>
   </item>
 </channel>
 </rss>
