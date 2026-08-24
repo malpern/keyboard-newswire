@@ -25,6 +25,100 @@
             "group-buy",
             "vendor-practices"
           ]
+        },
+        {
+          "id": "geekhack-120669",
+          "title": "[IC] GMK 3077 (Previously Brown on Beige)",
+          "url": "https://geekhack.org/index.php?topic=120669.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=120669.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 84033,
+          "comments": 49,
+          "category": "breaking",
+          "takeaway": "GMK 3077 (Previously Brown on Beige) I've decided to overhaul this IC with new sample colours from GMK. I've also taken all the feedback and changed the kitting slightly to better accommodate for everyone's needs. Hopefully most people will be happy with the new kits :') The inspiration for this set was the OG Cherry dyesub keycaps from the NCR G81-3077SAU, that had faded to a nice brown colour. IC Form Discord Base Kit Hangul Alphas Num Row Spacebars Colour Codes Alphas - Custom colour matched Mods - Custom colour matched Legends - RAL8017 I sat at Geonworks with a GMK colour ring and his NCR",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/FKHLJjs.jpeg",
+            "https://i.imgur.com/9lf1Scy.png",
+            "https://i.imgur.com/1Jmex5y.png",
+            "https://i.imgur.com/D2vp7dr.png",
+            "https://i.imgur.com/6HJGWEE.png",
+            "https://i.imgur.com/KnxNUT3.png",
+            "https://i.imgur.com/uZzeUk9.png",
+            "https://i.imgur.com/GlTX18G.png",
+            "https://i.imgur.com/JIpTzAL.png",
+            "https://i.imgur.com/QZaV9Sb.png",
+            "https://i.imgur.com/C61FMiz.png",
+            "https://i.imgur.com/eqpIpR5.png",
+            "https://i.imgur.com/lY7CAjv.png",
+            "https://i.imgur.com/BVoxUe2.png",
+            "https://i.imgur.com/UM8y4tw.png"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-120669-0.jpg",
+            "img/geekhack-120669-1.jpg",
+            "img/geekhack-120669-2.jpg",
+            "img/geekhack-120669-3.jpg",
+            "img/geekhack-120669-4.jpg",
+            "img/geekhack-120669-5.jpg"
+          ],
+          "image": "img/geekhack-120669-0.jpg"
+        },
+        {
+          "id": "geekhack-126543",
+          "title": "[IC] DCS Clown - A Plastic Masterpiece",
+          "url": "https://geekhack.org/index.php?topic=126543.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126543.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 6669,
+          "comments": 9,
+          "category": "breaking",
+          "takeaway": "DCS CLOWN INSPO After a year of working with one of the greatest design studios in the world, ICM , I figured it was finally time for me to move on and share my newly gained and vast knowledge of keyboards with a lesser known, smaller outfit, indie studio BowlKeyboards. From humble beginnings, Bowl has dedicated much of his time to amateur works like the Oblique and Compact Ergo, so I decided it was time for him to level up his game and create a genuine keyboard product masterpiece. It is with much anticipation that I finally get to reveal what I believe is our greatest work to date - DCS Clow",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/FXdF1Jo.jpeg",
+            "https://i.imgur.com/eEApmm0.png",
+            "https://i.imgur.com/25bAsBR.jpeg",
+            "https://i.imgur.com/YGf25BT.jpeg",
+            "https://i.imgur.com/2fLHaXi.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Bowlkeyboards.com",
+                "url": "https://bowlkeyboards.com/products/dcs-clown",
+                "host": "bowlkeyboards.com"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "pcb-design"
+          ],
+          "images": [
+            "img/geekhack-126543-0.jpg",
+            "img/geekhack-126543-1.jpg",
+            "img/geekhack-126543-2.jpg",
+            "img/geekhack-126543-3.jpg",
+            "img/geekhack-126543-4.jpg"
+          ],
+          "image": "img/geekhack-126543-0.jpg"
         }
       ]
     },
