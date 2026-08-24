@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-24",
+      "items": [
+        {
+          "id": "email-1a02ef2680421bb9",
+          "title": "Mode Designs announces Prologue pre-order next month",
+          "url": "https://drg2mhzb9zcts.cloudfront.net/events/Prologue_Cal.ics",
+          "discussion_url": "https://drg2mhzb9zcts.cloudfront.net/events/Prologue_Cal.ics",
+          "source": "email",
+          "subreddit": null,
+          "via": "Modedesigns",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Mode Designs is opening pre-orders for the Prologue keyboard next month.",
+          "sender": "Mode Designs <support@modedesigns.com>",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "group-buy",
+            "vendor-practices"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-08-23",
       "items": [
         {
