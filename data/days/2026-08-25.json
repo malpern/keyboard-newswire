@@ -45,6 +45,203 @@
         "pricing",
         "vendor-practices"
       ]
+    },
+    {
+      "id": "geekhack-125335",
+      "title": "[GB] Split60 - A Split 60% HHKB/WK with EC Support - MOQ Reached!",
+      "url": "https://geekhack.org/index.php?topic=125335.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=125335.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Group Buys",
+      "score": 15480,
+      "comments": 15,
+      "category": "breaking",
+      "takeaway": "The Group Buy for the Split 60 is Live! The Split60 is a high end 60% keyboard that is split down the middle. It has been designed with ergonomics in mind whilst also keeping a simple but very loved layout. The Split60 offers many different options to create the perfect custom keyboard for you. Those options include: Top Case - HHKB - Winkey (WK) Case Colour options - Black - Purple - E-Beige Spacer (the insert in the centre of the board where the board splits) - Aluminium (matched to your board colour) - Polycarb (allowing LED shine through)[/li][/list] Each of these options has been chosen a",
+      "topics": [
+        "group-buys-vendors",
+        "splits-ergo"
+      ],
+      "type": "GB",
+      "images_remote": [
+        "https://i.imgur.com/lGX3JcV.jpeg",
+        "https://i.imgur.com/9A92IV0.jpeg",
+        "https://i.imgur.com/xt6K4pL.jpeg",
+        "https://i.imgur.com/mVL57lC.jpeg",
+        "https://i.imgur.com/J4O8i8t.jpeg",
+        "https://i.imgur.com/j3lrvdy.jpeg"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "https://mtnkbd.com/products/split60",
+            "url": "https://mtnkbd.com/products/split60",
+            "host": "mtnkbd.com"
+          }
+        ],
+        "related_threads": [
+          {
+            "type": "",
+            "title": "Split60 - A Split 60% Board HHKB/WK - Group Buy Live!",
+            "url": "https://geekhack.org/index.php?topic=120247.0",
+            "topic_id": "120247"
+          }
+        ]
+      },
+      "tags": [
+        "split-keyboard",
+        "group-buy"
+      ],
+      "images": [
+        "img/geekhack-125335-0.jpg",
+        "img/geekhack-125335-1.jpg",
+        "img/geekhack-125335-2.jpg",
+        "img/geekhack-125335-3.jpg",
+        "img/geekhack-125335-4.jpg",
+        "img/geekhack-125335-5.jpg"
+      ],
+      "image": "img/geekhack-125335-0.jpg"
+    },
+    {
+      "id": "geekhack-125898",
+      "title": "[IC] ¡Now available! Curve0 v2 75%",
+      "url": "https://geekhack.org/index.php?topic=125898.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=125898.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 11822,
+      "comments": 6,
+      "category": "breaking",
+      "takeaway": "Update: Curve0 v2 75% is now in stock and available for purchase! kbd0.com/item/curve0 Firmware files are now attached. kbd0_curve0_75_ansi_default.uf2 is the QMK firmware. As of 2026-08-23, QMK Configurator has not yet synced the keymap; you can upload keymap_qmk.json yourself to save some time. kbd0_curve0_75_ansi_via.uf2 is the Via firmware. As of 2026-08-23, Via has not yet merged Curve0 75% into their repositories, so to remap on their site you need to \"Show Design tab\" in \"SETTINGS\" and, in the now visible \"DESIGN\" tab, upload the Via keymap keymap_via.json. I previously ran a group buy",
+      "topics": [
+        "group-buys-vendors",
+        "firmware"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.imgur.com/h9VPwsM.jpeg",
+        "https://i.imgur.com/6dHLLeV.jpeg",
+        "https://i.imgur.com/A4XPP6j.jpeg",
+        "https://i.imgur.com/KcINJb5.jpeg",
+        "https://i.imgur.com/PeZU3dK.jpeg",
+        "https://i.imgur.com/slb7ajY.jpeg",
+        "https://i.imgur.com/EBj6G8h.jpeg",
+        "https://i.imgur.com/FfttFOn.jpeg",
+        "https://i.imgur.com/JqgD2HS.jpeg",
+        "https://i.imgur.com/EGlPtwy.jpeg",
+        "https://i.imgur.com/nYQikN2.png"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "kbd0.com/item/curve0",
+            "url": "https://kbd0.com/item/curve0",
+            "host": "kbd0.com"
+          },
+          {
+            "vendor": "their site",
+            "url": "https://usevia.app/",
+            "host": "usevia.app"
+          },
+          {
+            "vendor": "component",
+            "url": "https://www.physicsclassroom.com/class/vectors/u3l1d",
+            "host": "www.physicsclassroom.com"
+          }
+        ],
+        "related_threads": [
+          {
+            "type": "IC",
+            "title": "curve0 (keyboard)",
+            "url": "https://geekhack.org/index.php?topic=118293",
+            "topic_id": "118293"
+          },
+          {
+            "type": "GB",
+            "title": "Curve0 - Curved Stainless Steel 60% Keyboard [Done!]",
+            "url": "https://geekhack.org/index.php?topic=123922",
+            "topic_id": "123922"
+          },
+          {
+            "type": "",
+            "title": "keycap profile demonstration props",
+            "url": "https://geekhack.org/index.php?topic=68550",
+            "topic_id": "68550"
+          }
+        ]
+      },
+      "tags": [
+        "restock",
+        "qmk",
+        "via",
+        "group-buy"
+      ],
+      "images": [
+        "img/geekhack-125898-0.jpg",
+        "img/geekhack-125898-1.jpg",
+        "img/geekhack-125898-2.jpg",
+        "img/geekhack-125898-3.jpg",
+        "img/geekhack-125898-5.jpg"
+      ],
+      "image": "img/geekhack-125898-0.jpg"
+    },
+    {
+      "id": "geekhack-126449",
+      "title": "[GB] DCS Hangul PBT | GB SOON! (MARCH 20 - APRIL 3)",
+      "url": "https://geekhack.org/index.php?topic=126449.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=126449.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Group Buys",
+      "score": 23018,
+      "comments": 8,
+      "category": "breaking",
+      "takeaway": "DCS Hangul GB RUNNING FROM MARCH 20, 2026 TO APRIL 3, 2026! Estimated fulfillment Q3 2026! Remembered my password. Introducing DCS Hangul by me and danielsun for a spicy take on DCS. Updates - GB closed! MOQ met (4-5-2026) - All vendors live (3-20-2026) Details Profile/Manufacturer DCS by Signature Plastics, 1-1-2-3-4-4 Legends Gorton/Wyse alphas with custom Hangul sublegends Material Dye-sub PBT with ABS spacebars Colors Stock SP colors. GQC modifiers and WAS alphas , with WW spacebars Note: Because these are ABS spacebars and a different material than the alphas, the color will be slightly d",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "GB",
+      "images_remote": [
+        "https://i.imgur.com/qvKoT2O.png",
+        "https://i.imgur.com/t6oJoCC.png",
+        "https://i.imgur.com/r3QJ9yy.jpeg",
+        "https://i.imgur.com/06ZLvJk.png"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "Mekibo",
+            "url": "https://mekibo.com/products/dcs-hangul-pbt",
+            "host": "mekibo.com"
+          },
+          {
+            "vendor": "Proto[Typist]",
+            "url": "https://prototypist.net/products/group-buy-dcs-hangul-pbt",
+            "host": "prototypist.net"
+          },
+          {
+            "vendor": "ktechs",
+            "url": "https://ktechs.store/products/dcs-hangul-pbt",
+            "host": "ktechs.store"
+          }
+        ],
+        "designer": "me and danielsun for a spicy take on DCS",
+        "starts_at": "2027-03-20",
+        "status": "ended"
+      },
+      "tags": [
+        "group-buy",
+        "keycap-design"
+      ],
+      "images": [
+        "img/geekhack-126449-0.jpg",
+        "img/geekhack-126449-1.jpg",
+        "img/geekhack-126449-2.jpg",
+        "img/geekhack-126449-3.jpg"
+      ],
+      "image": "img/geekhack-126449-0.jpg"
     }
   ]
 }

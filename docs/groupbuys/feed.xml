@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/groupbuys/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Live group buys and interest checks from Geekhack and partner vendors.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 25 Aug 2026 12:05:48 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 25 Aug 2026 12:06:44 +0000</lastBuildDate>
+  <item>
+    <title>[GB] Split60 - A Split 60% HHKB/WK with EC Support - MOQ Reached!</title>
+    <link>https://geekhack.org/index.php?topic=125335.0</link>
+    <guid isPermaLink="false">geekhack-125335</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
+    <description>The Group Buy for the Split 60 is Live! The Split60 is a high end 60% keyboard that is split down the middle. It has been designed with ergonomics in mind whilst also keeping a simple but very loved layout. The Split60 offers many different options to create the perfect custom keyboard for you. Those options include: Top Case - HHKB - Winkey (WK) Case Colour options - Black - Purple - E-Beige Spacer (the insert in the centre of the board where the board splits) - Aluminium (matched to your board colour) - Polycarb (allowing LED shine through)[/li][/list] Each of these options has been chosen a — 15480 pts · 15 comments · Geekhack · Group Buys</description>
+  </item>
+  <item>
+    <title>[IC] ¡Now available! Curve0 v2 75%</title>
+    <link>https://geekhack.org/index.php?topic=125898.0</link>
+    <guid isPermaLink="false">geekhack-125898</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>Update: Curve0 v2 75% is now in stock and available for purchase! kbd0.com/item/curve0 Firmware files are now attached. kbd0_curve0_75_ansi_default.uf2 is the QMK firmware. As of 2026-08-23, QMK Configurator has not yet synced the keymap; you can upload keymap_qmk.json yourself to save some time. kbd0_curve0_75_ansi_via.uf2 is the Via firmware. As of 2026-08-23, Via has not yet merged Curve0 75% into their repositories, so to remap on their site you need to "Show Design tab" in "SETTINGS" and, in the now visible "DESIGN" tab, upload the Via keymap keymap_via.json. I previously ran a group buy — 11822 pts · 6 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>[GB] DCS Hangul PBT | GB SOON! (MARCH 20 - APRIL 3)</title>
+    <link>https://geekhack.org/index.php?topic=126449.0</link>
+    <guid isPermaLink="false">geekhack-126449</guid>
+    <pubDate>Tue, 25 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
+    <description>DCS Hangul GB RUNNING FROM MARCH 20, 2026 TO APRIL 3, 2026! Estimated fulfillment Q3 2026! Remembered my password. Introducing DCS Hangul by me and danielsun for a spicy take on DCS. Updates - GB closed! MOQ met (4-5-2026) - All vendors live (3-20-2026) Details Profile/Manufacturer DCS by Signature Plastics, 1-1-2-3-4-4 Legends Gorton/Wyse alphas with custom Hangul sublegends Material Dye-sub PBT with ABS spacebars Colors Stock SP colors. GQC modifiers and WAS alphas , with WW spacebars Note: Because these are ABS spacebars and a different material than the alphas, the color will be slightly d — 23018 pts · 8 comments · Geekhack · Group Buys</description>
+  </item>
   <item>
     <title>[IC] GMK 3077 (Previously Brown on Beige)</title>
     <link>https://geekhack.org/index.php?topic=120669.0</link>
