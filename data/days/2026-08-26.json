@@ -91,7 +91,8 @@
           {
             "vendor": "https://cannonkeys.com/",
             "url": "https://cannonkeys.com/",
-            "host": "cannonkeys.com"
+            "host": "cannonkeys.com",
+            "metadata_fetched_at": "2026-08-26T12:06:36.805904+00:00"
           }
         ]
       },
