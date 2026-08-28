@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-28",
+      "items": [
+        {
+          "id": "hn-49463828",
+          "title": "The Raycast Keyboard",
+          "url": "https://www.raycast.com/keyboard",
+          "discussion_url": "https://news.ycombinator.com/item?id=49463828",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 2,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-49463828.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-26",
       "items": [
         {

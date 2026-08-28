@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 27 Aug 2026 12:06:42 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 28 Aug 2026 12:02:55 +0000</lastBuildDate>
+  <item>
+    <title>The Raycast Keyboard</title>
+    <link>https://www.raycast.com/keyboard</link>
+    <guid isPermaLink="false">hn-49463828</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 2 comments · Hacker News</description>
+  </item>
   <item>
     <title>SingaKBD STINGA-60 groupbuy sold out, fulfillment Q2-Q3 2027</title>
     <link>https://singakbd.com/collections/stinga-groupbuy</link>
@@ -2097,17 +2107,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>User shares a GitHub repo with working QMK code and individually addressable backlighting for the MX Mechanical Mini. — 16 pts · 4 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Reddit discussion compares hardware USB device for host-independent remapping to QMK, VIA, and Kanata</title>
-    <link>https://www.reddit.com/r/olkb/comments/1t4b9k2/inline_hardware_device_for_hostindependent/</link>
-    <guid isPermaLink="false">reddit-1t4b9k2</guid>
-    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Firmware</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Discussion on validating a hardware USB device concept for host-independent remapping, comparing it to software solutions like QMK/VIA/Kanata. — 10 pts · 22 comments · r/olkb</description>
   </item>
 </channel>
 </rss>
