@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 28 Aug 2026 12:02:55 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 28 Aug 2026 12:05:13 +0000</lastBuildDate>
+  <item>
+    <title>ZSA adds dual navigator support for Voyager and Moonlander</title>
+    <link>https://mailchi.mp/zsa/the-ergo-95?e=7862a946ac</link>
+    <guid isPermaLink="false">email-1a044ddb480eba13</guid>
+    <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>Firmware update allows connecting two pointing devices simultaneously to Voyager and Moonlander keyboards. — ✉ Zsa</description>
+  </item>
   <item>
     <title>Moonlander Ergonomic Keyboard</title>
     <link>https://www.zsa.io/moonlander</link>
