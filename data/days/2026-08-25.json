@@ -77,7 +77,7 @@
             "vendor": "https://mtnkbd.com/products/split60",
             "url": "https://mtnkbd.com/products/split60",
             "host": "mtnkbd.com",
-            "metadata_fetched_at": "2026-08-28T12:06:06.593763+00:00",
+            "metadata_fetched_at": "2026-08-29T12:06:39.627209+00:00",
             "price_low": 80000,
             "available": true
           }
@@ -141,19 +141,19 @@
             "vendor": "kbd0.com/item/curve0",
             "url": "https://kbd0.com/item/curve0",
             "host": "kbd0.com",
-            "metadata_fetched_at": "2026-08-28T12:06:06.593806+00:00"
+            "metadata_fetched_at": "2026-08-29T12:06:39.627254+00:00"
           },
           {
             "vendor": "their site",
             "url": "https://usevia.app/",
             "host": "usevia.app",
-            "metadata_fetched_at": "2026-08-28T12:06:06.593818+00:00"
+            "metadata_fetched_at": "2026-08-29T12:06:39.627266+00:00"
           },
           {
             "vendor": "component",
             "url": "https://www.physicsclassroom.com/class/vectors/u3l1d",
             "host": "www.physicsclassroom.com",
-            "metadata_fetched_at": "2026-08-28T12:06:06.593829+00:00"
+            "metadata_fetched_at": "2026-08-29T12:06:39.627277+00:00"
           }
         ],
         "related_threads": [
@@ -221,7 +221,7 @@
             "vendor": "Mekibo",
             "url": "https://mekibo.com/products/dcs-hangul-pbt",
             "host": "mekibo.com",
-            "metadata_fetched_at": "2026-08-28T12:06:06.822361+00:00",
+            "metadata_fetched_at": "2026-08-29T12:06:39.836591+00:00",
             "price_low": 12500,
             "price_high": 14500,
             "available": true
@@ -230,7 +230,7 @@
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-dcs-hangul-pbt",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-08-28T12:06:07.119467+00:00",
+            "metadata_fetched_at": "2026-08-29T12:06:40.205712+00:00",
             "price_low": 9083,
             "price_high": 10667,
             "currency": "GBP",
@@ -240,7 +240,7 @@
             "vendor": "ktechs",
             "url": "https://ktechs.store/products/dcs-hangul-pbt",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-08-28T12:06:07.368651+00:00",
+            "metadata_fetched_at": "2026-08-29T12:06:40.459109+00:00",
             "price_low": 16500,
             "price_high": 18000,
             "currency": "SGD",
