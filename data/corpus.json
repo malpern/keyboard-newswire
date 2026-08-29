@@ -3,6 +3,122 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-08-29",
+      "items": [
+        {
+          "id": "geekhack-127068",
+          "title": "[GB] KKB Cobalt - August 28th to October 06th",
+          "url": "https://geekhack.org/index.php?topic=127068.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127068.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 1966,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "(renders by MiKeyDigit) Discord server To stay updated about the set. ● Intro ● Hi everyone! Here is KKB Cobalt , my first keycap project. I have set out to release a set of keycaps because of the frustration I had seeing so many beautiful sets releasing (more specifically made of quality ABS) - but none in my local layout which I love, so I ended up asking myself \"why not giving it a try?\" and here we are. Of course, it doesn't mean that I'm not gonna support other layouts! For the design I wanted to do something sober but with a slight flair, being inspired by GMK Blanc sur Noir I really wan",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://i.imgur.com/hZaiGJv.png",
+            "https://i.imgur.com/TamkPLO.png",
+            "https://i.imgur.com/VAZ3A1v.png",
+            "https://i.imgur.com/DoqlCat.png",
+            "https://i.imgur.com/mgZm3Gv.png",
+            "https://i.imgur.com/7wfJdbF.png",
+            "https://i.imgur.com/gRrejmb.png",
+            "https://i.imgur.com/xaNdICw.png",
+            "https://i.imgur.com/lCdqUSg.png",
+            "https://i.imgur.com/1DDlAqW.png",
+            "https://i.imgur.com/tGzClb5.png",
+            "https://i.imgur.com/CEXxNXC.jpg",
+            "https://i.imgur.com/c9Mtnt7.png",
+            "https://i.imgur.com/psj1FwT.png",
+            "https://i.imgur.com/vTTyIx9.png",
+            "https://i.imgur.com/jdM8AVj.png",
+            "https://i.imgur.com/tAytOXm.png",
+            "https://i.imgur.com/FZ1hY8T.png"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "DeltaKeyCo",
+                "url": "https://deltakeyco.com/products/kkb-cobalt",
+                "host": "deltakeyco.com"
+              },
+              {
+                "vendor": "Monacokeys",
+                "url": "https://monacokeys.de/products/kkb-cobalt-cherry-profile-abs-double-shot-keycap-set",
+                "host": "monacokeys.de"
+              },
+              {
+                "vendor": "Divinikey",
+                "url": "https://divinikey.com/products/keykobo-cobalt-keycaps",
+                "host": "divinikey.com"
+              },
+              {
+                "vendor": "Proto[Typist]",
+                "url": "https://prototypist.net/products/group-buy-kkb-cobalt",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "KeebzNCables",
+                "url": "https://www.keebzncables.com/",
+                "host": "www.keebzncables.com"
+              },
+              {
+                "vendor": "Zfrontier",
+                "url": "https://www.zfrontier.com/",
+                "host": "www.zfrontier.com"
+              },
+              {
+                "vendor": "Geon",
+                "url": "https://geon.works/",
+                "host": "geon.works"
+              },
+              {
+                "vendor": "Ktechs.store",
+                "url": "https://ktechs.store/products/keykobo-cobalt",
+                "host": "ktechs.store"
+              },
+              {
+                "vendor": "Unikeys",
+                "url": "https://unikeyboards.com/collections/keyboard-keycaps/products/gb-keykobo-cobalt-abs-double-shot-keycap-set",
+                "host": "unikeyboards.com"
+              },
+              {
+                "vendor": "Keykobo",
+                "url": "https://www.keykobo.com/",
+                "host": "www.keykobo.com"
+              },
+              {
+                "vendor": "Khor",
+                "url": "https://khor.store/",
+                "host": "khor.store"
+              }
+            ],
+            "status": "ended"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-127068-0.jpg",
+            "img/geekhack-127068-1.jpg",
+            "img/geekhack-127068-2.jpg",
+            "img/geekhack-127068-3.jpg",
+            "img/geekhack-127068-4.jpg",
+            "img/geekhack-127068-5.jpg"
+          ],
+          "image": "img/geekhack-127068-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-08-28",
       "items": [
         {
