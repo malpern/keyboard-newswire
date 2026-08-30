@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 29 Aug 2026 12:07:18 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 30 Aug 2026 12:04:32 +0000</lastBuildDate>
+  <item>
+    <title>sekigon releases High-Resolution Dial Module</title>
+    <link>https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EjiOfczP6-2BH07zgZTk1mk1TO8NwGilA3Pg-2BJYvQiaRoJLe2eGe63neMfTuhdJ69tpew-2Ff6KO5OBr65j6p9hunZ7j-2BXdhPUpOoedKQEKBlcBt5gmx5g-2BNW0DdKhz45trXXHZtl7jft76AFlObv34blFA2XLDZo5PNk2EQtJKraI88cvfC_gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L6cUnCYU-2BjaS4nu91Cyv027y7wzSetFAKZwQ-2BCkcmoDb30oPR-2B8cLyBQKhIXJSVyQ9dz9Reqq1pGzzFrIYYK9pRSNOKyDjcTOopu-2Ba7ZJjrPOglX4p0vVwIM5PHpcM9FzRISQCLnElC2-2FwP-2B8TPJf-2FaQANLtxmRrwhbBGnDUdPrsPlty2RyTKISsmpeF0hzcW2e8M4VBpQwV95W63a-2BmPtJCCsILtbTKGjMlOV9-2BUN9aUHlYy5ff-2BOBNCppe0Lu4AXXYuSzW0omkxO0PYMaOOdv</link>
+    <guid isPermaLink="false">email-1a051f1b3972994c</guid>
+    <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
+    <description>sekigon has released a new high-resolution dial module hardware gadget on BOOTH for 2,500 yen. — ✉ Booth</description>
+  </item>
+  <item>
+    <title>moimate sells GoFortyMX, InSixtyMX keyboards</title>
+    <link>https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EszwS2XNY6NzrSo5kX9hx6XO4dDwWUBxvk50vosnR-2B1ScKxW_gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L5BJPu5w52kq4pKogHZvRspAvx8ig7Xgq8AR5z4NKU24gxBfsnN2UrFjDrdLtb0GLU9LhOIBBInESEFbRL-2F15ikJIUt-2F-2F86oXc0do4fMYu9zR12uVkxv0jgpMNzmkUDduBVYxR2O2Ouc2mvPZnbQ57l-2Fod-2Fqnqo-2B7T-2B0WZv-2FEUpJQNYedakzoSQj96T4WkI6Wlsjl6W17VUPMlDCwvrFx2VI25yTJz2d-2BvneLotW2l0RVK29BrnL3skwu8L2qCHwZ3UDb4aY3VsnM14L5Rby-2Bp3j9DMHTbvya28UEuPQtAA7A-3D-3D</link>
+    <guid isPermaLink="false">email-1a04f2b5f0df2f2e</guid>
+    <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
+    <description>moimate store is selling MX switch keyboards GoFortyMX and InSixtyMX, with GoFortyRS and AtEightyJP coming soon. — ✉ Booth</description>
+  </item>
   <item>
     <title>The Raycast Keyboard</title>
     <link>https://www.raycast.com/keyboard</link>
@@ -2090,27 +2111,6 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgodoxKeyboards</source>
     <description>Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout. — 2 pts · 12 comments · r/ErgodoxKeyboards</description>
-  </item>
-  <item>
-    <title>User seeks Ergodox Infinity keymap example with visualizer.c support after QMK update</title>
-    <link>https://www.reddit.com/r/qmk/comments/1t5afcg/recent_ergodox_infinity_keymap_example/</link>
-    <guid isPermaLink="false">reddit-1t5afcg</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Splits &amp; Ergo</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/qmk</source>
-    <description>User seeking a modern Ergodox Infinity keymap example with `visualizer.c` support after updating QMK. — 1 pts · 0 comments · r/qmk</description>
-  </item>
-  <item>
-    <title>Keychron J2 HE stuck in a 'bootloader mode'.</title>
-    <link>https://www.reddit.com/r/Keychron/comments/1t4y5dw/keychron_j2_he_stuck_in_a_bootloader_mode/</link>
-    <guid isPermaLink="false">reddit-1t4y5dw</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/Keychron</source>
-    <description>Troubleshooting a Keychron J2 HE stuck in bootloader mode after a firmware glitch. — 1 pts · 0 comments · r/Keychron</description>
   </item>
 </channel>
 </rss>
