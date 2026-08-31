@@ -6,39 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 31 Aug 2026 12:06:07 +0000</lastBuildDate>
-  <item>
-    <title>Silakka54-HE</title>
-    <link>https://kbd.news/Silakka54-HE-2902.html</link>
-    <guid isPermaLink="false">kbdnews-2902</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Hall-effect variant of the Silakka54, a 54-key split keyboard. — KBD.news</description>
-  </item>
-  <item>
-    <title>Cantor-HE</title>
-    <link>https://kbd.news/Cantor-HE-2903.html</link>
-    <guid isPermaLink="false">kbdnews-2903</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>The 42-key Cantor, now with Hall-effect switches thanks to hanthebot. — KBD.news</description>
-  </item>
-  <item>
-    <title>Leonardo KeycapRio v0.6</title>
-    <link>https://kbd.news/Leonardo-KeycapRio-v0.6-2901.html</link>
-    <guid isPermaLink="false">kbdnews-2901</guid>
-    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Stephan Møller's single-PCB tented unibody Leonardo KeycapRio underwent several revisions. — KBD.news</description>
-  </item>
+  <lastBuildDate>Mon, 31 Aug 2026 12:06:44 +0000</lastBuildDate>
   <item>
     <title>sekigon releases High-Resolution Dial Module</title>
     <link>https://booth.pm/ja/items/8783950</link>
@@ -2110,6 +2078,39 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Seeking advice on wiring and sourcing trackpad modules for a KLOR Polydactyl build. — 3 pts · 5 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit users discuss Keychron Q9 Plus split space model future and alternatives</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4nxhb/keychron_q9_plus_is_it_dead/</link>
+    <guid isPermaLink="false">reddit-1t4nxhb</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Concerns about the future of the Q9 Plus split space model and suggestions for alternatives. — 3 pts · 6 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Reddit user asks about split board kit for gaming/macro pad use</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t55wlr/anyone_know_about_this_kit_good_bad/</link>
+    <guid isPermaLink="false">reddit-1t55wlr</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Inquiry about a specific split board kit for gaming/macro pad use. — 3 pts · 2 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>ZMK - Double Tap Hold for momentary layer</title>
+    <link>https://www.reddit.com/r/ErgodoxKeyboards/comments/1t4zyta/zmk_double_tap_hold_for_momentary_layer/</link>
+    <guid isPermaLink="false">reddit-1t4zyta</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgodoxKeyboards</source>
+    <description>Discussion on implementing complex double-tap-hold behavior for momentary layers in ZMK, specifically for the Night layout. — 2 pts · 12 comments · r/ErgodoxKeyboards</description>
   </item>
 </channel>
 </rss>
