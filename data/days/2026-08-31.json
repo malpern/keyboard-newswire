@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-31",
+  "items": [
+    {
+      "id": "kbdnews-2902",
+      "title": "Silakka54-HE",
+      "url": "https://kbd.news/Silakka54-HE-2902.html",
+      "discussion_url": "https://kbd.news/Silakka54-HE-2902.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Hall-effect variant of the Silakka54, a 54-key split keyboard.",
+      "image_hint": "https://kbd.news/pic/2026/216/480/2902.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design"
+      ],
+      "image": "img/kbdnews-2902.jpg"
+    },
+    {
+      "id": "kbdnews-2903",
+      "title": "Cantor-HE",
+      "url": "https://kbd.news/Cantor-HE-2903.html",
+      "discussion_url": "https://kbd.news/Cantor-HE-2903.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "The 42-key Cantor, now with Hall-effect switches thanks to hanthebot.",
+      "image_hint": "https://kbd.news/pic/2026/216/480/2903.jpg",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "hotswap",
+        "switch-development"
+      ],
+      "image": "img/kbdnews-2903.jpg"
+    },
+    {
+      "id": "kbdnews-2901",
+      "title": "Leonardo KeycapRio v0.6",
+      "url": "https://kbd.news/Leonardo-KeycapRio-v0.6-2901.html",
+      "discussion_url": "https://kbd.news/Leonardo-KeycapRio-v0.6-2901.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Stephan Møller's single-PCB tented unibody Leonardo KeycapRio underwent several revisions.",
+      "image_hint": "https://kbd.news/pic/2026/216/480/2901.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design",
+        "diy-build"
+      ],
+      "image": "img/kbdnews-2901.jpg"
+    }
+  ]
+}

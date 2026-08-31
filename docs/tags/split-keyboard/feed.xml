@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 30 Aug 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 31 Aug 2026 12:06:07 +0000</lastBuildDate>
+  <item>
+    <title>Silakka54-HE</title>
+    <link>https://kbd.news/Silakka54-HE-2902.html</link>
+    <guid isPermaLink="false">kbdnews-2902</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Hall-effect variant of the Silakka54, a 54-key split keyboard. — KBD.news</description>
+  </item>
+  <item>
+    <title>Leonardo KeycapRio v0.6</title>
+    <link>https://kbd.news/Leonardo-KeycapRio-v0.6-2901.html</link>
+    <guid isPermaLink="false">kbdnews-2901</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Stephan Møller's single-PCB tented unibody Leonardo KeycapRio underwent several revisions. — KBD.news</description>
+  </item>
   <item>
     <title>ZSA adds dual navigator support for Voyager and Moonlander</title>
     <link>https://mailchi.mp/zsa/the-ergo-95</link>

@@ -6,7 +6,39 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 30 Aug 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 31 Aug 2026 12:06:07 +0000</lastBuildDate>
+  <item>
+    <title>Silakka54-HE</title>
+    <link>https://kbd.news/Silakka54-HE-2902.html</link>
+    <guid isPermaLink="false">kbdnews-2902</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Hall-effect variant of the Silakka54, a 54-key split keyboard. — KBD.news</description>
+  </item>
+  <item>
+    <title>Cantor-HE</title>
+    <link>https://kbd.news/Cantor-HE-2903.html</link>
+    <guid isPermaLink="false">kbdnews-2903</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The 42-key Cantor, now with Hall-effect switches thanks to hanthebot. — KBD.news</description>
+  </item>
+  <item>
+    <title>Leonardo KeycapRio v0.6</title>
+    <link>https://kbd.news/Leonardo-KeycapRio-v0.6-2901.html</link>
+    <guid isPermaLink="false">kbdnews-2901</guid>
+    <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Stephan Møller's single-PCB tented unibody Leonardo KeycapRio underwent several revisions. — KBD.news</description>
+  </item>
   <item>
     <title>sekigon releases High-Resolution Dial Module</title>
     <link>https://booth.pm/ja/items/8783950</link>
