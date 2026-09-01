@@ -44,7 +44,7 @@
             "vendor": "DeltaKeyCo",
             "url": "https://deltakeyco.com/products/kkb-cobalt",
             "host": "deltakeyco.com",
-            "metadata_fetched_at": "2026-08-31T12:06:06.928503+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:48.686240+00:00",
             "price_low": 1800,
             "price_high": 9900,
             "available": true
@@ -53,7 +53,7 @@
             "vendor": "Monacokeys",
             "url": "https://monacokeys.de/products/kkb-cobalt-cherry-profile-abs-double-shot-keycap-set",
             "host": "monacokeys.de",
-            "metadata_fetched_at": "2026-08-31T12:06:07.190054+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:48.963442+00:00",
             "price_low": 1790,
             "price_high": 9900,
             "available": true
@@ -62,7 +62,7 @@
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/keykobo-cobalt-keycaps",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-08-31T12:06:07.421201+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:49.182786+00:00",
             "price_low": 1750,
             "price_high": 8900,
             "available": true
@@ -71,7 +71,7 @@
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-kkb-cobalt",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-08-31T12:06:07.924381+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:49.503349+00:00",
             "price_low": 1250,
             "price_high": 7000,
             "currency": "GBP",
@@ -81,25 +81,25 @@
             "vendor": "KeebzNCables",
             "url": "https://www.keebzncables.com/",
             "host": "www.keebzncables.com",
-            "metadata_fetched_at": "2026-08-31T12:06:07.924422+00:00"
+            "metadata_fetched_at": "2026-09-01T12:06:49.503397+00:00"
           },
           {
             "vendor": "Zfrontier",
             "url": "https://www.zfrontier.com/",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-08-31T12:06:07.924434+00:00"
+            "metadata_fetched_at": "2026-09-01T12:06:49.503411+00:00"
           },
           {
             "vendor": "Geon",
             "url": "https://geon.works/",
             "host": "geon.works",
-            "metadata_fetched_at": "2026-08-31T12:06:07.924443+00:00"
+            "metadata_fetched_at": "2026-09-01T12:06:49.503421+00:00"
           },
           {
             "vendor": "Ktechs.store",
             "url": "https://ktechs.store/products/keykobo-cobalt",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-08-31T12:06:08.197655+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:49.753508+00:00",
             "price_low": 1950,
             "price_high": 9800,
             "currency": "SGD",
@@ -109,7 +109,7 @@
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/collections/keyboard-keycaps/products/gb-keykobo-cobalt-abs-double-shot-keycap-set",
             "host": "unikeyboards.com",
-            "metadata_fetched_at": "2026-08-31T12:06:08.426068+00:00",
+            "metadata_fetched_at": "2026-09-01T12:06:50.023911+00:00",
             "price_low": 1700,
             "price_high": 8900,
             "available": true
@@ -118,13 +118,13 @@
             "vendor": "Keykobo",
             "url": "https://www.keykobo.com/",
             "host": "www.keykobo.com",
-            "metadata_fetched_at": "2026-08-31T12:06:08.426110+00:00"
+            "metadata_fetched_at": "2026-09-01T12:06:50.023955+00:00"
           },
           {
             "vendor": "Khor",
             "url": "https://khor.store/",
             "host": "khor.store",
-            "metadata_fetched_at": "2026-08-31T12:06:08.426121+00:00"
+            "metadata_fetched_at": "2026-09-01T12:06:50.023968+00:00"
           }
         ],
         "status": "ended"

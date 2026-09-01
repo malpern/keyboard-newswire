@@ -119,27 +119,40 @@
           {
             "vendor": "Saberkeebs",
             "url": "https://saberkeebs.com/products/group-buy-dcs-holy-caster",
-            "host": "saberkeebs.com"
+            "host": "saberkeebs.com",
+            "metadata_fetched_at": "2026-09-01T12:06:46.938564+00:00",
+            "price_low": 2100,
+            "price_high": 14600,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Nyxkeys",
             "url": "https://www.nyxkeys.com/store/product/YYBJ51UOciSxI6Vzh1RB",
-            "host": "www.nyxkeys.com"
+            "host": "www.nyxkeys.com",
+            "metadata_fetched_at": "2026-09-01T12:06:46.938598+00:00"
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/collections/live-group-buys",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-09-01T12:06:46.938609+00:00"
           },
           {
             "vendor": "CoffeeKeys",
             "url": "https://coffeekeys.eu/it-us/collections/upcoming/products/group-buy-dcs-holy-caster",
-            "host": "coffeekeys.eu"
+            "host": "coffeekeys.eu",
+            "metadata_fetched_at": "2026-09-01T12:06:48.146704+00:00"
           },
           {
             "vendor": "Ktechs",
             "url": "https://ktechs.store/collections/keycaps/products/dcs-holy-caster?_pos=1&_fid=453871dee&_ss=c",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-09-01T12:06:48.400638+00:00",
+            "price_low": 1550,
+            "price_high": 16000,
+            "currency": "SGD",
+            "available": true
           }
         ],
         "starts_at": "2026-08-31",
