@@ -3,6 +3,92 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-02",
+      "items": [
+        {
+          "id": "geekhack-126611",
+          "title": "[GB] GMK Ishtar R2",
+          "url": "https://geekhack.org/index.php?topic=126611.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126611.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 17072,
+          "comments": 12,
+          "category": "breaking",
+          "takeaway": "Original Post has been moved down to prioritize updates (Updates will be in a MM/DD/YEAR format): 04/22/2026 -- all vendors are confirmed live! 04/24/2026 -- MOQ Hit on all kits! 05/10/2026 -- There will be an international kit added to Ishtar R2. Kitting is currently being finalized; it will be available at the GMK web store after the group buy. You can set up an e-mail notification for it here: https://www.gmk.net/shop/gmk-cyl-ishtar-r2-keycaps/gmk10098.5 05/11/2026 -- GB has concluded! 05/18/2026 -- Final numbers / Extras information have been submitted to GMK! 05/19/2026 -- GMK will also b",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "https://www.gmk.net/shop/gmk-cyl-ishtar-r2-keycaps/gmk10098.5",
+                "url": "https://www.gmk.net/shop/gmk-cyl-ishtar-r2-keycaps/gmk10098.5",
+                "host": "www.gmk.net"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ]
+        },
+        {
+          "id": "geekhack-126928",
+          "title": "[IC] Novaris Studio&MW-Kiss Of Death",
+          "url": "https://geekhack.org/index.php?topic=126928.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126928.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 506,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Novaris Studio&MW-Kiss Of Death Hello everyone, this is Novaris Studio.Today we're excited to present a blue-grey themed keycap set — Kiss of Death. A special thank you to my good friend Milkyway for helping with the render generation. 1.COLOURS The pairing of blue and orange isn't just about complementary color theory or visual shock value — it's a chromatic deconstruction of the theme's very soul: to live, even in the face of death. Disclaimer:Due to inherent limitations in the manufacturing process, the final produced colors may not be 100% identical to the color card. Nevertheless, we will",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/TDtf3Es.jpeg",
+            "https://i.imgur.com/KpiblIJ.jpeg",
+            "https://i.imgur.com/ftmLriM.jpeg",
+            "https://i.imgur.com/FvaBnCx.jpeg",
+            "https://i.imgur.com/moaHw9e.jpeg",
+            "https://i.imgur.com/LRcfTnR.jpeg",
+            "https://i.imgur.com/YAmVuGe.jpeg",
+            "https://i.imgur.com/zGYFAwm.jpeg",
+            "https://i.imgur.com/S9ljgt3.jpeg",
+            "https://i.imgur.com/mZxtVty.jpeg",
+            "https://i.imgur.com/jFvx2ep.jpeg",
+            "https://i.imgur.com/3wv9Rez.jpeg",
+            "https://i.imgur.com/Kv0n5Dd.jpeg",
+            "https://i.imgur.com/NUgpDDu.jpeg"
+          ],
+          "gb": {
+            "designer": "Novaris"
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-126928-0.jpg",
+            "img/geekhack-126928-1.jpg",
+            "img/geekhack-126928-2.jpg",
+            "img/geekhack-126928-3.jpg",
+            "img/geekhack-126928-4.jpg",
+            "img/geekhack-126928-5.jpg"
+          ],
+          "image": "img/geekhack-126928-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "items": [
         {
