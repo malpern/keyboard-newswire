@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-03",
+  "items": [
+    {
+      "id": "hn-49537648",
+      "title": "Polyend Keys – a mechanical keyboard with a built-in MIDI layout",
+      "url": "https://theplayground.co.uk/polyend-turns-the-computer-keyboard-into-a-midi-instrument-with-new-keys/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49537648",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware",
+        "firmware"
+      ],
+      "tags": [
+        "custom-firmware",
+        "midi"
+      ],
+      "image": "img/hn-49537648.jpg"
+    }
+  ]
+}

@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/custom-firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Custom Firmware.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 02 Sep 2026 12:07:38 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 03 Sep 2026 12:02:54 +0000</lastBuildDate>
+  <item>
+    <title>Polyend Keys – a mechanical keyboard with a built-in MIDI layout</title>
+    <link>https://theplayground.co.uk/polyend-turns-the-computer-keyboard-into-a-midi-instrument-with-new-keys/</link>
+    <guid isPermaLink="false">hn-49537648</guid>
+    <pubDate>Thu, 03 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Moonlander Ergonomic Keyboard</title>
     <link>https://www.zsa.io/moonlander</link>
