@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 03 Sep 2026 12:07:01 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 05 Sep 2026 12:03:51 +0000</lastBuildDate>
+  <item>
+    <title>Terpstra Keyboard</title>
+    <link>http://terpstrakeyboard.com/</link>
+    <guid isPermaLink="false">hn-49575150</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>The Cogito – Keyboard designed for human hands</title>
+    <link>https://wattiv.nl/work/cogito/</link>
+    <guid isPermaLink="false">hn-49573540</guid>
+    <pubDate>Sat, 05 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>ZSA adds dual navigator support for Voyager and Moonlander</title>
     <link>https://mailchi.mp/zsa/the-ergo-95</link>

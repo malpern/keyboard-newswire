@@ -3,6 +3,53 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-05",
+      "items": [
+        {
+          "id": "hn-49575150",
+          "title": "Terpstra Keyboard",
+          "url": "http://terpstrakeyboard.com/",
+          "discussion_url": "https://news.ycombinator.com/item?id=49575150",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "pcb-design"
+          ]
+        },
+        {
+          "id": "hn-49573540",
+          "title": "The Cogito – Keyboard designed for human hands",
+          "url": "https://wattiv.nl/work/cogito/",
+          "discussion_url": "https://news.ycombinator.com/item?id=49573540",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "pcb-design",
+            "diy-build"
+          ],
+          "image": "img/hn-49573540.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-03",
       "items": [
         {
