@@ -46,6 +46,30 @@
             "diy-build"
           ],
           "image": "img/hn-49573540.jpg"
+        },
+        {
+          "id": "email-1a06e508a407858b",
+          "title": "CannonKeys Touchstone Full Size Keyboard and Dwarf Factory Artisans",
+          "url": "http://discord.gg/gAy6sqp",
+          "discussion_url": "http://discord.gg/gAy6sqp",
+          "source": "email",
+          "subreddit": null,
+          "via": "Cannonkeys",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "CannonKeys opens pre-orders for the Touchstone full-size keyboard with solder/hotswap options and a limited-time Dwarf Factory artisan keycap collection.",
+          "sender": "CannonKeys <support@cannonkeys.com>",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "hotswap"
+          ],
+          "image": "img/email-1a06e508a407858b.jpg"
         }
       ]
     },
