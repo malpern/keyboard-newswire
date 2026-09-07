@@ -58,13 +58,13 @@
             "vendor": "WEBSITE |",
             "url": "https://sxmdesigns.com/gmk-cleopatra/",
             "host": "sxmdesigns.com",
-            "metadata_fetched_at": "2026-09-06T12:06:15.785410+00:00"
+            "metadata_fetched_at": "2026-09-07T12:06:46.622171+00:00"
           },
           {
             "vendor": "DISCORD |",
             "url": "https://discord.sxmdesigns.com/",
             "host": "discord.sxmdesigns.com",
-            "metadata_fetched_at": "2026-09-06T12:06:15.785421+00:00"
+            "metadata_fetched_at": "2026-09-07T12:06:46.622179+00:00"
           }
         ]
       },
@@ -185,17 +185,17 @@
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-gmk-cyl-arcade",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-09-06T12:06:16.097322+00:00",
+            "metadata_fetched_at": "2026-09-07T12:06:46.807390+00:00",
             "price_low": 2667,
             "price_high": 10250,
             "currency": "GBP",
-            "available": true
+            "available": false
           },
           {
             "vendor": "KbdFans",
             "url": "https://kbdfans.com/products/gmk-cyl-arcade",
             "host": "kbdfans.com",
-            "metadata_fetched_at": "2026-09-06T12:06:16.304780+00:00",
+            "metadata_fetched_at": "2026-09-07T12:06:46.981374+00:00",
             "price_low": 3800,
             "price_high": 13500,
             "currency": "USD",
