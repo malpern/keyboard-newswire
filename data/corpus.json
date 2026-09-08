@@ -8,8 +8,8 @@
         {
           "id": "email-1a08053a9d390aa3",
           "title": "Xteink discontinues X4, replaces with X4 Classic",
-          "url": "https://readme.club/guide/x4-classic-vs-x4",
-          "discussion_url": "https://readme.club/guide/x4-classic-vs-x4",
+          "url": "https://www.readme.club/guide/x4-classic-vs-x4",
+          "discussion_url": "https://www.readme.club/guide/x4-classic-vs-x4",
           "source": "email",
           "subreddit": null,
           "via": "Hey",
@@ -26,30 +26,6 @@
             "pricing"
           ],
           "image": "img/email-1a08053a9d390aa3.jpg"
-        },
-        {
-          "id": "kbdnews-2904",
-          "title": "Pando",
-          "url": "https://kbd.news/Pando-2904.html",
-          "discussion_url": "https://kbd.news/Pando-2904.html",
-          "source": "kbdnews",
-          "subreddit": null,
-          "via": "KBD.news",
-          "score": null,
-          "comments": null,
-          "category": "breaking",
-          "takeaway": "Julian Yap's Pando is an open-hardware split keyboard with integrated MCU.",
-          "image_hint": "https://kbd.news/pic/2026/216/480/2904.jpg",
-          "topics": [
-            "splits-ergo",
-            "builds-hardware"
-          ],
-          "tags": [
-            "split-keyboard",
-            "open-source",
-            "pcb-design"
-          ],
-          "image": "img/kbdnews-2904.jpg"
         }
       ]
     },
