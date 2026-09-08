@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 08 Sep 2026 12:04:15 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 12:05:14 +0000</lastBuildDate>
   <item>
     <title>Xteink discontinues X4, replaces with X4 Classic</title>
     <link>https://readme.club/guide/x4-classic-vs-x4</link>
@@ -16,6 +16,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Hey</source>
     <description>Xteink replaced the X4 with the X4 Classic, switching from USB-C to magnetic pogo-pin charging and reducing thickness/weight. — ✉ Hey</description>
+  </item>
+  <item>
+    <title>Pando</title>
+    <link>https://kbd.news/Pando-2904.html</link>
+    <guid isPermaLink="false">kbdnews-2904</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Julian Yap's Pando is an open-hardware split keyboard with integrated MCU. — KBD.news</description>
   </item>
   <item>
     <title>Terpstra Keyboard</title>
@@ -2099,17 +2110,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Discussion on choosing between Glove80, Charbydis MK2, ZSA Voyager, and Sofle for an ergonomic setup. — 11 pts · 28 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>r/ErgoMechKeyboards discusses ergonomic keyboards for developers using hands for navigation and mouse tasks</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t598em/casualnontyping_ergonomics/</link>
-    <guid isPermaLink="false">reddit-1t598em</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing. — 8 pts · 7 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>
