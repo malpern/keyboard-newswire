@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 07 Sep 2026 12:07:12 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 12:04:15 +0000</lastBuildDate>
+  <item>
+    <title>Xteink discontinues X4, replaces with X4 Classic</title>
+    <link>https://readme.club/guide/x4-classic-vs-x4</link>
+    <guid isPermaLink="false">email-1a08053a9d390aa3</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Hey</source>
+    <description>Xteink replaced the X4 with the X4 Classic, switching from USB-C to magnetic pogo-pin charging and reducing thickness/weight. — ✉ Hey</description>
+  </item>
   <item>
     <title>[IC] GMK CYL Salamander : Unto the Anvils of War</title>
     <link>https://geekhack.org/index.php?topic=126344.0</link>

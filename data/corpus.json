@@ -3,6 +3,33 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-08",
+      "items": [
+        {
+          "id": "email-1a08053a9d390aa3",
+          "title": "Xteink discontinues X4, replaces with X4 Classic",
+          "url": "https://readme.club/guide/x4-classic-vs-x4",
+          "discussion_url": "https://readme.club/guide/x4-classic-vs-x4",
+          "source": "email",
+          "subreddit": null,
+          "via": "Hey",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Xteink replaced the X4 with the X4 Classic, switching from USB-C to magnetic pogo-pin charging and reducing thickness/weight.",
+          "sender": "Florent <florent@hey.readme.club>",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "vendor-practices",
+            "pricing"
+          ],
+          "image": "img/email-1a08053a9d390aa3.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-07",
       "items": [
         {

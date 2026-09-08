@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 07 Sep 2026 12:07:12 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 08 Sep 2026 12:04:15 +0000</lastBuildDate>
+  <item>
+    <title>Xteink discontinues X4, replaces with X4 Classic</title>
+    <link>https://readme.club/guide/x4-classic-vs-x4</link>
+    <guid isPermaLink="false">email-1a08053a9d390aa3</guid>
+    <pubDate>Tue, 08 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Hey</source>
+    <description>Xteink replaced the X4 with the X4 Classic, switching from USB-C to magnetic pogo-pin charging and reducing thickness/weight. — ✉ Hey</description>
+  </item>
   <item>
     <title>Terpstra Keyboard</title>
     <link>http://terpstrakeyboard.com/</link>
@@ -2100,17 +2110,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Discussion on ergonomic keyboards for developers who use hands for navigation/mouse tasks more than typing. — 8 pts · 7 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>[US-WI] [H] Ataraxia wireless trackball keyboard [W] PayPal, Venmo</title>
-    <link>https://www.reddit.com/r/mechmarket/comments/1t4f833/uswi_h_ataraxia_wireless_trackball_keyboard_w/</link>
-    <guid isPermaLink="false">reddit-1t4f833</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
-    <description>Sale of a pre-programmed Ataraxia with ZMK Studio firmware support. — 7 pts · 3 comments · r/mechmarket</description>
   </item>
 </channel>
 </rss>
