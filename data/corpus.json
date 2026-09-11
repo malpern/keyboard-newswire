@@ -3,6 +3,33 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-11",
+      "items": [
+        {
+          "id": "kbdnews-2906",
+          "title": "Anti-ghosting Japanese duplex matrix",
+          "url": "https://kbd.news/Anti-ghosting-Japanese-duplex-matrix-2906.html",
+          "discussion_url": "https://kbd.news/Anti-ghosting-Japanese-duplex-matrix-2906.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Alex Miller introduces a new method to prevent ghosting of keyboards using the Japanese duplex matrix.",
+          "image_hint": "https://kbd.news/pic/2026/216/480/2906.jpg",
+          "topics": [
+            "firmware"
+          ],
+          "tags": [
+            "matrix-scanning",
+            "custom-firmware"
+          ],
+          "image": "img/kbdnews-2906.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-09",
       "items": [
         {

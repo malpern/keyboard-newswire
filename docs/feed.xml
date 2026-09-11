@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 10 Sep 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 12:05:22 +0000</lastBuildDate>
+  <item>
+    <title>Anti-ghosting Japanese duplex matrix</title>
+    <link>https://kbd.news/Anti-ghosting-Japanese-duplex-matrix-2906.html</link>
+    <guid isPermaLink="false">kbdnews-2906</guid>
+    <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Alex Miller introduces a new method to prevent ghosting of keyboards using the Japanese duplex matrix. — KBD.news</description>
+  </item>
   <item>
     <title>Singa Stinga60 Group Buy Closed, Shipment Expected April 2027</title>
     <link>https://oblotzky.industries/products/singa-stinga60</link>
@@ -2098,17 +2108,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Showcase of Baion boards, including a Raw Gehirn with Neo Oat Linears and Jieum V2 mods. — 17 pts · 2 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Reddit discussion compares Glove80, Charbydis MK2, ZSA Voyager, and Sofle for ergonomic setups</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t4m9xq/flat_keyboard_or_go_all_in/</link>
-    <guid isPermaLink="false">reddit-1t4m9xq</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Discussion on choosing between Glove80, Charbydis MK2, ZSA Voyager, and Sofle for an ergonomic setup. — 11 pts · 28 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>

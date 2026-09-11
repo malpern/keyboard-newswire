@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/matrix-scanning/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Matrix Scanning.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 10 Sep 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 11 Sep 2026 12:05:22 +0000</lastBuildDate>
+  <item>
+    <title>Anti-ghosting Japanese duplex matrix</title>
+    <link>https://kbd.news/Anti-ghosting-Japanese-duplex-matrix-2906.html</link>
+    <guid isPermaLink="false">kbdnews-2906</guid>
+    <pubDate>Fri, 11 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Alex Miller introduces a new method to prevent ghosting of keyboards using the Japanese duplex matrix. — KBD.news</description>
+  </item>
   <item>
     <title>QMK discussion on verifying NKRO status without magic key combos</title>
     <link>https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/</link>
