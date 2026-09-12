@@ -11,7 +11,7 @@ Recognized item formats (post-Slack mrkdwn):
     *<ARTICLE_URL|Title>* · POINTS pts · COMMENTS comments · <https://news.ycombinator.com/item?id=ID|discuss>
 
   Reddit:
-    EMOJI *<URL|Title>* · ⬆️SCORE · 💬COMMENTS · r/SUBREDDIT
+    EMOJI *<URL|Title>* · [⬆️SCORE · 💬COMMENTS ·] r/SUBREDDIT
     Optional one-line takeaway on the next non-empty line.
 """
 import json
@@ -27,10 +27,9 @@ HN_LINE_RE = re.compile(
 )
 REDDIT_LINE_RE = re.compile(
     r"^(?P<emoji>[\U0001F300-\U0001FAFF☀-➿⬀-⯿\U0001F900-\U0001F9FF]+|⭐|🔥|📢|🔧)?\s*"
-    r"\*<?(?P<url>https?://www\.reddit\.com/r/(?P<subreddit>[^/]+)/comments/(?P<id>[^/]+)/[^|>*]*)\|"
+    r"\*<?(?P<url>https?://(?:www\.)?reddit\.com/r/(?P<subreddit>[^/]+)/comments/(?P<id>[^/]+)/[^|>*]*)\|"
     r"(?P<title>[^>*<]+)>?\*\s*[·•]\s*"
-    r"⬆️?(?P<score>\d+)\s*[·•]\s*"
-    r"💬(?P<comments>\d+)\s*[·•]\s*"
+    r"(?:⬆️?(?P<score>\d+)\s*[·•]\s*💬(?P<comments>\d+)\s*[·•]\s*)?"
     r"r/(?P<sub2>[^\s]+)",
     re.UNICODE,
 )
@@ -100,8 +99,8 @@ def parse(text: str) -> list[dict]:
                 "discussion_url": m.group("url"),
                 "source": "reddit",
                 "subreddit": m.group("subreddit"),
-                "score": int(m.group("score")),
-                "comments": int(m.group("comments")),
+                "score": int(m.group("score")) if m.group("score") else None,
+                "comments": int(m.group("comments")) if m.group("comments") else None,
                 "category": classify(emoji, m.group("title")),
                 "takeaway": takeaway,
             })

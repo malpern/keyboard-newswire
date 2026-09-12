@@ -10,11 +10,39 @@ import pathlib
 import sys
 import tempfile
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import append_day  # noqa: E402
+
+
+class PushRebaseDecision(unittest.TestCase):
+    def _run_with_ancestor(self, ancestor_code):
+        calls = []
+
+        def fake_run(*cmd, **_kwargs):
+            calls.append(cmd)
+            if cmd[:3] == ("git", "diff", "--cached"):
+                return SimpleNamespace(returncode=1, stderr="")
+            if cmd[:3] == ("git", "merge-base", "--is-ancestor"):
+                return SimpleNamespace(returncode=ancestor_code, stderr="")
+            return SimpleNamespace(returncode=0, stderr="")
+
+        with patch.object(append_day, "run", side_effect=fake_run):
+            append_day.git_push_if_dirty("2026-09-12", 1)
+        return calls
+
+    def test_skips_rebase_when_remote_is_ancestor(self):
+        calls = self._run_with_ancestor(0)
+        self.assertFalse(any("rebase" in call for call in calls))
+        self.assertTrue(any(call[:2] == ("git", "push") for call in calls))
+
+    def test_rebases_when_remote_has_advanced(self):
+        calls = self._run_with_ancestor(1)
+        self.assertTrue(any("rebase" in call for call in calls))
 
 
 # ────────────── merge() ──────────────

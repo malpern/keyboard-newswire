@@ -89,10 +89,15 @@ def git_push_if_dirty(date: str, added: int):
     # appending on the same day within minutes of each other)
     fetch = run("git", "fetch", "origin", "main", check=False)
     if fetch.returncode == 0:
-        rebase = run("git", *env_user, "rebase", "origin/main", check=False)
-        if rebase.returncode != 0:
-            run("git", "rebase", "--abort", check=False)
-            print(f"rebase failed; commit kept locally:\n{rebase.stderr}", file=sys.stderr)
+        # When origin/main is already behind this commit, rebasing does
+        # nothing useful and Git refuses it if unrelated tracked files are
+        # being edited in this shared checkout. Only rebase on remote drift.
+        ancestor = run("git", "merge-base", "--is-ancestor", "origin/main", "HEAD", check=False)
+        if ancestor.returncode != 0:
+            rebase = run("git", *env_user, "rebase", "origin/main", check=False)
+            if rebase.returncode != 0:
+                run("git", "rebase", "--abort", check=False)
+                print(f"rebase failed; commit kept locally:\n{rebase.stderr}", file=sys.stderr)
     push = run("git", "push", "origin", "main", check=False)
     if push.returncode != 0:
         print(f"push failed:\n{push.stderr}", file=sys.stderr)

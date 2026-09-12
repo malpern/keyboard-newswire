@@ -19,8 +19,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 TOPICS_FILE = ROOT / "data" / "topics.json"
 TAGS_FILE = ROOT / "data" / "tags.json"
 
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
-MODEL = os.environ.get("KW_TAG_MODEL", "qwen3.6:35b-a3b")
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11435/api/generate")
+MODEL = os.environ.get("KW_TAG_MODEL", "keyboard-local:current")
 
 
 def slugify(s: str) -> str:
@@ -85,7 +85,7 @@ Return ONLY a JSON object on a single line, no prose, no code fences:
 
 
 def call_qwen(prompt: str, timeout: int = 90) -> str:
-    """Call Qwen via /api/chat with think:false (Qwen3.6 is a thinking model;
+    """Call Qwen via /api/chat with think:false (Qwen3.8 is a thinking model;
     skipping the think phase keeps tagging fast and deterministic)."""
     chat_url = OLLAMA_URL.rsplit("/api/", 1)[0] + "/api/chat"
     payload = json.dumps({
@@ -97,20 +97,22 @@ def call_qwen(prompt: str, timeout: int = 90) -> str:
     })
     try:
         result = subprocess.run(
-            ["curl", "-sS", "-X", "POST", chat_url,
+            ["curl", "-fsS", "--max-time", str(timeout), "-X", "POST", chat_url,
              "-H", "Content-Type: application/json", "-d", payload],
-            capture_output=True, text=True, timeout=timeout,
+            capture_output=True, text=True, timeout=timeout + 5,
         )
-    except subprocess.TimeoutExpired:
-        return ""
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError("Qwen tagging request timed out") from exc
     if result.returncode != 0:
-        sys.stderr.write(f"qwen error: {result.stderr[:300]}\n")
-        return ""
+        raise RuntimeError(f"Qwen tagging request failed: {result.stderr[:300]}")
     try:
-        return json.loads(result.stdout).get("message", {}).get("content", "")
-    except Exception as e:
-        sys.stderr.write(f"qwen parse error: {e}\n")
-        return ""
+        response = json.loads(result.stdout)
+        content = response.get("message", {}).get("content")
+        if response.get("error") or response.get("done") is not True or not isinstance(content, str) or not content:
+            raise ValueError(response.get("error") or "incomplete/empty response")
+        return content
+    except (ValueError, TypeError) as exc:
+        raise RuntimeError(f"Qwen tagging response invalid: {exc}") from exc
 
 
 def parse_response(raw: str) -> dict:

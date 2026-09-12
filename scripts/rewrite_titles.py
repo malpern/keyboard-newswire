@@ -19,8 +19,8 @@ import re
 import subprocess
 import sys
 
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
-MODEL = os.environ.get("KW_REWRITE_MODEL", "qwen3.6:35b-a3b")
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11435/api/generate")
+MODEL = os.environ.get("KW_REWRITE_MODEL", "keyboard-local:current")
 
 
 SYSTEM_PROMPT = """You are a headline editor in the style of Techmeme.
@@ -107,20 +107,22 @@ def call_qwen(messages: list[dict], timeout: int = 90) -> str:
     })
     try:
         result = subprocess.run(
-            ["curl", "-sS", "-X", "POST", chat_url,
+            ["curl", "-fsS", "--max-time", str(timeout), "-X", "POST", chat_url,
              "-H", "Content-Type: application/json", "-d", payload],
-            capture_output=True, text=True, timeout=timeout,
+            capture_output=True, text=True, timeout=timeout + 5,
         )
-    except subprocess.TimeoutExpired:
-        return ""
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError("Qwen title-rewrite request timed out") from exc
     if result.returncode != 0:
-        sys.stderr.write(f"qwen error: {result.stderr[:300]}\n")
-        return ""
+        raise RuntimeError(f"Qwen title-rewrite request failed: {result.stderr[:300]}")
     try:
-        return json.loads(result.stdout).get("message", {}).get("content", "")
-    except Exception as e:
-        sys.stderr.write(f"qwen parse error: {e}\n")
-        return ""
+        response = json.loads(result.stdout)
+        content = response.get("message", {}).get("content")
+        if response.get("error") or response.get("done") is not True or not isinstance(content, str) or not content:
+            raise ValueError(response.get("error") or "incomplete/empty response")
+        return content
+    except (ValueError, TypeError) as exc:
+        raise RuntimeError(f"Qwen title-rewrite response invalid: {exc}") from exc
 
 
 def parse_response(raw: str) -> dict:

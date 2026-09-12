@@ -35,8 +35,8 @@ import urllib.parse
 KEYRING = os.environ.get("GOG_KEYRING_PASSWORD", "clawd-gog-2026")
 ACCOUNT = os.environ.get("KW_GMAIL_ACCOUNT", "malpern@gmail.com")
 GOG = os.environ.get("GOG_BIN", "/opt/homebrew/bin/gog")
-OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/chat")
-MODEL = os.environ.get("KW_TAG_MODEL", "qwen3.6:35b-a3b")
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11435/api/chat")
+MODEL = os.environ.get("KW_TAG_MODEL", "keyboard-local:current")
 LABEL = os.environ.get("KW_GMAIL_LABEL", "Keyboard")
 
 # Senders we always skip (already covered by other pipelines)
@@ -222,16 +222,22 @@ def call_qwen(messages: list[dict], timeout: int = 90) -> str:
     })
     try:
         r = subprocess.run(
-            ["curl", "-sS", "-X", "POST", OLLAMA_URL,
+            ["curl", "-fsS", "--max-time", str(timeout), "-X", "POST", OLLAMA_URL,
              "-H", "Content-Type: application/json", "-d", payload],
-            capture_output=True, text=True, timeout=timeout,
+            capture_output=True, text=True, timeout=timeout + 5,
         )
-        if r.returncode != 0:
-            return ""
-        return json.loads(r.stdout).get("message", {}).get("content", "")
-    except Exception as e:
-        sys.stderr.write(f"qwen err: {e}\n")
-        return ""
+    except subprocess.TimeoutExpired as exc:
+        raise RuntimeError("Qwen email-summary request timed out") from exc
+    if r.returncode != 0:
+        raise RuntimeError(f"Qwen email-summary request failed: {r.stderr[:300]}")
+    try:
+        response = json.loads(r.stdout)
+        content = response.get("message", {}).get("content")
+        if response.get("error") or response.get("done") is not True or not isinstance(content, str) or not content:
+            raise ValueError(response.get("error") or "incomplete/empty response")
+        return content
+    except (ValueError, TypeError) as exc:
+        raise RuntimeError(f"Qwen email-summary response invalid: {exc}") from exc
 
 
 def parse_json_obj(raw: str) -> dict:

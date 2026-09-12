@@ -556,10 +556,8 @@ class RenderGbItem(unittest.TestCase):
         self.assertIn(">live<", out)
         self.assertIn(">MOQ 200<", out)
         self.assertIn(">$145-160<", out)
-        # End-date chip carries the date plus a countdown (e.g.
-        # "ends Jun 14 · 33 days") — exact day count depends on
-        # `today`, so just match the date portion.
-        self.assertIn("ends Jun 14", out)
+        # The date remains visible; tense and countdown depend on today.
+        self.assertRegex(out, r"end(?:s|ed) Jun 14")
 
     def test_facets_line(self):
         item = make_gb_item(gb={"designer": "iNN Studio", "profile": "Cherry"})
