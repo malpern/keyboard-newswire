@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 12:07:36 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 12 Sep 2026 20:40:14 +0000</lastBuildDate>
+  <item>
+    <title>Setting up qmk CLI on nix</title>
+    <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>
+    <guid isPermaLink="false">reddit-1weiyrr</guid>
+    <pubDate>Sat, 12 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Technical troubleshooting of QMK CLI compatibility with NixOS flake inputs and repository management constraints. — r/olkb</description>
+  </item>
   <item>
     <title>Chosfox Geonix Rev 2.5</title>
     <link>https://www.reddit.com/r/olkb/comments/1tjjnfv/chosfox_geonix_rev_25/</link>

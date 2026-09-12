@@ -15,10 +15,10 @@ Shopify group-buy feeds).
   pilot/ingest script  ─►  data/<source>_seen.json   (state, dedup)
        │      emits JSON array of items on stdout
        ▼
-  scripts/tag_items.py        ─►  Qwen3.6 → topics + tags
+  scripts/tag_items.py        ─►  local-model alias → topics + tags
        │
        ▼
-  scripts/rewrite_titles.py   ─►  Qwen3.6 → cleaner headlines
+  scripts/rewrite_titles.py   ─►  local-model alias → cleaner headlines
        │                          (skipped for already-clean sources)
        ▼
   scripts/fetch_images.py     ─►  og:image, validate, crop 320×320
@@ -83,9 +83,26 @@ source-specific prefix and a stable upstream identifier.
 | 5:06  | group-buys-local.sh         | Geekhack + Shopify (planned) |
 | 5:30  | keyboard-wire-health.sh     | health check |
 
-Drivers run sequentially, ~30-90s each. The 5:30 health check probes
-X auth, archive freshness, cred-file integrity, and twitter quota
-signals.
+The 5:30 health check probes the local-model alias (both chat and generate),
+the drivers' completion markers, X auth, archive freshness, credential-file
+integrity, and X quota signals.
+
+### Local-model upgrades
+
+Production jobs and OpenClaw use `keyboard-local:current` on the clawd-owned
+Ollama server at `127.0.0.1:11435`; model version tags are not embedded in the
+scheduled jobs. `keyboard-local:previous` retains the pre-promotion target.
+Historical backtests intentionally keep their fixed model tags.
+
+Install a candidate model, then run
+`/Users/clawd/clawd/scripts/keyboard-model.sh promote MODEL_TAG` outside
+04:55–05:40 PT. Promotion verifies the candidate's capabilities and context
+window, exercises both API paths, snapshots the old alias, switches the alias,
+and verifies it again. Check with `keyboard-model.sh status` and
+`keyboard-model.sh check`; use `keyboard-model.sh rollback` if the production
+results degrade. Daily health logs record the resolved digest, and promotion
+history lives at `~/.local/state/keyboard-model/history.jsonl`. Keep the prior
+versioned model installed until the new one has passed real scheduled runs.
 
 ## Existing ingestors
 

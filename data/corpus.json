@@ -48,6 +48,49 @@
             "img/geekhack-127104-5.jpg"
           ],
           "image": "img/geekhack-127104-0.jpg"
+        },
+        {
+          "id": "reddit-1wemqxp",
+          "title": "ZMK Vim Mode - A second take on syncing my keyboards with VIM",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Detailed technical discussion on implementing VIM mode layers in ZMK, addressing state drift and host synchronization issues.",
+          "topics": [
+            "firmware",
+            "remapping-layouts"
+          ],
+          "tags": [
+            "zmk",
+            "key-remapping",
+            "custom-firmware",
+            "vim"
+          ]
+        },
+        {
+          "id": "reddit-1weiyrr",
+          "title": "Setting up qmk CLI on nix",
+          "url": "https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/",
+          "discussion_url": "https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Technical troubleshooting of QMK CLI compatibility with NixOS flake inputs and repository management constraints.",
+          "topics": [
+            "tools-software",
+            "firmware"
+          ],
+          "tags": [
+            "qmk",
+            "linux-utilities",
+            "open-source"
+          ]
         }
       ]
     },
