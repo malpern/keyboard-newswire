@@ -73,13 +73,13 @@
             "vendor": "https://www.nbcuni.co.jp/rondorobe/anime/lain/ttl/",
             "url": "https://www.nbcuni.co.jp/rondorobe/anime/lain/ttl/",
             "host": "www.nbcuni.co.jp",
-            "metadata_fetched_at": "2026-09-11T12:06:40.273057+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:46.622840+00:00"
           },
           {
             "vendor": "https://prototypist.net/collections/live-group-buys/products/group-buy-navi60",
             "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-navi60",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-09-11T12:06:40.591674+00:00",
+            "metadata_fetched_at": "2026-09-12T12:06:46.910792+00:00",
             "price_low": 17417,
             "currency": "GBP",
             "available": false
@@ -88,13 +88,13 @@
             "vendor": "https://www.ashkeebs.com/product/navi60-keyboard/",
             "url": "https://www.ashkeebs.com/product/navi60-keyboard/",
             "host": "www.ashkeebs.com",
-            "metadata_fetched_at": "2026-09-11T12:06:40.591771+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:46.910835+00:00"
           },
           {
             "vendor": "https://basekeys.jp/en/products/navi60",
             "url": "https://basekeys.jp/en/products/navi60",
             "host": "basekeys.jp",
-            "metadata_fetched_at": "2026-09-11T12:06:40.892301+00:00",
+            "metadata_fetched_at": "2026-09-12T12:06:47.327595+00:00",
             "price_low": 3300000,
             "price_high": 3825000,
             "available": false
@@ -103,25 +103,25 @@
             "vendor": "https://keebsforall.com/products/navi-60",
             "url": "https://keebsforall.com/products/navi-60",
             "host": "keebsforall.com",
-            "metadata_fetched_at": "2026-09-11T12:06:41.205526+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:47.509072+00:00"
           },
           {
             "vendor": "https://keygem.com/products/navi60-keyboard-kit-group-buy",
             "url": "https://keygem.com/products/navi60-keyboard-kit-group-buy",
             "host": "keygem.com",
-            "metadata_fetched_at": "2026-09-11T12:06:41.532964+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:47.811080+00:00"
           },
           {
             "vendor": "https://allcaps.store/products/gb-navi60",
             "url": "https://allcaps.store/products/gb-navi60",
             "host": "allcaps.store",
-            "metadata_fetched_at": "2026-09-11T12:06:41.903303+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:48.059379+00:00"
           },
           {
             "vendor": "https://pantheonkeys.com/collections/ongoing-group-buys/products/gb-psychetype-navi60",
             "url": "https://pantheonkeys.com/collections/ongoing-group-buys/products/gb-psychetype-navi60",
             "host": "pantheonkeys.com",
-            "metadata_fetched_at": "2026-09-11T12:06:42.170138+00:00",
+            "metadata_fetched_at": "2026-09-12T12:06:48.273715+00:00",
             "price_low": 29500,
             "price_high": 35650,
             "available": false
@@ -130,7 +130,7 @@
             "vendor": "https://thekeebs.store/products/groupbuy-navi60-keyboard-kit",
             "url": "https://thekeebs.store/products/groupbuy-navi60-keyboard-kit",
             "host": "thekeebs.store",
-            "metadata_fetched_at": "2026-09-11T12:06:44.900294+00:00",
+            "metadata_fetched_at": "2026-09-12T12:06:49.875505+00:00",
             "price_low": 525000000,
             "price_high": 612500000,
             "available": false
@@ -139,13 +139,13 @@
             "vendor": "https://navi60.deskdaily.design/",
             "url": "https://navi60.deskdaily.design/",
             "host": "navi60.deskdaily.design",
-            "metadata_fetched_at": "2026-09-11T12:06:44.900339+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:49.875577+00:00"
           },
           {
             "vendor": "pisca",
             "url": "https://pisca.bandcamp.com/",
             "host": "pisca.bandcamp.com",
-            "metadata_fetched_at": "2026-09-11T12:06:44.900355+00:00"
+            "metadata_fetched_at": "2026-09-12T12:06:49.875601+00:00"
           }
         ]
       },
