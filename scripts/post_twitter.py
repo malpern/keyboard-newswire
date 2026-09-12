@@ -33,6 +33,7 @@ import uuid
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DAYS_DIR = ROOT / "data" / "days"
 POSTED_FILE = ROOT / "data" / "twitter_posted.json"
+CATCHUP_FILE = ROOT / "data" / "x_catchup_2026-09-12.json"
 SITE_URL = "https://keyboard-newswire.com"
 
 API_KEY = os.environ.get("X_API_KEY", "")
@@ -174,6 +175,14 @@ def main():
     else:
         date_str = datetime.date.today().isoformat()
 
+    # A dated X recap already covers this historical range. Do not replay the
+    # old daily files as fresh standalone posts after a migration/recovery.
+    if CATCHUP_FILE.exists() and "--replay-covered" not in sys.argv:
+        covered = json.loads(CATCHUP_FILE.read_text())["archive_range"]
+        if covered[0] <= date_str <= covered[1]:
+            print(f"{date_str}: covered by dated X catch-up; use --replay-covered only after review", file=sys.stderr)
+            return
+
     day_file = DAYS_DIR / f"{date_str}.json"
     if not day_file.exists():
         print(f"no items for {date_str}", file=sys.stderr)
@@ -195,6 +204,7 @@ def main():
 
     print(f"{date_str}: {len(new_items)} items to post", file=sys.stderr)
 
+    failures = 0
     for item in new_items:
         tweet = format_tweet(item)
 
@@ -212,6 +222,7 @@ def main():
             save_posted(posted)
             time.sleep(2)
         except urllib.error.HTTPError as e:
+            failures += 1
             body = e.read().decode()
             print(f"error posting {item['id']}: {e.code} {body}", file=sys.stderr)
             if e.code == 429:
@@ -219,6 +230,8 @@ def main():
                 break
 
     print(f"done: {len(posted)} total posted", file=sys.stderr)
+    if failures:
+        sys.exit(1)
 
 
 if __name__ == "__main__":
