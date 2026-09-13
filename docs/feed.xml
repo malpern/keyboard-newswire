@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 13 Sep 2026 12:06:57 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 12:07:29 +0000</lastBuildDate>
+  <item>
+    <title>ZMK Vim Mode - A second take on syncing my keyboards with VIM</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/</link>
+    <guid isPermaLink="false">reddit-1wemqxp</guid>
+    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Detailed technical walkthrough of implementing a state-synced Vim mode in ZMK firmware to solve layer drift issues. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Setting up qmk CLI on nix</title>
+    <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>
+    <guid isPermaLink="false">reddit-1weiyrr</guid>
+    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Discussion on the technical challenges of managing the QMK firmware repository via Nix flakes due to path ownership constraints. — r/olkb</description>
+  </item>
   <item>
     <title>ZMK Vim Mode - A second take on syncing my keyboards with VIM</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/</link>
@@ -2086,28 +2108,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Positive experience with Akko's support regarding a Bluetooth connectivity issue on the Mineral board. — 47 pts · 3 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>QK80 Brown in 2026</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4iwlp/qk80_brown_in_2026/</link>
-    <guid isPermaLink="false">reddit-1t4iwlp</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Showcase of a second-hand QK80 with PBTFans Retro 100 caps and HMX Orange Grape switches. — 47 pts · 6 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Long-term review of Geonix Rev.2 compact keyboard</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t55uvx/i_admit_ive_become_dependent_on_this_little_guy/</link>
-    <guid isPermaLink="false">reddit-1t55uvx</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Long-term review of the Geonix Rev.2 compact keyboard, praising its weight and portability. — 41 pts · 9 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
