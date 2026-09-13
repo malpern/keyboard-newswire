@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 13 Sep 2026 12:07:29 +0000</lastBuildDate>
-  <item>
-    <title>ZMK Vim Mode - A second take on syncing my keyboards with VIM</title>
-    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/</link>
-    <guid isPermaLink="false">reddit-1wemqxp</guid>
-    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Detailed technical walkthrough of implementing a state-synced Vim mode in ZMK firmware to solve layer drift issues. — r/ErgoMechKeyboards</description>
-  </item>
+  <lastBuildDate>Sun, 13 Sep 2026 12:07:46 +0000</lastBuildDate>
   <item>
     <title>ZMK Vim Mode - A second take on syncing my keyboards with VIM</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wemqxp/zmk_vim_mode_a_second_take_on_syncing_my/</link>

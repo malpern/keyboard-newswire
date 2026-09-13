@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 13 Sep 2026 12:07:29 +0000</lastBuildDate>
-  <item>
-    <title>Setting up qmk CLI on nix</title>
-    <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>
-    <guid isPermaLink="false">reddit-1weiyrr</guid>
-    <pubDate>Sun, 13 Sep 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Discussion on the technical challenges of managing the QMK firmware repository via Nix flakes due to path ownership constraints. — r/olkb</description>
-  </item>
+  <lastBuildDate>Sun, 13 Sep 2026 12:07:46 +0000</lastBuildDate>
   <item>
     <title>Setting up qmk CLI on nix</title>
     <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>
