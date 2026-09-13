@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 12 Sep 2026 20:40:14 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 13 Sep 2026 12:06:57 +0000</lastBuildDate>
   <item>
     <title>Setting up qmk CLI on nix</title>
     <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>
