@@ -50,6 +50,94 @@
         "oled"
       ],
       "image": "img/kbdnews-2907.jpg"
+    },
+    {
+      "id": "reddit-1wf8qo1",
+      "title": "NEXUS ZMK Smart dongle update",
+      "url": "https://reddit.com/r/KeyboardLayouts/comments/1wf8qo1/nexus_zmk_smart_dongle_update/",
+      "discussion_url": "https://reddit.com/r/KeyboardLayouts/comments/1wf8qo1/nexus_zmk_smart_dongle_update/",
+      "source": "reddit",
+      "subreddit": "KeyboardLayouts",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Announcement of a ZMK firmware update for the NEXUS keyboard featuring performance improvements and a new game center.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "zmk",
+        "custom-firmware",
+        "open-source"
+      ]
+    },
+    {
+      "id": "reddit-1wf8n6m",
+      "title": "NEXUS ZMK Smart dongle update",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wf8n6m/nexus_zmk_smart_dongle_update/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wf8n6m/nexus_zmk_smart_dongle_update/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Detailed release notes for the NEXUS ZMK update, including smarter screen redraws, 7 new games, and display sleep features.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "zmk",
+        "custom-firmware",
+        "open-source"
+      ]
+    },
+    {
+      "id": "reddit-1wfl4a9",
+      "title": "NEXUS firmware update adds performance optimizations and expanded game library",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wfl4a9/repost_nexus_update/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wfl4a9/repost_nexus_update/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Reposted technical details on the NEXUS firmware update, highlighting performance optimizations and expanded game library.",
+      "topics": [
+        "firmware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "custom-firmware",
+        "split-keyboard",
+        "mechanical-keyboard"
+      ],
+      "original_title": "Repost Nexus Update",
+      "title_rewritten": true,
+      "title_rewrite_reason": "Vague title lacking specific subject and action details"
+    },
+    {
+      "id": "reddit-1wfr0t5",
+      "title": "Custom 1.2kb firmware runs snake game on split keyboard backlight",
+      "url": "https://reddit.com/r/MechanicalKeyboards/comments/1wfr0t5/i_made_a_custom_firmware_for_my_split_keyboard_to/",
+      "discussion_url": "https://reddit.com/r/MechanicalKeyboards/comments/1wfr0t5/i_made_a_custom_firmware_for_my_split_keyboard_to/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Technical discussion on implementing a custom 1.2kb firmware to run a snake game on a split keyboard's backlight without host interaction.",
+      "topics": [
+        "firmware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "custom-firmware",
+        "split-keyboard",
+        "diy-build"
+      ],
+      "original_title": "I made a custom firmware for my split keyboard to run the snake game on the backlight",
+      "title_rewritten": true,
+      "title_rewrite_reason": "First-person framing and vague artifact description"
     }
   ]
 }

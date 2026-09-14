@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 14 Sep 2026 12:07:22 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 12:08:07 +0000</lastBuildDate>
   <item>
     <title>Peaky 8-bit</title>
     <link>https://kbd.news/Peaky-8-bit-2908.html</link>
@@ -17,6 +17,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>A handheld, wireless, 2x4 key split chording keyboard for typing on the go: Peaky 8-bit by Toya Mimura. — KBD.news</description>
+  </item>
+  <item>
+    <title>NEXUS firmware update adds performance optimizations and expanded game library</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wfl4a9/repost_nexus_update/</link>
+    <guid isPermaLink="false">reddit-1wfl4a9</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Reposted technical details on the NEXUS firmware update, highlighting performance optimizations and expanded game library. — r/ErgoMechKeyboards</description>
   </item>
   <item>
     <title>moimate sells GoFortyMX, InSixtyMX keyboards</title>

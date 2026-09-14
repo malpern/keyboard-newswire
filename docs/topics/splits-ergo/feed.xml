@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 14 Sep 2026 12:07:22 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 12:08:07 +0000</lastBuildDate>
   <item>
     <title>Peaky 8-bit</title>
     <link>https://kbd.news/Peaky-8-bit-2908.html</link>
@@ -28,6 +28,28 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>A Corne-like wireless split with OLED screens: Skardel by Arthur. — KBD.news</description>
+  </item>
+  <item>
+    <title>NEXUS firmware update adds performance optimizations and expanded game library</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wfl4a9/repost_nexus_update/</link>
+    <guid isPermaLink="false">reddit-1wfl4a9</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Reposted technical details on the NEXUS firmware update, highlighting performance optimizations and expanded game library. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Custom 1.2kb firmware runs snake game on split keyboard backlight</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1wfr0t5/i_made_a_custom_firmware_for_my_split_keyboard_to/</link>
+    <guid isPermaLink="false">reddit-1wfr0t5</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Technical discussion on implementing a custom 1.2kb firmware to run a snake game on a split keyboard's backlight without host interaction. — r/MechanicalKeyboards</description>
   </item>
   <item>
     <title>Terpstra Keyboard</title>
