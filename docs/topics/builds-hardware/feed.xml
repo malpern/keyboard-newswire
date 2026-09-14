@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 14 Sep 2026 12:07:12 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 14 Sep 2026 12:07:22 +0000</lastBuildDate>
+  <item>
+    <title>Peaky 8-bit</title>
+    <link>https://kbd.news/Peaky-8-bit-2908.html</link>
+    <guid isPermaLink="false">kbdnews-2908</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A handheld, wireless, 2x4 key split chording keyboard for typing on the go: Peaky 8-bit by Toya Mimura. — KBD.news</description>
+  </item>
+  <item>
+    <title>Skardel</title>
+    <link>https://kbd.news/Skardel-2907.html</link>
+    <guid isPermaLink="false">kbdnews-2907</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A Corne-like wireless split with OLED screens: Skardel by Arthur. — KBD.news</description>
+  </item>
   <item>
     <title>Terpstra Keyboard</title>
     <link>http://terpstrakeyboard.com/</link>

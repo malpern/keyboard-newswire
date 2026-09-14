@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Chording · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/chording/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/chording/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Chording.</description>
+  <language>en-us</language>
+  <lastBuildDate>Mon, 14 Sep 2026 12:07:22 +0000</lastBuildDate>
+  <item>
+    <title>Peaky 8-bit</title>
+    <link>https://kbd.news/Peaky-8-bit-2908.html</link>
+    <guid isPermaLink="false">kbdnews-2908</guid>
+    <pubDate>Mon, 14 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A handheld, wireless, 2x4 key split chording keyboard for typing on the go: Peaky 8-bit by Toya Mimura. — KBD.news</description>
+  </item>
+</channel>
+</rss>

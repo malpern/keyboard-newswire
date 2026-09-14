@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "kbdnews-2908",
+      "title": "Peaky 8-bit",
+      "url": "https://kbd.news/Peaky-8-bit-2908.html",
+      "discussion_url": "https://kbd.news/Peaky-8-bit-2908.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A handheld, wireless, 2x4 key split chording keyboard for typing on the go: Peaky 8-bit by Toya Mimura.",
+      "image_hint": "https://kbd.news/pic/2026/216/480/2908.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "mechanical-keyboard",
+        "wireless",
+        "chording"
+      ],
+      "image": "img/kbdnews-2908.jpg"
+    },
+    {
+      "id": "kbdnews-2907",
+      "title": "Skardel",
+      "url": "https://kbd.news/Skardel-2907.html",
+      "discussion_url": "https://kbd.news/Skardel-2907.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A Corne-like wireless split with OLED screens: Skardel by Arthur.",
+      "image_hint": "https://kbd.news/pic/2026/216/480/2907.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "corne",
+        "wireless",
+        "oled"
+      ],
+      "image": "img/kbdnews-2907.jpg"
+    }
+  ]
+}
