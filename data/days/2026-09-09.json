@@ -66,25 +66,25 @@
             "vendor": "Kono Store",
             "url": "https://kono.store/collections/all-products-list/products/gmk-boho",
             "host": "kono.store",
-            "metadata_fetched_at": "2026-09-13T12:07:11.908459+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.353975+00:00"
           },
           {
             "vendor": "Ashkeebs",
             "url": "https://www.ashkeebs.com/product/gmk-boho-keycaps-deskmat/",
             "host": "www.ashkeebs.com",
-            "metadata_fetched_at": "2026-09-13T12:07:11.908543+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.354038+00:00"
           },
           {
             "vendor": "SwitchKeys",
             "url": "https://www.switchkeys.com.au/products/gmk-boho-group-buy",
             "host": "www.switchkeys.com.au",
-            "metadata_fetched_at": "2026-09-13T12:07:12.190433+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.595322+00:00"
           },
           {
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-gmk-boho",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393663+00:00",
+            "metadata_fetched_at": "2026-09-14T12:06:11.825625+00:00",
             "price_low": 1583,
             "price_high": 8833,
             "currency": "GBP",
@@ -94,25 +94,25 @@
             "vendor": "MyKeyboard",
             "url": "https://mykeyboard.eu/catalogue/category/group-buys/keycaps/gmk-boho_513/",
             "host": "mykeyboard.eu",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393731+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.825666+00:00"
           },
           {
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/search?q=GMK+Boho",
             "host": "ilumkb.com",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393755+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.825690+00:00"
           },
           {
             "vendor": "zFrontier",
             "url": "https://www.zfrontier.com/app/mch/BdkRmq7eP0No",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393772+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.825700+00:00"
           },
           {
             "vendor": "Nerd Cables",
             "url": "https://www.nerdcables.com/product-page/vagabond-gmk-boho",
             "host": "www.nerdcables.com",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393785+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.825710+00:00"
           }
         ],
         "starts_at": "2027-06-08",
@@ -180,7 +180,7 @@
             "vendor": "Data General 6246",
             "url": "https://deskthority.net/wiki/Data_General_6246",
             "host": "deskthority.net",
-            "metadata_fetched_at": "2026-09-13T12:07:12.393819+00:00"
+            "metadata_fetched_at": "2026-09-14T12:06:11.825727+00:00"
           }
         ],
         "related_threads": [
