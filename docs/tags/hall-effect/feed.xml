@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Hall Effect · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/hall-effect/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/hall-effect/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Hall Effect.</description>
+  <language>en-us</language>
+  <lastBuildDate>Tue, 15 Sep 2026 12:10:43 +0000</lastBuildDate>
+  <item>
+    <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>
+    <guid isPermaLink="false">email-1a0a0737c47c6737</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
+    <description>Issue highlights include an IQUNIX EC75 HE review, August's top switches, and Hall-effect variants for the Silakka54 and Cantor keyboards. — ✉ Buttondown</description>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "email-1a0a0737c47c6737",
+      "title": "KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates",
+      "url": "https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/",
+      "discussion_url": "https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/",
+      "source": "email",
+      "subreddit": null,
+      "via": "Buttondown",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Issue highlights include an IQUNIX EC75 HE review, August's top switches, and Hall-effect variants for the Silakka54 and Cantor keyboards.",
+      "sender": "\"Keyboard Builders' Digest\" <kbdnews@buttondown.email>",
+      "topics": [
+        "builds-hardware",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "hall-effect",
+        "switches",
+        "review",
+        "mechanical-keyboard"
+      ],
+      "image": "img/email-1a0a0737c47c6737.jpg"
+    },
+    {
+      "id": "email-1a09fd067186e05f",
+      "title": "STINGA-60 raffle countdown expired with no new launch date",
+      "url": "https://singakbd.com/pages/stinga-60\\n\\nNo",
+      "discussion_url": "https://singakbd.com/pages/stinga-60\\n\\nNo",
+      "source": "email",
+      "subreddit": null,
+      "via": "Gmail",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "The official STINGA-60 raffle countdown expired on August 17, 2026, but no new launch date, pricing, or fulfillment updates were found; current pricing remains $580-$585 with mid-2027 delivery estimates.",
+      "sender": "Micah Alpern <malpern@gmail.com>",
+      "topics": [
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "group-buy",
+        "pricing",
+        "vendor-practices"
+      ]
+    }
+  ]
+}

@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 15 Sep 2026 12:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 12:10:43 +0000</lastBuildDate>
+  <item>
+    <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>
+    <guid isPermaLink="false">email-1a0a0737c47c6737</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
+    <description>Issue highlights include an IQUNIX EC75 HE review, August's top switches, and Hall-effect variants for the Silakka54 and Cantor keyboards. — ✉ Buttondown</description>
+  </item>
+  <item>
+    <title>STINGA-60 raffle countdown expired with no new launch date</title>
+    <link>https://singakbd.com/pages/stinga-60\n\nNo</link>
+    <guid isPermaLink="false">email-1a09fd067186e05f</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>The official STINGA-60 raffle countdown expired on August 17, 2026, but no new launch date, pricing, or fulfillment updates were found; current pricing remains $580-$585 with mid-2027 delivery estimates. — ✉ Gmail</description>
+  </item>
   <item>
     <title>Peaky 8-bit</title>
     <link>https://kbd.news/Peaky-8-bit-2908.html</link>
@@ -2087,27 +2108,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations. — 382 pts · 21 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Showcase of JustSystems 91U with 86U internals</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4ryo4/happy_topre_tuesday/</link>
-    <guid isPermaLink="false">reddit-1t4ryo4</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Showcase of a JustSystems 91U with 86U internals. — 150 pts · 12 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>User shares two Mode Tempo keyboards and duplicate purchase reasoning</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4vvc0/oh_no_i_became_the_guy_with_two_of_the_same_board/</link>
-    <guid isPermaLink="false">reddit-1t4vvc0</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>User shares their two Mode Tempos and the reasoning behind the duplicate purchase. — 134 pts · 22 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

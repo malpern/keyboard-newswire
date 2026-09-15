@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 15 Sep 2026 12:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 15 Sep 2026 12:10:43 +0000</lastBuildDate>
+  <item>
+    <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>
+    <guid isPermaLink="false">email-1a0a0737c47c6737</guid>
+    <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
+    <description>Issue highlights include an IQUNIX EC75 HE review, August's top switches, and Hall-effect variants for the Silakka54 and Cantor keyboards. — ✉ Buttondown</description>
+  </item>
   <item>
     <title>Peaky 8-bit</title>
     <link>https://kbd.news/Peaky-8-bit-2908.html</link>
