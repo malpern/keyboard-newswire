@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 17 Sep 2026 12:08:21 +0000</lastBuildDate>
-  <item>
-    <title>Mode Designs opens pre-orders for Prologue keyboard</title>
-    <link>https://modedesigns.com/prologue</link>
-    <guid isPermaLink="false">email-1a0ab002573c1403</guid>
-    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
-    <description>Mode Designs has launched pre-orders for the Prologue, a new keyboard featuring rounded corners, chamfered edges, and a tuned typing experience with specific mounting and plate designs. — ✉ Modedesigns</description>
-  </item>
+  <lastBuildDate>Thu, 17 Sep 2026 12:08:56 +0000</lastBuildDate>
   <item>
     <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
     <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>

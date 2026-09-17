@@ -6,29 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 17 Sep 2026 12:08:20 +0000</lastBuildDate>
-  <item>
-    <title>ZSA releases backpack designed for split keyboard users</title>
-    <link>https://zsa.io/backpack?mc_cid=a329672947&amp;mc_eid=UNIQID</link>
-    <guid isPermaLink="false">email-1a0ab62018714c8e</guid>
-    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
-    <description>ZSA launched a new backpack made with recycled technical fabric, featuring an ergonomic laptop stand and shipping from Detroit for US customers. — ✉ Zsa</description>
-  </item>
-  <item>
-    <title>Mode Designs opens pre-orders for Prologue keyboard</title>
-    <link>https://modedesigns.com/prologue</link>
-    <guid isPermaLink="false">email-1a0ab002573c1403</guid>
-    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
-    <description>Mode Designs has launched pre-orders for the Prologue, a new keyboard featuring rounded corners, chamfered edges, and a tuned typing experience with specific mounting and plate designs. — ✉ Modedesigns</description>
-  </item>
+  <lastBuildDate>Thu, 17 Sep 2026 12:08:56 +0000</lastBuildDate>
   <item>
     <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
     <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>
@@ -2108,6 +2086,28 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Duplicate of the above layout model discussion. — 0 pts · 0 comments · r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Omnitype offers 50% discount on Symbiote keycap set</title>
+    <link>https://keyboard-newswire.com/email/19e02f8b6949cc11/</link>
+    <guid isPermaLink="false">email-19e02f8b6949cc11</guid>
+    <pubDate>Fri, 08 May 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
+    <description>Omnitype is offering a 50% discount on the Symbiote keycap set via their Firsty Thursdays collection. — ✉ Omnitype</description>
+  </item>
+  <item>
+    <title>A.Okay! opens MID.1 folded stainless steel 40% keyboard for reservations</title>
+    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t518oe/mid1_a_folded_stainless_steel_40_board_ive_been/</link>
+    <guid isPermaLink="false">reddit-1t518oe</guid>
+    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations. — 382 pts · 21 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
