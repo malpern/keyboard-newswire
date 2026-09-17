@@ -3,6 +3,58 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-17",
+      "items": [
+        {
+          "id": "geekhack-127114",
+          "title": "[IC] GMK CYL Hephaestus",
+          "url": "https://geekhack.org/index.php?topic=127114.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127114.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1435,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "Hephaestus is a project inspired by the Greek god of the forge, fire, and craftsmanship. KITS Base kit Featuring doubleshot Greek subs and GMK Special effects Novelties Spacebars Renders Rikia by Caffeinated Studio Desolation by anorexus design Kaze by NRD Design Vendors TBD Special Thanks As always, to the guys on El hobby and room 181 discord and to stella and Angel for the novs Links If you are interested in being a vendor or doing a collab for the set you can reach out to me on discord as zetina.kb You can also follow me on Instagram or join the Room 181 discord for updates, feedback and h",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.postimg.cc/vB7xw4gy/Horizontal-header-hefestus.png",
+            "https://i.postimg.cc/VLxGDT8M/Hefestusbaselabled.png",
+            "https://i.postimg.cc/7YFsmckz/hefestus-novs.png",
+            "https://i.postimg.cc/W109Knpv/Spacebars-hefestus.png",
+            "https://i.postimg.cc/W109KnN9/Render-rikia-Hefestus.png",
+            "https://i.postimg.cc/K8t9VNGr/Render-rikia-Hefestus2.png",
+            "https://i.postimg.cc/BvshGKt3/Hefestus-hhkb2.png",
+            "https://i.postimg.cc/nhqd5kVb/Conlaschingadas-subs.png",
+            "https://i.postimg.cc/tCKS2fjZ/Kaze-Hefestus-1.png",
+            "https://i.postimg.cc/WbBWXKvd/kaze-kantharos-2.png"
+          ],
+          "gb": {
+            "photo_credit": "Caffeinated"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127114-0.jpg",
+            "img/geekhack-127114-1.jpg",
+            "img/geekhack-127114-2.jpg",
+            "img/geekhack-127114-3.jpg",
+            "img/geekhack-127114-4.jpg",
+            "img/geekhack-127114-5.jpg"
+          ],
+          "image": "img/geekhack-127114-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "items": [
         {
