@@ -47,6 +47,54 @@
         "img/geekhack-127114-5.jpg"
       ],
       "image": "img/geekhack-127114-0.jpg"
+    },
+    {
+      "id": "email-1a0ab62018714c8e",
+      "title": "ZSA releases backpack designed for split keyboard users",
+      "url": "https://zsa.io/backpack?mc_cid=a329672947&mc_eid=UNIQID",
+      "discussion_url": "https://zsa.io/backpack?mc_cid=a329672947&mc_eid=UNIQID",
+      "source": "email",
+      "subreddit": null,
+      "via": "Zsa",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "ZSA launched a new backpack made with recycled technical fabric, featuring an ergonomic laptop stand and shipping from Detroit for US customers.",
+      "sender": "Erez Zukerman - ZSA <contact@zsa.io>",
+      "topics": [
+        "splits-ergo",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "split-keyboard",
+        "vendor-practices",
+        "mechanical-keyboard"
+      ],
+      "image": "img/email-1a0ab62018714c8e.jpg"
+    },
+    {
+      "id": "email-1a0ab002573c1403",
+      "title": "Mode Designs opens pre-orders for Prologue keyboard",
+      "url": "https://modedesigns.com/prologue",
+      "discussion_url": "https://modedesigns.com/prologue",
+      "source": "email",
+      "subreddit": null,
+      "via": "Modedesigns",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Mode Designs has launched pre-orders for the Prologue, a new keyboard featuring rounded corners, chamfered edges, and a tuned typing experience with specific mounting and plate designs.",
+      "sender": "Mode Designs <support@modedesigns.com>",
+      "topics": [
+        "group-buys-vendors",
+        "builds-hardware"
+      ],
+      "tags": [
+        "vendor-practices",
+        "mechanical-keyboard",
+        "pricing"
+      ],
+      "image": "img/email-1a0ab002573c1403.jpg"
     }
   ]
 }
