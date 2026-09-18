@@ -96,7 +96,12 @@ def build_prompt(item: dict) -> list[dict]:
     ]
 
 
-def call_qwen(messages: list[dict], timeout: int = 90) -> str:
+def call_qwen(messages: list[dict], timeout: int = 300) -> str:
+    # Raised from 90s on 2026-09-18. Four drivers run minutes apart against ONE Ollama
+    # instance, so a request can wait in the queue longer than it takes to answer: curl
+    # returned (28) after 90s having received ZERO bytes on 09-16, 09-17 and 09-18, and
+    # each of those lost that day's items from the archive. Cron is now staggered to keep
+    # the drivers apart; this covers the residual queue instead of dropping the work.
     chat_url = OLLAMA_URL.rsplit("/api/", 1)[0] + "/api/chat"
     payload = json.dumps({
         "model": MODEL,
