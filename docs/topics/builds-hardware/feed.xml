@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 19:25:08 +0000</lastBuildDate>
   <item>
     <title>DarkBeacon Devil Breaker review</title>
     <link>https://kbd.news/DarkBeacon-Devil-Breaker-review-2910.html</link>
@@ -39,6 +39,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
     <description>Mode Designs has launched pre-orders for the Prologue, a new keyboard featuring rounded corners, chamfered edges, and a tuned typing experience with specific mounting and plate designs. — ✉ Modedesigns</description>
+  </item>
+  <item>
+    <title>Hacking the NuPhy Air60 keyboard: part 3</title>
+    <link>https://carlossless.io/nuphy-air60-part-3/</link>
+    <guid isPermaLink="false">hn-49731926</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
   </item>
   <item>
     <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>

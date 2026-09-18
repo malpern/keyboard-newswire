@@ -196,6 +196,48 @@
             "pricing"
           ],
           "image": "img/email-1a0ab002573c1403.jpg"
+        },
+        {
+          "id": "hn-49731926",
+          "title": "Hacking the NuPhy Air60 keyboard: part 3",
+          "url": "https://carlossless.io/nuphy-air60-part-3/",
+          "discussion_url": "https://news.ycombinator.com/item?id=49731926",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "firmware",
+            "builds-hardware"
+          ],
+          "tags": [
+            "custom-firmware",
+            "diy-build",
+            "qmk"
+          ]
+        },
+        {
+          "id": "hn-49732366",
+          "title": "Raycast Rugpull: Free Alternative to Raycast",
+          "url": "https://github.com/abue-ammar/tinycast",
+          "discussion_url": "https://news.ycombinator.com/item?id=49732366",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "open-source",
+            "shortcut-manager",
+            "macos-utilities"
+          ],
+          "image": "img/hn-49732366.jpg"
         }
       ]
     },

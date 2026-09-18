@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 19:25:08 +0000</lastBuildDate>
+  <item>
+    <title>Hacking the NuPhy Air60 keyboard: part 3</title>
+    <link>https://carlossless.io/nuphy-air60-part-3/</link>
+    <guid isPermaLink="false">hn-49731926</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Setting up qmk CLI on nix</title>
     <link>https://reddit.com/r/olkb/comments/1weiyrr/setting_up_qmk_cli_on_nix/</link>

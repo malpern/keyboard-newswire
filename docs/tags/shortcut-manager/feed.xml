@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/shortcut-manager/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Shortcut Manager.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 19:25:08 +0000</lastBuildDate>
+  <item>
+    <title>Raycast Rugpull: Free Alternative to Raycast</title>
+    <link>https://github.com/abue-ammar/tinycast</link>
+    <guid isPermaLink="false">hn-49732366</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>The Raycast Keyboard</title>
     <link>https://www.raycast.com/keyboard</link>

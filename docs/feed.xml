@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 19:25:08 +0000</lastBuildDate>
   <item>
     <title>DarkBeacon Devil Breaker review</title>
     <link>https://kbd.news/DarkBeacon-Devil-Breaker-review-2910.html</link>
@@ -28,6 +28,27 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>Tiwaz is a split keyboard by Timo Strube. With gaskets and joysticks, each half works standalone as a one-handed controller. — KBD.news</description>
+  </item>
+  <item>
+    <title>Hacking the NuPhy Air60 keyboard: part 3</title>
+    <link>https://carlossless.io/nuphy-air60-part-3/</link>
+    <guid isPermaLink="false">hn-49731926</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Raycast Rugpull: Free Alternative to Raycast</title>
+    <link>https://github.com/abue-ammar/tinycast</link>
+    <guid isPermaLink="false">hn-49732366</guid>
+    <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
   </item>
   <item>
     <title>ZSA releases backpack designed for split keyboard users</title>
@@ -2087,28 +2108,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Showcase of accumulated keycaps from various builds. — 0 pts · 149 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>BBC Sounds episode discusses split keyboards</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8cxe1/are_split_keyboards_sliced_bread/</link>
-    <guid isPermaLink="false">reddit-1t8cxe1</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Link to a BBC Sounds episode discussing split keyboards. — 0 pts · 4 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Reddit thread requests available ergonomic keyboards in 2026</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8l6mt/best_ergonomic_keyboard_in_2026/</link>
-    <guid isPermaLink="false">reddit-1t8l6mt</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Request for available ergonomic keyboards in 2026. — 0 pts · 25 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>
