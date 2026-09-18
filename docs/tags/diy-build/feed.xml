@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 12:08:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <item>
+    <title>Tiwaz: split keyboard with gaskets and joysticks</title>
+    <link>https://kbd.news/Tiwaz-2911.html</link>
+    <guid isPermaLink="false">kbdnews-2911</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Tiwaz is a split keyboard by Timo Strube. With gaskets and joysticks, each half works standalone as a one-handed controller. — KBD.news</description>
+  </item>
   <item>
     <title>Custom 1.2kb firmware runs snake game on split keyboard backlight</title>
     <link>https://reddit.com/r/MechanicalKeyboards/comments/1wfr0t5/i_made_a_custom_firmware_for_my_split_keyboard_to/</link>

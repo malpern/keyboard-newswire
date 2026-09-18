@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 12:08:03 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 16:32:15 +0000</lastBuildDate>
+  <item>
+    <title>DarkBeacon Devil Breaker review</title>
+    <link>https://kbd.news/DarkBeacon-Devil-Breaker-review-2910.html</link>
+    <guid isPermaLink="false">kbdnews-2910</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Devil Breaker, a one-handed magnetic gaming keyboard by DarkBeacon, comes with TMR switches and various AI features. — KBD.news</description>
+  </item>
+  <item>
+    <title>Tiwaz: split keyboard with gaskets and joysticks</title>
+    <link>https://kbd.news/Tiwaz-2911.html</link>
+    <guid isPermaLink="false">kbdnews-2911</guid>
+    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Tiwaz is a split keyboard by Timo Strube. With gaskets and joysticks, each half works standalone as a one-handed controller. — KBD.news</description>
+  </item>
   <item>
     <title>Mode Designs opens pre-orders for Prologue keyboard</title>
     <link>https://modedesigns.com/pages/prologue</link>
