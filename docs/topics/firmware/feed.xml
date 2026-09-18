@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 19:25:08 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 18 Sep 2026 19:31:46 +0000</lastBuildDate>
   <item>
     <title>Hacking the NuPhy Air60 keyboard: part 3</title>
     <link>https://carlossless.io/nuphy-air60-part-3/</link>
