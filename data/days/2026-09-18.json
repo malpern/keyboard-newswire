@@ -40,6 +40,28 @@
         "img/geekhack-127115-5.jpg"
       ],
       "image": "img/geekhack-127115-0.jpg"
+    },
+    {
+      "id": "reddit-1wjnhfj",
+      "title": "ZDSE ， a dongle screen engine for ZMK",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wjnhfj/zdse_a_dongle_screen_engine_for_zmk/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1wjnhfj/zdse_a_dongle_screen_engine_for_zmk/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "New theme engine for ZMK dongle displays featuring shared rendering, animation, and native/WASM preview tools.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "open-source",
+        "visualizer",
+        "custom-firmware"
+      ]
     }
   ]
 }
