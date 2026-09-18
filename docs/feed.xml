@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 12:07:16 +0000</lastBuildDate>
-  <item>
-    <title>ZDSE ， a dongle screen engine for ZMK</title>
-    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wjnhfj/zdse_a_dongle_screen_engine_for_zmk/</link>
-    <guid isPermaLink="false">reddit-1wjnhfj</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Firmware</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>New theme engine for ZMK dongle displays featuring shared rendering, animation, and native/WASM preview tools. — r/ErgoMechKeyboards</description>
-  </item>
+  <lastBuildDate>Fri, 18 Sep 2026 12:08:03 +0000</lastBuildDate>
   <item>
     <title>ZSA releases backpack designed for split keyboard users</title>
     <link>https://www.zsa.io/backpack</link>
@@ -2108,6 +2097,17 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
     <description>Technical discussion on the IKI layout model and weight distribution. — 0 pts · 2 comments · r/KeyboardLayouts</description>
+  </item>
+  <item>
+    <title>IKI model update: layout weight</title>
+    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94lsl/iki_model_update_layout_weight/</link>
+    <guid isPermaLink="false">reddit-1t94lsl</guid>
+    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Duplicate of the above layout model discussion. — 0 pts · 0 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>

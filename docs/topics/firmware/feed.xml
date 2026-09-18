@@ -6,18 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 18 Sep 2026 12:07:16 +0000</lastBuildDate>
-  <item>
-    <title>ZDSE ， a dongle screen engine for ZMK</title>
-    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1wjnhfj/zdse_a_dongle_screen_engine_for_zmk/</link>
-    <guid isPermaLink="false">reddit-1wjnhfj</guid>
-    <pubDate>Fri, 18 Sep 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Firmware</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>New theme engine for ZMK dongle displays featuring shared rendering, animation, and native/WASM preview tools. — r/ErgoMechKeyboards</description>
-  </item>
+  <lastBuildDate>Fri, 18 Sep 2026 12:08:03 +0000</lastBuildDate>
   <item>
     <title>NEXUS ZMK Smart dongle update</title>
     <link>https://reddit.com/r/KeyboardLayouts/comments/1wf8qo1/nexus_zmk_smart_dongle_update/</link>
