@@ -3,6 +3,51 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-18",
+      "items": [
+        {
+          "id": "geekhack-127115",
+          "title": "F8X | Geonworks x Nuxroskb Collaboration",
+          "url": "https://geekhack.org/index.php?topic=127115.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127115.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 487,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Hello everyone For a long time, I’ve looked up to GEON as a mentor and have always learned a great deal from his work and designs. During one of my visits to the Geon Warehouse, I was completely blown away by the sight of countless F1 weights stacked up like a mountain, with their golden surfaces shining under the lights. It was such an impressive image that I simply couldn’t get it out of my head after I returned home. Then I had a slightly crazy idea: \"Why not let people see the weight from the outside, instead of hiding it inside the keyboard?\" And that was the moment F8X was born (its orig",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "images_remote": [
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver6.png?v=1789702356",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver2.png?v=1789702188",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver3.png?v=1789702189",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver8.png?v=1789702356",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver7.png?v=1789702356",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/content.png?v=1789702447",
+            "https://cdn.shopify.com/s/files/1/0786/9520/3115/files/Silver10.png?v=1789702356"
+          ],
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127115-0.jpg",
+            "img/geekhack-127115-1.jpg",
+            "img/geekhack-127115-2.jpg",
+            "img/geekhack-127115-3.jpg",
+            "img/geekhack-127115-4.jpg",
+            "img/geekhack-127115-5.jpg"
+          ],
+          "image": "img/geekhack-127115-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-17",
       "items": [
         {
