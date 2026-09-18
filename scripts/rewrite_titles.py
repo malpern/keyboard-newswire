@@ -17,6 +17,8 @@ import json
 import os
 import re
 import subprocess
+
+from ollama_lock import inference_lock
 import sys
 
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://127.0.0.1:11435/api/generate")
@@ -111,11 +113,14 @@ def call_qwen(messages: list[dict], timeout: int = 300) -> str:
         "options": {"temperature": 0.2, "num_predict": 300},
     })
     try:
-        result = subprocess.run(
-            ["curl", "-fsS", "--max-time", str(timeout), "-X", "POST", chat_url,
-             "-H", "Content-Type: application/json", "-d", payload],
-            capture_output=True, text=True, timeout=timeout + 5,
-        )
+        # Queue for the shared model BEFORE opening the request, so `timeout` below
+        # measures this call's service time and never someone else's turn.
+        with inference_lock(label=__name__):
+            result = subprocess.run(
+                ["curl", "-fsS", "--max-time", str(timeout), "-X", "POST", chat_url,
+                 "-H", "Content-Type: application/json", "-d", payload],
+                capture_output=True, text=True, timeout=timeout + 5,
+            )
     except subprocess.TimeoutExpired as exc:
         raise RuntimeError("Qwen title-rewrite request timed out") from exc
     if result.returncode != 0:
