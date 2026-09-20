@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 19 Sep 2026 12:06:50 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 20 Sep 2026 12:07:02 +0000</lastBuildDate>
+  <item>
+    <title>[GB] DCS SMRT R2 starts 20 Sep 2026</title>
+    <link>https://geekhack.org/index.php?topic=123982.0</link>
+    <guid isPermaLink="false">geekhack-123982</guid>
+    <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
+    <description>DCS SMRT July 9th - Sold Out Across All Vendors Interested in matched shine-through LED keys? Check this out: https://geekhack.org/index.php?topic=125351.0 Vendors Global/Lead Vendor - SPKeyboards.com US - Divinikey EU - Keeb.supply UK - ProtoTypist China - ZFrontier Inspiration DCS SMRT is inspired by the colorway of Wyse thin-client ("dumb") terminals from the 1980s-1990s. These were boards I ran across in various IT temp assignments right out of college at the turn of the millennium, and didn't appreciate at the time that I was tossing them into recycling piles. But DCS, and this colorway, — 33816 pts · 36 comments · Geekhack · Group Buys</description>
+  </item>
+  <item>
+    <title>[IC] SWG 9o_o9 | GB planned for Q4 2026</title>
+    <link>https://geekhack.org/index.php?topic=126539.0</link>
+    <guid isPermaLink="false">geekhack-126539</guid>
+    <pubDate>Sun, 20 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>This isn’t an IC. But don’t tell anyone, and be quick! Limited to 150 in-stock units at an exclusive price of $399! Shop now Deep within GMK’s production pipeline, every input is meant to follow a defined path. But not every operation completes correctly. When limits are exceeded, instructions collide and output shifts. Colors misalign. Legends fall out of place. The system works, but the result is corrupted. 9_0pcode_0verflow_9 explores this state: a familiar configuration pushed beyond its bounds, where correctness gives way to overflow. Keyboard Renders Kitting Renders More Colors More L9 · — 9521 pts · 14 comments · Geekhack · Interest Checks</description>
+  </item>
   <item>
     <title>F8X | Geonworks x Nuxroskb Collaboration</title>
     <link>https://geekhack.org/index.php?topic=127115.0</link>
@@ -2163,28 +2185,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Keyreative</source>
     <description>Keyreative has opened a group buy for the KAP Capo Soda keycap set. — ✉ Keyreative</description>
-  </item>
-  <item>
-    <title>New Geonix teaser photo</title>
-    <link>https://www.reddit.com/r/olkb/comments/1szvxl1/new_geonix_teaser_photo/</link>
-    <guid isPermaLink="false">reddit-1szvxl1</guid>
-    <pubDate>Thu, 30 Apr 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Teaser image for a new Geonix—looks like a PC case variant; sparks discussion about a new revision/production. — 20 pts · 8 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>Binepad BNK-16 - Review and issues</title>
-    <link>https://www.reddit.com/r/keyboards/comments/1s8pwjg/binepad_bnk16_review_and_issues/</link>
-    <guid isPermaLink="false">reddit-1s8pwjg</guid>
-    <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
-    <description>Detailed review of BNK-16 with VIA/QMK issues — JSON save/load breaks layer switching, modifier+mousewheel combos don't work, poor vendor support. — 3 pts · 1 comments · r/keyboards</description>
   </item>
 </channel>
 </rss>

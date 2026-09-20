@@ -3,6 +3,150 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-20",
+      "items": [
+        {
+          "id": "geekhack-123982",
+          "title": "[GB] DCS SMRT R2 starts 20 Sep 2026",
+          "url": "https://geekhack.org/index.php?topic=123982.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=123982.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 33816,
+          "comments": 36,
+          "category": "breaking",
+          "takeaway": "DCS SMRT July 9th - Sold Out Across All Vendors Interested in matched shine-through LED keys? Check this out: https://geekhack.org/index.php?topic=125351.0 Vendors Global/Lead Vendor - SPKeyboards.com US - Divinikey EU - Keeb.supply UK - ProtoTypist China - ZFrontier Inspiration DCS SMRT is inspired by the colorway of Wyse thin-client (\"dumb\") terminals from the 1980s-1990s. These were boards I ran across in various IT temp assignments right out of college at the turn of the millennium, and didn't appreciate at the time that I was tossing them into recycling piles. But DCS, and this colorway,",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://i.imgur.com/4cZsiFq.jpeg",
+            "https://i.imgur.com/L5eze1I.jpeg",
+            "https://i.imgur.com/rjQHNfJ.png",
+            "https://i.imgur.com/MTpTz5h.jpeg",
+            "https://i.imgur.com/E9kgHvk.jpeg",
+            "https://i.imgur.com/ajwtwiy.jpeg",
+            "https://i.imgur.com/tIg7oLz.jpeg",
+            "https://i.imgur.com/SzlIMNB.jpeg",
+            "https://i.imgur.com/bdd1jxX.jpeg",
+            "https://i.imgur.com/zVIeKiP.jpeg",
+            "https://i.imgur.com/VnF0fCv.jpeg",
+            "https://i.imgur.com/TkeZTm5.jpeg",
+            "https://i.imgur.com/oq3rT7k.jpeg",
+            "https://i.imgur.com/mHtUwQi.jpeg",
+            "https://i.imgur.com/d1vMsFP.jpeg",
+            "https://i.imgur.com/TOt2ERb.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "SPKeyboards.com",
+                "url": "https://spkeyboards.com/products/dcs-smrt-keycaps",
+                "host": "spkeyboards.com"
+              },
+              {
+                "vendor": "Divinikey",
+                "url": "https://divinikey.com/products/sp-dcs-smrt-keycaps",
+                "host": "divinikey.com"
+              },
+              {
+                "vendor": "Keeb.supply",
+                "url": "https://keeb.supply/products/dcs-smrt",
+                "host": "keeb.supply"
+              },
+              {
+                "vendor": "ProtoTypist",
+                "url": "https://prototypist.net/products/pre-order-dcs-smrt",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "ZFrontier",
+                "url": "https://www.zfrontier.com/app/mch/lWrYdwGvk8Q1",
+                "host": "www.zfrontier.com"
+              }
+            ],
+            "related_threads": [
+              {
+                "type": "IC",
+                "title": "DCS LED Keys - Fill up the Google Form!",
+                "url": "https://geekhack.org/index.php?topic=125351.0",
+                "topic_id": "125351"
+              }
+            ],
+            "status": "sold-out",
+            "vendor_regions": [
+              {
+                "region": "US",
+                "name": "Divinikey"
+              },
+              {
+                "region": "EU",
+                "name": "Keeb.supply"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "vendor-practices"
+          ]
+        },
+        {
+          "id": "geekhack-126539",
+          "title": "[IC] SWG 9o_o9 | GB planned for Q4 2026",
+          "url": "https://geekhack.org/index.php?topic=126539.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126539.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 9521,
+          "comments": 14,
+          "category": "breaking",
+          "takeaway": "This isn’t an IC. But don’t tell anyone, and be quick! Limited to 150 in-stock units at an exclusive price of $399! Shop now Deep within GMK’s production pipeline, every input is meant to follow a defined path. But not every operation completes correctly. When limits are exceeded, instructions collide and output shifts. Colors misalign. Legends fall out of place. The system works, but the result is corrupted. 9_0pcode_0verflow_9 explores this state: a familiar configuration pushed beyond its bounds, where correctness gives way to overflow. Keyboard Renders Kitting Renders More Colors More L9 ·",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/Mhuufsq.png",
+            "https://i.imgur.com/ahSWJjc.jpeg",
+            "https://i.imgur.com/FFZKjxA.jpeg",
+            "https://i.imgur.com/P6hp8qr.jpeg",
+            "https://i.imgur.com/zaOQQ8i.jpeg",
+            "https://i.imgur.com/5uB8Zht.jpeg",
+            "https://i.imgur.com/weZI4tl.jpeg",
+            "https://i.imgur.com/fzHn7kE.jpeg",
+            "https://i.imgur.com/uklCEH9.jpeg",
+            "https://i.imgur.com/QYauJ4R.jpeg",
+            "https://i.imgur.com/U1FuYRB.jpeg",
+            "https://i.imgur.com/VN4fRwA.png",
+            "https://i.imgur.com/Lj3IIyX.png"
+          ],
+          "gb": {
+            "price_low": 39900
+          },
+          "tags": [
+            "group-buy",
+            "pricing",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126539-0.jpg",
+            "img/geekhack-126539-1.jpg",
+            "img/geekhack-126539-2.jpg",
+            "img/geekhack-126539-3.jpg",
+            "img/geekhack-126539-4.jpg",
+            "img/geekhack-126539-5.jpg"
+          ],
+          "image": "img/geekhack-126539-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-18",
       "items": [
         {
