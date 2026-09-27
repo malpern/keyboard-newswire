@@ -111,7 +111,7 @@
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-swg-hypermix",
             "host": "swagkeys.com",
-            "metadata_fetched_at": "2026-09-20T12:07:22.800990+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:38.681237+00:00",
             "price_low": 1200,
             "price_high": 6700,
             "available": true
@@ -120,7 +120,7 @@
             "vendor": "Bowlkeyboards",
             "url": "https://bowlkeyboards.com/products/gb-swg-hypermix",
             "host": "bowlkeyboards.com",
-            "metadata_fetched_at": "2026-09-20T12:07:23.100224+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:38.881849+00:00",
             "price_low": 1200,
             "price_high": 6700,
             "currency": "USD",
@@ -130,16 +130,16 @@
             "vendor": "Delta Key Co.",
             "url": "https://deltakeyco.com/products/swg-hypermix",
             "host": "deltakeyco.com",
-            "metadata_fetched_at": "2026-09-20T12:07:23.345439+00:00",
-            "price_low": 1300,
-            "price_high": 6900,
+            "metadata_fetched_at": "2026-09-27T12:07:39.108061+00:00",
+            "price_low": 1500,
+            "price_high": 7500,
             "available": true
           },
           {
             "vendor": "Yushakobo",
             "url": "https://shop.yushakobo.jp/collections/group-buy/products/18366",
             "host": "shop.yushakobo.jp",
-            "metadata_fetched_at": "2026-09-20T12:07:23.803939+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:39.441380+00:00",
             "price_low": 220000,
             "price_high": 1155000,
             "currency": "JPY",
@@ -149,7 +149,7 @@
             "vendor": "proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-swg-hypermix",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-09-20T12:07:23.982552+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:39.617537+00:00",
             "price_low": 917,
             "price_high": 5083,
             "currency": "GBP",
@@ -159,16 +159,16 @@
             "vendor": "KeyBay",
             "url": "https://keybay.tech/products/gb-swg-hypermix",
             "host": "keybay.tech",
-            "metadata_fetched_at": "2026-09-20T12:07:24.346355+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:39.866338+00:00",
             "price_low": 1900,
             "price_high": 9900,
-            "available": true
+            "available": false
           },
           {
             "vendor": "Qwertyqop",
             "url": "https://qwertyqop.com/products/swg-hypermix-keycaps",
             "host": "qwertyqop.com",
-            "metadata_fetched_at": "2026-09-20T12:07:24.674100+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:40.076797+00:00",
             "price_low": 1600,
             "price_high": 8700,
             "available": true
@@ -177,7 +177,7 @@
             "vendor": "Aiglatson",
             "url": "https://aiglatsonstudio.com/products/gb-swg-hypermix",
             "host": "aiglatsonstudio.com",
-            "metadata_fetched_at": "2026-09-20T12:07:24.914036+00:00",
+            "metadata_fetched_at": "2026-09-27T12:07:40.409599+00:00",
             "price_low": 49000,
             "price_high": 250000,
             "available": true
@@ -312,7 +312,7 @@
             "vendor": "https://mtlab.work/",
             "url": "https://mtlab.work/",
             "host": "mtlab.work",
-            "metadata_fetched_at": "2026-09-20T12:07:24.914152+00:00"
+            "metadata_fetched_at": "2026-09-27T12:07:40.409654+00:00"
           }
         ]
       },
@@ -361,7 +361,7 @@
             "vendor": "Page Link",
             "url": "https://kbdfans.com/products/gmk-cyl-draco",
             "host": "kbdfans.com",
-            "metadata_fetched_at": "2026-09-20T12:07:25.198744+00:00"
+            "metadata_fetched_at": "2026-09-27T12:07:40.625015+00:00"
           }
         ],
         "designer": "Chaldea in a parallel world"

@@ -90,37 +90,65 @@
           {
             "vendor": "KeebSupply",
             "url": "https://keeb.supply/products/dcs-smrt-r2",
-            "host": "keeb.supply"
+            "host": "keeb.supply",
+            "metadata_fetched_at": "2026-09-27T12:07:27.834625+00:00"
           },
           {
             "vendor": "Toro Studio",
             "url": "https://torokeeb.store/products/gb-dcs-smrt-r2",
-            "host": "torokeeb.store"
+            "host": "torokeeb.store",
+            "metadata_fetched_at": "2026-09-27T12:07:28.046634+00:00",
+            "price_low": 1400,
+            "price_high": 17500,
+            "currency": "EUR",
+            "available": true
           },
           {
             "vendor": "GeonWorks",
             "url": "https://geon.works/products/group-buy-dcs-smrt-r2",
-            "host": "geon.works"
+            "host": "geon.works",
+            "metadata_fetched_at": "2026-09-27T12:07:28.305678+00:00",
+            "price_low": 700,
+            "price_high": 11000,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "IlumKb",
             "url": "https://ilumkb.com/products/group-buy-dcs-smrt-r2",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-09-27T12:07:28.530095+00:00",
+            "price_low": 1000,
+            "price_high": 15300,
+            "currency": "SGD",
+            "available": true
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/products/group-buy-dcs-smrt-r2",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-09-27T12:07:28.747062+00:00",
+            "price_low": 500,
+            "price_high": 9000,
+            "currency": "GBP",
+            "available": true
           },
           {
             "vendor": "Divinikey",
             "url": "https://divinikey.com/collections/keycap-sets/products/sp-dcs-smrt-keycaps",
-            "host": "divinikey.com"
+            "host": "divinikey.com",
+            "metadata_fetched_at": "2026-09-27T12:07:28.980490+00:00",
+            "price_low": 700,
+            "price_high": 11000,
+            "available": true
           },
           {
             "vendor": "in their store",
             "url": "https://sneakbox.com/products/signature-plastics-dcs-bae?_pos=1&_psq=bae&_psid=1dddb48d8&_ss=e",
-            "host": "sneakbox.com"
+            "host": "sneakbox.com",
+            "metadata_fetched_at": "2026-09-27T12:07:29.318050+00:00",
+            "price_low": 390,
+            "available": true
           }
         ],
         "designer": "Piperaceae",
@@ -197,12 +225,14 @@
           {
             "vendor": "https://www.jackylab.com/products/rhino60",
             "url": "https://www.jackylab.com/products/rhino60",
-            "host": "www.jackylab.com"
+            "host": "www.jackylab.com",
+            "metadata_fetched_at": "2026-09-27T12:07:29.544909+00:00"
           },
           {
             "vendor": "https://bit.ly/4dQM2Mw",
             "url": "https://bit.ly/4dQM2Mw",
-            "host": "bit.ly"
+            "host": "bit.ly",
+            "metadata_fetched_at": "2026-09-27T12:07:29.544955+00:00"
           }
         ],
         "designer": "shifting to a sharper"
