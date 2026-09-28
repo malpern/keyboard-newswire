@@ -41,37 +41,70 @@
           {
             "vendor": "Bowl Keyboards",
             "url": "https://bowlkeyboards.com/products/gb-gmk-dinokidz",
-            "host": "bowlkeyboards.com"
+            "host": "bowlkeyboards.com",
+            "metadata_fetched_at": "2026-09-28T12:06:46.824425+00:00",
+            "price_low": 3700,
+            "price_high": 11200,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Delta Key Co.",
             "url": "https://deltakeyco.com/products/gmk-cyl-dinokidz",
-            "host": "deltakeyco.com"
+            "host": "deltakeyco.com",
+            "metadata_fetched_at": "2026-09-28T12:06:47.088643+00:00",
+            "price_low": 4800,
+            "price_high": 14500,
+            "available": true
           },
           {
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-gmk-cyl-dinokidz",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-09-28T12:06:47.354756+00:00",
+            "price_low": 3500,
+            "price_high": 10333,
+            "currency": "GBP",
+            "available": true
           },
           {
             "vendor": "KLC",
             "url": "https://klc-playground.com/products/keycap-gmk-cyl-dinokidz",
-            "host": "klc-playground.com"
+            "host": "klc-playground.com",
+            "metadata_fetched_at": "2026-09-28T12:06:47.592729+00:00",
+            "price_low": 4600,
+            "price_high": 13700,
+            "available": true
           },
           {
             "vendor": "KBDFans",
             "url": "https://kbdfans.com/products/gmk-cyl-dinokidz",
-            "host": "kbdfans.com"
+            "host": "kbdfans.com",
+            "metadata_fetched_at": "2026-09-28T12:06:47.973644+00:00",
+            "price_low": 4500,
+            "price_high": 14500,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/products/group-buy-gmk-cyl-dinokidz",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-09-28T12:06:48.249387+00:00",
+            "price_low": 6500,
+            "price_high": 18900,
+            "currency": "SGD",
+            "available": true
           },
           {
             "vendor": "Keebz N Cables",
             "url": "https://www.keebzncables.com/collections/live-group-buys/products/gmk-cyl-dinokidz",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-09-28T12:06:48.517785+00:00",
+            "price_low": 7400,
+            "price_high": 23500,
+            "currency": "AUD",
+            "available": true
           }
         ],
         "vendor_regions": [

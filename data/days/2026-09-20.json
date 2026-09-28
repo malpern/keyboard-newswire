@@ -42,7 +42,7 @@
             "vendor": "SPKeyboards.com",
             "url": "https://spkeyboards.com/products/dcs-smrt-keycaps",
             "host": "spkeyboards.com",
-            "metadata_fetched_at": "2026-09-27T12:07:29.909581+00:00",
+            "metadata_fetched_at": "2026-09-28T12:06:51.492998+00:00",
             "price_low": 500,
             "price_high": 9900,
             "available": false
@@ -51,7 +51,7 @@
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/sp-dcs-smrt-keycaps",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-09-27T12:07:30.102728+00:00",
+            "metadata_fetched_at": "2026-09-28T12:06:51.772766+00:00",
             "price_low": 700,
             "price_high": 11000,
             "available": true
@@ -60,13 +60,13 @@
             "vendor": "Keeb.supply",
             "url": "https://keeb.supply/products/dcs-smrt",
             "host": "keeb.supply",
-            "metadata_fetched_at": "2026-09-27T12:07:31.087415+00:00"
+            "metadata_fetched_at": "2026-09-28T12:06:52.352946+00:00"
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/products/pre-order-dcs-smrt",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-09-27T12:07:31.277069+00:00",
+            "metadata_fetched_at": "2026-09-28T12:06:52.564588+00:00",
             "price_low": 1500,
             "price_high": 7833,
             "currency": "GBP",
@@ -76,7 +76,7 @@
             "vendor": "ZFrontier",
             "url": "https://www.zfrontier.com/app/mch/lWrYdwGvk8Q1",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-09-27T12:07:31.277136+00:00"
+            "metadata_fetched_at": "2026-09-28T12:06:52.564655+00:00"
           }
         ],
         "related_threads": [
