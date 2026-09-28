@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 28 Sep 2026 12:07:36 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 12:21:37 +0000</lastBuildDate>
   <item>
     <title>[GB] GMK CYL Dinokidz</title>
     <link>https://geekhack.org/index.php?topic=127120.0</link>
@@ -17,6 +17,17 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
     <description>Hello dino lovers, I'd like to introduce you to the already extinct, GMK CYL Dinokidz. Inspired by Dinokidz keyboard , featuring legends from Extended 2048. The idea was to bring back a bit of that old-school, playful feeling and turn it into a keycap set. Hope you guys like the set! Group Buy Info Date: September 21, 2026 to October 23, 2026 Estimated Shipping: Q1 2027 Price Drops Vendors US: Bowl Keyboards EU: Delta Key Co. UK: Proto[Typist] KR: KLC CN: KBDFans SG: iLumkb AU: Keebz N Cables Details Material: ABS Legends: Doubleshot &amp; UV print Colors: Matched to original keycaps Kits Renders — 3986 pts · 2 comments · Geekhack · Group Buys</description>
+  </item>
+  <item>
+    <title>Kemove K94 review</title>
+    <link>https://kbd.news/Kemove-K94-review-2913.html</link>
+    <guid isPermaLink="false">kbdnews-2913</guid>
+    <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Kemove K94 is a tri-mode wireless keyboard in the 96%/1800 form factor. Display, volume knob, VIA support. Great offer, now on sale. — KBD.news</description>
   </item>
   <item>
     <title>[IC] VS9009 R2 by Fusion Lab  Vintech Series No. 2 | A Modern Battleship</title>
@@ -2174,17 +2185,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Treasuretypes</source>
     <description>Treasure is launching the TYPE-9 Series IV along with three additional new keyboard projects. — ✉ Treasuretypes</description>
-  </item>
-  <item>
-    <title>Omnitype Firsty Thursday: GMK Dracula under $88</title>
-    <link>https://keyboard-newswire.com/email/19ddee10af3be603/</link>
-    <guid isPermaLink="false">email-19ddee10af3be603</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
-    <description>Omnitype is selling a GMK Dracula keycap set for Firsty Thursday at a price under $88. — ✉ Omnitype</description>
   </item>
 </channel>
 </rss>
