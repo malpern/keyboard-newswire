@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 27 Sep 2026 12:08:12 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 28 Sep 2026 12:06:34 +0000</lastBuildDate>
+  <item>
+    <title>[GB] GMK CYL Dinokidz</title>
+    <link>https://geekhack.org/index.php?topic=127120.0</link>
+    <guid isPermaLink="false">geekhack-127120</guid>
+    <pubDate>Mon, 28 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
+    <description>Hello dino lovers, I'd like to introduce you to the already extinct, GMK CYL Dinokidz. Inspired by Dinokidz keyboard , featuring legends from Extended 2048. The idea was to bring back a bit of that old-school, playful feeling and turn it into a keycap set. Hope you guys like the set! Group Buy Info Date: September 21, 2026 to October 23, 2026 Estimated Shipping: Q1 2027 Price Drops Vendors US: Bowl Keyboards EU: Delta Key Co. UK: Proto[Typist] KR: KLC CN: KBDFans SG: iLumkb AU: Keebz N Cables Details Material: ABS Legends: Doubleshot &amp; UV print Colors: Matched to original keycaps Kits Renders — 3986 pts · 2 comments · Geekhack · Group Buys</description>
+  </item>
   <item>
     <title>[IC] VS9009 R2 by Fusion Lab  Vintech Series No. 2 | A Modern Battleship</title>
     <link>https://geekhack.org/index.php?topic=127123.0</link>
@@ -2174,17 +2185,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype is selling a GMK Dracula keycap set for Firsty Thursday at a price under $88. — ✉ Omnitype</description>
-  </item>
-  <item>
-    <title>Omnitype releases GMK Burgundy keycap set</title>
-    <link>https://omnitype.com/products/gmk-burgundy-cyl</link>
-    <guid isPermaLink="false">email-19dda84045b6e97b</guid>
-    <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
-    <description>Omnitype has released the GMK (CYL) Burgundy keycap set, coinciding with the end of the Bauer 65 preorder. — ✉ Omnitype</description>
   </item>
 </channel>
 </rss>
