@@ -57,12 +57,14 @@
           {
             "vendor": "GSD Store",
             "url": "https://godsson-designs.co",
-            "host": "godsson-designs.co"
+            "host": "godsson-designs.co",
+            "metadata_fetched_at": "2026-09-29T12:06:59.419051+00:00"
           },
           {
             "vendor": "Twitch",
             "url": "https://twitch.tv/godsson-designs",
-            "host": "twitch.tv"
+            "host": "twitch.tv",
+            "metadata_fetched_at": "2026-09-29T12:06:59.419246+00:00"
           }
         ],
         "photo_credit": "NoNumbers"
