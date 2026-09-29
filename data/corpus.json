@@ -3,6 +3,92 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-09-29",
+      "items": [
+        {
+          "id": "geekhack-127129",
+          "title": "[GB] SWG Art",
+          "url": "https://geekhack.org/index.php?topic=127129.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127129.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "bump",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "type": "GB",
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ]
+        },
+        {
+          "id": "geekhack-127161",
+          "title": "[IC] GMK CYL Rareabic",
+          "url": "https://geekhack.org/index.php?topic=127161.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127161.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1034,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "GMK CYL Rareabic Introducing GMK CYL Rareabic, a set inspired by one of the rarest beige sets around: GMK Classic Retro Arabic. Instead of trying to hunt this guy down, I decided to create a modernized version of it with novelties, accents, and extensions. This set uses stock colors: L9, U9, RO2, and CR . Beige is life! Kits Base Extension Renders Aein & Dia by NoNumbers F1-8X by Geon Works Fossil by Carolina Mech Nyx65 by GODSSON Designs Vendors TBD Shoutouts Thank you to NoNumbers, Arslock, and Foraz for the renders and support! Links IC Form Discord GSD Store Instagram YouTube Typing Tests",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/bgVc16q.jpeg",
+            "https://i.imgur.com/w9k4UPI.png",
+            "https://i.imgur.com/zdrAD6z.png",
+            "https://i.imgur.com/XcFYdi0.jpeg",
+            "https://i.imgur.com/fODhsZS.jpeg",
+            "https://i.imgur.com/FozBblz.jpeg",
+            "https://i.imgur.com/jXFa9QT.jpeg",
+            "https://i.imgur.com/BnYHHnX.jpeg",
+            "https://i.imgur.com/ey6AVxl.jpeg",
+            "https://i.imgur.com/wcYfYSQ.jpeg",
+            "https://i.imgur.com/S47nhjg.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "GSD Store",
+                "url": "https://godsson-designs.co",
+                "host": "godsson-designs.co"
+              },
+              {
+                "vendor": "Twitch",
+                "url": "https://twitch.tv/godsson-designs",
+                "host": "twitch.tv"
+              }
+            ],
+            "photo_credit": "NoNumbers"
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "keycaps-aesthetics"
+          ],
+          "images": [
+            "img/geekhack-127161-0.jpg",
+            "img/geekhack-127161-1.jpg",
+            "img/geekhack-127161-2.jpg",
+            "img/geekhack-127161-3.jpg",
+            "img/geekhack-127161-4.jpg",
+            "img/geekhack-127161-5.jpg"
+          ],
+          "image": "img/geekhack-127161-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-28",
       "items": [
         {
