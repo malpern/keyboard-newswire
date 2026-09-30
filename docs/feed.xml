@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 30 Sep 2026 12:07:32 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 12:14:59 +0000</lastBuildDate>
+  <item>
+    <title>NuPhy releases Air75 V3 Raycast Edition</title>
+    <link>https://nuphy.com/products/nuphy-air75-v3-raycast-edition?utm_source=klaviyo&amp;utm_medium=email&amp;utm_campaign=nuphy_raycast_edition</link>
+    <guid isPermaLink="false">email-1a0ed7965547eb6f</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Nuphy</source>
+    <description>NuPhy has launched a special edition of the Air75 V3 keyboard in collaboration with Raycast. — ✉ Nuphy</description>
+  </item>
   <item>
     <title>Kemove K94 review</title>
     <link>https://kbd.news/Kemove-K94-review-2913.html</link>
@@ -2099,16 +2110,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/logitech</source>
     <description>Hardware issue where TAB key triggers multiple keys simultaneously. — 1 pts · 0 comments · r/logitech</description>
-  </item>
-  <item>
-    <title>Reddit user seeks keyboard model seen in CS2</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t83of4/please_help_me_find_this_type_of_keyboard/</link>
-    <guid isPermaLink="false">reddit-1t83of4</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>User saw a keyboard in CS2 and wants to find it. — 0 pts · 6 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>

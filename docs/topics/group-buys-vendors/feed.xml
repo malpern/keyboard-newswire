@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 30 Sep 2026 12:07:33 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 12:14:59 +0000</lastBuildDate>
   <item>
     <title>deleted</title>
     <link>https://geekhack.org/index.php?topic=127170.0</link>
@@ -17,6 +17,17 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>deleted — 611 pts · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>NuPhy releases Air75 V3 Raycast Edition</title>
+    <link>https://nuphy.com/products/nuphy-air75-v3-raycast-edition?utm_source=klaviyo&amp;utm_medium=email&amp;utm_campaign=nuphy_raycast_edition</link>
+    <guid isPermaLink="false">email-1a0ed7965547eb6f</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Nuphy</source>
+    <description>NuPhy has launched a special edition of the Air75 V3 keyboard in collaboration with Raycast. — ✉ Nuphy</description>
   </item>
   <item>
     <title>[GB] SWG Art</title>
@@ -2174,17 +2185,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
     <description>Sale of a pre-programmed Ataraxia with ZMK Studio firmware support. — 7 pts · 3 comments · r/mechmarket</description>
-  </item>
-  <item>
-    <title>Omnitype restocks Dualshot Substance Deskpad and GMK Dualshot Accent kit</title>
-    <link>https://omnitype.com/products/dualshot-substance-deskpad</link>
-    <guid isPermaLink="false">email-19df4c506722616f</guid>
-    <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
-    <description>Omnitype has restocked the Dualshot Substance Deskpad and GMK Dualshot 2 keycap accent kit. — ✉ Omnitype</description>
   </item>
 </channel>
 </rss>
