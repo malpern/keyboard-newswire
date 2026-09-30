@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/groupbuys/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Live group buys and interest checks from Geekhack and partner vendors.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 29 Sep 2026 12:07:51 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 30 Sep 2026 12:06:28 +0000</lastBuildDate>
+  <item>
+    <title>deleted</title>
+    <link>https://geekhack.org/index.php?topic=127170.0</link>
+    <guid isPermaLink="false">geekhack-127170</guid>
+    <pubDate>Wed, 30 Sep 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>deleted — 611 pts · Geekhack · Interest Checks</description>
+  </item>
   <item>
     <title>[GB] SWG Art</title>
     <link>https://geekhack.org/index.php?topic=127129.0</link>
