@@ -3,6 +3,36 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-01",
+      "items": [
+        {
+          "id": "email-1a0f4c865ba56590",
+          "title": "CannonKeys announces GMK Rainy Day R3, PBS Kids Typewriter, and GMK CYL Blanks group buys",
+          "url": "http://discord.gg/gAy6sqp",
+          "discussion_url": "http://discord.gg/gAy6sqp",
+          "source": "email",
+          "subreddit": null,
+          "via": "Cannonkeys",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "CannonKeys scheduled group buys for GMK Rainy Day R3 (Oct 2), PBS Kids Typewriter (Oct 9), and GMK CYL Blanks (Oct 16), alongside restocks of TX stabilizers and deskmats.",
+          "sender": "CannonKeys <support@cannonkeys.com>",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "group-buy",
+            "restock",
+            "keycap-design",
+            "vendor-practices"
+          ],
+          "image": "img/email-1a0f4c865ba56590.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-09-30",
       "items": [
         {

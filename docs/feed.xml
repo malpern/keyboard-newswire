@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 01 Oct 2026 12:06:56 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 12:15:10 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys announces GMK Rainy Day R3, PBS Kids Typewriter, and GMK CYL Blanks group buys</title>
+    <link>http://discord.gg/gAy6sqp</link>
+    <guid isPermaLink="false">email-1a0f4c865ba56590</guid>
+    <pubDate>Thu, 01 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys scheduled group buys for GMK Rainy Day R3 (Oct 2), PBS Kids Typewriter (Oct 9), and GMK CYL Blanks (Oct 16), alongside restocks of TX stabilizers and deskmats. — ✉ Cannonkeys</description>
+  </item>
   <item>
     <title>NuPhy releases Air75 V3 Raycast Edition</title>
     <link>https://nuphy.com/products/nuphy-air75-v3-raycast-edition</link>
@@ -2100,16 +2111,6 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/Lofree</source>
     <description>Issue with F keys not working on Lofree Flow Lite, possibly related to multimedia keys. — 1 pts · 3 comments · r/Lofree</description>
-  </item>
-  <item>
-    <title>Logitech G815 Linear - TAB key triggers 10+ keys</title>
-    <link>https://www.reddit.com/r/logitech/comments/1t923eg/logitech_g815_linear_tab_key_triggers_10_keys/</link>
-    <guid isPermaLink="false">reddit-1t923eg</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/logitech</source>
-    <description>Hardware issue where TAB key triggers multiple keys simultaneously. — 1 pts · 0 comments · r/logitech</description>
   </item>
 </channel>
 </rss>
