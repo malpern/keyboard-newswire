@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-02",
+      "items": [
+        {
+          "id": "geekhack-127128",
+          "title": "[GB] GMK CYL Purple. | October 10th - November 10th 2026",
+          "url": "https://geekhack.org/index.php?topic=127128.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127128.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "bump",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "type": "GB",
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-01",
       "items": [
         {
