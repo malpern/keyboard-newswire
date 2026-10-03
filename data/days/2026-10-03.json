@@ -63,7 +63,8 @@
           {
             "vendor": "Novelkeys",
             "url": "http://x",
-            "host": "x"
+            "host": "x",
+            "metadata_fetched_at": "2026-10-03T12:06:46.718058+00:00"
           }
         ],
         "starts_at": "2026-10-02",
