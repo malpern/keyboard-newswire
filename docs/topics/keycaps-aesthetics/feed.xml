@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/keycaps-aesthetics/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Keycap sets and group buys, profile discussion, switches for sound/feel, lubing, foam, lighting, finishes, photographs of finished boards.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 12:16:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:22:30 +0000</lastBuildDate>
   <item>
     <title>CannonKeys announces GMK Rainy Day keycap release</title>
     <link>https://malpern.github.io/keyboard-wire/email/1a0feb2913ea2f63/</link>
@@ -17,6 +17,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
     <description>CannonKeys has made the GMK Rainy Day keycap set available for purchase on their website. — ✉ Cannonkeys</description>
+  </item>
+  <item>
+    <title>Dygma Sonsei review</title>
+    <link>https://kbd.news/Dygma-Sonsei-review-2914.html</link>
+    <guid isPermaLink="false">kbdnews-2914</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A sleek prebuilt unibody split keyboard: Sonsei by Dygma – for those looking for a high-quality in-stock option. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys announces GMK Rainy Day R3, PBS Kids Typewriter, and GMK CYL Blanks group buys</title>

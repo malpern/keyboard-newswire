@@ -112,6 +112,58 @@
             "group-buy",
             "vendor-practices"
           ]
+        },
+        {
+          "id": "kbdnews-2914",
+          "title": "Dygma Sonsei review",
+          "url": "https://kbd.news/Dygma-Sonsei-review-2914.html",
+          "discussion_url": "https://kbd.news/Dygma-Sonsei-review-2914.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "A sleek prebuilt unibody split keyboard: Sonsei by Dygma – for those looking for a high-quality in-stock option.",
+          "image_hint": "https://kbd.news/pic/2026/217/480/2914.jpg",
+          "topics": [
+            "splits-ergo",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "split-keyboard",
+            "mechanical-keyboard",
+            "vendor-practices"
+          ],
+          "image": "img/kbdnews-2914.jpg"
+        },
+        {
+          "id": "kbdnews-2915",
+          "title": "Yuburoll releases open-source Yuwol 60% wireless split keyboard",
+          "url": "https://kbd.news/Yuwol-2915.html",
+          "discussion_url": "https://kbd.news/Yuwol-2915.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "A 60% wireless row-staggered split: the open-source Yuwol by Yuburoll.",
+          "image_hint": "https://kbd.news/pic/2026/217/480/2915.jpg",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "open-source",
+            "wireless",
+            "row-staggered"
+          ],
+          "original_title": "Yuwol",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Original title was just a product name; rewrite adds entity, action, and key specs from takeaway",
+          "image": "img/kbdnews-2915.jpg"
         }
       ]
     },

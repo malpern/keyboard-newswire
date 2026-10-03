@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 12:16:09 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:22:30 +0000</lastBuildDate>
   <item>
     <title>CannonKeys announces GMK Rainy Day keycap release</title>
     <link>https://malpern.github.io/keyboard-wire/email/1a0feb2913ea2f63/</link>
@@ -17,6 +17,28 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
     <description>CannonKeys has made the GMK Rainy Day keycap set available for purchase on their website. — ✉ Cannonkeys</description>
+  </item>
+  <item>
+    <title>Dygma Sonsei review</title>
+    <link>https://kbd.news/Dygma-Sonsei-review-2914.html</link>
+    <guid isPermaLink="false">kbdnews-2914</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A sleek prebuilt unibody split keyboard: Sonsei by Dygma – for those looking for a high-quality in-stock option. — KBD.news</description>
+  </item>
+  <item>
+    <title>Yuburoll releases open-source Yuwol 60% wireless split keyboard</title>
+    <link>https://kbd.news/Yuwol-2915.html</link>
+    <guid isPermaLink="false">kbdnews-2915</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A 60% wireless row-staggered split: the open-source Yuwol by Yuburoll. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys announces GMK Rainy Day R3, PBS Kids Typewriter, and GMK CYL Blanks group buys</title>
@@ -2091,27 +2113,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/Keychron</source>
     <description>Discussion on the worth of the Keychron Q6 Ultra Wi-Fi version vs Q6 MAX. — 1 pts · 6 comments · r/Keychron</description>
-  </item>
-  <item>
-    <title>Reddit comparison of budget aluminum keyboards: ND75, Wave75, Inky75, Rainey75</title>
-    <link>https://www.reddit.com/r/keyboards/comments/1t8wa0i/nd75_vs_wave75_vs_inky_75_vs_rainey_75/</link>
-    <guid isPermaLink="false">reddit-1t8wa0i</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
-    <description>Comparison of budget aluminum boards: ND75, Wave75, Inky75, Rainey75. — 1 pts · 0 comments · r/keyboards</description>
-  </item>
-  <item>
-    <title>Windows key not working</title>
-    <link>https://www.reddit.com/r/pchelp/comments/1t8ym86/windows_key_not_working/</link>
-    <guid isPermaLink="false">reddit-1t8ym86</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/pchelp</source>
-    <description>Troubleshooting a Windows key that types 'd' on an Aula F75. — 1 pts · 2 comments · r/pchelp</description>
   </item>
 </channel>
 </rss>
