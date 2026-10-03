@@ -85,6 +85,29 @@
         "img/geekhack-125947-5.jpg"
       ],
       "image": "img/geekhack-125947-0.jpg"
+    },
+    {
+      "id": "email-1a0feb2913ea2f63",
+      "title": "CannonKeys announces GMK Rainy Day keycap release",
+      "url": "https://cannonkeys.com/",
+      "discussion_url": "https://cannonkeys.com/",
+      "source": "email",
+      "subreddit": null,
+      "via": "Cannonkeys",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "CannonKeys has made the GMK Rainy Day keycap set available for purchase on their website.",
+      "sender": "CannonKeys <support@cannonkeys.com>",
+      "topics": [
+        "keycaps-aesthetics",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "keycap-design",
+        "group-buy",
+        "vendor-practices"
+      ]
     }
   ]
 }

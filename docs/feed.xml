@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 12:07:37 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:14:49 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys announces GMK Rainy Day keycap release</title>
+    <link>https://cannonkeys.com/</link>
+    <guid isPermaLink="false">email-1a0feb2913ea2f63</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys has made the GMK Rainy Day keycap set available for purchase on their website. — ✉ Cannonkeys</description>
+  </item>
   <item>
     <title>CannonKeys announces GMK Rainy Day R3, PBS Kids Typewriter, and GMK CYL Blanks group buys</title>
     <link>https://discord.com/invite/gAy6sqp</link>
@@ -2101,16 +2112,6 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/pchelp</source>
     <description>Troubleshooting a Windows key that types 'd' on an Aula F75. — 1 pts · 2 comments · r/pchelp</description>
-  </item>
-  <item>
-    <title>Trouble with F keys not working - Lofree Flow lite</title>
-    <link>https://www.reddit.com/r/Lofree/comments/1t8zbup/trouble_with_f_keys_not_working_lofree_flow_lite/</link>
-    <guid isPermaLink="false">reddit-1t8zbup</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/Lofree</source>
-    <description>Issue with F keys not working on Lofree Flow Lite, possibly related to multimedia keys. — 1 pts · 3 comments · r/Lofree</description>
   </item>
 </channel>
 </rss>

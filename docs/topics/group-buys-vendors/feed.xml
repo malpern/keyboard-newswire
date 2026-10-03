@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 03 Oct 2026 12:07:37 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:14:50 +0000</lastBuildDate>
   <item>
     <title>[IC] GMK CYL Zombie - rises back from the dead. Pre-GB updates!</title>
     <link>https://geekhack.org/index.php?topic=125947.0</link>
@@ -17,6 +17,17 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>GMK CYL Zombie LINKS Inspo | Kits | Deskmat | Renders | Specs | Logistics | Collabs | Misc Socials: @boba.types GB Thread Link: Pending • INSPIRATION • UPDATE September 2026: The dead have risen. Your keyboard is next. Hello everyone! After spending some time in the grave, GMK CYL Zombie is finally ready to rise! I'm pleased to announce that the Group Buy is scheduled for October 2 to 31, 2026, just in time for spooky season. Inspired by classic zombie survival horror, Zombie brings sickly greens and blood-red accents to your keyboard. Featuring GMK's special-effect double-shot ABS constructio — 29421 pts · 17 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>CannonKeys announces GMK Rainy Day keycap release</title>
+    <link>https://cannonkeys.com/</link>
+    <guid isPermaLink="false">email-1a0feb2913ea2f63</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys has made the GMK Rainy Day keycap set available for purchase on their website. — ✉ Cannonkeys</description>
   </item>
   <item>
     <title>[GB] GMK CYL Purple. | October 10th - November 10th 2026</title>
@@ -2174,17 +2185,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
     <description>Omnitype is offering a 50% discount on the Symbiote keycap set via their Firsty Thursdays collection. — ✉ Omnitype</description>
-  </item>
-  <item>
-    <title>A.Okay! opens MID.1 folded stainless steel 40% keyboard for reservations</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t518oe/mid1_a_folded_stainless_steel_40_board_ive_been/</link>
-    <guid isPermaLink="false">reddit-1t518oe</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations. — 382 pts · 21 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
