@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 02 Oct 2026 12:07:30 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 03 Oct 2026 12:06:36 +0000</lastBuildDate>
+  <item>
+    <title>[IC] GMK CYL Zombie - rises back from the dead. Pre-GB updates!</title>
+    <link>https://geekhack.org/index.php?topic=125947.0</link>
+    <guid isPermaLink="false">geekhack-125947</guid>
+    <pubDate>Sat, 03 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>GMK CYL Zombie LINKS Inspo | Kits | Deskmat | Renders | Specs | Logistics | Collabs | Misc Socials: @boba.types GB Thread Link: Pending • INSPIRATION • UPDATE September 2026: The dead have risen. Your keyboard is next. Hello everyone! After spending some time in the grave, GMK CYL Zombie is finally ready to rise! I'm pleased to announce that the Group Buy is scheduled for October 2 to 31, 2026, just in time for spooky season. Inspired by classic zombie survival horror, Zombie brings sickly greens and blood-red accents to your keyboard. Featuring GMK's special-effect double-shot ABS constructio — 29421 pts · 17 comments · Geekhack · Interest Checks</description>
+  </item>
   <item>
     <title>[GB] GMK CYL Purple. | October 10th - November 10th 2026</title>
     <link>https://geekhack.org/index.php?topic=127128.0</link>
@@ -2174,17 +2185,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Showcase of the MID.1, a folded stainless steel 40% board by A.Okay!, now open for reservations. — 382 pts · 21 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>[GB] DCS Grass Valley | Live now till June 1st</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t4fsf4/gb_dcs_grass_valley_live_now_till_june_1st/</link>
-    <guid isPermaLink="false">reddit-1t4fsf4</guid>
-    <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>DCS Grass Valley group buy is live, hitting MOQ with price drops at higher tiers. — 62 pts · 5 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
