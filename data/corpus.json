@@ -3,6 +3,149 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-04",
+      "items": [
+        {
+          "id": "geekhack-109701",
+          "title": "[GB] Sagittarius optimized ergo",
+          "url": "https://geekhack.org/index.php?topic=109701.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=109701.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 114229,
+          "comments": 49,
+          "category": "breaking",
+          "takeaway": "Sagittarius, a gasket-mount optimized ergonomic layout custom keyboard \"Each soul a single universe Each mind bears the wages of their sins Each person carries the blessing of existence\" This is it, guys. Grab your quivers and your arrows. Initial IC post: https://geekhack.org/index.php?topic=107023 Pictures Courtesy of the lovely Minterly. Build stream link: https://www.twitch.tv/videos/792335918 Prices, dates and proxies The standard kit contains: 1x 6063 aluminum board top 1x 6063 aluminum board bottom 1x Brass weight 1x Brass plate PCB, JST cable, USB daughterboard Mounting Hardware (screw",
+          "topics": [
+            "group-buys-vendors",
+            "splits-ergo"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://imgur.com/jxiqTnQ.png",
+            "https://i.imgur.com/klP4QZc.jpeg",
+            "https://i.imgur.com/RTBQpUk.jpeg",
+            "https://i.imgur.com/QayzcKh.jpeg",
+            "https://i.imgur.com/jUyjImC.jpeg",
+            "https://i.imgur.com/7YymUaC.jpeg",
+            "https://i.imgur.com/dMAYxfL.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "https://www.twitch.tv/videos/792335918",
+                "url": "https://www.twitch.tv/videos/792335918",
+                "host": "www.twitch.tv"
+              },
+              {
+                "vendor": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
+                "url": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
+                "host": "cannonkeys.com"
+              },
+              {
+                "vendor": "https://dailyclack.com/products/sagittarius-keyboard-kit",
+                "url": "https://dailyclack.com/products/sagittarius-keyboard-kit",
+                "host": "dailyclack.com"
+              }
+            ],
+            "related_threads": [
+              {
+                "type": "IC",
+                "title": "Sagittarius (dates, proxies and US prices announced)",
+                "url": "https://geekhack.org/index.php?topic=107023",
+                "topic_id": "107023"
+              }
+            ],
+            "designer": "it"
+          },
+          "tags": [
+            "group-buy",
+            "ergonomic-keyboard",
+            "gasket-mount",
+            "custom-keyboard"
+          ],
+          "images": [
+            "img/geekhack-109701-0.jpg",
+            "img/geekhack-109701-1.jpg",
+            "img/geekhack-109701-2.jpg",
+            "img/geekhack-109701-3.jpg",
+            "img/geekhack-109701-4.jpg",
+            "img/geekhack-109701-5.jpg"
+          ],
+          "image": "img/geekhack-109701-0.jpg"
+        },
+        {
+          "id": "geekhack-125296",
+          "title": "[IC] GMK CYL Medusa : A Gaze Forged in Grief (NEW KITS)",
+          "url": "https://geekhack.org/index.php?topic=125296.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=125296.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 105794,
+          "comments": 49,
+          "category": "breaking",
+          "takeaway": "GMK Medusa portrays a journey from innocence to vengeance, beauty to terror, all through the eyes of the most misunderstood monster of Greek lore! WEBSITE | DISCORD | INSTAGRAM IC FORM Manufacturer : GMK Profile : Cherry CYL Material : ABS, Translucent Thickness : 1.5mm Novelties : Double Shot and UV printed Spacebars The Story Behind the Set Medusa wasn’t always a monster. She began as a mortal priestess in Athena’s temple, known for her radiant beauty and devoted chastity. But fate played cruelly. Poseidon, god of the sea, violated her within the sacred temple. Instead of punishing the god,",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/WOQuvvT.jpeg",
+            "https://i.imgur.com/JtHgcag.jpeg",
+            "https://i.imgur.com/InoR1uY.jpeg",
+            "https://i.imgur.com/BHWB8fJ.jpeg",
+            "https://i.imgur.com/nC1yFmT.jpeg",
+            "https://i.imgur.com/SEDGoeQ.jpeg",
+            "https://i.imgur.com/eLdl9K3.jpeg",
+            "https://i.imgur.com/2MgUkBp.jpeg",
+            "https://i.imgur.com/X0Mq8jL.jpeg",
+            "https://i.imgur.com/yzUQx44.jpeg",
+            "https://i.imgur.com/rjoFjJ6.jpeg",
+            "https://i.imgur.com/tDCWUTR.jpeg",
+            "https://i.imgur.com/fh4qCzc.jpeg",
+            "https://i.imgur.com/JIUn7k9.jpeg",
+            "https://i.imgur.com/K6BUGp3.jpeg",
+            "https://i.imgur.com/LoIjW39.jpeg",
+            "https://i.imgur.com/NYy7U2Q.jpeg",
+            "https://i.imgur.com/kT4nJdW.jpeg",
+            "https://i.imgur.com/gNULVHE.jpeg",
+            "https://i.imgur.com/Dr36mHG.jpeg",
+            "https://i.imgur.com/VSaP33w.jpeg",
+            "https://i.imgur.com/wnAk9wb.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "WEBSITE |",
+                "url": "https://sxmdesigns.com/gmk-medusa/",
+                "host": "sxmdesigns.com"
+              },
+              {
+                "vendor": "DISCORD |",
+                "url": "https://discord.sxmdesigns.com/",
+                "host": "discord.sxmdesigns.com"
+              }
+            ]
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-125296-1.jpg",
+            "img/geekhack-125296-3.jpg",
+            "img/geekhack-125296-4.jpg",
+            "img/geekhack-125296-5.jpg"
+          ],
+          "image": "img/geekhack-125296-1.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-10-03",
       "items": [
         {
