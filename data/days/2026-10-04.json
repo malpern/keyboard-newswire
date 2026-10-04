@@ -32,17 +32,27 @@
           {
             "vendor": "https://www.twitch.tv/videos/792335918",
             "url": "https://www.twitch.tv/videos/792335918",
-            "host": "www.twitch.tv"
+            "host": "www.twitch.tv",
+            "metadata_fetched_at": "2026-10-04T12:07:12.675980+00:00"
           },
           {
             "vendor": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
             "url": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
-            "host": "cannonkeys.com"
+            "host": "cannonkeys.com",
+            "metadata_fetched_at": "2026-10-04T12:07:12.949206+00:00",
+            "price_low": 48500,
+            "currency": "USD",
+            "available": false
           },
           {
             "vendor": "https://dailyclack.com/products/sagittarius-keyboard-kit",
             "url": "https://dailyclack.com/products/sagittarius-keyboard-kit",
-            "host": "dailyclack.com"
+            "host": "dailyclack.com",
+            "metadata_fetched_at": "2026-10-04T12:07:13.255094+00:00",
+            "price_low": 900,
+            "price_high": 67900,
+            "currency": "AUD",
+            "available": true
           }
         ],
         "related_threads": [
@@ -117,12 +127,14 @@
           {
             "vendor": "WEBSITE |",
             "url": "https://sxmdesigns.com/gmk-medusa/",
-            "host": "sxmdesigns.com"
+            "host": "sxmdesigns.com",
+            "metadata_fetched_at": "2026-10-04T12:07:13.255169+00:00"
           },
           {
             "vendor": "DISCORD |",
             "url": "https://discord.sxmdesigns.com/",
-            "host": "discord.sxmdesigns.com"
+            "host": "discord.sxmdesigns.com",
+            "metadata_fetched_at": "2026-10-04T12:07:13.255190+00:00"
           }
         ]
       },
