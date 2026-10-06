@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "id": "hn-49965475",
+      "title": "Explaining Hall-effect, TMR, and other new types of \"mechanical\" switches",
+      "url": "https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/",
+      "discussion_url": "https://news.ycombinator.com/item?id=49965475",
+      "source": "hn",
+      "subreddit": null,
+      "score": 1,
+      "comments": 0,
+      "category": "evergreen",
+      "takeaway": "",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "switches",
+        "hall-effect",
+        "mechanical-keyboard"
+      ],
+      "image": "img/hn-49965475.jpg"
+    }
+  ]
+}

@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/hall-effect/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Hall Effect.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 05 Oct 2026 12:07:38 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 06 Oct 2026 12:03:33 +0000</lastBuildDate>
+  <item>
+    <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
+    <link>https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/</link>
+    <guid isPermaLink="false">hn-49965475</guid>
+    <pubDate>Tue, 06 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>KBD Digest #216: IQUNIX EC75 HE review and Hall-effect updates</title>
     <link>https://buttondown.com/kbdnews/archive/issue-216-keyboard-builders-digest/</link>
