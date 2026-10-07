@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 06 Oct 2026 12:07:30 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:03:50 +0000</lastBuildDate>
+  <item>
+    <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
+    <link>https://github.com/szabadkai/c64-keyboard-font/</link>
+    <guid isPermaLink="false">hn-49990224</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>116 pts · 19 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
+    <link>https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/</link>
+    <guid isPermaLink="false">hn-49991333</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
     <link>https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/</link>
@@ -2092,26 +2113,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>TGR Lena Mini Carbon build with Cherry MX2a Blacks. — 2 pts · 1 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Reddit user requests schematic review for 3x3 macropad with 2 rotary encoders</title>
-    <link>https://www.reddit.com/r/olkb/comments/1t8wss6/shematics_build_jelp/</link>
-    <guid isPermaLink="false">reddit-1t8wss6</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Request for schematic review on a 3x3 macropad with 2 rotary encoders; good for seeing beginner PCB design questions. — 1 pts · 6 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>User requests help identifying unknown laptop keyboard layout</title>
-    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1t839hu/i_need_help_identifying_the_layout_of_my_laptops/</link>
-    <guid isPermaLink="false">reddit-1t839hu</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
-    <description>Request for help identifying an unknown laptop keyboard layout. — 1 pts · 2 comments · r/KeyboardLayouts</description>
   </item>
 </channel>
 </rss>

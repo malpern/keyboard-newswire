@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Retro Computing · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/retro-computing/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/retro-computing/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Retro Computing.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 07 Oct 2026 12:03:50 +0000</lastBuildDate>
+  <item>
+    <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
+    <link>https://github.com/szabadkai/c64-keyboard-font/</link>
+    <guid isPermaLink="false">hn-49990224</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>116 pts · 19 comments · Hacker News</description>
+  </item>
+</channel>
+</rss>
