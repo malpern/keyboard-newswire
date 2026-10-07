@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 07 Oct 2026 12:07:12 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:17:15 +0000</lastBuildDate>
   <item>
     <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
     <link>https://github.com/szabadkai/c64-keyboard-font/</link>
@@ -27,6 +27,37 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Omnitype Lorem Ipsum Deskpad now in stock</title>
+    <link>https://omnitype.com/products/lorem-ipsum-deskpad</link>
+    <guid isPermaLink="false">email-1a113e3ec9d09b97</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
+    <description>Omnitype has announced that the Lorem Ipsum Deskpad is available for purchase. — ✉ Omnitype</description>
+  </item>
+  <item>
+    <title>Mode Designs restocks Sonnet and Encore 2026 colorways</title>
+    <link>https://modedesigns.com/</link>
+    <guid isPermaLink="false">email-1a1120e9a83d4dd6</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>All 2026 colorways for the Sonnet and Encore keyboards are back in stock, featuring the Lattice Block Mount and new Crown Mounting System respectively. — ✉ Modedesigns</description>
+  </item>
+  <item>
+    <title>Salicylic Acid releases GoFortyMax Ortho test sale</title>
+    <link>https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EjiOfczP6-2BH07zgZTk1mk1TsgNOMcoZLOOqpTu3rHdqG9HPAuiwDs1UVNqc0N11Le-2FfIUlRC226mDd0JOrdabLvxOq-2BrcSOnV9qjA9GouFzKPSoQdtIiRHO2gR-2FSTiB7UgCY7Ctb8CV4kweUzSkXQ-2BcHxKv7utC6HQh0wgIe-2Fn1TcS8__gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L41mFjqFVksbtlcCou4-2F5UiDlLs0PqV0trFU-2BE6XPyExmmtLK5JBamFiQjYH9Pq9eH36sr9Xbj2gUN6aLs0yNGrFAz-2B0-2BuXAGJpmWJiyk31e-2FrlE8y5kHDR-2B-2BlBCHt6guux2lUM-2B4iS-2BrP25hqkL8h5T3MWROoM9yI0Ybi4Nt4p7bB7bfCHbJLNYSfvOT-2F7TaaMD3nOjWkAx2xupUQV1Z4rashX5bvgxE4Zi4okI-2BgoFtubR1tVpMpz4Ekh-2FDxQUwdfZHaLfw7K-2Be-2FH-2BHc5uEj-2B</link>
+    <guid isPermaLink="false">email-1a112086035135ce</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
+    <description>A new hardware gadget, the GoFortyMax Ortho, is available for test sale at 15,000 JPY on the BOOTH platform. — ✉ Booth</description>
   </item>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
@@ -2081,38 +2112,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/SteamController</source>
     <description>Discussion on the Steam Controller 2's trackpad keyboard issues. — 2 pts · 4 comments · r/SteamController</description>
-  </item>
-  <item>
-    <title>Reddit users seek wireless alternatives to ZSA Voyager</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t94bdl/wireless_voyager_alternative/</link>
-    <guid isPermaLink="false">reddit-1t94bdl</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Seeking a wireless alternative to the ZSA Voyager for travel. — 2 pts · 2 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>ZSA Voyager layout optimized for combos and Neovim</title>
-    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1t94kpp/my_layout_tour_combos_neovim_symmetrical/</link>
-    <guid isPermaLink="false">reddit-1t94kpp</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
-    <description>Tour of a ZSA Voyager layout optimized for combos and Neovim. — 2 pts · 0 comments · r/KeyboardLayouts</description>
-  </item>
-  <item>
-    <title>TGR Lena Mini</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t94s4e/tgr_lena_mini/</link>
-    <guid isPermaLink="false">reddit-1t94s4e</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>TGR Lena Mini Carbon build with Cherry MX2a Blacks. — 2 pts · 1 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

@@ -47,6 +47,76 @@
             "mechanical-keyboard"
           ],
           "image": "img/hn-49991333.jpg"
+        },
+        {
+          "id": "email-1a113e3ec9d09b97",
+          "title": "Omnitype Lorem Ipsum Deskpad now in stock",
+          "url": "https://omnitype.com/products/lorem-ipsum-deskpad",
+          "discussion_url": "https://omnitype.com/products/lorem-ipsum-deskpad",
+          "source": "email",
+          "subreddit": null,
+          "via": "Omnitype",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Omnitype has announced that the Lorem Ipsum Deskpad is available for purchase.",
+          "sender": "Omnitype <help@omnitype.com>",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "restock",
+            "vendor-practices",
+            "mechanical-keyboard"
+          ],
+          "image": "img/email-1a113e3ec9d09b97.jpg"
+        },
+        {
+          "id": "email-1a1120e9a83d4dd6",
+          "title": "Mode Designs restocks Sonnet and Encore 2026 colorways",
+          "url": "https://modedesigns.com/",
+          "discussion_url": "https://modedesigns.com/",
+          "source": "email",
+          "subreddit": null,
+          "via": "Modedesigns",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "All 2026 colorways for the Sonnet and Encore keyboards are back in stock, featuring the Lattice Block Mount and new Crown Mounting System respectively.",
+          "sender": "Mode Designs <support@modedesigns.com>",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "restock",
+            "mechanical-keyboard",
+            "vendor-practices"
+          ],
+          "image": "img/email-1a1120e9a83d4dd6.jpg"
+        },
+        {
+          "id": "email-1a112086035135ce",
+          "title": "Salicylic Acid releases GoFortyMax Ortho test sale",
+          "url": "https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EjiOfczP6-2BH07zgZTk1mk1TsgNOMcoZLOOqpTu3rHdqG9HPAuiwDs1UVNqc0N11Le-2FfIUlRC226mDd0JOrdabLvxOq-2BrcSOnV9qjA9GouFzKPSoQdtIiRHO2gR-2FSTiB7UgCY7Ctb8CV4kweUzSkXQ-2BcHxKv7utC6HQh0wgIe-2Fn1TcS8__gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L41mFjqFVksbtlcCou4-2F5UiDlLs0PqV0trFU-2BE6XPyExmmtLK5JBamFiQjYH9Pq9eH36sr9Xbj2gUN6aLs0yNGrFAz-2B0-2BuXAGJpmWJiyk31e-2FrlE8y5kHDR-2B-2BlBCHt6guux2lUM-2B4iS-2BrP25hqkL8h5T3MWROoM9yI0Ybi4Nt4p7bB7bfCHbJLNYSfvOT-2F7TaaMD3nOjWkAx2xupUQV1Z4rashX5bvgxE4Zi4okI-2BgoFtubR1tVpMpz4Ekh-2FDxQUwdfZHaLfw7K-2Be-2FH-2BHc5uEj-2B",
+          "discussion_url": "https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EjiOfczP6-2BH07zgZTk1mk1TsgNOMcoZLOOqpTu3rHdqG9HPAuiwDs1UVNqc0N11Le-2FfIUlRC226mDd0JOrdabLvxOq-2BrcSOnV9qjA9GouFzKPSoQdtIiRHO2gR-2FSTiB7UgCY7Ctb8CV4kweUzSkXQ-2BcHxKv7utC6HQh0wgIe-2Fn1TcS8__gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L41mFjqFVksbtlcCou4-2F5UiDlLs0PqV0trFU-2BE6XPyExmmtLK5JBamFiQjYH9Pq9eH36sr9Xbj2gUN6aLs0yNGrFAz-2B0-2BuXAGJpmWJiyk31e-2FrlE8y5kHDR-2B-2BlBCHt6guux2lUM-2B4iS-2BrP25hqkL8h5T3MWROoM9yI0Ybi4Nt4p7bB7bfCHbJLNYSfvOT-2F7TaaMD3nOjWkAx2xupUQV1Z4rashX5bvgxE4Zi4okI-2BgoFtubR1tVpMpz4Ekh-2FDxQUwdfZHaLfw7K-2Be-2FH-2BHc5uEj-2B",
+          "source": "email",
+          "subreddit": null,
+          "via": "Booth",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "A new hardware gadget, the GoFortyMax Ortho, is available for test sale at 15,000 JPY on the BOOTH platform.",
+          "sender": "\"BOOTH（ブース）\" <noreply@booth.pm>",
+          "topics": [
+            "splits-ergo",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "ortholinear",
+            "group-buy",
+            "pricing"
+          ],
+          "image": "img/email-1a112086035135ce.jpg"
         }
       ]
     },
