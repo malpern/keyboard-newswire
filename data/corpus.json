@@ -117,6 +117,53 @@
             "pricing"
           ],
           "image": "img/email-1a112086035135ce.jpg"
+        },
+        {
+          "id": "kbdnews-2916",
+          "title": "Best-selling keyboard switches of September 2026",
+          "url": "https://kbd.news/Best-selling-keyboard-switches-of-September-2026-2916.html",
+          "discussion_url": "https://kbd.news/Best-selling-keyboard-switches-of-September-2026-2916.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Here are September’s top mechanical switches, the community’s favorites based on vendor sales data.",
+          "image_hint": "https://kbd.news/pic/2026/217/480/2916.jpg",
+          "topics": [
+            "keycaps-aesthetics",
+            "community"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "market-trends",
+            "switches"
+          ],
+          "image": "img/kbdnews-2916.jpg"
+        },
+        {
+          "id": "kbdnews-2917",
+          "title": "GMK TriggerKey",
+          "url": "https://kbd.news/GMK-TriggerKey-2917.html",
+          "discussion_url": "https://kbd.news/GMK-TriggerKey-2917.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "A funky snap-on extension for your mechanical switches to make their actuation adjustable: TriggerKey by GMK.",
+          "image_hint": "https://kbd.news/pic/2026/217/480/2917.jpg",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "switches",
+            "mechanical-keyboard",
+            "hardware-design"
+          ],
+          "image": "img/kbdnews-2917.jpg"
         }
       ]
     },

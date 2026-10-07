@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Hardware Design · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/hardware-design/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/hardware-design/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Hardware Design.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 07 Oct 2026 12:21:56 +0000</lastBuildDate>
+  <item>
+    <title>GMK TriggerKey</title>
+    <link>https://kbd.news/GMK-TriggerKey-2917.html</link>
+    <guid isPermaLink="false">kbdnews-2917</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A funky snap-on extension for your mechanical switches to make their actuation adjustable: TriggerKey by GMK. — KBD.news</description>
+  </item>
+</channel>
+</rss>

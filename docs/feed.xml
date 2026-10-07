@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 07 Oct 2026 12:19:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:21:56 +0000</lastBuildDate>
   <item>
     <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
     <link>https://github.com/szabadkai/c64-keyboard-font/</link>
@@ -58,6 +58,27 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
     <description>A new hardware gadget, the GoFortyMax Ortho, is available for test sale at 15,000 JPY on the BOOTH platform. — ✉ Booth</description>
+  </item>
+  <item>
+    <title>Best-selling keyboard switches of September 2026</title>
+    <link>https://kbd.news/Best-selling-keyboard-switches-of-September-2026-2916.html</link>
+    <guid isPermaLink="false">kbdnews-2916</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Here are September’s top mechanical switches, the community’s favorites based on vendor sales data. — KBD.news</description>
+  </item>
+  <item>
+    <title>GMK TriggerKey</title>
+    <link>https://kbd.news/GMK-TriggerKey-2917.html</link>
+    <guid isPermaLink="false">kbdnews-2917</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A funky snap-on extension for your mechanical switches to make their actuation adjustable: TriggerKey by GMK. — KBD.news</description>
   </item>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
@@ -2091,27 +2112,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Looking for a wireless split keyboard with numpad and arrow keys for music production. — 2 pts · 19 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>[US-MI] [H] Ergo/ortho keyboards, cases, keycaps [W] PayPal</title>
-    <link>https://www.reddit.com/r/mechmarket/comments/1t8ue1x/usmi_h_ergoortho_keyboards_cases_keycaps_w_paypal/</link>
-    <guid isPermaLink="false">reddit-1t8ue1x</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/mechmarket</source>
-    <description>Marketplace listing for various ergonomic/ortholinear keyboards and parts. — 2 pts · 6 comments · r/mechmarket</description>
-  </item>
-  <item>
-    <title>Reddit discussion on Steam Controller 2 trackpad keyboard issues</title>
-    <link>https://www.reddit.com/r/SteamController/comments/1t8z3m5/old_grievances/</link>
-    <guid isPermaLink="false">reddit-1t8z3m5</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/SteamController</source>
-    <description>Discussion on the Steam Controller 2's trackpad keyboard issues. — 2 pts · 4 comments · r/SteamController</description>
   </item>
 </channel>
 </rss>

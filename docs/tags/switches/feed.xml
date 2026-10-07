@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/switches/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Switches.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 07 Oct 2026 12:19:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:21:56 +0000</lastBuildDate>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
     <link>https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/</link>
@@ -16,6 +16,27 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Best-selling keyboard switches of September 2026</title>
+    <link>https://kbd.news/Best-selling-keyboard-switches-of-September-2026-2916.html</link>
+    <guid isPermaLink="false">kbdnews-2916</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Here are September’s top mechanical switches, the community’s favorites based on vendor sales data. — KBD.news</description>
+  </item>
+  <item>
+    <title>GMK TriggerKey</title>
+    <link>https://kbd.news/GMK-TriggerKey-2917.html</link>
+    <guid isPermaLink="false">kbdnews-2917</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A funky snap-on extension for your mechanical switches to make their actuation adjustable: TriggerKey by GMK. — KBD.news</description>
   </item>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>

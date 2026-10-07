@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/keycaps-aesthetics/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Keycap sets and group buys, profile discussion, switches for sound/feel, lubing, foam, lighting, finishes, photographs of finished boards.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 07 Oct 2026 12:19:05 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 07 Oct 2026 12:21:56 +0000</lastBuildDate>
   <item>
     <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
     <link>https://github.com/szabadkai/c64-keyboard-font/</link>
@@ -17,6 +17,17 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>116 pts · 19 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Best-selling keyboard switches of September 2026</title>
+    <link>https://kbd.news/Best-selling-keyboard-switches-of-September-2026-2916.html</link>
+    <guid isPermaLink="false">kbdnews-2916</guid>
+    <pubDate>Wed, 07 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Here are September’s top mechanical switches, the community’s favorites based on vendor sales data. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys announces GMK Rainy Day keycap release</title>
