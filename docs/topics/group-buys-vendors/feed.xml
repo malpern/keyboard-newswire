@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 08 Oct 2026 12:07:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 08 Oct 2026 12:15:07 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys releases Link split ergo, Mass 80, and Wood Bakeneko65</title>
+    <link>http://discord.gg/gAy6sqp</link>
+    <guid isPermaLink="false">email-1a1188ba484e1dec</guid>
+    <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys announced the in-stock release of the Link split ergonomic keyboard, the modular Mass 80, and the limited-run Wood Bakeneko65, alongside a new PBS Kids Typewriter group buy. — ✉ Cannonkeys</description>
+  </item>
   <item>
     <title>Omnitype Lorem Ipsum Deskpad now in stock</title>
     <link>https://omnitype.com/products/lorem-ipsum-deskpad</link>
@@ -2172,17 +2183,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
     <description>DCS Grass Valley Keycap set inspired by media / film editing keyboards from the '80s and '90s. Designer Discord Group Buy Info: Date: May 1st - June 1st Delivery Estimate: Q3-Q4 2026 Vendors: US: Bowl CA: Minokeys Korea: Geon CN: Typist Club UK: Proto[Typist] SG: ktechs EU: CoffeeKeys Pricing: Planning to do MOQ-based pricing, similar to more recent DCS sets. Base: $149.00 - 50 MOQ $130.00 - 75 MOQ $121.00 - 100 MOQ $113.00 - 150 MOQ Numpad: $49.00 - 25 MOQ $32.00 - 50 MOQ $26.00 - 75MOQ $24.00 - 100 MOQ Spacebars: $21.00 - 25 MOQ $14.00 - 50 MOQ $11.00 - 75MOQ $10.00 - 100 MOQ BAE: $6.50 - 25 — 11999 pts · 14 comments · Geekhack · Group Buys</description>
-  </item>
-  <item>
-    <title>[GB] GMK Gregory 2</title>
-    <link>https://geekhack.org/index.php?topic=126649.0</link>
-    <guid isPermaLink="false">geekhack-126649</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
-    <description>GMK Gregory 2 by chamelemon_64 and pancake Greetings Greg Gang. He has returned. Available from May 1st to 29th. Estimated fulfillment date – Q3 2026 Vendors US: NovelKeys UK: Proto[Typist] EU: Oblotzky Industries KR: GEONWORKS CN: KBDfans SG: iLumkb Kits Base – $135, Novelties – $45, Deskpad – $25 Deskpad Dimensions – 836×380mm Renders Photos Special thanks to you, Nephlock, FreshFromTheGrave, and garry. — 9942 pts · 11 comments · Geekhack · Group Buys</description>
   </item>
 </channel>
 </rss>
