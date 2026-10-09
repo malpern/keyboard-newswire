@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 09 Oct 2026 12:07:01 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 09 Oct 2026 12:22:42 +0000</lastBuildDate>
+  <item>
+    <title>Mesa 3</title>
+    <link>https://kbd.news/Mesa-3-2919.html</link>
+    <guid isPermaLink="false">kbdnews-2919</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A tiny split chording keyboard: Mesa 3 by David Brown. — KBD.news</description>
+  </item>
+  <item>
+    <title>Stagger keyboard</title>
+    <link>https://kbd.news/Stagger-keyboard-2920.html</link>
+    <guid isPermaLink="false">kbdnews-2920</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>TMRZ's Stagger keyboard is staggered in pretty much every possible sense. — KBD.news</description>
+  </item>
+  <item>
+    <title>Feeflak Translator: ergonomic keyboard with mouse sensor</title>
+    <link>https://kbd.news/Translator-2918.html</link>
+    <guid isPermaLink="false">kbdnews-2918</guid>
+    <pubDate>Fri, 09 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Translator is an ergonomic keyboard with mouse sensor – by Feeflak. — KBD.news</description>
+  </item>
   <item>
     <title>Explaining Hall-effect, TMR, and other new types of "mechanical" switches</title>
     <link>https://arstechnica.com/gadgets/2026/10/the-hows-and-whys-of-non-mechanical-mechanical-keyboard-switches/</link>

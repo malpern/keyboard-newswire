@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-09",
+  "items": [
+    {
+      "id": "kbdnews-2919",
+      "title": "Mesa 3",
+      "url": "https://kbd.news/Mesa-3-2919.html",
+      "discussion_url": "https://kbd.news/Mesa-3-2919.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A tiny split chording keyboard: Mesa 3 by David Brown.",
+      "image_hint": "https://kbd.news/pic/2026/217/480/2919.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "chording",
+        "diy-build"
+      ],
+      "image": "img/kbdnews-2919.jpg"
+    },
+    {
+      "id": "kbdnews-2920",
+      "title": "Stagger keyboard",
+      "url": "https://kbd.news/Stagger-keyboard-2920.html",
+      "discussion_url": "https://kbd.news/Stagger-keyboard-2920.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "TMRZ's Stagger keyboard is staggered in pretty much every possible sense.",
+      "image_hint": "https://kbd.news/pic/2026/217/480/2920.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "mechanical-keyboard",
+        "pcb-design"
+      ],
+      "image": "img/kbdnews-2920.jpg"
+    },
+    {
+      "id": "kbdnews-2918",
+      "title": "Feeflak Translator: ergonomic keyboard with mouse sensor",
+      "url": "https://kbd.news/Translator-2918.html",
+      "discussion_url": "https://kbd.news/Translator-2918.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "The Translator is an ergonomic keyboard with mouse sensor – by Feeflak.",
+      "image_hint": "https://kbd.news/pic/2026/217/480/2918.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "ergonomic-keyboard",
+        "mouse-sensor",
+        "hardware-design",
+        "mechanical-keyboard"
+      ],
+      "original_title": "Translator",
+      "title_rewritten": true,
+      "title_rewrite_reason": "vague title missing subject and product details",
+      "image": "img/kbdnews-2918.jpg"
+    }
+  ]
+}
