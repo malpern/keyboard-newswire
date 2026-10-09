@@ -66,7 +66,7 @@
             "vendor": "Divinikeys",
             "url": "https://divinikey.com/collections/keycap-sets/products/mw-virtual-keycaps",
             "host": "divinikey.com",
-            "metadata_fetched_at": "2026-10-08T12:06:31.165511+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:31.878211+00:00",
             "price_low": 1500,
             "price_high": 9000,
             "available": true
@@ -75,7 +75,7 @@
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/products/mw-virtual-abs-doubleshot-keycap-set-group-buy",
             "host": "unikeyboards.com",
-            "metadata_fetched_at": "2026-10-08T12:06:31.357518+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:32.186724+00:00",
             "price_low": 1500,
             "price_high": 9000,
             "available": true
@@ -84,13 +84,13 @@
             "vendor": "Inputgearstore",
             "url": "https://inputgear.com/",
             "host": "inputgear.com",
-            "metadata_fetched_at": "2026-10-08T12:06:31.357572+00:00"
+            "metadata_fetched_at": "2026-10-09T12:06:32.186789+00:00"
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-mw-virtual",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-10-08T12:06:31.767222+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:32.384327+00:00",
             "price_low": 1167,
             "price_high": 7250,
             "currency": "GBP",
@@ -100,7 +100,7 @@
             "vendor": "Keebzncables",
             "url": "https://www.keebzncables.com/products/mw-virtual",
             "host": "www.keebzncables.com",
-            "metadata_fetched_at": "2026-10-08T12:06:32.028621+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:32.588295+00:00",
             "price_low": 2400,
             "price_high": 14500,
             "currency": "AUD",
@@ -110,13 +110,13 @@
             "vendor": "Geon.works",
             "url": "https://geon.works/",
             "host": "geon.works",
-            "metadata_fetched_at": "2026-10-08T12:06:32.028714+00:00"
+            "metadata_fetched_at": "2026-10-09T12:06:32.588334+00:00"
           },
           {
             "vendor": "Ktechs.store",
             "url": "https://ktechs.store/products/mw-virtual",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-10-08T12:06:32.257646+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:32.858138+00:00",
             "price_low": 1950,
             "price_high": 11700,
             "currency": "SGD",
@@ -126,7 +126,7 @@
             "vendor": "Mecha",
             "url": "https://www.mecha.com.my/products/gb-mw-virtual-abs-double-shot-keycap-set?variant=49804970524810",
             "host": "www.mecha.com.my",
-            "metadata_fetched_at": "2026-10-08T12:06:32.551310+00:00",
+            "metadata_fetched_at": "2026-10-09T12:06:33.123515+00:00",
             "price_low": 6900,
             "price_high": 38900,
             "available": false
@@ -135,7 +135,7 @@
             "vendor": "Mokbstore",
             "url": "https://mokbstore.com/mw-virtual-keycap-set",
             "host": "mokbstore.com",
-            "metadata_fetched_at": "2026-10-08T12:06:32.551442+00:00"
+            "metadata_fetched_at": "2026-10-09T12:06:33.123588+00:00"
           }
         ]
       },
