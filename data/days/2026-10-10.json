@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "id": "reddit-1x2dg05",
+      "title": "ZMK Layer HUD, a live on-screen HUD for ZMK keyboards",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Open-source tool that displays live ZMK layer states and key presses on-screen using a dedicated firmware module.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "open-source",
+        "visualizer",
+        "custom-firmware"
+      ]
+    },
+    {
+      "id": "reddit-1x1jug6",
+      "title": "Home row mods: Trade-offs between timeless and time-based approaches",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Technical discussion on the trade-offs between timeless and time-based home row mods to reduce false positives.",
+      "topics": [
+        "remapping-layouts"
+      ],
+      "tags": [
+        "home-row-mods",
+        "key-remapping",
+        "remap"
+      ],
+      "original_title": "Home Row Mods: Why I Quit Timeless for Time-Based",
+      "title_rewritten": true,
+      "title_rewrite_reason": "First-person framing and subjective opinion"
+    }
+  ]
+}

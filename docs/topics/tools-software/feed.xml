@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:06:54 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:16:24 +0000</lastBuildDate>
+  <item>
+    <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/</link>
+    <guid isPermaLink="false">reddit-1x2dg05</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Open-source tool that displays live ZMK layer states and key presses on-screen using a dedicated firmware module. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
     <link>https://github.com/szabadkai/c64-keyboard-font/</link>

@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:06:54 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:16:24 +0000</lastBuildDate>
+  <item>
+    <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/</link>
+    <guid isPermaLink="false">reddit-1x2dg05</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Open-source tool that displays live ZMK layer states and key presses on-screen using a dedicated firmware module. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Home row mods: Trade-offs between timeless and time-based approaches</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/</link>
+    <guid isPermaLink="false">reddit-1x1jug6</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Technical discussion on the trade-offs between timeless and time-based home row mods to reduce false positives. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Mesa 3</title>
     <link>https://kbd.news/Mesa-3-2919.html</link>
@@ -2091,28 +2112,6 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Seeking a wireless split keyboard with more keys than Keyball39 for travel and Emacs usage. — 8 pts · 4 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Showcase of portable Bluetooth keyboard using ZMK firmware</title>
-    <link>https://www.reddit.com/r/CustomKeyboards/comments/1t8wzt6/keyboard_base_on_zmk/</link>
-    <guid isPermaLink="false">reddit-1t8wzt6</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Firmware</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/CustomKeyboards</source>
-    <description>Showcase of a portable Bluetooth keyboard using ZMK firmware. — 8 pts · 1 comments · r/CustomKeyboards</description>
-  </item>
-  <item>
-    <title>Discussion on handling off-color GMK Alters keycaps from a past group buy</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t9391b/what_to_do_with_miss_colored_batch_of_gmk_alters/</link>
-    <guid isPermaLink="false">reddit-1t9391b</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Discussion on what to do with off-color GMK Alters keycaps from a past group buy. — 8 pts · 4 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
