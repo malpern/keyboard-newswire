@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:16:24 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:16:51 +0000</lastBuildDate>
   <item>
     <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/</link>
@@ -27,6 +27,17 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Technical discussion on the trade-offs between timeless and time-based home row mods to reduce false positives. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>KBD News Issue 217: Dygma Sonsei, XVX Trooper63 HE, and September switch sales</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-217-keyboard-builders-digest/</link>
+    <guid isPermaLink="false">email-1a12177b7d44b320</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
+    <description>Digest covers reviews of the Dygma Sonsei, XVX Trooper63 HE, and Kemove K94, plus a September 2026 mechanical switch sales overview. — ✉ Buttondown</description>
   </item>
   <item>
     <title>Mesa 3</title>
@@ -2101,17 +2112,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Inquiry about upcoming keyboard meetups in the Midwest. — 9 pts · 8 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>User seeks wireless split keyboard with more keys than Keyball39 for travel and Emacs</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1t8dbpd/looking_for_features/</link>
-    <guid isPermaLink="false">reddit-1t8dbpd</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Seeking a wireless split keyboard with more keys than Keyball39 for travel and Emacs usage. — 8 pts · 4 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>
