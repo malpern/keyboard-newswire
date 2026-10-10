@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:18:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:20:41 +0000</lastBuildDate>
   <item>
     <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/</link>
@@ -38,6 +38,27 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
     <description>Digest covers reviews of the Dygma Sonsei, XVX Trooper63 HE, and Kemove K94, plus a September 2026 mechanical switch sales overview. — ✉ Buttondown</description>
+  </item>
+  <item>
+    <title>Custom KLP Lamé keycaps at YUZU (on sale)</title>
+    <link>https://kbd.news/Custom-KLP-Lame-keycaps-at-YUZU-on-sale-2923.html</link>
+    <guid isPermaLink="false">kbdnews-2923</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The popular KLP Lamé keycap profile is now available for dye-sub customization at YUZU – 10% off for a few days. — KBD.news</description>
+  </item>
+  <item>
+    <title>Gboard Conveyor Belt Version</title>
+    <link>https://kbd.news/Gboard-Conveyor-Belt-Version-2921.html</link>
+    <guid isPermaLink="false">kbdnews-2921</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>This year's meme device by Gboard is the Conveyor Belt keyboard – delivering keys straight to your fingertips. — KBD.news</description>
   </item>
   <item>
     <title>Mesa 3</title>
@@ -2092,26 +2113,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Author migrated their dongle setup into a standalone ZMK module after Zephyr 4.1 broke their config; useful for others using the TOTEM dongle. — 15 pts · 1 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>r/MechanicalKeyboards hosts weekly "Ask Me Anything" thread for keyboard questions</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8w8z9/rmechanicalkeyboards_ask_any_keyboard_question/</link>
-    <guid isPermaLink="false">reddit-1t8w8z9</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Weekly "Ask Me Anything" thread for keyboard questions. — 10 pts · 28 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Reddit user inquires about upcoming keyboard meetups in the Midwest</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8eklx/midwest_meetups/</link>
-    <guid isPermaLink="false">reddit-1t8eklx</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Inquiry about upcoming keyboard meetups in the Midwest. — 9 pts · 8 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

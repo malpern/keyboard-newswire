@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/keycaps-aesthetics/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Keycap sets and group buys, profile discussion, switches for sound/feel, lubing, foam, lighting, finishes, photographs of finished boards.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:18:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:20:41 +0000</lastBuildDate>
+  <item>
+    <title>Custom KLP Lamé keycaps at YUZU (on sale)</title>
+    <link>https://kbd.news/Custom-KLP-Lame-keycaps-at-YUZU-on-sale-2923.html</link>
+    <guid isPermaLink="false">kbdnews-2923</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The popular KLP Lamé keycap profile is now available for dye-sub customization at YUZU – 10% off for a few days. — KBD.news</description>
+  </item>
   <item>
     <title>A font recreated from photographs of classic Commodore 64 keycaps</title>
     <link>https://github.com/szabadkai/c64-keyboard-font/</link>

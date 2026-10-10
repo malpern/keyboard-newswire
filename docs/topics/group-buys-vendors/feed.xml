@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:18:14 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 12:20:41 +0000</lastBuildDate>
   <item>
     <title>KBD News Issue 217: Dygma Sonsei, XVX Trooper63 HE, and September switch sales</title>
     <link>https://buttondown.com/kbdnews/archive/issue-217-keyboard-builders-digest/</link>
@@ -17,6 +17,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
     <description>Digest covers reviews of the Dygma Sonsei, XVX Trooper63 HE, and Kemove K94, plus a September 2026 mechanical switch sales overview. — ✉ Buttondown</description>
+  </item>
+  <item>
+    <title>Custom KLP Lamé keycaps at YUZU (on sale)</title>
+    <link>https://kbd.news/Custom-KLP-Lame-keycaps-at-YUZU-on-sale-2923.html</link>
+    <guid isPermaLink="false">kbdnews-2923</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The popular KLP Lamé keycap profile is now available for dye-sub customization at YUZU – 10% off for a few days. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys releases Link split ergo, Mass 80, and Wood Bakeneko65</title>
@@ -2172,17 +2183,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>The sixth design from ORI CLUB ORI 870 — Design Notes This time around, I spent most of the process refining rather than reinventing—shaping the design language that Ori will carry forward. With the 870, I challenged myself to design with more restraint: something more practical, more daily. But minimalism is never the easier path—when there's nothing left to hide behind, every decision has to stand on its own. In the design process, from the very beginning—even when just thinking about form—I had countless shapes come to mind. I spent the majority of my time narrowing them down, searching for — 12879 pts · 18 comments · Geekhack · Interest Checks</description>
-  </item>
-  <item>
-    <title>[GB] NicePBT Youmu - CK x Touhou Project - LAST DAY</title>
-    <link>https://geekhack.org/index.php?topic=126598.0</link>
-    <guid isPermaLink="false">geekhack-126598</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
-    <description>Sup, it's 2026 and I'm still at it. This time bringing you an officially licensed Touhou set themed after Konpaku Youmu! The set was designed by myself in collaboration with CannonKeys and manufactured by NicePBT. The inspiration is based on the more modern depiction of Youmu (TH17) with a lighter shade of green (and a slightly bluer hue). Big shoutout to my boy OneCreativeMind/ocm as always for helping with the novelty keycap designs. Shoutout to Starbottle for the 1u/deskmat illustration. https://touhou-project.news/news/16738/ Photo by: keima Kit: GB is now live and ends May 10th. ETA is cu — 5700 pts · 3 comments · Geekhack · Group Buys</description>
   </item>
 </channel>
 </rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Mobile Keyboard · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/mobile-keyboard/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/mobile-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Mobile Keyboard.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sat, 10 Oct 2026 12:20:42 +0000</lastBuildDate>
+  <item>
+    <title>Gboard Conveyor Belt Version</title>
+    <link>https://kbd.news/Gboard-Conveyor-Belt-Version-2921.html</link>
+    <guid isPermaLink="false">kbdnews-2921</guid>
+    <pubDate>Sat, 10 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Community</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>This year's meme device by Gboard is the Conveyor Belt keyboard – delivering keys straight to your fingertips. — KBD.news</description>
+  </item>
+</channel>
+</rss>

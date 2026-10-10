@@ -74,6 +74,53 @@
             "pricing"
           ],
           "image": "img/email-1a12177b7d44b320.jpg"
+        },
+        {
+          "id": "kbdnews-2923",
+          "title": "Custom KLP Lamé keycaps at YUZU (on sale)",
+          "url": "https://kbd.news/Custom-KLP-Lame-keycaps-at-YUZU-on-sale-2923.html",
+          "discussion_url": "https://kbd.news/Custom-KLP-Lame-keycaps-at-YUZU-on-sale-2923.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "The popular KLP Lamé keycap profile is now available for dye-sub customization at YUZU – 10% off for a few days.",
+          "image_hint": "https://kbd.news/pic/2026/218/480/2923.jpg",
+          "topics": [
+            "keycaps-aesthetics",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "keycap-design",
+            "vendor-practices",
+            "pricing"
+          ],
+          "image": "img/kbdnews-2923.jpg"
+        },
+        {
+          "id": "kbdnews-2921",
+          "title": "Gboard Conveyor Belt Version",
+          "url": "https://kbd.news/Gboard-Conveyor-Belt-Version-2921.html",
+          "discussion_url": "https://kbd.news/Gboard-Conveyor-Belt-Version-2921.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "This year's meme device by Gboard is the Conveyor Belt keyboard – delivering keys straight to your fingertips.",
+          "image_hint": "https://kbd.news/pic/2026/217/480/2921.jpg",
+          "topics": [
+            "community"
+          ],
+          "tags": [
+            "meme",
+            "mobile-keyboard",
+            "gboard"
+          ],
+          "image": "img/kbdnews-2921.jpg"
         }
       ]
     },
