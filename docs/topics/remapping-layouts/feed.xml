@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 11 Oct 2026 12:06:56 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 11 Oct 2026 12:10:56 +0000</lastBuildDate>
+  <item>
+    <title>install kanata on office laptop?</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2kr4d/install_kanata_on_office_laptop/</link>
+    <guid isPermaLink="false">reddit-1x2kr4d</guid>
+    <pubDate>Sun, 11 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on the feasibility and security implications of installing Kanata on a corporate-managed laptop. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Home row mods: Trade-offs between timeless and time-based approaches</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/</link>

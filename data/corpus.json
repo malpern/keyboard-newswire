@@ -3,6 +3,54 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-11",
+      "items": [
+        {
+          "id": "reddit-1x2kr4d",
+          "title": "install kanata on office laptop?",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x2kr4d/install_kanata_on_office_laptop/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x2kr4d/install_kanata_on_office_laptop/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Discussion on the feasibility and security implications of installing Kanata on a corporate-managed laptop.",
+          "topics": [
+            "remapping-layouts",
+            "tools-software"
+          ],
+          "tags": [
+            "kanata",
+            "key-remapping",
+            "linux-utilities"
+          ]
+        },
+        {
+          "id": "reddit-1x34opz",
+          "title": "Reverse engineering a non-QMK Keychron K10 (Bluetooth BLE + Linux/Waybar/GUI tool in Rust)",
+          "url": "https://reddit.com/r/olkb/comments/1x34opz/reverse_engineering_a_nonqmk_keychron_k10/",
+          "discussion_url": "https://reddit.com/r/olkb/comments/1x34opz/reverse_engineering_a_nonqmk_keychron_k10/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Technical deep-dive into extracting battery telemetry from non-QMK Keychron hardware via USB and BLE reverse engineering.",
+          "topics": [
+            "firmware",
+            "tools-software"
+          ],
+          "tags": [
+            "reverse-engineering",
+            "ble",
+            "linux-utilities",
+            "rust"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-10",
       "items": [
         {
