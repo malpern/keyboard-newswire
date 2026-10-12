@@ -111,7 +111,7 @@
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-swg-hypermix",
             "host": "swagkeys.com",
-            "metadata_fetched_at": "2026-10-11T12:06:19.371565+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:04.071816+00:00",
             "price_low": 1200,
             "price_high": 6700,
             "available": true
@@ -120,7 +120,7 @@
             "vendor": "Bowlkeyboards",
             "url": "https://bowlkeyboards.com/products/gb-swg-hypermix",
             "host": "bowlkeyboards.com",
-            "metadata_fetched_at": "2026-10-11T12:06:19.724862+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:04.272786+00:00",
             "price_low": 1200,
             "price_high": 6700,
             "currency": "USD",
@@ -130,7 +130,7 @@
             "vendor": "Delta Key Co.",
             "url": "https://deltakeyco.com/products/swg-hypermix",
             "host": "deltakeyco.com",
-            "metadata_fetched_at": "2026-10-11T12:06:19.908847+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:04.570393+00:00",
             "price_low": 1500,
             "price_high": 7500,
             "available": true
@@ -139,7 +139,7 @@
             "vendor": "Yushakobo",
             "url": "https://shop.yushakobo.jp/collections/group-buy/products/18366",
             "host": "shop.yushakobo.jp",
-            "metadata_fetched_at": "2026-10-11T12:06:20.340166+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:04.905218+00:00",
             "price_low": 220000,
             "price_high": 1155000,
             "currency": "JPY",
@@ -149,7 +149,7 @@
             "vendor": "proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-swg-hypermix",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-10-11T12:06:20.566124+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:05.120964+00:00",
             "price_low": 917,
             "price_high": 5083,
             "currency": "GBP",
@@ -159,7 +159,7 @@
             "vendor": "KeyBay",
             "url": "https://keybay.tech/products/gb-swg-hypermix",
             "host": "keybay.tech",
-            "metadata_fetched_at": "2026-10-11T12:06:20.931217+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:05.417363+00:00",
             "price_low": 1900,
             "price_high": 9900,
             "available": false
@@ -168,7 +168,7 @@
             "vendor": "Qwertyqop",
             "url": "https://qwertyqop.com/products/swg-hypermix-keycaps",
             "host": "qwertyqop.com",
-            "metadata_fetched_at": "2026-10-11T12:06:21.165911+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:05.640969+00:00",
             "price_low": 1600,
             "price_high": 8700,
             "available": true
@@ -177,7 +177,7 @@
             "vendor": "Aiglatson",
             "url": "https://aiglatsonstudio.com/products/gb-swg-hypermix",
             "host": "aiglatsonstudio.com",
-            "metadata_fetched_at": "2026-10-11T12:06:21.689462+00:00",
+            "metadata_fetched_at": "2026-10-12T12:07:06.124734+00:00",
             "price_low": 65000,
             "price_high": 265000,
             "available": true
@@ -312,7 +312,7 @@
             "vendor": "https://mtlab.work/",
             "url": "https://mtlab.work/",
             "host": "mtlab.work",
-            "metadata_fetched_at": "2026-10-11T12:06:21.689517+00:00"
+            "metadata_fetched_at": "2026-10-12T12:07:06.137384+00:00"
           }
         ]
       },
@@ -361,7 +361,7 @@
             "vendor": "Page Link",
             "url": "https://kbdfans.com/products/gmk-cyl-draco",
             "host": "kbdfans.com",
-            "metadata_fetched_at": "2026-10-11T12:06:21.915078+00:00"
+            "metadata_fetched_at": "2026-10-12T12:07:06.318529+00:00"
           }
         ],
         "designer": "Chaldea in a parallel world"
