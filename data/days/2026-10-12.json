@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "geekhack-125844",
+      "title": "[IC] SWG Retroguardia",
+      "url": "https://geekhack.org/index.php?topic=125844.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=125844.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 37639,
+      "comments": 35,
+      "category": "breaking",
+      "takeaway": "Hey everyone! After a few years since GMK Avanguardia, I'm back with something that feels like its rebellious little sibling. SWG Retroguardia keeps the geometric vibe and minimalist layout spirit of Avanguardia, but swaps the muted palette for something with more bite: a vivid green accent that feels both retro and electric. It's still clean, but this time it's louder and a little more fun. The biggest upsides are better pricing and a better timeline , and the GB runs from 9 to 25 November 2026 . The kitting is final and all the vendors are confirmed, you can find them below. Status Manufactu",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.imgur.com/OGgMwaq.png",
+        "https://raz.wtf/retroguardia/palette.webp",
+        "https://raz.wtf/retroguardia/kits/base.webp",
+        "https://raz.wtf/retroguardia/kits/numpad.webp",
+        "https://raz.wtf/retroguardia/kits/overview.webp",
+        "https://raz.wtf/retroguardia/studio/hero.webp",
+        "https://raz.wtf/retroguardia/studio/full.webp",
+        "https://raz.wtf/retroguardia/studio/top-down.webp",
+        "https://raz.wtf/retroguardia/studio/alice.webp",
+        "https://raz.wtf/retroguardia/studio/signature.webp",
+        "https://raz.wtf/retroguardia/lifestyle/patch-bay.webp",
+        "https://raz.wtf/retroguardia/lifestyle/patch-bay-corner.webp",
+        "https://raz.wtf/retroguardia/lifestyle/macro.webp",
+        "https://raz.wtf/retroguardia/lifestyle/desk.webp",
+        "https://raz.wtf/retroguardia/lifestyle/satin.webp",
+        "https://raz.wtf/retroguardia/lifestyle/flatlay.webp",
+        "https://raz.wtf/retroguardia/lifestyle/night.webp",
+        "https://raz.wtf/retroguardia/packaging/packshot.webp",
+        "https://raz.wtf/retroguardia/packaging/card.webp",
+        "https://i.imgur.com/qbQ1inB.png"
+      ],
+      "gb": {
+        "vendor_links": [
+          {
+            "vendor": "Delta Key Co.",
+            "url": "https://deltakeyco.com",
+            "host": "deltakeyco.com"
+          },
+          {
+            "vendor": "Divinikey",
+            "url": "https://divinikey.com",
+            "host": "divinikey.com"
+          },
+          {
+            "vendor": "Qwertyqop",
+            "url": "https://qwertyqop.com",
+            "host": "qwertyqop.com"
+          },
+          {
+            "vendor": "Prototypist",
+            "url": "https://prototypist.net",
+            "host": "prototypist.net"
+          },
+          {
+            "vendor": "KeyBay.tech",
+            "url": "https://keybay.tech",
+            "host": "keybay.tech"
+          }
+        ]
+      },
+      "tags": [
+        "group-buy",
+        "keycap-design",
+        "pricing"
+      ],
+      "images": [
+        "img/geekhack-125844-1.jpg",
+        "img/geekhack-125844-2.jpg",
+        "img/geekhack-125844-3.jpg",
+        "img/geekhack-125844-4.jpg",
+        "img/geekhack-125844-5.jpg"
+      ],
+      "image": "img/geekhack-125844-1.jpg"
+    }
+  ]
+}
