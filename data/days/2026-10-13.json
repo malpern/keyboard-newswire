@@ -145,7 +145,8 @@
           {
             "vendor": "Interactive Kits",
             "url": "https://bord.design/moonwake",
-            "host": "bord.design"
+            "host": "bord.design",
+            "metadata_fetched_at": "2026-10-13T12:06:52.989583+00:00"
           }
         ]
       },
