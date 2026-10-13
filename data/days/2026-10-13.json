@@ -229,6 +229,79 @@
         "key-remapping",
         "custom-firmware"
       ]
+    },
+    {
+      "id": "kbdnews-2924",
+      "title": "MelGeek MADE68 Ultra V2 HE review",
+      "url": "https://kbd.news/MelGeek-MADE68-Ultra-V2-HE-review-2924.html",
+      "discussion_url": "https://kbd.news/MelGeek-MADE68-Ultra-V2-HE-review-2924.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A refined Hall-effect gaming keyboard with extreme customizability: MADE68 Ultra V2 HE by MelGeek.",
+      "image_hint": "https://kbd.news/pic/2026/218/480/2924.jpg",
+      "topics": [
+        "keycaps-aesthetics",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "vendor-practices",
+        "keycap-design"
+      ],
+      "image": "img/kbdnews-2924.jpg"
+    },
+    {
+      "id": "kbdnews-2926",
+      "title": "Lunakbd",
+      "url": "https://kbd.news/Lunakbd-2926.html",
+      "discussion_url": "https://kbd.news/Lunakbd-2926.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Guilherme Pagano's Lunakb is an open-source wireless split keyboard.",
+      "image_hint": "https://kbd.news/pic/2026/218/480/2926.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "open-source",
+        "split-keyboard",
+        "wireless"
+      ],
+      "image": "img/kbdnews-2926.jpg"
+    },
+    {
+      "id": "kbdnews-2925",
+      "title": "Meow keyboard",
+      "url": "https://kbd.news/Meow-keyboard-2925.html",
+      "discussion_url": "https://kbd.news/Meow-keyboard-2925.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A Ferris-like wireless low-profile split: meow by nik0mi.",
+      "image_hint": "https://kbd.news/pic/2026/218/480/2925.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "mechanical-keyboard",
+        "wireless",
+        "low-profile"
+      ],
+      "image": "img/kbdnews-2925.jpg"
     }
   ]
 }

@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:22:32 +0000</lastBuildDate>
   <item>
     <title>Show HN: Folio – my portfolio inside Raycast (read-only, open source)</title>
     <link>https://github.com/ShayanAbedi/folio</link>
@@ -27,6 +27,17 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Open-source desktop configurator and custom QMK-based firmware allowing persistent key assignments, macros, and lighting for Glorious keyboards without needing the app running. — r/olkb</description>
+  </item>
+  <item>
+    <title>Lunakbd</title>
+    <link>https://kbd.news/Lunakbd-2926.html</link>
+    <guid isPermaLink="false">kbdnews-2926</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Guilherme Pagano's Lunakb is an open-source wireless split keyboard. — KBD.news</description>
   </item>
   <item>
     <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>

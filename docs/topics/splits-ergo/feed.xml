@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:22:31 +0000</lastBuildDate>
   <item>
     <title>From chat window to my desk: An AI-designed split keyboard</title>
     <link>https://imrishabh18.github.io/blog/ai-corne-keyboard/</link>
@@ -17,6 +17,28 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Lunakbd</title>
+    <link>https://kbd.news/Lunakbd-2926.html</link>
+    <guid isPermaLink="false">kbdnews-2926</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Guilherme Pagano's Lunakb is an open-source wireless split keyboard. — KBD.news</description>
+  </item>
+  <item>
+    <title>Meow keyboard</title>
+    <link>https://kbd.news/Meow-keyboard-2925.html</link>
+    <guid isPermaLink="false">kbdnews-2925</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A Ferris-like wireless low-profile split: meow by nik0mi. — KBD.news</description>
   </item>
   <item>
     <title>Mesa 3</title>

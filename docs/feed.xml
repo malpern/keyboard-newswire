@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:22:31 +0000</lastBuildDate>
   <item>
     <title>From chat window to my desk: An AI-designed split keyboard</title>
     <link>https://imrishabh18.github.io/blog/ai-corne-keyboard/</link>
@@ -60,6 +60,39 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Discussion on implementing "double-space for period" functionality via tap dances in QMK, Vial, or ZMK, noting issues with fast keyrolls. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>MelGeek MADE68 Ultra V2 HE review</title>
+    <link>https://kbd.news/MelGeek-MADE68-Ultra-V2-HE-review-2924.html</link>
+    <guid isPermaLink="false">kbdnews-2924</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A refined Hall-effect gaming keyboard with extreme customizability: MADE68 Ultra V2 HE by MelGeek. — KBD.news</description>
+  </item>
+  <item>
+    <title>Lunakbd</title>
+    <link>https://kbd.news/Lunakbd-2926.html</link>
+    <guid isPermaLink="false">kbdnews-2926</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Guilherme Pagano's Lunakb is an open-source wireless split keyboard. — KBD.news</description>
+  </item>
+  <item>
+    <title>Meow keyboard</title>
+    <link>https://kbd.news/Meow-keyboard-2925.html</link>
+    <guid isPermaLink="false">kbdnews-2925</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A Ferris-like wireless low-profile split: meow by nik0mi. — KBD.news</description>
   </item>
   <item>
     <title>install kanata on office laptop?</title>
@@ -2084,38 +2117,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Aepex60 build with GMK Windbreaker and MX Blacks. — 74 pts · 3 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Athena 1800 build with Durock V3 stabs and Gateron Oil Kings</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t900lc/my_first_build/</link>
-    <guid isPermaLink="false">reddit-1t900lc</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>First build: Athena 1800 with Durock V3 stabs and Gateron Oil Kings. — 53 pts · 8 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Fully Custom Keyboard with QMK firmware, custom PCB and case</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8vzxh/fully_custom_keyboard/</link>
-    <guid isPermaLink="false">reddit-1t8vzxh</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Custom PCB and case design by the author; QMK firmware with calc/volume keys. — 52 pts · 22 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Prime L southpaw keyboard with DSA Lightcycle keycaps and white LEDs</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8npf9/my_newtome_prime_l_southpaw/</link>
-    <guid isPermaLink="false">reddit-1t8npf9</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Prime L southpaw with DSA Lightcycle keycaps and white LEDs. — 51 pts · 2 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

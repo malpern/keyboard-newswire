@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:22:32 +0000</lastBuildDate>
   <item>
     <title>[IC] PBTfans Genius #81</title>
     <link>https://geekhack.org/index.php?topic=127198.0</link>
@@ -28,6 +28,17 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>GMK MTNU Moon Wake A set inspired by our natural satellite. Interest Check Form | Discord | Interactive Kits Colors Used Colors are a mix of stock GMK colors and SP colors. Color matching / samples has been requested. Keys Base Legend Alphas T9 BGK Mods BGK T9 Punctuation GSM T9 Accent V2 BGK Kitting Base Kit Novelties Spacebars Renders — 1388 pts · 1 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>MelGeek MADE68 Ultra V2 HE review</title>
+    <link>https://kbd.news/MelGeek-MADE68-Ultra-V2-HE-review-2924.html</link>
+    <guid isPermaLink="false">kbdnews-2924</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A refined Hall-effect gaming keyboard with extreme customizability: MADE68 Ultra V2 HE by MelGeek. — KBD.news</description>
   </item>
   <item>
     <title>[IC] SWG Retroguardia</title>
@@ -2172,17 +2183,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>Hi everyone! My name is keekeen. I’m a fellow “Topre” / rubber dome enjoyer. For me, the journey began with the HHKB, which I consider my first "end game" keyboard. Today, I am thrilled to introduce a passion project that’s been in the works: RF—8X by keyhub.design This is a custom 80% electro-capacitive keyboard housing that merges the classic design of Topre's Realforce R1 with the aesthetic legacy of the XRF by the now-defunct Noxary. The motivation of the project is deeply personal: it started as a way to support friends who were unfortunately victims of the Noxary scam, combined with my o — 23551 pts · 30 comments · Geekhack · Interest Checks</description>
-  </item>
-  <item>
-    <title>[IC] GMK CYL Gambit - Now with N9 (Dolch)!</title>
-    <link>https://geekhack.org/index.php?topic=126424.0</link>
-    <guid isPermaLink="false">geekhack-126424</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
-    <description>GMK CYL Gambit Play Chess! R1 1u Doubleshot ABS chess novelties keycaps — Iconic chess pieces for OG/Timeless GMK sets. Ideal for accents, XT/Macro rows, or simply just play chess with. When TBA - - - Disclaimer - - - Renders may not picture actual colors of the keycaps but if you happen to have GMK stock color in your possession then the colors are the exact match of the said colors. IC Form The Kit 16 doubleshot line-only and fill-only chess pieces, each in WoB, BoW, Beige and Dolch keycaps color and legend colors, as well as 3C and 3B beige accents color. All GMK stock colors (CR, WS1, L9, — 12600 pts · 20 comments · Geekhack · Interest Checks</description>
   </item>
 </channel>
 </rss>
