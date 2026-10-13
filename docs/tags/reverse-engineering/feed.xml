@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/reverse-engineering/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Reverse Engineering.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:03:55 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:06:43 +0000</lastBuildDate>
   <item>
     <title>Reverse engineering a non-QMK Keychron K10 (Bluetooth BLE + Linux/Waybar/GUI tool in Rust)</title>
     <link>https://reddit.com/r/olkb/comments/1x34opz/reverse_engineering_a_nonqmk_keychron_k10/</link>
