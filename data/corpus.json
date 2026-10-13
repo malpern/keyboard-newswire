@@ -3,6 +3,53 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-13",
+      "items": [
+        {
+          "id": "hn-50062868",
+          "title": "From chat window to my desk: An AI-designed split keyboard",
+          "url": "https://imrishabh18.github.io/blog/ai-corne-keyboard/",
+          "discussion_url": "https://news.ycombinator.com/item?id=50062868",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "diy-build",
+            "pcb-design"
+          ]
+        },
+        {
+          "id": "hn-50059880",
+          "title": "Show HN: Folio – my portfolio inside Raycast (read-only, open source)",
+          "url": "https://github.com/ShayanAbedi/folio",
+          "discussion_url": "https://news.ycombinator.com/item?id=50059880",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "open-source",
+            "macos-utilities",
+            "shortcut-manager"
+          ],
+          "image": "img/hn-50059880.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-10-12",
       "items": [
         {

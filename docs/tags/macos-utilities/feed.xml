@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Macos Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 12 Oct 2026 12:07:44 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:03:55 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Folio – my portfolio inside Raycast (read-only, open source)</title>
+    <link>https://github.com/ShayanAbedi/folio</link>
+    <guid isPermaLink="false">hn-50059880</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Raycast Rugpull: Free Alternative to Raycast</title>
     <link>https://github.com/abue-ammar/tinycast</link>
