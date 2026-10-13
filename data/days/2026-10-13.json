@@ -163,6 +163,72 @@
         "img/geekhack-127199-5.jpg"
       ],
       "image": "img/geekhack-127199-0.jpg"
+    },
+    {
+      "id": "reddit-1x4fa03",
+      "title": "INGLORIOUS Advanced: custom QMK firmware and a desktop configurator for supported Glorious keyboards",
+      "url": "https://reddit.com/r/olkb/comments/1x4fa03/inglorious_advanced_custom_qmk_firmware_and_a/",
+      "discussion_url": "https://reddit.com/r/olkb/comments/1x4fa03/inglorious_advanced_custom_qmk_firmware_and_a/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Open-source desktop configurator and custom QMK-based firmware allowing persistent key assignments, macros, and lighting for Glorious keyboards without needing the app running.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "qmk",
+        "custom-firmware",
+        "open-source",
+        "key-remapping"
+      ]
+    },
+    {
+      "id": "reddit-1x4a7xu",
+      "title": "ZMK Keymap Editor",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x4a7xu/zmk_keymap_editor/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x4a7xu/zmk_keymap_editor/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Browser-based editor for ZMK keymaps that displays firmware bindings and resulting characters for Linux/Windows, with support for loading from GitHub and committing changes.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "visualizer",
+        "linux-utilities",
+        "windows-utilities"
+      ]
+    },
+    {
+      "id": "reddit-1x4mpoi",
+      "title": "Double-tapping the spacebar inserts a period followed by a space",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x4mpoi/doubletapping_the_spacebar_inserts_a_period/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x4mpoi/doubletapping_the_spacebar_inserts_a_period/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Discussion on implementing \"double-space for period\" functionality via tap dances in QMK, Vial, or ZMK, noting issues with fast keyrolls.",
+      "topics": [
+        "firmware",
+        "remapping-layouts"
+      ],
+      "tags": [
+        "qmk",
+        "zmk",
+        "key-remapping",
+        "custom-firmware"
+      ]
     }
   ]
 }

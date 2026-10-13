@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:07:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <item>
+    <title>Double-tapping the spacebar inserts a period followed by a space</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x4mpoi/doubletapping_the_spacebar_inserts_a_period/</link>
+    <guid isPermaLink="false">reddit-1x4mpoi</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on implementing "double-space for period" functionality via tap dances in QMK, Vial, or ZMK, noting issues with fast keyrolls. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>install kanata on office laptop?</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2kr4d/install_kanata_on_office_laptop/</link>

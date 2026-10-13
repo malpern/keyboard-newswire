@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:07:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
+  <item>
+    <title>ZMK Keymap Editor</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x4a7xu/zmk_keymap_editor/</link>
+    <guid isPermaLink="false">reddit-1x4a7xu</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Browser-based editor for ZMK keymaps that displays firmware bindings and resulting characters for Linux/Windows, with support for loading from GitHub and committing changes. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Double-tapping the spacebar inserts a period followed by a space</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x4mpoi/doubletapping_the_spacebar_inserts_a_period/</link>
+    <guid isPermaLink="false">reddit-1x4mpoi</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on implementing "double-space for period" functionality via tap dances in QMK, Vial, or ZMK, noting issues with fast keyrolls. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>ZMK Layer HUD, a live on-screen HUD for ZMK keyboards</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x2dg05/zmk_layer_hud_a_live_onscreen_hud_for_zmk/</link>

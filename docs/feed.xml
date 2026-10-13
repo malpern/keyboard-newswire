@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 13 Oct 2026 12:07:47 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 13 Oct 2026 12:11:45 +0000</lastBuildDate>
   <item>
     <title>From chat window to my desk: An AI-designed split keyboard</title>
     <link>https://imrishabh18.github.io/blog/ai-corne-keyboard/</link>
@@ -27,6 +27,39 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>INGLORIOUS Advanced: custom QMK firmware and a desktop configurator for supported Glorious keyboards</title>
+    <link>https://reddit.com/r/olkb/comments/1x4fa03/inglorious_advanced_custom_qmk_firmware_and_a/</link>
+    <guid isPermaLink="false">reddit-1x4fa03</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Open-source desktop configurator and custom QMK-based firmware allowing persistent key assignments, macros, and lighting for Glorious keyboards without needing the app running. — r/olkb</description>
+  </item>
+  <item>
+    <title>ZMK Keymap Editor</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x4a7xu/zmk_keymap_editor/</link>
+    <guid isPermaLink="false">reddit-1x4a7xu</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Browser-based editor for ZMK keymaps that displays firmware bindings and resulting characters for Linux/Windows, with support for loading from GitHub and committing changes. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Double-tapping the spacebar inserts a period followed by a space</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x4mpoi/doubletapping_the_spacebar_inserts_a_period/</link>
+    <guid isPermaLink="false">reddit-1x4mpoi</guid>
+    <pubDate>Tue, 13 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Discussion on implementing "double-space for period" functionality via tap dances in QMK, Vial, or ZMK, noting issues with fast keyrolls. — r/ErgoMechKeyboards</description>
   </item>
   <item>
     <title>install kanata on office laptop?</title>
@@ -2083,38 +2116,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Prime L southpaw with DSA Lightcycle keycaps and white LEDs. — 51 pts · 2 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>AEBoards EXT65v2 used as left numpad with DuRock Blue Lotus switches</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t86h2y/my_new_left_numpad/</link>
-    <guid isPermaLink="false">reddit-1t86h2y</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>AEBoards EXT65v2 used as a left numpad with DuRock Blue Lotus switches. — 41 pts · 3 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>zFrontier sold defective TP1 Dieter...</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t85sko/zfrontier_sold_defective_tp1_dieter_novelty/</link>
-    <guid isPermaLink="false">reddit-1t85sko</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Complaint about zFrontier and Geistmaschine regarding defective TP1 Dieter keycaps and poor customer service. — 40 pts · 11 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8hpwo/my_new_favorite_keyboard_completed_build/</link>
-    <guid isPermaLink="false">reddit-1t8hpwo</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Keychron Q6 Ultra build with Durock Ice King and Chosfox Arctic Fox switches. — 39 pts · 7 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>
