@@ -49,42 +49,68 @@
           {
             "vendor": "https://divinikey.com/collections/new-arrivals/products/mw-meteor-dreams-keycaps",
             "url": "https://divinikey.com/collections/new-arrivals/products/mw-meteor-dreams-keycaps",
-            "host": "divinikey.com"
+            "host": "divinikey.com",
+            "metadata_fetched_at": "2026-10-14T12:07:50.773579+00:00",
+            "price_low": 1900,
+            "price_high": 11000,
+            "available": true
           },
           {
             "vendor": "https://www.deskhero.ca/products/mw-meteor-dreams-keycaps",
             "url": "https://www.deskhero.ca/products/mw-meteor-dreams-keycaps",
-            "host": "www.deskhero.ca"
+            "host": "www.deskhero.ca",
+            "metadata_fetched_at": "2026-10-14T12:07:51.150776+00:00",
+            "price_low": 2500,
+            "price_high": 14800,
+            "currency": "CAD",
+            "available": false
           },
           {
             "vendor": "https://monacokeys.de/products/mw-meteor-dreams-abs-double-shot-keycap-set",
             "url": "https://monacokeys.de/products/mw-meteor-dreams-abs-double-shot-keycap-set",
-            "host": "monacokeys.de"
+            "host": "monacokeys.de",
+            "metadata_fetched_at": "2026-10-14T12:07:51.674698+00:00",
+            "price_low": 1500,
+            "price_high": 9500,
+            "available": false
           },
           {
             "vendor": "https://ktechs.store/collections/group-buy/products/mw-meteor-dreams",
             "url": "https://ktechs.store/collections/group-buy/products/mw-meteor-dreams",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-10-14T12:07:51.866858+00:00",
+            "price_low": 1850,
+            "price_high": 12300,
+            "currency": "SGD",
+            "available": false
           },
           {
             "vendor": "https://prototypist.net/products/group-buy-mw-meteor-dreams",
             "url": "https://prototypist.net/products/group-buy-mw-meteor-dreams",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-10-14T12:07:52.307557+00:00",
+            "price_low": 1167,
+            "price_high": 7167,
+            "currency": "GBP",
+            "available": false
           },
           {
             "vendor": "https://en.zfrontier.com/products/group-buy-mw-meteor-dreams",
             "url": "https://en.zfrontier.com/products/group-buy-mw-meteor-dreams",
-            "host": "en.zfrontier.com"
+            "host": "en.zfrontier.com",
+            "metadata_fetched_at": "2026-10-14T12:07:52.549496+00:00"
           },
           {
             "vendor": "https://torokeeb.store/products/gb-mw-meteor-dreams",
             "url": "https://torokeeb.store/products/gb-mw-meteor-dreams",
-            "host": "torokeeb.store"
+            "host": "torokeeb.store",
+            "metadata_fetched_at": "2026-10-14T12:07:52.815981+00:00"
           },
           {
             "vendor": "https://klc-playground.com/products/gb-mw-meteor-dreams",
             "url": "https://klc-playground.com/products/gb-mw-meteor-dreams",
-            "host": "klc-playground.com"
+            "host": "klc-playground.com",
+            "metadata_fetched_at": "2026-10-14T12:07:53.135377+00:00"
           }
         ],
         "related_threads": [
@@ -166,42 +192,81 @@
           {
             "vendor": "Cannon Keys",
             "url": "https://cannonkeys.com/products/gmk-rainy-day-r3?variant=41415127761007",
-            "host": "cannonkeys.com"
+            "host": "cannonkeys.com",
+            "metadata_fetched_at": "2026-10-14T12:07:53.358990+00:00",
+            "price_low": 1800,
+            "price_high": 13500,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Deskhero",
             "url": "https://www.deskhero.ca/products/gmk-cyl-rainy-day-r3-keycaps",
-            "host": "www.deskhero.ca"
+            "host": "www.deskhero.ca",
+            "metadata_fetched_at": "2026-10-14T12:07:53.594088+00:00",
+            "price_low": 4500,
+            "price_high": 21400,
+            "currency": "CAD",
+            "available": true
           },
           {
             "vendor": "CoffeeKeys",
             "url": "https://coffeekeys.eu/en-us/products/group-buy-gmk-rainy-day-r3-eng?_su_rec=FNus6QlUTarBjKyOE4W5gIoutqQG9IQqvc7jr5Ir2BEz0CFii8XFeOzQuH_8aaNmGzhLx5QhYzpdFoV1wgAGXPrpTz6yhGZiFXuPT0fFpPHZ_NnsR8rOTvVG5U6PeyKa-ZJr1HF7n7TW34oB3hnDRO6wqvqvxu55VNJOuiZgGA7xyaTu4p6_1YoNDsdLYIFTdbZla9p3bW5joEJa9xo12YjKGF8EZay5YHPTHPrAKusqfGwbvIPtvnArn0Of4Q6jXps5YyJntme0sS8yhdhYxkgjeRcewmShJDr05OtkmHM_3EwMdLdBGOx8_zTKzGbb4i1olMavcT5pEX5swYjK&_su_rec_id=52469a3d-d039-435d-ae8e-2dc40458f8da-1791462191",
-            "host": "coffeekeys.eu"
+            "host": "coffeekeys.eu",
+            "metadata_fetched_at": "2026-10-14T12:07:54.002295+00:00",
+            "price_low": 1800,
+            "price_high": 13000,
+            "available": true
           },
           {
             "vendor": "Keebz N Cables",
             "url": "https://www.keebzncables.com/products/gmk-cyl-rainy-day-r3?_su_rec=VqZ3x08MsADhG4LV_NKqRkyqgS_MG-8EnJA3gZvvT6IG1Kc23WjiaRXASX2ljhpuDVRKi0Z8L9E01WWHrIphD9ONRYN5eXBTiTN0RK-_omOxc0rsWgAqZp2CwyuJX9XU4D0LltjspyeOhzaU8CEGRbcHpfDA0Nr7ZRrZQMqOdZxFi2nQywVrxXd1lMp7YeuxZmZ5gWPZSx3me9P07QUBFWcbT884AF4TkyWQx1976Cifr50FFt2Q9dMJkz1AeR_X0YgziIGjiuc_EvB99WOAsG1Ji6QL5kYrLgMB6BPMC_Awm8_h-ufvMg3kwXkw_AabNZ3GlMSPaBVF8j5NWHaE_7aYXns&_su_rec_id=735bc4a5-2feb-4a49-8696-63f6de16c19a-1791462227",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-10-14T12:07:54.306622+00:00",
+            "price_low": 3000,
+            "price_high": 25000,
+            "currency": "AUD",
+            "available": true
           },
           {
             "vendor": "KBDFans",
             "url": "https://kbdfans.com/products/gmk-cyl-rainy-day-r3?srsltid=AU7gw4XV7z8UIm3PxLlarw3RG4KFz4j8Qy6QH3aZ8W67jOvpSRTy8HP5",
-            "host": "kbdfans.com"
+            "host": "kbdfans.com",
+            "metadata_fetched_at": "2026-10-14T12:07:54.511437+00:00",
+            "price_low": 2900,
+            "price_high": 14500,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Geon",
             "url": "https://geon.works/products/group-buy-gmk-cyl-rainy-day-r3",
-            "host": "geon.works"
+            "host": "geon.works",
+            "metadata_fetched_at": "2026-10-14T12:07:54.824664+00:00",
+            "price_low": 1800,
+            "price_high": 13500,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/products/group-buy-gmk-rainy-day-r3?_su_rec=I2r4krfUPKthZmRCwMgGWEmxA0cvb1NazC5rIzEeK4KZtT4AoFixWt9ns2Q0oTtFyfc6wlv8UEbKsG3lEFNHi9VeW_Dmvz4e9fC-TlsF1TKbW08124SUNpgo0BPsPi7YHoTsNKBYtPIDRWB3w0OnxwpTN72LRTxBQ2zs6j94jed5czdYz2lgj32vBuFguPz77CW0sngKFuZIPK6bNOtNn3FEoCjP99ZsPomE4RzLJ_G1SNNAk-5uRlUcdtp2i5fCU_u-RAB2xATRylmpY4JRi8dUnOdiRBWEa-OU94Xvh3gYL-FSCVuqEPWCiFfbLVmoKoTk92BY7oruohJykbI&_su_rec_id=64f53fc5-b447-4b8f-a54d-26b34f56b7f2-1791462314",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-10-14T12:07:55.011867+00:00",
+            "price_low": 2600,
+            "price_high": 18900,
+            "currency": "SGD",
+            "available": true
           },
           {
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/products/group-buy-gmk-cyl-rainy-day-r3",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-10-14T12:07:55.188025+00:00",
+            "price_low": 1333,
+            "price_high": 10250,
+            "currency": "GBP",
+            "available": true
           }
         ],
         "vendor_regions": [
