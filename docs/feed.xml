@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 14 Oct 2026 12:08:43 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 14 Oct 2026 12:15:36 +0000</lastBuildDate>
+  <item>
+    <title>CannonKeys restocks BakenekoGO, SAT75 X, and is0GR2</title>
+    <link>http://discord.gg/gAy6sqp</link>
+    <guid isPermaLink="false">email-1a1373ecd10d63d2</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Cannonkeys</source>
+    <description>CannonKeys announces a restock of the BakenekoGO wireless keyboard, SAT75 X, and is0GR2 one-key micropad, available for purchase on October 14th. — ✉ Cannonkeys</description>
+  </item>
+  <item>
+    <title>ZSA launches Kailh Choc Platypus silent switch for Voyager</title>
+    <link>https://www.zsa.io/voyager/accessories?mc_cid=63eddf8c16&amp;mc_eid=UNIQID</link>
+    <guid isPermaLink="false">email-1a135b8837515c2b</guid>
+    <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>ZSA introduces the Kailh Choc Platypus, a 35gf linear silent low-profile switch that becomes the default for new Voyager keyboards and is sold in sets of 60 for $60. — ✉ Zsa</description>
+  </item>
   <item>
     <title>From chat window to my desk: An AI-designed split keyboard</title>
     <link>https://imrishabh18.github.io/blog/ai-corne-keyboard/</link>
@@ -2095,28 +2116,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Renders of a potential Reign variant with GMK CYL Salamander; currently in IC/prototyping. — 108 pts · 15 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Keychron V3 8k and V0 Ultra</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8jifs/keychron_v3_8k_and_v0_ultra/</link>
-    <guid isPermaLink="false">reddit-1t8jifs</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Comparison/showcase of Keychron V3 8k and V0 Ultra; user switching to wired for reliability. — 81 pts · 6 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Aepex60</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8rl4g/aepex60/</link>
-    <guid isPermaLink="false">reddit-1t8rl4g</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Aepex60 build with GMK Windbreaker and MX Blacks. — 74 pts · 3 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

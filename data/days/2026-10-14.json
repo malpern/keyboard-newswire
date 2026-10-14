@@ -390,6 +390,54 @@
         "img/geekhack-127203-5.jpg"
       ],
       "image": "img/geekhack-127203-0.jpg"
+    },
+    {
+      "id": "email-1a1373ecd10d63d2",
+      "title": "CannonKeys restocks BakenekoGO, SAT75 X, and is0GR2",
+      "url": "http://discord.gg/gAy6sqp",
+      "discussion_url": "http://discord.gg/gAy6sqp",
+      "source": "email",
+      "subreddit": null,
+      "via": "Cannonkeys",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "CannonKeys announces a restock of the BakenekoGO wireless keyboard, SAT75 X, and is0GR2 one-key micropad, available for purchase on October 14th.",
+      "sender": "CannonKeys <support@cannonkeys.com>",
+      "topics": [
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "restock",
+        "vendor-practices",
+        "mechanical-keyboard"
+      ],
+      "image": "img/email-1a1373ecd10d63d2.jpg"
+    },
+    {
+      "id": "email-1a135b8837515c2b",
+      "title": "ZSA launches Kailh Choc Platypus silent switch for Voyager",
+      "url": "https://www.zsa.io/voyager/accessories?mc_cid=63eddf8c16&mc_eid=UNIQID",
+      "discussion_url": "https://www.zsa.io/voyager/accessories?mc_cid=63eddf8c16&mc_eid=UNIQID",
+      "source": "email",
+      "subreddit": null,
+      "via": "Zsa",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "ZSA introduces the Kailh Choc Platypus, a 35gf linear silent low-profile switch that becomes the default for new Voyager keyboards and is sold in sets of 60 for $60.",
+      "sender": "Erez Zukerman - ZSA <contact@zsa.io>",
+      "topics": [
+        "builds-hardware",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "switches",
+        "vendor-news",
+        "pricing",
+        "mechanical-keyboard"
+      ],
+      "image": "img/email-1a135b8837515c2b.jpg"
     }
   ]
 }
