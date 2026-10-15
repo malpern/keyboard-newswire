@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "id": "reddit-1x6jrj5",
+      "title": "Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support",
+      "url": "https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/",
+      "discussion_url": "https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "User successfully ported QMK/VIA firmware to the Ducky One 3 TKL (Nuvoton NUC1261BSP), enabling full RGB, layers, and macro support.",
+      "topics": [
+        "firmware"
+      ],
+      "tags": [
+        "qmk",
+        "custom-firmware",
+        "mechanical-keyboard"
+      ]
+    }
+  ]
+}

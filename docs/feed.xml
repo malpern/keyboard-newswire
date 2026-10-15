@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 15 Oct 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 12:10:47 +0000</lastBuildDate>
+  <item>
+    <title>Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/</link>
+    <guid isPermaLink="false">reddit-1x6jrj5</guid>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>User successfully ported QMK/VIA firmware to the Ducky One 3 TKL (Nuvoton NUC1261BSP), enabling full RGB, layers, and macro support. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>CannonKeys restocks BakenekoGO, SAT75 X, and is0GR2</title>
     <link>https://discord.com/invite/gAy6sqp</link>
@@ -2105,17 +2115,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>MB44 V1 build with Scandivan PCB and Cherry Milkshake keycaps. — 155 pts · 11 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>Reign + GMK CYL Salamander</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t842s6/reign_gmk_cyl_salamander/</link>
-    <guid isPermaLink="false">reddit-1t842s6</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Renders of a potential Reign variant with GMK CYL Salamander; currently in IC/prototyping. — 108 pts · 15 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

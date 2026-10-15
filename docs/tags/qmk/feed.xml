@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 15 Oct 2026 12:06:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 12:10:47 +0000</lastBuildDate>
+  <item>
+    <title>Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/</link>
+    <guid isPermaLink="false">reddit-1x6jrj5</guid>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>User successfully ported QMK/VIA firmware to the Ducky One 3 TKL (Nuvoton NUC1261BSP), enabling full RGB, layers, and macro support. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>INGLORIOUS Advanced: custom QMK firmware and a desktop configurator for supported Glorious keyboards</title>
     <link>https://reddit.com/r/olkb/comments/1x4fa03/inglorious_advanced_custom_qmk_firmware_and_a/</link>
