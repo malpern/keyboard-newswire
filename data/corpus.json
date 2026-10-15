@@ -48,6 +48,34 @@
             "vendor-practices"
           ],
           "image": "img/email-1a13ee0df8d79247.jpg"
+        },
+        {
+          "id": "kbdnews-2927",
+          "title": "Codethetical releases Sucralose, a low-profile wireless split keyboard with Kailh ULP switches",
+          "url": "https://kbd.news/Sucralose-2927.html",
+          "discussion_url": "https://kbd.news/Sucralose-2927.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Sucralose by Codethetical: a low-profile wireless split featuring Kailh ULP switches.",
+          "image_hint": "https://kbd.news/pic/2026/218/480/2927.jpg",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "mechanical-keyboard",
+            "switches",
+            "wireless"
+          ],
+          "original_title": "Sucralose",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Original title lacked subject and context; rewrite adds manufacturer and key specs from takeaway",
+          "image": "img/kbdnews-2927.jpg"
         }
       ]
     },

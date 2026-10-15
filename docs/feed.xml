@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 15 Oct 2026 12:16:41 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 12:20:27 +0000</lastBuildDate>
   <item>
     <title>Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support</title>
     <link>https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/</link>
@@ -27,6 +27,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Keyreative</source>
     <description>Keyreative has added an ISO layout option to their Asimov transparent keycap set. — ✉ Keyreative</description>
+  </item>
+  <item>
+    <title>Codethetical releases Sucralose, a low-profile wireless split keyboard with Kailh ULP switches</title>
+    <link>https://kbd.news/Sucralose-2927.html</link>
+    <guid isPermaLink="false">kbdnews-2927</guid>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Sucralose by Codethetical: a low-profile wireless split featuring Kailh ULP switches. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys restocks BakenekoGO, SAT75 X, and is0GR2</title>
@@ -2104,17 +2115,6 @@
     <category>Splits &amp; Ergo</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Handwired modified Scylla with encoders, joysticks, and TFT screens; interesting custom build details. — 193 pts · 6 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>Mictlán Centinela</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1t8o6rw/mictlán_centinela/</link>
-    <guid isPermaLink="false">reddit-1t8o6rw</guid>
-    <pubDate>Sun, 10 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>Synth60 build featuring GMK Mictlán R1 and Unity switches. — 164 pts · 6 comments · r/MechanicalKeyboards</description>
   </item>
 </channel>
 </rss>

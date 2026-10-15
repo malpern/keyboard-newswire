@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 15 Oct 2026 12:16:41 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 12:20:27 +0000</lastBuildDate>
   <item>
     <title>Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support</title>
     <link>https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/</link>
@@ -16,6 +16,17 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>User successfully ported QMK/VIA firmware to the Ducky One 3 TKL (Nuvoton NUC1261BSP), enabling full RGB, layers, and macro support. — r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Codethetical releases Sucralose, a low-profile wireless split keyboard with Kailh ULP switches</title>
+    <link>https://kbd.news/Sucralose-2927.html</link>
+    <guid isPermaLink="false">kbdnews-2927</guid>
+    <pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Sucralose by Codethetical: a low-profile wireless split featuring Kailh ULP switches. — KBD.news</description>
   </item>
   <item>
     <title>CannonKeys restocks BakenekoGO, SAT75 X, and is0GR2</title>
