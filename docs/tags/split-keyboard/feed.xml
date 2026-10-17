@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 15 Oct 2026 12:20:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 17 Oct 2026 21:49:16 +0000</lastBuildDate>
+  <item>
+    <title>Flashing Miryoku to a 5 column corne with ZMK</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x7u7qp/flashing_miryoku_to_a_5_column_corne_with_zmk/</link>
+    <guid isPermaLink="false">reddit-1x7u7qp</guid>
+    <pubDate>Sat, 17 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User shares a troubleshooting journey regarding ZMK build inputs and firmware flashing issues on a custom Corne layout. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Codethetical releases Sucralose, a low-profile wireless split keyboard with Kailh ULP switches</title>
     <link>https://kbd.news/Sucralose-2927.html</link>

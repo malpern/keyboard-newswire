@@ -3,6 +3,33 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-17",
+      "items": [
+        {
+          "id": "reddit-1x7u7qp",
+          "title": "Flashing Miryoku to a 5 column corne with ZMK",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x7u7qp/flashing_miryoku_to_a_5_column_corne_with_zmk/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1x7u7qp/flashing_miryoku_to_a_5_column_corne_with_zmk/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "User shares a troubleshooting journey regarding ZMK build inputs and firmware flashing issues on a custom Corne layout.",
+          "topics": [
+            "firmware",
+            "splits-ergo"
+          ],
+          "tags": [
+            "zmk",
+            "split-keyboard",
+            "custom-firmware",
+            "diy-build"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-15",
       "items": [
         {
