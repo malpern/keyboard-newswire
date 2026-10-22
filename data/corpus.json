@@ -3,6 +3,31 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-21",
+      "items": [
+        {
+          "id": "hn-50182195",
+          "title": "The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output",
+          "url": "https://www.goto10retro.com/p/the-800xl",
+          "discussion_url": "https://news.ycombinator.com/item?id=50182195",
+          "source": "hn",
+          "subreddit": null,
+          "score": 16,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "builds-hardware"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "diy-build",
+            "pcb-design"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-17",
       "items": [
         {
