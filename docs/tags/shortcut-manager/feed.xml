@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/shortcut-manager/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Shortcut Manager.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 02:53:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 12:03:43 +0000</lastBuildDate>
+  <item>
+    <title>Raycast Glaze</title>
+    <link>https://www.raycast.com/blog/meet-glaze</link>
+    <guid isPermaLink="false">hn-50192037</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Show HN: Folio – my portfolio inside Raycast (read-only, open source)</title>
     <link>https://github.com/ShayanAbedi/folio</link>

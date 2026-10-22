@@ -6,7 +6,37 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 02:53:35 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 12:03:43 +0000</lastBuildDate>
+  <item>
+    <title>The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output</title>
+    <link>https://www.goto10retro.com/p/the-800xl</link>
+    <guid isPermaLink="false">hn-50182195</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>17 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Raycast Glaze</title>
+    <link>https://www.raycast.com/blog/meet-glaze</link>
+    <guid isPermaLink="false">hn-50192037</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>3 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Thok – Mechanical keyboard sounds for Mac, 300 KB, no network access</title>
+    <link>https://thok.app/</link>
+    <guid isPermaLink="false">hn-50191668</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 2 comments · Hacker News</description>
+  </item>
   <item>
     <title>The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output</title>
     <link>https://www.goto10retro.com/p/the-800xl</link>
@@ -2085,37 +2115,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>NovelKeys announces stock availability for the fully built Classic-TKL Underscore Edition. — 74 pts · 21 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>69split open-sources split keyboard with broken-out ATmega32u4 IO pins</title>
-    <link>https://www.reddit.com/r/olkb/comments/1tak816/69split_my_split_keyboard_with_broken_out_io_for/</link>
-    <guid isPermaLink="false">reddit-1tak816</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Showcase of a split keyboard designed to break out ATmega32u4 IO pins for external project development while functioning as a keyboard. — 16 pts · 6 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>KeyRecord open-sources local Python tool to analyze key usage patterns for 60% keyboard downsizing</title>
-    <link>https://www.reddit.com/r/KeyboardLayouts/comments/1tahhpf/i_made_a_small_tool_to_check_if_i_actually_use/</link>
-    <guid isPermaLink="false">reddit-1tahhpf</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/KeyboardLayouts</source>
-    <description>Release of "KeyRecord," a local Python tool to analyze real-world key usage patterns to justify downsizing to a 60% layout. — 8 pts · 6 comments · r/KeyboardLayouts</description>
-  </item>
-  <item>
-    <title>QMK discussion on verifying NKRO status without magic key combos</title>
-    <link>https://www.reddit.com/r/olkb/comments/1tadbr4/how_to_enable_nkro/</link>
-    <guid isPermaLink="false">reddit-1tadbr4</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Discussion on verifying NKRO status in QMK without relying on magic key combos, noting issues with key rollover limits. — 5 pts · 21 comments · r/olkb</description>
   </item>
 </channel>
 </rss>
