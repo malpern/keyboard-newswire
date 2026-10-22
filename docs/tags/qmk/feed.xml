@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 12:07:46 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 12:10:01 +0000</lastBuildDate>
+  <item>
+    <title>Replacement controller board for Filco Majestouch</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1xccmby/replacement_controller_board_for_filco_majestouch/</link>
+    <guid isPermaLink="false">reddit-1xccmby</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Custom QMK-compatible drop-in board enabling NKRO over USB for the Filco Majestouch without an external decoder. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>Ducky One 3 TKL - Added support for QMK/VIA with RGB and layer support</title>
     <link>https://reddit.com/r/MechanicalKeyboards/comments/1x6jrj5/ducky_one_3_tkl_added_support_for_qmkvia_with_rgb/</link>

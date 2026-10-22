@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#I2C · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/i2c/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/i2c/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged I2C.</description>
+  <language>en-us</language>
+  <lastBuildDate>Thu, 22 Oct 2026 12:10:01 +0000</lastBuildDate>
+  <item>
+    <title>GlidePoint diagnosing issues - zmk.</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xbrvon/glidepoint_diagnosing_issues_zmk/</link>
+    <guid isPermaLink="false">reddit-1xbrvon</guid>
+    <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Technical troubleshooting of I2C configuration and Data Ready pin requirements for the Cirque GlidePoint trackpad in ZMK. — r/ErgoMechKeyboards</description>
+  </item>
+</channel>
+</rss>
