@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/hardware-design/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Hardware Design.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 02:53:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 02:53:35 +0000</lastBuildDate>
+  <item>
+    <title>The Wolf keyboard</title>
+    <link>https://kbd.news/The-Wolf-keyboard-2930.html</link>
+    <guid isPermaLink="false">kbdnews-2930</guid>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>William Amaral's Wolf keyboard is a 40-key wireless split device in a sleek aluminum case. — KBD.news</description>
+  </item>
   <item>
     <title>Feeflak Translator: ergonomic keyboard with mouse sensor</title>
     <link>https://kbd.news/Translator-2918.html</link>

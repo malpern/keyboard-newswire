@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 02:53:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 02:53:35 +0000</lastBuildDate>
   <item>
     <title>The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output</title>
     <link>https://www.goto10retro.com/p/the-800xl</link>
@@ -16,6 +16,28 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>16 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Phenom Mini review</title>
+    <link>https://kbd.news/Phenom-Mini-review-2929.html</link>
+    <guid isPermaLink="false">kbdnews-2929</guid>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Phenom Mini by eh.industries is a versatile 40% split keyboard featuring keywells and a range of modular pointing-device options. — KBD.news</description>
+  </item>
+  <item>
+    <title>The Wolf keyboard</title>
+    <link>https://kbd.news/The-Wolf-keyboard-2930.html</link>
+    <guid isPermaLink="false">kbdnews-2930</guid>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>William Amaral's Wolf keyboard is a 40-key wireless split device in a sleek aluminum case. — KBD.news</description>
   </item>
   <item>
     <title>Flashing Miryoku to a 5 column corne with ZMK</title>
@@ -2094,26 +2116,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Discussion on verifying NKRO status in QMK without relying on magic key combos, noting issues with key rollover limits. — 5 pts · 21 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>ZMK sometimes rapidly repeats keys?</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tauvbv/zmk_sometimes_rapidly_repeats_keys/</link>
-    <guid isPermaLink="false">reddit-1tauvbv</guid>
-    <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>User reports rapid key repetition (e.g., 'i' becoming 'iiii...') on a Bluetooth ZMK board under Linux/Wayland, seeking causes. — 2 pts · 9 comments · r/ErgoMechKeyboards</description>
-  </item>
-  <item>
-    <title>ScottoAcademy Workshop Logistics and Kit Info</title>
-    <link>https://keyboard-newswire.com/email/19e1227e6852d7ec/</link>
-    <guid isPermaLink="false">email-19e1227e6852d7ec</guid>
-    <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Scottokeebs</source>
-    <description>Joe announces upcoming workshop details, requests Discord usernames for access, and advises checking kit parts and bringing spare wires. — ✉ Scottokeebs</description>
   </item>
 </channel>
 </rss>

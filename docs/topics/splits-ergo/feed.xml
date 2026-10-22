@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 02:53:09 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 02:53:35 +0000</lastBuildDate>
+  <item>
+    <title>Phenom Mini review</title>
+    <link>https://kbd.news/Phenom-Mini-review-2929.html</link>
+    <guid isPermaLink="false">kbdnews-2929</guid>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The Phenom Mini by eh.industries is a versatile 40% split keyboard featuring keywells and a range of modular pointing-device options. — KBD.news</description>
+  </item>
+  <item>
+    <title>The Wolf keyboard</title>
+    <link>https://kbd.news/The-Wolf-keyboard-2930.html</link>
+    <guid isPermaLink="false">kbdnews-2930</guid>
+    <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>William Amaral's Wolf keyboard is a 40-key wireless split device in a sleek aluminum case. — KBD.news</description>
+  </item>
   <item>
     <title>Flashing Miryoku to a 5 column corne with ZMK</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x7u7qp/flashing_miryoku_to_a_5_column_corne_with_zmk/</link>
