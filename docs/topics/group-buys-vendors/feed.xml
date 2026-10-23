@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 23 Oct 2026 12:07:50 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 12:14:42 +0000</lastBuildDate>
   <item>
     <title>[IC] KeyMaze Eden Sin</title>
     <link>https://geekhack.org/index.php?topic=127126.0</link>
@@ -39,6 +39,16 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>[IC] Class 60 V2 — Inspired by DEC VT220-LK201 by MM Studio Long time no see, everyone! This is MM Studio . We are excited to share the Interest Check for our new 60% custom keyboard kit — Class 60 V2 . &gt;&gt;&gt; FILL IN THE IC FORM HERE &lt;&lt;&lt; 1. Background The Class 60 V2 carries forward the design language of the Class 100, drawing inspiration from the iconic DEC (Digital Equipment Corporation) LK201 — the companion keyboard introduced with the VT220 and subsequent terminals. Prototype Photos 2. Design &amp; Features Classic PC Legend Strip: The Class 60 V2 condenses the LK201’s signature thick bezels a — 687 pts · 1 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>kai.kbd announces Botanica release date and pricing</title>
+    <link>https://kaikbd.com/botanica</link>
+    <guid isPermaLink="false">email-1a1649a9204d737c</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Kaikbd</source>
+    <description>Botanica releases November 13 as a 100-unit raffle with base kits priced at $544-$550, featuring a complete acoustic revision and three colorways. — ✉ Kaikbd</description>
   </item>
   <item>
     <title>[GB] GMK CYL OG Extensions | GB COMPLETE</title>
@@ -2172,17 +2182,6 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ G</source>
     <description>KBDfans is closing pre-orders for the wireless Tofu PAD desk mat on May 29. — ✉ G</description>
-  </item>
-  <item>
-    <title>[IC] OF Studio  OF1 60% Keyboard Kit</title>
-    <link>https://geekhack.org/index.php?topic=126510.0</link>
-    <guid isPermaLink="false">geekhack-126510</guid>
-    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
-    <description>OF Studio - OF1 60% Keyboard Hi everyone, We’re excited to share an early look at the OF1 Keyboard Kit by OF Studio. This project is entering the final stage before launch, and we’d love to gather feedback from the community. Project Overview The OF1 is a fully realized keyboard project with mass production already completed, positioning it as a low-risk group buy with a fast turnaround. Unlike traditional GBs, this is closer to a ready-to-ship model, with only final configurations remaining before launch. Keyboard Specs Specifications Layout: 60% (WKL / HHKB / WK) Typing Angle: 8° Front Heigh — 3773 pts · 4 comments · Geekhack · Interest Checks</description>
   </item>
 </channel>
 </rss>
