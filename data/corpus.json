@@ -134,42 +134,50 @@
               {
                 "vendor": "Join the interest check",
                 "url": "https://mugen.cat/projects/zoltraak/ic",
-                "host": "mugen.cat"
+                "host": "mugen.cat",
+                "metadata_fetched_at": "2026-10-23T12:07:05.244852+00:00"
               },
               {
                 "vendor": "Project Website",
                 "url": "https://mugen.cat/projects/zoltraak",
-                "host": "mugen.cat"
+                "host": "mugen.cat",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245045+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/",
-                "host": "prototypist.net"
+                "host": "prototypist.net",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245051+00:00"
               },
               {
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com/",
-                "host": "deltakeyco.com"
+                "host": "deltakeyco.com",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245055+00:00"
               },
               {
                 "vendor": "Bowl Keyboards",
                 "url": "https://bowlkeyboards.com/",
-                "host": "bowlkeyboards.com"
+                "host": "bowlkeyboards.com",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245058+00:00"
               },
               {
                 "vendor": "UniKeys",
                 "url": "https://unikeyboards.com/",
-                "host": "unikeyboards.com"
+                "host": "unikeyboards.com",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245060+00:00"
               },
               {
                 "vendor": "MilkyWay",
                 "url": "https://mwkeys.com/",
-                "host": "mwkeys.com"
+                "host": "mwkeys.com",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245063+00:00"
               },
               {
                 "vendor": "PantheonKeys",
                 "url": "https://pantheonkeys.com/",
-                "host": "pantheonkeys.com"
+                "host": "pantheonkeys.com",
+                "metadata_fetched_at": "2026-10-23T12:07:05.245065+00:00"
               }
             ],
             "designer": "me and MW Keys"
@@ -440,7 +448,7 @@
                 "vendor": "Zfrontier",
                 "url": "https://www.zfrontier.com/app/user/Kjj16AnAGbxL2k",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:06:58.888061+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:05.245077+00:00"
               }
             ],
             "designer": "ises"
@@ -483,7 +491,7 @@
                 "vendor": "NyxKeys Official Website",
                 "url": "https://www.nyxkeys.com/",
                 "host": "www.nyxkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:06:58.888239+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:05.245082+00:00"
               }
             ],
             "status": "live"
@@ -792,7 +800,7 @@
                 "vendor": "https://divinikey.com/collections/new-arrivals/products/mw-meteor-dreams-keycaps",
                 "url": "https://divinikey.com/collections/new-arrivals/products/mw-meteor-dreams-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:06:59.186764+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:05.456685+00:00",
                 "price_low": 1900,
                 "price_high": 11000,
                 "available": true
@@ -801,7 +809,7 @@
                 "vendor": "https://www.deskhero.ca/products/mw-meteor-dreams-keycaps",
                 "url": "https://www.deskhero.ca/products/mw-meteor-dreams-keycaps",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:06:59.396964+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:05.690002+00:00",
                 "price_low": 2500,
                 "price_high": 14800,
                 "currency": "CAD",
@@ -811,7 +819,7 @@
                 "vendor": "https://monacokeys.de/products/mw-meteor-dreams-abs-double-shot-keycap-set",
                 "url": "https://monacokeys.de/products/mw-meteor-dreams-abs-double-shot-keycap-set",
                 "host": "monacokeys.de",
-                "metadata_fetched_at": "2026-10-22T12:06:59.609505+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:05.871336+00:00",
                 "price_low": 1500,
                 "price_high": 9500,
                 "available": false
@@ -820,7 +828,7 @@
                 "vendor": "https://ktechs.store/collections/group-buy/products/mw-meteor-dreams",
                 "url": "https://ktechs.store/collections/group-buy/products/mw-meteor-dreams",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:06:59.877147+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:06.148900+00:00",
                 "price_low": 1850,
                 "price_high": 12300,
                 "currency": "SGD",
@@ -830,7 +838,7 @@
                 "vendor": "https://prototypist.net/products/group-buy-mw-meteor-dreams",
                 "url": "https://prototypist.net/products/group-buy-mw-meteor-dreams",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:00.147746+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:06.366373+00:00",
                 "price_low": 1167,
                 "price_high": 7167,
                 "currency": "GBP",
@@ -840,19 +848,19 @@
                 "vendor": "https://en.zfrontier.com/products/group-buy-mw-meteor-dreams",
                 "url": "https://en.zfrontier.com/products/group-buy-mw-meteor-dreams",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:00.338670+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:06.541465+00:00"
               },
               {
                 "vendor": "https://torokeeb.store/products/gb-mw-meteor-dreams",
                 "url": "https://torokeeb.store/products/gb-mw-meteor-dreams",
                 "host": "torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:00.536611+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:06.754094+00:00"
               },
               {
                 "vendor": "https://klc-playground.com/products/gb-mw-meteor-dreams",
                 "url": "https://klc-playground.com/products/gb-mw-meteor-dreams",
                 "host": "klc-playground.com",
-                "metadata_fetched_at": "2026-10-22T12:07:00.766526+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:06.994922+00:00"
               }
             ],
             "related_threads": [
@@ -935,7 +943,7 @@
                 "vendor": "Cannon Keys",
                 "url": "https://cannonkeys.com/products/gmk-rainy-day-r3?variant=41415127761007",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:00.962846+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:07.160280+00:00",
                 "price_low": 1800,
                 "price_high": 13500,
                 "currency": "USD",
@@ -945,7 +953,7 @@
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/products/gmk-cyl-rainy-day-r3-keycaps",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:01.187363+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:07.350402+00:00",
                 "price_low": 4500,
                 "price_high": 21400,
                 "currency": "CAD",
@@ -955,7 +963,7 @@
                 "vendor": "CoffeeKeys",
                 "url": "https://coffeekeys.eu/en-us/products/group-buy-gmk-rainy-day-r3-eng?_su_rec=FNus6QlUTarBjKyOE4W5gIoutqQG9IQqvc7jr5Ir2BEz0CFii8XFeOzQuH_8aaNmGzhLx5QhYzpdFoV1wgAGXPrpTz6yhGZiFXuPT0fFpPHZ_NnsR8rOTvVG5U6PeyKa-ZJr1HF7n7TW34oB3hnDRO6wqvqvxu55VNJOuiZgGA7xyaTu4p6_1YoNDsdLYIFTdbZla9p3bW5joEJa9xo12YjKGF8EZay5YHPTHPrAKusqfGwbvIPtvnArn0Of4Q6jXps5YyJntme0sS8yhdhYxkgjeRcewmShJDr05OtkmHM_3EwMdLdBGOx8_zTKzGbb4i1olMavcT5pEX5swYjK&_su_rec_id=52469a3d-d039-435d-ae8e-2dc40458f8da-1791462191",
                 "host": "coffeekeys.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:01.647519+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:07.728094+00:00",
                 "price_low": 1800,
                 "price_high": 13000,
                 "available": true
@@ -964,7 +972,7 @@
                 "vendor": "Keebz N Cables",
                 "url": "https://www.keebzncables.com/products/gmk-cyl-rainy-day-r3?_su_rec=VqZ3x08MsADhG4LV_NKqRkyqgS_MG-8EnJA3gZvvT6IG1Kc23WjiaRXASX2ljhpuDVRKi0Z8L9E01WWHrIphD9ONRYN5eXBTiTN0RK-_omOxc0rsWgAqZp2CwyuJX9XU4D0LltjspyeOhzaU8CEGRbcHpfDA0Nr7ZRrZQMqOdZxFi2nQywVrxXd1lMp7YeuxZmZ5gWPZSx3me9P07QUBFWcbT884AF4TkyWQx1976Cifr50FFt2Q9dMJkz1AeR_X0YgziIGjiuc_EvB99WOAsG1Ji6QL5kYrLgMB6BPMC_Awm8_h-ufvMg3kwXkw_AabNZ3GlMSPaBVF8j5NWHaE_7aYXns&_su_rec_id=735bc4a5-2feb-4a49-8696-63f6de16c19a-1791462227",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:01.932454+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:07.948585+00:00",
                 "price_low": 3000,
                 "price_high": 25000,
                 "currency": "AUD",
@@ -974,7 +982,7 @@
                 "vendor": "KBDFans",
                 "url": "https://kbdfans.com/products/gmk-cyl-rainy-day-r3?srsltid=AU7gw4XV7z8UIm3PxLlarw3RG4KFz4j8Qy6QH3aZ8W67jOvpSRTy8HP5",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.122658+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:08.136914+00:00",
                 "price_low": 2900,
                 "price_high": 14500,
                 "currency": "USD",
@@ -984,7 +992,7 @@
                 "vendor": "Geon",
                 "url": "https://geon.works/products/group-buy-gmk-cyl-rainy-day-r3",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:02.335760+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:08.333928+00:00",
                 "price_low": 1800,
                 "price_high": 13500,
                 "currency": "USD",
@@ -994,7 +1002,7 @@
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/products/group-buy-gmk-rainy-day-r3?_su_rec=I2r4krfUPKthZmRCwMgGWEmxA0cvb1NazC5rIzEeK4KZtT4AoFixWt9ns2Q0oTtFyfc6wlv8UEbKsG3lEFNHi9VeW_Dmvz4e9fC-TlsF1TKbW08124SUNpgo0BPsPi7YHoTsNKBYtPIDRWB3w0OnxwpTN72LRTxBQ2zs6j94jed5czdYz2lgj32vBuFguPz77CW0sngKFuZIPK6bNOtNn3FEoCjP99ZsPomE4RzLJ_G1SNNAk-5uRlUcdtp2i5fCU_u-RAB2xATRylmpY4JRi8dUnOdiRBWEa-OU94Xvh3gYL-FSCVuqEPWCiFfbLVmoKoTk92BY7oruohJykbI&_su_rec_id=64f53fc5-b447-4b8f-a54d-26b34f56b7f2-1791462314",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.594347+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:08.565592+00:00",
                 "price_low": 2600,
                 "price_high": 18900,
                 "currency": "SGD",
@@ -1004,7 +1012,7 @@
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-rainy-day-r3",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:02.785825+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:08.738440+00:00",
                 "price_low": 1333,
                 "price_high": 10250,
                 "currency": "GBP",
@@ -1331,7 +1339,7 @@
                 "vendor": "Interactive Kits",
                 "url": "https://bord.design/moonwake",
                 "host": "bord.design",
-                "metadata_fetched_at": "2026-10-22T12:07:02.785898+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738506+00:00"
               }
             ]
           },
@@ -1538,31 +1546,31 @@
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.785944+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738530+00:00"
               },
               {
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.785965+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738539+00:00"
               },
               {
                 "vendor": "Qwertyqop",
                 "url": "https://qwertyqop.com",
                 "host": "qwertyqop.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.785986+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738547+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:02.786004+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738554+00:00"
               },
               {
                 "vendor": "KeyBay.tech",
                 "url": "https://keybay.tech",
                 "host": "keybay.tech",
-                "metadata_fetched_at": "2026-10-22T12:07:02.786021+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738561+00:00"
               }
             ]
           },
@@ -2163,13 +2171,13 @@
                 "vendor": "https://www.twitch.tv/videos/792335918",
                 "url": "https://www.twitch.tv/videos/792335918",
                 "host": "www.twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:02.786069+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:08.738590+00:00"
               },
               {
                 "vendor": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
                 "url": "https://cannonkeys.com/collections/featured/products/gb-sagittarius-keyboard-reference",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:02.996540+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:08.903492+00:00",
                 "price_low": 48500,
                 "currency": "USD",
                 "available": false
@@ -2178,7 +2186,7 @@
                 "vendor": "https://dailyclack.com/products/sagittarius-keyboard-kit",
                 "url": "https://dailyclack.com/products/sagittarius-keyboard-kit",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200482+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:09.098163+00:00",
                 "price_low": 900,
                 "price_high": 67900,
                 "currency": "AUD",
@@ -2258,13 +2266,13 @@
                 "vendor": "WEBSITE |",
                 "url": "https://sxmdesigns.com/gmk-medusa/",
                 "host": "sxmdesigns.com",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200560+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:09.098204+00:00"
               },
               {
                 "vendor": "DISCORD |",
                 "url": "https://discord.sxmdesigns.com/",
                 "host": "discord.sxmdesigns.com",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200586+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:09.098215+00:00"
               }
             ]
           },
@@ -2349,7 +2357,7 @@
                 "vendor": "Novelkeys",
                 "url": "http://x",
                 "host": "x",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200610+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:09.098226+00:00"
               }
             ],
             "starts_at": "2026-10-02",
@@ -2614,13 +2622,13 @@
                 "vendor": "GSD Store",
                 "url": "https://godsson-designs.co",
                 "host": "godsson-designs.co",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200640+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:09.098244+00:00"
               },
               {
                 "vendor": "Twitch",
                 "url": "https://twitch.tv/godsson-designs",
                 "host": "twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:03.200660+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:09.098252+00:00"
               }
             ],
             "photo_credit": "NoNumbers"
@@ -2686,7 +2694,7 @@
                 "vendor": "Bowl Keyboards",
                 "url": "https://bowlkeyboards.com/products/gb-gmk-dinokidz",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:03.448746+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:09.365400+00:00",
                 "price_low": 3700,
                 "price_high": 11200,
                 "currency": "USD",
@@ -2696,7 +2704,7 @@
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com/products/gmk-cyl-dinokidz",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:03.769376+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:09.619685+00:00",
                 "price_low": 4800,
                 "price_high": 14500,
                 "available": true
@@ -2705,7 +2713,7 @@
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-dinokidz",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:04.004530+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:09.799447+00:00",
                 "price_low": 3500,
                 "price_high": 10333,
                 "currency": "GBP",
@@ -2715,7 +2723,7 @@
                 "vendor": "KLC",
                 "url": "https://klc-playground.com/products/keycap-gmk-cyl-dinokidz",
                 "host": "klc-playground.com",
-                "metadata_fetched_at": "2026-10-22T12:07:04.213771+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:09.960611+00:00",
                 "price_low": 4600,
                 "price_high": 13700,
                 "available": true
@@ -2724,17 +2732,17 @@
                 "vendor": "KBDFans",
                 "url": "https://kbdfans.com/products/gmk-cyl-dinokidz",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:04.371778+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:10.119344+00:00",
                 "price_low": 4500,
                 "price_high": 14500,
                 "currency": "USD",
-                "available": true
+                "available": false
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/products/group-buy-gmk-cyl-dinokidz",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:04.538127+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:10.272783+00:00",
                 "price_low": 6500,
                 "price_high": 18900,
                 "currency": "SGD",
@@ -2744,7 +2752,7 @@
                 "vendor": "Keebz N Cables",
                 "url": "https://www.keebzncables.com/collections/live-group-buys/products/gmk-cyl-dinokidz",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:04.727591+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:10.456328+00:00",
                 "price_low": 7400,
                 "price_high": 23500,
                 "currency": "AUD",
@@ -2912,13 +2920,13 @@
                 "vendor": "KeebSupply",
                 "url": "https://keeb.supply/products/dcs-smrt-r2",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-10-22T12:07:05.048437+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:11.501047+00:00"
               },
               {
                 "vendor": "Toro Studio",
                 "url": "https://torokeeb.store/products/gb-dcs-smrt-r2",
                 "host": "torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:05.212533+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:11.652340+00:00",
                 "price_low": 1400,
                 "price_high": 17500,
                 "currency": "EUR",
@@ -2928,7 +2936,7 @@
                 "vendor": "GeonWorks",
                 "url": "https://geon.works/products/group-buy-dcs-smrt-r2",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:05.383344+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:11.800323+00:00",
                 "price_low": 700,
                 "price_high": 11000,
                 "currency": "USD",
@@ -2938,17 +2946,17 @@
                 "vendor": "IlumKb",
                 "url": "https://ilumkb.com/products/group-buy-dcs-smrt-r2",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:05.728459+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:11.963648+00:00",
                 "price_low": 1000,
                 "price_high": 15300,
                 "currency": "SGD",
-                "available": true
+                "available": false
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-dcs-smrt-r2",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:06.228481+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:12.150693+00:00",
                 "price_low": 500,
                 "price_high": 9000,
                 "currency": "GBP",
@@ -2958,16 +2966,16 @@
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/collections/keycap-sets/products/sp-dcs-smrt-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:06.452934+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:12.373636+00:00",
                 "price_low": 700,
                 "price_high": 11000,
-                "available": true
+                "available": false
               },
               {
                 "vendor": "in their store",
                 "url": "https://sneakbox.com/products/signature-plastics-dcs-bae?_pos=1&_psq=bae&_psid=1dddb48d8&_ss=e",
                 "host": "sneakbox.com",
-                "metadata_fetched_at": "2026-10-22T12:07:06.811648+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:12.628202+00:00",
                 "price_low": 390,
                 "available": true
               }
@@ -3047,13 +3055,13 @@
                 "vendor": "https://www.jackylab.com/products/rhino60",
                 "url": "https://www.jackylab.com/products/rhino60",
                 "host": "www.jackylab.com",
-                "metadata_fetched_at": "2026-10-22T12:07:07.043880+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:12.789474+00:00"
               },
               {
                 "vendor": "https://bit.ly/4dQM2Mw",
                 "url": "https://bit.ly/4dQM2Mw",
                 "host": "bit.ly",
-                "metadata_fetched_at": "2026-10-22T12:07:07.043948+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:12.789524+00:00"
               }
             ],
             "designer": "shifting to a sharper"
@@ -3119,7 +3127,7 @@
                 "vendor": "SPKeyboards.com",
                 "url": "https://spkeyboards.com/products/dcs-smrt-keycaps",
                 "host": "spkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:07.414396+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:13.066409+00:00",
                 "price_low": 500,
                 "price_high": 9900,
                 "available": false
@@ -3128,22 +3136,22 @@
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/products/sp-dcs-smrt-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:07.638641+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:13.457878+00:00",
                 "price_low": 700,
                 "price_high": 11000,
-                "available": true
+                "available": false
               },
               {
                 "vendor": "Keeb.supply",
                 "url": "https://keeb.supply/products/dcs-smrt",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-10-22T12:07:08.245097+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:14.074502+00:00"
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/pre-order-dcs-smrt",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:08.473535+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:14.233662+00:00",
                 "price_low": 1500,
                 "price_high": 7833,
                 "currency": "GBP",
@@ -3153,7 +3161,7 @@
                 "vendor": "ZFrontier",
                 "url": "https://www.zfrontier.com/app/mch/lWrYdwGvk8Q1",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:08.473572+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:14.233766+00:00"
               }
             ],
             "related_threads": [
@@ -3898,13 +3906,13 @@
                 "vendor": "https://www.nbcuni.co.jp/rondorobe/anime/lain/ttl/",
                 "url": "https://www.nbcuni.co.jp/rondorobe/anime/lain/ttl/",
                 "host": "www.nbcuni.co.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:08.473649+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:14.233829+00:00"
               },
               {
                 "vendor": "https://prototypist.net/collections/live-group-buys/products/group-buy-navi60",
                 "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-navi60",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:09.582168+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:15.402157+00:00",
                 "price_low": 17417,
                 "currency": "GBP",
                 "available": false
@@ -3913,13 +3921,13 @@
                 "vendor": "https://www.ashkeebs.com/product/navi60-keyboard/",
                 "url": "https://www.ashkeebs.com/product/navi60-keyboard/",
                 "host": "www.ashkeebs.com",
-                "metadata_fetched_at": "2026-10-22T12:07:09.582283+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:15.402208+00:00"
               },
               {
                 "vendor": "https://basekeys.jp/en/products/navi60",
                 "url": "https://basekeys.jp/en/products/navi60",
                 "host": "basekeys.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:09.803581+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:15.593500+00:00",
                 "price_low": 3300000,
                 "price_high": 3825000,
                 "available": false
@@ -3928,25 +3936,25 @@
                 "vendor": "https://keebsforall.com/products/navi-60",
                 "url": "https://keebsforall.com/products/navi-60",
                 "host": "keebsforall.com",
-                "metadata_fetched_at": "2026-10-22T12:07:10.012513+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:15.853405+00:00"
               },
               {
                 "vendor": "https://keygem.com/products/navi60-keyboard-kit-group-buy",
                 "url": "https://keygem.com/products/navi60-keyboard-kit-group-buy",
                 "host": "keygem.com",
-                "metadata_fetched_at": "2026-10-22T12:07:10.160158+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:16.114488+00:00"
               },
               {
                 "vendor": "https://allcaps.store/products/gb-navi60",
                 "url": "https://allcaps.store/products/gb-navi60",
                 "host": "allcaps.store",
-                "metadata_fetched_at": "2026-10-22T12:07:10.181149+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:16.133935+00:00"
               },
               {
                 "vendor": "https://pantheonkeys.com/collections/ongoing-group-buys/products/gb-psychetype-navi60",
                 "url": "https://pantheonkeys.com/collections/ongoing-group-buys/products/gb-psychetype-navi60",
                 "host": "pantheonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:10.415152+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:16.329680+00:00",
                 "price_low": 29500,
                 "price_high": 35650,
                 "available": false
@@ -3955,7 +3963,7 @@
                 "vendor": "https://thekeebs.store/products/groupbuy-navi60-keyboard-kit",
                 "url": "https://thekeebs.store/products/groupbuy-navi60-keyboard-kit",
                 "host": "thekeebs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:11.875795+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:17.671811+00:00",
                 "price_low": 525000000,
                 "price_high": 612500000,
                 "available": false
@@ -3964,13 +3972,13 @@
                 "vendor": "https://navi60.deskdaily.design/",
                 "url": "https://navi60.deskdaily.design/",
                 "host": "navi60.deskdaily.design",
-                "metadata_fetched_at": "2026-10-22T12:07:11.875838+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:17.671856+00:00"
               },
               {
                 "vendor": "pisca",
                 "url": "https://pisca.bandcamp.com/",
                 "host": "pisca.bandcamp.com",
-                "metadata_fetched_at": "2026-10-22T12:07:11.875848+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:17.671869+00:00"
               }
             ]
           },
@@ -4057,25 +4065,25 @@
                 "vendor": "Kono Store",
                 "url": "https://kono.store/collections/all-products-list/products/gmk-boho",
                 "host": "kono.store",
-                "metadata_fetched_at": "2026-10-22T12:07:13.465882+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.268517+00:00"
               },
               {
                 "vendor": "Ashkeebs",
                 "url": "https://www.ashkeebs.com/product/gmk-boho-keycaps-deskmat/",
                 "host": "www.ashkeebs.com",
-                "metadata_fetched_at": "2026-10-22T12:07:13.465949+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.268574+00:00"
               },
               {
                 "vendor": "SwitchKeys",
                 "url": "https://www.switchkeys.com.au/products/gmk-boho-group-buy",
                 "host": "www.switchkeys.com.au",
-                "metadata_fetched_at": "2026-10-22T12:07:13.675513+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.453362+00:00"
               },
               {
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-gmk-boho",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859049+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:19.620147+00:00",
                 "price_low": 1583,
                 "price_high": 8833,
                 "currency": "GBP",
@@ -4085,25 +4093,25 @@
                 "vendor": "MyKeyboard",
                 "url": "https://mykeyboard.eu/catalogue/category/group-buys/keycaps/gmk-boho_513/",
                 "host": "mykeyboard.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859094+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.620188+00:00"
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/search?q=GMK+Boho",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859109+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.620200+00:00"
               },
               {
                 "vendor": "zFrontier",
                 "url": "https://www.zfrontier.com/app/mch/BdkRmq7eP0No",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859119+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.620208+00:00"
               },
               {
                 "vendor": "Nerd Cables",
                 "url": "https://www.nerdcables.com/product-page/vagabond-gmk-boho",
                 "host": "www.nerdcables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859129+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.620216+00:00"
               }
             ],
             "starts_at": "2027-06-08",
@@ -4171,7 +4179,7 @@
                 "vendor": "Data General 6246",
                 "url": "https://deskthority.net/wiki/Data_General_6246",
                 "host": "deskthority.net",
-                "metadata_fetched_at": "2026-10-22T12:07:13.859138+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:19.620224+00:00"
               }
             ],
             "related_threads": [
@@ -4408,7 +4416,7 @@
                 "vendor": "Swagkeys",
                 "url": "https://swagkeys.com/products/group-buy-swg-hypermix",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:14.078603+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:19.823026+00:00",
                 "price_low": 1200,
                 "price_high": 6700,
                 "available": true
@@ -4417,7 +4425,7 @@
                 "vendor": "Bowlkeyboards",
                 "url": "https://bowlkeyboards.com/products/gb-swg-hypermix",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:14.240224+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:19.978402+00:00",
                 "price_low": 1200,
                 "price_high": 6700,
                 "currency": "USD",
@@ -4427,7 +4435,7 @@
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com/products/swg-hypermix",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:14.437068+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:20.142251+00:00",
                 "price_low": 1500,
                 "price_high": 7500,
                 "available": true
@@ -4436,7 +4444,7 @@
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/collections/group-buy/products/18366",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:14.754036+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:20.429609+00:00",
                 "price_low": 220000,
                 "price_high": 1155000,
                 "currency": "JPY",
@@ -4446,7 +4454,7 @@
                 "vendor": "proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-swg-hypermix",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:14.918309+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:20.778354+00:00",
                 "price_low": 917,
                 "price_high": 5083,
                 "currency": "GBP",
@@ -4456,7 +4464,7 @@
                 "vendor": "KeyBay",
                 "url": "https://keybay.tech/products/gb-swg-hypermix",
                 "host": "keybay.tech",
-                "metadata_fetched_at": "2026-10-22T12:07:15.108099+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:21.200121+00:00",
                 "price_low": 1900,
                 "price_high": 9900,
                 "available": false
@@ -4465,7 +4473,7 @@
                 "vendor": "Qwertyqop",
                 "url": "https://qwertyqop.com/products/swg-hypermix-keycaps",
                 "host": "qwertyqop.com",
-                "metadata_fetched_at": "2026-10-22T12:07:15.282167+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:21.525751+00:00",
                 "price_low": 1600,
                 "price_high": 8700,
                 "available": true
@@ -4474,7 +4482,7 @@
                 "vendor": "Aiglatson",
                 "url": "https://aiglatsonstudio.com/products/gb-swg-hypermix",
                 "host": "aiglatsonstudio.com",
-                "metadata_fetched_at": "2026-10-22T12:07:15.658237+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:21.944013+00:00",
                 "price_low": 65000,
                 "price_high": 265000,
                 "available": true
@@ -4609,7 +4617,7 @@
                 "vendor": "https://mtlab.work/",
                 "url": "https://mtlab.work/",
                 "host": "mtlab.work",
-                "metadata_fetched_at": "2026-10-22T12:07:15.658339+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:21.944086+00:00"
               }
             ]
           },
@@ -4658,7 +4666,7 @@
                 "vendor": "Page Link",
                 "url": "https://kbdfans.com/products/gmk-cyl-draco",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:15.811989+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:22.111479+00:00"
               }
             ],
             "designer": "Chaldea in a parallel world"
@@ -4731,7 +4739,7 @@
                 "vendor": "https://www.gmk.net/shop/gmk-cyl-ishtar-r2-keycaps/gmk10098.5",
                 "url": "https://www.gmk.net/shop/gmk-cyl-ishtar-r2-keycaps/gmk10098.5",
                 "host": "www.gmk.net",
-                "metadata_fetched_at": "2026-10-22T12:07:15.812050+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:22.111539+00:00"
               }
             ]
           },
@@ -4914,7 +4922,7 @@
                 "vendor": "Saberkeebs",
                 "url": "https://saberkeebs.com/products/group-buy-dcs-holy-caster",
                 "host": "saberkeebs.com",
-                "metadata_fetched_at": "2026-10-22T12:07:16.068241+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:22.369519+00:00",
                 "price_low": 2100,
                 "price_high": 14600,
                 "currency": "USD",
@@ -4924,19 +4932,19 @@
                 "vendor": "Nyxkeys",
                 "url": "https://www.nyxkeys.com/store/product/YYBJ51UOciSxI6Vzh1RB",
                 "host": "www.nyxkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:16.068282+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:22.369544+00:00"
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/collections/live-group-buys",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:16.080392+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:22.369550+00:00"
               },
               {
                 "vendor": "CoffeeKeys",
                 "url": "https://coffeekeys.eu/it-us/collections/upcoming/products/group-buy-dcs-holy-caster",
                 "host": "coffeekeys.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:16.253009+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:22.589723+00:00",
                 "price_low": 1800,
                 "price_high": 12700,
                 "available": false
@@ -4945,7 +4953,7 @@
                 "vendor": "Ktechs",
                 "url": "https://ktechs.store/collections/keycaps/products/dcs-holy-caster?_pos=1&_fid=453871dee&_ss=c",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:16.429379+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:22.973706+00:00",
                 "price_low": 1550,
                 "price_high": 16000,
                 "currency": "SGD",
@@ -5128,7 +5136,7 @@
                 "vendor": "DeltaKeyCo",
                 "url": "https://deltakeyco.com/products/kkb-cobalt",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:16.587417+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:23.131976+00:00",
                 "price_low": 1800,
                 "price_high": 9900,
                 "available": true
@@ -5137,7 +5145,7 @@
                 "vendor": "Monacokeys",
                 "url": "https://monacokeys.de/products/kkb-cobalt-cherry-profile-abs-double-shot-keycap-set",
                 "host": "monacokeys.de",
-                "metadata_fetched_at": "2026-10-22T12:07:16.776919+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:23.280611+00:00",
                 "price_low": 1790,
                 "price_high": 9900,
                 "available": false
@@ -5146,7 +5154,7 @@
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/products/keykobo-cobalt-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:16.944678+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:23.474057+00:00",
                 "price_low": 1750,
                 "price_high": 8900,
                 "available": true
@@ -5155,7 +5163,7 @@
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-kkb-cobalt",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:17.110786+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:23.654159+00:00",
                 "price_low": 1250,
                 "price_high": 7000,
                 "currency": "GBP",
@@ -5165,25 +5173,25 @@
                 "vendor": "KeebzNCables",
                 "url": "https://www.keebzncables.com/",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:17.111018+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:23.654204+00:00"
               },
               {
                 "vendor": "Zfrontier",
                 "url": "https://www.zfrontier.com/",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:17.111089+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:23.654217+00:00"
               },
               {
                 "vendor": "Geon",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:17.111117+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:23.654226+00:00"
               },
               {
                 "vendor": "Ktechs.store",
                 "url": "https://ktechs.store/products/keykobo-cobalt",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:17.597361+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:23.863583+00:00",
                 "price_low": 2200,
                 "price_high": 11400,
                 "currency": "SGD",
@@ -5193,7 +5201,7 @@
                 "vendor": "Unikeys",
                 "url": "https://unikeyboards.com/collections/keyboard-keycaps/products/gb-keykobo-cobalt-abs-double-shot-keycap-set",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:17.803189+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.139975+00:00",
                 "price_low": 1700,
                 "price_high": 8900,
                 "available": true
@@ -5202,13 +5210,13 @@
                 "vendor": "Keykobo",
                 "url": "https://www.keykobo.com/",
                 "host": "www.keykobo.com",
-                "metadata_fetched_at": "2026-10-22T12:07:17.803234+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.140019+00:00"
               },
               {
                 "vendor": "Khor",
                 "url": "https://khor.store/",
                 "host": "khor.store",
-                "metadata_fetched_at": "2026-10-22T12:07:17.803247+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.140032+00:00"
               }
             ],
             "status": "ended"
@@ -5438,7 +5446,7 @@
                 "vendor": "https://cannonkeys.com/",
                 "url": "https://cannonkeys.com/",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:17.803263+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.140081+00:00"
               }
             ]
           },
@@ -5587,7 +5595,7 @@
                 "vendor": "https://mtnkbd.com/products/split60",
                 "url": "https://mtnkbd.com/products/split60",
                 "host": "mtnkbd.com",
-                "metadata_fetched_at": "2026-10-22T12:07:18.005131+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.335769+00:00",
                 "price_low": 60000,
                 "available": false,
                 "price_high": 80000
@@ -5652,19 +5660,19 @@
                 "vendor": "kbd0.com/item/curve0",
                 "url": "https://kbd0.com/item/curve0",
                 "host": "kbd0.com",
-                "metadata_fetched_at": "2026-10-22T12:07:18.005172+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.335811+00:00"
               },
               {
                 "vendor": "their site",
                 "url": "https://usevia.app/",
                 "host": "usevia.app",
-                "metadata_fetched_at": "2026-10-22T12:07:18.005184+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.335822+00:00"
               },
               {
                 "vendor": "component",
                 "url": "https://www.physicsclassroom.com/class/vectors/u3l1d",
                 "host": "www.physicsclassroom.com",
-                "metadata_fetched_at": "2026-10-22T12:07:18.005193+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:24.335831+00:00"
               }
             ],
             "related_threads": [
@@ -5732,7 +5740,7 @@
                 "vendor": "Mekibo",
                 "url": "https://mekibo.com/products/dcs-hangul-pbt",
                 "host": "mekibo.com",
-                "metadata_fetched_at": "2026-10-22T12:07:18.218206+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.514860+00:00",
                 "price_low": 13000,
                 "price_high": 15000,
                 "available": true
@@ -5741,7 +5749,7 @@
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-dcs-hangul-pbt",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:18.528999+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.694901+00:00",
                 "price_low": 9083,
                 "price_high": 10667,
                 "currency": "GBP",
@@ -5751,7 +5759,7 @@
                 "vendor": "ktechs",
                 "url": "https://ktechs.store/products/dcs-hangul-pbt",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:18.726680+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.852949+00:00",
                 "price_low": 19000,
                 "price_high": 20700,
                 "currency": "SGD",
@@ -5878,7 +5886,7 @@
                 "vendor": "Bowlkeyboards.com",
                 "url": "https://bowlkeyboards.com/products/dcs-clown",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:18.879776+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:24.990411+00:00",
                 "price_low": 6500,
                 "currency": "USD",
                 "available": false
@@ -6216,7 +6224,7 @@
                 "vendor": "Novelkeys",
                 "url": "https://novelkeys.com/collections/top-dogs/products/gmk-cyl-power-2048-keycaps",
                 "host": "novelkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:19.120632+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:25.201937+00:00",
                 "price_low": 5500,
                 "price_high": 16500,
                 "currency": "USD",
@@ -6226,7 +6234,7 @@
                 "vendor": "Oblotzky Industries",
                 "url": "https://oblotzky.industries/products/gmk-cyl-power-2048",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-10-22T12:07:19.284586+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:25.447896+00:00",
                 "price_low": 3900,
                 "price_high": 13900,
                 "currency": "EUR",
@@ -6236,7 +6244,7 @@
                 "vendor": "Ilumkb",
                 "url": "https://ilumkb.com/products/gmk-cyl-power-2048",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:19.444570+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:25.608063+00:00",
                 "price_low": 7900,
                 "price_high": 22900,
                 "currency": "SGD",
@@ -6246,7 +6254,7 @@
                 "vendor": "KBDfans",
                 "url": "https://kbdfans.com/products/gmk-cyl-power-2048?sacode=shn6n9",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:19.606506+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:25.765514+00:00",
                 "price_low": 4800,
                 "price_high": 26400,
                 "currency": "USD",
@@ -6256,7 +6264,7 @@
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-power-2048?_pos=1&_sid=6481de5b7&_ss=r",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:19.789774+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:25.926051+00:00",
                 "price_low": 3417,
                 "price_high": 11083,
                 "currency": "GBP",
@@ -6266,7 +6274,7 @@
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/products/gmk-cyl-power-2048",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:19.968163+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:26.074324+00:00",
                 "price_low": 7400,
                 "price_high": 23900,
                 "currency": "CAD",
@@ -6276,7 +6284,7 @@
                 "vendor": "Geon",
                 "url": "https://geon.works/products/group-buy-gmk-cyl-power-2048",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:20.144477+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:26.224064+00:00"
               }
             ],
             "starts_at": "2027-04-03",
@@ -6452,7 +6460,7 @@
                 "vendor": "Saber Keebs",
                 "url": "https://saberkeebs.com/products/dcs-after-school-1992-40s-kit",
                 "host": "saberkeebs.com",
-                "metadata_fetched_at": "2026-10-22T12:07:20.312196+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:26.397985+00:00",
                 "price_low": 1000,
                 "price_high": 14000,
                 "currency": "USD",
@@ -6462,13 +6470,13 @@
                 "vendor": "KeebSupply",
                 "url": "https://keeb.supply/products/dcs-after-school-1992",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-10-22T12:07:20.927956+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:27.172773+00:00"
               },
               {
                 "vendor": "Keebz N Cables",
                 "url": "https://www.keebzncables.com/products/dcs-after-school",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:21.077026+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:27.329358+00:00",
                 "price_low": 21500,
                 "currency": "AUD",
                 "available": true
@@ -6477,7 +6485,7 @@
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-dcs-after-school-1992-40s-keycap-set",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:21.244483+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:27.499764+00:00",
                 "price_low": 750,
                 "price_high": 10583,
                 "currency": "GBP",
@@ -6487,7 +6495,7 @@
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/products/11897",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:21.581217+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:27.644272+00:00",
                 "price_low": 176000,
                 "price_high": 2420000,
                 "currency": "JPY",
@@ -7249,7 +7257,7 @@
                 "vendor": "severe.design",
                 "url": "http://severe.design",
                 "host": "severe.design",
-                "metadata_fetched_at": "2026-10-22T12:07:21.581378+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:27.644357+00:00"
               }
             ]
           },
@@ -7704,7 +7712,7 @@
                 "vendor": "Divinikeys",
                 "url": "https://divinikey.com/collections/keycap-sets/products/mw-virtual-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:21.889668+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:27.808082+00:00",
                 "price_low": 1500,
                 "price_high": 9000,
                 "available": true
@@ -7713,7 +7721,7 @@
                 "vendor": "Unikeys",
                 "url": "https://unikeyboards.com/products/mw-virtual-abs-doubleshot-keycap-set-group-buy",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.031279+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:27.971915+00:00",
                 "price_low": 1500,
                 "price_high": 9000,
                 "available": true
@@ -7722,13 +7730,13 @@
                 "vendor": "Inputgearstore",
                 "url": "https://inputgear.com/",
                 "host": "inputgear.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.031348+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:27.971956+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/products/group-buy-mw-virtual",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:22.431322+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:28.661158+00:00",
                 "price_low": 1167,
                 "price_high": 7250,
                 "currency": "GBP",
@@ -7738,7 +7746,7 @@
                 "vendor": "Keebzncables",
                 "url": "https://www.keebzncables.com/products/mw-virtual",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.579332+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:28.834556+00:00",
                 "price_low": 2400,
                 "price_high": 14500,
                 "currency": "AUD",
@@ -7748,13 +7756,13 @@
                 "vendor": "Geon.works",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:22.579371+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:28.834602+00:00"
               },
               {
                 "vendor": "Ktechs.store",
                 "url": "https://ktechs.store/products/mw-virtual",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:22.778887+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:28.997256+00:00",
                 "price_low": 1950,
                 "price_high": 11700,
                 "currency": "SGD",
@@ -7764,7 +7772,7 @@
                 "vendor": "Mecha",
                 "url": "https://www.mecha.com.my/products/gb-mw-virtual-abs-double-shot-keycap-set?variant=49804970524810",
                 "host": "www.mecha.com.my",
-                "metadata_fetched_at": "2026-10-22T12:07:22.960769+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:29.296699+00:00",
                 "price_low": 6900,
                 "price_high": 38900,
                 "available": false
@@ -7773,7 +7781,7 @@
                 "vendor": "Mokbstore",
                 "url": "https://mokbstore.com/mw-virtual-keycap-set",
                 "host": "mokbstore.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.960848+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.296834+00:00"
               }
             ]
           },
@@ -7931,7 +7939,7 @@
                 "vendor": "https://mtlab.work/",
                 "url": "https://mtlab.work/",
                 "host": "mtlab.work",
-                "metadata_fetched_at": "2026-10-22T12:07:22.960923+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.296895+00:00"
               }
             ],
             "designer": "streamli"
@@ -8012,13 +8020,13 @@
                 "vendor": "WEBSITE |",
                 "url": "https://sxmdesigns.com/gmk-cleopatra/",
                 "host": "sxmdesigns.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.960938+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.296913+00:00"
               },
               {
                 "vendor": "DISCORD |",
                 "url": "https://discord.sxmdesigns.com/",
                 "host": "discord.sxmdesigns.com",
-                "metadata_fetched_at": "2026-10-22T12:07:22.960947+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.296923+00:00"
               }
             ]
           },
@@ -8139,7 +8147,7 @@
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-arcade",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:23.563171+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:29.791400+00:00",
                 "price_low": 2667,
                 "price_high": 10250,
                 "currency": "GBP",
@@ -8149,7 +8157,7 @@
                 "vendor": "KbdFans",
                 "url": "https://kbdfans.com/products/gmk-cyl-arcade",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720699+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:29.940807+00:00",
                 "price_low": 3800,
                 "price_high": 13500,
                 "currency": "USD",
@@ -8226,49 +8234,49 @@
                 "vendor": "Milkyway Keys",
                 "url": "https://www.mwkeys.com/",
                 "host": "www.mwkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720749+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940892+00:00"
               },
               {
                 "vendor": "ktechs",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720759+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940906+00:00"
               },
               {
                 "vendor": "Coffeekeys",
                 "url": "https://coffeekeys.eu/en",
                 "host": "coffeekeys.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720768+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940916+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720776+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940924+00:00"
               },
               {
                 "vendor": "Unikeys",
                 "url": "https://unikeyboards.com/",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720783+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940931+00:00"
               },
               {
                 "vendor": "Keybay",
                 "url": "https://keybay.tech/",
                 "host": "keybay.tech",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720789+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940939+00:00"
               },
               {
                 "vendor": "Geonworks",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720796+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940954+00:00"
               },
               {
                 "vendor": "Keebz N Cables",
                 "url": "https://www.keebzncables.com/",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720803+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940961+00:00"
               }
             ],
             "designer": "Misonoworks MW Jirai is a cute keycap set"
@@ -8368,13 +8376,13 @@
                 "vendor": "Blackdrop",
                 "url": "http://blackdrop.net",
                 "host": "blackdrop.net",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720842+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940971+00:00"
               },
               {
                 "vendor": "Blackdrop",
                 "url": "https://blackdrop.net/projects/xteeeeeeeeeeeeeeeeeeeeeeeee",
                 "host": "blackdrop.net",
-                "metadata_fetched_at": "2026-10-22T12:07:23.720852+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:29.940991+00:00"
               }
             ],
             "related_threads": [
@@ -8528,7 +8536,7 @@
                 "vendor": "Bowl",
                 "url": "https://bowlkeyboards.com/collections/gb-preorder/products/gb-swg-heartbreaker",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:23.905707+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:30.106449+00:00",
                 "price_low": 1200,
                 "price_high": 6500,
                 "currency": "USD",
@@ -8538,7 +8546,7 @@
                 "vendor": "Swagkeys",
                 "url": "https://swagkeys.com/products/group-buy-swg-heartbreaker?_su_rec=t0f2ndcTw0qCrGavFttjYIBiJtiw5KqP9n4t3kZFTX5gpAHhuaL0VfssIBLaHOU4EHKzW5pDoiRQhGvgWL1gBV-Y2LgXLNNyKcxMW_kBK_8bzNUY4QCUW8lvl6oxsNFvk45PVwz_kAykZkza6OvtoOPb4kuCsXbRHMFiBsSDjBTbIFxCNOpG3gCCYcpnd6Yp1oYpItKMUn4KP7LPcxPPkppGOHauFyfykO9lzUUcpwLiMltc123_GAB6ZJ0URS6BLxAmLnBl_Vt22X0TXIdjCDSSvDg3qCPdXCcnvZrKjKuQwueir2GIw5GteQiG7XR3gxNG0cZZHJ0a9uBVwmXmWCHHY1sLWwd4amF9zWc3WuvnwQ&_su_rec_id=c0b34540-74cc-47e8-9bb1-3f3438fab10c-1784599323",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:24.079764+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:30.318473+00:00",
                 "price_low": 1200,
                 "price_high": 6500,
                 "available": true
@@ -8547,7 +8555,7 @@
                 "vendor": "Delta",
                 "url": "https://deltakeyco.com/products/swg-heartbreaker-pre-order",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:24.253284+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:30.471720+00:00",
                 "price_low": 1400,
                 "price_high": 7250,
                 "available": true
@@ -8556,7 +8564,7 @@
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/products/group-buy-swg-heartbreaker",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:24.701298+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:30.960704+00:00",
                 "price_low": 917,
                 "price_high": 5000,
                 "currency": "GBP",
@@ -8566,7 +8574,7 @@
                 "vendor": "Keybay",
                 "url": "https://keybay.tech/products/gb-swg-heartbreaker?variant=54220966134035",
                 "host": "keybay.tech",
-                "metadata_fetched_at": "2026-10-22T12:07:24.851886+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:31.165357+00:00",
                 "price_low": 1900,
                 "price_high": 9900,
                 "available": false
@@ -8575,7 +8583,7 @@
                 "vendor": "Aiglatson",
                 "url": "https://aiglatsonstudio.com/products/gb-swg-heartbreaker",
                 "host": "aiglatsonstudio.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.017155+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:31.328830+00:00",
                 "price_low": 49000,
                 "price_high": 335000,
                 "available": true
@@ -8584,7 +8592,7 @@
                 "vendor": "KTechs",
                 "url": "https://ktechs.store/products/swg-heartbreaker?_su_rec=Lo8M-cdIRz3zv8RUpdQ-jRCZ16mGFyT4O_J84wXJ2biPhno5Xrruk_HODa6PQuYG3pUJk6nUS-rloMRRrZj4jdQLO8C8DqSGFSofS3nIt_In8j53lGLwlfDQzjfrjo3UMK95yTKdzO0UQp14tgBlfzUKIzccSiCLlMe9isk0SbWrb_dtC9LKSNwdajBfcNEfV6gslSepf1oZUkhWJOKsO2Bjq5RHZ7qa_Np-A2BOkzDFDXf82kZVNP09jV-wBxiIDYVhtuELGUHWoKNwDCuUqZt2a9m1lpbvPBPS7ajklihhGIuqp0Q091Y7aE12tUu_PWPEzzpXV5u674xIAIAqMzUSVMwQt0gXpQo&_su_rec_id=49daa596-ef8d-4645-9d0c-09b2739f2ec6-1784599275",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:25.183908+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:31.481779+00:00",
                 "price_low": 1590,
                 "price_high": 8490,
                 "currency": "SGD",
@@ -8749,31 +8757,31 @@
                 "vendor": "Carolina Mech",
                 "url": "https://www.carolinamech.com",
                 "host": "www.carolinamech.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.184264+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:31.481841+00:00"
               },
               {
                 "vendor": "Van Dusen",
                 "url": "https://www.vdmfg.com/",
                 "host": "www.vdmfg.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.184286+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:31.481855+00:00"
               },
               {
                 "vendor": "Buy your kit @ carolinamech.com",
                 "url": "https://carolinamech.com/collections/gb-fossil-r2",
                 "host": "carolinamech.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.184356+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:31.481867+00:00"
               },
               {
                 "vendor": "Gunmetal Grey Cerakote",
                 "url": "https://www.cerakote.com/shop/cerakote-coating/H-219/gun-metal-grey",
                 "host": "www.cerakote.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.184370+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:31.481876+00:00"
               },
               {
                 "vendor": "Mongoose Gun Candy Color Changing",
                 "url": "https://www.guncandy.com/products/mongoose?srsltid=AfmBOoo7xWai5czsqoah9VJX6IdPterdvdQIwHeLmMk1FQPUUsSqoAfX",
                 "host": "www.guncandy.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.391476+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:31.678343+00:00",
                 "price_low": 2000,
                 "price_high": 14080,
                 "available": true
@@ -8782,13 +8790,13 @@
                 "vendor": "Northern Lights Cerakote",
                 "url": "https://www.cerakote.com/shop/cerakote-coating/H-315/northern-lights",
                 "host": "www.cerakote.com",
-                "metadata_fetched_at": "2026-10-22T12:07:25.391545+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:31.678385+00:00"
               },
               {
                 "vendor": "Pegasus Gun Candy Color Changing",
                 "url": "https://www.guncandy.com/products/pegasus?srsltid=AfmBOooMSKlxcsDXoxNtRGf3SQKRONVSegoeZILD-oYmyMep5wBPpwqH",
                 "host": "www.guncandy.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538059+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:32.804097+00:00",
                 "price_low": 2000,
                 "price_high": 14080,
                 "available": true
@@ -8844,7 +8852,7 @@
                 "vendor": "KeyAtlas Project Page",
                 "url": "https://keyatlas.io/projects/kap-deez-nuts?ref=geekhack",
                 "host": "keyatlas.io",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538101+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804140+00:00"
               }
             ]
           },
@@ -9114,7 +9122,7 @@
                 "vendor": "Toro Studio",
                 "url": "https://www.torokeeb.store/",
                 "host": "www.torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538120+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804171+00:00"
               }
             ],
             "related_threads": [
@@ -9258,13 +9266,13 @@
                 "vendor": "Geonworks",
                 "url": "https://geon.works",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538148+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804187+00:00"
               },
               {
                 "vendor": "Keycult",
                 "url": "https://keycult.com",
                 "host": "keycult.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538158+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804197+00:00"
               }
             ],
             "related_threads": [
@@ -9423,73 +9431,73 @@
                 "vendor": "Delta Key Co (Lead vendor)",
                 "url": "https://deltakeyco.com",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538198+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804206+00:00"
               },
               {
                 "vendor": "Bowl Keyboards",
                 "url": "https://bowlkeyboards.com/",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538215+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804213+00:00"
               },
               {
                 "vendor": "Swagkeys",
                 "url": "https://swagkeys.com/",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538224+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804220+00:00"
               },
               {
                 "vendor": "Ktechs.store",
                 "url": "https://ktechs.store",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538232+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804227+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538241+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804234+00:00"
               },
               {
                 "vendor": "ZFrontier",
                 "url": "https://en.zfrontier.com/",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538249+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804240+00:00"
               },
               {
                 "vendor": "KeebzNCables",
                 "url": "https://www.keebzncables.com",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538257+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804247+00:00"
               },
               {
                 "vendor": "Minokeys",
                 "url": "https://minokeys.com",
                 "host": "minokeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538265+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804253+00:00"
               },
               {
                 "vendor": "LatamKeys",
                 "url": "https://latamkeys.com/",
                 "host": "latamkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538273+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804260+00:00"
               },
               {
                 "vendor": "All files available on Notion. Click here.",
                 "url": "https://sugar-ziconium-b2d.notion.site/NP-R-e5eb835aa0d0483fa2fd4eac29b96b12",
                 "host": "sugar-ziconium-b2d.notion.site",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538283+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804268+00:00"
               },
               {
                 "vendor": "https://www.twitch.tv/videos/2704708658?t=0h0m1s",
                 "url": "https://www.twitch.tv/videos/2704708658?t=0h0m1s",
                 "host": "www.twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538293+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804282+00:00"
               },
               {
                 "vendor": "https://www.twitch.tv/videos/2717377288?t=0h0m1s",
                 "url": "https://www.twitch.tv/videos/2717377288?t=0h0m1s",
                 "host": "www.twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:26.538302+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.804290+00:00"
               }
             ],
             "related_threads": [
@@ -9689,25 +9697,25 @@
                 "vendor": "Cannonkeys",
                 "url": "https://cannonkeys.com/collections/featured/products/gb-gmk-foundation",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.753422+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:32.970797+00:00"
               },
               {
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/products/gmk-foundation",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:26.965832+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.134211+00:00"
               },
               {
                 "vendor": "Candykeys",
                 "url": "https://candykeys.com/product/gmk-foundation-base-kit/",
                 "host": "candykeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:26.965900+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.134267+00:00"
               },
               {
                 "vendor": "Proto[typist]",
                 "url": "https://prototypist.net/collections/live-group-buys/products/group-buy-gmk-foundation/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:27.153211+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:33.305055+00:00",
                 "price_low": 1583,
                 "price_high": 9583,
                 "currency": "GBP",
@@ -9717,31 +9725,31 @@
                 "vendor": "zFrontier",
                 "url": "https://en.zfrontier.com/products/gmk-foundation",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:27.371846+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.471922+00:00"
               },
               {
                 "vendor": "zFrontier CHN",
                 "url": "https://www.zfrontier.com/app/mch/l3nWrMEYVRL1",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:27.371908+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.471978+00:00"
               },
               {
                 "vendor": "Monokei",
                 "url": "https://monokei.co/products/gmk-foundation",
                 "host": "monokei.co",
-                "metadata_fetched_at": "2026-10-22T12:07:27.553207+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.623010+00:00"
               },
               {
                 "vendor": "SWAGKeys",
                 "url": "https://swagkeys.com/products/gb-gmk-foundation",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:27.720142+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.776286+00:00"
               },
               {
                 "vendor": "Dailyclack",
                 "url": "https://dailyclack.com/products/gmk-foundation",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:27.887795+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:33.920498+00:00",
                 "price_low": 6800,
                 "price_high": 27000,
                 "currency": "AUD",
@@ -9751,19 +9759,19 @@
                 "vendor": "1st Garden",
                 "url": "https://1st.garden/",
                 "host": "1st.garden",
-                "metadata_fetched_at": "2026-10-22T12:07:27.887837+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.920569+00:00"
               },
               {
                 "vendor": "Monokei",
                 "url": "https://monokei.co/",
                 "host": "monokei.co",
-                "metadata_fetched_at": "2026-10-22T12:07:27.887848+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.920598+00:00"
               },
               {
                 "vendor": "Y-CP Keyboard Sleeve",
                 "url": "https://ycpkeyboards.id/",
                 "host": "ycpkeyboards.id",
-                "metadata_fetched_at": "2026-10-22T12:07:27.887867+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:33.920606+00:00"
               }
             ],
             "related_threads": [
@@ -10101,7 +10109,7 @@
                 "vendor": "https://omnitype.com/products/enso-e",
                 "url": "https://omnitype.com/products/enso-e",
                 "host": "omnitype.com",
-                "metadata_fetched_at": "2026-10-22T12:07:28.168403+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:34.124450+00:00",
                 "price_low": 44999,
                 "price_high": 51999,
                 "available": false
@@ -10110,7 +10118,7 @@
                 "vendor": "https://omnitype.com/products/enso-e-titan-edition",
                 "url": "https://omnitype.com/products/enso-e-titan-edition",
                 "host": "omnitype.com",
-                "metadata_fetched_at": "2026-10-22T12:07:29.121683+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:35.227686+00:00",
                 "price_low": 154999,
                 "available": false
               }
@@ -10237,7 +10245,7 @@
                 "vendor": "JOIN THE GB HERE",
                 "url": "https://koboisshi.com",
                 "host": "koboisshi.com",
-                "metadata_fetched_at": "2026-10-22T12:07:29.121934+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:35.227742+00:00"
               }
             ]
           },
@@ -10293,7 +10301,7 @@
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/products/swg-neowell-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:29.296401+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:35.390747+00:00",
                 "price_low": 1500,
                 "price_high": 6900,
                 "available": true
@@ -10302,7 +10310,7 @@
                 "vendor": "Unikey",
                 "url": "https://unikeyboards.com/products/swg-neowell-abs-double-shot-keycap-set",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:29.456083+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:35.545538+00:00",
                 "price_low": 1200,
                 "price_high": 6500,
                 "available": true
@@ -10311,7 +10319,7 @@
                 "vendor": "Monacokey",
                 "url": "https://monacokeys.de/products/swg-neowell-cherry-profile-abs-double-shot-keycap-set",
                 "host": "monacokeys.de",
-                "metadata_fetched_at": "2026-10-22T12:07:29.634795+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:35.683427+00:00",
                 "price_low": 1300,
                 "price_high": 7500,
                 "available": true
@@ -10320,7 +10328,7 @@
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/products/group-buy-swg-neowell",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:29.810872+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:35.862013+00:00",
                 "price_low": 917,
                 "price_high": 5000,
                 "currency": "GBP",
@@ -10330,7 +10338,7 @@
                 "vendor": "Toro Studios",
                 "url": "https://torokeeb.store/products/gb-swg-neowell",
                 "host": "torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:29.978382+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:36.016583+00:00",
                 "price_low": 2000,
                 "price_high": 11000,
                 "currency": "EUR",
@@ -10340,7 +10348,7 @@
                 "vendor": "SwagKeys",
                 "url": "https://swagkeys.com/products/group-buy-swg-neowell",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.143775+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:36.177721+00:00",
                 "price_low": 1200,
                 "price_high": 6500,
                 "available": true
@@ -10349,7 +10357,7 @@
                 "vendor": "KTechs",
                 "url": "https://ktechs.store/products/swg-neowell",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:30.313196+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:36.348543+00:00",
                 "price_low": 1560,
                 "price_high": 8400,
                 "currency": "SGD",
@@ -10359,7 +10367,7 @@
                 "vendor": "Keycapepe",
                 "url": "https://keycapepe.com/products/group-buy-swg-neowell-abs-keycap-set",
                 "host": "keycapepe.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617147+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:36.656638+00:00",
                 "price_low": 45000,
                 "price_high": 220000,
                 "available": false
@@ -10421,31 +10429,31 @@
                 "vendor": "GEONWORKS",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617227+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.656681+00:00"
               },
               {
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617252+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.656692+00:00"
               },
               {
                 "vendor": "Aiglatson Studio",
                 "url": "https://aiglatsonstudio.com/",
                 "host": "aiglatsonstudio.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617272+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.656707+00:00"
               },
               {
                 "vendor": "Ktechs",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617290+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.656715+00:00"
               },
               {
                 "vendor": "QwertyQop",
                 "url": "https://qwertyqop.com/",
                 "host": "qwertyqop.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.617307+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.656722+00:00"
               }
             ],
             "designer": "your"
@@ -10517,13 +10525,13 @@
                 "vendor": "https://unikeyboards.com/products/bsun-usagi-537-linear-switch-factory-lubed-10pcs?srsltid=AfmBOooB0P-QJyHHWmApHn0nlVXOV-nx7qMdf1Iqvdr2BdlEwgmMvJWz",
                 "url": "https://unikeyboards.com/products/bsun-usagi-537-linear-switch-factory-lubed-10pcs?srsltid=AfmBOooB0P-QJyHHWmApHn0nlVXOV-nx7qMdf1Iqvdr2BdlEwgmMvJWz",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.785307+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.799360+00:00"
               },
               {
                 "vendor": "https://unikeyboards.com/collections/keygeek-switch?srsltid=AfmBOoq69TufydlixpJvHw8Zb7wCKP8VapLmA4XTPQjZKeWyvRmOL_zK",
                 "url": "https://unikeyboards.com/collections/keygeek-switch?srsltid=AfmBOoq69TufydlixpJvHw8Zb7wCKP8VapLmA4XTPQjZKeWyvRmOL_zK",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.785394+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.799423+00:00"
               }
             ]
           },
@@ -10636,13 +10644,13 @@
                 "vendor": "【Dyad proto typing test】",
                 "url": "https://www.bilibili.com/video/BV1hXwBzEEBx/?share_source=copy_web&vd_source=7c43928d664d70363a5c3f7fe483e4b5",
                 "host": "www.bilibili.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.785429+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.799441+00:00"
               },
               {
                 "vendor": "keyspensory",
                 "url": "https://keyspensory.store",
                 "host": "keyspensory.store",
-                "metadata_fetched_at": "2026-10-22T12:07:30.785452+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.799451+00:00"
               }
             ]
           },
@@ -10869,7 +10877,7 @@
                 "vendor": "CannonKeys",
                 "url": "https://cannonkeys.com/products/dcs-handarbeit?variant=44527881125999",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:30.976898+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:36.960209+00:00",
                 "price_low": 800,
                 "price_high": 11500,
                 "currency": "USD",
@@ -10879,13 +10887,13 @@
                 "vendor": "OBLOTZKY",
                 "url": "https://oblotzky.industries//",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-10-22T12:07:30.976959+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:36.960263+00:00"
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-dcs-handarbeit",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:31.172015+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:37.122271+00:00",
                 "price_low": 583,
                 "price_high": 9083,
                 "currency": "GBP",
@@ -10895,7 +10903,7 @@
                 "vendor": "Ktechs",
                 "url": "https://ktechs.store/products/dcs-handarbeit?variant=47901267689702",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:31.377314+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:37.456611+00:00",
                 "price_low": 1150,
                 "price_high": 17150,
                 "currency": "SGD",
@@ -10905,7 +10913,7 @@
                 "vendor": "GEONWORKS",
                 "url": "https://geon.works/products/group-buy-dcs-handarbeit",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:31.544979+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:37.631207+00:00",
                 "price_low": 800,
                 "price_high": 12000,
                 "currency": "USD",
@@ -11091,31 +11099,31 @@
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545079+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631391+00:00"
               },
               {
                 "vendor": "KEYGEM",
                 "url": "https://keygem.com/",
                 "host": "keygem.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545094+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631410+00:00"
               },
               {
                 "vendor": "Switchkeys",
                 "url": "https://www.switchkeys.com.au/",
                 "host": "www.switchkeys.com.au",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545103+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631421+00:00"
               },
               {
                 "vendor": "KBDFANS",
                 "url": "https://kbdfans.com/",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545151+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631429+00:00"
               },
               {
                 "vendor": "mecha.store",
                 "url": "https://mecha.store/",
                 "host": "mecha.store",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545190+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631436+00:00"
               }
             ]
           },
@@ -11163,7 +11171,7 @@
                 "vendor": "https://unikeyboards.com/",
                 "url": "https://unikeyboards.com/",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545205+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631444+00:00"
               }
             ],
             "designer": "the"
@@ -11230,37 +11238,37 @@
                 "vendor": "Project Keyboard",
                 "url": "https://store.projectkeyboard.com/",
                 "host": "store.projectkeyboard.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545215+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631468+00:00"
               },
               {
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca//",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545225+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631476+00:00"
               },
               {
                 "vendor": "Oblotzky Industries",
                 "url": "https://oblotzky.industries/",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545233+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631483+00:00"
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/iLumkb",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545241+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631490+00:00"
               },
               {
                 "vendor": "Daily Clack",
                 "url": "https://dailyclack.com/",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.545249+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.631497+00:00"
               },
               {
                 "vendor": "Space Cables",
                 "url": "https://spaceholdings.net/collections/live-sales/products/noire-cable",
                 "host": "spaceholdings.net",
-                "metadata_fetched_at": "2026-10-22T12:07:31.578070+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.657160+00:00"
               }
             ]
           },
@@ -11502,25 +11510,25 @@
                 "vendor": "US - Mechs & Co.",
                 "url": "https://mechsandco.com/collections/current-group-buys/products/gb-mw-stone-age",
                 "host": "mechsandco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:31.931274+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:37.904645+00:00"
               },
               {
                 "vendor": "CA - KanataKeys",
                 "url": "https://kanatakeys.co/products/milkyway-stone-age",
                 "host": "kanatakeys.co",
-                "metadata_fetched_at": "2026-10-22T12:07:32.200804+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:38.091449+00:00"
               },
               {
                 "vendor": "EU - mykeyboard.eu",
                 "url": "https://mykeyboard.eu/catalogue/category/group-buys/keycaps/mw-stone-age_708/",
                 "host": "mykeyboard.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:32.200896+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:38.091509+00:00"
               },
               {
                 "vendor": "UK - Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-mw-stone-age",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:32.395630+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:38.270489+00:00",
                 "price_low": 1667,
                 "price_high": 7500,
                 "currency": "GBP",
@@ -11530,19 +11538,19 @@
                 "vendor": "SEA - iLumkb",
                 "url": "https://ilumkb.com/collections/live/products/mw-stone-age?variant=39879623901266",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:32.567842+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:38.447576+00:00"
               },
               {
                 "vendor": "KR - KLC",
                 "url": "https://klc-playground.com/products/gb-mw-stone-age",
                 "host": "klc-playground.com",
-                "metadata_fetched_at": "2026-10-22T12:07:32.800579+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:38.674469+00:00"
               },
               {
                 "vendor": "OCE - DailyClack",
                 "url": "https://dailyclack.com/collections/group-buy-keycaps/products/mw-stone-age",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:32.958010+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:38.896037+00:00",
                 "price_low": 3200,
                 "price_high": 12600,
                 "currency": "AUD",
@@ -11552,31 +11560,31 @@
                 "vendor": "MX - Rheset",
                 "url": "https://rheset.mx/product/mw-stone-age-group-buy/",
                 "host": "rheset.mx",
-                "metadata_fetched_at": "2026-10-22T12:07:32.958053+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:38.896078+00:00"
               },
               {
                 "vendor": "Worldwide - zFrontier",
                 "url": "https://en.zfrontier.com/products/mw-stone-age",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:33.160389+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.045701+00:00"
               },
               {
                 "vendor": "QwertyKeys",
                 "url": "https://www.qwertykeys.com/",
                 "host": "www.qwertykeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:33.160453+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.045761+00:00"
               },
               {
                 "vendor": "Accurate GB time in your region",
                 "url": "https://everytimezone.com/s/8702ece1",
                 "host": "everytimezone.com",
-                "metadata_fetched_at": "2026-10-22T12:07:33.160500+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.045811+00:00"
               },
               {
                 "vendor": "Sales Information",
                 "url": "https://mars-universe.notion.site/QK65-Stone-Age-Edition-Sale-Info-7be69600ef604d2b89c5e2ce2423b827",
                 "host": "mars-universe.notion.site",
-                "metadata_fetched_at": "2026-10-22T12:07:33.160514+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.045840+00:00"
               }
             ],
             "starts_at": "2027-04-09",
@@ -11654,13 +11662,13 @@
                 "vendor": "MelonBred Keyboards",
                 "url": "https://shop.melonbred.dev/products/mb-44-v2-keyboard-kit",
                 "host": "shop.melonbred.dev",
-                "metadata_fetched_at": "2026-10-22T12:07:33.280308+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.180657+00:00"
               },
               {
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/products/11291",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:33.497292+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:39.340653+00:00",
                 "price_low": 550000,
                 "price_high": 5500000,
                 "currency": "JPY",
@@ -11670,7 +11678,7 @@
                 "vendor": "Keeb.Supply",
                 "url": "https://keeb.supply/products/mb-44-v2",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-10-22T12:07:33.795607+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.842706+00:00"
               }
             ],
             "related_threads": [
@@ -11910,31 +11918,31 @@
                 "vendor": "updates",
                 "url": "https://omnitype.com/blogs/timelines/gmk-thinkcaps",
                 "host": "omnitype.com",
-                "metadata_fetched_at": "2026-10-22T12:07:33.795674+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.842771+00:00"
               },
               {
                 "vendor": "Dixie Mech",
                 "url": "https://dixiemech.store/collections/gmk-thinkcaps",
                 "host": "dixiemech.store",
-                "metadata_fetched_at": "2026-10-22T12:07:33.795690+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.842812+00:00"
               },
               {
                 "vendor": "CandyKeys",
                 "url": "https://candykeys.com/group-buys/ThinkCaps",
                 "host": "candykeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:33.795701+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.842827+00:00"
               },
               {
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/products/gmk-thinkcaps",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:34.020028+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:39.995497+00:00"
               },
               {
                 "vendor": "Daily Clack",
                 "url": "https://dailyclack.com/collections/group-buys/products/gmk-thinkcaps",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.188216+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:40.163278+00:00",
                 "price_low": 3499,
                 "price_high": 25000,
                 "currency": "AUD",
@@ -11944,25 +11952,25 @@
                 "vendor": "zFrontier (EN)",
                 "url": "https://en.zfrontier.com/collections/gmk/products/gmk-thinkcaps",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.378347+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.339345+00:00"
               },
               {
                 "vendor": "zFrontier (CN)",
                 "url": "https://www.zfrontier.com/app/mch/BpV267ZGQqxl",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.378419+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.339398+00:00"
               },
               {
                 "vendor": "IlumKB",
                 "url": "https://ilumkb.com/products/gb-gmk-thinkcaps",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.617863+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.496752+00:00"
               },
               {
                 "vendor": "ThinkPad",
                 "url": "http://www.thinkwiki.org/wiki/ThinkPad_History",
                 "host": "www.thinkwiki.org",
-                "metadata_fetched_at": "2026-10-22T12:07:34.617937+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.496802+00:00"
               }
             ],
             "related_threads": [
@@ -12033,13 +12041,13 @@
                 "vendor": "DCS Good Morning",
                 "url": "https://www.basilkeys.com/dcs-good-morning",
                 "host": "www.basilkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.617988+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.496815+00:00"
               },
               {
                 "vendor": "Buy from Yushakobo here",
                 "url": "https://shop.yushakobo.jp/products/11918?srsltid=AfmBOor_6STY9CEzv-wzyst8TUkbrZZXyd6j-D8TnCVtXTF8if3N-RA4",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877584+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:40.640519+00:00",
                 "price_low": 22000,
                 "price_high": 2200000,
                 "currency": "JPY",
@@ -12049,7 +12057,7 @@
                 "vendor": "Buy from TypistClub here",
                 "url": "https://item.taobao.com/item.htm?ft=t&id=1019884573957&spm=a21dvs.23580594.0.0.6ffb645eIlGxvH",
                 "host": "item.taobao.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877631+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640558+00:00"
               }
             ],
             "status": "ended"
@@ -12111,67 +12119,67 @@
                 "vendor": "DeltaKeyCo",
                 "url": "https://deltakeyco.com/",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877648+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640582+00:00"
               },
               {
                 "vendor": "Monacokeys",
                 "url": "https://monacokeys.de/",
                 "host": "monacokeys.de",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877657+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640591+00:00"
               },
               {
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877665+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640598+00:00"
               },
               {
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877673+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640605+00:00"
               },
               {
                 "vendor": "KeebzNCables",
                 "url": "https://www.keebzncables.com/",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877687+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640611+00:00"
               },
               {
                 "vendor": "Zfrontier",
                 "url": "https://www.zfrontier.com/",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877695+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640618+00:00"
               },
               {
                 "vendor": "Geon",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877702+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640625+00:00"
               },
               {
                 "vendor": "Ktechs.store",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877709+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640632+00:00"
               },
               {
                 "vendor": "Unikeys",
                 "url": "https://unikeyboards.com/",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877717+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640639+00:00"
               },
               {
                 "vendor": "Keykobo",
                 "url": "https://www.keykobo.com/",
                 "host": "www.keykobo.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877724+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640645+00:00"
               },
               {
                 "vendor": "Khor",
                 "url": "https://khor.store/",
                 "host": "khor.store",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877766+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640652+00:00"
               }
             ],
             "status": "ended"
@@ -12976,13 +12984,13 @@
                 "vendor": "https://www.kickstarter.com/projects/taikohub/taiko-01-keyboard",
                 "url": "https://www.kickstarter.com/projects/taikohub/taiko-01-keyboard",
                 "host": "www.kickstarter.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877834+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640683+00:00"
               },
               {
                 "vendor": "https://taiko.taikohub.com",
                 "url": "https://taiko.taikohub.com",
                 "host": "taiko.taikohub.com",
-                "metadata_fetched_at": "2026-10-22T12:07:34.877842+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:40.640693+00:00"
               }
             ],
             "status": "live",
@@ -13038,7 +13046,7 @@
                 "vendor": "Divinikey",
                 "url": "https://divinikey.com/products/gmk-cyl-gonzales-keycaps",
                 "host": "divinikey.com",
-                "metadata_fetched_at": "2026-10-22T12:07:35.076681+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:40.797555+00:00",
                 "price_low": 3500,
                 "price_high": 15000,
                 "available": true
@@ -13047,7 +13055,7 @@
                 "vendor": "KBDfans",
                 "url": "https://kbdfans.com/collections/group-buy-live/products/gmk-cyl-gonzales",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:35.298232+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:40.961705+00:00",
                 "price_low": 3300,
                 "price_high": 28100,
                 "currency": "USD",
@@ -13057,7 +13065,7 @@
                 "vendor": "proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-gmk-cyl-gonzales",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:35.550925+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:41.110640+00:00",
                 "price_low": 2250,
                 "price_high": 10250,
                 "currency": "GBP",
@@ -13067,7 +13075,7 @@
                 "vendor": "eloquentclicks",
                 "url": "https://eloquentclicks.com/products/gmk-cyl-gonzales-keycaps",
                 "host": "eloquentclicks.com",
-                "metadata_fetched_at": "2026-10-22T12:07:35.789978+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:41.312486+00:00",
                 "price_low": 3000,
                 "price_high": 13900,
                 "available": false
@@ -13076,7 +13084,7 @@
                 "vendor": "Deskhero",
                 "url": "https://www.deskhero.ca/products/gmk-cyl-gonzales-keycaps",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:35.968498+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:41.510672+00:00",
                 "price_low": 4400,
                 "price_high": 20700,
                 "currency": "CAD",
@@ -13086,13 +13094,13 @@
                 "vendor": "Ktechs",
                 "url": "https://ktechs.store/products/gmk-gonzales",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:36.191102+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:41.664815+00:00"
               },
               {
                 "vendor": "Switchkeys",
                 "url": "https://www.switchkeys.com.au/products/gmk-cyl-gonzales-group-buy",
                 "host": "www.switchkeys.com.au",
-                "metadata_fetched_at": "2026-10-22T12:07:36.362372+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:41.816406+00:00",
                 "price_low": 3500,
                 "price_high": 21000,
                 "available": true
@@ -13101,7 +13109,7 @@
                 "vendor": "Swagkeys",
                 "url": "https://swagkeys.com/products/group-buy-gmk-gonzales?_pos=1&_psq=gmk+gon&_ss=e&_v=1.0",
                 "host": "swagkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:36.658374+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:41.969647+00:00"
               }
             ],
             "starts_at": "2026-05-04",
@@ -13193,13 +13201,13 @@
                 "vendor": "Rukia's Build VOD",
                 "url": "https://m.twitch.tv/videos/2790746571",
                 "host": "m.twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:36.658459+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:41.969710+00:00"
               },
               {
                 "vendor": "Twitch",
                 "url": "https://twitch.tv/godsson-designs",
                 "host": "twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:36.658471+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:41.969722+00:00"
               }
             ]
           },
@@ -13363,13 +13371,13 @@
                 "vendor": "NovelKeys",
                 "url": "https://novelkeys.com/products/dcs-mudbeam-keycapst",
                 "host": "novelkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:36.981291+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.121236+00:00"
               },
               {
                 "vendor": "KBDFans",
                 "url": "https://kbdfans.com/products/dcs-mudbeam",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.386082+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:42.265185+00:00",
                 "price_low": 17500,
                 "currency": "USD",
                 "available": false
@@ -13378,7 +13386,7 @@
                 "vendor": "Proto[Typist]",
                 "url": "https://prototypist.net/products/group-buy-dcs-mudbeam",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:37.608310+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:42.427210+00:00",
                 "price_low": 11000,
                 "currency": "GBP",
                 "available": false
@@ -13387,7 +13395,7 @@
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/products/group-buy-dcs-mudbeam/",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796106+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:42.592055+00:00",
                 "price_low": 20500,
                 "currency": "SGD",
                 "available": false
@@ -13396,7 +13404,7 @@
                 "vendor": "Oblotzky",
                 "url": "https://oblotzky.industries/",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796150+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592101+00:00"
               }
             ],
             "starts_at": "2026-06-17",
@@ -13783,31 +13791,31 @@
                 "vendor": "Example 1",
                 "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MLA22J?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5%2C0.5&.v=1496943883242",
                 "host": "store.storeimages.cdn-apple.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796218+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592138+00:00"
               },
               {
                 "vendor": "Example 2",
                 "url": "https://qph.fs.quoracdn.net/main-qimg-6643b9868c6b9e8dee790a72448664e9-c",
                 "host": "qph.fs.quoracdn.net",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796229+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592150+00:00"
               },
               {
                 "vendor": "Example 3",
                 "url": "http://s3.amazonaws.com/dotclue.org/kybard.jpg",
                 "host": "s3.amazonaws.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796237+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592158+00:00"
               },
               {
                 "vendor": "Example 4",
                 "url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MRMH2J?wid=2000&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1520717502224",
                 "host": "store.storeimages.cdn-apple.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796246+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592167+00:00"
               },
               {
                 "vendor": "https://www.zeuscables.store/masterpiece",
                 "url": "https://www.zeuscables.store/masterpiece",
                 "host": "www.zeuscables.store",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796253+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592175+00:00"
               }
             ],
             "related_threads": [
@@ -13870,73 +13878,73 @@
                 "vendor": "www.empty.technology",
                 "url": "http://www.empty.technology",
                 "host": "www.empty.technology",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796261+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592199+00:00"
               },
               {
                 "vendor": "NovelKeys",
                 "url": "https://novelkeys.com/",
                 "host": "novelkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796270+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592208+00:00"
               },
               {
                 "vendor": "Dangkeebs",
                 "url": "https://dangkeebs.com/",
                 "host": "dangkeebs.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796276+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592215+00:00"
               },
               {
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/en",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796283+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592222+00:00"
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796290+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592229+00:00"
               },
               {
                 "vendor": "DeskHeroCA",
                 "url": "https://www.deskhero.ca/",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796297+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592235+00:00"
               },
               {
                 "vendor": "UniKeys",
                 "url": "https://unikeyboards.com/",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796303+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592242+00:00"
               },
               {
                 "vendor": "EloquentClicks",
                 "url": "https://eloquentclicks.com/",
                 "host": "eloquentclicks.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796310+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592249+00:00"
               },
               {
                 "vendor": "KeyGem",
                 "url": "https://keygem.com/",
                 "host": "keygem.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796316+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592256+00:00"
               },
               {
                 "vendor": "ZFrontier",
                 "url": "https://en.zfrontier.com/",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796323+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592263+00:00"
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796362+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592329+00:00"
               },
               {
                 "vendor": "Cafege",
                 "url": "https://cafege.com.au/",
                 "host": "cafege.com.au",
-                "metadata_fetched_at": "2026-10-22T12:07:37.796415+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:42.592349+00:00"
               }
             ],
             "price_low": 29900,
@@ -14026,7 +14034,7 @@
                 "vendor": "Bowl Keyboards",
                 "url": "https://bowlkeyboards.com/products/gb-dcs-vintage-motorsport",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:38.032492+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:42.753826+00:00",
                 "price_low": 1900,
                 "price_high": 9200,
                 "currency": "USD",
@@ -14036,7 +14044,7 @@
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/products/group-buy-dcs-vintage-motorsport",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:38.925881+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:43.566095+00:00",
                 "price_low": 2167,
                 "price_high": 8667,
                 "currency": "GBP",
@@ -14046,7 +14054,7 @@
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com/products/dcs-vintage-motorsport-keycaps",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.247669+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:43.737791+00:00",
                 "price_low": 2500,
                 "price_high": 10000,
                 "available": true
@@ -14055,13 +14063,13 @@
                 "vendor": "Geon works",
                 "url": "https://geonworks.kr/surl/P/654",
                 "host": "geonworks.kr",
-                "metadata_fetched_at": "2026-10-22T12:07:39.247764+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:43.737849+00:00"
               },
               {
                 "vendor": "KTechs",
                 "url": "https://ktechs.store/products/dcs-vintage-motorsport",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:39.447102+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:43.910282+00:00",
                 "price_low": 3770,
                 "price_high": 12610,
                 "currency": "SGD",
@@ -14071,7 +14079,7 @@
                 "vendor": "KeebzNCables",
                 "url": "https://www.keebzncables.com/products/dcs-vintage-motorsport",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.705755+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:44.065430+00:00",
                 "price_low": 4500,
                 "price_high": 17500,
                 "currency": "AUD",
@@ -14182,7 +14190,7 @@
                 "vendor": "https://sensy.click/",
                 "url": "https://sensy.click/",
                 "host": "sensy.click",
-                "metadata_fetched_at": "2026-10-22T12:07:39.713864+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.065501+00:00"
               }
             ],
             "designer": "SENSY"
@@ -14240,7 +14248,7 @@
                 "vendor": "https://unikeyboards.com/products/pixtendo-pixel-67-wireless-keyboard-pre-order",
                 "url": "https://unikeyboards.com/products/pixtendo-pixel-67-wireless-keyboard-pre-order",
                 "host": "unikeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.871302+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:44.210051+00:00",
                 "price_low": 14900,
                 "price_high": 18900,
                 "available": true
@@ -14532,43 +14540,43 @@
                 "vendor": "here.",
                 "url": "https://www.gulfoilltd.com/gulf-livery",
                 "host": "www.gulfoilltd.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879877+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210099+00:00"
               },
               {
                 "vendor": "Bowl Keyboards",
                 "url": "https://bowlkeyboards.com/",
                 "host": "bowlkeyboards.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879892+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210109+00:00"
               },
               {
                 "vendor": "ProtoTypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879902+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210117+00:00"
               },
               {
                 "vendor": "Delta Key Co.",
                 "url": "https://deltakeyco.com/",
                 "host": "deltakeyco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879910+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210125+00:00"
               },
               {
                 "vendor": "Geon works",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879918+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210132+00:00"
               },
               {
                 "vendor": "KTechs",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:39.879925+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210138+00:00"
               },
               {
                 "vendor": "KeebzNCables",
                 "url": "https://www.keebzncables.com/",
                 "host": "www.keebzncables.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880125+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210145+00:00"
               }
             ],
             "designer": "Geon works"
@@ -15090,73 +15098,73 @@
                 "vendor": "Oblotzky (Lead)",
                 "url": "https://oblotzky.industries/",
                 "host": "oblotzky.industries",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880180+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210185+00:00"
               },
               {
                 "vendor": "Prototypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880203+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210199+00:00"
               },
               {
                 "vendor": "NovelKeys",
                 "url": "https://novelkeys.com/",
                 "host": "novelkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880213+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210207+00:00"
               },
               {
                 "vendor": "DeskHero",
                 "url": "https://www.deskhero.ca/",
                 "host": "www.deskhero.ca",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880222+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210213+00:00"
               },
               {
                 "vendor": "Geonworks",
                 "url": "https://geon.works/",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880229+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210220+00:00"
               },
               {
                 "vendor": "KBDFans",
                 "url": "https://kbdfans.com/",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880237+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210227+00:00"
               },
               {
                 "vendor": "Yushakobo",
                 "url": "https://shop.yushakobo.jp/en",
                 "host": "shop.yushakobo.jp",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880247+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210235+00:00"
               },
               {
                 "vendor": "SwitchKeys",
                 "url": "https://www.switchkeys.com.au/",
                 "host": "www.switchkeys.com.au",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880254+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210242+00:00"
               },
               {
                 "vendor": "iLumkb",
                 "url": "https://ilumkb.com/",
                 "host": "ilumkb.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880262+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210249+00:00"
               },
               {
                 "vendor": "NeoMacro",
                 "url": "https://neomacro.in/",
                 "host": "neomacro.in",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880269+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210255+00:00"
               },
               {
                 "vendor": "Rationalkeys",
                 "url": "https://rationalkeys.com.tr/",
                 "host": "rationalkeys.com.tr",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880277+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210262+00:00"
               },
               {
                 "vendor": "https://nopunin10did.com/gmk-prussian-blue/",
                 "url": "https://nopunin10did.com/gmk-prussian-blue/",
                 "host": "nopunin10did.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880292+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210274+00:00"
               }
             ],
             "vendor_regions": [
@@ -15293,13 +15301,13 @@
                 "vendor": "WEBSITE",
                 "url": "https://www.captain-sterling.com/dinojungle",
                 "host": "www.captain-sterling.com",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880303+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210283+00:00"
               },
               {
                 "vendor": "Twitch",
                 "url": "https://www.twitch.tv/thecaptainsterling",
                 "host": "www.twitch.tv",
-                "metadata_fetched_at": "2026-10-22T12:07:39.880560+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:44.210290+00:00"
               }
             ],
             "designer": "the"
@@ -15355,7 +15363,7 @@
                 "vendor": "https://ktechs.store/products/rf-8x",
                 "url": "https://ktechs.store/products/rf-8x",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:40.583887+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:44.982306+00:00",
                 "price_low": 45500,
                 "price_high": 46800,
                 "currency": "SGD",
@@ -15365,7 +15373,7 @@
                 "vendor": "https://torokeeb.store/products/rf-8x-housings",
                 "url": "https://torokeeb.store/products/rf-8x-housings",
                 "host": "torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:40.742152+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:45.154998+00:00",
                 "price_low": 54000,
                 "price_high": 55500,
                 "currency": "EUR",
@@ -15375,13 +15383,13 @@
                 "vendor": "https://omnitype.com/collections/rf-8x",
                 "url": "https://omnitype.com/collections/rf-8x",
                 "host": "omnitype.com",
-                "metadata_fetched_at": "2026-10-22T12:07:40.742215+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:45.155057+00:00"
               },
               {
                 "vendor": "https://coffeekeys.eu/en/collections/group-buys/products/rf-8x-keyboard-kit-eng",
                 "url": "https://coffeekeys.eu/en/collections/group-buys/products/rf-8x-keyboard-kit-eng",
                 "host": "coffeekeys.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:40.980454+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:45.337969+00:00",
                 "price_low": 31000,
                 "price_high": 32000,
                 "available": false
@@ -15390,13 +15398,13 @@
                 "vendor": "https://geon.works/collections/rf-8x",
                 "url": "https://geon.works/collections/rf-8x",
                 "host": "geon.works",
-                "metadata_fetched_at": "2026-10-22T12:07:40.980501+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:45.338022+00:00"
               },
               {
                 "vendor": "https://prototypist.net/products/group-buy-rf-8x-keyboard-kit",
                 "url": "https://prototypist.net/products/group-buy-rf-8x-keyboard-kit",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:41.166209+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:45.533332+00:00",
                 "price_low": 26417,
                 "price_high": 27167,
                 "currency": "GBP",
@@ -15406,7 +15414,7 @@
                 "vendor": "https://kbdfans.com/products/rf-8x",
                 "url": "https://kbdfans.com/products/rf-8x",
                 "host": "kbdfans.com",
-                "metadata_fetched_at": "2026-10-22T12:07:41.369716+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:45.717135+00:00",
                 "price_low": 35000,
                 "price_high": 36000,
                 "currency": "USD",
@@ -15416,7 +15424,7 @@
                 "vendor": "https://mokbstore.com/gb-rf-8x-keyboard-case",
                 "url": "https://mokbstore.com/gb-rf-8x-keyboard-case",
                 "host": "mokbstore.com",
-                "metadata_fetched_at": "2026-10-22T12:07:41.369761+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:45.717217+00:00"
               }
             ],
             "price_low": 4000,
@@ -16286,25 +16294,25 @@
                 "vendor": "Mechs & Co",
                 "url": "https://mechsandco.com/products/gb-gmk-iconographic",
                 "host": "mechsandco.com",
-                "metadata_fetched_at": "2026-10-22T12:07:41.517497+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:45.836706+00:00"
               },
               {
                 "vendor": "MyKeyboard",
                 "url": "https://mykeyboard.eu/catalogue/category/group-buys/gmk-iconographic_394/",
                 "host": "mykeyboard.eu",
-                "metadata_fetched_at": "2026-10-22T12:07:41.517602+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:45.836771+00:00"
               },
               {
                 "vendor": "Dailyclack",
                 "url": "https://dailyclack.com/products/gmk-iconographic/",
                 "host": "dailyclack.com",
-                "metadata_fetched_at": "2026-10-22T12:07:41.682562+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.008405+00:00"
               },
               {
                 "vendor": "Monokei",
                 "url": "https://monokei.co/collections/current/products/gmk-iconographic/",
                 "host": "monokei.co",
-                "metadata_fetched_at": "2026-10-22T12:07:41.816503+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.146061+00:00"
               },
               {
                 "vendor": "Deskhero",
@@ -16313,20 +16321,20 @@
                 "price_low": 3300,
                 "price_high": 19100,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:42.000092+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:46.317474+00:00",
                 "currency": "CAD"
               },
               {
                 "vendor": "Zfrontier EN",
                 "url": "https://en.zfrontier.com/products/gmk-iconographic",
                 "host": "en.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:42.152142+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.474055+00:00"
               },
               {
                 "vendor": "Zfrontier CN",
                 "url": "https://www.zfrontier.com/app/mch/lZ2N9dv5Mr6l",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:42.152236+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.474113+00:00"
               }
             ]
           },
@@ -16380,19 +16388,19 @@
                 "vendor": "ktechs (lead)",
                 "url": "https://ktechs.store/",
                 "host": "ktechs.store",
-                "metadata_fetched_at": "2026-10-22T12:07:42.152258+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.474136+00:00"
               },
               {
                 "vendor": "prototypist",
                 "url": "https://prototypist.net/",
                 "host": "prototypist.net",
-                "metadata_fetched_at": "2026-10-22T12:07:42.152268+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.474145+00:00"
               },
               {
                 "vendor": "toro studios",
                 "url": "https://www.torokeeb.store/",
                 "host": "www.torokeeb.store",
-                "metadata_fetched_at": "2026-10-22T12:07:42.152277+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:46.474153+00:00"
               }
             ]
           },
@@ -16560,7 +16568,7 @@
                 "host": "saberkeebs.com",
                 "price_low": 11000,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:42.332596+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:46.660653+00:00",
                 "currency": "USD"
               },
               {
@@ -16569,14 +16577,14 @@
                 "host": "prototypist.net",
                 "price_low": 8833,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:42.522309+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:46.813411+00:00",
                 "currency": "GBP"
               },
               {
                 "vendor": "Keeb.Supply",
                 "url": "https://keeb.supply/products/dss-distortion-40s",
                 "host": "keeb.supply",
-                "metadata_fetched_at": "2026-10-22T12:07:43.115968+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:47.081597+00:00"
               },
               {
                 "vendor": "Keebz N Cables",
@@ -16584,7 +16592,7 @@
                 "host": "www.keebzncables.com",
                 "price_low": 17500,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:43.270004+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:47.252934+00:00",
                 "currency": "AUD"
               }
             ],
@@ -16694,7 +16702,7 @@
                 "vendor": "https://touhou-project.news/news/16738/",
                 "url": "https://touhou-project.news/news/16738/",
                 "host": "touhou-project.news",
-                "metadata_fetched_at": "2026-10-22T12:07:43.270049+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:47.253013+00:00"
               },
               {
                 "vendor": "CannonKeys",
@@ -16702,7 +16710,7 @@
                 "host": "cannonkeys.com",
                 "price_low": 9000,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:43.439050+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:47.418486+00:00",
                 "currency": "USD"
               },
               {
@@ -16711,20 +16719,20 @@
                 "host": "shop.yushakobo.jp",
                 "price_low": 1408000,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:43.612971+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:47.587453+00:00",
                 "currency": "JPY"
               },
               {
                 "vendor": "zFrontier",
                 "url": "https://www.zfrontier.com/app/mch/BbdPaL80ZW8D",
                 "host": "www.zfrontier.com",
-                "metadata_fetched_at": "2026-10-22T12:07:43.613009+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:47.587499+00:00"
               },
               {
                 "vendor": "FAQ",
                 "url": "https://cannonkeys.com/pages/FAQs",
                 "host": "cannonkeys.com",
-                "metadata_fetched_at": "2026-10-22T12:07:43.613019+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:47.587513+00:00"
               }
             ],
             "photo_credit": "keima"
@@ -16808,7 +16816,7 @@
                 "price_low": 300,
                 "price_high": 10000,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:43.780922+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:47.744992+00:00",
                 "currency": "USD"
               },
               {
@@ -16818,7 +16826,7 @@
                 "price_low": 400,
                 "price_high": 13000,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:44.010649+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:47.948803+00:00",
                 "currency": "USD"
               },
               {
@@ -16828,14 +16836,14 @@
                 "price_low": 650,
                 "price_high": 14900,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:44.214122+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:48.111988+00:00",
                 "currency": "USD"
               },
               {
                 "vendor": "Typist Club",
                 "url": "https://item.taobao.com/item.htm?id=1046621159604&mi_id=0000Hxc0wLncnmKsmYKEpV0uoO23uP8Ch0_5cI9hsPpkfBI&spm=a21xtw.29178619.0.0&xxc=shop",
                 "host": "item.taobao.com",
-                "metadata_fetched_at": "2026-10-22T12:07:44.214182+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:48.112084+00:00"
               },
               {
                 "vendor": "Proto[Typist]",
@@ -16844,7 +16852,7 @@
                 "price_low": 417,
                 "price_high": 10667,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:44.377490+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:48.278742+00:00",
                 "currency": "GBP"
               },
               {
@@ -16854,7 +16862,7 @@
                 "price_low": 850,
                 "price_high": 15750,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:44.545838+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:48.421671+00:00",
                 "currency": "SGD"
               },
               {
@@ -16864,7 +16872,7 @@
                 "price_low": 536,
                 "price_high": 12976,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:44.796865+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:48.577874+00:00"
               }
             ]
           },
@@ -16955,7 +16963,7 @@
                 "price_low": 6500,
                 "price_high": 18500,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:44.957508+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:48.723952+00:00",
                 "currency": "USD"
               },
               {
@@ -16965,7 +16973,7 @@
                 "price_low": 2000,
                 "price_high": 10250,
                 "available": false,
-                "metadata_fetched_at": "2026-10-22T12:07:45.525239+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:49.418432+00:00",
                 "currency": "GBP"
               },
               {
@@ -16975,7 +16983,7 @@
                 "price_low": 3500,
                 "price_high": 13900,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:45.714867+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:49.573916+00:00",
                 "currency": "EUR"
               },
               {
@@ -16985,7 +16993,7 @@
                 "price_low": 2500,
                 "price_high": 13500,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:45.874196+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:49.725581+00:00",
                 "currency": "USD"
               },
               {
@@ -16995,7 +17003,7 @@
                 "price_low": 2500,
                 "price_high": 19500,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:46.098885+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:49.902447+00:00",
                 "currency": "USD"
               },
               {
@@ -17005,7 +17013,7 @@
                 "price_low": 3600,
                 "price_high": 18900,
                 "available": true,
-                "metadata_fetched_at": "2026-10-22T12:07:46.261155+00:00",
+                "metadata_fetched_at": "2026-10-23T12:07:50.045243+00:00",
                 "currency": "SGD"
               }
             ],
@@ -17066,7 +17074,7 @@
                 "vendor": "Moyu.studio",
                 "url": "https://moyustudio.world/",
                 "host": "moyustudio.world",
-                "metadata_fetched_at": "2026-10-22T12:07:46.261233+00:00"
+                "metadata_fetched_at": "2026-10-23T12:07:50.045287+00:00"
               }
             ]
           },
