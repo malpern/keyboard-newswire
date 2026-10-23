@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 12:16:06 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 12:03:21 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)</title>
+    <link>https://leftium.github.io/megakey/</link>
+    <guid isPermaLink="false">hn-50207489</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Using the Dygma Defy ergonomic keyboard for 6 months</title>
+    <link>https://www.typequicker.com/blog/dygma-defy</link>
+    <guid isPermaLink="false">hn-50206784</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output</title>
     <link>https://www.goto10retro.com/p/the-800xl</link>
@@ -2095,27 +2116,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Show HN: GreenType – That Mechanical Keyboard You've Always Wanted</title>
-    <link>https://greentype.lamdera.app/</link>
-    <guid isPermaLink="false">hn-48121009</guid>
-    <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>2 pts · 1 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Vanguard Keyboard Outsider</title>
-    <link>https://kbd.news/Vanguard-Keyboard-Outsider-2852.html</link>
-    <guid isPermaLink="false">kbdnews-2852</guid>
-    <pubDate>Thu, 14 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>DreaM117er's Vanguard Keyboard Outsider is a modular ortholinear board, supporting various trackpads and encoders. — KBD.news</description>
   </item>
 </channel>
 </rss>

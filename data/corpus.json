@@ -3,6 +3,52 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-23",
+      "items": [
+        {
+          "id": "hn-50207489",
+          "title": "Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)",
+          "url": "https://leftium.github.io/megakey/",
+          "discussion_url": "https://news.ycombinator.com/item?id=50207489",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "remapping-layouts",
+            "tools-software"
+          ],
+          "tags": [
+            "key-remapping",
+            "home-row-mods",
+            "open-source"
+          ]
+        },
+        {
+          "id": "hn-50206784",
+          "title": "Using the Dygma Defy ergonomic keyboard for 6 months",
+          "url": "https://www.typequicker.com/blog/dygma-defy",
+          "discussion_url": "https://news.ycombinator.com/item?id=50206784",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "splits-ergo"
+          ],
+          "tags": [
+            "split-keyboard",
+            "mechanical-keyboard"
+          ],
+          "image": "img/hn-50206784.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-10-22",
       "items": [
         {

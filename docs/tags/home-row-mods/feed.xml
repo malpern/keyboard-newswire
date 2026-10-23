@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/home-row-mods/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Home Row Mods.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 22 Oct 2026 12:16:06 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 12:03:22 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)</title>
+    <link>https://leftium.github.io/megakey/</link>
+    <guid isPermaLink="false">hn-50207489</guid>
+    <pubDate>Fri, 23 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>Home row mods: Trade-offs between timeless and time-based approaches</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/</link>
