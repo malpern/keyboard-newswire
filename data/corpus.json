@@ -3,6 +3,160 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-10-24",
+      "items": [
+        {
+          "id": "geekhack-126419",
+          "title": "[IC] MTNU Dasher",
+          "url": "https://geekhack.org/index.php?topic=126419.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126419.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 10600,
+          "comments": 11,
+          "category": "breaking",
+          "takeaway": "GMK MTNU Dasher Interest Check Based on the Data General Dasher Keyboard and of course the keyboard from the Series “Severance”, MTNU Dasher is my personal take on this Blue Retro Keycap Set. Interest Check Form Original Thread on the GMK Discord Server | Keebtalk Post | Reddit Post Since I'm using imgur for the images, you may have to check the keebtalk post for updated images and reddit for the highest quality ones if you're in the UK (sorry!). Kits Kits are now set in stone. I did go through the feedback from the IC form and looked at general pricing and came to the conclusion that separati",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/prlRV00.jpeg",
+            "https://i.imgur.com/GxFN4bq.jpeg",
+            "https://i.imgur.com/2VZEUi4.jpeg?1",
+            "https://i.imgur.com/uwTa5Vq.jpeg",
+            "https://i.imgur.com/EEKfSmU.jpeg",
+            "https://i.imgur.com/PdR0Vm5.jpeg",
+            "https://i.imgur.com/NQPeibd.jpeg",
+            "https://i.imgur.com/Rei6ter.jpeg",
+            "https://i.imgur.com/EZx6maY.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "protoTypist",
+                "url": "https://prototypist.net/",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "Oblotzky",
+                "url": "https://oblotzky.industries/",
+                "host": "oblotzky.industries"
+              },
+              {
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/",
+                "host": "novelkeys.com"
+              },
+              {
+                "vendor": "GeonWorks",
+                "url": "https://geon.works/",
+                "host": "geon.works"
+              },
+              {
+                "vendor": "KeebzNCables",
+                "url": "https://www.keebzncables.com/",
+                "host": "www.keebzncables.com"
+              }
+            ]
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "pricing"
+          ],
+          "images": [
+            "img/geekhack-126419-0.jpg",
+            "img/geekhack-126419-1.jpg",
+            "img/geekhack-126419-2.jpg",
+            "img/geekhack-126419-3.jpg",
+            "img/geekhack-126419-4.jpg",
+            "img/geekhack-126419-5.jpg"
+          ],
+          "image": "img/geekhack-126419-0.jpg"
+        },
+        {
+          "id": "geekhack-126502",
+          "title": "[IC] Botanica - 60% (update)",
+          "url": "https://geekhack.org/index.php?topic=126502.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=126502.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 31810,
+          "comments": 19,
+          "category": "breaking",
+          "takeaway": "BOTANICA Hello, I am Penguin from kai.kbd Botanica takes inspiration from the concept of how plants grow from a single point into something even greater. Starting from the front edge and growing outward from there, its profile changes as it travels across the board, like a shoot following the light. IC Form Specifications WK/WKL/True HHKB 6.9° Typing Angle Front Height: 17.3mm/23.0mm EKH 1.5~kg Fully Built Exposed Screws H60 Footprint w/ C3 Daughterboard Poron Gasket OR Gummy O-Ring Top View The sweeping loft along the sides bring the bezel to just a millimeter whilst twisting the sides to sea",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318545;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316351;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318539;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318547;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318551;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316342;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318549;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318560;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318566;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318562;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318572;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318564;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=318574;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316911;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316913;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316915;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316917;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316919;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316921;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=317086;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316337;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316339;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316341;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316344;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=316348;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=317088;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=317090;image",
+            "https://geekhack.org/index.php?PHPSESSID=l5bh7k3u561dmcif3mrfckc8bennvo3v&action=dlattach;topic=126502.0;attach=317092;image"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "kai.kbd",
+                "url": "https://kaikbd.com/",
+                "host": "kaikbd.com"
+              },
+              {
+                "vendor": "Website",
+                "url": "https://kaikbd.com/botanica",
+                "host": "kaikbd.com"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "mechanical-keyboard",
+            "pcb-design",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-126502-0.jpg",
+            "img/geekhack-126502-1.jpg",
+            "img/geekhack-126502-2.jpg",
+            "img/geekhack-126502-3.jpg",
+            "img/geekhack-126502-4.jpg",
+            "img/geekhack-126502-5.jpg"
+          ],
+          "image": "img/geekhack-126502-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-10-23",
       "items": [
         {

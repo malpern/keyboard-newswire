@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 23 Oct 2026 12:16:02 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:06:53 +0000</lastBuildDate>
+  <item>
+    <title>[IC] MTNU Dasher</title>
+    <link>https://geekhack.org/index.php?topic=126419.0</link>
+    <guid isPermaLink="false">geekhack-126419</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>GMK MTNU Dasher Interest Check Based on the Data General Dasher Keyboard and of course the keyboard from the Series “Severance”, MTNU Dasher is my personal take on this Blue Retro Keycap Set. Interest Check Form Original Thread on the GMK Discord Server | Keebtalk Post | Reddit Post Since I'm using imgur for the images, you may have to check the keebtalk post for updated images and reddit for the highest quality ones if you're in the UK (sorry!). Kits Kits are now set in stone. I did go through the feedback from the IC form and looked at general pricing and came to the conclusion that separati — 10600 pts · 11 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>[IC] Botanica - 60% (update)</title>
+    <link>https://geekhack.org/index.php?topic=126502.0</link>
+    <guid isPermaLink="false">geekhack-126502</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
+    <description>BOTANICA Hello, I am Penguin from kai.kbd Botanica takes inspiration from the concept of how plants grow from a single point into something even greater. Starting from the front edge and growing outward from there, its profile changes as it travels across the board, like a shoot following the light. IC Form Specifications WK/WKL/True HHKB 6.9° Typing Angle Front Height: 17.3mm/23.0mm EKH 1.5~kg Fully Built Exposed Screws H60 Footprint w/ C3 Daughterboard Poron Gasket OR Gummy O-Ring Top View The sweeping loft along the sides bring the bezel to just a millimeter whilst twisting the sides to sea — 31810 pts · 19 comments · Geekhack · Interest Checks</description>
+  </item>
   <item>
     <title>[IC] KeyMaze Eden Sin</title>
     <link>https://geekhack.org/index.php?topic=127126.0</link>
@@ -2161,27 +2183,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>Glare 65 by Geon works. This set is inspired by the famous Gulf Livery, shown below. This set is designed to be an "R2" to my previous set, SA Motorsport Selectric. Based on a multitude of requests to do this in a cylindrical profile, I am doing it in DCS, using stock Signature Plastic Colors. It is important to note that the blue and orange for the Gulf livery weren't consistent. The blue went between a powder blue, "workshirt" blue, and a seafoam green in some incarnations of the livery. The orange is between a more "marigold" (Yellow Orange) and a more "vermillion" (Red Orange), depending o — 3714 pts · 8 comments · Geekhack · Interest Checks</description>
-  </item>
-  <item>
-    <title>Omnitype RF-8X groupbuy is live</title>
-    <link>https://omnitype.com/collections/rf-8x/products/rf-8x</link>
-    <guid isPermaLink="false">email-19e67a388abc16cd</guid>
-    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
-    <description>Omnitype has opened a groupbuy for the RF-8X keyboard. — ✉ Omnitype</description>
-  </item>
-  <item>
-    <title>KBDfans Tofu PAD Pre-Sale ending May 29</title>
-    <link>https://malpern.github.io/keyboard-wire/email/19e673e6e84081c3/</link>
-    <guid isPermaLink="false">email-19e673e6e84081c3</guid>
-    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ G</source>
-    <description>KBDfans is closing pre-orders for the wireless Tofu PAD desk mat on May 29. — ✉ G</description>
   </item>
 </channel>
 </rss>
