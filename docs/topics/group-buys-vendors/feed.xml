@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 24 Oct 2026 12:10:15 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:15:25 +0000</lastBuildDate>
   <item>
     <title>[IC] MTNU Dasher</title>
     <link>https://geekhack.org/index.php?topic=126419.0</link>
@@ -28,6 +28,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>BOTANICA Hello, I am Penguin from kai.kbd Botanica takes inspiration from the concept of how plants grow from a single point into something even greater. Starting from the front edge and growing outward from there, its profile changes as it travels across the board, like a shoot following the light. IC Form Specifications WK/WKL/True HHKB 6.9° Typing Angle Front Height: 17.3mm/23.0mm EKH 1.5~kg Fully Built Exposed Screws H60 Footprint w/ C3 Daughterboard Poron Gasket OR Gummy O-Ring Top View The sweeping loft along the sides bring the bezel to just a millimeter whilst twisting the sides to sea — 31810 pts · 19 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>Seki-gon releases nemu-link 2.4GHz dongle for custom keyboards</title>
+    <link>https://link.pixiv.net/ls/click?upn=u001.9d3mWisdYos-2FAHwpbW09EjiOfczP6-2BH07zgZTk1mk1SLTORF4IuS9RogoyPz12G-2FdcZ5qdJomNJ0WLfWpbJi8-2B7B4JgU5Dwblt-2Fq80OBzCeCLX7iK39tvzIJIU0W2wif8dzbLoiBj1BmB-2BNb-2FHFdzWX8UeueTxxCxSfvSLYjtVjNXwneZICDm-2BJQej3LZMJ-2BXLak_gBo4CVOMEuFVQCCVCcsg-2FmJ50tTfY-2B6V4x0pi-2B9r6L7RMwu2BEMfxnvvxEcMXrTT7CVugMwe5nQXhVkHXmBnpCItNIdjHMPU-2BcmynBImmOOdOwBXkmavGzGBqUrIm2cGsDhc6-2FM-2F7g4oc1FLBdwLZ6bRSCy36KOLB1jnq-2Bc8IwkDAcEytBkdY7raJ7R7xjGDvpbd0TI4mpKHncK8aEvBfHmYLWq6bCJ3sXecn28rdXRW7Uo4-2FkRjFsm6AU83T9yoKqHLxmBfgJkg-2F53MyEYZ5qCQlsuHM6YQJIGn955B-2FZvLXUyGssmCsIn43w1KA-2FwA</link>
+    <guid isPermaLink="false">email-1a16cd61e179432f</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
+    <description>A new 2.4GHz wireless dongle designed specifically for custom keyboards, priced from 2,600 JPY, has been listed on the BOOTH marketplace. — ✉ Booth</description>
   </item>
   <item>
     <title>[IC] KeyMaze Eden Sin</title>
@@ -2172,17 +2183,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>GB May 22 to June 21 I would like to present: Spark GMK Spark delivers a burst of energy and nostalgia through electric color, playful accents, and a shockingly familiar identity. Designed for flexibility, Spark can shift between two distinct looks. Go bold with accent-driven configurations that bring out its personality, or keep it clean with a balanced approach that pairs vibrant alphas with deeper modifier keys for a timeless, everyday setup. UPDATE May 6 Removed Alphas Kit, not enough demand. Trimmed some custom keys to reduce cost. Base now includes 6-key 40’s keys. Base now includes both — 16556 pts · 26 comments · Geekhack · Interest Checks</description>
-  </item>
-  <item>
-    <title>[IC] DCS Vintage Motorsport- Group Buy June 12- July 6</title>
-    <link>https://geekhack.org/index.php?topic=126741.0</link>
-    <guid isPermaLink="false">geekhack-126741</guid>
-    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
-    <description>Glare 65 by Geon works. This set is inspired by the famous Gulf Livery, shown below. This set is designed to be an "R2" to my previous set, SA Motorsport Selectric. Based on a multitude of requests to do this in a cylindrical profile, I am doing it in DCS, using stock Signature Plastic Colors. It is important to note that the blue and orange for the Gulf livery weren't consistent. The blue went between a powder blue, "workshirt" blue, and a seafoam green in some incarnations of the livery. The orange is between a more "marigold" (Yellow Orange) and a more "vermillion" (Red Orange), depending o — 3714 pts · 8 comments · Geekhack · Interest Checks</description>
   </item>
 </channel>
 </rss>
