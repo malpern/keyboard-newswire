@@ -160,6 +160,51 @@
             "img/geekhack-126502-5.jpg"
           ],
           "image": "img/geekhack-126502-0.jpg"
+        },
+        {
+          "id": "reddit-1xe5rqy",
+          "title": "User seeks advice translating Kanata RSI remaps to Vial on Corne",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xe5rqy/long_time_homerow_mod_user_ordered_my_first_split/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xe5rqy/long_time_homerow_mod_user_ordered_my_first_split/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "User seeks advice on translating a 2-year Kanata remapping setup for RSI to Vial on a new 42-key Corne.",
+          "topics": [
+            "remapping-layouts",
+            "splits-ergo"
+          ],
+          "tags": [
+            "kanata",
+            "home-row-mods",
+            "split-keyboard",
+            "key-remapping"
+          ],
+          "original_title": "Long time homerow mod user, ordered my first split: Will my config hold?",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague question"
+        },
+        {
+          "id": "reddit-1xdylyd",
+          "title": "QMK for Redragon K580 RGB and others with WCH CH555-family 8051 microcontrollers",
+          "url": "https://reddit.com/r/olkb/comments/1xdylyd/qmk_for_redragon_k580_rgb_and_others_with_wch/",
+          "discussion_url": "https://reddit.com/r/olkb/comments/1xdylyd/qmk_for_redragon_k580_rgb_and_others_with_wch/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Announcement of QMK support for multiple Redragon models using WCH CH555 8051 microcontrollers, including compatibility checks via USB VID:PID.",
+          "topics": [
+            "firmware"
+          ],
+          "tags": [
+            "qmk",
+            "custom-firmware",
+            "open-source"
+          ]
         }
       ]
     },

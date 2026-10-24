@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 24 Oct 2026 12:07:50 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:10:15 +0000</lastBuildDate>
+  <item>
+    <title>QMK for Redragon K580 RGB and others with WCH CH555-family 8051 microcontrollers</title>
+    <link>https://reddit.com/r/olkb/comments/1xdylyd/qmk_for_redragon_k580_rgb_and_others_with_wch/</link>
+    <guid isPermaLink="false">reddit-1xdylyd</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Announcement of QMK support for multiple Redragon models using WCH CH555 8051 microcontrollers, including compatibility checks via USB VID:PID. — r/olkb</description>
+  </item>
   <item>
     <title>Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)</title>
     <link>https://leftium.github.io/megakey/</link>

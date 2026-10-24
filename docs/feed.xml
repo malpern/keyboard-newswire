@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 24 Oct 2026 12:07:49 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:10:15 +0000</lastBuildDate>
+  <item>
+    <title>User seeks advice translating Kanata RSI remaps to Vial on Corne</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xe5rqy/long_time_homerow_mod_user_ordered_my_first_split/</link>
+    <guid isPermaLink="false">reddit-1xe5rqy</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User seeks advice on translating a 2-year Kanata remapping setup for RSI to Vial on a new 42-key Corne. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>QMK for Redragon K580 RGB and others with WCH CH555-family 8051 microcontrollers</title>
+    <link>https://reddit.com/r/olkb/comments/1xdylyd/qmk_for_redragon_k580_rgb_and_others_with_wch/</link>
+    <guid isPermaLink="false">reddit-1xdylyd</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Announcement of QMK support for multiple Redragon models using WCH CH555 8051 microcontrollers, including compatibility checks via USB VID:PID. — r/olkb</description>
+  </item>
   <item>
     <title>Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)</title>
     <link>https://leftium.github.io/megakey/</link>
@@ -2094,28 +2115,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>ZSA releases Navigator trackpad for Voyager</title>
-    <link>https://www.zsa.io/navigator</link>
-    <guid isPermaLink="false">email-19e26bb95be237bd</guid>
-    <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
-    <description>ZSA launched the Navigator trackpad, a swappable input core for the Voyager shell, priced at $99, featuring a smooth surface and firmware tuned with Cirque. — ✉ Zsa</description>
-  </item>
-  <item>
-    <title>KiiBOOM Phantom 98 Lite review</title>
-    <link>https://kbd.news/KiiBOOM-Phantom-98-Lite-review-2853.html</link>
-    <guid isPermaLink="false">kbdnews-2853</guid>
-    <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>I reviewed KiiBOOM's Phantom 98 Lite, a cute wireless keyboard with 1800-ish layout and the silly froggy keycap design. — KBD.news</description>
   </item>
 </channel>
 </rss>
