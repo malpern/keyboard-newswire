@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 24 Oct 2026 12:17:01 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:21:24 +0000</lastBuildDate>
   <item>
     <title>Seki-gon releases nemu-link 2.4GHz dongle for custom keyboards</title>
     <link>https://booth.pm/ja/items/9023384</link>
@@ -17,6 +17,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
     <description>A new 2.4GHz wireless dongle designed specifically for custom keyboards, priced from 2,600 JPY, has been listed on the BOOTH marketplace. — ✉ Booth</description>
+  </item>
+  <item>
+    <title>Krteq 2.0 adds OLED, full RGB, and open hardware</title>
+    <link>https://kbd.news/Krteq-2.0-2931.html</link>
+    <guid isPermaLink="false">kbdnews-2931</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Jan Bláha's updated Krteq features an OLED and full RGB lighting. It's also open hardware. — KBD.news</description>
   </item>
   <item>
     <title>The 800XL – full-size mechanical keyboard, a working cartridge slot, HDMI output</title>

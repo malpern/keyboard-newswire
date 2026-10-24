@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Oled Display · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/oled-display/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/oled-display/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Oled Display.</description>
+  <language>en-us</language>
+  <lastBuildDate>Sat, 24 Oct 2026 12:21:24 +0000</lastBuildDate>
+  <item>
+    <title>Krteq 2.0 adds OLED, full RGB, and open hardware</title>
+    <link>https://kbd.news/Krteq-2.0-2931.html</link>
+    <guid isPermaLink="false">kbdnews-2931</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Jan Bláha's updated Krteq features an OLED and full RGB lighting. It's also open hardware. — KBD.news</description>
+  </item>
+</channel>
+</rss>

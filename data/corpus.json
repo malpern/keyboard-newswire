@@ -229,6 +229,34 @@
             "mechanical-keyboard"
           ],
           "image": "img/email-1a16cd61e179432f.jpg"
+        },
+        {
+          "id": "kbdnews-2931",
+          "title": "Krteq 2.0 adds OLED, full RGB, and open hardware",
+          "url": "https://kbd.news/Krteq-2.0-2931.html",
+          "discussion_url": "https://kbd.news/Krteq-2.0-2931.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Jan Bláha's updated Krteq features an OLED and full RGB lighting. It's also open hardware.",
+          "image_hint": "https://kbd.news/pic/2026/218/480/2931.jpg",
+          "topics": [
+            "builds-hardware",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "open-source",
+            "rgb-lighting",
+            "oled-display",
+            "hardware-design"
+          ],
+          "original_title": "Krteq 2.0",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Title was a vague version number; rewrite adds specific features from takeaway",
+          "image": "img/kbdnews-2931.jpg"
         }
       ]
     },

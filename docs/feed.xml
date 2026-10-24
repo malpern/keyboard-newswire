@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 24 Oct 2026 12:17:01 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 24 Oct 2026 12:21:24 +0000</lastBuildDate>
   <item>
     <title>User seeks advice translating Kanata RSI remaps to Vial on Corne</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xe5rqy/long_time_homerow_mod_user_ordered_my_first_split/</link>
@@ -38,6 +38,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
     <description>A new 2.4GHz wireless dongle designed specifically for custom keyboards, priced from 2,600 JPY, has been listed on the BOOTH marketplace. — ✉ Booth</description>
+  </item>
+  <item>
+    <title>Krteq 2.0 adds OLED, full RGB, and open hardware</title>
+    <link>https://kbd.news/Krteq-2.0-2931.html</link>
+    <guid isPermaLink="false">kbdnews-2931</guid>
+    <pubDate>Sat, 24 Oct 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Jan Bláha's updated Krteq features an OLED and full RGB lighting. It's also open hardware. — KBD.news</description>
   </item>
   <item>
     <title>Show HN: MegaKey (standardization and extension of the Hyper and Meh keys)</title>
@@ -2106,16 +2117,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>A wireless version of Bruce the Keyboard: Willis by Alexander Krikun. — KBD.news</description>
-  </item>
-  <item>
-    <title>A Technical Deep Dive into the New Raycast</title>
-    <link>https://www.raycast.com/blog/a-technical-deep-dive-into-the-new-raycast</link>
-    <guid isPermaLink="false">hn-48134672</guid>
-    <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>9 pts · 1 comments · Hacker News</description>
   </item>
 </channel>
 </rss>
