@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-08",
+      "items": [
+        {
+          "id": "hn-50405600",
+          "title": "Glyph: The Typewriter Mechanical Keyboard",
+          "url": "https://boilingsteam.com/epomaker-glyph-keyboard-review/",
+          "discussion_url": "https://news.ycombinator.com/item?id=50405600",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "keycaps-aesthetics",
+            "builds-hardware"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "keycap-design",
+            "vendor-practices"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-10-24",
       "items": [
         {
