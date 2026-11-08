@@ -25,6 +25,172 @@
             "keycap-design",
             "vendor-practices"
           ]
+        },
+        {
+          "id": "geekhack-122525",
+          "title": "[GB] Evolv | Four years later, it's here",
+          "url": "https://geekhack.org/index.php?topic=122525.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=122525.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 11479,
+          "comments": 6,
+          "category": "breaking",
+          "takeaway": "Who knew that when I posted the first Evolv IC four years ago, that project would go on to become such a self-fulfilling prophecy as the board evolved through version after version. I could not be more proud of what I and all those who helped along the way accomplished, so without any futher ado, Evolv is here: Evolv is a 75% full isolation gasket keyboard, featuring a 4-key macro column, a joystick knob, a lil right shift, and of course, the tendrils. Evolv is available in one of six pre-configured colorways, or you can design your own (Images are clickable and send you to the corresponding p",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://i.imgur.com/YDJggAa.jpg",
+            "https://i.imgur.com/hTj0JB0.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04154332/ig_cw-heritage-600x600.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04154347/ig_cw-relic-600x600.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/01/01210810/ig_cw-heirloom-600x600.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04154340/ig_cw-memento-600x600.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04154355/ig_cw-remnant-600x600.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04154225/ig_cw-artifact-600x600.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01221716/config_makeyourown-1.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04141743/Evolv_SideProfile.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04140639/header_relic-back.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04142108/Evolv_plate-assembly.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/01/30113837/evolv-ic-layout.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04145935/ig_gaskets.png",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01124913/weight-array.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04215113/header_tendrils-1.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04143949/header_knobs.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04145702/ig_pcb-03.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04215224/Evolv_DB.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2023/10/04203213/Evolv_Plate.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160339/gallery_01.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160343/gallery_02.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160346/gallery_03.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160354/gallery_04.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160357/gallery_05.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160350/gallery_06.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160401/gallery_07.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160405/gallery_08.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160409/gallery_09.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160413/gallery_10.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160417/gallery_11.jpg",
+            "https://s3.us-west-2.amazonaws.com/archetypemade.website/wp-content/uploads/2024/02/01160420/gallery_12.jpg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Archetype",
+                "url": "https://archetypemade.com/evolv-is-here/",
+                "host": "archetypemade.com"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "mechanical-keyboard",
+            "pcb-design",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-122525-1.jpg",
+            "img/geekhack-122525-2.jpg",
+            "img/geekhack-122525-3.jpg",
+            "img/geekhack-122525-4.jpg",
+            "img/geekhack-122525-5.jpg"
+          ],
+          "image": "img/geekhack-122525-1.jpg"
+        },
+        {
+          "id": "geekhack-127229",
+          "title": "[IC] GMK CYL Video 2048",
+          "url": "https://geekhack.org/index.php?topic=127229.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127229.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 34258,
+          "comments": 7,
+          "category": "breaking",
+          "takeaway": "GMK CYL Video 2048 Hey everyone. Inspired by the color-coded shortcut keyboards that filled Mac editing suites in the mid-2000s, GMK Video 2048 brings back their visual language. Colored keycaps are grouped by function, each one carrying a pictographic pad-printed sublegend. A tribute to the post-production desk, where you learned a shortcut by its color first. I'm considering child kits, so please lelt me know your thoughts Renders Kits Thanks for the support. Special thanks to Oblotzky for the renders.",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://media.biipmk.com/gmk-video2048/GMK_Power-2048-Renders-1.jpg",
+            "https://media.biipmk.com/gmk-video2048/GMK_Power-2048-Renders-2.jpg",
+            "https://media.biipmk.com/gmk-video2048/GMK_Power-2048-Renders-3.jpg",
+            "https://media.biipmk.com/gmk-video2048/GMK_Video-2048-Base.jpg",
+            "https://i.imgur.com/6UHnGqR.png"
+          ],
+          "gb": {
+            "designer": "function"
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127229-0.jpg",
+            "img/geekhack-127229-1.jpg",
+            "img/geekhack-127229-2.jpg",
+            "img/geekhack-127229-3.jpg"
+          ],
+          "image": "img/geekhack-127229-0.jpg"
+        },
+        {
+          "id": "geekhack-127301",
+          "title": "[IC] GMK CYL Deathly Queen - Taking over from Tyson",
+          "url": "https://geekhack.org/index.php?topic=127301.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127301.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 4832,
+          "comments": 10,
+          "category": "breaking",
+          "takeaway": "Hi Geekhack! As some of you may know, Deathly Queen is a GMK set designed by Tyson & inspired by a very popular anime series, through the years this set has seen many changes and lots of support but in the end due to multiple circumstances it never got to the GB stage. A couple of months ago, I spoke to Tyson about the future of the set. Although he ultimately wasn't able to run it due to personal circumstances, with his permission, I ended up taking over the project to, after all this years, finally see it run. Although the set has some updates and some changes (main ones being the addition o",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.postimg.cc/W17LNqqG/Base-kit.png",
+            "https://i.postimg.cc/q7MfzB2s/Novelties.png",
+            "https://i.postimg.cc/SKN0JQc2/Bars-w-label.png",
+            "https://i.postimg.cc/KY4961np/Rikia-DQ-1.png",
+            "https://i.postimg.cc/d0XWwJ63/Rikia-DQ-2.png",
+            "https://i.postimg.cc/tJFvB8hG/New-w1-at-2.png",
+            "https://i.postimg.cc/LshycJzy/New-w1-at.png",
+            "https://i.postimg.cc/MGXsCnyP/Phidias-1.png",
+            "https://i.postimg.cc/5tjPhXws/Phidias-dq-2.png",
+            "https://i.postimg.cc/Z59BLTnJ/Frog-deathly-queen-1.jpg",
+            "https://i.postimg.cc/x1kJP08Y/Frog-deathly-queen-2.jpg",
+            "https://i.postimg.cc/T3yLcR1Y/Ikki68-Deathl-Queen1.jpg",
+            "https://i.postimg.cc/0y6MC8jq/Ikki-deathly-queen-3.jpg",
+            "https://i.postimg.cc/jSWwhs2C/Rosa-Deathly-Queen-1.jpg",
+            "https://i.postimg.cc/y8JgTVxk/Rosa-deathly-queen-2.jpg"
+          ],
+          "gb": {
+            "status": "ended"
+          },
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-127301-0.jpg",
+            "img/geekhack-127301-1.jpg",
+            "img/geekhack-127301-2.jpg",
+            "img/geekhack-127301-3.jpg",
+            "img/geekhack-127301-4.jpg",
+            "img/geekhack-127301-5.jpg"
+          ],
+          "image": "img/geekhack-127301-0.jpg"
         }
       ]
     },
