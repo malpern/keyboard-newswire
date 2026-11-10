@@ -25,6 +25,36 @@
             "mechanical-keyboard"
           ],
           "image": "img/hn-50425827.jpg"
+        },
+        {
+          "id": "geekhack-127286",
+          "title": "[IC] SA Paperwork - 40% Monokit",
+          "url": "https://geekhack.org/index.php?topic=127286.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127286.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 16263,
+          "comments": 7,
+          "category": "breaking",
+          "takeaway": "SA Paperwork - 40% Monokit Introducing, SA Paperwork! The classic color way from Trashman is back. This time in glorious SA profile from Signature Plastics. Using the same stock color codes as DSA PPW, this run will attempt to have Trashcons created and available in SA profile for the first time. * Monokit Price: TBA * Color codes: Light Gray (GLK), Dark Gray (GG), Pink (RCR), Light Yellow (YCE), Dark Yellow (YW), Light Green (VAT), Dark Green (VV), Light Blue (BFG), Dark Blue (BDH), Light Purple (RCJ), Dark Purple (RDA) * Doubleshot ABS in SA profile (1-2-3-4-3 sculpt) * Convex SA Space Bars",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://geekhack.org/index.php?PHPSESSID=a73qff5e7b39fcsojj90l1avdt1akbh4&action=dlattach;topic=127286.0;attach=318663;image"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127286-0.jpg"
+          ],
+          "image": "img/geekhack-127286-0.jpg"
         }
       ]
     },
