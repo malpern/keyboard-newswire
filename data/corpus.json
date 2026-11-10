@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-10",
+      "items": [
+        {
+          "id": "hn-50425827",
+          "title": "Show HN: Kiiwi – Mechanical Keyboard sounds for your Mac",
+          "url": "https://kiiwi.app/",
+          "discussion_url": "https://news.ycombinator.com/item?id=50425827",
+          "source": "hn",
+          "subreddit": null,
+          "score": 3,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "sound-effects",
+            "mechanical-keyboard"
+          ],
+          "image": "img/hn-50425827.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-08",
       "items": [
         {
