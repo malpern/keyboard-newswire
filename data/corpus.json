@@ -3,6 +3,163 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-12",
+      "items": [
+        {
+          "id": "geekhack-127249",
+          "title": "[GB] MW Datenshi | 26 Oct - 16 Nov",
+          "url": "https://geekhack.org/index.php?topic=127249.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127249.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "REMINDER! Group buy ends soon! make sure not to miss it!",
+          "topics": [
+            "group-buys-vendors"
+          ],
+          "type": "GB",
+          "tags": [
+            "group-buy",
+            "mechanical-keyboard"
+          ],
+          "image": "img/geekhack-127249.jpg"
+        },
+        {
+          "id": "geekhack-127280",
+          "title": "[GB] GMK MTNU Dasher",
+          "url": "https://geekhack.org/index.php?topic=127280.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127280.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 14199,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "GMK MTNU Dasher Pre-Order Thread Pre-Order is live between November 4th and December 6th at the following Vendors UK: protoTypist (Lead Vendor) EU: Oblotzky NA: NovelKeys Korea: GeonWorks OCE: KeebzNCables CN: TypistClub Expected fulfillment is on or before June 30th 2027 Based on the Data General Dasher Keyboard and of course the keyboard from the Series “Severance”, MTNU Dasher is my personal take on this Blue Retro Keycap Set. Original IC Thread on the GMK Discord Server | Keebtalk IC Post | Original IC Reddit Post | GeekHack IC Post Since I'm using imgur for the images, you may have to che",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://i.imgur.com/Rx0sjj2.jpeg",
+            "https://i.imgur.com/kraQaIQ.jpeg",
+            "https://i.imgur.com/YxCVzHq.jpeg",
+            "https://i.imgur.com/LxlWVtz.jpeg",
+            "https://i.imgur.com/EEKfSmU.jpeg",
+            "https://i.imgur.com/PdR0Vm5.jpeg",
+            "https://i.imgur.com/Rei6ter.jpeg",
+            "https://i.imgur.com/EZx6maY.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "protoTypist",
+                "url": "https://prototypist.net/",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "Oblotzky",
+                "url": "https://oblotzky.industries/",
+                "host": "oblotzky.industries"
+              },
+              {
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/",
+                "host": "novelkeys.com"
+              },
+              {
+                "vendor": "GeonWorks",
+                "url": "https://geon.works/",
+                "host": "geon.works"
+              },
+              {
+                "vendor": "KeebzNCables",
+                "url": "https://www.keebzncables.com/",
+                "host": "www.keebzncables.com"
+              }
+            ],
+            "related_threads": [
+              {
+                "type": "",
+                "title": "Login",
+                "url": "https://geekhack.org/index.php?topic=1264193",
+                "topic_id": "1264193"
+              }
+            ],
+            "vendor_regions": [
+              {
+                "region": "UK",
+                "name": "protoTypist (Lead Vendor)"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "vendor-practices"
+          ],
+          "images": [
+            "img/geekhack-127280-0.jpg",
+            "img/geekhack-127280-1.jpg",
+            "img/geekhack-127280-2.jpg",
+            "img/geekhack-127280-3.jpg",
+            "img/geekhack-127280-4.jpg",
+            "img/geekhack-127280-5.jpg"
+          ],
+          "image": "img/geekhack-127280-0.jpg"
+        },
+        {
+          "id": "geekhack-127319",
+          "title": "[IC] GMK CYL Mayan blue",
+          "url": "https://geekhack.org/index.php?topic=127319.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127319.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 2564,
+          "comments": 4,
+          "category": "breaking",
+          "takeaway": "Discord FORM GMK CYL MAYAN BLUE Hi, let me introduce Mayan blue a set inspired by one of the most historically significant color. This color, traditionally obtained by combining indigo with clay, was characterized by an extraordinary resistance to the elements and the passage of time. It is a color with a teal component that varies depending on its composition and how it is prepared; in this case, I used the reference color provided by RAL. Beyond its aesthetic value, Mayan Blue held deep symbolic and spiritual significance: it was associated with water, the sky, fertility, and the sacred real",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/SSLDmVX.jpeg",
+            "https://i.imgur.com/9j9BfzU.jpeg",
+            "https://i.imgur.com/58qEDdQ.jpeg",
+            "https://i.imgur.com/tZeG9zO.png",
+            "https://i.imgur.com/8lL41lx.jpeg",
+            "https://i.imgur.com/1GV3KrU.png",
+            "https://i.imgur.com/64K5rwA.jpeg",
+            "https://i.imgur.com/86ek8pR.jpeg",
+            "https://i.imgur.com/jdfPwGa.png",
+            "https://i.imgur.com/BGvz61I.jpeg",
+            "https://i.imgur.com/hwUYtnP.jpeg",
+            "https://i.imgur.com/snABbp1.jpeg"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy"
+          ],
+          "images": [
+            "img/geekhack-127319-0.jpg",
+            "img/geekhack-127319-1.jpg",
+            "img/geekhack-127319-2.jpg",
+            "img/geekhack-127319-3.jpg",
+            "img/geekhack-127319-4.jpg",
+            "img/geekhack-127319-5.jpg"
+          ],
+          "image": "img/geekhack-127319-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "items": [
         {
