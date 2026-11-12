@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Nov 2026 13:08:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 13:15:05 +0000</lastBuildDate>
   <item>
     <title>[GB] MW Datenshi | 26 Oct - 16 Nov</title>
     <link>https://geekhack.org/index.php?topic=127249.0</link>
@@ -38,6 +38,17 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>Discord FORM GMK CYL MAYAN BLUE Hi, let me introduce Mayan blue a set inspired by one of the most historically significant color. This color, traditionally obtained by combining indigo with clay, was characterized by an extraordinary resistance to the elements and the passage of time. It is a color with a teal component that varies depending on its composition and how it is prepared; in this case, I used the reference color provided by RAL. Beyond its aesthetic value, Mayan Blue held deep symbolic and spiritual significance: it was associated with water, the sky, fertility, and the sacred real — 2564 pts · 4 comments · Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>Mode Designs opens pre-orders for Prologue keyboard</title>
+    <link>https://modedesigns.com/products/prologue</link>
+    <guid isPermaLink="false">email-1a1cbc846a41bd7b</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>Mode Designs has launched pre-orders for the Prologue, a keyboard featuring anodized aluminum, hardwood, and steel construction with multiple color editions, shipping in December. — ✉ Modedesigns</description>
   </item>
   <item>
     <title>[IC] SA Paperwork - 40% Monokit</title>
@@ -2171,17 +2182,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>KAP-Retro:CAT IC form | Discord | Discord-Keyreative - Please help me to fill out this form and provide any feedback that you have, super thank you - If you are interested in being a vendor, please contact me on Discord. This set is inspired by the keyboard of Canon Cat, the word processor invented by HCI pioneer Jef Raskin. Launched in 1987, this vintage device fully embodies the philosophy of The Humane Environment. It abandons mice, menus and redundant keys, delivering modeless efficient editing via streamlined layout shortcuts. We extract native layout command abbreviations including scali — 204 pts · 1 comments · Geekhack · Interest Checks</description>
-  </item>
-  <item>
-    <title>[IC] MW 仮想|ABS 2SHOT</title>
-    <link>https://geekhack.org/index.php?topic=126827.0</link>
-    <guid isPermaLink="false">geekhack-126827</guid>
-    <pubDate>Wed, 17 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
-    <description>MW 仮想 Backgrand Hello everyone, this is MW~ We are honored to collaborate with designer KEi on MW 仮想. This is our first project together, and we believe it marks the beginning of a great partnership. Colorway For this set, the designer chose black, white, and gray as the base colors for the keycaps. Highly saturated purple, magenta, and cyan are used across the legends, novelties, and alpha accents to create a bold and vivid contrast. The set will be produced in ABS double-shot, with UV printing applied to selected keys. The physical samples shown here were matched using real GMK and SP color — 236 pts · Geekhack · Interest Checks</description>
   </item>
 </channel>
 </rss>

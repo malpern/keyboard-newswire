@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Nov 2026 13:08:11 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 13:15:05 +0000</lastBuildDate>
+  <item>
+    <title>Mode Designs opens pre-orders for Prologue keyboard</title>
+    <link>https://modedesigns.com/products/prologue</link>
+    <guid isPermaLink="false">email-1a1cbc846a41bd7b</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>Mode Designs has launched pre-orders for the Prologue, a keyboard featuring anodized aluminum, hardwood, and steel construction with multiple color editions, shipping in December. — ✉ Modedesigns</description>
+  </item>
   <item>
     <title>Show HN: Kiiwi – Mechanical Keyboard sounds for your Mac</title>
     <link>https://kiiwi.app/</link>
@@ -2107,16 +2118,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Buttondown</source>
     <description>Newsletter highlights April's top selling mechanical switches, reviews of Epomaker HE68 Lite and KiiBOOM Phantom 98 Lite, and open source projects like Levels54 and Vanguard Keyboard Outsider. — ✉ Buttondown</description>
-  </item>
-  <item>
-    <title>Cats Lock – keyboard lock for cat people</title>
-    <link>https://catslock.app</link>
-    <guid isPermaLink="false">hn-48174406</guid>
-    <pubDate>Mon, 18 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>3 pts · 1 comments · Hacker News</description>
   </item>
 </channel>
 </rss>

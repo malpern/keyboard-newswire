@@ -157,6 +157,29 @@
         "img/geekhack-127319-5.jpg"
       ],
       "image": "img/geekhack-127319-0.jpg"
+    },
+    {
+      "id": "email-1a1cbc846a41bd7b",
+      "title": "Mode Designs opens pre-orders for Prologue keyboard",
+      "url": "https://modedesigns.com/products/prologue",
+      "discussion_url": "https://modedesigns.com/products/prologue",
+      "source": "email",
+      "subreddit": null,
+      "via": "Modedesigns",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Mode Designs has launched pre-orders for the Prologue, a keyboard featuring anodized aluminum, hardwood, and steel construction with multiple color editions, shipping in December.",
+      "sender": "Mode Designs <support@modedesigns.com>",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "tags": [
+        "vendor-practices",
+        "mechanical-keyboard",
+        "keycap-design"
+      ]
     }
   ]
 }
