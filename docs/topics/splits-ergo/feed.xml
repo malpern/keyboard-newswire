@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 12 Nov 2026 13:16:15 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 13:21:13 +0000</lastBuildDate>
+  <item>
+    <title>RainDrop gaming keypad</title>
+    <link>https://kbd.news/RainDrop-gaming-keypad-2936.html</link>
+    <guid isPermaLink="false">kbdnews-2936</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The one-handed RainDrop is a gaming keypad by AGorshkov101 – with keywell and thumbstick. — KBD.news</description>
+  </item>
+  <item>
+    <title>Hachigo74</title>
+    <link>https://kbd.news/Hachigo74-2935.html</link>
+    <guid isPermaLink="false">kbdnews-2935</guid>
+    <pubDate>Thu, 12 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A low-pro unibody split keyboard with trackpad: Hachigo74 by baalsmn. — KBD.news</description>
+  </item>
   <item>
     <title>User seeks advice translating Kanata RSI remaps to Vial on Corne</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xe5rqy/long_time_homerow_mod_user_ordered_my_first_split/</link>

@@ -180,6 +180,52 @@
         "mechanical-keyboard",
         "keycap-design"
       ]
+    },
+    {
+      "id": "kbdnews-2936",
+      "title": "RainDrop gaming keypad",
+      "url": "https://kbd.news/RainDrop-gaming-keypad-2936.html",
+      "discussion_url": "https://kbd.news/RainDrop-gaming-keypad-2936.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "The one-handed RainDrop is a gaming keypad by AGorshkov101 – with keywell and thumbstick.",
+      "image_hint": "https://kbd.news/pic/2026/219/480/2936.jpg",
+      "topics": [
+        "builds-hardware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "diy-build",
+        "keycap-design"
+      ]
+    },
+    {
+      "id": "kbdnews-2935",
+      "title": "Hachigo74",
+      "url": "https://kbd.news/Hachigo74-2935.html",
+      "discussion_url": "https://kbd.news/Hachigo74-2935.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A low-pro unibody split keyboard with trackpad: Hachigo74 by baalsmn.",
+      "image_hint": "https://kbd.news/pic/2026/219/480/2935.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "mechanical-keyboard",
+        "diy-build"
+      ]
     }
   ]
 }
