@@ -3,6 +3,169 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-13",
+      "items": [
+        {
+          "id": "geekhack-127316",
+          "title": "Ortho M87,Ortholinear,RT Mechanical switch",
+          "url": "https://geekhack.org/index.php?topic=127316.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127316.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1917,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "Hello，geekhack。 Hello，everyone。 This is Ortho Studio ，A customized keyboard studio from China，This is our first time to post an IC on geekhack，It's our great honor. If there are any errors or offences, I sincerely hope for your guidance and understanding. We are a studio established in China, and we have been working domestically without making much progress abroad.We specialize in keyboards with ortholinear layout，So, unlike other studios, ours is a unique and less popular one.The ortholinear keyboard is relatively unpopular in our country, but we still have a group of like-minded players gat",
+          "topics": [
+            "group-buys-vendors",
+            "splits-ergo"
+          ],
+          "images_remote": [
+            "https://i.ibb.co/dwfhkxcs/1-01.png",
+            "https://i.ibb.co/nML8CY8t/1-02.png",
+            "https://i.ibb.co/2pkccJx/1-03.png",
+            "https://i.ibb.co/5XzdSN34/1-04.png",
+            "https://i.ibb.co/36dy3rk/1-05.png",
+            "https://i.ibb.co/h1Rrp2QP/1-06.png",
+            "https://i.ibb.co/ZzxfpZ0S/1-07.png",
+            "https://i.ibb.co/xK2CMVqr/1-08.png",
+            "https://i.ibb.co/mMg34Hf/1-09.png",
+            "https://i.ibb.co/mrMVcMqP/1-10.png",
+            "https://i.ibb.co/HLJyP0hV/1-11.png",
+            "https://i.ibb.co/kVmS3JSG/1-12.png",
+            "https://i.ibb.co/6RQN4XXb/1-13.png",
+            "https://i.ibb.co/b5T2yJvt/1-14.png",
+            "https://i.ibb.co/vx98TWps/1-15.png",
+            "https://i.ibb.co/rG8Nd3N7/1-16.png",
+            "https://i.ibb.co/zhTjwvCf/1-19.png",
+            "https://i.ibb.co/bMGtRXG9/image.png",
+            "https://i.ibb.co/MLrKJgS/image.png",
+            "https://i.ibb.co/Kx28rVDQ/image.png",
+            "https://i.ibb.co/8gxXr426/image.png",
+            "https://i.ibb.co/Xf9ZGTFm/image.png"
+          ],
+          "gb": {
+            "designer": "Ortho"
+          },
+          "tags": [
+            "ortholinear",
+            "group-buy",
+            "mechanical-keyboard",
+            "vendor-practices"
+          ]
+        },
+        {
+          "id": "geekhack-127321",
+          "title": "[GB] SWG Retroguardia | 5 to 23 November 2026",
+          "url": "https://geekhack.org/index.php?topic=127321.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127321.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 2089,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "Hey everyone! The group buy for SWG Retroguardia is live, from 9 to 23 November 2026 . A few years after GMK Avanguardia, I'm back with something that feels like its rebellious little sibling. Retroguardia keeps Avanguardia's geometric vibe and minimalist layout, but swaps the muted palette for something with more bite: a vivid green accent that feels both retro and electric. It's still clean, but this time it's louder and a little more fun. The name Retroguardia (Italian for \"rearguard\") plays on Avanguardia (\"avant-garde\"): same design lineage, flipped energy. Think old-school synths and ana",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://raz.wtf/retroguardia/studio/frosted-hhkb-esc.webp",
+            "https://raz.wtf/retroguardia/kits/base.webp",
+            "https://raz.wtf/retroguardia/kits/numpad.webp",
+            "https://raz.wtf/retroguardia/lifestyle/patch-bay-corner.webp",
+            "https://raz.wtf/retroguardia/studio/frosted-hhkb-enter.webp",
+            "https://raz.wtf/retroguardia/studio/hero.webp",
+            "https://raz.wtf/retroguardia/studio/top-down.webp",
+            "https://raz.wtf/retroguardia/studio/full.webp",
+            "https://raz.wtf/retroguardia/studio/alice.webp",
+            "https://raz.wtf/retroguardia/studio/signature.webp",
+            "https://raz.wtf/retroguardia/lifestyle/patch-bay.webp",
+            "https://raz.wtf/retroguardia/lifestyle/desk.webp",
+            "https://raz.wtf/retroguardia/lifestyle/satin.webp",
+            "https://raz.wtf/retroguardia/lifestyle/flatlay.webp",
+            "https://raz.wtf/retroguardia/lifestyle/night.webp",
+            "https://raz.wtf/retroguardia/packaging/packshot.webp",
+            "https://raz.wtf/retroguardia/packaging/card.webp"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Divinikey",
+                "url": "https://divinikey.com/products/swg-retroguardia-keycaps",
+                "host": "divinikey.com"
+              },
+              {
+                "vendor": "Delta Key Co.",
+                "url": "https://deltakeyco.com/products/swg-retroguardia",
+                "host": "deltakeyco.com"
+              },
+              {
+                "vendor": "Prototypist",
+                "url": "https://prototypist.net/products/swg-retroguardia-keycap-set-group-buy",
+                "host": "prototypist.net"
+              },
+              {
+                "vendor": "KeyBay.tech",
+                "url": "https://keybay.tech/products/gb-swg-retroguardia-abs-keycaps",
+                "host": "keybay.tech"
+              },
+              {
+                "vendor": "Qwertyqop",
+                "url": "https://qwertyqop.com/products/swg-retroguardia-keycaps",
+                "host": "qwertyqop.com"
+              },
+              {
+                "vendor": "Switchkeys",
+                "url": "https://www.switchkeys.com.au/products/swg-retroguardia",
+                "host": "www.switchkeys.com.au"
+              },
+              {
+                "vendor": "Swagkeys",
+                "url": "https://swagkeys.com/products/group-buy-swg-retroguardia",
+                "host": "swagkeys.com"
+              },
+              {
+                "vendor": "KR",
+                "url": "https://www.swagkey.kr/235/?idx=1970",
+                "host": "www.swagkey.kr"
+              },
+              {
+                "vendor": "raz.wtf",
+                "url": "https://raz.wtf/projects/swg-retroguardia",
+                "host": "raz.wtf"
+              }
+            ],
+            "related_threads": [
+              {
+                "type": "IC",
+                "title": "SWG Retroguardia",
+                "url": "https://geekhack.org/index.php?topic=125844",
+                "topic_id": "125844"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127321-0.jpg",
+            "img/geekhack-127321-1.jpg",
+            "img/geekhack-127321-2.jpg",
+            "img/geekhack-127321-3.jpg",
+            "img/geekhack-127321-4.jpg",
+            "img/geekhack-127321-5.jpg"
+          ],
+          "image": "img/geekhack-127321-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-12",
       "items": [
         {
