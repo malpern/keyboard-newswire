@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 13 Nov 2026 13:07:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 13:20:44 +0000</lastBuildDate>
+  <item>
+    <title>Keybytes: flexible magnetic keyboard system built on 1u blocks</title>
+    <link>https://kbd.news/Keybytes-2938.html</link>
+    <guid isPermaLink="false">kbdnews-2938</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Notaroomba's Keybytes is a flexible magnetic keyboard system built on 1u building blocks. — KBD.news</description>
+  </item>
   <item>
     <title>RainDrop gaming keypad</title>
     <link>https://kbd.news/RainDrop-gaming-keypad-2936.html</link>

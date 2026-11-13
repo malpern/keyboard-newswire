@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 13 Nov 2026 13:07:49 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 13:20:44 +0000</lastBuildDate>
+  <item>
+    <title>IQUNIX EV63 EDG Edition review</title>
+    <link>https://kbd.news/IQUNIX-EV63-EDG-Edition-review-2937.html</link>
+    <guid isPermaLink="false">kbdnews-2937</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>The IQUNIX EV63 EDG Edition is the most luxurious variant of this 60% gaming keyboard family – co-tuned by Edward Gaming's pros. — KBD.news</description>
+  </item>
+  <item>
+    <title>Keybytes: flexible magnetic keyboard system built on 1u blocks</title>
+    <link>https://kbd.news/Keybytes-2938.html</link>
+    <guid isPermaLink="false">kbdnews-2938</guid>
+    <pubDate>Fri, 13 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Notaroomba's Keybytes is a flexible magnetic keyboard system built on 1u building blocks. — KBD.news</description>
+  </item>
   <item>
     <title>Mode Designs opens pre-orders for Prologue keyboard</title>
     <link>https://modedesigns.com/products/prologue</link>
@@ -2097,28 +2118,6 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>CNC aluminum macropad with automatic app-aware key remapping</title>
-    <link>https://www.reddit.com/r/MechanicalKeyboards/comments/1tjiyy9/this_little_cnc_aluminum_macropad_showed_up_on_my/</link>
-    <guid isPermaLink="false">reddit-1tjiyy9</guid>
-    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Remapping &amp; Layouts</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
-    <description>OP highlights a macropad with automatic app-aware key remapping, noting it solves the "profile switching" maintenance headache of traditional macro pads. — 0 pts · 12 comments · r/MechanicalKeyboards</description>
-  </item>
-  <item>
-    <title>QMK/Via discussion on configuring Shift backspace as delete</title>
-    <link>https://www.reddit.com/r/ErgoMechKeyboards/comments/1tjxg42/key_overrides_in_vial_qmk/</link>
-    <guid isPermaLink="false">reddit-1tjxg42</guid>
-    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
-    <description>Discussion on configuring Shumift backspace as delete in QMK/Via, noting conflicts when using Vial for other settings. — 0 pts · 3 comments · r/ErgoMechKeyboards</description>
   </item>
 </channel>
 </rss>

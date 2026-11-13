@@ -189,6 +189,56 @@
         "img/geekhack-127321-5.jpg"
       ],
       "image": "img/geekhack-127321-0.jpg"
+    },
+    {
+      "id": "kbdnews-2937",
+      "title": "IQUNIX EV63 EDG Edition review",
+      "url": "https://kbd.news/IQUNIX-EV63-EDG-Edition-review-2937.html",
+      "discussion_url": "https://kbd.news/IQUNIX-EV63-EDG-Edition-review-2937.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "The IQUNIX EV63 EDG Edition is the most luxurious variant of this 60% gaming keyboard family – co-tuned by Edward Gaming's pros.",
+      "image_hint": "https://kbd.news/pic/2026/219/480/2937.jpg",
+      "topics": [
+        "keycaps-aesthetics",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "vendor-practices",
+        "keycap-design"
+      ],
+      "image": "img/kbdnews-2937.jpg"
+    },
+    {
+      "id": "kbdnews-2938",
+      "title": "Keybytes: flexible magnetic keyboard system built on 1u blocks",
+      "url": "https://kbd.news/Keybytes-2938.html",
+      "discussion_url": "https://kbd.news/Keybytes-2938.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Notaroomba's Keybytes is a flexible magnetic keyboard system built on 1u building blocks.",
+      "image_hint": "https://kbd.news/pic/2026/219/480/2938.jpg",
+      "topics": [
+        "builds-hardware"
+      ],
+      "tags": [
+        "mechanical-keyboard",
+        "diy-build",
+        "3d-modeling"
+      ],
+      "original_title": "Keybytes",
+      "title_rewritten": true,
+      "title_rewrite_reason": "vague title missing subject and description",
+      "image": "img/kbdnews-2938.jpg"
     }
   ]
 }
