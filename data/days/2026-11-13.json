@@ -92,47 +92,78 @@
           {
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/swg-retroguardia-keycaps",
-            "host": "divinikey.com"
+            "host": "divinikey.com",
+            "metadata_fetched_at": "2026-11-13T13:07:02.468591+00:00",
+            "price_low": 1300,
+            "price_high": 7000,
+            "available": true
           },
           {
             "vendor": "Delta Key Co.",
             "url": "https://deltakeyco.com/products/swg-retroguardia",
-            "host": "deltakeyco.com"
+            "host": "deltakeyco.com",
+            "metadata_fetched_at": "2026-11-13T13:07:02.695389+00:00",
+            "price_low": 1500,
+            "price_high": 7500,
+            "available": true
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/swg-retroguardia-keycap-set-group-buy",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-11-13T13:07:02.880159+00:00",
+            "price_low": 1000,
+            "price_high": 5333,
+            "currency": "GBP",
+            "available": true
           },
           {
             "vendor": "KeyBay.tech",
             "url": "https://keybay.tech/products/gb-swg-retroguardia-abs-keycaps",
-            "host": "keybay.tech"
+            "host": "keybay.tech",
+            "metadata_fetched_at": "2026-11-13T13:07:03.044698+00:00",
+            "price_low": 1900,
+            "price_high": 9900,
+            "available": true
           },
           {
             "vendor": "Qwertyqop",
             "url": "https://qwertyqop.com/products/swg-retroguardia-keycaps",
-            "host": "qwertyqop.com"
+            "host": "qwertyqop.com",
+            "metadata_fetched_at": "2026-11-13T13:07:03.200415+00:00",
+            "price_low": 1700,
+            "price_high": 9200,
+            "available": true
           },
           {
             "vendor": "Switchkeys",
             "url": "https://www.switchkeys.com.au/products/swg-retroguardia",
-            "host": "www.switchkeys.com.au"
+            "host": "www.switchkeys.com.au",
+            "metadata_fetched_at": "2026-11-13T13:07:03.380831+00:00",
+            "price_low": 2500,
+            "price_high": 10499,
+            "available": true
           },
           {
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-swg-retroguardia",
-            "host": "swagkeys.com"
+            "host": "swagkeys.com",
+            "metadata_fetched_at": "2026-11-13T13:07:03.525263+00:00",
+            "price_low": 1300,
+            "price_high": 7000,
+            "available": true
           },
           {
             "vendor": "KR",
             "url": "https://www.swagkey.kr/235/?idx=1970",
-            "host": "www.swagkey.kr"
+            "host": "www.swagkey.kr",
+            "metadata_fetched_at": "2026-11-13T13:07:03.525296+00:00"
           },
           {
             "vendor": "raz.wtf",
             "url": "https://raz.wtf/projects/swg-retroguardia",
-            "host": "raz.wtf"
+            "host": "raz.wtf",
+            "metadata_fetched_at": "2026-11-13T13:07:03.525306+00:00"
           }
         ],
         "related_threads": [
