@@ -3,6 +3,80 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-15",
+      "items": [
+        {
+          "id": "geekhack-127326",
+          "title": "[GB] SA Paperwork - a 40% Keyset",
+          "url": "https://geekhack.org/index.php?topic=127326.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127326.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Reserved",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "tags": [
+            "group-buy",
+            "keycap-design"
+          ]
+        },
+        {
+          "id": "geekhack-127328",
+          "title": "[GB] DCS Nights Alps and MX | GB Nov 18",
+          "url": "https://geekhack.org/index.php?topic=127328.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127328.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 1675,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "GB November 18 - Dec 18 It’s time to join the group buy for: DCS Nights DCS Nights is a dark set that pairs black keycaps with soft luminous legends and a spectrum of colors, like walking through town at night and seeing flashes of color and light as you make your way. DCS Nights will be offered in both Alps and MX compatibility. I’m very excited to run an Alps set alongside an MX set and I hope you’ll take advantage of this opportunity. If you haven’t tried Alps, give it a shot and pick this kit up. It will be one of your most unique builds. And yes, the legends can glow but you need to charg",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://photos.kstj.us/Alps_BASE_KIT_-_desktop.png",
+            "https://photos.kstj.us/ALPS_Numpad_KIT_-_desktop.png",
+            "https://photos.kstj.us/Alps_Extension_KIT_-_desktop.png",
+            "https://photos.kstj.us/ALPS_XT_KIT_-_desktop.png",
+            "https://photos.kstj.us/ALPS_10u_SB_KIT_-_desktop.png",
+            "https://photos.kstj.us/desktop_Base_Kit_MX.png",
+            "https://photos.kstj.us/desktop_Numpad_Kit_MX.png",
+            "https://photos.kstj.us/desktop_Extension_Kit_MX.png",
+            "https://photos.kstj.us/desktop_40s_Kit_MX.png",
+            "https://photos.kstj.us/desktop_Blanks_Kit_MX.png",
+            "https://photos.kstj.us/Seal100_2Corrected.png",
+            "https://photos.kstj.us/Cloundnine_x_Nights.png",
+            "https://photos.kstj.us/DCS_Nights_Tucked_In_Night.png"
+          ],
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "mechanical-keyboard"
+          ],
+          "images": [
+            "img/geekhack-127328-0.jpg",
+            "img/geekhack-127328-1.jpg",
+            "img/geekhack-127328-2.jpg",
+            "img/geekhack-127328-3.jpg",
+            "img/geekhack-127328-4.jpg",
+            "img/geekhack-127328-5.jpg"
+          ],
+          "image": "img/geekhack-127328-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "items": [
         {
