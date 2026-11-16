@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 15 Nov 2026 13:07:33 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 13:03:19 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Klicky, near instantaneous mechanical keyboard sounds for any keyboard</title>
+    <link>https://github.com/Muneer320/klicky</link>
+    <guid isPermaLink="false">hn-50507499</guid>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 2 comments · Hacker News</description>
+  </item>
   <item>
     <title>IQUNIX EV63 EDG Edition review</title>
     <link>https://kbd.news/IQUNIX-EV63-EDG-Edition-review-2937.html</link>
@@ -2107,17 +2117,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
     <description>Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users. — 2 pts · 4 comments · r/keyboards</description>
-  </item>
-  <item>
-    <title>QMK media control codes on Android</title>
-    <link>https://www.reddit.com/r/olkb/comments/1tk9den/android_qmk_media_controls/</link>
-    <guid isPermaLink="false">reddit-1tk9den</guid>
-    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
-    <description>Technical query on whether standard QMK media control codes (brightness/volume) register correctly on Android devices. — 1 pts · 4 comments · r/olkb</description>
   </item>
 </channel>
 </rss>

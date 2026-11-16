@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-16",
+      "items": [
+        {
+          "id": "hn-50507499",
+          "title": "Show HN: Klicky, near instantaneous mechanical keyboard sounds for any keyboard",
+          "url": "https://github.com/Muneer320/klicky",
+          "discussion_url": "https://news.ycombinator.com/item?id=50507499",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 2,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "sound-effects",
+            "mechanical-keyboard",
+            "open-source"
+          ],
+          "image": "img/hn-50507499.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-15",
       "items": [
         {
