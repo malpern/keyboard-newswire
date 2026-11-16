@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 16 Nov 2026 13:07:52 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 19:23:20 +0000</lastBuildDate>
   <item>
     <title>Show HN: Klicky, near instantaneous mechanical keyboard sounds for any keyboard</title>
     <link>https://github.com/Muneer320/klicky</link>
@@ -16,6 +16,17 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 2 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Z-MapFlow: an open-source desktop app to edit, build and flash ZMK firmware</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xxap2j/zmapflow_an_opensource_desktop_app_to_edit_build/</link>
+    <guid isPermaLink="false">reddit-1xxap2j</guid>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>New open-source tool announced that integrates ZMK keymap editing, Docker-based building, and flashing into a single desktop interface. — r/ErgoMechKeyboards</description>
   </item>
   <item>
     <title>IQUNIX EV63 EDG Edition review</title>
@@ -2107,16 +2118,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>2 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Spilled my drink on my K86, need HE keyboard recommendations (75%)</title>
-    <link>https://www.reddit.com/r/keyboards/comments/1tk9bd9/spilled_my_drink_on_my_k86_need_he_keyboard/</link>
-    <guid isPermaLink="false">reddit-1tk9bd9</guid>
-    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">r/keyboards</source>
-    <description>Seeking Hall Effect keyboard recommendations with good software/low latency, relevant to Wooting/DrunkDebounce users. — 2 pts · 4 comments · r/keyboards</description>
   </item>
 </channel>
 </rss>

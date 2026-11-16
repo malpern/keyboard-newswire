@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/zmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Zmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Mon, 16 Nov 2026 13:07:52 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 16 Nov 2026 19:23:20 +0000</lastBuildDate>
+  <item>
+    <title>Z-MapFlow: an open-source desktop app to edit, build and flash ZMK firmware</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xxap2j/zmapflow_an_opensource_desktop_app_to_edit_build/</link>
+    <guid isPermaLink="false">reddit-1xxap2j</guid>
+    <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>New open-source tool announced that integrates ZMK keymap editing, Docker-based building, and flashing into a single desktop interface. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>GlidePoint diagnosing issues - zmk.</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xbrvon/glidepoint_diagnosing_issues_zmk/</link>

@@ -165,6 +165,27 @@
         "img/geekhack-127330-5.jpg"
       ],
       "image": "img/geekhack-127330-0.jpg"
+    },
+    {
+      "id": "reddit-1xxap2j",
+      "title": "Z-MapFlow: an open-source desktop app to edit, build and flash ZMK firmware",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xxap2j/zmapflow_an_opensource_desktop_app_to_edit_build/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xxap2j/zmapflow_an_opensource_desktop_app_to_edit_build/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "New open-source tool announced that integrates ZMK keymap editing, Docker-based building, and flashing into a single desktop interface.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "open-source",
+        "custom-firmware"
+      ]
     }
   ]
 }
