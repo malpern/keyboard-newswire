@@ -25,6 +25,146 @@
             "open-source"
           ],
           "image": "img/hn-50507499.jpg"
+        },
+        {
+          "id": "geekhack-127132",
+          "title": "[IC] Radius 68: A Mac-Friendly Keyboard with Nacre",
+          "url": "https://geekhack.org/index.php?topic=127132.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127132.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 69834,
+          "comments": 3,
+          "category": "breaking",
+          "takeaway": "RADIUS 68 Hi everyone on Geekhack! I'm Ewen from Synth Studio, the designer behind Radius. After a year of development, I'm finally bringing Radius to IC. The prototype is already here, and while there's still plenty to refine before GB, I just can't wait to share it with the community. I hope you guys like it. The Design The left-hand layout of Radius may be particularly interesting for: MacOS users who naturally use their thumb for Command Who aren't quite ready to move away from traditional full-height MX switches in favor of the increasingly low-profile boards for Mac Who prefer traditiona",
+          "topics": [
+            "group-buys-vendors",
+            "builds-hardware"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318232;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318234;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318236;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318238;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318240;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318242;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318244;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318246;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318248;image",
+            "https://geekhack.org/index.php?PHPSESSID=v71tb662q8m7svo047inov485mu2b0f9&action=dlattach;topic=127132.0;attach=318250;image"
+          ],
+          "tags": [
+            "group-buy",
+            "mechanical-keyboard",
+            "macos-utilities",
+            "keycap-design"
+          ],
+          "images": [
+            "img/geekhack-127132-0.jpg",
+            "img/geekhack-127132-1.jpg",
+            "img/geekhack-127132-2.jpg",
+            "img/geekhack-127132-3.jpg",
+            "img/geekhack-127132-4.jpg",
+            "img/geekhack-127132-5.jpg"
+          ],
+          "image": "img/geekhack-127132-0.jpg"
+        },
+        {
+          "id": "geekhack-127322",
+          "title": "[GB] DCS Blurplish - 40's Kit | Group buy live to 12/9/26",
+          "url": "https://geekhack.org/index.php?topic=127322.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127322.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 3498,
+          "comments": 1,
+          "category": "breaking",
+          "takeaway": "DCS Blurplish - 40's Kit Group Buy dates November 9th 2026 thru December 9th 2026 MB-44 v2 by Melonbred The Deets: Deep blurple and periwinkle blue combine for a cool toned lover's dream! Featuring a new Nebulazy sloth icon novelty Manufactured by Signature Plastics USA = Saber Keebs CN = TypistClub via their Taobao page Base Kit - USD $90 Additional Renders Gem30 by Bryan MB-44 v2 by Melonbred Boss Up by Dashkeebs Vault35 by MechVault Stock SP Colors: BGN REB Special thanks to: Kenny Dashkeebs & crew Keyboard Designers Forum The 40s Discord community discord",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "GB",
+          "images_remote": [
+            "https://nebulazy.neocities.org/blurplish/DCS%20Blurplish%20MB44v2%202k.png",
+            "https://nebulazy.neocities.org/blurplish/Blurplish%20Kitting.png",
+            "https://nebulazy.neocities.org/blurplish/DCS%20Blurplish%20Gem30%202k.png",
+            "https://nebulazy.neocities.org/blurplish/DCS%20Blurplish%20MB44v2%20close%20up%202k.png",
+            "https://nebulazy.neocities.org/blurplish/DCS%20Blurplish%20Boss%20Up%202k.png",
+            "https://nebulazy.neocities.org/blurplish/DCS%20Blurplish%20Vault35%202k.png",
+            "https://nebulazy.neocities.org/pixelslothlogo.png"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "Saber Keebs",
+                "url": "https://saberkeebs.com/products/group-buy-dcs-blurplish",
+                "host": "saberkeebs.com"
+              }
+            ],
+            "designer": "Melonbred The Deets",
+            "photo_credit": "Bryan"
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "pricing"
+          ],
+          "images": [
+            "img/geekhack-127322-0.jpg",
+            "img/geekhack-127322-1.jpg",
+            "img/geekhack-127322-2.jpg",
+            "img/geekhack-127322-3.jpg",
+            "img/geekhack-127322-4.jpg",
+            "img/geekhack-127322-5.jpg"
+          ],
+          "image": "img/geekhack-127322-0.jpg"
+        },
+        {
+          "id": "geekhack-127330",
+          "title": "[IC] Elven Mage | (KKB?)",
+          "url": "https://geekhack.org/index.php?topic=127330.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127330.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Interest Checks",
+          "score": 1945,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Sousou TKL | Pangea Mini IM >>> Interest Check Form <<< Please fill it, helps me decide if it's worth going further with this idea Discord server To stay updated about the set. ● Intro ● Hehe, seems like Mugen got out his own Frieren inspired set first, but oh well, I was already working on this, and it's not the same colors so why not at least make an IC to see if it's worth pursuing. I like Frieren, it's a cool show, and I was inspired to use the colors from the characters, plus I had an artist who's also fan of the show be willing to help me with the novelties so here we go. ● Kitting ● Bas",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "type": "IC",
+          "images_remote": [
+            "https://i.imgur.com/X9gh9wa.png",
+            "https://i.imgur.com/yE6ydey.png",
+            "https://i.imgur.com/2VXlnGZ.png",
+            "https://i.imgur.com/GKkXtx8.png",
+            "https://i.imgur.com/irkDckV.png",
+            "https://i.imgur.com/ZwD07cR.png",
+            "https://i.imgur.com/2qTXQpr.png",
+            "https://i.imgur.com/G1CEYHK.png",
+            "https://i.imgur.com/HA3q9kv.png"
+          ],
+          "tags": [
+            "keycap-design",
+            "group-buy",
+            "keycaps-aesthetics"
+          ],
+          "images": [
+            "img/geekhack-127330-0.jpg",
+            "img/geekhack-127330-1.jpg",
+            "img/geekhack-127330-2.jpg",
+            "img/geekhack-127330-3.jpg",
+            "img/geekhack-127330-4.jpg",
+            "img/geekhack-127330-5.jpg"
+          ],
+          "image": "img/geekhack-127330-0.jpg"
         }
       ]
     },
