@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 17 Nov 2026 13:07:25 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 13:14:54 +0000</lastBuildDate>
+  <item>
+    <title>Omnitype opens GMK Burgundy preorder and closes Spacekeys EC</title>
+    <link>https://omnitype.com</link>
+    <guid isPermaLink="false">email-1a1e73e5bab97715</guid>
+    <pubDate>Tue, 17 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Omnitype</source>
+    <description>Omnitype has opened a discounted preorder window for the GMK Burgundy keycap set ending November 23, 2026, while the GMK Spacekeys EC preorder closes immediately. — ✉ Omnitype</description>
+  </item>
   <item>
     <title>Show HN: Klicky, near instantaneous mechanical keyboard sounds for any keyboard</title>
     <link>https://github.com/Muneer320/klicky</link>
@@ -2108,16 +2119,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
     <description>First impressions of the Work Louder XYZ Workboard R2, discussing the ortholinear layout and raw PCB aesthetic. — 14 pts · 3 comments · r/olkb</description>
-  </item>
-  <item>
-    <title>Show HN: A demo video of Effected Keyboard 2</title>
-    <link>https://www.youtube.com/shorts/6aExjM8A9pE</link>
-    <guid isPermaLink="false">hn-48224081</guid>
-    <pubDate>Fri, 22 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>2 pts · 0 comments · Hacker News</description>
   </item>
 </channel>
 </rss>

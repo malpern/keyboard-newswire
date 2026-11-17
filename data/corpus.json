@@ -87,6 +87,30 @@
             "img/geekhack-127122-5.jpg"
           ],
           "image": "img/geekhack-127122-0.jpg"
+        },
+        {
+          "id": "email-1a1e73e5bab97715",
+          "title": "Omnitype opens GMK Burgundy preorder and closes Spacekeys EC",
+          "url": "https://omnitype.com",
+          "discussion_url": "https://omnitype.com",
+          "source": "email",
+          "subreddit": null,
+          "via": "Omnitype",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Omnitype has opened a discounted preorder window for the GMK Burgundy keycap set ending November 23, 2026, while the GMK Spacekeys EC preorder closes immediately.",
+          "sender": "\"Omnitype / DynaCap\" <help@omnitype.com>",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "vendor-practices"
+          ],
+          "image": "img/email-1a1e73e5bab97715.jpg"
         }
       ]
     },
