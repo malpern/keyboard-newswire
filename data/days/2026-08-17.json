@@ -59,7 +59,7 @@
             "vendor": "Saber Keebs",
             "url": "https://saberkeebs.com/products/dcs-after-school-1992-40s-kit",
             "host": "saberkeebs.com",
-            "metadata_fetched_at": "2026-11-16T13:07:29.224401+00:00",
+            "metadata_fetched_at": "2026-11-17T13:07:01.899828+00:00",
             "price_low": 1000,
             "price_high": 14000,
             "currency": "USD",
@@ -69,13 +69,13 @@
             "vendor": "KeebSupply",
             "url": "https://keeb.supply/products/dcs-after-school-1992",
             "host": "keeb.supply",
-            "metadata_fetched_at": "2026-11-16T13:07:29.507539+00:00"
+            "metadata_fetched_at": "2026-11-17T13:07:02.802305+00:00"
           },
           {
             "vendor": "Keebz N Cables",
             "url": "https://www.keebzncables.com/products/dcs-after-school",
             "host": "www.keebzncables.com",
-            "metadata_fetched_at": "2026-11-16T13:07:29.640040+00:00",
+            "metadata_fetched_at": "2026-11-17T13:07:02.932811+00:00",
             "price_low": 21500,
             "currency": "AUD",
             "available": false
@@ -84,7 +84,7 @@
             "vendor": "ProtoTypist",
             "url": "https://prototypist.net/products/group-buy-dcs-after-school-1992-40s-keycap-set",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-11-16T13:07:29.796207+00:00",
+            "metadata_fetched_at": "2026-11-17T13:07:03.103512+00:00",
             "price_low": 750,
             "price_high": 10583,
             "currency": "GBP",
@@ -94,7 +94,7 @@
             "vendor": "Yushakobo",
             "url": "https://shop.yushakobo.jp/products/11897",
             "host": "shop.yushakobo.jp",
-            "metadata_fetched_at": "2026-11-16T13:07:29.939872+00:00",
+            "metadata_fetched_at": "2026-11-17T13:07:03.240799+00:00",
             "price_low": 176000,
             "price_high": 2420000,
             "currency": "JPY",
