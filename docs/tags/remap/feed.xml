@@ -6,7 +6,28 @@
   <atom:link href="https://keyboard-newswire.com/tags/remap/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Remap.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 18 Nov 2026 13:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 13:10:36 +0000</lastBuildDate>
+  <item>
+    <title>Good Kanata layouts?</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xz8urd/good_kanata_layouts/</link>
+    <guid isPermaLink="false">reddit-1xz8urd</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User seeking advice on creating a comfortable Kanata layout for a standard keyboard to facilitate game dev work. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Custom Firmware to get Vial On Aula F75</title>
+    <link>https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/</link>
+    <guid isPermaLink="false">reddit-1xz6afu</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Developer shares custom firmware enabling full Vial support (layers, macros, lighting) on the AULA F75 without vendor software. — r/olkb</description>
+  </item>
   <item>
     <title>Home row mods: Trade-offs between timeless and time-based approaches</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1x1jug6/home_row_mods_why_i_quit_timeless_for_timebased/</link>

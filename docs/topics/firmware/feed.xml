@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 18 Nov 2026 13:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 13:10:36 +0000</lastBuildDate>
+  <item>
+    <title>Custom Firmware to get Vial On Aula F75</title>
+    <link>https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/</link>
+    <guid isPermaLink="false">reddit-1xz6afu</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Developer shares custom firmware enabling full Vial support (layers, macros, lighting) on the AULA F75 without vendor software. — r/olkb</description>
+  </item>
+  <item>
+    <title>Wireless Corne + Prospector dongle with a clock, charging indicators and typing-driven snow</title>
+    <link>https://reddit.com/r/zmk/comments/1xyognz/wireless_corne_prospector_dongle_with_a_clock/</link>
+    <guid isPermaLink="false">reddit-1xyognz</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/zmk</source>
+    <description>Showcase of a wireless Corne setup using ZMK v0.3 with a custom Prospector dongle featuring a clock and typing-driven visual effects. — r/zmk</description>
+  </item>
   <item>
     <title>Z-MapFlow: an open-source desktop app to edit, build and flash ZMK firmware</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xxap2j/zmapflow_an_opensource_desktop_app_to_edit_build/</link>

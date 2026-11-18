@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 18 Nov 2026 13:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 13:10:36 +0000</lastBuildDate>
+  <item>
+    <title>Wireless Corne + Prospector dongle with a clock, charging indicators and typing-driven snow</title>
+    <link>https://reddit.com/r/zmk/comments/1xyognz/wireless_corne_prospector_dongle_with_a_clock/</link>
+    <guid isPermaLink="false">reddit-1xyognz</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/zmk</source>
+    <description>Showcase of a wireless Corne setup using ZMK v0.3 with a custom Prospector dongle featuring a clock and typing-driven visual effects. — r/zmk</description>
+  </item>
   <item>
     <title>Keybytes: flexible magnetic keyboard system built on 1u blocks</title>
     <link>https://kbd.news/Keybytes-2938.html</link>

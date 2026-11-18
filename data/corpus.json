@@ -3,6 +3,75 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-18",
+      "items": [
+        {
+          "id": "reddit-1xz8urd",
+          "title": "Good Kanata layouts?",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xz8urd/good_kanata_layouts/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1xz8urd/good_kanata_layouts/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "User seeking advice on creating a comfortable Kanata layout for a standard keyboard to facilitate game dev work.",
+          "topics": [
+            "remapping-layouts"
+          ],
+          "tags": [
+            "kanata",
+            "key-remapping",
+            "remap"
+          ]
+        },
+        {
+          "id": "reddit-1xz6afu",
+          "title": "Custom Firmware to get Vial On Aula F75",
+          "url": "https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/",
+          "discussion_url": "https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Developer shares custom firmware enabling full Vial support (layers, macros, lighting) on the AULA F75 without vendor software.",
+          "topics": [
+            "firmware",
+            "tools-software"
+          ],
+          "tags": [
+            "custom-firmware",
+            "vial",
+            "remap",
+            "open-source"
+          ]
+        },
+        {
+          "id": "reddit-1xyognz",
+          "title": "Wireless Corne + Prospector dongle with a clock, charging indicators and typing-driven snow",
+          "url": "https://reddit.com/r/zmk/comments/1xyognz/wireless_corne_prospector_dongle_with_a_clock/",
+          "discussion_url": "https://reddit.com/r/zmk/comments/1xyognz/wireless_corne_prospector_dongle_with_a_clock/",
+          "source": "reddit",
+          "subreddit": "zmk",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Showcase of a wireless Corne setup using ZMK v0.3 with a custom Prospector dongle featuring a clock and typing-driven visual effects.",
+          "topics": [
+            "firmware",
+            "splits-ergo"
+          ],
+          "tags": [
+            "zmk",
+            "split-keyboard",
+            "diy-build",
+            "open-source"
+          ]
+        }
+      ]
+    },
+    {
       "date": "2026-11-17",
       "items": [
         {

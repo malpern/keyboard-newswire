@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>#Vial · keyboard wire</title>
+  <link>https://keyboard-newswire.com/tags/vial/</link>
+  <atom:link href="https://keyboard-newswire.com/tags/vial/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>All keyboard wire entries tagged Vial.</description>
+  <language>en-us</language>
+  <lastBuildDate>Wed, 18 Nov 2026 13:10:36 +0000</lastBuildDate>
+  <item>
+    <title>Custom Firmware to get Vial On Aula F75</title>
+    <link>https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/</link>
+    <guid isPermaLink="false">reddit-1xz6afu</guid>
+    <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>Developer shares custom firmware enabling full Vial support (layers, macros, lighting) on the AULA F75 without vendor software. — r/olkb</description>
+  </item>
+</channel>
+</rss>
