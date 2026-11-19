@@ -44,32 +44,45 @@
           {
             "vendor": "GMK",
             "url": "https://www.gmk.net/shop/en/gmk-cyl-neon-vice-keycaps-pre-order/fptk2573",
-            "host": "www.gmk.net"
+            "host": "www.gmk.net",
+            "metadata_fetched_at": "2026-11-19T13:06:39.989124+00:00"
           },
           {
             "vendor": "NovelKeys",
             "url": "https://novelkeys.com/products/gmk-cyl-neon-vice-keycaps",
-            "host": "novelkeys.com"
+            "host": "novelkeys.com",
+            "metadata_fetched_at": "2026-11-19T13:06:40.229869+00:00",
+            "price_low": 4500,
+            "price_high": 16900,
+            "currency": "USD",
+            "available": true
           },
           {
             "vendor": "Omnitype",
             "url": "https://omnitype.com/products/gmk-neon-vice-cyl",
-            "host": "omnitype.com"
+            "host": "omnitype.com",
+            "metadata_fetched_at": "2026-11-19T13:06:40.409293+00:00",
+            "price_low": 4500,
+            "price_high": 16900,
+            "available": true
           },
           {
             "vendor": "Geonworks",
             "url": "https://geonworks.kr/surl/P/764",
-            "host": "geonworks.kr"
+            "host": "geonworks.kr",
+            "metadata_fetched_at": "2026-11-19T13:06:40.409379+00:00"
           },
           {
             "vendor": "zFrontier",
             "url": "https://www.zfrontier.com/app/mch/lV6bO56DPkyK",
-            "host": "www.zfrontier.com"
+            "host": "www.zfrontier.com",
+            "metadata_fetched_at": "2026-11-19T13:06:40.409401+00:00"
           },
           {
             "vendor": "https://www.gmk.net/shop/en/black-weeks",
             "url": "https://www.gmk.net/shop/en/black-weeks",
-            "host": "www.gmk.net"
+            "host": "www.gmk.net",
+            "metadata_fetched_at": "2026-11-19T13:06:40.409419+00:00"
           }
         ],
         "vendor_regions": [
