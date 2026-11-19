@@ -3,6 +3,108 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-19",
+      "items": [
+        {
+          "id": "geekhack-127331",
+          "title": "[Pre-order] GMK CYL Neon Vice | Nov 18 - Dec 15",
+          "url": "https://geekhack.org/index.php?topic=127331.0",
+          "discussion_url": "https://geekhack.org/index.php?topic=127331.0",
+          "source": "geekhack",
+          "subreddit": null,
+          "via": "Geekhack · Group Buys",
+          "score": 1441,
+          "comments": 2,
+          "category": "breaking",
+          "takeaway": "Ready to chase endless sunsets along the beaches of Vice City? Featuring custom PANTONE® Nylon Brights colors* against a classic GMK CR base for maximum contrast, this set will make sure you stand out wherever the night takes you. Choose your preferred Base Kit and mix and match the translucent neon sign novelties to create your own unique look. *From the same range as the iconic yellow featured in GMK CYL Hi! Viz. [My Discord Server] Vendors EU and worldwide: GMK (Lead Vendor) USA: NovelKeys and Omnitype KR: Geonworks CN: zFrontier ETA: Late Q1 2027 (March) Pre-ordering the set through the GM",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "images_remote": [
+            "https://i.imgur.com/ktUXFHe.png",
+            "https://i.imgur.com/14XErk8.jpeg",
+            "https://i.imgur.com/dPl0IkL.jpeg",
+            "https://i.imgur.com/kMkE2Sc.jpeg",
+            "https://i.imgur.com/qmz3iW0.jpeg",
+            "https://i.imgur.com/FwHdeOe.jpeg",
+            "https://i.imgur.com/iA3uMnA.jpeg",
+            "https://i.imgur.com/NvmbflM.jpeg",
+            "https://i.imgur.com/unNUyp9.jpeg",
+            "https://i.imgur.com/380PQXX.jpeg",
+            "https://i.imgur.com/q2teSmR.jpeg",
+            "https://i.imgur.com/bJ7hI1P.jpeg",
+            "https://i.imgur.com/DQJnLyH.jpeg",
+            "https://i.imgur.com/OuRmpnw.jpeg",
+            "https://i.imgur.com/AgvaMnu.jpeg",
+            "https://i.imgur.com/qAsXFui.png",
+            "https://i.imgur.com/ekFh9H6.jpeg",
+            "https://i.imgur.com/jcXORLO.jpeg",
+            "https://i.imgur.com/O2xfysI.jpeg",
+            "https://i.imgur.com/2v1ZgeC.jpeg"
+          ],
+          "gb": {
+            "vendor_links": [
+              {
+                "vendor": "GMK",
+                "url": "https://www.gmk.net/shop/en/gmk-cyl-neon-vice-keycaps-pre-order/fptk2573",
+                "host": "www.gmk.net"
+              },
+              {
+                "vendor": "NovelKeys",
+                "url": "https://novelkeys.com/products/gmk-cyl-neon-vice-keycaps",
+                "host": "novelkeys.com"
+              },
+              {
+                "vendor": "Omnitype",
+                "url": "https://omnitype.com/products/gmk-neon-vice-cyl",
+                "host": "omnitype.com"
+              },
+              {
+                "vendor": "Geonworks",
+                "url": "https://geonworks.kr/surl/P/764",
+                "host": "geonworks.kr"
+              },
+              {
+                "vendor": "zFrontier",
+                "url": "https://www.zfrontier.com/app/mch/lV6bO56DPkyK",
+                "host": "www.zfrontier.com"
+              },
+              {
+                "vendor": "https://www.gmk.net/shop/en/black-weeks",
+                "url": "https://www.gmk.net/shop/en/black-weeks",
+                "host": "www.gmk.net"
+              }
+            ],
+            "vendor_regions": [
+              {
+                "region": "US",
+                "name": "NovelKeys and Omnitype"
+              },
+              {
+                "region": "KR",
+                "name": "Geonworks"
+              }
+            ]
+          },
+          "tags": [
+            "group-buy",
+            "keycap-design",
+            "vendor-practices"
+          ],
+          "images": [
+            "img/geekhack-127331-0.jpg",
+            "img/geekhack-127331-1.jpg",
+            "img/geekhack-127331-2.jpg",
+            "img/geekhack-127331-3.jpg",
+            "img/geekhack-127331-4.jpg",
+            "img/geekhack-127331-5.jpg"
+          ],
+          "image": "img/geekhack-127331-0.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "items": [
         {
