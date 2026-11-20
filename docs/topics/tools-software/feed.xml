@@ -6,7 +6,27 @@
   <atom:link href="https://keyboard-newswire.com/topics/tools-software/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Software utilities relevant to keyboard users: launchers, shortcut managers, dotfile/config tools, productivity tools, programming tooling adjacent to the hobby.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Nov 2026 13:17:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 13:03:51 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Kiiwi – Mechanical keyboard sounds for Mac</title>
+    <link>https://kiiwi.app/</link>
+    <guid isPermaLink="false">hn-50567763</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Sysdeck: Raycast for Linux and BSD</title>
+    <link>https://xn--gckvb8fzb.com/sysdeck-raycast-for-linux-bsd</link>
+    <guid isPermaLink="false">hn-50573405</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Custom Firmware to get Vial On Aula F75</title>
     <link>https://reddit.com/r/olkb/comments/1xz6afu/custom_firmware_to_get_vial_on_aula_f75/</link>

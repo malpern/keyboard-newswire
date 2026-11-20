@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Nov 2026 13:17:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 13:03:51 +0000</lastBuildDate>
+  <item>
+    <title>Altar II: a mechanical keyboard designed for Mac</title>
+    <link>https://daringfireball.net/linked/2026/11/10/altar-ii-kickstarter</link>
+    <guid isPermaLink="false">hn-50559997</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Keybytes: flexible magnetic keyboard system built on 1u blocks</title>
     <link>https://kbd.news/Keybytes-2938.html</link>

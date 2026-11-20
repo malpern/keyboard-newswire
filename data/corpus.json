@@ -3,6 +3,75 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-20",
+      "items": [
+        {
+          "id": "hn-50559997",
+          "title": "Altar II: a mechanical keyboard designed for Mac",
+          "url": "https://daringfireball.net/linked/2026/11/10/altar-ii-kickstarter",
+          "discussion_url": "https://news.ycombinator.com/item?id=50559997",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "builds-hardware",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "group-buy",
+            "macos-utilities"
+          ],
+          "image": "img/hn-50559997.jpg"
+        },
+        {
+          "id": "hn-50567763",
+          "title": "Show HN: Kiiwi – Mechanical keyboard sounds for Mac",
+          "url": "https://kiiwi.app/",
+          "discussion_url": "https://news.ycombinator.com/item?id=50567763",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "sound-effects",
+            "mechanical-keyboard"
+          ],
+          "image": "img/hn-50567763.jpg"
+        },
+        {
+          "id": "hn-50573405",
+          "title": "Sysdeck: Raycast for Linux and BSD",
+          "url": "https://xn--gckvb8fzb.com/sysdeck-raycast-for-linux-bsd",
+          "discussion_url": "https://news.ycombinator.com/item?id=50573405",
+          "source": "hn",
+          "subreddit": null,
+          "score": 2,
+          "comments": 1,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "linux-utilities",
+            "shortcut-manager",
+            "open-source"
+          ],
+          "image": "img/hn-50573405.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "items": [
         {

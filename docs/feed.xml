@@ -6,7 +6,38 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 19 Nov 2026 13:17:58 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 13:03:51 +0000</lastBuildDate>
+  <item>
+    <title>Altar II: a mechanical keyboard designed for Mac</title>
+    <link>https://daringfireball.net/linked/2026/11/10/altar-ii-kickstarter</link>
+    <guid isPermaLink="false">hn-50559997</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Builds &amp; Hardware</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Show HN: Kiiwi – Mechanical keyboard sounds for Mac</title>
+    <link>https://kiiwi.app/</link>
+    <guid isPermaLink="false">hn-50567763</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Sysdeck: Raycast for Linux and BSD</title>
+    <link>https://xn--gckvb8fzb.com/sysdeck-raycast-for-linux-bsd</link>
+    <guid isPermaLink="false">hn-50573405</guid>
+    <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>2 pts · 1 comments · Hacker News</description>
+  </item>
   <item>
     <title>Station Sciences launches survey for Duo Fold iPhone keyboard</title>
     <link>https://www.stationsciences.com/duo-fold/survey?t=03f0a310-35c3-4e1d-a27d-b83e18ea819d</link>
@@ -2086,39 +2117,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">✉ Booth</source>
     <description>Creator mass has listed an omni CS bearing replacement kit for 1,300 yen on the BOOTH marketplace. — ✉ Booth</description>
-  </item>
-  <item>
-    <title>Direct03xD</title>
-    <link>https://kbd.news/Direct03xD-2860.html</link>
-    <guid isPermaLink="false">kbdnews-2860</guid>
-    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>A 42-key diodeless wireless split: Direct03xD by lander03xD. — KBD.news</description>
-  </item>
-  <item>
-    <title>Binit's Pling! is a wireless split keyboard with soldered KS27 switches</title>
-    <link>https://kbd.news/Pling-2859.html</link>
-    <guid isPermaLink="false">kbdnews-2859</guid>
-    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Binit's Pling! is a wireless split keyboard featuring soldered KS27 switches. — KBD.news</description>
-  </item>
-  <item>
-    <title>Etzee B11</title>
-    <link>https://kbd.news/Etzee-B11-2858.html</link>
-    <guid isPermaLink="false">kbdnews-2858</guid>
-    <pubDate>Mon, 25 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Nikola Secerovski's etzee B11 is an open-source ortho split (or monoblock) keyboard. — KBD.news</description>
   </item>
 </channel>
 </rss>
