@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 21 Nov 2026 13:10:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 13:20:28 +0000</lastBuildDate>
+  <item>
+    <title>Sucralose Rev. 2</title>
+    <link>https://kbd.news/Sucralose-Rev.-2-2939.html</link>
+    <guid isPermaLink="false">kbdnews-2939</guid>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Sucralose by Codethetical updated: an even slimmer low-pro wireless split, now with a break-off outer column. — KBD.news</description>
+  </item>
   <item>
     <title>Altar II: a mechanical keyboard designed for Mac</title>
     <link>https://daringfireball.net/linked/2026/11/10/altar-ii-kickstarter</link>

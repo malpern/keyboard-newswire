@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 21 Nov 2026 13:10:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 13:20:28 +0000</lastBuildDate>
   <item>
     <title>ZMK v0.4 branch updates OLED, Azoteq/Cirque trackpad, and split sync modules</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y1dp3q/i_updated_all_my_zmk_modules_at_once_for_the_next/</link>
@@ -17,6 +17,17 @@
     <category>Splits &amp; Ergo</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Detailed breakdown of the new `zmk-v0.4` branch, listing specific updated modules for OLEDs, Azoteq/Cirque trackpads, and split sync. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Sucralose Rev. 2</title>
+    <link>https://kbd.news/Sucralose-Rev.-2-2939.html</link>
+    <guid isPermaLink="false">kbdnews-2939</guid>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Sucralose by Codethetical updated: an even slimmer low-pro wireless split, now with a break-off outer column. — KBD.news</description>
   </item>
   <item>
     <title>Mechboards opens pre-orders for Forager low-profile split keyboard</title>

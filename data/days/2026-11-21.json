@@ -153,6 +153,30 @@
       "original_title": "AK820 Wired Web Driver: Zero install, open source, cross-platform!",
       "title_rewritten": true,
       "title_rewrite_reason": "Removes exclamation mark and vague 'zero install' claim in favor of specific functionality"
+    },
+    {
+      "id": "kbdnews-2939",
+      "title": "Sucralose Rev. 2",
+      "url": "https://kbd.news/Sucralose-Rev.-2-2939.html",
+      "discussion_url": "https://kbd.news/Sucralose-Rev.-2-2939.html",
+      "source": "kbdnews",
+      "subreddit": null,
+      "via": "KBD.news",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "Sucralose by Codethetical updated: an even slimmer low-pro wireless split, now with a break-off outer column.",
+      "image_hint": "https://kbd.news/pic/2026/219/480/2939.jpg",
+      "topics": [
+        "splits-ergo",
+        "builds-hardware"
+      ],
+      "tags": [
+        "split-keyboard",
+        "pcb-design",
+        "mechanical-keyboard"
+      ],
+      "image": "img/kbdnews-2939.jpg"
     }
   ]
 }

@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 21 Nov 2026 13:10:35 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 13:20:28 +0000</lastBuildDate>
   <item>
     <title>ZMK v0.4 testing branch adds updated modules for displays, trackpads, and layers</title>
     <link>https://reddit.com/r/olkb/comments/1y1dre6/i_updated_all_my_zmk_modules_at_once_for_the_next/</link>
@@ -38,6 +38,17 @@
     <category>Remapping &amp; Layouts</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Release of an open-source, browser-based driver for the Ajazz AK820 that allows for key remapping and RGB control without installing proprietary software. — r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Sucralose Rev. 2</title>
+    <link>https://kbd.news/Sucralose-Rev.-2-2939.html</link>
+    <guid isPermaLink="false">kbdnews-2939</guid>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Sucralose by Codethetical updated: an even slimmer low-pro wireless split, now with a break-off outer column. — KBD.news</description>
   </item>
   <item>
     <title>Altar II: a mechanical keyboard designed for Mac</title>
@@ -2102,16 +2113,6 @@
     <title>Switch between three keyboard languages</title>
     <link>https://mnaoumov.dev/posts/2023-12-17-switch-between-three-keyboard-languages/</link>
     <guid isPermaLink="false">hn-48290236</guid>
-    <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Remapping &amp; Layouts</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>1 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>The neo-qwertz keyboard layout (German)</title>
-    <link>https://www.neo-layout.org/Layouts/neoqwertz/</link>
-    <guid isPermaLink="false">hn-48290826</guid>
     <pubDate>Wed, 27 May 2026 12:00:00 +0000</pubDate>
     <category>evergreen</category>
     <category>Remapping &amp; Layouts</category>
