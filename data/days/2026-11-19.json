@@ -45,13 +45,13 @@
             "vendor": "GMK",
             "url": "https://www.gmk.net/shop/en/gmk-cyl-neon-vice-keycaps-pre-order/fptk2573",
             "host": "www.gmk.net",
-            "metadata_fetched_at": "2026-11-20T13:07:30.467326+00:00"
+            "metadata_fetched_at": "2026-11-21T13:06:44.208911+00:00"
           },
           {
             "vendor": "NovelKeys",
             "url": "https://novelkeys.com/products/gmk-cyl-neon-vice-keycaps",
             "host": "novelkeys.com",
-            "metadata_fetched_at": "2026-11-20T13:07:30.648896+00:00",
+            "metadata_fetched_at": "2026-11-21T13:06:44.368116+00:00",
             "price_low": 4500,
             "price_high": 16900,
             "currency": "USD",
@@ -61,7 +61,7 @@
             "vendor": "Omnitype",
             "url": "https://omnitype.com/products/gmk-neon-vice-cyl",
             "host": "omnitype.com",
-            "metadata_fetched_at": "2026-11-20T13:07:30.821268+00:00",
+            "metadata_fetched_at": "2026-11-21T13:06:44.517861+00:00",
             "price_low": 4500,
             "price_high": 16900,
             "available": true
@@ -70,19 +70,19 @@
             "vendor": "Geonworks",
             "url": "https://geonworks.kr/surl/P/764",
             "host": "geonworks.kr",
-            "metadata_fetched_at": "2026-11-20T13:07:30.821307+00:00"
+            "metadata_fetched_at": "2026-11-21T13:06:44.517907+00:00"
           },
           {
             "vendor": "zFrontier",
             "url": "https://www.zfrontier.com/app/mch/lV6bO56DPkyK",
             "host": "www.zfrontier.com",
-            "metadata_fetched_at": "2026-11-20T13:07:30.821318+00:00"
+            "metadata_fetched_at": "2026-11-21T13:06:44.517918+00:00"
           },
           {
             "vendor": "https://www.gmk.net/shop/en/black-weeks",
             "url": "https://www.gmk.net/shop/en/black-weeks",
             "host": "www.gmk.net",
-            "metadata_fetched_at": "2026-11-20T13:07:30.821326+00:00"
+            "metadata_fetched_at": "2026-11-21T13:06:44.517927+00:00"
           }
         ],
         "vendor_regions": [

@@ -55,12 +55,14 @@
           {
             "vendor": "severe.design/project/ursus",
             "url": "https://severe.design/project/ursus",
-            "host": "severe.design"
+            "host": "severe.design",
+            "metadata_fetched_at": "2026-11-21T13:06:42.911456+00:00"
           },
           {
             "vendor": "https://severe.design",
             "url": "https://severe.design",
-            "host": "severe.design"
+            "host": "severe.design",
+            "metadata_fetched_at": "2026-11-21T13:06:42.911672+00:00"
           }
         ]
       },
