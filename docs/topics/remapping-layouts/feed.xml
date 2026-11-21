@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/remapping-layouts/feed.xml" rel="self" type="application/rss+xml"/>
   <description>User-space key remapping (kanata, Karabiner-Elements, kmonad), layout design, alternative layouts (Colemak, Workman, Dvorak), home-row mods, layers.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 21 Nov 2026 13:07:27 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 13:10:35 +0000</lastBuildDate>
+  <item>
+    <title>Open-source browser driver for Ajazz AK820 enables key remapping and RGB control</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y1rtor/ak820_wired_web_driver_zero_install_open_source/</link>
+    <guid isPermaLink="false">reddit-1y1rtor</guid>
+    <pubDate>Sat, 21 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Tools &amp; Software</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Release of an open-source, browser-based driver for the Ajazz AK820 that allows for key remapping and RGB control without installing proprietary software. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>Good Kanata layouts?</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1xz8urd/good_kanata_layouts/</link>

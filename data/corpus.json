@@ -85,6 +85,78 @@
             "img/geekhack-127337-5.jpg"
           ],
           "image": "img/geekhack-127337-0.jpg"
+        },
+        {
+          "id": "reddit-1y1dre6",
+          "title": "ZMK v0.4 testing branch adds updated modules for displays, trackpads, and layers",
+          "url": "https://reddit.com/r/olkb/comments/1y1dre6/i_updated_all_my_zmk_modules_at_once_for_the_next/",
+          "discussion_url": "https://reddit.com/r/olkb/comments/1y1dre6/i_updated_all_my_zmk_modules_at_once_for_the_next/",
+          "source": "reddit",
+          "subreddit": "olkb",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Cross-posted announcement of a testing branch for ZMK v0.4 (Zephyr 4.1, LVGL 9) with updated modules for displays, trackpads, and layers.",
+          "topics": [
+            "firmware"
+          ],
+          "tags": [
+            "zmk",
+            "custom-firmware",
+            "open-source"
+          ],
+          "original_title": "I updated all my ZMK modules at once for the next ZMK (v0.4)",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague subject replaced with factual entity and action"
+        },
+        {
+          "id": "reddit-1y1dp3q",
+          "title": "ZMK v0.4 branch updates OLED, Azoteq/Cirque trackpad, and split sync modules",
+          "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1y1dp3q/i_updated_all_my_zmk_modules_at_once_for_the_next/",
+          "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1y1dp3q/i_updated_all_my_zmk_modules_at_once_for_the_next/",
+          "source": "reddit",
+          "subreddit": "ErgoMechKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Detailed breakdown of the new `zmk-v0.4` branch, listing specific updated modules for OLEDs, Azoteq/Cirque trackpads, and split sync.",
+          "topics": [
+            "firmware",
+            "splits-ergo"
+          ],
+          "tags": [
+            "zmk",
+            "split-keyboard",
+            "custom-firmware",
+            "open-source"
+          ],
+          "original_title": "I updated all my ZMK modules at once for the next ZMK (v0.4)",
+          "title_rewritten": true,
+          "title_rewrite_reason": "First-person framing and vague 'all my modules' replaced with specific entity and actions"
+        },
+        {
+          "id": "reddit-1y1rtor",
+          "title": "Open-source browser driver for Ajazz AK820 enables key remapping and RGB control",
+          "url": "https://reddit.com/r/MechanicalKeyboards/comments/1y1rtor/ak820_wired_web_driver_zero_install_open_source/",
+          "discussion_url": "https://reddit.com/r/MechanicalKeyboards/comments/1y1rtor/ak820_wired_web_driver_zero_install_open_source/",
+          "source": "reddit",
+          "subreddit": "MechanicalKeyboards",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Release of an open-source, browser-based driver for the Ajazz AK820 that allows for key remapping and RGB control without installing proprietary software.",
+          "topics": [
+            "tools-software",
+            "remapping-layouts"
+          ],
+          "tags": [
+            "open-source",
+            "key-remapping",
+            "web-driver"
+          ],
+          "original_title": "AK820 Wired Web Driver: Zero install, open source, cross-platform!",
+          "title_rewritten": true,
+          "title_rewrite_reason": "Removes exclamation mark and vague 'zero install' claim in favor of specific functionality"
         }
       ]
     },
