@@ -3,6 +3,60 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-22",
+      "items": [
+        {
+          "id": "kbdnews-2941",
+          "title": "Smallcat Uni 2",
+          "url": "https://kbd.news/Smallcat-Uni-2-2941.html",
+          "discussion_url": "https://kbd.news/Smallcat-Uni-2-2941.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "Matt Petiteau's Smallcat Uni 2 is a 26-key unibody split. Now even more compact.",
+          "image_hint": "https://kbd.news/pic/2026/219/480/2941.jpg",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "mechanical-keyboard",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2941.jpg"
+        },
+        {
+          "id": "kbdnews-2940",
+          "title": "Modula",
+          "url": "https://kbd.news/Modula-2940.html",
+          "discussion_url": "https://kbd.news/Modula-2940.html",
+          "source": "kbdnews",
+          "subreddit": null,
+          "via": "KBD.news",
+          "score": null,
+          "comments": null,
+          "category": "breaking",
+          "takeaway": "A wireless split ortholinear keyboard with various modules: Modula by taichan1113.",
+          "image_hint": "https://kbd.news/pic/2026/219/480/2940.jpg",
+          "topics": [
+            "splits-ergo",
+            "builds-hardware"
+          ],
+          "tags": [
+            "split-keyboard",
+            "ortholinear",
+            "mechanical-keyboard",
+            "diy-build"
+          ],
+          "image": "img/kbdnews-2940.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-21",
       "items": [
         {

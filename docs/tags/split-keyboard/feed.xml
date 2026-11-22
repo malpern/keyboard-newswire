@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 22 Nov 2026 13:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 13:20:49 +0000</lastBuildDate>
+  <item>
+    <title>Smallcat Uni 2</title>
+    <link>https://kbd.news/Smallcat-Uni-2-2941.html</link>
+    <guid isPermaLink="false">kbdnews-2941</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Matt Petiteau's Smallcat Uni 2 is a 26-key unibody split. Now even more compact. — KBD.news</description>
+  </item>
+  <item>
+    <title>Modula</title>
+    <link>https://kbd.news/Modula-2940.html</link>
+    <guid isPermaLink="false">kbdnews-2940</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A wireless split ortholinear keyboard with various modules: Modula by taichan1113. — KBD.news</description>
+  </item>
   <item>
     <title>ZMK v0.4 branch updates OLED, Azoteq/Cirque trackpad, and split sync modules</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y1dp3q/i_updated_all_my_zmk_modules_at_once_for_the_next/</link>

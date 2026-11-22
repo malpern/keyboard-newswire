@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Sun, 22 Nov 2026 13:06:53 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 13:20:50 +0000</lastBuildDate>
+  <item>
+    <title>Smallcat Uni 2</title>
+    <link>https://kbd.news/Smallcat-Uni-2-2941.html</link>
+    <guid isPermaLink="false">kbdnews-2941</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>Matt Petiteau's Smallcat Uni 2 is a 26-key unibody split. Now even more compact. — KBD.news</description>
+  </item>
+  <item>
+    <title>Modula</title>
+    <link>https://kbd.news/Modula-2940.html</link>
+    <guid isPermaLink="false">kbdnews-2940</guid>
+    <pubDate>Sun, 22 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
+    <description>A wireless split ortholinear keyboard with various modules: Modula by taichan1113. — KBD.news</description>
+  </item>
   <item>
     <title>Wireless Corne + Prospector dongle with a clock, charging indicators and typing-driven snow</title>
     <link>https://reddit.com/r/zmk/comments/1xyognz/wireless_corne_prospector_dongle_with_a_clock/</link>
