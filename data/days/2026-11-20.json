@@ -93,13 +93,13 @@
             "vendor": "https://caps-unlocked.com/gmk-doom/",
             "url": "https://caps-unlocked.com/gmk-doom/",
             "host": "caps-unlocked.com",
-            "metadata_fetched_at": "2026-11-22T13:06:06.745564+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:06.176382+00:00"
           },
           {
             "vendor": "https://cartel.ltd/gmk-doom/",
             "url": "https://cartel.ltd/gmk-doom/",
             "host": "cartel.ltd",
-            "metadata_fetched_at": "2026-11-22T13:06:06.745568+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:06.176386+00:00"
           }
         ]
       },
@@ -155,13 +155,13 @@
             "vendor": "BowlKeyboards",
             "url": "https://bowlkeyboards.com/products/gb-swg-nightshift",
             "host": "bowlkeyboards.com",
-            "metadata_fetched_at": "2026-11-22T13:06:06.931804+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:06.347055+00:00"
           },
           {
             "vendor": "Deltakeyco",
             "url": "https://deltakeyco.com/products/swg-nightshift",
             "host": "deltakeyco.com",
-            "metadata_fetched_at": "2026-11-22T13:06:07.161004+00:00",
+            "metadata_fetched_at": "2026-11-23T13:06:06.533214+00:00",
             "price_low": 1650,
             "price_high": 7200,
             "available": true
@@ -170,7 +170,7 @@
             "vendor": "Proto[Typist]",
             "url": "https://prototypist.net/products/group-buy-swg-nightshift",
             "host": "prototypist.net",
-            "metadata_fetched_at": "2026-11-22T13:06:07.630378+00:00",
+            "metadata_fetched_at": "2026-11-23T13:06:06.696552+00:00",
             "price_low": 1167,
             "price_high": 5167,
             "currency": "GBP",
@@ -180,7 +180,7 @@
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/products/swg-nightshift-abs-doubleshot-keycap-set",
             "host": "unikeyboards.com",
-            "metadata_fetched_at": "2026-11-22T13:06:07.811888+00:00",
+            "metadata_fetched_at": "2026-11-23T13:06:06.899553+00:00",
             "price_low": 1500,
             "price_high": 6700,
             "available": false
@@ -189,7 +189,7 @@
             "vendor": "KTechs",
             "url": "https://ktechs.store/products/swg-nightshift",
             "host": "ktechs.store",
-            "metadata_fetched_at": "2026-11-22T13:06:07.977741+00:00",
+            "metadata_fetched_at": "2026-11-23T13:06:07.098718+00:00",
             "price_low": 1950,
             "price_high": 8500,
             "currency": "SGD",
@@ -199,7 +199,7 @@
             "vendor": "Aiglatson",
             "url": "https://aiglatsonstudio.com/products/swg-nightshift/",
             "host": "aiglatsonstudio.com",
-            "metadata_fetched_at": "2026-11-22T13:06:08.247549+00:00",
+            "metadata_fetched_at": "2026-11-23T13:06:07.367503+00:00",
             "price_low": 60000,
             "price_high": 255000,
             "available": true
@@ -208,25 +208,25 @@
             "vendor": "MOKB",
             "url": "https://mokbstore.com/swg-nightshift-keycap-set",
             "host": "mokbstore.com",
-            "metadata_fetched_at": "2026-11-22T13:06:08.248061+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:07.367570+00:00"
           },
           {
             "vendor": "Swagkeys",
             "url": "https://swagkeys.com/products/group-buy-swg-nightshift/",
             "host": "swagkeys.com",
-            "metadata_fetched_at": "2026-11-22T13:06:08.396072+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:07.531152+00:00"
           },
           {
             "vendor": "KR",
             "url": "https://www.swagkey.kr/235/?idx=1963",
             "host": "www.swagkey.kr",
-            "metadata_fetched_at": "2026-11-22T13:06:08.396124+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:07.531207+00:00"
           },
           {
             "vendor": "Project page",
             "url": "https://bord.design/swgnightshift",
             "host": "bord.design",
-            "metadata_fetched_at": "2026-11-22T13:06:08.396136+00:00"
+            "metadata_fetched_at": "2026-11-23T13:06:07.531219+00:00"
           }
         ],
         "starts_at": "2026-10-30",
