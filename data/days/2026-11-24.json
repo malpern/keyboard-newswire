@@ -60,37 +60,60 @@
           {
             "vendor": "Novelkeys",
             "url": "https://novelkeys.com/products/cyl-zombie",
-            "host": "novelkeys.com"
+            "host": "novelkeys.com",
+            "metadata_fetched_at": "2026-11-24T13:07:07.780386+00:00",
+            "price_low": 3500,
+            "price_high": 15500,
+            "currency": "USD",
+            "available": false
           },
           {
             "vendor": "Oblotzky",
             "url": "https://oblotzky.industries/products/gmk-cyl-zombie",
-            "host": "oblotzky.industries"
+            "host": "oblotzky.industries",
+            "metadata_fetched_at": "2026-11-24T13:07:07.966320+00:00",
+            "price_low": 3200,
+            "price_high": 14900,
+            "currency": "EUR",
+            "available": true
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-gmk-cyl-zombie",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-11-24T13:07:08.153011+00:00",
+            "price_low": 2667,
+            "price_high": 11750,
+            "currency": "GBP",
+            "available": false
           },
           {
             "vendor": "KBDFans",
             "url": "https://kbdfans.com/products/gmk-cyl-zombie",
-            "host": "kbdfans.com"
+            "host": "kbdfans.com",
+            "metadata_fetched_at": "2026-11-24T13:07:08.298598+00:00",
+            "price_low": 3500,
+            "price_high": 16000,
+            "currency": "USD",
+            "available": false
           },
           {
             "vendor": "Geon",
             "url": "https://geon.works/products/group-buy-gmk-cyl-zombie",
-            "host": "geon.works"
+            "host": "geon.works",
+            "metadata_fetched_at": "2026-11-24T13:07:08.467937+00:00"
           },
           {
             "vendor": "iLumkb",
             "url": "https://ilumkb.com/products/group-buy-gmk-cyl-zombie",
-            "host": "ilumkb.com"
+            "host": "ilumkb.com",
+            "metadata_fetched_at": "2026-11-24T13:07:08.622943+00:00"
           },
           {
             "vendor": "Keebzncables",
             "url": "https://www.keebzncables.com/products/gmk-cyl-zombie",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-11-24T13:07:08.832923+00:00"
           }
         ],
         "related_threads": [
