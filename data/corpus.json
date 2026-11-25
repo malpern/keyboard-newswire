@@ -26,6 +26,55 @@
             "vendor-practices"
           ],
           "image": "img/hn-50630446.jpg"
+        },
+        {
+          "id": "email-1a20e8e5e682855d",
+          "title": "Mode Designs opens pre-orders for Encore FW26 collection",
+          "url": "https://modedesigns.com/products/encore",
+          "discussion_url": "https://modedesigns.com/products/encore",
+          "source": "email",
+          "subreddit": null,
+          "via": "Modedesigns",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Mode Designs has launched pre-orders for the Fall/Winter 2026 Encore 65% keyboard, featuring new colorways like Maroon and Steel Forest, with shipments scheduled for February.",
+          "sender": "Mode Designs <support@modedesigns.com>",
+          "topics": [
+            "group-buys-vendors",
+            "keycaps-aesthetics"
+          ],
+          "tags": [
+            "vendor-practices",
+            "keycap-design",
+            "mechanical-keyboard"
+          ],
+          "image": "img/email-1a20e8e5e682855d.jpg"
+        },
+        {
+          "id": "email-1a20e707a88ede31",
+          "title": "ZSA releases Wireless Voyager split keyboard",
+          "url": "https://www.zsa.io/wireless-voyager/?mc_cid=ce248cd2eb&mc_eid=UNIQID",
+          "discussion_url": "https://www.zsa.io/wireless-voyager/?mc_cid=ce248cd2eb&mc_eid=UNIQID",
+          "source": "email",
+          "subreddit": null,
+          "via": "Zsa",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "ZSA has launched the Wireless Voyager, a QMK-powered split keyboard featuring user-replaceable batteries and optional trackball/trackpad modules, now available for purchase.",
+          "sender": "Erez Zukerman - ZSA <contact@zsa.io>",
+          "topics": [
+            "splits-ergo",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "split-keyboard",
+            "qmk",
+            "vendor-practices",
+            "mechanical-keyboard"
+          ],
+          "image": "img/email-1a20e707a88ede31.jpg"
         }
       ]
     },

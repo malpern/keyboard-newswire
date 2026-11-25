@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 25 Nov 2026 13:06:56 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 13:15:35 +0000</lastBuildDate>
   <item>
     <title>The Wireless Voyager: a powerful, low-profile, split ergonomic keyboard – zsa.io</title>
     <link>https://www.zsa.io/wireless-voyager</link>
@@ -17,6 +17,28 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>7 pts · 4 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>Mode Designs opens pre-orders for Encore FW26 collection</title>
+    <link>https://modedesigns.com/products/encore</link>
+    <guid isPermaLink="false">email-1a20e8e5e682855d</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Keycaps &amp; Aesthetics</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>Mode Designs has launched pre-orders for the Fall/Winter 2026 Encore 65% keyboard, featuring new colorways like Maroon and Steel Forest, with shipments scheduled for February. — ✉ Modedesigns</description>
+  </item>
+  <item>
+    <title>ZSA releases Wireless Voyager split keyboard</title>
+    <link>https://www.zsa.io/wireless-voyager/?mc_cid=ce248cd2eb&amp;mc_eid=UNIQID</link>
+    <guid isPermaLink="false">email-1a20e707a88ede31</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>ZSA has launched the Wireless Voyager, a QMK-powered split keyboard featuring user-replaceable batteries and optional trackball/trackpad modules, now available for purchase. — ✉ Zsa</description>
   </item>
   <item>
     <title>Smallcat Uni 2</title>
@@ -2099,27 +2121,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>Ergohaven's Space Mission 30 is now fully open-source. — KBD.news</description>
-  </item>
-  <item>
-    <title>Keyboard Latency Probe</title>
-    <link>https://xkqr.org/bellwether/keyboardtest.html</link>
-    <guid isPermaLink="false">hn-48301703</guid>
-    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>4 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Epomaker Glyph review</title>
-    <link>https://kbd.news/Epomaker-Glyph-review-2862.html</link>
-    <guid isPermaLink="false">kbdnews-2862</guid>
-    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Keycaps &amp; Aesthetics</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>The retro, mid-century modern Epomaker Glyph is a typewriter-style tri-mode wireless keyboard with huge displays. — KBD.news</description>
   </item>
 </channel>
 </rss>

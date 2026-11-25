@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/qmk/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Qmk.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 25 Nov 2026 13:06:56 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 13:15:35 +0000</lastBuildDate>
+  <item>
+    <title>ZSA releases Wireless Voyager split keyboard</title>
+    <link>https://www.zsa.io/wireless-voyager/?mc_cid=ce248cd2eb&amp;mc_eid=UNIQID</link>
+    <guid isPermaLink="false">email-1a20e707a88ede31</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>ZSA has launched the Wireless Voyager, a QMK-powered split keyboard featuring user-replaceable batteries and optional trackball/trackpad modules, now available for purchase. — ✉ Zsa</description>
+  </item>
   <item>
     <title>QMK for Redragon K580 RGB and others with WCH CH555-family 8051 microcontrollers</title>
     <link>https://reddit.com/r/olkb/comments/1xdylyd/qmk_for_redragon_k580_rgb_and_others_with_wch/</link>
