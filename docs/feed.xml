@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Tue, 24 Nov 2026 13:08:07 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 13:03:15 +0000</lastBuildDate>
+  <item>
+    <title>The Wireless Voyager: a powerful, low-profile, split ergonomic keyboard – zsa.io</title>
+    <link>https://www.zsa.io/wireless-voyager</link>
+    <guid isPermaLink="false">hn-50630446</guid>
+    <pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>7 pts · 4 comments · Hacker News</description>
+  </item>
   <item>
     <title>Smallcat Uni 2</title>
     <link>https://kbd.news/Smallcat-Uni-2-2941.html</link>
@@ -2109,17 +2120,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>The retro, mid-century modern Epomaker Glyph is a typewriter-style tri-mode wireless keyboard with huge displays. — KBD.news</description>
-  </item>
-  <item>
-    <title>Omega Point 36</title>
-    <link>https://kbd.news/Omega-Point-36-2861.html</link>
-    <guid isPermaLink="false">kbdnews-2861</guid>
-    <pubDate>Thu, 28 May 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Ergohaven's wireless split Omega Point 36 is now open source. — KBD.news</description>
   </item>
 </channel>
 </rss>
