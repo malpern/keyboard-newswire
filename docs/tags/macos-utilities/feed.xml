@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/macos-utilities/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Macos Utilities.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:07:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:10:26 +0000</lastBuildDate>
+  <item>
+    <title>ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/</link>
+    <guid isPermaLink="false">reddit-1y57jbt</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A creative ZMK implementation using a Mac menu bar app and camera-based gaze tracking to automatically toggle between USB and BLE output profiles. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Altar II: a mechanical keyboard designed for Mac</title>
     <link>https://daringfireball.net/linked/2026/11/10/altar-ii-kickstarter</link>

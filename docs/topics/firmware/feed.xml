@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:07:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:10:26 +0000</lastBuildDate>
+  <item>
+    <title>ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/</link>
+    <guid isPermaLink="false">reddit-1y57jbt</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A creative ZMK implementation using a Mac menu bar app and camera-based gaze tracking to automatically toggle between USB and BLE output profiles. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Wireless QMK + Vial on a nice!nano Corne: Vial detects it, nice!view + OLED, built as a module (0 changes to the QMK core)</title>
+    <link>https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/</link>
+    <guid isPermaLink="false">reddit-1y5k0px</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>A technical demo of a wireless Corne v3 running QMK/Vial with BLE connectivity, nice!view, and OLED support without modifying the core firmware. — r/olkb</description>
+  </item>
+  <item>
+    <title>[Firmware] Neo Ergo tri-mode — VIA v2.9</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y5pa5c/firmware_neo_ergo_trimode_via_v29/</link>
+    <guid isPermaLink="false">reddit-1y5pa5c</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Firmware update for the Neo Ergo that fixes advanced keycode behavior in wireless mode and adds configurable LED idle timeouts. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>ZMK v0.4 testing branch adds updated modules for displays, trackpads, and layers</title>
     <link>https://reddit.com/r/olkb/comments/1y1dre6/i_updated_all_my_zmk_modules_at_once_for_the_next/</link>

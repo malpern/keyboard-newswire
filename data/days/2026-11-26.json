@@ -71,6 +71,73 @@
         "img/geekhack-127283-5.jpg"
       ],
       "image": "img/geekhack-127283-0.jpg"
+    },
+    {
+      "id": "reddit-1y57jbt",
+      "title": "ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles",
+      "url": "https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/",
+      "discussion_url": "https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/",
+      "source": "reddit",
+      "subreddit": "ErgoMechKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "A creative ZMK implementation using a Mac menu bar app and camera-based gaze tracking to automatically toggle between USB and BLE output profiles.",
+      "topics": [
+        "firmware",
+        "tools-software"
+      ],
+      "tags": [
+        "zmk",
+        "macos-utilities",
+        "custom-firmware"
+      ],
+      "original_title": "I made my ZMK keyboard switch between USB and Bluetooth by looking at the screen",
+      "title_rewritten": true,
+      "title_rewrite_reason": "first-person framing and vague 'looking at the screen' replaced with specific mechanism"
+    },
+    {
+      "id": "reddit-1y5k0px",
+      "title": "Wireless QMK + Vial on a nice!nano Corne: Vial detects it, nice!view + OLED, built as a module (0 changes to the QMK core)",
+      "url": "https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/",
+      "discussion_url": "https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/",
+      "source": "reddit",
+      "subreddit": "olkb",
+      "score": null,
+      "comments": null,
+      "category": "breaking",
+      "takeaway": "A technical demo of a wireless Corne v3 running QMK/Vial with BLE connectivity, nice!view, and OLED support without modifying the core firmware.",
+      "topics": [
+        "firmware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "qmk",
+        "split-keyboard",
+        "custom-firmware",
+        "open-source"
+      ]
+    },
+    {
+      "id": "reddit-1y5pa5c",
+      "title": "[Firmware] Neo Ergo tri-mode — VIA v2.9",
+      "url": "https://reddit.com/r/MechanicalKeyboards/comments/1y5pa5c/firmware_neo_ergo_trimode_via_v29/",
+      "discussion_url": "https://reddit.com/r/MechanicalKeyboards/comments/1y5pa5c/firmware_neo_ergo_trimode_via_v29/",
+      "source": "reddit",
+      "subreddit": "MechanicalKeyboards",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Firmware update for the Neo Ergo that fixes advanced keycode behavior in wireless mode and adds configurable LED idle timeouts.",
+      "topics": [
+        "firmware",
+        "splits-ergo"
+      ],
+      "tags": [
+        "custom-firmware",
+        "split-keyboard",
+        "mechanical-keyboard"
+      ]
     }
   ]
 }

@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/tags/mechanical-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Mechanical Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:07:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:10:26 +0000</lastBuildDate>
+  <item>
+    <title>[Firmware] Neo Ergo tri-mode — VIA v2.9</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y5pa5c/firmware_neo_ergo_trimode_via_v29/</link>
+    <guid isPermaLink="false">reddit-1y5pa5c</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Firmware update for the Neo Ergo that fixes advanced keycode behavior in wireless mode and adds configurable LED idle timeouts. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>The Wireless Voyager: a powerful, low-profile, split ergonomic keyboard – zsa.io</title>
     <link>https://www.zsa.io/wireless-voyager</link>

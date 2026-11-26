@@ -6,7 +6,40 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:07:29 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:10:25 +0000</lastBuildDate>
+  <item>
+    <title>ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/</link>
+    <guid isPermaLink="false">reddit-1y57jbt</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>A creative ZMK implementation using a Mac menu bar app and camera-based gaze tracking to automatically toggle between USB and BLE output profiles. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Wireless QMK + Vial on a nice!nano Corne: Vial detects it, nice!view + OLED, built as a module (0 changes to the QMK core)</title>
+    <link>https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/</link>
+    <guid isPermaLink="false">reddit-1y5k0px</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/olkb</source>
+    <description>A technical demo of a wireless Corne v3 running QMK/Vial with BLE connectivity, nice!view, and OLED support without modifying the core firmware. — r/olkb</description>
+  </item>
+  <item>
+    <title>[Firmware] Neo Ergo tri-mode — VIA v2.9</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y5pa5c/firmware_neo_ergo_trimode_via_v29/</link>
+    <guid isPermaLink="false">reddit-1y5pa5c</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Firmware</category>
+    <category>Splits &amp; Ergo</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Firmware update for the Neo Ergo that fixes advanced keycode behavior in wireless mode and adds configurable LED idle timeouts. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>The Wireless Voyager: a powerful, low-profile, split ergonomic keyboard – zsa.io</title>
     <link>https://www.zsa.io/wireless-voyager</link>
@@ -2091,36 +2124,6 @@
     <category>Community</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>The Haili58 is an nrf52840 based 58-key wireless split keyboard by Juho T. — KBD.news</description>
-  </item>
-  <item>
-    <title>IQUNIX x Ghost in the Shell EV63 Cyber Blue review</title>
-    <link>https://kbd.news/IQUNIX-x-Ghost-in-the-Shell-EV63-Cyber-Blue-review-2863.html</link>
-    <guid isPermaLink="false">kbdnews-2863</guid>
-    <pubDate>Sat, 06 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Two brand-new EV63 variants have been released recently: the Ghost in the Shell-themed Shell Core and Cyber Blue. For this review, I took a closer look at the latter. — KBD.news</description>
-  </item>
-  <item>
-    <title>Best-selling keyboard switches of May 2026</title>
-    <link>https://kbd.news/Best-selling-keyboard-switches-of-May-2026-2865.html</link>
-    <guid isPermaLink="false">kbdnews-2865</guid>
-    <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Here are May’s top mechanical switches, the community’s favorites based on vendor sales data. — KBD.news</description>
-  </item>
-  <item>
-    <title>Space Mission 30</title>
-    <link>https://kbd.news/Space-Mission-30-2866.html</link>
-    <guid isPermaLink="false">kbdnews-2866</guid>
-    <pubDate>Fri, 05 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Community</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Ergohaven's Space Mission 30 is now fully open-source. — KBD.news</description>
   </item>
 </channel>
 </rss>
