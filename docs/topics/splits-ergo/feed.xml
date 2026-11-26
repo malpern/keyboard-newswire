@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/splits-ergo/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Split keyboards, ergonomic boards, columnar staggered, ortholinear, thumb clusters, dactyl, corne, ergodox, lily58, sofle, etc.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:10:26 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 13:15:41 +0000</lastBuildDate>
   <item>
     <title>Wireless QMK + Vial on a nice!nano Corne: Vial detects it, nice!view + OLED, built as a module (0 changes to the QMK core)</title>
     <link>https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/</link>
@@ -28,6 +28,17 @@
     <category>Splits &amp; Ergo</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
     <description>Firmware update for the Neo Ergo that fixes advanced keycode behavior in wireless mode and adds configurable LED idle timeouts. — r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>ZSA releases Wireless Voyager split keyboard</title>
+    <link>https://modedesigns.com/products/encore|Mode</link>
+    <guid isPermaLink="false">email-1a212dac1d25ba34</guid>
+    <pubDate>Thu, 26 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>ZSA launched the Wireless Voyager, a QMK-powered split keyboard with user-replaceable batteries and optional trackball or trackpad modules. — ✉ Gmail</description>
   </item>
   <item>
     <title>The Wireless Voyager: a powerful, low-profile, split ergonomic keyboard – zsa.io</title>

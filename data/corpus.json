@@ -142,6 +142,55 @@
             "split-keyboard",
             "mechanical-keyboard"
           ]
+        },
+        {
+          "id": "email-1a213caf3f3df4fa",
+          "title": "Keyboard Builders' Digest Issue #219: IQUNIX EV63 EDG, TheKapCo PLAY1800, and more",
+          "url": "https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/",
+          "discussion_url": "https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/",
+          "source": "email",
+          "subreddit": null,
+          "via": "Buttondown",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "Issue #219 highlights the IQUNIX EV63 EDG Edition, TheKapCo PLAY1800 x Hot Wheels, Hachigo74 split keyboard, and October 2026 switch sales data.",
+          "sender": "\"Keyboard Builders' Digest\" <kbdnews@buttondown.email>",
+          "topics": [
+            "builds-hardware",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "mechanical-keyboard",
+            "switches",
+            "vendor-practices",
+            "split-keyboard"
+          ],
+          "image": "img/email-1a213caf3f3df4fa.jpg"
+        },
+        {
+          "id": "email-1a212dac1d25ba34",
+          "title": "ZSA releases Wireless Voyager split keyboard",
+          "url": "https://modedesigns.com/products/encore|Mode",
+          "discussion_url": "https://modedesigns.com/products/encore|Mode",
+          "source": "email",
+          "subreddit": null,
+          "via": "Gmail",
+          "score": null,
+          "comments": null,
+          "category": "evergreen",
+          "takeaway": "ZSA launched the Wireless Voyager, a QMK-powered split keyboard with user-replaceable batteries and optional trackball or trackpad modules.",
+          "sender": "Micah Alpern <malpern@gmail.com>",
+          "topics": [
+            "splits-ergo",
+            "group-buys-vendors"
+          ],
+          "tags": [
+            "split-keyboard",
+            "qmk",
+            "mechanical-keyboard"
+          ],
+          "image": "img/email-1a212dac1d25ba34.jpg"
         }
       ]
     },
