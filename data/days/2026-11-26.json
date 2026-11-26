@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-26",
+  "items": [
+    {
+      "id": "geekhack-127283",
+      "title": "[IC] GMK CYL nuSignal (Blue on Black)",
+      "url": "https://geekhack.org/index.php?topic=127283.0",
+      "discussion_url": "https://geekhack.org/index.php?topic=127283.0",
+      "source": "geekhack",
+      "subreddit": null,
+      "via": "Geekhack · Interest Checks",
+      "score": 44776,
+      "comments": 18,
+      "category": "breaking",
+      "takeaway": "GMK CYL nuSignal About pretty much just a gmk signal rerun. gb next year depending on interest IC Form Colors Kits ^not super happy with the novs. will prob change Vendors USA: Divinikey (lead) EU: Delta Key Co UK: ProtoTypist CA/Global: Unikeys CN: KBDFans SEA: Ktechs JP: Yushakobo KR: GeonWorks OCE: Keebz N Cables Keyboard Renders ^f1 by geon ^dino104 by nfaiz ^amano by h40.io ^marcy80 by baucts Updates 10/31/26: added unikeys for ca/global, deltakeyco for eu, keebzncables for oce 11/1/26: kbdfans added as cn vendor, added geon as kr vendor 11/6/26: prototypist added as uk vendor, date keys",
+      "topics": [
+        "group-buys-vendors",
+        "keycaps-aesthetics"
+      ],
+      "type": "IC",
+      "images_remote": [
+        "https://i.imgur.com/PY72A0b.png",
+        "https://i.postimg.cc/GmHtCjQP/nusignal-base-square.jpg",
+        "https://i.postimg.cc/sXnbs5KH/nusignal-numpad-square.jpg",
+        "https://i.postimg.cc/hv2mCtD0/nusignal-novelties-square.jpg",
+        "https://i.postimg.cc/QMqdgnxg/nusignal-altmods-square.jpg",
+        "https://i.postimg.cc/RVP8t1B3/nusignal-extension-square.jpg",
+        "https://i.postimg.cc/bJBDbF3m/nusignal-nordeuk-square.jpg",
+        "https://i.imgur.com/HDfbG0t.jpeg",
+        "https://i.imgur.com/tRAgCfa.jpeg",
+        "https://i.imgur.com/NU0yFuo.jpeg",
+        "https://i.imgur.com/8Pb1ars.jpeg"
+      ],
+      "gb": {
+        "designer": "baucts",
+        "vendor_regions": [
+          {
+            "region": "US",
+            "name": "Divinikey (lead)"
+          },
+          {
+            "region": "EU",
+            "name": "Delta Key Co"
+          },
+          {
+            "region": "CN",
+            "name": "KBDFans"
+          },
+          {
+            "region": "SEA",
+            "name": "Ktechs"
+          },
+          {
+            "region": "JP",
+            "name": "Yushakobo"
+          }
+        ],
+        "photo_credit": "geon"
+      },
+      "tags": [
+        "keycap-design",
+        "group-buy",
+        "vendor-practices"
+      ],
+      "images": [
+        "img/geekhack-127283-0.jpg",
+        "img/geekhack-127283-1.jpg",
+        "img/geekhack-127283-2.jpg",
+        "img/geekhack-127283-3.jpg",
+        "img/geekhack-127283-4.jpg",
+        "img/geekhack-127283-5.jpg"
+      ],
+      "image": "img/geekhack-127283-0.jpg"
+    }
+  ]
+}
