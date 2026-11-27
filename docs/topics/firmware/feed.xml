@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/firmware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>On-board keyboard firmware: QMK, ZMK, KMK, custom firmware development, matrix scanning, encoders, RGB, BLE, controllers.</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:17:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 13:16:49 +0000</lastBuildDate>
+  <item>
+    <title>ZSA launches Wireless Voyager and adds layer-independent combos to Oryx</title>
+    <link>https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac</link>
+    <guid isPermaLink="false">email-1a219b750bbc2d33</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>ZSA announced the launch of the Wireless Voyager keyboard and introduced a firmware update enabling layer-independent combos in the Oryx configuration tool. — ✉ Zsa</description>
+  </item>
   <item>
     <title>ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/</link>

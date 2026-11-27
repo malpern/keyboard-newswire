@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "id": "email-1a219b750bbc2d33",
+      "title": "ZSA launches Wireless Voyager and adds layer-independent combos to Oryx",
+      "url": "https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac",
+      "discussion_url": "https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac",
+      "source": "email",
+      "subreddit": null,
+      "via": "Zsa",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "ZSA announced the launch of the Wireless Voyager keyboard and introduced a firmware update enabling layer-independent combos in the Oryx configuration tool.",
+      "sender": "Erez Zukerman - ZSA <contact@zsa.io>",
+      "topics": [
+        "group-buys-vendors",
+        "firmware"
+      ],
+      "tags": [
+        "vendor-practices",
+        "custom-firmware",
+        "remap",
+        "mechanical-keyboard"
+      ]
+    },
+    {
+      "id": "email-1a21875bf45c36c5",
+      "title": "Work Louder releases Creator Micro in Snow White and new AI plugins",
+      "url": "https://work-louder.myshopify.com/_t/c/v3/AABhP60tzE4p5M0lDAlx0gPnw2kUFke0p1HSAJmxrhgCwIeRfIGkgCZgoQaSfTmnxkZLXGNTgcsxYUKx1ZIcMuw7KSjzEYO55AYfdTu9l8bwjrKQemTWhTy_OWidPkoowtCNHgtyb72TTNfUUiwdLp25gNz9Z6JTo4hpfrfuuchAsm0K0MKrjnvXZxSKFe0yLireYODzQ8KHxipHDAoF3Ulz8uarcCWEghNk20XxT7OwQl277DuZt46-Q-Q60iA-MAX9tSwCm6pmyOBaaWBT6dXumJCjJEJCePJ_xDTR0aNf-fNCJ-q52QIpJmi57O0CuH7mMGl0jR3ZXh5BYPUG",
+      "discussion_url": "https://work-louder.myshopify.com/_t/c/v3/AABhP60tzE4p5M0lDAlx0gPnw2kUFke0p1HSAJmxrhgCwIeRfIGkgCZgoQaSfTmnxkZLXGNTgcsxYUKx1ZIcMuw7KSjzEYO55AYfdTu9l8bwjrKQemTWhTy_OWidPkoowtCNHgtyb72TTNfUUiwdLp25gNz9Z6JTo4hpfrfuuchAsm0K0MKrjnvXZxSKFe0yLireYODzQ8KHxipHDAoF3Ulz8uarcCWEghNk20XxT7OwQl277DuZt46-Q-Q60iA-MAX9tSwCm6pmyOBaaWBT6dXumJCjJEJCePJ_xDTR0aNf-fNCJ-q52QIpJmi57O0CuH7mMGl0jR3ZXh5BYPUG",
+      "source": "email",
+      "subreddit": null,
+      "via": "Worklouder",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Work Louder announced the availability of the Creator Micro keyboard in Snow White and the release of new plugins for Claude, Cursor, and VS Code alongside a new device kit.",
+      "sender": "Work Louder <hello@worklouder.cc>",
+      "topics": [
+        "group-buys-vendors",
+        "tools-software"
+      ],
+      "tags": [
+        "vendor-practices",
+        "ide",
+        "mechanical-keyboard",
+        "restock"
+      ],
+      "image": "img/email-1a21875bf45c36c5.jpg"
+    },
+    {
+      "id": "email-1a2180d06773eb43",
+      "title": "Mode Designs opens Encore FW26 pre-orders and updates Prologue shipping",
+      "url": "https://modedesigns.com",
+      "discussion_url": "https://modedesigns.com",
+      "source": "email",
+      "subreddit": null,
+      "via": "Modedesigns",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "Encore Fall/Winter 2026 pre-orders are open with new colorways shipping in February, while Prologue shipping is delayed to early January.",
+      "sender": "Mode Designs <support@modedesigns.com>",
+      "topics": [
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "group-buy",
+        "vendor-practices",
+        "mechanical-keyboard"
+      ],
+      "image": "img/email-1a2180d06773eb43.jpg"
+    },
+    {
+      "id": "email-1a218014d6d4a041",
+      "title": "ZSA releases Wireless Voyager split keyboard",
+      "url": "https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/|Keyboard",
+      "discussion_url": "https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/|Keyboard",
+      "source": "email",
+      "subreddit": null,
+      "via": "Gmail",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "ZSA launched the Wireless Voyager, a QMK-powered split keyboard featuring user-replaceable batteries and optional trackball or trackpad modules.",
+      "sender": "Micah Alpern <malpern@gmail.com>",
+      "topics": [
+        "splits-ergo",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "split-keyboard",
+        "qmk",
+        "vendor-practices",
+        "mechanical-keyboard"
+      ]
+    }
+  ]
+}

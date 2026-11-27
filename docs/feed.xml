@@ -6,7 +6,50 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Thu, 26 Nov 2026 13:17:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 13:16:49 +0000</lastBuildDate>
+  <item>
+    <title>ZSA launches Wireless Voyager and adds layer-independent combos to Oryx</title>
+    <link>https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac</link>
+    <guid isPermaLink="false">email-1a219b750bbc2d33</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Zsa</source>
+    <description>ZSA announced the launch of the Wireless Voyager keyboard and introduced a firmware update enabling layer-independent combos in the Oryx configuration tool. — ✉ Zsa</description>
+  </item>
+  <item>
+    <title>Work Louder releases Creator Micro in Snow White and new AI plugins</title>
+    <link>https://work-louder.myshopify.com/_t/c/v3/AABhP60tzE4p5M0lDAlx0gPnw2kUFke0p1HSAJmxrhgCwIeRfIGkgCZgoQaSfTmnxkZLXGNTgcsxYUKx1ZIcMuw7KSjzEYO55AYfdTu9l8bwjrKQemTWhTy_OWidPkoowtCNHgtyb72TTNfUUiwdLp25gNz9Z6JTo4hpfrfuuchAsm0K0MKrjnvXZxSKFe0yLireYODzQ8KHxipHDAoF3Ulz8uarcCWEghNk20XxT7OwQl277DuZt46-Q-Q60iA-MAX9tSwCm6pmyOBaaWBT6dXumJCjJEJCePJ_xDTR0aNf-fNCJ-q52QIpJmi57O0CuH7mMGl0jR3ZXh5BYPUG</link>
+    <guid isPermaLink="false">email-1a21875bf45c36c5</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Worklouder</source>
+    <description>Work Louder announced the availability of the Creator Micro keyboard in Snow White and the release of new plugins for Claude, Cursor, and VS Code alongside a new device kit. — ✉ Worklouder</description>
+  </item>
+  <item>
+    <title>Mode Designs opens Encore FW26 pre-orders and updates Prologue shipping</title>
+    <link>https://modedesigns.com</link>
+    <guid isPermaLink="false">email-1a2180d06773eb43</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Modedesigns</source>
+    <description>Encore Fall/Winter 2026 pre-orders are open with new colorways shipping in February, while Prologue shipping is delayed to early January. — ✉ Modedesigns</description>
+  </item>
+  <item>
+    <title>ZSA releases Wireless Voyager split keyboard</title>
+    <link>https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/|Keyboard</link>
+    <guid isPermaLink="false">email-1a218014d6d4a041</guid>
+    <pubDate>Fri, 27 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>ZSA launched the Wireless Voyager, a QMK-powered split keyboard featuring user-replaceable batteries and optional trackball or trackpad modules. — ✉ Gmail</description>
+  </item>
   <item>
     <title>ZMK keyboard uses Mac menu bar app and gaze tracking to switch USB/BLE profiles</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y57jbt/i_made_my_zmk_keyboard_switch_between_usb_and/</link>
@@ -2083,49 +2126,6 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
     <description>KBD.news</description>
-  </item>
-  <item>
-    <title>Temporal by curbol is a generative low-pro split with a smooth build pipeline</title>
-    <link>https://kbd.news/Temporal-2872.html</link>
-    <guid isPermaLink="false">kbdnews-2872</guid>
-    <pubDate>Sat, 20 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Firmware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>A generative low-pro split with a smooth build pipeline: Temporal by curbol. — KBD.news</description>
-  </item>
-  <item>
-    <title>Made a free macOS menu bar app that fixes typing in the wrong keyboard layout</title>
-    <link>https://flickey.site</link>
-    <guid isPermaLink="false">hn-48575878</guid>
-    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Remapping &amp; Layouts</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>71 pts · 33 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Show HN: Cliptop, a keyboard-first clipboard manager for macOS</title>
-    <link>https://cliptop.app</link>
-    <guid isPermaLink="false">hn-48582447</guid>
-    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>3 pts · 1 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>Tofu Dactyl</title>
-    <link>https://kbd.news/Tofu-Dactyl-2871.html</link>
-    <guid isPermaLink="false">kbdnews-2871</guid>
-    <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Splits &amp; Ergo</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>Yanos626 shared the STL files of his handwired Tofu Dactyl, designed via the Cosmos generator. — KBD.news</description>
   </item>
 </channel>
 </rss>
