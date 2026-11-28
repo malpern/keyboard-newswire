@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/diy-build/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Diy Build.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:07:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
+  <item>
+    <title>First split - a cheap Cheapino</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7asm4/first_split_a_cheap_cheapino/</link>
+    <guid isPermaLink="false">reddit-1y7asm4</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User shares their first split build (Cheapino v2) and notes they prepared for it by using a Kanata layout on their desktop to get accustomed to the layers. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Introducing the Lazy Dragon 64!</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y7bw9z/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bw9z</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/MechanicalKeyboards</description>
+  </item>
   <item>
     <title>Smallcat Uni 2</title>
     <link>https://kbd.news/Smallcat-Uni-2-2941.html</link>

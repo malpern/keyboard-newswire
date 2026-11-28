@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:07:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
   <item>
     <title>Show HN: Clacketier – Cherry MX sounds for any macOS terminal</title>
     <link>https://twitter.com/vipulgupta2048/status/2126313196743266511</link>
@@ -16,6 +16,39 @@
     <category>Tools &amp; Software</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>1 pts · 0 comments · Hacker News</description>
+  </item>
+  <item>
+    <title>First split - a cheap Cheapino</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7asm4/first_split_a_cheap_cheapino/</link>
+    <guid isPermaLink="false">reddit-1y7asm4</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Remapping &amp; Layouts</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>User shares their first split build (Cheapino v2) and notes they prepared for it by using a Kanata layout on their desktop to get accustomed to the layers. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>Introducing the Lazy Dragon 64!</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y7bw9z/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bw9z</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Lazy Dragon 64: 64-key split keyboard with RP2040s and QMK</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7bupr/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bupr</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/ErgoMechKeyboards</description>
   </item>
   <item>
     <title>ZSA launches Wireless Voyager and adds layer-independent combos to Oryx</title>
@@ -2096,36 +2129,6 @@
     <category>Firmware</category>
     <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
     <description>3 pts · 0 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>XVX L75 Air review</title>
-    <link>https://kbd.news/XVX-L75-Air-review-2875.html</link>
-    <guid isPermaLink="false">kbdnews-2875</guid>
-    <pubDate>Thu, 25 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>KBD.news</description>
-  </item>
-  <item>
-    <title>Show HN: KeyGhost – Keyboard app launcher for macOS</title>
-    <link>https://keyghost.dev/</link>
-    <guid isPermaLink="false">hn-48628270</guid>
-    <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
-    <category>evergreen</category>
-    <category>Tools &amp; Software</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
-    <description>9 pts · 8 comments · Hacker News</description>
-  </item>
-  <item>
-    <title>YKB Skadi</title>
-    <link>https://kbd.news/YKB-Skadi-2874.html</link>
-    <guid isPermaLink="false">kbdnews-2874</guid>
-    <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>KBD.news</description>
   </item>
 </channel>
 </rss>

@@ -6,7 +6,18 @@
   <atom:link href="https://keyboard-newswire.com/topics/builds-hardware/feed.xml" rel="self" type="application/rss+xml"/>
   <description>DIY builds and build logs, custom PCBs, hot-swap, switches and switch development, hardware design, 3D-printed cases.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:07:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
+  <item>
+    <title>Lazy Dragon 64: 64-key split keyboard with RP2040s and QMK</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7bupr/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bupr</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Keyboard Builders' Digest Issue #219: IQUNIX EV63 EDG, TheKapCo PLAY1800, and more</title>
     <link>https://buttondown.com/kbdnews/archive/issue-219-keyboard-builders-digest/</link>

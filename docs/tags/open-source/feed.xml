@@ -6,7 +6,29 @@
   <atom:link href="https://keyboard-newswire.com/tags/open-source/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Open Source.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:07:42 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
+  <item>
+    <title>Introducing the Lazy Dragon 64!</title>
+    <link>https://reddit.com/r/MechanicalKeyboards/comments/1y7bw9z/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bw9z</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Firmware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/MechanicalKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/MechanicalKeyboards</description>
+  </item>
+  <item>
+    <title>Lazy Dragon 64: 64-key split keyboard with RP2040s and QMK</title>
+    <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7bupr/introducing_the_lazy_dragon_64/</link>
+    <guid isPermaLink="false">reddit-1y7bupr</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>breaking</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Builds &amp; Hardware</category>
+    <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
+    <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/ErgoMechKeyboards</description>
+  </item>
   <item>
     <title>Wireless QMK + Vial on a nice!nano Corne: Vial detects it, nice!view + OLED, built as a module (0 changes to the QMK core)</title>
     <link>https://reddit.com/r/olkb/comments/1y5k0px/wireless_qmk_vial_on_a_nicenano_corne_vial/</link>
