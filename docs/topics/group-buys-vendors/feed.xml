@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/topics/group-buys-vendors/feed.xml" rel="self" type="application/rss+xml"/>
   <description>GB announcements and updates, vendor drops and sales, restock alerts, vendor news, marketplace discussion.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:15:13 +0000</lastBuildDate>
   <item>
     <title>[GB] GMK Just Beachy - Now Delivering!</title>
     <link>https://geekhack.org/index.php?topic=125359.0</link>
@@ -38,6 +38,17 @@
     <category>Group Buys &amp; Vendors</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
     <description>Reserved. — Geekhack · Interest Checks</description>
+  </item>
+  <item>
+    <title>ZSA launches Wireless Voyager; Work Louder releases Creator Micro Snow White</title>
+    <link>https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac|ZSA</link>
+    <guid isPermaLink="false">email-1a21d29141a657f9</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>ZSA announced the Wireless Voyager split keyboard and Oryx firmware updates, while Work Louder released the Creator Micro in Snow White and new AI plugins. — ✉ Gmail</description>
   </item>
   <item>
     <title>ZSA launches Wireless Voyager and adds layer-independent combos to Oryx</title>
@@ -2171,17 +2182,6 @@
     <category>Keycaps &amp; Aesthetics</category>
     <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Group Buys</source>
     <description>SWG Neo well formerly known as Neo Honeywell LINKS Intro | Kits | Deskmat | Renders | Specs | Logistics | Misc IC Form | Discord: TORO Studio | Socials: @toro_keyboard | @boba.types IC Thread Link: https://geekhack.org/index.php?topic=125558.0 • INTRODUCTION • The Honeywell colourway, born from vintage terminals, is a classic that felt long overdue for a return. Retaining the ivory alphas, charcoal modifiers and signature red accents that defined the original, we've reinterpreted it with additional novelties, expanded compatibility and thoughtful homages to its heritage. Versatile, understated — 14950 pts · 1 comments · Geekhack · Group Buys</description>
-  </item>
-  <item>
-    <title>[IC]Consi Studio (Originally DesignerStudio) PCB Stabilizer V3</title>
-    <link>https://geekhack.org/index.php?topic=126918.0</link>
-    <guid isPermaLink="false">geekhack-126918</guid>
-    <pubDate>Mon, 20 Jul 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Group Buys &amp; Vendors</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">Geekhack · Interest Checks</source>
-    <description>ConsiStudio (Brand Name Changed!!!) Slider-Crank Mechanism PCB-Mount Stablizers Hello, this is your old friend, DesignerStudio. We are coming back with a new branding Consi Studio! After three years of continuous refinement, we have taken our adaptive stabilizer to the next level with an entirely new mechanical design. Following extensive testing, repeated revisions, and multiple rounds of prototyping, we are now confident and ready to introduce this all-new product to the keyboard community. Now, let us take a closer look at the key improvements and changes in this new generation of stabilize — 289 pts · Geekhack · Interest Checks</description>
   </item>
 </channel>
 </rss>

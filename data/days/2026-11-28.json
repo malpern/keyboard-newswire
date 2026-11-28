@@ -299,6 +299,30 @@
       "original_title": "Introducing the Lazy Dragon 64!",
       "title_rewritten": true,
       "title_rewrite_reason": "Exclamation mark and vague 'Introducing' framing"
+    },
+    {
+      "id": "email-1a21d29141a657f9",
+      "title": "ZSA launches Wireless Voyager; Work Louder releases Creator Micro Snow White",
+      "url": "https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac|ZSA",
+      "discussion_url": "https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac|ZSA",
+      "source": "email",
+      "subreddit": null,
+      "via": "Gmail",
+      "score": null,
+      "comments": null,
+      "category": "evergreen",
+      "takeaway": "ZSA announced the Wireless Voyager split keyboard and Oryx firmware updates, while Work Louder released the Creator Micro in Snow White and new AI plugins.",
+      "sender": "Micah Alpern <malpern@gmail.com>",
+      "topics": [
+        "splits-ergo",
+        "group-buys-vendors"
+      ],
+      "tags": [
+        "split-keyboard",
+        "vendor-practices",
+        "keycap-design",
+        "custom-firmware"
+      ]
     }
   ]
 }

@@ -6,7 +6,7 @@
   <atom:link href="https://keyboard-newswire.com/tags/split-keyboard/feed.xml" rel="self" type="application/rss+xml"/>
   <description>All keyboard wire entries tagged Split Keyboard.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 28 Nov 2026 13:11:04 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:15:13 +0000</lastBuildDate>
   <item>
     <title>First split - a cheap Cheapino</title>
     <link>https://reddit.com/r/ErgoMechKeyboards/comments/1y7asm4/first_split_a_cheap_cheapino/</link>
@@ -39,6 +39,17 @@
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">r/ErgoMechKeyboards</source>
     <description>Announcement of a new 64-key split keyboard using RP2040s and QMK, fully open source with a Hall Effect version in development. — r/ErgoMechKeyboards</description>
+  </item>
+  <item>
+    <title>ZSA launches Wireless Voyager; Work Louder releases Creator Micro Snow White</title>
+    <link>https://mailchi.mp/zsa/the-ergo-98?e=7862a946ac|ZSA</link>
+    <guid isPermaLink="false">email-1a21d29141a657f9</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Splits &amp; Ergo</category>
+    <category>Group Buys &amp; Vendors</category>
+    <source url="https://keyboard-newswire.com/feed.xml">✉ Gmail</source>
+    <description>ZSA announced the Wireless Voyager split keyboard and Oryx firmware updates, while Work Louder released the Creator Micro in Snow White and new AI plugins. — ✉ Gmail</description>
   </item>
   <item>
     <title>ZSA releases Wireless Voyager split keyboard</title>
