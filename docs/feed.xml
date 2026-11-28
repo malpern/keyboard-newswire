@@ -6,7 +6,17 @@
   <atom:link href="https://keyboard-newswire.com/feed.xml" rel="self" type="application/rss+xml"/>
   <description>daily mechanical keyboards, firmware &amp; tools</description>
   <language>en-us</language>
-  <lastBuildDate>Fri, 27 Nov 2026 13:18:21 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 13:03:05 +0000</lastBuildDate>
+  <item>
+    <title>Show HN: Clacketier – Cherry MX sounds for any macOS terminal</title>
+    <link>https://twitter.com/vipulgupta2048/status/2126313196743266511</link>
+    <guid isPermaLink="false">hn-50667340</guid>
+    <pubDate>Sat, 28 Nov 2026 12:00:00 +0000</pubDate>
+    <category>evergreen</category>
+    <category>Tools &amp; Software</category>
+    <source url="https://keyboard-newswire.com/feed.xml">Hacker News</source>
+    <description>1 pts · 0 comments · Hacker News</description>
+  </item>
   <item>
     <title>ZSA launches Wireless Voyager and adds layer-independent combos to Oryx</title>
     <link>https://mailchi.mp/zsa/the-ergo-98</link>
@@ -2112,16 +2122,6 @@
     <link>https://kbd.news/YKB-Skadi-2874.html</link>
     <guid isPermaLink="false">kbdnews-2874</guid>
     <pubDate>Mon, 22 Jun 2026 12:00:00 +0000</pubDate>
-    <category>breaking</category>
-    <category>Builds &amp; Hardware</category>
-    <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>
-    <description>KBD.news</description>
-  </item>
-  <item>
-    <title>Ilwol &amp; Phalwol</title>
-    <link>https://kbd.news/Ilwol-Phalwol-2873.html</link>
-    <guid isPermaLink="false">kbdnews-2873</guid>
-    <pubDate>Sun, 21 Jun 2026 12:00:00 +0000</pubDate>
     <category>breaking</category>
     <category>Builds &amp; Hardware</category>
     <source url="https://keyboard-newswire.com/feed.xml">KBD.news</source>

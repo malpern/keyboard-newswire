@@ -3,6 +3,32 @@
   "tagline": "daily mechanical keyboards, firmware & tools",
   "days": [
     {
+      "date": "2026-11-28",
+      "items": [
+        {
+          "id": "hn-50667340",
+          "title": "Show HN: Clacketier – Cherry MX sounds for any macOS terminal",
+          "url": "https://twitter.com/vipulgupta2048/status/2126313196743266511",
+          "discussion_url": "https://news.ycombinator.com/item?id=50667340",
+          "source": "hn",
+          "subreddit": null,
+          "score": 1,
+          "comments": 0,
+          "category": "evergreen",
+          "takeaway": "",
+          "topics": [
+            "tools-software"
+          ],
+          "tags": [
+            "macos-utilities",
+            "sound-effects",
+            "mechanical-keyboard"
+          ],
+          "image": "img/hn-50667340.jpg"
+        }
+      ]
+    },
+    {
       "date": "2026-11-27",
       "items": [
         {
