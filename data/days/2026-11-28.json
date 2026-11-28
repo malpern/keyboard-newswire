@@ -77,42 +77,71 @@
           {
             "vendor": "Keebz N Cables",
             "url": "https://www.keebzncables.com/products/group-buy-gmk-beachy-keycaps",
-            "host": "www.keebzncables.com"
+            "host": "www.keebzncables.com",
+            "metadata_fetched_at": "2026-11-28T13:06:56.546330+00:00"
           },
           {
             "vendor": "Divinikey",
             "url": "https://divinikey.com/products/gmk-just-beachy-keycaps",
-            "host": "divinikey.com"
+            "host": "divinikey.com",
+            "metadata_fetched_at": "2026-11-28T13:06:56.730962+00:00",
+            "price_low": 3000,
+            "price_high": 16000,
+            "available": true
           },
           {
             "vendor": "Unikeys",
             "url": "https://unikeyboards.com/products/gmk-cyl-just-beachy-keycap-set-gb",
-            "host": "unikeyboards.com"
+            "host": "unikeyboards.com",
+            "metadata_fetched_at": "2026-11-28T13:06:56.890305+00:00",
+            "price_low": 3900,
+            "price_high": 14300,
+            "available": false
           },
           {
             "vendor": "Eloquent Clicks",
             "url": "https://eloquentclicks.com/products/gmk-cyl-just-beachy",
-            "host": "eloquentclicks.com"
+            "host": "eloquentclicks.com",
+            "metadata_fetched_at": "2026-11-28T13:06:57.076164+00:00",
+            "price_low": 4300,
+            "price_high": 13600,
+            "available": true
           },
           {
             "vendor": "Prototypist",
             "url": "https://prototypist.net/products/group-buy-gmk-just-beachy",
-            "host": "prototypist.net"
+            "host": "prototypist.net",
+            "metadata_fetched_at": "2026-11-28T13:06:57.267732+00:00",
+            "price_low": 3000,
+            "price_high": 10667,
+            "currency": "GBP",
+            "available": false
           },
           {
             "vendor": "Ktechs Store",
             "url": "https://ktechs.store/products/gmk-cyl-just-beachy",
-            "host": "ktechs.store"
+            "host": "ktechs.store",
+            "metadata_fetched_at": "2026-11-28T13:06:57.450120+00:00",
+            "price_low": 5600,
+            "price_high": 19500,
+            "currency": "SGD",
+            "available": true
           },
           {
             "vendor": "KBDfans",
             "url": "https://kbdfans.com/products/gmk-cyl-just-beachy",
-            "host": "kbdfans.com"
+            "host": "kbdfans.com",
+            "metadata_fetched_at": "2026-11-28T13:06:57.626578+00:00",
+            "price_low": 4950,
+            "price_high": 15950,
+            "currency": "USD",
+            "available": false
           },
           {
             "vendor": "KLC Playground",
             "url": "https://klc-playground.com/products/gb-gmk-cyl-beachy",
-            "host": "klc-playground.com"
+            "host": "klc-playground.com",
+            "metadata_fetched_at": "2026-11-28T13:06:57.794009+00:00"
           }
         ],
         "designer": "inspired",
